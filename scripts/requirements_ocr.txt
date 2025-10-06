@@ -1,0 +1,2 @@
+# Deprecated helper file.
+# Use requirements.txt at the same directory which now aggregates OCR, ML and LLM dependencies.

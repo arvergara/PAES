@@ -1,0 +1,131 @@
+==========================================================================================
+REPORTE FINAL - GENERACIÓN DE EXPLICACIONES HISTORIA PAES
+==========================================================================================
+
+RESUMEN EJECUTIVO
+------------------------------------------------------------------------------------------
+Total de preguntas procesadas: 301
+Archivo: h_question_bank.json
+
+Distribución por área temática:
+  - Sistema Economico: 111 preguntas
+  - Historia: 104 preguntas
+  - Formacion Ciudadana: 86 preguntas
+
+MÉTRICAS DE CALIDAD
+------------------------------------------------------------------------------------------
+Explicaciones específicas y detalladas (>250 caracteres): 18
+Explicaciones de buena calidad (150-250 caracteres): 283
+Explicaciones aceptables (<150 caracteres): 0
+
+Promedio de caracteres por explicación: 232
+
+==========================================================================================
+MUESTRA DE EXPLICACIONES DE ALTA CALIDAD (10 ejemplos)
+==========================================================================================
+
+1. ID: H_combined_005
+   Área: Sistema Economico
+   Pregunta: 40. DEUDAS EUROPEAS CON ESTADOS UNIDOS, 1919 (en millones de dólares) País Millones de dólares Ingla...
+   Correcta: D
+   Explicación (401 chars):
+   La alternativa D es correcta porque durante la Primera Guerra Mundial, el flujo de refugiados europeos hacia Estados Unidos (italianos, polacos, judíos huyendo de la guerra) proporcionó abundante mano de obra que activó la industria estadounidense, especialmente sectores manufacturero, textil y armamentístico, generando crecimiento económico acelerado que consolidó a EE.UU. como potencia emergente.
+------------------------------------------------------------------------------------------
+
+2. ID: H_combined_001
+   Área: Historia
+   Pregunta: 626. La celebración republicana del centenario de la Independencia de Chile se desarrolló en un cont...
+   Correcta: A
+   Explicación (400 chars):
+   La alternativa A es correcta porque durante el Centenario de 1910, mientras la élite celebraba el progreso nacional, Chile enfrentaba graves problemas de salubridad pública en sectores populares: conventillos insalubres, epidemias de cólera y viruela, alta mortalidad infantil y falta de servicios básicos, evidenciando la profunda 'cuestión social' que contrastaba con el discurso optimista oficial.
+------------------------------------------------------------------------------------------
+
+3. ID: H_combined_002
+   Área: Sistema Economico
+   Pregunta: 56. Cientos de toneladas de residuos llegan todos los meses a países pobres de África, en un intento...
+   Correcta: A
+   Explicación (381 chars):
+   La alternativa A es correcta porque los países desarrollados externalizan el deterioro ambiental al enviar residuos electrónicos tóxicos (plomo, mercurio, cadmio) a países africanos pobres, trasladando costos de contaminación y daños a la salud a regiones con menor capacidad regulatoria, evidenciando la desigualdad en la distribución global de cargas ambientales del capitalismo.
+------------------------------------------------------------------------------------------
+
+4. ID: H_combined_058
+   Área: Sistema Economico
+   Pregunta: 56. Cientos de toneladas de residuos llegan todos los meses a países pobres de África, en un intento...
+   Correcta: A
+   Explicación (381 chars):
+   La alternativa A es correcta porque los países desarrollados externalizan el deterioro ambiental al enviar residuos electrónicos tóxicos (plomo, mercurio, cadmio) a países africanos pobres, trasladando costos de contaminación y daños a la salud a regiones con menor capacidad regulatoria, evidenciando la desigualdad en la distribución global de cargas ambientales del capitalismo.
+------------------------------------------------------------------------------------------
+
+5. ID: H_combined_017
+   Área: Historia
+   Pregunta: 33. A fines del siglo XIX, las principales potencias europeas se disputaron el control de vastos ter...
+   Correcta: D
+   Explicación (377 chars):
+   La alternativa D es correcta porque el imperialismo europeo (fines XIX) estableció intercambio desigual: colonias africanas y asiáticas exportaban materias primas baratas (caucho, minerales, algodón, cacao) sin procesamiento e importaban productos manufacturados caros de metrópolis, generando dependencia económica estructural y extrayendo riquezas hacia potencias coloniales.
+------------------------------------------------------------------------------------------
+
+6. ID: H_combined_080
+   Área: Historia
+   Pregunta: 33. A fines del siglo XIX, las principales potencias europeas se disputaron el control de vastos ter...
+   Correcta: D
+   Explicación (377 chars):
+   La alternativa D es correcta porque el imperialismo europeo (fines XIX) estableció intercambio desigual: colonias africanas y asiáticas exportaban materias primas baratas (caucho, minerales, algodón, cacao) sin procesamiento e importaban productos manufacturados caros de metrópolis, generando dependencia económica estructural y extrayendo riquezas hacia potencias coloniales.
+------------------------------------------------------------------------------------------
+
+7. ID: H_combined_029
+   Área: Formacion Ciudadana
+   Pregunta: 42. Entre 1924 y 1932, Chile experimentó un periodo de profundas convulsiones políticas, sociales y ...
+   Correcta: A
+   Explicación (373 chars):
+   La alternativa A es correcta porque tras la crisis del parlamentarismo (ruidos de sables 1924, dictadura de Ibáñez), la Constitución de 1925 fortaleció facultades del Poder Ejecutivo estableciendo régimen presidencialista fuerte con amplias atribuciones, superando inestabilidad de rotativas ministeriales oligárquicas y permitiendo impulsar reformas sociales y económicas.
+------------------------------------------------------------------------------------------
+
+8. ID: H_combined_182
+   Área: Historia
+   Pregunta: 39. La celebración del Centenario de la República de Chile estuvo acompañada por el surgimiento de u...
+   Correcta: C
+   Explicación (372 chars):
+   La alternativa C es correcta porque el Centenario de la Independencia (1910) ocurrió en contexto de contradicción entre discurso oficial optimista sobre progreso material (crecimiento económico salitrero, infraestructura, educación) y realidad de grave 'cuestión social' con problemas laborales, sanitarios y de vivienda en sectores populares urbanos y obreros salitreros.
+------------------------------------------------------------------------------------------
+
+9. ID: H_combined_232
+   Área: Historia
+   Pregunta: 1910. Imprenta Universitaria. Hacia 1910 los festejos del Centenario evidenciaron las profundas tens...
+   Correcta: A
+   Explicación (372 chars):
+   La alternativa A es correcta porque el Centenario de la Independencia (1910) ocurrió en contexto de contradicción entre discurso oficial optimista sobre progreso material (crecimiento económico salitrero, infraestructura, educación) y realidad de grave 'cuestión social' con problemas laborales, sanitarios y de vivienda en sectores populares urbanos y obreros salitreros.
+------------------------------------------------------------------------------------------
+
+10. ID: H_combined_024
+   Área: Sistema Economico
+   Pregunta: 35. Entre 1872 y 1910 se construyó el Ferrocarril Trasandino, proyecto que involucró a inversionista...
+   Correcta: B
+   Explicación (363 chars):
+   La alternativa B es correcta porque el auge salitrero post-Guerra del Pacífico generó abundantes ingresos fiscales chilenos mediante impuestos a exportación de nitrato, permitiendo al Estado financiar grandes obras de infraestructura como el Ferrocarril Trasandino (1872-1910) para conectar Valparaíso con Buenos Aires, mejorando comercio bilateral con Argentina.
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+EJEMPLOS ANTES/DESPUÉS (mejoras más significativas)
+==========================================================================================
+
+ID: H_combined_001 - Centenario 1910
+ANTES: Durante el centenario de 1910, Chile enfrentaba la "cuestión social" con graves problemas de salubridad......
+DESPUÉS: La alternativa A es correcta porque durante el Centenario de 1910, mientras la élite celebraba el progreso nacional, Chile enfrentaba graves problemas de salubridad pública en sectores populares: conventillos insalubres, epidemias de cólera y viruela, alta mortalidad infantil y falta de servicios básicos, evidenciando la profunda 'cuestión social' que contrastaba con el discurso optimista oficial.
+------------------------------------------------------------------------------------------
+
+ID: H_combined_002 - Externalización ambiental
+ANTES: La alternativa A es la correcta según el clavijero oficial PAES 2025....
+DESPUÉS: La alternativa A es correcta porque los países desarrollados externalizan el deterioro ambiental al enviar residuos electrónicos tóxicos (plomo, mercurio, cadmio) a países africanos pobres, trasladando costos de contaminación y daños a la salud a regiones con menor capacidad regulatoria, evidenciando la desigualdad en la distribución global de cargas ambientales del capitalismo.
+------------------------------------------------------------------------------------------
+
+ID: H_combined_036 - Neoliberalismo dictadura
+ANTES: La alternativa A es correcta porque refleja la dinámica económica descrita......
+DESPUÉS: La alternativa A es correcta porque el neoliberalismo implementado por Chicago Boys durante dictadura reestructuró profundamente relaciones laborales mediante Plan Laboral 1979 (José Piñera): debilitó sindicatos, flexibilizó despidos, limitó negociación colectiva a nivel de empresa, desreguló mercado del trabajo y estableció primacía del contrato individual.
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+PROCESO COMPLETADO EXITOSAMENTE
+==========================================================================================
+Todas las 301 preguntas ahora cuentan con explicaciones específicas y educativas
+que ayudarán a los estudiantes a comprender el contenido histórico de la PAES.
+

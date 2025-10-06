@@ -1,0 +1,6456 @@
+Pruebas de Transición a
+la Admisión Universitaria
+
+MATEMÁTICA
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 1
+
+
+
+
+¿Cuál es el valor de 1 −
+A)
+B)
+C)
+D)
+E)
+
+1 
+1 
+1 
+1
+ 1 −  1 −  1 −  ?
+2 
+3 
+4 
+5
+
+0
+
+1
+5
+
+119
+120
+1
+
+599
+120
+
+Estrategia de resolución
+Para determinar el valor de la expresión dada en el enunciado, puedes restar al
+número entero la fracción correspondiente en cada uno de los paréntesis, y luego
+simplificar las fracciones obtenidas, como se muestra a continuación:
+
+1 
+1 
+1 
+1   1  2  3  4  1
+
+1 − 1 − 1 − 1 −  =      =
+2 
+3 
+4 
+5   2  3  4  5  5
+
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Al contestar esta pregunta debes saber, en primer lugar, operar con números
+racionales. Una vez realizado lo anterior, te puedes dar cuenta de que existe
+un patrón de simplificación, tal como se muestra en la estrategia de resolución
+anterior.
+Así, para resolver este problema no contextualizado requieres de la capacidad
+para efectuar cálculos directos entre números.
+
+– 2 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 2
+−3
+
+1
+?
+2
+
+¿Cuál es el valor de 1 −  
+
+A)
+B)
+C)
+D)
+E)
+
+1
+2
+
+9
+8
+
+1
+8
+−7
+−8
+
+Algunas estrategias de resolución
+Estrategia 1: transformar a potencia de exponente negativo.
+Esta pregunta la puedes resolver escribiendo la fracción
+
+1
+como una potencia de
+2
+
+base 2 con exponente negativo para multiplicar los exponentes. Luego, realizas la
+sustracción, tal como se muestra en el siguiente desarrollo:
+
+La respuesta correcta es la opción D).
+
+– 3 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: transformar a potencia de exponente positivo.
+Para determinar el valor de la expresión planteada en la pregunta, puedes aplicar
+la propiedad de las potencias con exponente negativo, y luego realizar una
+operatoria entre las fracciones. Como se muestra a continuación:
+
+La respuesta correcta es la opción D).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En primer lugar, necesitas conocer sobre potencias de base racional y exponente
+entero; además, saber operar con números enteros y fracciones. Para ello, se
+muestran dos estrategias para solucionar el problema.
+Esta pregunta involucra una situación ploblemática rutinaria no contextualizada de
+potencias que requiere que realices cálculos directos entre números.
+
+– 4 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 3
+Todo el líquido contenido en un barril se reparte en 96 vasos iguales
+hasta su capacidad máxima.
+Se quiere verter la misma cantidad de líquido de otro barril idéntico al
+anterior en vasos iguales a los usados, pero solo hasta las
+su capacidad.
+
+3
+partes de
+4
+
+¿Cuántos vasos más se necesitarán para ello?
+A)
+B)
+C)
+D)
+
+288
+
+120
+48
+
+32
+
+Algunas estrategias de resolución
+Estrategia 1: usar una ecuación.
+Una forma que tienes para responder la pregunta es que partas de la premisa de
+que todo el líquido contenido en un barril lo puedes repartir en 96 vasos iguales
+hasta su capacidad máxima, pero ahora, debes determinar en cuántos vasos x
+con igual capacidad que los anteriores puedes repartir hasta las
+
+3
+partes de su
+4
+
+capacidad la misma cantidad de líquido. Para ello, puedes plantear la ecuación
+
+3
+⋅ x = 96 , y despejando la incógnita obtienes que x = 128 .
+4
+
+Como se pregunta cuántos vasos más se necesitan, tienes que hacer la diferencia
+entre la cantidad de vasos en que se repartirá el líquido hasta las
+
+3
+partes de su
+4
+
+capacidad y la cantidad de vasos llenados hasta su capacidad máxima, es decir,
+128 − 96 = 32 . La respuesta correcta es la opción D).
+
+– 5 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar esquemas.
+Otra manera que tienes para responder esta pregunta es ayudándote de un
+esquema como el siguiente. En él te puedes dar cuenta de que con el contenido
+de 3 vasos con líquido hasta su capacidad máxima puedes ocupar 4 de los
+mismos vasos hasta las
+
+3
+partes de su capacidad.
+4
+
+Entonces, los 96 vasos con líquido hasta su capacidad máxima los puedes
+agrupar en 32 grupos de 3 vasos, y el líquido de cada uno de esos grupos se
+
+3
+partes de su capacidad máxima. En total se
+4
+ocupan 32 ⋅ 4 = 128 vasos, por lo tanto, se necesitan 128 − 96 = 32 vasos extra.
+
+puede verter en 4 vasos hasta las
+
+La respuesta correcta es la opción D).
+
+– 6 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 3: usar una tabla.
+También puedes resolver este problema utilizando la siguiente representación:
+vasos con líquido hasta las tres cuartas partes de su capacidad
+
+…
+
+Por cada 3 vasos se necesita un vaso extra para verter líquido hasta sus
+
+3
+partes
+4
+
+de capacidad, por lo que si son 96 vasos, se requieren 96 : 3 = 32 vasos extras.
+La respuesta correcta es la opción D).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este problema lo puedes enfrentar de diversas maneras, por lo que cobra mucha
+importancia la capacidad para entender la situación problemática que se presenta
+en el enunciado. Podrías, por ejemplo, plantear una ecuación lineal que te permita
+determinar la cantidad de vasos que se te solicita, como se muestra en la primera
+estrategia.
+Por otro lado, podrías usar diversas representaciones que te permitan entender el
+problema y la forma de redistribuir el contenido de los 96 vasos llenos en vasos
+hasta las tres cuartas partes de su capacidad. Luego, puedes realizar operaciones
+simples de números racionales, como se muestra en las dos últimas estrategias.
+Para lo anterior, necesitas haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 7 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 4
+El precio de un artículo es $m y Pedro le entregó a la vendedora
+$(n + 200) para pagarlo.
+¿Con cuál de las siguientes condiciones NO se puede asegurar que a
+Pedro le alcance para comprarlo?
+A)
+B)
+C)
+D)
+
+m < n + 200
+m=n
+
+m = n + 200
+m ≠ n + 200
+
+Estrategía de resolución
+Para que a Pedro le alcance el dinero $(n + 200) entregado a la vendedora para
+
+pagar el precio total del artículo ( $m ), se tiene que cumplir que n + 200 debe ser
+mayor o igual que m .
+Teniendo esto en mente, al revisar las relaciones planteadas en las opciones de
+respuesta, se observa que con las condiciones dadas en A) y en C) se puede
+asegurar la relación m ≤ n + 200 , pero estás buscando la opción en la que esto
+no ocurre, por lo que puedes descartarlas.
+En B) se tiene que m = n , y como Pedro le entregó a la vendedora $(n + 200) ,
+entonces le dio $200 más de lo que cuesta el artículo. Con esto puedes concluir
+que con la condición dada en B) se puede asegurar la relación, por lo que
+tampoco es la opción correcta.
+Por último, en D) se indica que m ≠ n + 200 , de lo que se infiere que m podría
+
+ser mayor o menor que n + 200 , por lo que no se puede asegurar que a Pedro le
+alcanza para comprar el artículo. Luego, la opción correcta es D).
+
+– 8 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+La resolución de este problema requiere, en primer lugar, que establezcas la
+relación que se debe dar entre las expresiones presentadas en el enunciado.
+Luego, a partir de estas, debes analizar las opciones y determinar la condición que
+no permite asegurar que el dinero que Pedro le entregó a la vendedora le alcance
+para comprar el artículo.
+Para lo anterior, necesitas haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 9 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 5
+Una caja vacía tiene una masa de
+
+6 paquetes de
+
+375 g . Luego se le agregan
+
+3
+1
+kg cada uno y 4 paquetes de 1 kg cada uno.
+4
+4
+
+¿Cuál es la masa total de la caja con estos paquetes?
+A)
+
+9 7 kg
+
+B)
+
+9 1 kg
+
+C)
+
+6 1 kg
+
+D)
+
+2 5 kg
+
+E)
+
+2 3 kg
+
+8
+
+2
+
+8
+
+8
+
+8
+
+Estrategia de resolución
+Una forma de contestar esta pregunta es mediante el uso de una tabla, de tal
+manera que recopiles todos los datos dados, en kilogramos, en el enunciado. En
+ella puedes llamar P a los paquetes de
+como se muestra a continuación:
+Objetos
+
+Masa en kilogramos
+
+3
+1
+kg y Q a los paquetes de 1 kg ,
+4
+4
+
+Cantidad
+
+Caja vacía
+
+1
+
+Paquete P
+
+6
+
+Paquete Q
+
+4
+
+– 10 –
+
+Masa total en kilogramos
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+De la tabla, puedes deducir que la masa total de la caja con estos paquetes es:
+
+Luego, la masa total es 9
+
+7
+kg .
+8
+
+La respuesta correcta, entonces, es la opción A).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En este problema debes relacionar las variables involucradas en la situación, es
+decir, la masa de la caja con la de los dos tipos de paquetes que se agregan a
+ella. Esto puede realizarse a través de una tabla como la que aparece en la
+estrategia de resolución.
+Posteriormente, para obtener la masa total de la caja con los paquetes debes
+sumar las masas respectivas, teniendo presente que para efectuar esta adición,
+todos los valores deben estar en una misma unidad de medida.
+Así, para responder esta pregunta, necesitas haber desarrollado las habilidades
+de Resolver problemas y de Representar.
+
+– 11 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 6
+¿Cuál de las siguientes cantidades corresponde al 5 % del precio de un
+artículo?
+A)
+
+Un quinto del precio del artículo.
+
+B)
+
+El precio del artículo multiplicado por cinco décimos.
+
+C)
+D)
+
+El precio del artículo dividido por 100 , y luego multiplicado por 5 .
+El precio del artículo dividido por 5 , y luego multiplicado por 100 .
+
+Algunas estrategias de resolución
+Estrategia 1: usar un ejemplo.
+Para resolver este problema puedes calcular el 5 % del precio de un artículo, para
+luego analizar qué tuviste que hacer.
+Para ello, puedes ayudarte con un ejemplo. Supón que el artículo cuesta $8.000
+y anótalo en una tabla:
+Precio Porcentaje
+
+8.000
+x
+
+100
+5
+
+A continuación, planteas la igualdad
+obtienes x =
+
+5 ⋅ 8.000
+.
+100
+
+8.000 100
+=
+. Si despejas la incógnita,
+x
+5
+
+Si analizas esta igualdad, puedes concluir que para calcular el 5 % del precio de
+un artículo, tienes que dividir dicho valor por 100 , y luego multiplicar el resultado
+por 5 .
+La respuesta correcta es la opción C).
+
+– 12 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar el centésimo de 1.
+Otra manera de resolver este problema es comprender que el 1 % del precio de
+un artículo es un centésimo de este, mientras que el 5 % es 5 veces el 1 % .
+Así, para determinar el 5 % del precio del artículo, primero hay que calcular el
+1 % de este dividiéndolo por 100 , y luego multiplicar el resultado por 5 .
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Al responder esta pregunta debes recordar cómo determinar el porcentaje de un
+número. Luego tienes que relacionar el porcentaje planteado en la pregunta con lo
+expresado en las opciones. Para esto, puedes utilizar más de una estrategia, por
+ejemplo, calcular el porcentaje en un caso particular, lo que te permite visualizar la
+operatoria involucrada, como en la Estrategia 1.
+También, puedes relacionar el porcentaje pedido, el 5 %, con el 1 %, para luego
+escribirlo en una expresión como se hizo en la Estrategia 2.
+Para lo anterior, necesitas haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 13 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 7
+Un número aumentado en su 30 % es igual a 910 .
+¿Cuál es el número?
+A)
+B)
+C)
+D)
+
+273
+
+637
+700
+
+1.183
+
+Algunas estrategias de resolución
+Estrategia 1: usar una tabla.
+Para responder, debes determinar de qué número 910 es el 130 % , ya que el
+número aumentado en su 30 % equivale al 130 % de este. Para ello, puedes
+apoyarte en la siguiente tabla:
+Número Porcentaje
+
+910
+
+130
+
+x
+
+100
+
+A continuación, podrías plantear la ecuación
+obtienes x = 700 .
+
+910 130
+=
+. Si despejas la incógnita,
+x
+100
+
+La respuesta correcta es la opción C).
+Estrategia 2: usar una ecuación.
+Otra manera de resolver este problema, es representar el enunciado a través de
+una expresión matemática considerando que x es el número buscado, o sea,
+
+x+
+
+30
+x = 910 .
+100
+
+Si resuelves la ecuación anterior, obtienes que x = 700 .
+La respuesta correcta es la opción C).
+– 14 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 3: usar un esquema.
+También, puedes utilizar el siguiente esquema, considerando que x es el número
+buscado y
+
+x
+es su 10 % .
+10
+
+x
+
+910
+De donde 910 =
+
+13x
+. Si resuelves la ecuación, obtienes que x = 700 .
+10
+
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder correctamente debes saber identificar qué porcentaje es el que
+está asociado al número 910 y tener claro lo que se está preguntando. Además,
+requieres saber calcular el porcentaje de un número.
+Junto con lo anterior, debes relacionar el número 910 con el porcentaje respectivo,
+para lo cual necesitas entender que si un número se aumenta en un porcentaje de
+él, se tiene que el nuevo número coresponde al 100 % más ese porcentaje de
+aumento. Esto fue lo utilizado en la Estrategia 1 de resolución.
+Por otra parte, puedes resolver el problema representándolo a través de una
+ecuación, como en la Estrategia 2, o un esquema que permita entender la
+situación planteada (Estrategia 3).
+Para lo anterior, necesitas haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 15 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 8
+¿Cuál es el resultado de
+A)
+
+2
+
+B)
+
+2 2
+
+C)
+
+12
+
+D)
+
+6 2
+
+E)
+
+2 6
+
+2 − 8 + 18 ?
+
+Estrategia de resolución
+Esta pregunta la puedes responder de la siguiente manera:
+
+2 − 8 + 18 = 2 − 4 ⋅ 2 + 9 ⋅ 2 =
+
+2 −2 2 +3 2
+
+Finalmente, al sumar los términos semejantes, obtienes 2 2 .
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Como te habrás dado cuenta, lo que necesitas saber para responder esta
+pregunta es cómo descomponer las raíces para expresarlas todas con igual
+cantidad subradical. De esta manera puedes sumarlas, tal como se muestra en la
+resolución.
+Entonces, en este problema no contextualizado requieres operar de forma rutinaria
+con raíces.
+
+– 16 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 9
+
+ 8 
+ = − 3 , ¿cuál es el valor de m?
+ 125 
+
+Si log m 
+
+2
+5
+
+A)
+
+−
+
+B)
+
+ 8 
+
+
+ 125 
+
+C)
+
+2
+5
+
+D)
+
+−3
+
+5
+2
+
+Estrategia de resolución
+Para contestar la pregunta, puedes aplicar la definición de logarítmo a la igualdad
+
+8
+ 8 
+−3
+.
+ = − 3 , obteniendo m =
+125
+ 125 
+
+dada en el enunciado, log m 
+
+A partir de lo anterior, para determinar el valor de m, tienes que igualar el
+exponente en ambos lados de la igualdad, tal como se muestra en el siguiente
+desarrollo:
+
+La respuesta correcta es la opción D).
+
+– 17 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder correctamente, debes saber relacionar los logaritmos con las
+potencias, y luego emplear las propiedades de las potencias que te permitan
+igualar los exponentes de los términos pertenecientes a la igualdad. Esto lleva
+a la resolución de una ecuación simple.
+En este sentido, para resolver este problema no contextualizado requieres
+relacionar conocimientos y efectuar cálculos sencillos.
+
+– 18 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 10
+Las distancias de un planeta a dos satélites naturales son 380.000 km y
+
+420.000 km .
+
+Considera que la velocidad de la luz es c = 300.000.000
+
+c=
+
+distancia
+.
+tiempo que demora la luz en recorrer dicha distancia
+
+m
+y que
+s
+
+¿Cuál de los siguientes valores corresponde a la diferencia entre los
+tiempos, en s , que demora la luz en llegar desde cada uno de los
+satélites al planeta?
+A)
+
+3 ⋅ 10 ⋅ (42 − 38)
+
+B)
+
+1
+⋅ 10−1 ⋅ (42 − 38)
+3
+
+C)
+
+3 ⋅ 1012 ⋅ (42 − 38)
+
+D)
+
+104 ⋅ (42 − 38)
+
+Estrategia de resolución
+Para resolver este problema, tienes que usar la fórmula c =
+
+d
+y así calcular el
+t
+
+tiempo, en segundos, que tardará la luz desde cada uno de los satélites al planeta.
+Luego, debes calcular la diferencia entre estos tiempos.
+Primero tienes que despejar t de la fórmula anterior, obteniendo la igualdad
+
+t=
+
+d
+.
+c
+
+– 19 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Luego, puedes construir una tabla con los datos dados en el enunciado y los que
+se obtienen a partir de estos, escribiendo las medidas como el producto de un
+número racional por una potencia de 10 . Esto se muestra a continuación:
+Satélite 1
+
+Satélite 2
+
+Distancia al planeta en kilómetros
+Distancia al planeta en metros
+Tiempo que demora la luz en llegar al
+planeta
+
+Con los datos de la tabla obtienes que la diferencia entre los tiempos que
+demorará la luz de cada satélite en llegar al planeta es:
+
+42
+38
+1
+⋅ 10 −1 −
+⋅ 10 −1 = ⋅ 10 −1 ⋅ (42 − 38)
+3
+3
+3
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En primer lugar, debes escribir las cantidades usando potencias de base 10 y en
+una misma unidad de medida. En segundo lugar, reordenar el modelo dado para
+determinar la velocidad de la luz, de manera que puedas usarlo de la forma más
+apropiada para calcular el tiempo que tarda la luz en llegar desde cada satélite al
+planeta.
+Sumado a lo anterior, en la determinación de la respuesta requieres haber
+observado las opciones para visualizar la estructura que tienen los valores
+planteados en ellas.
+Por último, necesitas haber desarrollado la habilidad de Resolver problemas y de
+Modelar.
+
+– 20 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 11
+Al ingresar n instrucciones a un programa computacional, este realiza
+
+n
+cálculos durante 3 segundos . Cuando se ingresan 9 instrucciones en el
+
+programa computacional, este realiza cálculos durante M segundos.
+Si el programa hizo cálculos durante
+instrucciones se ingresaron al programa?
+
+3M segundos, ¿cuántas
+
+10
+
+A)
+
+27
+C) n
+D) 3n
+B)
+
+Estrategia de resolución
+Para responder esta pregunta, debes interpretar los datos del enunciado y
+relacionar la cantidad de instrucciones que se ingresan en el computador con el
+tiempo que demora por cada una de esas instrucciones.
+Así, si ingresas n instrucciones al programa computacional, este efectúa cálculos
+n
+
+durante 3 segundos, por lo tanto, si ingresas 9 instrucciones en el programa
+9
+
+computacional, este hace cálculos durante 3 segundos.
+
+Además, en el enunciado se dice que al ingresar 9 instrucciones en el programa
+computacional, este realiza cálculos durante M segundos , por lo que M = 39 .
+
+Por otro lado, si el programa efectuó cálculos durante 3M segundos , puedes
+
+escribir la igualdad 3M = 3 ⋅ 39 . Luego, al aplicar la propiedad de la multiplicación
+
+de potencias con igual base, obtienes 3M = 310 , de lo que puedes deducir que se
+ingresaron 10 instrucciones al programa computacional.
+La respuesta correcta es la opción A).
+
+– 21 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, es fundamental la interpretación de los datos dados
+en el enunciado y del modelo que permite saber el tiempo que el programa
+computacional se demora en realizar cálculos según la cantidad de instrucciones
+ingresadas. Además, debes relacionar dichos datos a través del modelo
+presentado y aplicar las propiedades de las potencias.
+Para lo anterior, debes saber usar e interpretar modelos matemáticos.
+
+– 22 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 12
+n
+El radio de un átomo de cierto elemento es x ⋅ 10 metros , mientras que
+
+el radio de un átomo de otro elemento es y ⋅ 10
+
+m
+
+metros.
+
+Se puede determinar qué átomo tiene mayor radio si se sabe que:
+(1)
+
+los radios están escritos en notación científica, con
+x > y.
+
+(2)
+
+n>m
+
+A)
+
+(1) por sí sola
+
+B)
+
+(2) por sí sola
+
+C)
+
+Ambas juntas, (1) y (2)
+
+D)
+
+Cada una por sí sola, (1) ó (2)
+
+E)
+
+Se requiere información adicional
+
+Estrategia de resolución
+Para resolver este problema, debes comparar los radios de los átomos usando las
+condiciones dadas en (1) y/o en (2).
+Así, si consideras solo la información dada en (1), tienes que las potencias están
+en notación científica, lo que quiere decir que x e y son números reales menores
+que 10 y mayores que 1 , y que x > y , pero no se puede determinar nada
+respecto a los exponentes de las potencias, por lo tanto, no puedes establecer qué
+radio es mayor.
+Si solo consideras la información dada en (2), tienes que n > m , pero nada se
+sabe de x e y , por lo tanto, no puedes saber qué radio es mayor.
+Si juntas la información dada en (1) y en (2), puedes determinar que
+
+x ⋅10n metros > y ⋅10m metros , porque x > y y n > m .
+
+Luego, con ambas informaciones determinas qué radio es mayor.
+La opción correcta es la C).
+
+– 23 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este problema pone de manifiesto tu capacidad para analizar los datos y
+reconocer si la relación de orden entre las medidas de los radios de los átomos se
+puede determinar a partir de las informaciones dadas en (1) y (2).
+En este caso particular, debes conocer la forma en que se representan los
+números a través de una expresión escrita en notación científica.
+Las habilidades que debieses haber desarrollado son Representar y Argumentar.
+
+– 24 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 13
+9
+6
+3
+¿Cuál de las siguientes expresiones es igual a x + x + x ?
+
+A)
+
+x18
+
+B)
+
+3x 18
+
+C)
+
+x3 x6 + x3 + x0
+
+(
+)
+3 3
+2
+1
+D) x (x + x + x )
+
+Estrategia de resolución
+Puedes responder esta pregunta utilizando factorización de expresiones
+algebraicas y para ello debes recordar la propiedad del producto de potencias de
+igual base, como se muestra a continuación:
+
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En esta pregunta debes aplicar la factorización de expresiones algebraicas, pero
+previo a eso debes descomponer cada término algebraico aplicando la propiedad
+del producto de potencias de igual base, como se muestra en el desarrollo antes
+descrito.
+De esta manera, en este problema requieres aplicar conocimientos de álgebra
+para representar la expresión algebraica dada en la pregunta a través de otra
+expresión equivalente a ella.
+
+– 25 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 14
+¿Cuál
+2
+
+2
+
+de
+
+las
+
+siguientes
+
+expresiones
+
+2
+
+m − a + 6a − 9 + (3 − a ) ?
+
+A)
+
+es
+
+igual
+
+a
+
+m2
+
+B)
+
+m2 + 12a
+
+C)
+
+m 2 + 6a
+
+D)
+
+m 2 − 2(a − 3)2
+
+E)
+
+m2 − 2a 2 + 6a
+
+Estrategias de resolución
+Estrategia 1: usar el desarrollo de binomio al cuadrado.
+Para resolver este ejercicio debes desarrollar un binomio al cuadrado, y luego
+reducir términos semejantes, como lo puedes ver a continuación:
+
+La respuesta correcta es la opción A).
+Estrategia 2: usar factorización.
+Otra manera de resolver este problema es darte cuenta que en la expresión
+
+m 2 − a 2 + 6a − 9 + (3 − a )2 los términos − a 2 + 6a − 9 forman un cuadrado de
+
+binomio. Así, tienes − a
+
+2
+
++ 6a − 9 = − (a − 3) 2 .
+2
+
+2
+
+Luego, considerando que (a − 3) = (3 − a ) obtienes que:
+
+La respuesta correcta es la opción A).
+
+– 26 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Lo que necesitas para responder esta pregunta es saber desarrollar productos
+notables y operatoria con expresiones algebraicas, como se hizo en la Estrategia
+1, o factorizar y aplicar reducción de términos semejantes, como se hizo en la
+Estrategia 2.
+Para resolver este problema requieres aplicar conocimientos de álgebra para
+representar la expresión algebraica dada en la pregunta a través de otra expresión
+equivalente a ella.
+
+– 27 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 15
+2
+
+Si para todo número real x se cumple que (x + p )(x − q ) = x − 8x + r ,
+con p , q y r números enteros y r > 0 , ¿cuál(es) de las siguientes
+relaciones es (son) verdadera(s)?
+I)
+
+p≠q
+
+II)
+
+p<q
+
+III)
+
+p⋅q<0
+
+A)
+
+Solo I
+
+B)
+
+Solo III
+
+C)
+
+Solo I y II
+
+D)
+
+Solo I y III
+
+E)
+
+I, II y III
+
+Estrategia de resolución
+Este problema debes abordarlo analizando cada una de las relaciones dadas en I),
+en II) y en III) y así, determinar cuál o cuáles de ellas son verdaderas.
+Para ello, puedes desarrollar el lado izquierdo de la igualdad dada en el
+enunciado, ya sea aplicando productos notables o desarrollando la multiplicación
+de binomios, para comparar los coeficientes de los términos semejantes, como se
+muestra a continuación:
+
+(x + p)(x − q) = x 2 + (p − q)x − p ⋅ q = x 2 − 8x + r
+De esta igualdad se concluye que p − q = − 8 y que − p ⋅ q = r .
+Luego, de la igualdad p − q = − 8 tienes que p ≠ q , ya que si fueran iguales se
+
+debiera cumplir que p − q = 0 . Entonces, la relación dada en I) es verdadera.
+
+También puedes concluir que p < q , pues de la igualdad p − q = − 8 obtienes
+que p + 8 = q . Entonces, la relación en II) es verdadera.
+
+Por último, tienes que − p ⋅ q = r , y como r > 0 , puedes concluir que p ⋅ q < 0 .
+Entonces la relación dada en III) también es verdadera.
+
+– 28 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Por el análisis realizado, la respuesta correcta es la opción E).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este es un problema en el que tienes que relacionar la información que se entrega
+en el enunciado con cada una de las informaciones dadas para así determinar su
+veracidad.
+En este caso en particular, debes utilizar la operatoria algebraica (producto de
+binomios) para relacionar los términos y variables de ambos lados de la igualdad
+dada en el enunciado considerando las propiedades de los números enteros.
+En síntesis, para responder esta pregunta, junto al análisis de las relaciones que
+se establecen, debes aplicar tus conocimientos sobre los números y el álgebra.
+
+– 29 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 16
+En un libro de álgebra se plantea la siguiente situación:
+“José y Maricel comparten un paquete de galletas. José saca
+galletas del paquete y Maricel 2(b − 1) ”.
+
+2a − 1
+2
+
+¿Cuál de las siguientes expresiones representa la cantidad total de galletas
+que estas dos personas sacaron del paquete?
+
+5
+2
+
+A)
+
+a + 2b −
+
+B)
+
+a + 2b − 3
+
+C)
+
+a − 2b −
+
+D)
+
+a + 2b − 2
+
+3
+2
+
+Estrategia de resolución
+
+2a − 1
+galletas del paquete y Maricel,
+2
+2a − 1
++ 2(b − 1) galletas.
+2(b − 1) . En total, entre ambos sacaron
+2
+
+En el problema se plantea que José saca
+
+Al resolver esta suma se obtiene:
+
+La respuesta correcta es la opción A).
+
+– 30 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema debes encontrar la expresión que representa la
+cantidad total de galletas extraídas del paquete por José y Maricel. Para ello, en
+primer lugar, tienes que interpretar la información dada en el enunciado, lo cual te
+llevará a que necesitas sumar las expresiones que representan la cantidad
+extraída por cada persona del paquete y así obtener lo solicitado.
+Para esto, debes aplicar la operatoria entre expresiones algebraicas. En este
+caso, multiplicar un monomio por un binomio y reducir términos semejantes.
+
+– 31 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 17
+¿Cuál es el valor de x en la ecuación 0,3 + 10x = 0,5 ?
+A)
+B)
+C)
+D)
+
+8
+
+2
+0,08
+
+0,02
+
+Estrategia de resolución
+Para encontrar el valor de x en la ecuación planteada, puedes hacer el siguiente
+desarrollo:
+Si sumas
+
+Si divides por
+
+a ambos lados de la igualdad.
+ambos lados de la igualdad.
+
+La respuesta correcta es la opción D).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, debes saber resolver una ecuación de primer grado con
+coeficientes racionales. Para encontrar el valor de la incógnita, requieres operar
+con números decimales.
+Este problema plantea una situación rutinaria, en la que debes realizar cálculos
+numéricos directos y aplicar los conocimientos necesarios para la resolución de
+ecuaciones lineales. Esta pregunta requiere, entonces, haber desarrollado la
+habilidad de Resolver problemas.
+
+– 32 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 18
+Valentina y Ricardo tienen la misma cantidad de dinero. Valentina
+compró 7 chocolates y le sobraron $350. Ricardo, por su parte, compró
+5 chocolates y le sobraron $600. El precio de cada chocolate comprado
+por ellos es el mismo.
+¿Cuál de las siguientes ecuaciones tiene como solución el precio
+un chocolate?
+A)
+
+7x + 350 = 5x + 600
+
+B)
+
+7x + 5x = 350 + 600
+
+C)
+
+7x − 350 = 5x − 600
+
+D)
+
+7(x + 350) = 5(x + 600)
+
+($x) de
+
+Estrategia de resolución
+Como te puedes dar cuenta, el dinero que tienen Valentina y Ricardo es el mismo
+y el precio de los chocolates que compran también es el mismo, por lo que puedes
+plantear una ecuación de primer grado para que puedas determinar el precio x ,
+que sería el valor de un chocolate.
+Se sabe que Valentina compró 7 chocolates y le sobraron $350 , entonces
+puedes expresar la cantidad de dinero de Valentina como 7x + 350 . Por otro
+
+lado, se sabe que Ricardo compró 5 chocolates y le sobrraron $600 , entonces
+puedes expresar la cantidad de dinero de Ricardo como 5x + 600 .
+Como tienes que calcular el precio x de un chocolate, puedes hacerlo a través de
+la ecuación 7 x + 350 = 5x + 600 .
+La respuesta correcta, entonces, es la opción A).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, debes entender e interpretar la situación problemática
+planteada, de manera que al relacionar los elementos que se entregan en el
+enunciado puedas escribir una ecuación de primer grado que te permita encontrar
+el precio de cada chocolate.
+
+– 33 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Para obtener la ecuación solicitada, tienes que encontrar la expresión que
+representa el dinero que posee cada una de las personas involucradas en el
+problema en términos del precio de los chocolates comprados, para luego igualar
+dichas expresiones, ya que ambas personas tienen la misma cantidad de dinero.
+Para lo anterior, debes haber desarrollado las habilidades de Resolver problemas,
+de Modelar y de Representar.
+
+– 34 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 19
+Un bidón tiene ocupada con gasolina la mitad de su capacidad máxima.
+Al agregar 8 L de gasolina, se llega a las
+
+5
+partes de su capacidad.
+6
+
+¿Cuál es la capacidad máxima del bidón?
+A)
+
+10 L
+
+B)
+
+12 L
+
+C)
+
+20 L
+
+D)
+
+24 L
+
+E)
+
+48 L
+
+Estrategia de resolución
+Una forma que tienes de responder la pregunta es representar gráficamente la
+situación, como se muestra a continuación, considerando que x es la capacidad
+máxima del bidón.
+
+capacidad
+
+capacidad
+capacidad
+
+De la representación anterior puedes plantear la ecuación
+despejar la incógnita, tienes que x es 24 L .
+La respuesta correcta es la opción D).
+
+– 35 –
+
+x
+5x
++8=
+. Al
+2
+6
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema y determinar la capacidad máxima del bidón,
+debes relacionar los datos dados en el enunciado con lo solicitado en la
+pregunta. En este caso, la relación se da a través del planteamiento de una
+ecuación de primer grado.
+Una forma que tienes de relacionar las capacidades del bidón en distintos
+momentos es a través de una representación. Esta te permite establecer las
+expresiones que son iguales y así plantear la ecuación. Por su parte, la
+resolución de la ecuación solo requiere de operatoria básica en el conjunto de
+los números racionales.
+Para esta resolución debes haber desarrollado la habilidad de Resolver
+problemas y la habilidad de Representar.
+
+– 36 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 20
+Una escuela de teatro infantil cobra $25.000 por matrícula, más $13.000
+por cada mes de clases.
+Una familia cuenta con un presupuesto total de $140.000 para que su hija
+tome clases en esa escuela.
+¿Cuál es la cantidad máxima de meses que puede pagar?
+A)
+
+3 meses
+
+B)
+
+4 meses
+
+C)
+
+8 meses
+
+D)
+
+9 meses
+
+Estrategias de resolución
+Estrategia 1: usar una ecuación lineal.
+En esta pregunta debes determinar la cantidad máxima de meses de clases de
+teatro que puede pagar una familia que tiene un presupuesto de $140.000 . Para
+esto, puedes asignar x a la cantidad de meses, y luego plantear la siguiente
+ecuación:
+Valor mensual
+Matrícula
+
+Presupuesto
+Al resolver esta ecuación, obtienes que x =
+
+115
+, valor que no es un número
+13
+
+entero y que aproximadamente es 8,8 . Pero como se pide cuál es la cantidad
+máxima de meses que puede pagar la familia, esta corresponde a 8 meses.
+La respuesta correcta, entonces, es la opción C).
+
+– 37 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar un esquema.
+También puedes utilizar el siguiente esquema para calcular la cantidad máxima de
+meses que puede pagar una familia que tiene un presupuesto de $140.000 .
+Presupuesto familiar
+$25.000 $13.000 $13.000 $13.000 $13.000 $13.000 $13.000 $13.000 $13.000 $11.000
+
+Pago mensual
+
+Matrícula
+
+$129.000
+De esta manera, puedes ver que se pueden pagar 8 mensualidades.
+La respuesta correcta es la opción C).
+
+Estrategia 3: usar operaciones con números racionales.
+Para resolver el problema, también podrías usar el siguiente razonamiento:
+Como la familia tiene un presupuesto de $140.000 para pagar el taller y es
+obligación pagar matrícula, para conocer, entonces, la cantidad de meses que se
+pueden cubrir con este presupuesto, debes restar al presupuesto el monto de la
+matrícula.
+
+$140.000 − $25.000 = $115.000
+Así, el monto disponible para pagar las mensualidades es $115.000 . Como cada
+mensualidad es de $13.000 , para conocer cuántas mensualidades se pueden
+pagar, debes dividir el monto disponible por el valor de cada mensualidad:
+
+$115.000
+≈ 8,8
+$13.000
+Por lo tanto, se pueden pagar 8 mensualidades completas.
+La respuesta correcta es la opción C).
+
+– 38 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, primero debes identificar cuál es la información que
+se presenta en el enunciado, y luego organizarla.
+A partir de eso, puedes utilizar ecuaciones, representaciones u otro razonamiento
+para encontrar la cantidad de meses que se pueden pagar con su presupuesto
+total. Sea cual sea tu estrategia, deberás tener conocimientos sobre la operatoria
+con números racionales.
+Además, deberías haber desarrollado las habilidades de Resolver problemas, de
+Modelar y de Representar.
+
+– 39 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 21
+Dos hermanos quieren saltar juntos en una cama elástica que puede resistir
+como máximo 100 kg . La diferencia entre las masas de los dos hermanos
+
+es de 30 kg .
+
+¿Cuál es la masa máxima que puede tener el hermano de menor masa
+para que la cama elástica los resista a los dos?
+A)
+
+65 kg
+
+B)
+
+35 kg
+
+C)
+
+34 kg
+
+D)
+
+30 kg
+
+Algunas estrategias de resolución
+Estrategia 1: usar una inecuación.
+Una manera que tienes para determinar cuál es la masa máxima que puede tener
+el hermano de menor masa para que resista la cama elástica es plantear y
+resolver una inecuación.
+Para esto, debes interpretar los datos del enunciado y puedes designar la variable
+y como la masa del hermano de menor masa. De esta manera, la expresión que
+representa la masa del hermano mayor es 30 + y , pues la diferencia entre las
+masas de los dos hermanos es de 30 kg .
+
+Ahora, como se sabe que la cama elástica resiste como máximo 100 kg , entonces
+tienes que la suma de las masas de los dos hermanos debe ser menor o igual a
+100 kg , lo cual se expresa por:
+
+(30 + y) + y ≤ 100
+Al resolver la inecuación, obtienes que
+
+– 40 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Por lo tanto, como máximo la masa del hermano de menor masa puede ser de
+35 kg .
+La respuesta correcta, entonces, es la opción B).
+Estrategia 2: usar un esquema.
+Otra forma de responder la pregunta es apoyándote en un esquema.
+La pregunta plantea que la diferencia entre las masas de ambos hermanos es
+30 kg , esto quiere decir que un hermano tiene 30 kg más de masa que el otro.
+Dicha relación se puede representar como se muestra a continuación:
+Masa de hermano con menor masa:
+
+x kg
+
+Masa de hermano con mayor masa:
+
+x kg
+
+30 kg
+
+Ahora, para saber cuál es el máximo valor que puede tomar x, debes considerar
+que como máximo la suma de ambas masas debe ser 100 kg , es decir,
+x kg
+
+x kg
+
+30 kg
+
+100 kg
+Así, restándole 30 kg a 100 kg puedes concluir que
+x kg
+
+x kg
+
+30 kg
+
+70 kg
+Finalmente, como dos veces x kg es 70 kg , una vez x kg es 35 kg . Por lo
+
+tanto, el hermano de menor masa debe tener como máximo una masa de 35 kg .
+La respuesta correcta es la opción B).
+
+– 41 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla correctamente, necesitas reconocer la relación entre las masas
+de ambos hermanos, y entre estas con la capacidad máxima de resistencia de la
+cama elástica. Con esta información puedes plantear una inecuación lineal, y
+luego de resolverla, obtener la masa del hermano de menor masa, como se realizó
+en la Estrategia 1.
+Una representación siempre ayuda a entender la situación problemática, por lo
+que, en este caso, te puedes apoyar de una esquema, como se hizo en la
+Estrategia 2. En el esquema comparas directamente las masas de los hermanos y
+la que resiste como máximo la cama elástica para a partir de ello aplicar una
+operatoria básica entre números enteros y determinar lo pedido.
+Para ambas estrategias, tienes que haber desarrollado las habilidades de
+Resolver problemas y Representar.
+
+– 42 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 22
+La nutricionista le recomendó a una persona que en su alimentación
+diaria consumiera no más de 2.000 Kcal y no menos de 1.800 Kcal.
+Durante la jornada ella ha consumido 1.400 Kcal y como última comida
+ingerirá galletas.
+
+En su despensa tiene dos tipos de galletas, cuya información nutricional
+aparece en sus envases de la siguiente forma:
+TIPO 1
+
+TIPO 2
+
+INFORMACIÓN NUTRICIONAL
+
+INFORMACIÓN NUTRICIONAL
+
+Porción: unidades
+Porciones por envase:
+
+Porción: unidades
+Porciones por envase:
+porción
+
+Energía
+
+porción
+Energía
+
+¿Cuál de las siguientes opciones le permite a esta persona cumplir con
+la dieta?
+A)
+B)
+C)
+D)
+
+Comer un mínimo de 3 galletas y un máximo de 4 del tipo 2.
+
+Comer 3 galletas del tipo 1 y 1 del tipo 2.
+
+Comer 2 galletas del tipo 1 y 4 del tipo 2.
+
+Comer un mínimo de 8 galletas y un máximo de 12 del tipo 1.
+
+– 43 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Una manera de resolver este problema es, primero, identificar cuántas Kcal le
+faltan a la persona para completar tanto el mínimo como el máximo para cumplir
+con la dieta recomendada.
+Ella no debiese consumir más de 2.000 Kcal ni menos de 1.800 Kcal en un día,
+
+es decir, 1.800 ≤ Kcal diarias ≤ 2.000 . Pero como ya ha consumido 1.400 Kcal
+
+le falta un rango de 400 ≤ Kcal diarias ≤ 600 en galletas para cumplir la dieta.
+
+Entonces, debes interpretar la información nutriconal de los envases de galletas
+de Tipo 1 y del Tipo 2 que se presenta en las tablas.
+•
+
+De la primera se tiene que la porción, conformada por 4 galletas del Tipo 1,
+aporta 200 Kcal, por lo que cada galleta corresponde a 50 Kcal.
+
+•
+
+De la segunda, conformada por 5 galletas del Tipo 2, se tiene que la
+porción aporta 150 Kcal. Así obtienes que cada galleta es de 30 Kcal.
+
+Al revisar las opciones, tienes que en A) se menciona que se puede comer un
+mínimo de 3 galletas y un máximo de 4 del Tipo 2. Esto es falso, porque la
+persona consumiría entre 3 ⋅ 30 = 90 Kcal y 4 ⋅ 30 = 120 Kcal, pero ella necesita
+un mínimo de 400 Kcal.
+
+La opción B) menciona que se puede comer 3 galletas del Tipo 1 y 1 del Tipo 2, lo
+que es falso, porque la persona en este caso consumiría 3 ⋅ 50 + 30 = 180 Kcal y
+
+ella requiere un mínimo de 400 Kcal.
+
+La ocpión C) menciona que se puede comer 2 galletas del Tipo 1 y 4 del Tipo 2.
+Esto también es falso, ya que en este caso la persona consumiría
+2 ⋅ 50 + 4 ⋅ 30 = 220 Kcal, por lo que tampoco le alcanza para consumir el
+mínimo de calorías requeridas.
+La opción D) menciona que se puede comer un mínimo de 8 galletas y un máximo
+de 12 del Tipo 1, situación en la que consumiría entre 8 ⋅ 50 = 400 Kcal y
+
+12 ⋅ 50 = 600 Kcal, que es el rango de calorías que puede consumir la persona en
+
+galletas.
+
+Por lo tanto, la opción correcta es la D).
+
+– 44 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla necesitas interpretar correctamente la información del enunciado
+y, fundamentalmente, la presentada en una tabla de valores que muestra la
+información nutricional de los paquetes de galletas. A partir de esta, puedes usar
+inecuaciones para determinar cuántas Kcal requiere la persona como mínimo y
+como máximo para cumplir con la recomendación nutricional.
+Entonces, para contestar la pregunta es necesario que hayas desarrollado las
+hablidades de Representar, de Resolver problemas y de Modelar.
+
+– 45 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 23
+La suma de dos números es 42 , donde la tercera parte del número
+mayor x más la mitad del número menor y es igual al número menor.
+
+()
+
+( )
+
+¿Cuál de los siguientes sistemas de ecuaciones lineales permite
+determinar los números?
+A)
+
+x + y = 42
+3x +
+
+=y
+
+x = 42 − y
+
+B)
+
++
+
+=y
+
+y = 42 + x
+
+C)
+
+3y +
+
+D)
+
+=x
+
+x = 42 + y
++
+
+=y
+
+– 46 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: traducir del lenguaje común al matemático.
+Para responder esta pregunta, puedes formar un sistema de ecuaciones lineales
+con las condiciones dadas en el enunciado. Debes considerar que el número
+mayor será representado por x y el menor, por y .
+En el enunciado se menciona que la suma de ambos números es 42 , por lo tanto,
+se tiene la ecuación x + y = 42 , la cual se puede escribir como x = 42 − y .
+
+x
+ más la mitad
+ 3
+
+Por otra parte, se dice que la tercera parte del número mayor 
+
+ y
+ es igual al número menor y , por lo que puedes plantear la
+ 2
+
+del número menor 
+siguiente ecuación:
+
+x y
++ =y
+3 2
+x = 42 − y
+
+Así, puedes formar el sistema
+
++
+
+.
+
+=y
+
+La respuesta correcta, entonces, es la opción B).
+
+– 47 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar un esquema.
+Otra forma de resolver este problema es considerar el siguiente esquema para
+interpretar la información entregada en el enunciado.
+De la frase “La suma de dos números es 42” puedes representar 42 = x + y de
+la siguiente manera:
+
+42
+
+x
+
+y
+
+También, debes considerar la tercera parte de x y la mitad de y , como se
+representa a continuación:
+
+y
+
+x
+
+Luego, en el enunciado se plantea que la tercera parte del número mayor más la
+mitad del número menor es igual a y , lo puedes representar por:
+
+y
+
+De las representaciones anteriores obtienes las ecuaciones
+
+x y
++ =y .
+3 2
+
+– 48 –
+
+x = 42 − y y
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder correctamente esta pregunta, necesitas saber cómo representar
+algebraicamente las relaciones establecidas en el enunciado entre dos números,
+traduciendo las frases en expresiones que te permiten escribir las ecuaciones que
+conforman el sistema de ecuaciones lineales, como se hizo en la Estrategia 1.
+También puedes ayudarte de representaciones, como en la segunda estrategia,
+para entender las relaciones entre los números según las condiciones planteadas
+y así formular las ecuaciones del sistema requerido.
+Entonces, deberías haber desarrollado la habilidad de Representar, al igual que
+las habilidades de Resolver problemas y de Modelar.
+
+– 49 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 24
+Si log2 (−2x + 3p) = 3 y log3 (x + 2p) = 1 , ¿cuál es el valor de (x − 2p) ?
+A)
+B)
+C)
+D)
+E)
+
+3
+
+− 13
+7
+
+− 27
+7
+
+−5
+
+− 37
+7
+
+Estrategia de resolución
+Para responder esta pregunta, puedes escribir cada uno de los logaritmos como
+potencia. Luego, mediante un sistema de ecuaciones, encontrar los valores de x
+y de p y, finalmente, reemplazarlos en la expresión ( x − 2 p ) para saber el valor
+de esta.
+Si aplicas la definición de logaritmo a la igualdad log 2 ( −2 x + 3p ) = 3 , obtienes:
+
+23 = − 2 x + 3p
+Lo mismo debes realizar con la igualdad log 3 ( x + 2 p ) = 1 , de la que obtienes:
+
+31 = x + 2p
+A partir de estas dos ecuaciones, puedes plantear el siguiente sistema:
+
+Si resuelves las potencias
+
+– 50 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Ahora puedes resolver el sistema de ecuaciones lineales por cualquier método de
+resolución. En este caso se hará por reducción, como se muestra a continuación:
+
+Multiplicas por ambos lados
+de la igualdad en la segunda
+ecuación
+Sumas y reduces
+términos semejantes a
+cada lado de la igualdad
+
+Ahora que tienes el valor de p , puedes reemplazarlo en cualquiera de las dos
+ecuaciones. En este caso se reemplaza en x + 2p = 3 , por lo que queda
+x + 4 = 3 y se llega a x = − 1 .
+Si
+
+reemplazas
+
+estos
+
+−1 − 2 ⋅ 2 = −1 − 4 = − 5.
+
+valores
+
+en
+
+la
+
+expresión
+
+( x − 2p )
+
+obtienes
+
+La respuesta correcta, entonces, es la opción D).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla correctamente necesitas conocer la relación que existe entre los
+logaritmos y las potencias. Con ello puedes plantear y resolver un sistema de
+ecuaciones que te entregue los valores necesarios para reemplazarlos en la
+expresión cuyo valor se pide determinar.
+En este problema no contextualizado y no rutinario debes aplicar diversos
+conocimientos matemáticos realizando cálculos numéricos simples.
+
+– 51 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 25
+Una urna contiene en total 36 bolitas de dos tipos, A y B . Cada bolita
+del tipo A tiene una masa de 100 g y cada bolita del tipo B 150 g .
+Si la masa total de las bolitas en la urna es de 3.750 g , ¿cuántas bolitas
+son del tipo B ?
+A)
+B)
+C)
+D)
+E)
+
+3
+12
+15
+18
+
+33
+
+Algunas estrategias de resolución
+Estrategia 1: plantear y resolver un sistema de ecuaciones lineales.
+Una forma que tienes para determinar cuántas bolitas del tipo B hay en la urna es
+comprender e identificar las variables dadas en el enunciado. Con ello puedes
+escribir dos ecuaciones lineales, con dos incógnitas, que te sirvan para establecer
+un sistema de ecuaciones y resolverlo por cualquier método de resolución, como
+se muestra en el siguiente desarrollo:
+En el enunciado se dice que hay 36 bolitas de los tipos A y B . Si designas por x
+la cantidad de bolitas del tipo A y por y la cantidad de bolitas del tipo B , puedes
+escribir la ecuación x + y = 36 .
+Se sabe que la masa total de las bolitas en la urna es de 3.750 g y como la masa
+de las bolitas del tipo A es de 100 g y la masa de las bolitas del tipo B es de
+
+150 g , puedes escribir la ecuación 100x + 150y = 3.750
+
+Así, con estas dos ecuaciones podrías plantear un sistema de ecuaciones que
+puedes resolver por el método de sustitución, como se muestra a continuación:
+
+– 52 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Como se necesita determinar la cantidad de bolitas del tipo B que hay en la urna,
+lo que debes hacer es encontrar el valor de la variable y . Para ello, de la primera
+ecuación despejas x , con lo que se llega a x = 36 − y .
+Si reemplazas x por 36 − y en la segunda ecuación, y luego resuelves la
+ecuación resultante, obtienes lo siguiente:
+
+Del desarrollo anterior, puedes concluir que en la urna hay 3 bolitas del tipo B .
+La respuesta correcta es la opción A).
+Estrategia 2: probar con valores.
+Otra manera de responder la pregunta es apoyándote con una tabla de valores.
+Como se sabe que la cantidad total de bolitas del tipo A y B es 36 y que juntas
+tienen una masa total de 3.750 g , puedes realizar las siguientes operaciones:
+Bolitas
+Tipo A
+Cantidad
+
+36
+
+Masa
+
+Tipo B
+Cantidad
+
+Tipo A + tipo B
+
+Masa
+
+Cantidad total
+
+Masa total
+
+0
+
+Puedes observar en la tabla que con 3 bolitas del tipo B se cumple la condición
+de que la masa del total de bolitas en la urna sea 3.750 g .
+Por lo tanto, la opción correcta es la opción A).
+
+– 53 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Necesitas entender e interpretar la información entregada en el problema. Esto se
+debe hacer en ambas estrategias presentadas. En la primera estrategia tienes que
+determinar dos ecuaciones que te permitan resolver el problema a través de un
+sistema de ecuaciones.
+En la segunda estrategia, no se escriben las ecuaciones, pero se calculan las
+masas para algunas cantidades de bolitas del tipo A y del tipo B, que sumadas
+sean 36 bolitas. Para usar esta estrategia es importante contar con algún criterio
+para poder visualizar que con pocos valores puedes encontrar la solución, pues no
+sería posible hacer una tabla en la que se calculen todos los valores para la
+cantidad de bolitas posibles del tipo B. Así, puedes ir probando con menores
+cantidades de bolitas del tipo B como se muestra en esta estrategia, o bien, probar
+con los valores dados en las opciones.
+Para ambos casos se necesita haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 54 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 26
+Las medidas de los lados de un rectángulo son números pares
+consecutivos.
+Si la superficie del rectángulo mide 48 m 2 , ¿cuánto mide el lado de
+menor medida?
+A)
+
+4m
+
+B)
+
+6m
+
+C)
+
+8m
+
+D)
+
+12 m
+
+E)
+
+16 m
+
+Algunas estrategias de resolución
+Estrategia 1: plantear y resolver una ecuación cuadrática.
+Para responder esta pregunta, puedes representar las dimensiones del rectángulo
+a través de expresiones algebraicas, y luego plantear una ecuación de segundo
+grado que te permita determinar la medida del lado menor del rectángulo.
+En el enunciado se dice que el largo y el ancho del rectángulo son dos números
+pares consecutivos, por lo que puedes asignar como q metros a la medida del
+
+lado menor y como (q + 2 ) metros a la medida del lado mayor.
+Lo anterior lo puedes representar de la siguiente manera
+
+q metros
+(q + 2) metros
+Además, se sabe que la superficie del rectángulo mide 48 m 2 y que esta se
+calcula multiplicando la medida de su ancho por la medida de su largo. Entonces,
+puedes escribir la siguiente ecuación cuadrática:
+
+q(q + 2) = 48
+
+– 55 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Esta ecuación la puedes resolver de la siguiente manera:
+
+De la factorización anterior, se concluye que q = − 8 o q = 6 , pero q tiene que
+ser positivo, porque representa la medida de un lado del rectángulo. Así, el único
+valor válido para q es 6 m .
+La respuesta correcta, entonces, es la opción B).
+Estrategia 2: usar producto de números.
+Otra manera que tienes para resolver este problema es encontrar números pares
+positivos que representen las medidas de los lados del rectángulo y que al
+multiplicarlos den como resultado 48 m 2 .
+
+Para esto, te puedes ayudar con una tabla de valores, como la que se muestra a
+continuación:
+Lados del rectángulo
+Mayor medida
+
+Menor medida
+
+12 m
+
+4m
+
+24 m
+8m
+
+2m
+6m
+
+Si observas la tabla, puedes concluir que las medidas de la última fila cumplen con
+la condición de ser números pares consecutivos. La medida menor del rectángulo
+es 6 m .
+La respuesta correcta es la opción B).
+
+– 56 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En la resolución de este problema tienes que relacionar las medidas de los lados
+del rectángulo con una expresión que las represente. En este caso, debes saber
+expresar números pares consecutivos. De esta forma, puedes plantear una
+ecuación de segundo grado que represente el área del rectángulo, siendo
+fundamental que evalúes la pertinencia de la solución, como se hizo en la
+Estrategia 1.
+Pero esta no es la única manera que tienes para responder la pregunta. Como se
+muestra en la Estrategia 2, también podrías utilizar una representación de las
+posibles medidas de los lados del rectángulo. En este caso se utilizó una tabla, lo
+que te permite visualizar las únicas medidas que pueden tomar los lados del
+rectángulo a partir de las condiciones planteadas en el enunciado.
+En cuanto a qué necesitas saber hacer, debes haber desarrollado la habilidad de
+Resolver problemas, de Representar y de Modelar.
+
+– 57 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 27
+¿Cuál de los siguientes conjuntos contiene a todos los números reales p
+2
+para los cuales la ecuación 3x − px −
+
+distintas?
+
+D)
+
+]− ∞, ∞[
+]− ∞, − 2[ ∪ ]2, ∞[
+]− 2, 2[
+]2, ∞[
+
+E)
+
+∅
+
+A)
+B)
+C)
+
+1
+= 0 tiene dos soluciones reales
+3
+
+Algunas estrategias de resolución
+Estrategia 1: usar la fórmula para resolver una ecuación cuadrática.
+Una manera que tienes de determinar qué números puede tomar p en la ecuación
+dada en la pregunta para que esta tenga dos soluciones reales y distintas, es
+encontrar una expresión para cada una de las soluciones y realizar un análisis de
+las condiciones que debe cumplir.
+Para ello, recuerda que las soluciones de la ecuación ax 2 + bx + c = 0 están
+dadas por x =
+
+b 2 − 4ac
+.
+2a
+
+−b ±
+
+Es así que de la ecuación 3x 2 − px −
+dadas por x =
+
+p±
+
+p2 − 4 ⋅ 3 ⋅ −
+2⋅3
+
+1
+= 0 obtienes que sus soluciones están
+3
+
+1
+3 = p±
+
+p2 + 4
+.
+6
+
+Se sabe que p es un número real y para que
+
+p±
+
+p2 + 4
+sea un número real,
+6
+
+p 2 + 4 también lo sea. Por ello, p 2 + 4 debe ser un
+número mayor o igual que 0 . Al observarlo, puedes notar que siempre es mayor
+que 0 , ya que para cualquier valor que tome p , su cuadrado es mayor que 0 .
+se debe cumplir que
+
+– 58 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Luego, p puede ser cualquier número real, es decir, el conjunto que contiene a
+todos los posibles valores de p es el conjunto de los números reales, el que se
+puede representar por ]− ∞, ∞[ .
+La respuesta correcta es la opción A).
+Estrategia 2: usar el discriminante de una ecuación cuadrática.
+Otra manera que tienes para responder la pregunta es mediante una ecuación
+
+cuadrática de la forma ax 2 + bx + c = 0 , que tiene dos soluciones reales y
+distintas cuando b 2 − 4ac > 0 .
+
+1
+1
+= 0 tienes que a = 3 , b = − p y c = − , y al
+3
+3
+1
+reemplazar en b 2 − 4ac > 0 , obtienes p 2 − 4 ⋅ 3 ⋅ − > 0 . Esto es lo mismo
+3
+2
+que decir p + 4 > 0 , relación que se cumple para cualquier número real.
+Entonces, el conjunto que contiene a todos los posibles valores de p es ]− ∞, ∞[ .
+En la ecuación 3x 2 − px −
+
+La respuesta correcta es la opción A).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Esta es una pregunta en la que no se pide un valor en particular, sino que se
+solicita determinar el conjunto de números que puede tomar una variable (p) para
+que se cumplan las condiciones planteadas. Para esto, debes recordar cuándo
+una ecuación cuadrática tiene dos soluciones reales y distintas. Con esto en
+mente, puedes analizar las soluciones de la ecuación luego de haber aplicado la
+fórmula de la ecuación cuadrática como se hizo en la Estrategia 1. Otra opción es
+aplicar
+
+la
+
+propiedad
+
+de
+
+b 2 − 4ac > 0
+
+dada
+
+ax 2 + bx + c = 0 , como se resolvió en la Estrategia 2.
+
+la
+
+ecuación
+
+cuadrática
+
+Así, para responder esta pregunta no contextualizada, debes aplicar los
+conocimientos relativos a la ecuación cuadrática para determinar la solución
+al problema y representarla en forma de intervalo.
+
+– 59 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 28
+Considera la función f , cuyo dominio es el conjunto de los números
+reales, definida por f (x) = 2x − 3 .
+¿Cuál de los siguientes gráficos representa a la gráfica de f ?
+
+A)
+
+y
+
+B)
+
+y
+
+3
+
+1
+
+1
+2
+
+C)
+
+2
+
+−3
+x
+
+D)
+
+y
+
+y
+
+1
+2
+
+2
+
+x
+−3
+
+−3
+
+– 60 –
+
+x
+
+x
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: analizar las características de la función.
+Para identificar cuál de las gráficas de las opciones representa a la función
+f ( x ) = 2x − 3 , se puede analizar cada uno de los parámetros que la componen.
+Como f es de la forma f ( x ) = mx + n , con m la pendiente y n el coeficiente de
+posición, puedes concluir que en la función la pendiente de su gráfica es 2 , por lo
+tanto, al ser positiva, la función es creciente, lo que descarta la gráfica de la opción
+A), pues esta representa a una función decreciente.
+También tienes que su coeficiente de posición es − 3 , es decir, la gráfica de la
+función corta al eje y en el punto (0, − 3) , lo que descarta al gráfico mostrado en la
+opción B).
+Para identificar en qué punto la recta que representa a la función corta al eje x ,
+debes encontrar el valor de x cuando f ( x ) = 0 , como se muestra a continuación:
+
+3 
+Así, la gráfica de la función corta al eje x en el punto  , 0  , por lo que se
+2 
+descarta la gráfica que se muestra en la opción D).
+Por el desarrollo anterior, se concluye que el gráfico que representa a la gráfica de
+la función es el de la opción C).
+
+– 61 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: evaluar valores en la función.
+Otra manera que tienes para determinar cuál de las gráficas dadas en las
+opciones corresponde a la gráfica de f , es utilizar una tabla de valores, en la que
+evalúes en la función las abscisas involucradas en los gráficos de las opciones, es
+decir, que determines f (−3) , f (0) y f (2) , como se muestra a continuación:
+
+x
+
+f(x)
+
+−3 2⋅−3 − 3 = −9
+0
+
+2
+
+2⋅0 − 3 = −3
+2⋅2 − 3 = 1
+
+De la tabla puedes concluir que la gráfica de f pasa por por los puntos (− 3, − 9) ,
+
+(0, − 3) y (2, 1) , y al observar los gráficos de las opciones tienes que el de la
+
+opción C) cumple con pasar por estos puntos. Luego, esta opción es la correcta.
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para determinar cuál de los gráficos de las opciones corresponde a la función
+dada en el enunciado, puedes identificar los parámetros de una función lineal del
+tipo f (x ) = ax + b y su significado, como se hizo en la Estrategia 1.
+Lo fundamental en esta pregunta es encontrar una estrategia que te permita pasar
+de un tipo de representación a otro. En este caso, de una función representada
+algebraicamente a su representación gráfica.
+Por último, tienes que haber desarrollado las habilidades de Representar y de
+Resolver problemas.
+
+– 62 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 29
+Una compañía distribuidora de energía eléctrica cobra mensualmente un
+cargo fijo de $1.100 y $65 por kWh de consumo, pero si en los meses
+de invierno se superan los 200 kWh , se aplica un recargo de $50 por
+cada kWh de exceso.
+
+¿Cuál de las siguientes funciones permite calcular el total que se debe
+pagar en un mes de invierno por x kWh si x es mayor que 200 ?
+A)
+
+f (x ) = 1.100 + (200 ⋅ 65) + 50x
+
+B)
+
+p(x ) = 1.100 + (200 ⋅ 65) + 115x
+
+C)
+
+g( x ) = 1.100 + 115x
+
+D)
+
+m(x ) = 1.100 + (200 ⋅ 65) + 115(x − 200)
+
+Estrategia de resolución
+Para resolver el problema, debes comprender la información entregada en el
+enunciado para modelar, a través de una función, el cobro mensual de energía
+que se debe pagar por el consumo de x kWh .
+Lo primero que tienes que entender es que el cargo fijo de $1.100 no depende de
+la cantidad de kWh consumidos y que siempre se debe considerar en el cobro de
+la cuenta de electricidad de un mes.
+Se sabe que el total de kWh consumidos en un mes de invierno fue de x kWh ,
+con x mayor que 200 , entonces la expresión ( x − 200) corresponde a los kWh
+adicionales a los 200 kWh consumidos en ese mes.
+En cuanto al cobro por el consumo de kWh :
+•
+
+•
+
+En el enunciado se menciona que hasta los 200 kWh se cobra $65 por
+kWh , por lo tanto, el cobro considerando solo los 200 kWh será de
+$ 65 ⋅ 200 .
+También se menciona que por cada kWh adicional a los 200 kWh , es
+decir, a los ( x − 200) kWh , se realiza un recargo de $50 , por lo que el valor
+de cada uno de esos kWh quedará en $115 . Entonces el cobro asociado a
+estos kWh será de $115( x − 200) .
+
+– 63 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Finalmente, la función que modela el total a pagar en una cuenta de un mes de
+invierno de acuerdo a las condiciones dadas en el enunciado es:
+
+m( x ) = 1.100 + ( 200 ⋅ 65) + 115( x − 200)
+La respuesta correcta, entonces es la opción D).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, necesitas modelar el cobro que realiza la compañía
+eléctrica en los meses de invierno a través de una función afín.
+En este caso se te pide que el modelo esté representado por una expresión
+algebraica. Para que la determines es fundamental que identifiques los distinos
+aspectos que componen este cobro. En este caso, el cobro fijo, el cobro por el
+consumo de 200 kWh y el cobro por la diferencia entre el consumo total y los
+200 kWh ya considerados en el cobro anterior.
+Para lo anterior, debes haber desarrollado las habilidades de Resolver problemas,
+de Representar y de Modelar.
+
+– 64 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 30
+Un local comercial tiene un sistema de acumulación de puntos que está en
+relación con la cantidad de dinero que gastan los clientes, de tal forma que
+estos pueden cambiar los puntos acumulados por un artículo que se venda
+en el local.
+Por cada $x se acumulan
+
+x
+puntos y, además, se obtienen 5.000 puntos
+50
+
+mensuales adicionales si se compra al menos una vez en el mes.
+
+Si al comenzar agosto un cliente tiene 40.000 puntos y hace solo dos
+compras, de $12.000 y de $38.000 , ¿cuántos puntos tendrá acumulados al
+final de este mes para canjearlos por un producto de ese local?
+A)
+B)
+C)
+D)
+
+6.000 puntos
+
+41.000 puntos
+46.000 puntos
+
+95.000 puntos
+
+Estrategia 1: usar una función.
+Para resolver este problema puedes modelar los puntos ganados en un mes por el
+cliente usando la información dada en el enunciado, y luego utilizar el modelo para
+calcular los puntos ganados en el mes de agosto.
+Como se acumulan
+
+x
+puntos por cada $x comprados en el local y, además,
+50
+
+5.000 puntos por haber comprado al menos una vez al mes en el local, se tiene
+que si en un mes se gastan $x , entonces, se acumulan P(x ) puntos, dados por la
+
+función:
+
+P(x ) = 5.000 +
+
+x
+50
+
+Así, debido a que el cliente gastó $12.000 + $38.000 = $50.000 el mes de agosto,
+se tiene que dicho mes ganó P(50.000) = 5.000 +
+
+50.000
+= 6.000 puntos.
+50
+
+Para llegar a la respuesta, no hay que olvidarse de sumar los puntos que tenía al
+comenzar el mes a los ganados en agosto, es decir,
+
+– 65 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+( 40.000 + 6.000) puntos = 46.000 puntos.
+La respuesta correcta es la opción C).
+Estrategia 2: usar una tabla.
+Otra manera que tienes para responder la pregunta es mediante una tabla, en la
+cual detalles el dinero gastado y los puntos acumulados en el mes de agosto.
+Mes de agosto
+
+Dinero gastado
+
+Inicio de mes
+
+-
+
+Primera compra
+Segunda compra
+
+Puntos acumulados + Puntos por
+hacer al menos una compra en el
+mes + Puntos por la compra
+
+Total de
+puntos
+
+40.000 + 5.000 + 240
+
+45.240
+
+40.000
+
+$12.000
+$38.000
+
+40.000 + 5.000 + 240 + 760
+
+Así, a fines de agosto los puntos acumulados son 46.000 .
+La respuesta correcta es la opción C).
+
+– 66 –
+
+40.000
+
+46.000
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 3: usar un esquema.
+Otra forma de responder la pregunta es mediante un esquema que represente la
+cantidad de puntos que obtiene el cliente al final del mes de agosto, tal como se
+muestra a continuación:
+Inicio de mes
+
+40.000
+puntos
+
+$12.000
+
+Por comprar
+en el mes
+
+Compras en el mes
+
+240
+$38.000
+puntos
+
+760
+puntos
+
+5.000
+puntos
+
+Puntos reunidos al final del mes de agosto:
+puntos
+Así, los puntos acumulados en el mes de agosto por el cliente son 46.000 puntos.
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, puedes utilizar múltiples estrategias, por ejemplo,
+establecer un modelo que te permita relacionar los datos de dicho problema tal
+como se hizo en la Estrategia 1, en la cual se modeló la situación mediante una
+función lineal del tipo f (x ) = ax + b .
+Además, puedes usar alguna representación que te permita visualizar la situación
+problemática identificando los puntos que obtiene el cliente durante el mes de
+agosto de acuerdo a las compras que realiza y así determinar lo obtenido al final
+de mes. Como observas, en las estrategias 2 y 3 tienes una tabla y un esquema
+que te permiten realizar esta visualización. Para dar respuesta a la pregunta del
+problema tienes que hacer solo operaciones entre números enteros.
+Por ello, para resolver este problema, tienes que haber desarrollado las
+habilidades de Resolver problemas, Modelar y Representar.
+
+– 67 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREFGUNTA 31
+Una compañía de agua potable cobra un cargo fijo mensual de $b ,
+además de $m por cada metro cúbico de agua consumido en el mes.
+Si m ≠ b , ¿cuál de las siguientes gráficas representa mejor la relación
+
+entre los metros cúbicos consumidos (x) y el cobro mensual f (x) ?
+A)
+
+f(x)
+
+B)
+
+x
+
+b
+
+C)
+
+m
+
+f(x)
+
+D)
+
+x
+
+f(x)
+
+b
+
+m
+x
+
+E)
+
+f(x)
+
+x
+
+f(x)
+
+b
+1
+
+x
+– 68 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: determinar una función afin.
+Para dar respuesta a esta pregunta debes encontrar la función que modela el
+cobro mensual de agua en metros cúbicos, y luego identificar entre las opciones
+dadas la gráfica que mejor la representa.
+Para encontrar la relación entre el cobro mensual f (x) y los x metros cúbicos de
+agua potable consumidos en el mes, tienes que entender que por cada metro
+cúbico consumido se cobra $m , por lo tanto, para x metros cúbicos se cobra
+
+$mx .
+
+Además, cada mes se realiza un cobro fijo de $b , por lo que en un mes en que se
+consumen x metros cúbicos se tiene la función:
+
+f ( x ) = mx + b
+En esta función, el valor b es el coeficiente de posición de la gráfica asociada a f ,
+el que indica que la gráfica corta al eje y en el punto (0, b) .
+Si observas las gráficas de las opciones, te darás cuenta de que la que cumple
+con la condición anterior es la que está en la opción D), por lo que esta es la
+respuesta correcta.
+Estrategia 2: relacionar el contexto con puntos de la gráfica.
+Otra forma de responder la pregunta es que relaciones el punto inicial de la recta
+con el contexto del problema. En este caso, si no se produce consumo de agua
+solo se debe pagar el cobro fijo mensual, es decir, $b . Entonces, cuando el cobro
+mensual (x ) es cero, en la recta se representa con el punto (0, b) y como el
+cobro por cada metro cúbico es fijo, la recta será creciente. Ambas condiciones se
+cumplen en el gráfico de la opción D), la cual es la respuesta correcta.
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla necesitas saber modelar la situación dada en el enunciado a
+través de una función afín. En este caso, reconocer la relación entre los metros
+cúbicos consumidos y el cobro mensual realizado por la compañía de agua
+potable, lo que te permite plantear la función. Luego, puedes identificar sus
+
+– 69 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+elementos y relacionarlos con las gráficas de las opciones, como se hizo en la
+Estrategia 1.
+También puedes responder correctamente esta pregunta si relacionas de forma
+directa los elementos que se presentan en el cobro que realiza la compañía con
+las gráficas dadas en las opciones. Así tienes que el cobro fijo en el consumo del
+agua potable no depende de la cantidad de metros cúbicos consumidos. Por lo
+tanto, cuando no se ha consumido ningún metro cúbico de agua, igual habrá un
+cobro en la cuenta mensual, es decir, cuando se consumen 0 metros cúbicos de
+agua hay un cobro de $b. Esto fue lo que se usó en la segunda estrategia.
+Para resolver este problema, se requiere haber desarrollado las habilidades de
+Representar y de Modelar.
+
+– 70 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 32
+Considera la función f , cuyo dominio es el conjunto de los números
+
+2
+reales, definida por f (x ) = 3x − 2x + 5 .
+
+¿Cuál es el valor de
+
+A)
+B)
+C)
+D)
+E)
+
+f (−2)
+?
+3
+
+−1
+
+13
+3
+7
+
+13
+
+21
+
+Estrategia de resolución
+Para responder esta pregunta, debes evaluar el número − 2 en la función dada,
+para luego dividir por 3 , como se muestra a continuación:
+
+f (−2) 3 ⋅ (− 2)2 − 2 ⋅ (− 2) + 5 3 ⋅ 4 + 4 + 5 21
+=
+=
+=
+=7
+3
+3
+3
+3
+Este valor se encuentra en la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este es un problema no contextualizado y rutinario que involucra el conocimiento
+de funciones. Para resolverlo debes saber determinar la imagen de un número a
+través de una función cuadrática, además de operar con números racionales.
+
+– 71 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 33
+La ganancia obtenida en miles de pesos por la venta de x unidades de
+2
+cierto artículo se modela mediante la función g( x ) = − ( x − 3,2) + 5 .
+
+¿Cuál debe ser la cantidad de artículos vendidos para conseguir la mayor
+ganancia posible?
+A)
+B)
+C)
+D)
+
+3
+
+5
+
+8
+
+9
+
+Algunas estrategias de resolución
+Estrategia 1: usar el vértice de una parábola.
+Al responder esta pregunta, debes determinar la cantidad de artículos vendidos
+que permite obtener la mayor ganancia posible según la función que modela dicha
+ganancia. Para esto, hay que recordar que en una función de la forma
+
+f (x ) = ax 2 + bx + c , con a < 0 , la parábola asociada a f es cóncava hacia abajo,
+
+por lo que la función tiene un valor máximo para la abscisa del vértice
+
+ − b  − b 
+, f
+
+ .
+ 2a  2a  
+
+2
+
+En la función de la pregunta g( x ) = − ( x − 3,2) + 5 debes desarrollar el
+cuadrado del binomio, y luego reducir los términos semejantes para escribirla de la
+forma que aparece en el párrafo anterior, como se muestra a continuación:
+
+Como el coeficiente que acompaña a x 2 es negativo, la mayor ganancia se dará
+para la cantidad de artículos que corresponden a la abscisa del vértice de la
+parábola asociada a esta función.
+
+– 72 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+De la función g , se tiene que a = − 1 y b = 6,4 . Al reemplazar estos valores en la
+abscisa del vértice x =
+
+−b
+− 6,4
+= 3,2 .
+, obtienes que x =
+2a
+−2
+
+Según este resultado, se deben vender 3,2 artículos para conseguir la mayor
+ganancia, pero considerando que estos son unidades completas, la mayor
+ganancia se generará al vender 3 artículos.
+La respuesta correcta es la opción A).
+Estrategia 2: usar la traslación de funciones.
+Otra manera que tienes de resolver este problema es considerar que la gráfica de
+2
+
+la función es la trasladada de una función de la forma f ( x ) = − ax , la cual es
+cóncava hacia abajo. Esto significa que posee un máximo para el valor del vértice
+de la parábola asociada a ella.
+Luego, si trasladas la gráfica de f h unidades hacia la derecha y k unidades
+hacia arriba, obtienes que la expresión que representa la nueva función es
+
+− a ( x − h) 2 + k , de tal manera que el vértice de la parábola asociada a esta
+función tiene coordenadas ( h , k ) .
+2
+
+De lo anterior, se tiene que la función g( x ) = − ( x − 3,2) + 5 es la trasladada de
+2
+
+la función p( x ) = − x , por lo que h = 3,2 , valor que corresponde a la cantidad de
+artículos que se deben vender para obtener la mayor ganancia. Así, la mayor
+ganancia se consigue al vender 3 artículos.
+La respuesta correcta, entonces, es la opción A).
+
+– 73 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, es necesario que identifiques cuándo una función se puede
+representar gráficamente por una parábola. Además, qué elemento de la parábola
+se asocia a la maximización de la función, pues en este problema en particular se
+requiere determinar la cantidad de artículos que se deben vender para maximizar
+la ganancia.
+Considerado lo antes mencionado, puedes seguir varios caminos. Por ejemplo,
+ordenar la expresión que representa la función cuadrática que modela la ganancia,
+para dejarla de la forma ax 2 + bx + c y definir los coeficientes numéricos que
+permitan determinar la abscisa del vértice de la parábola asociada a la función,
+que corresponde a la cantidad de artículos vendidos para obtener la mayor
+ganancia posible, como se hizo en la Estrategia 1.
+Por otra parte, puedes determinar la abscisa del vértice interpretando los
+coeficientes de la función dada en el enunciado, reconociendo que esta es una
+2
+
+traslación vertical y horizontal de la función p( x ) = − x , de la que puedes obtener
+directamente la cantidad de artículos solicitados, como está explicitado en la
+segunda estrategia.
+En ambas estrategias es fundamental que al final evalúes la pertinencia del
+resultado, entendiendo que la cantidad de artículos solicitada es un número
+entero, pues no se pueden vender por partes.
+Por lo tanto, debes haber desarrollado las habilidades de Resolver problemas y de
+Modelar.
+
+– 74 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 34
+En un computador se simula el lanzamiento de un proyectil desde el nivel
+del suelo con una trayectoria parabólica que logra su máxima altura a los
+5 segundos .
+Si se sabe que al segundo de ser lanzado alcanzó una altura de 27 m ,
+¿cuál de las siguientes funciones modela, en m , la altitud lograda por el
+proyectil, luego de t segundos ?
+A)
+
+p( t ) = 28t − t 2
+
+B)
+
+f ( t ) = 27 t 2
+
+C)
+
+s( t ) = 30 t − 3t 2
+
+D)
+
+q ( t ) = 5 + 27 t − 5 t 2
+
+E)
+
+m( t ) = − 27 + 60 t − 6 t 2
+
+Estrategia de resolución
+Para resolver este problema debes encontrar una función que modele la altura, en
+metros, de un proyectil que fue lanzado desde el nivel del suelo luego de
+t segundos.
+Como la trayectoria tiene forma de parábola, esta situación se modela con una
+
+función cuadrática de la forma f ( t ) = at 2 + bt + c . A partir de esta información,
+debes encontrar los valores de a , b y c para definir la función.
+
+Para ello, puedes realizar un bosquejo de la trayectoria parabólica en el plano
+cartesiano que te ayude a visualizar de mejor manera los datos dados en el
+enunciado. Esto se muestra a continuación:
+Altura en metros
+
+Punto de lanzamiento
+
+Nivel del suelo
+
+Altura máxima
+
+h
+
+Trayectoria
+parabólica
+
+27
+1
+
+5
+
+– 75 –
+
+Tiempo en segundos
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Debido a que el lanzamiento del proyectil se hace desde el nivel del suelo y en
+t = 0 , se tiene que la altura es 0 y la parábola corta al eje y en el punto (0, 0) .
+
+Según lo anterior, el valor de c en la función f ( t ) = at 2 + bt + c es 0 , por lo que
+
+queda f ( t ) = at 2 + bt .
+
+De la figura puedes concluir que el vértice de la parábola es (5, h ) , ya que a los
+
+5 segundos la trayectoria del lanzamiento tiene la altura máxima h . Además
+−b
+, que te
+debes recordar que la abscisa del vértice está dada por la expresión
+2a
+−b
+= 5 y si despejas b obtienes que b = − 10a ,
+permite escribir la igualdad
+2a
+quedando la función como f ( t ) = at 2 − 10 at .
+
+Por otro lado, como el punto (1, 27) pertenece a la gráfica, puedes reemplazarlo
+en la función, obteniendo que 27 = a − 10a . Luego, al despejar a en esta
+ecuación lineal, obtienes a = − 3 .
+Así, la función que modela la altura que alcanza el proyectil en el tiempo t es
+
+f ( t ) = − 3t 2 + 30 t .
+
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, debes modelar la situación planteada a través de una función,
+para lo cual es necesario que sepas que una trayectoria parábolica se asocia a
+una función cuadrática. También debes reconocer los elementos de la párabola,
+como el vértice y el punto de intersección de la parábola con los ejes
+coordenados.
+En este problema, representar en una gráfica los datos entregados en el
+enunciado te permite visualizar de mejor manera los elementos involucrados en la
+situación que necesitas para plantear la función requerida. Además, puedes
+relacionar los coeficientes de la función con los datos con que cuentas.
+Por lo anterior, para contestar la pregunta requieres haber desarrollado las
+habilidades de Modelar, de Representar y de Resolver problemas.
+
+– 76 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 35
+Considera la función cuadrática f , cuyo dominio es el conjunto de los
+números reales, definida por f (x ) = ax 2 + bx + c .
+Se puede determinar el signo de a si se sabe que:
+(1)
+(2)
+
+f tiene un valor máximo.
+f (0 ) > 0
+
+A)
+
+(1) por sí sola
+
+B)
+
+(2) por sí sola
+
+C)
+
+Ambas juntas, (1) y (2)
+
+D)
+
+Cada una por sí sola, (1) ó (2)
+
+E)
+
+Se requiere información adicional
+
+Estrategia de resolución
+Para responder correctamente esta pregunta, debes analizar si las condiciones
+dadas en (1) y/o en (2) te permiten determinar el signo de a de la función
+f (x ) = ax 2 + bx + c . Debes tener en consideración que este coeficiente está
+directamente relacionado con el tipo de concavidad que tiene la parábola asociada
+a esta función.
+Lo primero que debes recordar es que si una función cuadrática tiene un valor
+máximo, entonces la parábola asociada tiene concavidad hacia abajo y, por lo
+mismo, el signo de a es negativo. De ello se concluye que la información dada en
+(1) es suficiente para responder la pregunta.
+Con respecto a la información dada en (2), solo se sabe que la parábola corta al
+eje y en el semieje positivo, ya que f (0) = c y f (0) > 0 . Sin embargo, no es
+posible concluir nada sobre su concavidad, ya que esta puede ser hacia arriba o
+hacia abajo. Esto impide determinar el signo de a , de lo que se desprende que la
+información dada en (2) no es suficiente para responder la pregunta.
+Por el desarrollo anterior, la respuesta correcta es la opción A).
+
+– 77 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla debes recordar lo que significan los parámetros de una función
+cuadrática. En este caso, el coeficiente que acompaña a la variable cuadrática y el
+término libre. Utilizando dichos conocimientos, debes evaluar si la información
+entregada en (1) y en (2) te permite determinar lo solicitado.
+Por lo tanto, debes de haber desarrollado la habilidad de Argumentar para decidir
+a través del análisis de la información si las condiciones dadas son suficientes
+para contestar la pregunta.
+
+– 78 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 36
+Una persona apoya un madero de 5 m de longitud en la pared de un
+edificio. La distancia del pie del madero a la pared es de 4 m .
+Se cambia la posición del madero en la pared desplazándolo verticalmente
+1 m hacia abajo, como se representa en la siguiente figura:
+
+¿Cuántos metros se deslizó el pie del madero respecto a su posición
+inicial?
+A)
+
+( 21 − 4) m
+
+B)
+
+1m
+
+C)
+D)
+
+21 m
+5m
+
+– 79 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+En primer lugar, para resolver el problema debes considerar que a partir de la
+figura se ve que el madero, el piso y la pared forman un triángulo rectángulo. A
+partir de ello, puedes hacer un diagrama para representar la posición inicial del
+madero y otro para la posición final de él, como se muestra a continuación:
+
+Posición inicial
+
+Posición final
+
+PARED
+
+PARED
+
+4m
+
+Desplazamiento
+vertical de 1 m
+
+Desplazamiento horizontal
+
+PISO
+
+PISO
+
+La representación anterior te permite ver que puedes calcular la altura a la que
+está apoyado el madero en la posición inicial usando el teorema de Pitágoras. Así,
+tienes que la altura a la que está apoyado el madero es
+
+( 5 − 4 ) m = 3 m.
+2
+
+2
+
+Como el madero se deslizó un metro hacia abajo para llegar a la posición final,
+este queda apoyado en la pared a 2 m de altura. Considerando que el largo del
+madero sigue siendo 5 m , puedes calcular la distancia del pie del madero a la
+pared utilizando nuevamente el teorema de Pitágoras, obteniendo que esta
+distancia es
+
+( 5 − 2 ) m = 21 m .
+2
+
+2
+
+De este modo, la cantidad de metros que se deslizó el pie del madero respecto a
+su posición inicial es 21 − 4 m .
+
+(
+
+)
+
+La respuesta correcta es la opción A).
+
+– 80 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, tienes que conocer y aplicar el teorema de Pitágoras
+reconociendo la existencia de triángulos rectángulos en situaciones de la vida
+cotidiana. Para esto, puedes utilizar representaciones como la que se usó en la
+resolución, en la que la figura 3D dada en el problema se llevó a una figura plana.
+Por lo anterior, debes haber desarrollado las habilidades de Resolver problemas y
+de Representar.
+
+– 81 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 37
+En la figura adjunta, AC = 12 cm y AO = 2 ⋅ BP .
+
+A
+
+O
+
+B
+
+P
+
+C
+
+¿Cuál es la suma de las áreas de los dos semicírculos de centro O y P ?
+A)
+
+6π cm2
+
+B)
+
+10π cm2
+
+C)
+
+12π cm2
+
+D)
+
+20π cm 2
+
+Estrategia de resolución
+En el problema se pide calcular la suma de las áreas de los semicírculos de la
+figura por lo que tienes que conocer cada uno de los radios. Para ello, puedes
+ayudarte poniendo en la figura toda la información dada en el enunciado, como se
+muestra en el siguiente diagrama, considerando que BP = x cm .
+12 cm
+
+2x cm
+
+A
+
+2x cm
+
+O
+
+x cm x cm
+
+B
+
+P
+
+C
+
+Para encontrar el valor de x debes resolver la ecuación 2 x + 2 x + x + x = 12 , de
+la que obtienes que x = 2 . Entonces, los radios de los semicírculos de centros O
+y P son 4 cm y 2 cm , respectivamente.
+
+– 82 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Una vez que ya tienes los radios de cada una de las semicircunferencias, debes
+calcular sus áreas, para lo que debes recordar la fórmula con la que se puede
+determinar el área de un semicírculo de radio r :
+áreas de los semicírculos es
+
+1
+⋅ π ⋅ r 2 . Así, la suma de las
+2
+
+La respuesta correcta es la opción B).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla debes interpretar los datos del enunciado para transferirlos a la
+figura. Esto te permite visualizar la relación que se da entre estos datos, acción
+que es de mucha utilidad en problemas geométricos.
+En este caso, puedes plantear una ecuación de primer grado para encontrar el
+radio de ambas semicircunferencias y con estas medidas calcular la suma de las
+áreas de los semicírculos, como se muestra en la resolución.
+Así, para resolver este problema requieres de Representar y de Resolver
+problemas.
+
+– 83 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 38
+El parabrisas de un auto de juguete es plano y de forma rectangular. Su
+largo es 13 cm y su ancho 8 cm .
+El auto cuenta con 2 plumillas de 6 cm de longitud cada una para limpiar el
+
+parabrisas. Estas tienen un ángulo de abertura de 90° , tal como se muestra
+a continuación.
+
+plumilla
+
+Si las plumillas limpian con todo su largo, ¿cuál es el área de la superficie
+del parabrisas que no alcanzan a cubrir las plumillas?
+A)
+
+(42 − 6π) cm 2
+
+B)
+
+(42 − 12π) cm2
+
+C)
+
+(104 − 9π) cm2
+
+D)
+
+(104 − 18π) cm2
+
+– 84 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para resolver este problema puedes hacer un diagrama del área del parabrisas
+que se alcanza a limpiar con las plumillas y así visualizar el área del parabrisas
+que no alcanzan a cubrir. Además, podrías poner en la figura los datos entregados
+en el enunciado.
+En el siguiente diagrama puedes ver que el área de la superficie del parabrisas
+que no alcanzan a limpiar las plumillas se puede descomponer como la diferencia
+entre el área de un rectángulo y la mitad de un círculo.
+
+13 cm
+
+8 cm
+
+6 cm
+
+6 cm
+
+Una vez que ya determinaste cuál es la superficie del parabrisas que no alcanzan
+a limpiar las plumillas, debes calcular el área del rectángulo, y luego restarle el
+área de un semicírculo. Recuerda que la fórmula para determinar el área de un
+semicírculo de radio r es
+
+1
+⋅ π ⋅ r2 .
+2
+
+Así, el área de la superficie pedida es 13 ⋅ 8 −
+
+1
+⋅ π ⋅ 6 2 = (104 − 18π ) cm 2 .
+2
+
+La respuesta correcta, entonces, es la opción D).
+
+– 85 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla correctamente, debes darte cuenta de que la figura geométrica
+que se forma cuando funciona cada plumilla corresponde a un cuarto de un
+círculo, y que al juntar ambas superficies se forma un semicírculo.
+Además, para determinar el área del parabrisas que no cubren las plumillas debes
+tener presente cómo se calcula el área de un rectángulo y de un semicírculo. A
+partir de ello, tienes que calcular la diferencia entre ambas áreas, para lo cual sirve
+usar una representación, como la usada en la resolución, que te permita visualizar
+la descomposición de las figuras y ver los datos con los que cuentas.
+Este problema requiere que hayas desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 86 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 39
+En el suelo del patio de un colegio se dibuja un juego conocido como
+“Luche”.
+Este juego se compone de cuadrados congruentes entre sí, dibujados uno
+al lado del otro y en la posición que se muestra en la siguiente figura.
+
+Daniela le dice a Camilo que ella calculó el área total de los cuadrados, lo
+2
+
+que le dio 7.200 cm , y le pide que calcule el perímetro de la figura
+completa para saber cuánta cinta adhesiva necesita colocar en los bordes
+del Luche.
+¿Cuál es la longitud de la cinta?
+A)
+
+240 cm
+
+B)
+
+420 cm
+
+C)
+
+540 cm
+
+D)
+
+960 cm
+
+– 87 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: sumar los segmentos que componen la figura.
+Una forma de resolver este problema es encontrar la medida del lado de cada uno
+de los cuadrados que forman el Luche con la ayuda de un diagrama.
+
+1. Figura de
+área total.
+
+de
+
+2. Como la figura está
+formada por cuadrados
+congruentes, cada
+cuadrado tiene un área de
+
+3. Como el área de un
+cuadrado se calcula
+como la medida del
+lado al cuadrado, se
+obtiene que la medida
+de un lado es
+
+Ahora, para calcular el perímetro del Luche, puedes descomponerlo en las
+medidas de sus lados.
+60 cm
+30 cm
+
+=
+
+Perímetro figura =
+
++
+
++
+
++
+– 88 –
+
++
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Así, el perímetro de la figura es 540 cm .
+La respuesta correcta es la opción C).
+Estrategia 2: descomponer la figura por niveles.
+Como puedes ver, el Luche está formado por 8 cuadrados congruentes de área
+
+7.200 cm 2
+= 900 cm 2 .
+8
+
+Por
+
+lo
+
+tanto,
+
+cada
+
+lado
+
+del
+
+cuadrado
+
+mide
+
+900 cm 2 = 30 cm .
+
+Para calcular el perímetro puedes usar el siguiente esquema, en el cual se
+desglosa el perímetro que deberías calcular en cada nivel del Luche:
+30 cm
+15 cm
+
+15 cm
+
+Perímetro = 90 cm
+Perímetro = 120 cm
+Perímetro = 60 cm
+Perímetro = 120 cm
+Perímetro = 60 cm
+Perímetro = 90 cm
+
+La respuesta correcta es la opción C).
+
+– 89 –
+
+Perímetro del Luche es
+540 cm
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla tienes que descomponer figuras geométricas complejas en
+figuras geométricas más simples para calcular el perímetro que te solicitan: en
+este caso, el del Luche. En la Estrategia 1 debes analizar la figura dada y
+comprender que las medidas de los segmentos que la componen son de los lados
+de los cuadrados congruentes que la forman y partes de estos lados.
+En cambio, en la segunda estrategia debes descomponer cada nivel del Luche en
+la figura que se forma con los bordes de este, que son los que se consideran en el
+cálculo del perímetro. Para ello, tienes que reconocer que en dos de los niveles se
+forman cuadrados cuyos lados tienen igual medida que los lados de los cuadrados
+que conforman el Luche.
+Para ambas estrategias debes darte cuenta de que el Luche está conformado por
+ocho cuadrados congruentes entre sí, lo que te permite determinar el área y la
+medida del lado de cada uno de estos cuadrados.
+Por lo anterior, tienes que haber desarrollado la habilidad de Representar y de
+Resolver problemas.
+
+– 90 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 40
+Considera los vectores u = (− 2 , 5 ) , v = (3, − 2 ) y c = (− 1, − 4 ) .
+¿Cuál es el vector u + 2 v − c ?
+A)
+B)
+C)
+D)
+E)
+
+(3, 5)
+(5, 5)
+(4, 9)
+(2, 1)
+(5, 7)
+
+Estrategia de resolución
+Para resolver este problema, tienes que saber cómo operar con vectores. Para
+ello, debes reemplazar los vectores dados en la expresión, tal como se muestra en
+el siguiente desarrollo:
+
+u + 2v − c
+= (− 2, 5) + 2(3, − 2 ) − (− 1, − 4)
+= (− 2, 5) + (6, − 4) + (1, 4 )
+= (− 2 + 6 + 1, 5 − 4 + 4)
+= (5, 5)
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Esta pregunta requiere la habilidad de resolver problemas rutinarios no
+contextualizados, para lo que se necesita que sepas operar con vectores. En
+este caso particular, debes saber sumar, restar y ponderar por un escalar un
+vector, realizando operatoria básica con números enteros.
+
+– 91 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 41
+Si el punto (a, b) es la imagen que se obtiene al trasladar el punto R
+según el vector (m, n) , ¿cuáles son las coordenadas de R ?
+A)
+
+(am, bn)
+
+B)
+
+(a − m, b − n)
+
+C)
+
+(m − a, n − b)
+
+D)
+
+(a + m, b + n)
+
+E)
+
+a + m b + n
+,
+
+
+2 
+ 2
+
+Estrategia de resolución
+Para resolver este problema, debes conocer la relación que hay entre la traslación
+de un punto según un vector y la operatoria de vectores. Así podrás determinar las
+coordenadas iniciales del punto trasladado.
+Si consideras que el punto R tiene coordenadas (x , y ) y este se traslada según
+
+el vector (m, n ) , obteniendo como imagen el punto (a , b ) , puedes escribir la
+siguiente igualdad:
+
+Analizando la igualdad anterior por coordenadas, obtienes las siguientes
+ecuaciones:
+
+y+n=b
+
+x + m =a
+
+Luego, al despejar x e y en la ecuación respectiva, obtienes que x = a − m e
+
+y = b − n , por lo que las coordenadas de R son (a − m, b − n ) .
+
+La respuesta correcta es la opción B).
+
+– 92 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Esta pregunta requiere que sepas trasladar un elemento geométrico según un
+vector dado. En este caso, dicho conocimiento conlleva saber qué significa que un
+punto sea la imagen de otro punto bajo el movimiento de una traslación. Además,
+necesitas saber operar con vectores y resolver ecuaciones lineales.
+Este es un problema rutinario de traslación de figuras, en el cual debes aplicar tus
+conocimientos geométricos y algebraicos.
+
+– 93 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 42
+Antonia está programando un robot para que viaje desde el lugar donde
+se encuentra hasta el punto B , que se representa en la cuadrícula de la
+siguiente figura:
+
+B
+
+El comando utilizado para programar los movimientos del robot es
+T(m, p) , en el que m es la cantidad de casilleros que se avanza en
+forma horizontal hacia adelante y p es la cantidad de casilleros que se
+avanza en forma vertical hacia arriba.
+Antonia programa la siguiente secuencia de movimientos:
+Movimiento 1: T(0, 1)
+
+Movimiento 2: T(2, 0)
+
+Movimiento 3: T(1, 1)
+
+Movimiento 4: T(4, 0)
+Con estos, el robot no llega al punto B de la cuadrícula.
+¿Cuál de los movimientos anteriores tendría que quitar Antonia para que
+el robot cumpla su objetivo?
+A)
+
+El movimiento 1
+
+B)
+
+El movimiento 2
+
+C)
+
+El movimiento 3
+
+D)
+
+El movimiento 4
+
+– 94 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: seguir la secuencia de movimientos programados.
+Para resolver este problema, tienes que seguir la secuencia de movimientos
+programados por Antonia en la cuadrícula de la figura dada. De esta manera
+podrás reconocer el movimiento que hay que quitar de los cuatro que programó
+Antonia para llegar al punto B .
+Para esto, debes interpretar cada uno de los comandos dados de la siguiente
+forma:
+M1: T(0, 1) corresponde a avanzar en forma vertical hacia arriba 1 casillero.
+
+M2: T(2, 0) corresponde a avanzar en forma horizontal hacia adelante 2
+casilleros.
+M3: T(1, 1) corresponde a avanzar en forma horizontal hacia adelante 1 casillero y
+avanzar en forma vertical hacia arriba 1 casillero.
+M4: T(4, 0) corresponde a avanzar en forma horizontal hacia adelante 4
+casilleros.
+M4
+
+M2
+M1
+
+B
+
+– 95 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Observando el diagrama, puedes ver que si se quitara el movimiento 3, el robot
+llegaría a B , tal como se muestra en el siguiente diagrama:
+
+M4
+
+B
+
+M1
+
+M2
+
+La respuesta correcta es la opción C).
+
+Estrategia 2: usar operatoria de vectores en el plano cartesiano.
+Otra manera que tienes para resolver este problema es representar la situación
+planteada en un sistema de ejes coordenados en el que la posición inicial del robot
+es el punto (0, 0) y la posición final es el punto (6, 1) .
+
+y
+B
+1
+6
+
+– 96 –
+
+x
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Puedes sumar las coordenadas de los vectores que representan los movimientos,
+considerándolos de a tres, y determinar con cuáles puedes obtener el vector
+(6, 1) . De esta manera, debes verificar las sumas de los vectores que representan
+los movimientos 1, 2 y 3; los movimientos 2, 3 y 4; y los movimientos 1, 2 y 4.
+Así, al sumar las coordenadas de los movimientos 1, 2 y 3, obtienes
+(0, 1) + (2, 0) + (1, 1) = (3, 2) , concluyendo que con estos movimientos no se
+llega al punto B .
+Al
+
+sumar
+
+las
+
+coordenadas de los movimientos 2, 3 y 4, obtienes
+(2, 0) + (1, 1) + (4, 0) = (7, 1) , concluyendo que con estos movimientos no se
+llega al punto B .
+Po último si sumas las coordenadas de los movimientos 1, 2 y 4, obtienes
+(0, 1) + (2, 0) + (4, 0) = (6, 1) . Luego, el movimiento que tendría que quitar
+Antonia es el 3.
+La respuesta correcta es la opción C).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Lo fundamental en esta pregunta es que sepas cómo realizar traslaciones de
+puntos, reconociendo que cada movimiento programado por Antonia representa
+un vector de traslación. Además, puedes observar que en el enunciado se
+entrega la información necesaria para interpretar cada una de las coordenadas
+de estos vectores.
+Para determinar cuál es el movimiento que no permite mover el robot al lugar
+donde está el punto B, tienes diversas estrategias de resolución. Por ejemplo,
+en la Estrategia 1 puedes realizar todos los movimientos programados por
+Antonia, representándolos por vectores, de manera que visualices cuál es el
+que no permite obtener el objetivo que ella tiene.
+Por otro lado, puedes relacionar la figura dada en el enunciado del problema
+con el plano cartesiano, en el que debes representar los elementos de la
+situación, como son la posición inicial y final del robot, así como los vectores
+que representan los movimientos programados por Antonia, como se muestra
+en la Estrategia 2. En este caso, además debes saber sumar vectores.
+Así, la habilidad principal que debieses haber desarrollado para responder esta
+pregunta es la de Representar, junto con la de Resolver problemas.
+
+– 97 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 43
+En la figura adjunta, ABMN y ACPQ son rectángulos. La longitud de
+
+AQ es menor que la longitud de PQ .
+
+6 cm
+
+N
+Q
+
+M
+3 cm
+
+A
+
+B
+
+5 cm
+P
+
+C
+
+¿Cuál de las siguientes medidas debe ser la longitud de AQ para que los
+rectángulos sean semejantes?
+A)
+B)
+
+2
+cm
+5
+
+3
+cm
+5
+
+C)
+
+2 cm
+
+D)
+
+5
+cm
+2
+
+E)
+
+4 cm
+
+Algunas estrategias de resolución
+Estrategia 1: usar proporcionalidad de lados.
+Para resolver este problema tienes que saber que para que dos rectángulos sean
+semejantes, la razón entre los lados correspondientes debe ser la misma. En este
+caso, como la longitud de AQ es menor que la longitud de PQ y considerando los
+
+– 98 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+datos de la figura, tienes que los lados correspondientes entre los rectángulos son
+
+PQ con MN y AQ con BM.
+
+Si consideras que la longitud de AQ es x cm , puedes plantear la proporción
+
+x 3
+= .
+5 6
+
+Despejando el valor de x en la proporción anterior, obtienes que x =
+longitud de AQ debe ser
+
+5
+cm .
+2
+
+5
+, luego la
+2
+
+La respuesta correcta es la opción D).
+
+Estrategia 2: usar áreas de figuras semejantes.
+Otra manera que tienes de responder la pregunta es recordar que en dos figuras
+semejantes se cumple que la razón entre sus áreas es igual al cuadrado de la
+razón entre sus lados homólogos.
+Así, como los lados homólogos entre los rectángulos son PQ con MN y AQ con
+2
+
+área PCAQ  QP 
+=
+BM, puedes plantear la proporción
+ .
+área ABMN  AB 
+
+2
+
+5 ⋅ QA  5 
+=   , y al despejar
+Si reemplazas por los valores respectivos, obtienes
+18
+6
+5
+QA , tienes que QA = cm .
+2
+La respuesta correcta es la opción C).
+
+– 99 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla correctamente tienes que saber la relación que hay entre las
+medidas de los lados correspondientes de dos rectángulos semejantes y, también,
+saber resolver ecuaciones derivadas de una proporción, como se hizo en la
+Estrategia 1.
+Además, puedes responder la pregunta aplicando propiedades de la semejanza
+de figuras, como se hizo en la Estrategia 2, en la que se aplicó la relación que hay
+entre las áreas de figuras semejantes.
+En la resolución de este problema no contextualizado debes aplicar propiedades
+geométricas, en este caso de la semejanza de figuras geométricas, reconociendo
+los elementos correspondientes entre ambas figuras.
+
+– 100 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 44
+¿Cuál(es) de las siguientes semejanzas es (son) verdadera(s)?
+I)
+
+Δ ABC ∼ Δ MNP
+
+Δ ABC ∼ Δ MNP
+
+II)
+
+C
+N
+
+M
+
+N
+
+M
+
+C
+
+B
+
+A
+A
+
+P
+
+B
+
+P
+
+M, N y P son los puntos
+medios de los lados del
+Δ ABC.
+
+//
+
+//
+
+y
+
+Δ ABC ∼ Δ CBD
+
+III)
+
+C
+
+A
+
+D
+⊥
+
+A)
+
+Solo I
+
+B)
+
+Solo I y II
+
+C)
+
+Solo I y III
+
+D)
+
+Solo II y III
+
+E)
+
+I, II y III
+
+– 101 –
+
+B
+
+,
+
+//
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para resolver este problema, tienes que verificar la veracidad de las semejanzas
+de los triángulos planteados en I), en II) y en III).
+En la información entregada en I) se dice que M , N y P son puntos medios de
+los lados del Δ ABC , por lo que tienes que
+
+MB PB 1
+=
+= , es decir, dos de los
+CB AB 2
+
+lados de los Δ ABC y Δ PBM son proporcionales.
+
+Además, estos triángulos tienen el ABC común, lo que te permite concluir que el
+Δ ABC y el Δ PBM son semejantes, con razón de semejanza 1 : 2 por el criterio
+de semejanza LAL.
+Puedes realizar el mismo análisis con los Δ APN y Δ NMC , concluyendo que el
+Δ ABC es semejante al Δ ANP y al Δ CNM , con razón de semejanza 1 : 2 .
+Como el Δ ABC es semejante al Δ PBM , al Δ APN y al Δ NMC , con razón de
+semejanza 1 : 2 , tienes que
+
+MN MP PN 1
+=
+=
+=
+y por el criterio LLL llegas a
+AB CA CB 2
+
+que el Δ ABC y el Δ MNP son semejantes. Entonces, la semejanza dada en I)
+es verdadera.
+Debes verificar ahora la semejanza dada en la figura II).
+Dado que AC // PM , tienes que
+NAC = NPM y que NCA = NMP , por
+lo tanto, el Δ NPM y el Δ NAC son semejantes por el criterio de semejanza de
+triángulos AA.
+Al realizar el mismo análisis con el Δ CBM y el Δ APB , puedes concluir que el
+Δ NPM también es semejante con el Δ CBM y el Δ APB .
+Considerando las semejanzas de los triángulos antes mencionados y que los
+ángulos interiores de un triángulo suman 180° , puedes representar en la figura
+respectiva los ángulos equivalentes, como se muestra a continuación:
+
+N
+
+C
+
+γ
+
+γ
+
+βα
+αβ
+
+A
+
+γ
+
+β
+
+γ α
+B
+β
+α
+
+P
+
+– 102 –
+
+M
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+NAC +
+CAB +
+CAP = 180° .
+En esta figura tienes que CAB = β , pues
+BCA = α y ABC = γ . Así, en la figura puedes ver que
+Por la misma razón,
+Δ ABC ∼ Δ MNP por el criterio de semejanza de triángulos AA.
+Por último, debes determinar la veracidad de la semejanza dada en la figura III).
+Los Δ ABC y Δ CBD tienen dos pares de ángulos iguales:
+•
+•
+
+ABC =
+CDB =
+
+CBD (ángulo común a ambos triángulos)
+ACB (ángulos que miden 90° )
+
+Luego, por el criterio AA de semejanza, tienes que el Δ ABC y el Δ CBD son
+semejantes, por lo que la semejanza dada en III) es verdadera.
+Como las semejanzas dadas en I), en II) y en III) son verdaderas, la respuesta
+correcta es la opción E).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla, debes tener conocimientos básicos de los elementos de la
+geometría, como lo que significa punto medio de un segmento, rectas paralelas,
+rectas perpendiculares y propiedades de ángulos. Pero fundamentalmente, debes
+tener la capacidad de relacionar los elementos con los que cuentas en cada una
+de las figuras para determinar la veracidad de las semejanzas de los triángulos
+planteados, pues estas son las que te permiten aplicar los criterios de semejanza
+de triángulos.
+Así, al resolver este problema geométrico, es importantísimo que interpretes la
+información de los triángulos dados y representes en ellos los datos que te
+permitan establecer las relaciones entre los ángulos y los lados de estos
+triángulos.
+
+– 103 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 45
+Un profesor plantea la siguiente situación: dos postes verticales, A y B ,
+están a una distancia de 4 m y 12 m , respectivamente, de una estaca
+enterrada en el suelo. De esta sale un cable recto que la une con las
+cimas de los postes, como se representa en la siguiente figura.
+
+3 metros
+
+B
+
+8 metros
+
+A 4 metros
+
+El profesor solicita a Marcela que determine la altura del poste B . Ella
+realiza el siguiente procedimiento:
+Paso 1: considera que con los datos del ejercicio se puede plantear la
+igualdad
+
+3 altura poste B
+=
+.
+4
+8
+
+Paso 2: multiplica por 8 en ambos lados de la igualdad, obteniendo
+
+3⋅8
+= altura poste B .
+4
+
+Paso 3: realiza la operatoria, obteniendo que la altura del poste B es
+6 m.
+¿En qué paso Marcela cometió un error?
+A)
+
+En el Paso 1
+
+B)
+
+En el Paso 2
+
+C)
+
+En el Paso 3
+
+D)
+
+En ninguno de ellos
+
+– 104 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para resolver este problema, tienes que verificar, en orden, cada uno de los pasos
+del procedimiento realizado por Marcela y determinar en cuál de ellos pudo haber
+cometido un error.
+
+3 altura poste B
+=
+4
+8
+3 altura poste B
+no es correcta. Al aplicar el teorema de Thales, debió escribir =
+.
+4
+8+4
+Así, al analizar el Paso 1, puedes notar que la proporción dada
+
+Como hay un error en el Paso 1, la opción A) es la respuesta correcta y no
+necesitas analizar el resto de los pasos realizados por Marcela.
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Esta es una pregunta en que debes analizar los pasos dados para la resolución de
+un problema de manera que determines si hay algún error en alguno de ellos.
+En este caso, debes analizar los pasos realizados por Marcela para determinar la
+altura de un poste, para lo cual utilizó el teorema de Thales, que le permitió
+establecer una proporción entre los segmentos involucrados en la representación
+de la situación dada en el problema, la cual fue errónea.
+Si no conoces el teorema de Thales, puedes establecer que la proporción usada
+por Marcela es errónea reconociendo que los triángulos de la representación son
+semejantes y planteando las razones entre los lados correspondientes de estos
+triángulos.
+De esta manera, para contestar la pregunta debes haber desarrollado
+principalmente las habilidades de Representar y de Argumentar.
+
+– 105 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 46
+Una empresa constructora debe modificar la escalera recta de un edificio
+para incorporarle un descanso de 1 m .
+Al hacer un corte transversal a la escalera, lo que se debe eliminar está
+representado en un triángulo (ABC ) para luego añadirle los peldaños, tal
+como se representa en la siguiente figura:
+Escalera original
+
+6m
+9m
+
+A
+
+2m
+
+Descanso
+
+Escalera final
+Descanso
+
+C
+
+B
+
+1m
+
+Para poder hacer el descanso con las especificaciones de la figura, ¿cuál
+debe ser la medida de AB ?
+A)
+
+117
+m
+2
+
+B)
+
+41 m
+
+C)
+
+2 117
+m
+3
+
+D)
+
+52 m
+
+– 106 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Algunas estrategias de resolución
+Estrategia 1: usar semejanza de triángulos.
+Para determinar la medida del segmento AB que permita modificar la escalera,
+puedes generar un solo diagrama con toda la información. Para ello, debes
+completar el diagrama presentado al centro con la información dada en el
+enunciado y en el primer diagrama, asignándoles letras a los vértices de los
+triángulos de manera conveniente. Esto te ayudará a aplicar semejanza de
+triángulos, como se muestra a continuación:
+
+A
+4m
+6m
+2m
+
+C
+
+B
+
+D
+E
+
+1m
+
+F
+
+9m
+Así puedes ver que se cumple que Δ AEF ~ Δ ADC por el criterio AA, ya que
+ambos tienen un ángulo de 90° y un ángulo en común (ángulo EAF ).
+De esta semejanza de triángulos puedes escribir la proporción 6 : 9 = 4 : DC , de
+la que obtienes que DC = 6 m y que DB = 6 m − 1 m = 5 m .
+Como AD = 4 m y DB = 5 m , puedes determinar la medida de AB aplicando el
+teorema de Pitágoras de la siguiente manera:
+
+AB = 4 2 + 52 m = 41 m
+La respuesta correcta es la opción B).
+
+– 107 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar áreas de figuras planas.
+Otra manera que tienes para resolver este problema es usar áreas de figuras
+geométricas y aplicar el teorema de Pitágoras.
+Si consideras la misma figura de la Estrategía 1, puedes plantear la siguiente
+igualdad:
+
+A
+4m
+2m
+
+D
+
+x
+
+E
+
+x
+
+C
+
+B
+1m
+
+F
+
+9m
+
+Área Δ AEF = área Δ ADC + área trapecio EFCD
+6 ⋅ 9 (x + 1) ⋅ 4 (x + 1 + 9 ) ⋅ 2
+=
++
+2
+2
+2
+Luego, al resolver esta ecuación obtienes que el valor de x es 5 m .
+Ahora puedes aplicar el teorema de Pitágoras en el triángulo ADB y obtener que:
+
+AB = 4 2 + 52 m = 41 m
+
+La respuesta correcta es la opción B).
+
+– 108 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Como puedes ver, en este problema lo primero que debes hacer es comprender e
+identificar los datos dados tanto en el enunciado como en la figura para plantear
+relaciones entre ellos. Para que visualices estas relaciones, es útil concentrar la
+información en una sola figura, como se hizo en este caso al utilizar el diagrama
+del centro.
+Luego, debes establecer las relaciones que te permitan obtener la medida del
+segmento DB, necesaria para aplicar el teorema de Pitágoras y encontrar la
+medida del segmento AB solicitada en la pregunta. Para ello, tienes varios
+caminos; por ejemplo, utilizar la semejanza de triángulos (Estrategia 1) o usar el
+área de figuras geométricas (Estrategia 2).
+Así, en esta pregunta es fundamental que hayas desarrollado la habilidad de
+Representar, ya que desde la representación debes buscar la mejor estrategia de
+resolución para resolver el problema.
+
+– 109 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 47
+La siguiente figura representa una cancha rectangular de 36 m de largo.
+
+Q
+
+P
+M
+
+A
+
+B
+Largo
+
+Una persona ubicada en la esquina A envía un balón en línea recta a ras
+de piso a otra persona situada en el punto P a 32 m de distancia, mientras
+que las personas ubicadas en la esquina B y en el punto Q realizan el
+mismo ejercicio con otro balón. En cierto instante los balones chocan en el
+punto M .
+Las personas situadas en P y Q están en el mismo borde de la cancha y el
+balón enviado desde A recorre 24 m hasta el choque.
+¿Qué distancia separa a las personas ubicadas en P y en Q ?
+A)
+
+5, 3 m
+
+B)
+
+9m
+
+C)
+
+12 m
+
+D)
+
+27 m
+
+– 110 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategias de resolución
+Estrategia 1: usar el teorema de Thales.
+Para encontrar la distancia que separa a las personas ubicadas en P y en Q ,
+puedes empezar poniendo en la figura los datos dados en el enunciado, como se
+muestra a continuación:
+
+Q
+
+P
+M
+
+A
+
+B
+36 m
+
+Del diagrama anterior puedes concluir que:
+
+MP = AP − AM = 32m − 24 m = 8 m
+Como AB // QP , ya que la cancha es rectangular, puedes aplicar el teorema de
+Thales, de tal manera que obtienes la proporción
+tienes que PQ = 12 m .
+La respuesta correcta es la opción C).
+
+– 111 –
+
+PQ
+36 m
+y al despejar PQ
+=
+8 m 24 m
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar la semejanza de triángulos.
+Otra manera que tienes para determinar la distancia entre las personas ubicadas
+en P y en Q , es a través de la semejanza de triángulos.
+Para seguir esta estrategia debes ubicar en la figura los datos dados en el
+enunciado, como se muestra a continuación:
+
+Q
+
+P
+
+M
+
+A
+
+B
+36 metros
+
+De esta forma, tienes que Δ PQM ∼ Δ ABM por el criterio AA de semejanza de
+QMP =
+BMA por ser ángulos opuestos por el vértice y
+triángulos, ya que
+QPM =
+BAM al ser ángulos alternos internos entre paralelas. Luego, como
+los lados de los triángulos semejantes son proporcionales, puedes escribir la
+
+QP
+BA
+, y al reemplazar por las medidas respectivas, obtienes
+=
+PM AM
+QP 36 m
+=
+.
+8 m 24 m
+
+igualdad
+
+Por último, al despejar QP , obtienes que QP = 12 m .
+La respuesta correcta es la opción C).
+
+– 112 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Como puedes ver en ambas resoluciones, lo primero que debes saber hacer es
+interpretar y ubicar en la figura los datos dados en el enunciado, acción que es de
+mucha utilidad al momento de resolver problemas geométricos.
+Luego, tienes que determinar una relación entre los lados de los triángulos de la
+figura que te permita encontrar la medida del segmento QP. Para encontrar esta
+relación puedes seguir distintos caminos. Uno de ellos es aplicando el teorema de
+Thales, como en la Estrategia 1. Si no conoces este teorema, puedes usar la
+relación que hay entre los lados correspondientes de dos triángulos semejantes,
+como se hizo en la Estrategia 2. Por último, para responder la pregunta, debes
+saber resolver una ecuación lineal simple con coeficientes enteros.
+Para ambas estrategias necesitas haber desarrollado las habilidades de Resolver
+problemas y de Representar.
+
+– 113 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 48
+Un mapa está hecho a escala de 1 : 1.000 .000 .
+¿Cuál es la distancia real que hay entre dos ciudades si en el mapa esta
+distancia es de 30 cm ?
+A)
+
+0,3 km
+
+B)
+
+30 km
+
+C)
+
+300 km
+
+D)
+
+3.000 km
+
+Estrategia de resolución
+Para encontrar la distancia real entre dos ciudades que en el mapa están a 30 cm
+de distancia, puedes aplicar una proporción con la escala dada en el mapa. En
+
+1
+30
+=
+, en la que x es la distancia que estás buscando. Si
+1.000.000
+x
+resuelves la ecuación, obtienes que las ciudades se encuentran a 30.000.000 cm .
+
+este caso
+
+Para
+
+transformar
+
+esta distancia a kilómetros, debes considerar que
+1 km = 100.000 cm . De esta manera, la distancia real en kilómetros entre las dos
+
+ciudades la puedes determinar resolviendo
+
+30.000.000
+km = 300 km .
+100.000
+
+La respuesta correcta es la opción C).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para encontrar la distancia entre las dos ciudades según las condiciones dadas en
+el enunciado, tienes que saber interpretar modelos a escala, además de resolver
+una ecuación lineal simple y escribir una cantidad en distintas unidades de
+medida.
+Este problema plantea una situación rutinaria, en la que debes realizar cálculos
+numéricos directos e interpretar un modelo que permita traspasar medidas reales
+a una representación semejante a la realidad, como lo es un mapa.
+
+– 114 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 49
+A la circunferencia de centro O y radio R se le aplica una homotecia
+con centro O , obteniéndose una circunferencia de centro O y radio r ,
+con R > r , tal como se muestra en la figura adjunta.
+
+r
+
+O
+R
+
+¿Cuál(es) de las siguientes afirmaciones es (son) verdadera(s)?
+I)
+
+La razón de homotecia es distinta de 1 .
+
+II)
+
+La razón de homotecia puede ser negativa.
+
+III)
+
+Si se conoce la razón de homotecia, entonces se conoce la
+razón entre sus radios.
+
+A)
+
+Solo I
+
+B)
+
+Solo I y II
+
+C)
+
+Solo I y III
+
+D)
+
+Solo II y III
+
+E)
+
+I, II y III
+
+– 115 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para determinar la veracidad de las afirmaciones dadas en I), en II) y en III), tienes
+que revisarlas aplicando los conceptos y propiedades de homotecia de figuras
+planas.
+Del enunciado y de la figura tienes que la circunferencia de radio r es la imagen
+de la circunferencia de radio R luego de aplicar una homotecia de centro O , en la
+que ambas circunferencias son concéntricas.
+En I) se dice que la razón de homotecia es distinta de 1 , lo que es verdadero,
+
+R
+= 1 , obteniendo
+r
+que R = r , lo que contradice lo planteado en el enunciado de que R > r .
+
+pues si la razón de homotecia fuera 1 , se debiese cumplir que
+
+La afirmación dada en II) acerca de que la razón de homotecia puede ser negativa
+también es verdadera. Esto, porque si consideras, por ejemplo, que la razón de
+homotecia es −
+
+1
+, obtienes la siguiente figura:
+2
+
+O
+R
+
+Por último, para evaluar si al conocer la razón de homotecia se conoce la razón
+entre sus radios, debes recordar que la imagen de un segmento por una
+homotecia de centro O y razón k es un segmento que tiene k veces su longitud.
+En este caso, k ⋅ R = r , luego k =
+
+r
+, es decir, se cumple lo planteado, por lo que
+R
+
+la afirmación dada en III) es verdadera.
+
+Por el desarrollo anterior, puedes concluir que la respuesta correcta es la
+opción E).
+
+– 116 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para confirmar la veracidad de cada una de las afirmaciones dadas en I), en II) y
+en III), tienes que saber las propiedades de la homotecia. Además, puedes usar
+distintas estrategias utilizadas en matemática para determinar la veracidad de las
+afirmaciones, como suponer de antemano la verdad de una afirmación y ver si a
+partir de ella se obtiene una relación cierta o una contradicción, como se hizo en I).
+Por otra parte, puedes emplear ejemplos que te permitan establecer que una
+relación se puede dar para algunos casos, como se realizó en II). O bien, utilizar el
+significado de un concepto, modelando las relaciones que se pueden establecer,
+como se hizo en III).
+
+– 117 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 50
+Sean A(1, 1) , B(5, 3) y C los vértices de un triángulo.
+Se pueden determinar las coordenadas del vértice C del triángulo si se
+sabe que:
+
+BAC = 90°
+
+(1)
+
+el triángulo es isósceles y el vértice C está en el
+cuarto cuadrante.
+
+(2)
+
+A)
+
+(1) por sí sola
+
+B)
+
+(2) por sí sola
+
+C)
+
+Ambas juntas, (1) y (2)
+
+D)
+
+Cada una por sí sola, (1) ó (2)
+
+E)
+
+Se requiere información adicional
+
+Estrategia de resolución
+Para verificar si las informaciones dadas en (1) y/o en (2) son suficientes para
+determinar las coordenadas del vértice C del triángulo, puedes apoyarte de
+gráficos para facilitar la visualización. En ella, en primer lugar debes ubicar los
+puntos A(1, 1) y B(5, 3) .
+Con la información dada en (1), en la que se indica que BAC = 90 ° , puedes
+ubicar el punto C en infinitas posiciones, que corresponden a los puntos de la
+recta dibujada en azul en el siguiente gráfico, cumpliéndose la condición de que el
+triángulo ABC es rectángulo en C .
+y
+
+C
+C
+
+B
+
+3
+1
+
+A
+1
+C
+
+5
+C
+– 118 –
+
+x
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Te puedes dar cuenta en el gráfico anterior que hay más de un punto que cumple
+dicha condición, por lo que no se pueden identificar las coordenadas del punto C .
+Por lo tanto, la información dada en (1) no es suficiente para responder la
+pregunta.
+Por otro lado, si consideras la información dada en (2), en la que tienes que el
+vértice C está en el cuarto cuadrante y que el triángulo ABC es isósceles,
+puedes construir dos gráficos, uno en que se cumpla que AB = AC , y otro en que
+se cumpla que AB = BC , como se muestra a continuación:
+y
+
+y
+B
+
+3
+1
+
+B
+
+3
+
+A
+
+A
+
+1
+5
+
+1
+
+C
+
+C
+
+C
+
+1C
+
+x
+
+C
+
+5
+C
+
+C
+
+x
+C
+
+A partir de los gráficos puedes concluir que todos los puntos que pertenecen a los
+arcos de circunferencia y que están en el cuarto cuadrante cumplen con las
+condiciones dadas en (2), por lo que no se pueden identificar las coordenadas del
+punto C . De esta manera, la información dada en (2) no es suficiente para
+responder la pregunta.
+Por último, si consideras ambas informaciones, (1) y (2), es decir, que el triángulo
+es rectángulo en el vértice A , que es isósceles, y que el vértice C está en el
+cuarto cuadrante, de tal manera que BC sea su hipotenusa, puedes hacer el
+siguiente gráfico:
+y
+4 unidades
+
+3
+
+B
+
+2 unidades
+
+1
+
+A
+
+5
+
+1
+C
+– 119 –
+
+x
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+En el gráfico anterior tienes que los lados AB y AC del triángulo rectángulo en A
+tienen igual medida, lo que te permite determinar las coordenadas del vértice C
+del Δ ABC .
+Como con ambas informaciones puedes determinar lo solicitado, la respuesta
+correcta es C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este problema pone de manifiesto tu capacidad para analizar los datos del
+problema y evaluar si es posible encontrar un punto en el plano cartesiano a partir
+de las informaciones dadas en (1) y en (2). Para ello, debes ponerte en todos los
+casos que se presentan y establecer qué puntos cumplen con las condiciones
+entregadas.
+Una manera de responder esta pregunta es que realices un bosquejo de la
+situación usando las condiciones dadas en (1), y luego las dadas en (2), como se
+mostró en esta estrategia. Así, resulta más sencillo y más breve que realizar un
+procedimiento algebraico. En este caso, como con las informaciones dadas en (1)
+y en (2) por separado no se puede encontrar lo solicitado, puedes hacer un
+bosquejo que reúna todas las condiciones entregadas en el problema.
+Para lo anterior, debes saber ubicar puntos en el plano cartesiano, identificar cuál
+es el cuarto cuadrante, conocer las características que tiene un triángulo isósceles
+y representar un ángulo recto y segmentos de igual medida.
+Las habilidades que debes haber desarrollado para este tipo de preguntas son las
+de Representar y de Argumentar.
+
+– 120 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 51
+En la tabla adjunta se muestra la distribución de la escala de valoración
+de las notas de los estudiantes de un curso.
+Escala de valoración
+
+Notas
+
+Cantidad de estudiantes
+
+Insuficiente
+
+9
+
+Suficiente
+
+16
+
+Bueno
+
+5
+
+Muy Bueno
+
+6
+
+¿Cuál de las siguientes afirmaciones NO se deduce de la tabla?
+A)
+
+Hay 11 estudiantes que obtuvieron una nota mayor o igual que 5 .
+
+B)
+
+La valoración Suficiente fue la de mayor frecuencia.
+
+C)
+
+Un 25 % de los estudiantes fue valorado con un Insuficiente.
+
+D)
+
+Por lo menos un estudiante consiguió nota 7 .
+
+E)
+
+Hay 27 estudiantes que lograron a lo menos un 4 .
+
+Estrategia de resolución
+Una manera que tienes para responder a la pregunta es analizar cada una de
+las opciones y ver cuál de ellas no se puede deducir de la información dada
+en la tabla y en el enunciado.
+En la opción A) se menciona que hay 11 estudiantes que obtuvieron una nota
+mayor o igual que 5 , lo que puedes determinar sumando las frecuencias de las
+dos últimas filas de la tabla, como se muestra a continuación:
+Escala de valoración
+
+Notas
+
+Cantidad de estudiantes
+
+Insuficiente
+
+9
+
+Suficiente
+
+16
+
+Bueno
+
+5
+
+Muy Bueno
+
+6
+
+– 121 –
+
+5 + 6 = 11
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Por lo tanto, de la información sí se puede deducir que 11 estudiantes obtuvieron
+una nota mayor o igual que 5 y puedes descartar la opción A).
+Si observas la tabla, puedes concluir que la afirmación dada en B) es verdadera,
+ya que la valoración Suficiente es la que tiene la mayor frecuencia, como se
+muestra a continuación:
+Escala de valoración
+
+Notas
+
+Cantidad de estudiantes
+
+Insuficiente
+
+9
+
+Suficiente
+
+16
+
+Bueno
+
+5
+
+Muy Bueno
+
+6
+
+Para analizar la afirmación dada en C), tendrás que verificar si los 9 estudiantes
+que obtuvieron una escala Insuficiente equivalen al 25 % de la cantidad total de
+los estudiantes del curso. Para ello, debes sumar todas los valores de la columna
+de la cantidad de estudiantes, llegando a 9 + 16 + 5 + 6 = 36 estudiantes. Luego,
+
+100 % 36
+, en la que x representa el porcentaje
+=
+x
+9
+que es 9 de 36 , llegando a x = 25 % . Por lo anterior, tienes que la afirmación en
+
+puedes resolver la ecuación
+C) es verdadera.
+
+Con respecto a la afirmación dada en D), no es posible deducirla. En la tabla
+puedes ver que hay 6 estudiantes cuya nota pertenece al intervalo [6, 7] , pero no
+puedes concluir que uno de ellos tenga una nota 7 , pues, por ejemplo, los 6
+estudiantes podrían haber obtenido una nota 6 .
+Por último, en la opción E) debes determinar la cantidad de estudiantes que
+lograron a lo menos un 4 . Esto lo puedes hacer utilizando el siguiente
+procedimiento:
+Escala de valoración
+
+Notas
+
+Cantidad de estudiantes
+
+Insuficiente
+
+9
+
+Suficiente
+
+16
+
+Bueno
+
+5
+
+Muy Bueno
+
+6
+
+– 122 –
+
+Estudiantes con
+a lo menos un :
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Así, te puedes dar cuenta de que la afirmación dada en E) es verdadera.
+Por el desarrollo anterior, la afirmación que no puedes deducir de la tabla es la
+opción D), siendo esta la opción correcta.
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En este caso es fundamental entender e interpretar la información entregada en la
+tabla de la pregunta, reconociendo que la cantidad de estudiantes por intervalo
+corresponde a la frecuencia de estos. Además, debes saber interpretar los
+intervalos que aparecen en dicha tabla para determinar cuáles de ellos son los que
+se requieren considerar para analizar algunas de las afirmaciones dadas en las
+opciones.
+Junto con lo anterior, requieres saber operar con números enteros y aplicar
+conocimientos básicos de porcentaje para evaluar las afirmaciones dadas en las
+opciones.
+Así, debes haber desarrollado las habilidades de Resolver problemas y de
+Representar para responder la pregunta.
+
+– 123 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Pregunta 52
+El dinero que tienen reunido en total tres amigas es $210.000. Se sabe
+que Claudia aportó el doble que María, y que Yasna aportó el doble que
+Claudia.
+¿Cuál es el promedio del dinero aportado por Claudia y Yasna?
+A)
+B)
+C)
+D)
+
+$90.000
+$70.000
+$45.000
+$35.000
+
+Estrategia de resolución
+Para resolver el problema y determinar el promedio del dinero aportado por
+Claudia y Yasna a lo reunido por las tres amigas, puedes plantear y resolver una
+ecuación de primer grado.
+Si asignas por P a lo que aporta María, tienes que Claudia aporta 2 P y Yasna 4 P
+de acuerdo a las relaciones planteadas en el enunciado. Como se sabe que entre
+las tres amigas tienen 7P = $210.000 , al despejar obtienes que P = $30.000 .
+Si reemplazas este valor en las expresiones que representan los aportes de
+Claudia y Yasna, tienes que estas aportan $60.000 y $120.000 , respectivamente.
+Con respecto a lo que aportan en promedio estas dos amigas, tienes que el valor
+es
+
+$60.000 + $120.000 $180.000
+=
+= $90.000 .
+2
+2
+
+La respuesta correcta es la opción A).
+
+– 124 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Este problema presenta una situación en la que debes establecer el dinero que
+aporta cada una de las amigas para determinar el promedio que aportan dos de
+ellas.
+Para ello, debes representar la situación planteada a través de una ecuación de
+primer grado y determinar la cantidad de dinero que aporta cada amiga. Luego,
+tienes que obtener el promedio a partir de una operatoria básica de números
+enteros, como se hizo en la estrategia presentada.
+Así, para responder esta pregunta, debes haber desarrollado las habilidades de
+Resolver problemas y de Representar.
+
+– 125 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 53
+En la siguiente tabla se muestra la distribución de las edades, en años ,
+de un grupo de niños:
+Edad Frecuencia
+2
+
+5
+
+3
+
+6
+
+4
+
+9
+
+5
+
+3
+
+¿Cuál es la mediana de la edad de este grupo de niños?
+A)
+
+3,5 años
+
+B)
+
+4 años
+
+C)
+
+7,5 años
+
+D)
+
+9 años
+
+Algunas estrategias de resolución
+Estrategia 1: listar los datos de la tabla.
+Lo primero que tienes que saber para resolver este problema es recordar que la
+mediana de un grupo impar de datos corresponde al valor central de todos los
+datos cuando estos están ordenados de menor a mayor.
+Luego, si presentas los datos de la tabla ya ordenados de menor a mayor, puedes
+ver que el término central es el que aparece marcado con un óvalo:
+
+2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5
+datos
+
+datos
+
+Entonces, la mediana de la edad de este grupo de niños es 4 años .
+La respuesta correcta es la opción B).
+
+– 126 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia 2: usar la frecuencia acumulada.
+Otra manera que tienes para resolver el problema es que agregues a la tabla
+una columna con la frecuencia acumulada de cada dato, ya que con los valores
+de esta podrás determinar la edad que ocupa la posición central.
+Edad Frecuencia Frecuencia acumulada
+
+2
+
+5
+
+5
+
+3
+
+6
+
+11
+
+4
+
+9
+
+20
+
+5
+
+3
+
+23
+
+Como el total de datos es 23 , número impar, el término central es el que está
+
+23 + 1
+= 12 , luego puedes concluir de la tabla que 11
+2
+niños tienen a lo más 3 años . Por lo tanto, el dato que ocupa la posición 12 es
+4 años .
+
+ubicado en la posición
+
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder esta pregunta, tienes que saber el concepto de mediana de un
+grupo de datos para aplicarlo a la determinación de esta medida de las edades de
+un grupo de niños cuyos valores están presentados en una tabla de frecuencias.
+Esto lo puedes realizar de más de una manera. Lo primero que requieres es
+determinar la cantidad total de datos, reconociendo que esta corresponde a un
+número impar.
+Así, si observas la tabla tienes que la cantidad de datos involucrados en el
+problema son pocos, lo que te permite listarlos ordenadamente y visualizar de una
+forma muy directa cuál es la edad que ocupa la pocisión central de los datos,
+como se realizó en la Estrategia 1.
+Por otro lado, también puedes utilizar tus conocimientos de análisis de datos
+representados en tablas, ya que la obtención de la frecuencia acumulada de cada
+uno de los datos te permite visualizar en cuál de ellos se encuentra el valor
+central, como aparece en la segunda estrategia utilizada.
+– 127 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Por lo anterior, requieres haber desarrollado las habilidades de Representar y
+Resolver problemas.
+
+– 128 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 54
+En la tabla adjunta se muestra la distribución de las horas sin suministro
+eléctrico de un grupo de casas de una villa.
+Horas sin suministro eléctrico
+
+Cantidad de casas afectadas
+
+2
+
+Q
+
+1
+
+P
+
+3
+
+R
+
+Se sabe que el promedio, la mediana y la moda de las horas sin suministro
+eléctrico son iguales y que hay un valor único para la moda.
+¿Cuál de los siguientes gráficos representa las condiciones dadas en el
+enunciado?
+A)
+
+B)
+
+Cantidad de casas afectadas
+
+Cantidad de casas afectadas
+
+Q
+
+P=Q=R
+
+P=R
+
+1
+
+2
+
+3
+
+1
+
+Horas sin suministro eléctrico
+
+C)
+
+D)
+
+Cantidad de casas afectadas
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+Cantidad de casas afectadas
+
+R
+
+P=R
+
+Q
+P
+
+Q
+
+1
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+1
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+– 129 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para resolver el problema, puedes analizar cada uno de los gráficos dados en las
+opciones y determinar en cuál de ellos se cumple que el promedio, la mediana y la
+moda son iguales y que hay un valor único para la moda.
+A)
+
+Cantidad de casas afectadas
+
+P=Q=R
+
+1
+
+2
+
+3
+
+Como la cantidad de casas que estuvieron sin
+suministro eléctrico con
+,
+o
+es
+igual, no existe un número de casas que sea mayor.
+En este caso, se cumple que el promedio y la mediana
+son iguales. Pero no puedes decir que hay un valor
+único para la moda. Por lo tanto, este gráfico no
+representa la situación planteada.
+
+Horas sin suministro eléctrico
+
+B)
+
+En este gráfico puedes observar que la moda es
+, pues es la que tiene mayor frecuencia.
+
+Cantidad de casas afectadas
+
+Si
+
+Q
+
+Q
+
+es
+
+número
+
+par
+
+y
+
+,
+
+entonces
+
+será un número entero, por lo que la
+
+P=R
+
+mediana será el promedio de los datos ubicados en las
+
+1
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+posiciones
+
+y
+
+posiciones está el
+
+, la mediana es
+
+Si
+
+Q
+
+es
+
+número
+
+. Como en ambas
+
+impar
+
+y
+
+.
+,
+
+entonces
+
+no será un número entero, por lo que
+la mediana será el dato ubicado en la posición
+En esta posición está el
+.
+
+.
+
+, por lo que la mediana es
+
+Por último, el promedio es:
+.
+Por lo que, el gráfico de esta opción cumple con las
+condiciones requeridas en el problema.
+
+– 130 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+C)
+Cantidad de casas afectadas
+
+En este gráfico puedes ver que la cantidad
+de casas afectadas de
+y
+sin
+suministro eléctrico es igual, por lo que no
+hay un valor único para la moda.
+
+P=R
+Q
+
+1
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+D)
+
+En este gráfico puedes ver que la moda es
+porque
+.
+
+Cantidad de casas afectadas
+
+R
+
+,
+
+El promedio está dado por la expresión
+
+Q
+P
+
+1
+
+2
+
+3
+
+Horas sin suministro eléctrico
+
+Si el promedio fuese
+que
+
+, entonces se debe cumplir
+, de lo que se obtiene
+lo cual no puede ocurrir ya que
+y
+
+son números enteros positivos.
+
+Luego, el único gráfico que cumple con las restricciones del problema es el
+presentado en la opción B), siendo esta la respuesta correcta.
+
+– 131 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, necesitas recordar qué son la moda, la mediana y el
+promedio y así determinar estas medidas de un grupo de datos presentados en
+una tabla y en un gráfico de barras.
+Para esto, lo primero que debes considerar es la relación que existe entre los
+datos de la tabla y los datos de los gráficos de barras, identificando los elementos
+que lo componen.
+Luego, debes analizar cada uno de los gráficos hasta encontrar el que representa
+la situación planteada. Para ello tienes que usar expresiones algebraicas que
+permitan descartar opciones, como se hizo en la estrategia presentada.
+Para poder interpretar la situación planteada, debes haber desarrollado la
+habilidad de Representar y la habilidad de Resolver problemas.
+
+– 132 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 55
+Considera un grupo de datos numéricos. Si P es el percentil 45 de estos
+datos, ¿cuál de las siguientes afirmaciones se puede deducir?
+A)
+B)
+C)
+
+P es mayor al percentil 40 de estos datos.
+
+La mediana del grupo de datos es mayor que P .
+
+P es menor que el tercer cuartil.
+
+D)
+
+La media aritmética del grupo de datos es mayor que P .
+
+E)
+
+Ninguna de las anteriores.
+
+Estrategia de resolución
+Para responder esta pregunta, debes determinar la veracidad de cada una de las
+afirmaciones dadas en las opciones.
+Puedes considerar un grupo de datos numéricos de tal manera que todos sus
+elementos sean iguales, por ejemplo, formados solo por el número 1 .
+En este ejemplo el percentil 45 es igual al percentil 40, por lo que la afirmación
+dada en A) es falsa.
+La mediana, que es el percentil 50, también es igual al percentil 45 en este
+ejemplo, por lo tanto, la afirmación en B) también es falsa.
+Para determinar la veracidad de la afirmación en C), debes recordar que el tercer
+cuartil corresponde al percentil 75 y en el ejemplo ambos percentiles son iguales,
+entonces la afirmación en esta opción es falsa.
+Lo mismo ocurre con la afirmación dada en D), ya que la media aritmética de los
+datos en este ejemplo es 1 y es igual al percentil 45.
+La respuesta correcta es la opción E).
+
+– 133 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema debes recordar qué son las medidas de posición. En
+este caso en particular, recordar los cuartiles y percentiles, además de las
+medidas de tendencia central, como son la mediana y la media aritmética.
+Una vez que hayas identificado los datos del enunciado, puedes considerar
+contraejemplos para determinar que no necesariamente los percentiles y/o
+cuartiles tienen valores distintos, como se muestra en la estrategia de resolución.
+En ella se usó un grupo de datos iguales, cuyo valor asociado a cada medida de
+posición y cada medida de tendencia central es el mismo.
+Por lo anterior, debes haber desarrollado la habilidad de Resolver problemas y de
+Representar.
+
+– 134 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 56
+En la tabla adjunta se muestra la distribución del Ingreso Promedio
+Familiar (IPF) de un grupo de familias en una pequeña localidad, en la
+que el IPF se calcula como el ingreso total de la familia dividido por el
+número de integrantes.
+IPF en $
+
+Frecuencia
+
+Para una familia de n integrantes con un ingreso total de $ 300 .000 ,
+¿qué condición debe cumplir n para asegurar que el IPF de esa familia
+pertenezca al intervalo en el que está el percentil 50 de los datos?
+A)
+
+2<n≤4
+
+B)
+
+0 <n ≤ 6
+
+C)
+
+4<n≤6
+
+D)
+
+0≤n≤4
+
+Estrategia de resolución
+Una manera que tienes de resolver el problema es encontrar una expresión para
+el IPF de la familia de n integrantes con un ingreso total de $300.000 . Para ello,
+debes comprender la definición dada en el enunciado, esto es, el IPF corresponde
+al ingreso total de la familia dividido por el número de integrantes, es decir, está
+300 .000
+.
+dado por
+n
+Por otro lado, debes recordar que el percentil 50 de un conjunto de datos,
+ordenados de menor a mayor, corresponde al valor en el cual, aproximadamente,
+el 50 % de los valores son menores o iguales que él y, aproximadamente, el
+50 % de los valores son mayores o iguales que él.
+
+– 135 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Para determinar el intervalo en que está el percentil 50 de los datos, debes sumar
+las frecuencias de la tabla, que en este caso es 250 . Luego, el percentil 50 se
+encuentra en el intervalo [50 .000 , 75 .000 [ , ya que en este se acumula hasta el
+50 % de los datos.
+Entonces, el IPF de la familia debe estar en
+
+50.000 ≤
+
+300.000
+< 75.000 .
+n
+
+[50.000, 75.000[ , es decir,
+
+Para determinar entre qué valores debe estar n , puedes realizar el siguiente
+desarrollo:
+multiplicar por
+
+Para que determines qué valor de n cumple con la condición 2 ≤
+
+12
+, puedes
+n
+
+probar con distintos valores y llegarás a que los únicos válidos son lo que cumplen
+con n ≤ 6 . De igual manera, los valores de n que satisfacen la desigualdad
+
+12
+< 3 son n > 4 .
+n
+
+De ambas desigualdades obtienes la condición que debe cumplir n para
+satisfacer lo solicitado en el problema, es decir, 4 < n ≤ 6 .
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En este problema debes recordar lo que es el percentil 50 de un grupo de datos y
+tienes que saber interpretar los datos dados en el enunciado, relacionándolos con
+la información de la tabla. A partir de esto, puedes encontrar una expresión con la
+que, a través de la valoración de ella por números racionales, determines qué
+condición debe cumplir n para asegurar que el IPF de esa familia pertenezca al
+intervalo en el que está el percentil 50 de los datos.
+Para esto es fundamental interpretar la definición del IPF y establecer un modelo
+matemático que permita relacionarlo con el intervalo de la tabla correspondiente al
+percentil 50 de los datos.
+
+– 136 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Para lo anterior debes de haber desarrollado las habilidades de Resolver
+problemas, Modelar y Representar.
+
+– 137 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 57
+El diagrama de cajón adjunto representa la distribución de las edades, de
+un grupo de personas.
+
+8
+
+18
+
+13 14
+
+Edades (en años)
+
+24
+
+¿Cuál de las siguientes afirmaciones se deduce del gráfico?
+A)
+
+Las personas menores de 13 años , junto a las mayores de 18 años ,
+equivalen a un 50 % del grupo.
+
+B)
+
+Ninguna persona tiene 19 años .
+
+C)
+
+Hay solo una persona que tiene 8 años .
+
+D)
+
+Al menos hay 5 personas en el grupo.
+
+– 138 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para responder esta pregunta debes comprender que un diagrama de cajón es
+una manera conveniente de mostrar visualmente la distribución de un grupo de
+datos numéricos. En este se muestran los cuartiles y los valores mínimo y máximo
+del grupo de datos.
+
+8
+
+13 14
+
+18
+
+24
+
+Valor mínimo
+
+Primer Segundo
+cuartil cuartil
+
+Tercer
+cuartil
+
+Valor máximo
+
+En la opción A) se afirma que las personas menores de 13 años , junto a las
+mayores de 18 años , equivalen a un 50 % de las personas del grupo. Esto no lo
+puedes deducir, pues la cantidad de personas en este rango es a lo más 50 % del
+grupo. Un ejemplo del caso anterior lo puedes expresar imaginando que tienes el
+siguiente grupo de datos para representar en el diagrama de cajón dado: 8 , 8 , 10 ,
+13 , 13 , 13 , 14 , 14 , 15 , 16 , 17 , 18 , 19 , 21 , 24 ; en el que 6 personas son parte
+del rango establecido y esta cantidad es menor que el 50 % del grupo.
+Para evaluar la veracidad de la afirmación de B), en el ejemplo anterior se mostró
+que entre 18 años y 24 años se ubica a lo más el 25 % de las personas del
+grupo, por lo tanto, puede haber una persona que tenga 19 años . Esto implica que
+la afirmación dada en B) no se puede deducir.
+Por otro lado, en la opción C) se plantea que solo hay una persona que tiene
+8 años . A partir del gráfico, se sabe que el mínimo dato es 8 años , pero no se
+puede afirmar que solo una persona tenga esta edad. Esto se ejemplifica en el
+caso dado en la opción A), por lo tanto, la afirmación dada en C) tampoco se
+puede deducir.
+Con respecto a la afirmación dada en D), considera a 4 personas y que sus
+edades son P , Q , R y S ordenadas de menor a mayor. Por el diagrama tendrías
+que P = 8 y S = 24 , y como el primer cuartil es 13 puedes escribir, por ejemplo,
+la ecuación
+
+8+Q
+= 13 de la cual obtienes que Q = 18 , lo que no es posible
+2
+
+– 139 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+según este diagrama, pues el segundo dato sería mayor que el segundo cuartil. Lo
+mismo ocurre no importando el método a utilizar.
+Por lo tanto, puedes concluir que por lo menos hay 5 personas en el grupo por las
+edades que se indican en el diagrama de cajón con el valor mínimo, el valor
+máximo y tres valores para los tres cuartiles. Por lo tanto, la afirmación en D) es
+verdadera.
+La respuesta correcta es la opción D).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para determinar la opción correcta, necesitas entender el problema antes de elegir
+las herramientas matemáticas que utilizarás. Para ello, debes saber qué
+representa un diagrama de cajón y a partir de ahí determinar la veracidad de las
+afirmaciones de las opciones, en las que debes evaluar cuál de ellas se puede
+deducir de la interpretación del diagrama dado en el enunciado.
+Es de gran utilidad que relaciones el diagrama de cajón con un ejemplo de un
+grupo de datos numérico que se ajuste a los datos dados en el diagrama. Esto te
+permite visualizar de mejor manera si las deducciones dadas son o no correctas.
+Por lo anterior, queda en evidencia que necesitas haber desarrollado habilidades
+de Resolver problemas y de Representar.
+
+– 140 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 58
+Al lanzar un dado cargado, numerado del 1 al 6 , la probabilidad de que
+salga un número par es el doble de la probabilidad de que salga un
+número impar.
+Si se lanza este dado, ¿cuál es la probabilidad de que salga un número
+impar?
+A)
+B)
+C)
+D)
+E)
+
+1
+9
+
+2
+3
+
+1
+3
+
+1
+4
+
+2
+9
+
+Algunas estrategias de resolución
+Estrategia 1: definir eventos apropiados.
+Una manera que tienes para responder la pregunta es definiendo eventos y
+las probabilidades de obtenerlos.
+Así, en el experimento de lanzar un dado cargado se tienen los eventos:
+A: obtener un número impar.
+B: obtener un número par.
+Además, en el enunciado se indica que la probabilidad de que salga un número
+par es el doble de la probabilidad de que salga un número impar. Entonces,
+puedes escribir P(A) = x y P(B) = 2x .
+Ambas probabilidades deben sumar 1 , por lo tanto, x + 2 x = 1 . Si despejas x en
+la ecuación, obtienes que x =
+
+1
+.
+3
+
+– 141 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Como P(A) = x , puedes concluir que la probabilidad de obtener un número impar
+es
+
+1
+.
+3
+
+La respuesta correcta es la opción C).
+Estrategia 2: calcular la probabilidad de obtener cada número.
+Otra manera que tienes para responder esta pregunta es que te apoyes en una
+tabla como la siguiente, en la cual se destacan con un óvalo los números impares
+y su probabilidad.
+Número obtenido al lanzar el dado cargado
+Probabilidad de obtener el
+número
+Suma de probabilidades
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+x
+
+2x
+
+x
+
+2x
+
+x
+
+2x
+
+x + 2x + x + 2x + x + 2x = 1
+Al despejar en la ecuación anterior se obtiene
+
+Probabilidad de cada uno
+Usando los datos de la tabla, puedes calcular que la probabilidad de obtener
+un número impar al lanzar el dado cargado está dada por
+
+1 1 1 3 1
++ + = = .
+9 9 9 9 3
+
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Al resolver este problema, necesitas determinar la probabilidad de que ocurra un
+evento. Para ello, debes saber interpretar los datos del enunciado y definir los
+eventos más apropiados que te permitirán responder correctamente la pregunta,
+tal como se hizo en la Estrategia 1.
+Otra forma que tienes para enfrentar la pregunta es organizar los datos a través de
+una representación como la tabla planteada en la Estrategia 2, en la que se
+visualiza la probabilidad de obtener cada número al lanzar un dado cargado.
+– 142 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+En ambos casos se necesita haber desarrollado habilidades de Resolver
+problemas y de Representar.
+
+– 143 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 59
+En la tabla adjunta se muestra la distribución de los puntajes obtenidos por
+todos los estudiantes de un curso en una prueba.
+Puntaje Frecuencia
+10
+
+2
+
+20
+
+4
+
+30
+
+10
+
+40
+
+8
+
+50
+
+14
+
+60
+
+4
+
+70
+
+3
+
+Si se selecciona al azar un estudiante de este curso, ¿cuál es la
+probabilidad de que este tenga a lo menos 40 puntos?
+A)
+B)
+C)
+D)
+
+8
+45
+
+16
+45
+24
+45
+29
+45
+
+– 144 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para calcular la probabilidad de que se seleccione al azar un estudiante que haya
+obtenido a lo menos 40 puntos en la prueba, tienes que usar la regla de Laplace.
+Esto significa que debes dividir la cantidad de estudiantes con a lo menos 40
+puntos por la cantidad total de estudiantes.
+Para calcular las cantidades necesarias tienes que utilizar los datos de la tabla
+dada, como se muestra a continuación:
+Puntos Frecuencia
+10
+
+2
+
+20
+
+4
+
+30
+
+10
+
+40
+
+8
+
+50
+
+14
+
+60
+
+4
+
+70
+
+3
+
+Así, la probabilidad pedida es
+
+La cantidad total de personas es
+
+La cantidad de personas con
+a lo menos
+puntos es
+
+29
+, la cual se encuentra en la opción D).
+45
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para resolver este problema, debes recordar la regla de Laplace de las
+probabilidades y ser capaz de extraer información de una tabla, por lo que debes
+de haber desarrollado la habilidad de Representar. Además, es fundamental la
+interpretación que hagas de la condición planteada en la pregunta, pues es lo que
+te permite determinar las frecuencias que necesitas sumar para calcular los casos
+favorables en la determinación de la probabilidad pedida.
+
+– 145 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 60
+En un mazo de cartas de naipe inglés ( 52 cartas), 13 de ellas son de
+trébol. Si se extraen del mazo dos cartas al azar, una después de la otra
+y sin reposición, ¿cuál es la probabilidad de que ambas sean de trébol?
+A)
+B)
+C)
+D)
+E)
+
+13 12
+⋅
+52 51
+
+13 12
+⋅
+52 52
+13 13
+⋅
+52 52
+
+13 13
++
+52 52
+
+13 12
++
+52 51
+
+Estrategia de resolución
+Para calcular la probabilidad de que dos cartas elegidas al azar del mazo sean de
+trébol tienes que usar la regla multiplicativa de las probabilidades. Así, dicha
+probabilidad la puedes calcular como el producto entre la probabilidad de sacar un
+trébol en la primera extracción y la probabilidad de sacar un trébol en la segunda
+extracción.
+La probabilidad de sacar un trébol en la primera extracción la puedes calcular
+usando la regla de Laplace:
+
+cantidad de tréboles en la baraja
+13
+=
+cantidad total de cartas en la baraja 52
+La probabilidad de sacar un trébol en la segunda extracción si en la primera salió
+un trébol, y esta carta no se repuso en el mazo, es:
+
+cantidad de tréboles en la baraja luego de la primera extracción
+12
+=
+cantidad total de cartas en la baraja luego de la primera extracción 51
+Por lo tanto, la probabilidad pedida es
+
+13 12
+⋅ .
+52 51
+
+– 146 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+La respuesta correcta es la opción A).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder esta pregunta, debes comprender la información que se presenta
+en el enunciado, esto es, que en el experimento de sacar dos cartas de un mazo
+puedas determinar la probabilidad de que sean de la misma pinta.
+Luego, podrías determinar la probabilidad pedida aplicando la regla multiplicativa
+de las probabilidades, siendo fundamental la capacidad que debes tener para
+reconocer la cantidad de casos favorables y totales involucrados en cada una de
+las probabilidades que se deben multiplicar. Esto solo lo puedes hacer al
+interpretar correctamente el significado de sin reposición de la carta extraída en la
+primera selección del mazo, lo que implica descontarla en la contabilización de los
+casos favorables y totales en la segunda extracción.
+
+– 147 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 61
+Un estudiante contesta una prueba en que cada pregunta tiene 5 opciones
+y solo una de ellas es la correcta.
+Si responde las 3 últimas preguntas al azar y de manera independiente,
+¿cuál es la probabilidad de tener estas 3 respuestas correctas?
+A)
+
+3
+5
+
+B)
+
+3
+15
+
+C)
+
+1
+ 
+3
+
+5
+
+D)
+
+1
+ 
+5
+
+3
+
+E)
+
+1
+3⋅  
+5
+
+3
+
+Estrategia de resolución
+Para resolver este problema, tienes que comprender e interpretar los datos dados
+en el enunciado y así determinar la probabilidad de que un estudiante responda
+correctamente las tres últimas preguntas de la prueba al azar.
+Como cada pregunta tiene 5 opciones, de las cuales solo una de ellas es la
+correcta, puedes aplicar Laplace para determinar la probabilidad de contestar
+correctamente una pregunta al azar de la siguiente manera:
+
+cantidad de opciones correctas 1
+=
+cantidad total de opciones
+5
+Ahora, como se pide la probabilidad de tener tres respuestas correctas, al
+contestarlas al azar, puedes aplicar la regla multiplicativa de las probabilidades,
+3
+
+1 1 1 1
+donde obtienes ⋅ ⋅ =   .
+5 5 5 5
+
+La respuesta correcta es la opción D).
+
+– 148 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responderla correctamente, debes saber que cada una de las cinco opciones
+de una pregunta tiene la misma probabilidad de ser elegida cuando esta elección
+se hace al azar, es decir, un quinto.
+Luego, debes determinar la probabilidad pedida aplicando la regla multiplicativa
+de las probabilidades representando el resultado a través de una expresión
+que utiliza potencias.
+Así, las habilidades requeridas para encontrar la solución a la situación
+problemática planteada son las de Representar y de Resolver problemas.
+
+– 149 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 62
+Una persona dispone de 12 lápices de distintos colores para dibujar un
+adorno que pegará en un muro. Este adorno estará formado por ocho
+cuadrados, como el que se representa en la siguiente figura:
+
+Cada cuadrado debe ser pintado con alguno de los lápices y dos cuadrados
+seguidos no pueden ser pintados del mismo color.
+¿Cuántos adornos distintos con las características antes mencionadas se
+pueden formar?
+A)
+
+8 ⋅ 12
+
+B)
+
+118
+
+C)
+D)
+
+12 8
+12 ⋅ 117
+
+Estrategia de resolución
+Como en el enunciado se dice que se dispone de 12 lápices de colores para
+realizar un adorno para pegar en un muro, podrían ser los siguientes colores:
+
+Como este adorno está formado por ocho cuadrados y dos cuadrados seguidos no
+pueden ser pintados del mismo color, podrías tener alguno de los siguientes
+ejemplos:
+
+– 150 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Posiciones del adorno
+1ra
+
+2da
+
+3ra
+
+4ta
+
+6ta
+
+5ta
+
+7ma
+
+8va
+
+Sería impracticable colocar todos los ejemplos que se pueden dar para contarlos
+uno a uno, pues son muchos los casos. Por lo que es conveniente usar un
+esquema que represente la cantidad de casos que se pueden dar, como se
+muestra a continuación:
+Posiciones del adorno
+
+12 colores
+
+11 colores
+
+11 colores
+
+11 colores
+
+ta
+5ta 6
+
+7ma
+
+8va
+
+11 colores
+
+4ta
+
+11 colores
+
+3ra
+
+11 colores
+
+2da
+
+11 colores
+
+1ra
+
+distinto color al anterior
+
+Así, en el esquema puedes ver que en la primera posición se podría usar
+cualquiera de los 12 colores disponibles, pero en la segunda posición solo 11 ,
+porque no puede ser de igual color que el elegido para la primera posición. En la
+tercera posición no se puede usar el anterior, pero sí se puede usar el color que se
+puso en la primera posición, por ello son 11 posibilidades nuevamente, y esto se
+repite para el resto de las posiciones.
+Lo anterior lo puedes escribir como 12 ⋅ 11 ⋅ 11 ⋅ 11 ⋅ 11 ⋅ 11 ⋅ 11 ⋅ 11 = 12 ⋅ 117 , que es la
+cantidad de adornos distintos que se podrían formar con las características
+planteadas en el problema.
+La respuesta correcta es la opción D).
+
+– 151 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para responder esta pregunta, debes comprender los datos que te dan en el
+enunciado y así buscar la estrategia de resolución que más te acomode. En la
+estrategia presentada se utiliza un esquema de tal manera que puedas visualizar
+la cantidad de colores que se pueden usar para pintar cada uno de los ocho
+cuadrados que conforman el adorno según la condición dada en el enunciado.
+Luego, a partir de este esquema tienes que reconocer el principio que debes usar
+para encontrar la cantidad total de adornos que podrías formar. En este caso, el
+principio multiplicativo.
+Así, necesitas haber desarrollado las habilidades de Resolver problemas y de
+Representar para enfrentar esta pregunta.
+
+– 152 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 63
+¿Cuántas palabras de 4 letras en total, con sentido y sin él, se pueden
+formar con las letras de la palabra CUADERNO, si las letras no se
+pueden repetir?
+A)
+
+32
+
+B)
+
+8!
+
+C)
+
+4!
+
+D)
+
+70
+
+E)
+
+1 .680
+
+Estrategias de resolución
+Estrategia 1: usar el principio multiplicativo.
+Para resolver este problema, lo primero que debes hacer es comprender que con
+las letras de la palabra CUADERNO puedes formar palabras de 4 letras con
+sentido y sin él, y sin que las letras se repitan, por ejemplo, CUAD o DRCE.
+También tienes que comprender que dos palabras con las mismas letras, pero en
+otro orden, son distintas, por ejemplo, ERNO y NORE.
+Para formar la palabra con las características solicitadas en el problema, tienes 8
+posibilidades para elegir la primera letra; para la segunda tienes 7 posibilidades,
+porque las letras no se pueden repetir; para la tercera letra tienes 6 posibilidades
+y para la última tienes 5 posibilidades.
+Luego, para formar palabras de 4 letras con sentido y sin él y sin que se repitan
+las letras, tienes 8⋅ 7⋅ 6⋅ 5 = 1.680 posibilidades.
+La respuesta correcta es la opción E).
+Estrategia 2: usar arreglo.
+Para responder cuántas palabras de 4 letras en total puedes formar con las letras
+de la palabra CUADERNO, en que las palabras pueden tener sentido o no y las
+letras no se pueden repetir, tienes que entender que esto es equivalente a
+preguntar cuántas palabras de 4 letras distintas se pueden formar con las letras C,
+U, A, D, E, R, N, O; por ejemplo, la palabra CUDR.
+También, debes notar que como se trata de palabras, dos palabras con las
+mismas 4 letras, en distinto orden, se consideran dos palabras distintas. Por
+ejemplo, la palabra CUDR es distinta a la palabra URDC. Por lo tanto, puedes usar
+– 153 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+la fórmula de arreglos para contar el total de palabras de n letras que se pueden
+formar con m letras disponibles, que es
+
+m!
+.
+(m − n )!
+
+Por todo lo anterior, la cantidad de palabras de 4 letras en total que puedes formar
+con las 8 letras de la palabra CUADERNO es
+
+8!
+= 8 ⋅ 7 ⋅ 6 ⋅ 5 = 1.680 .
+(8 − 4)!
+
+La respuesta correcta es la opción E).
+
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En esta pregunta es fundamental la interpretación que realices de la información
+entregada en el problema, especialmente del significado de palabras con sentido y
+sin él, lo que te lleva a deducir que importa el orden en que se colocan las letras
+en la palabra que se quiere formar. Además, debes considerar el hecho de que las
+letras no se pueden repetir.
+A partir de lo antes mencionado, tienes más de un camino para realizar el conteo
+de palabras que se pueden formar. Por un lado, puedes aplicar el principio
+multiplicativo, determinando la cantidad de posibilidades que tienes para escoger
+la letra que ocupará cada una de las posiciones de la palabra, como se realizó en
+la Estrategia 1.
+Por otro lado, puedes usar la fórmula de arreglos, identificando las cantidades
+correctas que debes reemplazar en dicha fórmula, como se hizo en la Estrategia 2.
+Las habilidades que debes poner en juego para responder esta pregunta son la de
+Resolver problemas y de Modelar.
+
+– 154 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 64
+Jacinta tiene 8 libros de matemática, 7 de literatura y 10 de biología.
+¿De cuántas maneras puede escoger 2 libros de cada disciplina para
+llevarlos al colegio?
+A)
+
+ 8   7  10 
+  +   +  
+ 2  2  2 
+
+B)
+
+ 8   7  10
+  ⋅   ⋅  
+ 2  2  2 
+
+C)
+
+ 25   24   23
+  ⋅   ⋅  
+2 2 2
+
+D)
+
+25!
+19!
+
+E)
+
+8! 7! 10!
+⋅ ⋅
+2! 2! 2!
+
+Estrategia de resolución
+Para determinar la cantidad de maneras que tiene Jacinta para escoger 2 libros
+de cada una de las 3 disciplinas, tienes que calcular, en primer lugar, la cantidad
+de grupos de 2 libros distintos que puede seleccionar de cada una.
+Como al escoger 2 libros de una disciplina no importa en qué orden se elijan, para
+realizar el cálculo tienes que usar combinatoria, como te puedes dar cuenta en la
+siguiente tabla:
+Matemática
+
+Literatura
+
+Biología
+
+Cantidad de maneras
+que se pueden
+escoger libros
+
+Como Jacinta quiere escoger 2 libros de matemática, 2 libros de literatura y 2
+libros biología, tienes que usar el principio multiplicativo. Por ello, obtienes
+
+ 8   7  10 
+  ⋅   ⋅   .
+ 2  2  2 
+
+– 155 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+La respuesta correcta es la opción B).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+Para calcular de cuántas maneras se pueden escoger dos libros de cada disciplina
+tienes que interpretar la situación dada en el enunciado como un producto de
+combinatorias y notar que en la elección no importa el orden.
+En este problema solo debes representar la solución a través de una expresión
+matemática sin necesidad de que realices cálculos numéricos. Por lo que solo
+requieres interpretar bien la información planteada en el enunciado para asociarla
+a la técnica de conteo apropiada.
+
+– 156 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+PREGUNTA 65
+En la siguiente tabla se muestra información sobre una muestra de
+datos, tal que M es un número real.
+Intervalo
+
+Frecuencia
+N
+N+1
+N−1
+N
+
+Se puede determinar el valor exacto de M si:
+(1)
+
+se sabe que M = N .
+
+(2)
+
+se conoce la frecuencia del intervalo de mayor
+frecuencia.
+
+A)
+
+(1) por sí sola
+
+B)
+
+(2) por sí sola
+
+C)
+
+Ambas juntas, (1) y (2)
+
+D)
+
+Cada una por sí sola, (1) ó (2)
+
+E)
+
+Se requiere información adicional
+
+– 157 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+Estrategia de resolución
+Para responder esta pregunta, tienes que verificar qué información, dada en (1)
+y/o en (2), es necesaria y suficiente para determinar el valor de M .
+Así, en la información dada en (1) se dice que que M = N , luego al reemplazarlo
+en la tabla obtienes:
+Intervalo
+
+Frecuencia
+N
+N+1
+N−1
+N
+
+Luego, de la tabla no puedes conocer el valor de N al desconocer, por ejemplo, la
+frecuencia total de la distribución y, por ende, tampoco puedes conocer el valor de
+M . Por lo que la información dada en (1) no es suficiente para responder la
+pregunta.
+Por otro lado, en (2) se conoce la frecuencia del intervalo de mayor frecuencia, el
+cual es un número entero positivo, por lo que conocerías el valor de N + 1 , pues
+N + 1 es siempre mayor que N y que N − 1 , ya que N es un número entero
+positivo al ser una frecuencia. Por lo tanto, conocerías el valor de N , pues basta
+restarle 1 al valor de N + 1 . Sin embargo, con dicha información no puedes
+conocer el valor de M , pues esta frecuencia no tiene relación con los valores de
+los intervalos. Entonces, la información dada en (2) no es suficiente para encontrar
+el valor exacto de M .
+Ahora bien, si consideras la información dada en (1) y (2) simultáneamente, sí
+puedes conocer el valor de M , pues con (2) conoces el valor de N y por (1)
+M = N.
+La respuesta correcta es la opción C).
+¿Qué necesitas saber y saber hacer para responder correctamente esta
+pregunta?
+En esta pregunta debes saber interpretar una tabla de frecuencia, en la cual
+tienes que relacionar cada una de las informaciones dadas en (1) y/o en (2)
+para encontrar los valores de las componentes de esta tabla. Debes saber el
+
+– 158 –
+
+– RESOLUCIÓN MODELO DE PRUEBA MATEMÁTICA 2022 –
+
+significado de mayor frecuencia y, además, debes interpretar expresiones
+algebraicas y relacionarlas con orden en los números enteros.
+En esta pregunta tienes que poner en juego tu habilidad de evaluar condiciones
+que sirvan para responder una pregunta sin encontrar la solución exacta.
+
+– 159 –
+
+

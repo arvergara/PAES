@@ -1,0 +1,77 @@
+=== Diagnóstico de la tabla 'questions' ===
+
+Consultando estructura de la tabla 'questions'...
+Encontradas 5 preguntas M2 existentes
+
+Análisis del campo 'active':
+  Pregunta 1: true (tipo: boolean)
+  Pregunta 2: true (tipo: boolean)
+  Pregunta 3: true (tipo: boolean)
+  Pregunta 4: true (tipo: boolean)
+  Pregunta 5: true (tipo: boolean)
+
+Valores en campos clave:
+
+Pregunta 1:
+  area_tematica: "Geometría" (tipo: string)
+  tema: "Razones trigonométricas" (tipo: string)
+  subtema: "null" (tipo: object)
+  habilidad: "Geometría" (tipo: string)
+
+Pregunta 2:
+  area_tematica: "Probabilidad y Estadística" (tipo: string)
+  tema: "Probabilidad condicional" (tipo: string)
+  subtema: "null" (tipo: object)
+  habilidad: "Probabilidad" (tipo: string)
+
+Pregunta 3:
+  area_tematica: "Geometría" (tipo: string)
+  tema: "Razones trigonométricas" (tipo: string)
+  subtema: "null" (tipo: object)
+  habilidad: "Geometría" (tipo: string)
+
+Pregunta 4:
+  area_tematica: "Probabilidad y Estadística" (tipo: string)
+  tema: "Probabilidad condicional" (tipo: string)
+  subtema: "null" (tipo: object)
+  habilidad: "Probabilidad" (tipo: string)
+
+Pregunta 5:
+  area_tematica: "Geometría" (tipo: string)
+  tema: "Razones trigonométricas" (tipo: string)
+  subtema: "null" (tipo: object)
+  habilidad: "Geometría" (tipo: string)
+
+Valores únicos en cada campo:
+  area_tematica: ["Geometría","Probabilidad y Estadística"]
+  tema: ["Razones trigonométricas","Probabilidad condicional"]
+  subtema: []
+  habilidad: ["Geometría","Probabilidad"]
+
+Estructura completa de una pregunta M2:
+{
+  "id": "8cdc0863-275b-4828-bcd8-64d5ca45dad1",
+  "subject": "M2",
+  "content": "En un triángulo rectángulo, si un cateto mide 3 y la hipotenusa mide 5, ¿cuánto mide el otro cateto?",
+  "options": {
+    "a": "2",
+    "b": "3",
+    "c": "4",
+    "d": "5"
+  },
+  "correct_answer": "c",
+  "explanation": "Por el teorema de Pitágoras: 3² + x² = 5². Por lo tanto, x² = 25 - 9 = 16, entonces x = 4",
+  "habilidad": "Geometría",
+  "difficulty": 2,
+  "created_at": "2025-03-20T21:55:19.022593+00:00",
+  "active": true,
+  "area_tematica": "Geometría",
+  "tema": "Razones trigonométricas",
+  "subtema": null,
+  "origen": null
+}
+
+Buscando la restricción 'valid_subject_structure'...
+No se pudo obtener la definición de la restricción: Could not find the function public.pg_get_constraintdef(constraint_oid) in the schema cache
+
+Diagnóstico completo. Resultados guardados en: /Users/alfil/Mi unidad/5_PAES/simulador-paes/project/diagnostico_tabla.txt

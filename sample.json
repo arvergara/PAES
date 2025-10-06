@@ -1,0 +1,40 @@
+[
+  {
+    "content": "Un granjero tiene un terreno rectangular. El largo del terreno es 5 metros más el doble del ancho. Si el perímetro del terreno es de 70 metros, ¿cuál es el ancho del terreno?",
+    "options": {
+      "a": "10 metros",
+      "b": "15 metros",
+      "c": "20 metros",
+      "d": "25 metros"
+    },
+    "correct_answer": "b",
+    "explanation": "Sea 'x' el ancho del terreno. El largo del terreno se expresa como '2x + 5'. El perímetro de un rectángulo es 2*(largo + ancho). Por lo tanto, 2*(2x + 5 + x) = 70. Simplificando la ecuación, tenemos 2*(3x + 5) = 70, lo que resulta en 6x + 10 = 70. Restando 10 a ambos lados, obtenemos 6x = 60. Dividiendo ambos lados por 6, encontramos que x = 10.  Por lo tanto, el ancho del terreno es de 10 metros.\n\n*Opción a (10 metros):* Si el ancho fuera 10 metros, el largo sería 2(10) + 5 = 25 metros. El perímetro sería 2(10 + 25) = 70 metros. Esta es la respuesta correcta.\n*Opción b (15 metros):* Si el ancho fuera 15 metros, el largo sería 2(15) + 5 = 35 metros. El perímetro sería 2(15 + 35) = 100 metros, lo cual es incorrecto.\n*Opción c (20 metros):* Si el ancho fuera 20 metros, el largo sería 2(20) + 5 = 45 metros. El perímetro sería 2(20 + 45) = 130 metros, lo cual es incorrecto.\n*Opción d (25 metros):* Si el ancho fuera 25 metros, el largo sería 2(25) + 5 = 55 metros. El perímetro sería 2(25 + 55) = 160 metros, lo cual es incorrecto.",
+    "area_tematica": "Álgebra y Funciones",
+    "tema": "Ecuaciones e inecuaciones de primer grado",
+    "subtema": "Resolución de ecuaciones lineales e inecuaciones",
+    "difficulty": 3,
+    "subject": "M1",
+    "active": true,
+    "id": 1742529622159,
+    "created_at": "2025-03-21T04:00:22.053Z"
+  },
+  {
+    "content": "Un artesano vende pulseras a un precio de $2.500 cada una. Sus costos fijos mensuales son de $50.000.  Si el artesano desea obtener una utilidad mensual de al menos $25.000, ¿cuál es el número mínimo de pulseras que debe vender en un mes?",
+    "options": {
+      "a": "20",
+      "b": "25",
+      "c": "30",
+      "d": "35"
+    },
+    "correct_answer": "c",
+    "explanation": "La utilidad se calcula como Ingresos - Costos.  Los ingresos son el precio por pulsera multiplicado por el número de pulseras vendidas.  Queremos que la utilidad sea de al menos $25.000.  Esto se traduce en la inecuación: 2500x - 50000 ≥ 25000, donde x es el número de pulseras. Resolviendo la inecuación: 2500x ≥ 75000,  x ≥ 30.  Por lo tanto, el artesano debe vender al menos 30 pulseras. \n\nOpción a (20): Si vende 20 pulseras, sus ingresos serían $50.000, lo que cubriría los costos fijos, pero no generaría utilidad. \nOpción b (25): Si vende 25 pulseras, sus ingresos serían $62.500, lo que generaría una utilidad de $12.500, que es menor a los $25.000 deseados. \nOpción d (35): Si vende 35 pulseras, sus ingresos serían $87.500, lo que generaría una utilidad de $37.500, que es mayor a los $25.000 deseados, pero no es el mínimo requerido.",
+    "area_tematica": "Álgebra y Funciones",
+    "tema": "Ecuaciones e inecuaciones de primer grado",
+    "subtema": "Resolución gráfica y algebraica",
+    "difficulty": 3,
+    "subject": "M1",
+    "active": true,
+    "id": 1742529750792,
+    "created_at": "2025-03-21T04:02:30.234Z"
+  }
+]
