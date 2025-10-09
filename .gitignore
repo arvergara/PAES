@@ -37,3 +37,4 @@ pruebas/*.json
 # Supabase local
 .branches
 .temp
+.vercel
