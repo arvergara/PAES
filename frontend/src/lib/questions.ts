@@ -24,8 +24,6 @@ const VIEW_SELECT = `
   image_details,
   image_count,
   table_count,
-  ai_classification,
-  classification_confidence,
   metadata
 `;
 
@@ -43,8 +41,6 @@ const TABLE_SELECT = `
   habilidad,
   has_visual_content,
   images,
-  ai_classification,
-  classification_confidence,
   metadata
 `;
 
@@ -244,8 +240,6 @@ function mapQuestion(row: any): Question {
     image_details: images,
     imageCount: row.image_count ?? images?.length ?? 0,
     tableCount: row.table_count ?? 0,
-    ai_classification: row.ai_classification || undefined,
-    classification_confidence: row.classification_confidence || undefined,
     metadata: row.metadata || undefined,
   };
 }

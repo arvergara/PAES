@@ -13,6 +13,19 @@ interface TestModeProps {
   onExit: () => void;
 }
 
+const SESSION_STORAGE_KEY = 'paes_test_session';
+
+interface TestSession {
+  subject: Subject;
+  questions: Question[];
+  currentQuestionIndex: number;
+  correctAnswers: number;
+  startTime: number;
+  sessionId: string | null;
+  questionStartTime: number;
+  answers: Record<number, string>;
+}
+
 export function TestMode({ subject, onExit }: TestModeProps) {
   const { user } = useAuth();
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -21,11 +34,12 @@ export function TestMode({ subject, onExit }: TestModeProps) {
   const [showExplanation, setShowExplanation] = useState(false);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [startTime] = useState(Date.now());
+  const [startTime, setStartTime] = useState(Date.now());
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
+  const [answers, setAnswers] = useState<Record<number, string>>({});
 
   const loadQuestions = useCallback(async () => {
     try {
@@ -93,7 +107,24 @@ export function TestMode({ subject, onExit }: TestModeProps) {
     }
   }, [user, subject]);
 
-  // Initialize test session
+  // Save session to localStorage whenever it changes
+  useEffect(() => {
+    if (questions.length > 0 && !isFinished) {
+      const session: TestSession = {
+        subject,
+        questions,
+        currentQuestionIndex,
+        correctAnswers,
+        startTime,
+        sessionId,
+        questionStartTime,
+        answers,
+      };
+      localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(session));
+    }
+  }, [subject, questions, currentQuestionIndex, correctAnswers, startTime, sessionId, questionStartTime, answers, isFinished]);
+
+  // Initialize test session - check for existing session first
   useEffect(() => {
     let mounted = true;
 
@@ -103,6 +134,31 @@ export function TestMode({ subject, onExit }: TestModeProps) {
       setError(null);
 
       try {
+        // Check for existing session in localStorage
+        const savedSession = localStorage.getItem(SESSION_STORAGE_KEY);
+
+        if (savedSession) {
+          const session: TestSession = JSON.parse(savedSession);
+
+          // Only restore if it's the same subject
+          if (session.subject === subject) {
+            setQuestions(session.questions);
+            setCurrentQuestionIndex(session.currentQuestionIndex);
+            setCorrectAnswers(session.correctAnswers);
+            setStartTime(session.startTime);
+            setSessionId(session.sessionId);
+            setQuestionStartTime(session.questionStartTime);
+            setAnswers(session.answers);
+            setCurrentAnswer(session.answers[session.currentQuestionIndex] || null);
+            setShowExplanation(!!session.answers[session.currentQuestionIndex]);
+
+            toast.success('Sesión restaurada');
+            setLoading(false);
+            return;
+          }
+        }
+
+        // No saved session, create new one
         const selectedQuestions = await loadQuestions();
         if (!mounted) return;
 
@@ -111,6 +167,8 @@ export function TestMode({ subject, onExit }: TestModeProps) {
 
         setQuestions(selectedQuestions);
         setSessionId(newSessionId);
+        setStartTime(Date.now());
+        setQuestionStartTime(Date.now());
       } catch (error) {
         if (!mounted) return;
         console.error('Error initializing test:', error);
@@ -128,7 +186,7 @@ export function TestMode({ subject, onExit }: TestModeProps) {
     return () => {
       mounted = false;
     };
-  }, [loadQuestions, createSession]);
+  }, [subject, loadQuestions, createSession]);
 
   const saveQuestionAttempt = async (answer: string, isCorrect: boolean) => {
     if (!user || !sessionId) return;
@@ -181,10 +239,18 @@ export function TestMode({ subject, onExit }: TestModeProps) {
 
   const handleAnswer = async (answer: string) => {
     const isCorrect = answer === questions[currentQuestionIndex].correctAnswer;
-    if (isCorrect) {
+
+    // Save answer to state
+    setAnswers(prev => ({
+      ...prev,
+      [currentQuestionIndex]: answer
+    }));
+
+    if (isCorrect && !answers[currentQuestionIndex]) {
+      // Only increment if this question wasn't answered correctly before
       setCorrectAnswers((prev) => prev + 1);
     }
-    
+
     setCurrentAnswer(answer);
     setShowExplanation(true);
     await saveQuestionAttempt(answer, isCorrect);
@@ -192,13 +258,16 @@ export function TestMode({ subject, onExit }: TestModeProps) {
 
   const handleNext = async () => {
     if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex((prev) => prev + 1);
-      setCurrentAnswer(null);
-      setShowExplanation(false);
+      const nextIndex = currentQuestionIndex + 1;
+      setCurrentQuestionIndex(nextIndex);
+      setCurrentAnswer(answers[nextIndex] || null);
+      setShowExplanation(!!answers[nextIndex]);
       setQuestionStartTime(Date.now());
     } else {
       await updateSession();
       setIsFinished(true);
+      // Clear session from localStorage when finished
+      localStorage.removeItem(SESSION_STORAGE_KEY);
     }
   };
 
@@ -272,6 +341,13 @@ export function TestMode({ subject, onExit }: TestModeProps) {
   const totalQuestions = questions.length;
   const timePerQuestion = Math.round(2.16); // 2.16 minutes per question
 
+  const handleRestart = () => {
+    if (window.confirm('¿Estás seguro de que quieres reiniciar? Se perderá tu progreso actual.')) {
+      localStorage.removeItem(SESSION_STORAGE_KEY);
+      window.location.reload();
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-4rem)]">
       <div className="flex justify-between items-center mb-8">
@@ -282,6 +358,12 @@ export function TestMode({ subject, onExit }: TestModeProps) {
           >
             <Home className="h-5 w-5" />
             <span>Inicio</span>
+          </button>
+          <button
+            onClick={handleRestart}
+            className="text-sm text-gray-500 hover:text-indigo-600 transition-colors"
+          >
+            Reiniciar sesión
           </button>
           <Timer
             totalMinutes={timePerQuestion}
