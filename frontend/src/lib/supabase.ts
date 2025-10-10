@@ -15,4 +15,4 @@ export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
     persistSession: true,
     storage: window.localStorage
   }
-});
+});Thu Oct  9 23:31:25 -03 2025
