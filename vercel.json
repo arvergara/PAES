@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm --prefix frontend install && npm --prefix frontend run build",
+  "buildCommand": "cd frontend && npm install && VITE_SUPABASE_URL=$VITE_SUPABASE_URL VITE_SUPABASE_ANON_KEY=$VITE_SUPABASE_ANON_KEY npm run build",
   "outputDirectory": "frontend/dist",
-  "installCommand": "echo 'Skipping install'",
+  "installCommand": "echo 'Skip'",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
