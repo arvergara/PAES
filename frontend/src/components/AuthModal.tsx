@@ -9,11 +9,12 @@ interface AuthModalProps {
   mode: 'login' | 'register';
 }
 
-export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
+export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [loading, setLoading] = useState(false);
+  const [mode, setMode] = useState<'login' | 'register' | 'reset'>(initialMode);
 
   if (!isOpen) return null;
 
@@ -22,8 +23,17 @@ export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
     setLoading(true);
 
     try {
-      if (mode === 'register') {
-        const { error: signUpError } = await supabase.auth.signUp({
+      if (mode === 'reset') {
+        const { error } = await supabase.auth.resetPasswordForEmail(email, {
+          redirectTo: `${window.location.origin}/reset-password`,
+        });
+
+        if (error) throw error;
+
+        toast.success('Revisa tu email para restablecer tu contraseña');
+        setMode('login');
+      } else if (mode === 'register') {
+        const { error: signUpError, data } = await supabase.auth.signUp({
           email,
           password,
           options: {
@@ -34,23 +44,42 @@ export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
           },
         });
 
-        if (signUpError) throw signUpError;
+        if (signUpError) {
+          // Mensaje más descriptivo
+          if (signUpError.message.includes('already registered')) {
+            throw new Error('Este email ya está registrado. Inicia sesión o recupera tu contraseña.');
+          }
+          throw signUpError;
+        }
 
-        toast.success('¡Registro exitoso! Ya puedes iniciar sesión.');
-        onClose();
+        if (data.user) {
+          toast.success('¡Registro exitoso! Ya puedes iniciar sesión.');
+          setMode('login');
+        }
       } else {
         const { error: signInError } = await supabase.auth.signInWithPassword({
           email,
           password,
         });
 
-        if (signInError) throw signInError;
+        if (signInError) {
+          // Mensajes más descriptivos
+          if (signInError.message.includes('Invalid login credentials')) {
+            throw new Error('Email o contraseña incorrectos');
+          }
+          if (signInError.message.includes('Email not confirmed')) {
+            throw new Error('Debes confirmar tu email antes de iniciar sesión');
+          }
+          throw signInError;
+        }
 
         toast.success('¡Bienvenido de vuelta!');
         onClose();
       }
     } catch (error) {
-      toast.error(error instanceof Error ? error.message : 'Ocurrió un error');
+      console.error('Auth error:', error);
+      const message = error instanceof Error ? error.message : 'Ocurrió un error';
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -68,7 +97,9 @@ export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
 
         <div className="p-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            {mode === 'login' ? 'Iniciar Sesión' : 'Registrarse'}
+            {mode === 'login' && 'Iniciar Sesión'}
+            {mode === 'register' && 'Registrarse'}
+            {mode === 'reset' && 'Recuperar Contraseña'}
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -82,7 +113,7 @@ export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
                   required
                 />
               </div>
@@ -97,33 +128,68 @@ export function AuthModal({ isOpen, onClose, mode }: AuthModalProps) {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
                 required
               />
             </div>
 
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                Contraseña
-              </label>
-              <input
-                type="password"
-                id="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                required
-                minLength={6}
-              />
-            </div>
+            {mode !== 'reset' && (
+              <div>
+                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                  Contraseña
+                </label>
+                <input
+                  type="password"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
+                  required
+                  minLength={6}
+                />
+              </div>
+            )}
 
             <button
               type="submit"
               disabled={loading}
               className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {loading ? 'Cargando...' : mode === 'login' ? 'Iniciar Sesión' : 'Registrarse'}
+              {loading ? 'Cargando...' : mode === 'login' ? 'Iniciar Sesión' : mode === 'register' ? 'Registrarse' : 'Enviar'}
             </button>
+
+            <div className="text-sm text-center space-y-2">
+              {mode === 'login' && (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => setMode('reset')}
+                    className="text-indigo-600 hover:text-indigo-500"
+                  >
+                    ¿Olvidaste tu contraseña?
+                  </button>
+                  <div>
+                    <span className="text-gray-600">¿No tienes cuenta? </span>
+                    <button
+                      type="button"
+                      onClick={() => setMode('register')}
+                      className="text-indigo-600 hover:text-indigo-500"
+                    >
+                      Regístrate
+                    </button>
+                  </div>
+                </>
+              )}
+              {(mode === 'register' || mode === 'reset') && (
+                <button
+                  type="button"
+                  onClick={() => setMode('login')}
+                  className="text-indigo-600 hover:text-indigo-500"
+                >
+                  Volver a iniciar sesión
+                </button>
+              )}
+            </div>
           </form>
         </div>
       </div>
