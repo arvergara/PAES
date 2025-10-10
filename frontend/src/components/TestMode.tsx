@@ -201,7 +201,7 @@ export function TestMode({ subject, onExit }: TestModeProps) {
         question_id: currentQuestion.id,
         subject: currentQuestion.subject,
         mode: 'TEST',
-        area_tematica: currentQuestion.areaTematica,
+        area_tematica: currentQuestion.area_tematica || currentQuestion.areaTematica,
         tema: currentQuestion.tema,
         subtema: currentQuestion.subtema,
         answer,
