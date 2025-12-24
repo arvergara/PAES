@@ -1,286 +1,171 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import clsx from 'clsx';
-import {
-  Image as ImageIcon,
-  BarChart3,
-  Table,
-  FileImage,
-  FileText,
-  FileSpreadsheet,
-} from 'lucide-react';
-import type { Question, QuestionImage, QuestionTable } from '../types';
-import { getTablesForQuestion } from '../lib/questions';
+import { useState, useEffect } from 'react';
+import { Lightbulb } from 'lucide-react';
+import { useThemeColors } from '../hooks/useThemeColors';
+import type { Question } from '../types';
+
+const SUPABASE_STORAGE_URL = 'https://bmsmmlymsjpydpealmcw.supabase.co/storage/v1/object/public/questions-images';
 
 interface QuestionViewProps {
   question: Question;
-  currentAnswer: string | null;
   onAnswer: (answer: string) => void;
+  showResult?: boolean;
+  selectedAnswer?: string | null;
+  currentAnswer?: string | null;
   showExplanation?: boolean;
 }
 
-const confidenceColor = (confidence?: number) => {
-  if (confidence === undefined) return 'bg-yellow-100 text-yellow-700';
-  if (confidence >= 0.75) return 'bg-emerald-100 text-emerald-700';
-  if (confidence >= 0.5) return 'bg-yellow-100 text-yellow-700';
-  return 'bg-red-100 text-red-700';
-};
-
-export function QuestionView({
-  question,
-  currentAnswer,
-  onAnswer,
-  showExplanation = false,
-}: QuestionViewProps) {
-  const [tables, setTables] = useState<QuestionTable[]>(question.tables || []);
-  const [loadingTables, setLoadingTables] = useState(false);
-  const [tablesError, setTablesError] = useState<string | null>(null);
-
-  const options = useMemo(() => {
-    const entries = Object.entries(question.options || {})
-      .filter(([, value]) => typeof value === 'string' && value.trim().length > 0)
-      .sort(([a], [b]) => a.localeCompare(b));
-    return entries;
-  }, [question.options]);
-  const hasOptions = options.length > 0;
-
-  const images = question.image_details || question.images || [];
-  const hasImages = images.length > 0;
-
-  const getImageIcon = (type: QuestionImage['type']) => {
-    switch (type) {
-      case 'diagram':
-        return <FileImage className="w-4 h-4" />;
-      case 'graph':
-        return <BarChart3 className="w-4 h-4" />;
-      case 'table':
-        return <Table className="w-4 h-4" />;
-      default:
-        return <ImageIcon className="w-4 h-4" />;
-    }
-  };
-
-  const getImageTypeLabel = (type: QuestionImage['type']) => {
-    switch (type) {
-      case 'diagram':
-        return 'Diagrama';
-      case 'graph':
-        return 'Gráfico';
-      case 'table':
-        return 'Tabla';
-      case 'icon':
-        return 'Icono';
-      default:
-        return 'Imagen';
-    }
-  };
-
+export function QuestionView({ question, onAnswer, showResult = false, selectedAnswer, currentAnswer, showExplanation }: QuestionViewProps) {
+  const [imageError, setImageError] = useState(false);
+  const colors = useThemeColors();
+  
+  const answer = currentAnswer ?? selectedAnswer ?? null;
+  const shouldShowResult = showResult || showExplanation;
+  
   useEffect(() => {
-    let isMounted = true;
+    setImageError(false);
+  }, [question.id]);
 
-    const fetchTables = async () => {
-      if (!question.tableCount || question.tableCount === 0 || (question.tables && question.tables.length)) {
-        setTables(question.tables || []);
-        setTablesError(null);
-        setLoadingTables(false);
-        return;
+  // Para M2: usar formato simple con botones circulares
+  const isM2 = question.subject === 'M2';
+  
+  // Obtener opciones disponibles
+  const allOptions = ['a', 'b', 'c', 'd', 'e'];
+  const availableOptions = allOptions.filter(option => {
+    const optionValue = question.options?.[option];
+    return optionValue && optionValue.trim() !== '';
+  });
+
+  // Si no hay opciones con contenido, mostrar A-D por defecto para M2
+  const optionsToShow = isM2 
+    ? (availableOptions.length > 0 ? availableOptions : ['a', 'b', 'c', 'd'])
+    : availableOptions;
+  
+  const getCircleButtonClass = (option: string) => {
+    const baseClass = "w-16 h-16 rounded-full border-2 transition-all duration-200 flex items-center justify-center font-bold text-xl";
+    
+    if (!shouldShowResult) {
+      if (answer === option) {
+        return `${baseClass} ${colors.selected} text-white ring-4 ${colors.selectedRing} scale-110`;
       }
+      return `${baseClass} border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 ${colors.hover} text-gray-700 dark:text-gray-200 cursor-pointer shadow-sm hover:shadow-md`;
+    }
+    
+    if (option === question.correctAnswer.toLowerCase()) {
+      return `${baseClass} border-green-500 bg-green-500 text-white`;
+    }
+    if (answer === option && option !== question.correctAnswer.toLowerCase()) {
+      return `${baseClass} border-red-500 bg-red-500 text-white`;
+    }
+    return `${baseClass} border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 text-gray-400 cursor-not-allowed`;
+  };
 
-      try {
-        setLoadingTables(true);
-        setTablesError(null);
-        const tableData = await getTablesForQuestion(question.id);
-        if (isMounted) {
-          setTables(tableData);
-        }
-      } catch (error) {
-        console.error('Error loading tables:', error);
-        if (isMounted) {
-          setTablesError('No fue posible cargar las tablas asociadas');
-        }
-      } finally {
-        if (isMounted) {
-          setLoadingTables(false);
-        }
+  const getOptionButtonClass = (option: string) => {
+    const baseClass = "w-full p-4 rounded-xl border transition-all duration-200 text-left flex items-start gap-4";
+    
+    if (!shouldShowResult) {
+      if (answer === option) {
+        return `${baseClass} ${colors.optionBg} ring-2`;
       }
-    };
-
-    fetchTables();
-
-    return () => {
-      isMounted = false;
-    };
-  }, [question.id, question.tableCount, question.tables]);
-
-  const classificationConfidence = question.classification_confidence ?? question.ai_classification?.overall_confidence;
-  const metadata = (question.metadata ?? {}) as Record<string, unknown>;
-  const pdfSource = typeof metadata.pdf_source === 'string' ? metadata.pdf_source : undefined;
-  const pageNumber = typeof metadata.page_number === 'number' ? metadata.page_number : undefined;
-  const questionNumber = typeof metadata.question_number === 'number' ? metadata.question_number : undefined;
-
-  const confidenceLabel = classificationConfidence !== undefined ? `${(classificationConfidence * 100).toFixed(1)}%` : null;
+      return `${baseClass} border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 ${colors.hover} cursor-pointer shadow-sm hover:shadow-md`;
+    }
+    
+    if (option === question.correctAnswer.toLowerCase()) {
+      return `${baseClass} border-green-400 bg-green-50 dark:bg-green-900/30`;
+    }
+    if (answer === option && option !== question.correctAnswer.toLowerCase()) {
+      return `${baseClass} border-red-400 bg-red-50 dark:bg-red-900/30`;
+    }
+    return `${baseClass} border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 opacity-60`;
+  };
 
   return (
-    <div className="flex flex-col min-h-[calc(100vh-16rem)]">
-      <div className="w-full max-w-3xl mx-auto bg-white rounded-xl shadow-md p-6 mb-4">
-        {(pdfSource || questionNumber !== undefined || pageNumber !== undefined) && (
-          <div className="flex flex-wrap gap-2 mb-4 text-sm text-gray-600">
-            {pdfSource && (
-              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100">
-                <FileText className="w-4 h-4" />
-                {pdfSource}
-              </span>
-            )}
-            {questionNumber !== undefined && (
-              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100">
-                🔢 Pregunta {questionNumber}
-              </span>
-            )}
-            {pageNumber !== undefined && (
-              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-100">
-                📄 Página {pageNumber}
-              </span>
-            )}
-          </div>
-        )}
-
-        {(question.area_tematica || question.tema) && (
-          <div className="mb-4 flex flex-wrap gap-2">
-            {question.area_tematica && (
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-                📚 {question.area_tematica}
-              </span>
-            )}
-            {question.tema && (
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                📖 {question.tema}
-              </span>
-            )}
-            {question.habilidad && (
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                🎯 {question.habilidad}
-              </span>
-            )}
-            {confidenceLabel && (
-              <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${confidenceColor(classificationConfidence)}`}>
-                🔍 Confianza {confidenceLabel}
-              </span>
-            )}
-          </div>
-        )}
-
-        <div className="prose max-w-none mb-6">
-          <p className="text-lg text-gray-800 whitespace-pre-line">{question.content}</p>
+    <div className="max-w-4xl mx-auto">
+      {/* Imagen de la pregunta (principalmente para M2) */}
+      {question.image_url && !imageError ? (
+        <div className="mb-6 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-hidden p-3">
+          <img
+            src={`${SUPABASE_STORAGE_URL}/${question.image_url}`}
+            alt={`Pregunta ${question.question_number}`}
+            className="w-full h-auto rounded bg-white"
+            onError={() => setImageError(true)}
+          />
         </div>
+      ) : (
+        <div className="mb-6 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+          <p className="text-lg text-gray-900 dark:text-gray-100 whitespace-pre-wrap">{question.content}</p>
+        </div>
+      )}
 
-        {hasImages && (
-          <div className="mb-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {images.map((image, index) => (
-                <div key={image.id || index} className="relative group">
-                  <div className="bg-gray-50 rounded-lg p-2 border border-gray-200">
-                    <img
-                      src={image.url}
-                      alt={image.alt || `${getImageTypeLabel(image.type)} ${index + 1}`}
-                      className="w-full h-auto rounded shadow-sm"
-                      loading="lazy"
-                    />
-                    <div className="mt-2 flex items-center justify-center text-sm text-gray-600">
-                      {getImageIcon(image.type)}
-                      <span className="ml-1">{getImageTypeLabel(image.type)}</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {question.tableCount && question.tableCount > 0 && (
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-3 text-gray-700">
-              <FileSpreadsheet className="w-4 h-4" />
-              <span className="font-semibold">Tablas asociadas ({question.tableCount})</span>
-            </div>
-
-            {loadingTables && <div className="text-sm text-gray-500">Cargando tablas...</div>}
-            {tablesError && <div className="text-sm text-red-600">{tablesError}</div>}
-
-            {!loadingTables && !tablesError && tables.length === 0 && (
-              <div className="text-sm text-gray-500">
-                No se encontraron tablas disponibles para esta pregunta.
-              </div>
-            )}
-
-            <div className="space-y-4">
-              {tables.map((table) => (
-                <div key={table.id} className="overflow-x-auto border border-gray-200 rounded-lg">
-                  {typeof table.page_number === 'number' && (
-                    <div className="px-4 py-2 text-xs text-gray-500 bg-gray-50 border-b border-gray-200">
-                      Página {table.page_number}
-                    </div>
-                  )}
-                  <table className="min-w-full divide-y divide-gray-200 text-sm">
-                    <tbody>
-                      {table.table_content.map((row, rowIndex) => (
-                        <tr key={`${table.id}-${rowIndex}`} className="divide-x divide-gray-200">
-                          {row.map((cell, cellIndex) => (
-                            <td
-                              key={`${table.id}-${rowIndex}-${cellIndex}`}
-                              className="px-3 py-2 whitespace-pre-wrap align-top"
-                            >
-                              {cell}
-                            </td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
+      {/* Opciones de respuesta */}
+      {isM2 ? (
+        // M2: Botones circulares simples
+        <div className="flex justify-center gap-4 flex-wrap">
+          {optionsToShow.map((option) => (
+            <button
+              key={option}
+              onClick={() => !shouldShowResult && onAnswer(option)}
+              disabled={shouldShowResult}
+              className={getCircleButtonClass(option)}
+            >
+              {option.toUpperCase()}
+            </button>
+          ))}
+        </div>
+      ) : (
+        // Otras materias: Opciones con texto completo
         <div className="space-y-3">
-          {!hasOptions && (
-            <div className="text-sm text-gray-500">Esta pregunta no contiene alternativas registradas.</div>
-          )}
-          {options.map(([key, value]) => {
-            const isSelected = currentAnswer === key;
-            const isCorrect = showExplanation && key === question.correctAnswer;
-            const isWrong = showExplanation && isSelected && key !== question.correctAnswer;
-
-            return (
-              <button
-                key={key}
-                onClick={() => onAnswer(key)}
-                disabled={showExplanation}
-                className={clsx(
-                  'w-full text-left p-4 rounded-lg border-2 transition-all',
-                  'hover:border-indigo-500 hover:bg-indigo-50',
-                  'focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2',
-                  {
-                    'border-gray-200 bg-white': !isSelected && !isCorrect && !isWrong,
-                    'border-indigo-500 bg-indigo-50': isSelected && !showExplanation,
-                    'border-green-500 bg-green-50': isCorrect,
-                    'border-red-500 bg-red-50': isWrong,
-                  }
-                )}
-              >
-                <div className="flex items-start">
-                  <span className="font-semibold text-lg mr-3">{key.toUpperCase()})</span>
-                  <span className="text-lg whitespace-pre-line">{value ?? ''}</span>
-                </div>
-              </button>
-            );
-          })}
+          {optionsToShow.map((option) => (
+            <button
+              key={option}
+              onClick={() => !shouldShowResult && onAnswer(option)}
+              disabled={shouldShowResult}
+              className={getOptionButtonClass(option)}
+            >
+              <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${
+                answer === option 
+                  ? `${colors.badge} text-white`
+                  : shouldShowResult && option === question.correctAnswer.toLowerCase()
+                    ? 'bg-green-500 text-white'
+                    : 'bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200'
+              }`}>
+                {option.toUpperCase()}
+              </span>
+              <span className="text-gray-800 dark:text-gray-200 flex-1">
+                {question.options?.[option] || ''}
+              </span>
+            </button>
+          ))}
         </div>
-      </div>
+      )}
 
-      {showExplanation && (
-        <div className="w-full max-w-3xl mx-auto bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
-          <h4 className="font-semibold text-blue-900 mb-2">Explicación:</h4>
-          <p className="text-blue-800 whitespace-pre-line">{question.explanation}</p>
+      {/* Resultado */}
+      {shouldShowResult && (
+        <div className={`mt-6 p-4 rounded-xl text-center font-medium ${
+          answer === question.correctAnswer.toLowerCase() 
+            ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' 
+            : 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'
+        }`}>
+          {answer === question.correctAnswer.toLowerCase() 
+            ? '¡Correcto! 🎉' 
+            : `Incorrecto. La respuesta correcta es ${question.correctAnswer.toUpperCase()}`
+          }
+        </div>
+      )}
+
+      {/* Explicación */}
+      {showExplanation && question.explanation && (
+        <div className="mt-4 p-5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl">
+          <div className="flex items-start gap-3">
+            <div className="flex-shrink-0 p-2 bg-amber-100 dark:bg-amber-800 rounded-lg">
+              <Lightbulb className="w-5 h-5 text-amber-600 dark:text-amber-300" />
+            </div>
+            <div>
+              <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">Explicación</h4>
+              <p className="text-amber-900 dark:text-amber-100 whitespace-pre-wrap leading-relaxed">
+                {question.explanation}
+              </p>
+            </div>
+          </div>
         </div>
       )}
     </div>

@@ -21,10 +21,10 @@ const VIEW_SELECT = `
   habilidad,
   has_visual_content,
   images,
-  image_details,
-  image_count,
-  table_count,
-  metadata
+  metadata,
+  reading_text_id,
+  question_number,
+  image_url
 `;
 
 const TABLE_SELECT = `
@@ -41,17 +41,20 @@ const TABLE_SELECT = `
   habilidad,
   has_visual_content,
   images,
-  metadata
+  metadata,
+  reading_text_id,
+  question_number,
+  image_url
 `;
 
 const OPTION_LABELS = ['a', 'b', 'c', 'd', 'e'];
 const FOOTNOTE_PATTERNS = [
   /^forma\b/i,
-  /^-?\s*\d+\s*$/,
-  /^-?\s*\d+\s*-\s*\d+\s*-?$/,
+  /^-?\s*\d{5,}\s*$/,
+  /^-?\s*\d{4,}\s*-\s*\d{4,}\s*-?$/,
   /^pagina\b/i,
   /^https?:\/\//i,
-  /^\(?\d{4}\)?$/,
+  /^\(?\d{6,}\)?$/,
   /^-+$/,
   /^trv$/i,
 ];
@@ -241,6 +244,9 @@ function mapQuestion(row: any): Question {
     imageCount: row.image_count ?? images?.length ?? 0,
     tableCount: row.table_count ?? 0,
     metadata: row.metadata || undefined,
+    reading_text_id: row.reading_text_id || undefined,
+    question_number: row.question_number || undefined,
+    image_url: row.image_url || undefined,  // NUEVO: campo para imágenes de Storage
   };
 }
 
@@ -260,6 +266,7 @@ export async function getQuestionsBySubject(subject: Subject): Promise<Question[
     };
 
     let { data, error } = await buildQuery('questions_with_visuals', VIEW_SELECT);
+    console.log('RAW DATA FROM SUPABASE:', data?.[0]);
 
     if (error || !data || data.length === 0) {
       if (error) {
@@ -325,5 +332,5 @@ function sanitizeContent(raw: string | null | undefined): string {
     .filter((line) => !/^0$/.test(line))
     .filter((line) => !/^\s*[A-E]\)$/.test(line));
 
-  return filtered.join('\n').trim();
-}
+    return filtered.join('\n').trim();
+  }

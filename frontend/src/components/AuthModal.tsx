@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import toast from 'react-hot-toast';
@@ -15,6 +15,17 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
   const [name, setName] = useState('');
   const [loading, setLoading] = useState(false);
   const [mode, setMode] = useState<'login' | 'register' | 'reset'>(initialMode);
+
+  // Cerrar con Escape
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    if (isOpen) {
+      document.addEventListener('keydown', handleEsc);
+    }
+    return () => document.removeEventListener('keydown', handleEsc);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -86,17 +97,23 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-lg shadow-xl w-full max-w-md relative">
+    <div 
+      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+      onClick={onClose}
+    >
+      <div 
+        className="bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-md relative"
+        onClick={(e) => e.stopPropagation()}
+      >
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 text-gray-500 hover:text-gray-700"
+          className="absolute right-4 top-4 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
         >
           <X className="h-6 w-6" />
         </button>
 
         <div className="p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">
             {mode === 'login' && 'Iniciar Sesión'}
             {mode === 'register' && 'Registrarse'}
             {mode === 'reset' && 'Recuperar Contraseña'}
@@ -105,7 +122,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
           <form onSubmit={handleSubmit} className="space-y-4">
             {mode === 'register' && (
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                   Nombre
                 </label>
                 <input
@@ -113,14 +130,14 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
+                  className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
                   required
                 />
               </div>
             )}
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                 Email
               </label>
               <input
@@ -128,14 +145,14 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
+                className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
                 required
               />
             </div>
 
             {mode !== 'reset' && (
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                   Contraseña
                 </label>
                 <input
@@ -143,7 +160,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
                   id="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border"
+                  className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-3 py-2 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
                   required
                   minLength={6}
                 />
@@ -153,7 +170,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? 'Cargando...' : mode === 'login' ? 'Iniciar Sesión' : mode === 'register' ? 'Registrarse' : 'Enviar'}
             </button>
@@ -164,16 +181,16 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
                   <button
                     type="button"
                     onClick={() => setMode('reset')}
-                    className="text-indigo-600 hover:text-indigo-500"
+                    className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
                   >
                     ¿Olvidaste tu contraseña?
                   </button>
                   <div>
-                    <span className="text-gray-600">¿No tienes cuenta? </span>
+                    <span className="text-gray-600 dark:text-gray-400">¿No tienes cuenta? </span>
                     <button
                       type="button"
                       onClick={() => setMode('register')}
-                      className="text-indigo-600 hover:text-indigo-500"
+                      className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
                     >
                       Regístrate
                     </button>
@@ -184,7 +201,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
                 <button
                   type="button"
                   onClick={() => setMode('login')}
-                  className="text-indigo-600 hover:text-indigo-500"
+                  className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
                 >
                   Volver a iniciar sesión
                 </button>

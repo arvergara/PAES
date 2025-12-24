@@ -1,4 +1,4 @@
-export type Subject = 'M1' | 'M2' | 'L' | 'C' | 'H' | 'ALL';
+export type Subject = 'M1' | 'M2' | 'L' | 'C' | 'CB' | 'CQ' | 'CF' | 'H' | 'ALL';
 export type PracticeMode = 'PAES' | 'TEST' | 'REVIEW';
 
 export interface User {
@@ -38,7 +38,7 @@ export interface Question {
   correctAnswer: QuestionOptionKey;
   explanation: string;
   areaTematica?: string;
-  area_tematica?: string; // Alias para compatibilidad
+  area_tematica?: string;
   tema?: string;
   subtema?: string;
   habilidad?: string;
@@ -48,6 +48,9 @@ export interface Question {
   image_details?: QuestionImage[];
   imageCount?: number;
   tableCount?: number;
+  reading_text_id?: number;
+  question_number?: number;
+  origen?: string;
   ai_classification?: {
     area_tematica: string;
     tema: string;
@@ -58,6 +61,19 @@ export interface Question {
   classification_confidence?: number;
   metadata?: Record<string, unknown>;
   tables?: QuestionTable[];
+}
+
+// Nuevo tipo para lecturas
+export interface ReadingText {
+  id: number;
+  title: string;
+  source: string;
+  pdf_url: string | null;
+  page_start: number;
+  page_end: number;
+  question_start: number;
+  question_end: number;
+  subject: string;
 }
 
 export interface QuestionAttempt {

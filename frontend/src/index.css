@@ -1,3 +1,234 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Default theme: Indigo */
+    --color-primary-50: 238 242 255;
+    --color-primary-100: 224 231 255;
+    --color-primary-200: 199 210 254;
+    --color-primary-300: 165 180 252;
+    --color-primary-400: 129 140 248;
+    --color-primary-500: 99 102 241;
+    --color-primary-600: 79 70 229;
+    --color-primary-700: 67 56 202;
+    --color-primary-800: 55 48 163;
+    --color-primary-900: 49 46 129;
+    
+    --color-accent-500: 139 92 246;
+    --color-accent-600: 124 58 237;
+  }
+
+  /* Slate Blue Theme */
+  [data-theme="slate"] {
+    --color-primary-50: 248 250 252;
+    --color-primary-100: 241 245 249;
+    --color-primary-200: 226 232 240;
+    --color-primary-300: 203 213 225;
+    --color-primary-400: 148 163 184;
+    --color-primary-500: 100 116 139;
+    --color-primary-600: 71 85 105;
+    --color-primary-700: 51 65 85;
+    --color-primary-800: 30 41 59;
+    --color-primary-900: 15 23 42;
+    
+    --color-accent-500: 56 189 248;
+    --color-accent-600: 14 165 233;
+  }
+
+  /* Rose Theme */
+  [data-theme="rose"] {
+    --color-primary-50: 255 241 242;
+    --color-primary-100: 255 228 230;
+    --color-primary-200: 254 205 211;
+    --color-primary-300: 253 164 175;
+    --color-primary-400: 251 113 133;
+    --color-primary-500: 244 63 94;
+    --color-primary-600: 225 29 72;
+    --color-primary-700: 190 18 60;
+    --color-primary-800: 159 18 57;
+    --color-primary-900: 136 19 55;
+    
+    --color-accent-500: 236 72 153;
+    --color-accent-600: 219 39 119;
+  }
+
+  /* Emerald Theme */
+  [data-theme="emerald"] {
+    --color-primary-50: 236 253 245;
+    --color-primary-100: 209 250 229;
+    --color-primary-200: 167 243 208;
+    --color-primary-300: 110 231 183;
+    --color-primary-400: 52 211 153;
+    --color-primary-500: 16 185 129;
+    --color-primary-600: 5 150 105;
+    --color-primary-700: 4 120 87;
+    --color-primary-800: 6 95 70;
+    --color-primary-900: 6 78 59;
+    
+    --color-accent-500: 20 184 166;
+    --color-accent-600: 13 148 136;
+  }
+
+  /* Amber Theme */
+  [data-theme="amber"] {
+    --color-primary-50: 255 251 235;
+    --color-primary-100: 254 243 199;
+    --color-primary-200: 253 230 138;
+    --color-primary-300: 252 211 77;
+    --color-primary-400: 251 191 36;
+    --color-primary-500: 245 158 11;
+    --color-primary-600: 217 119 6;
+    --color-primary-700: 180 83 9;
+    --color-primary-800: 146 64 14;
+    --color-primary-900: 120 53 15;
+    
+    --color-accent-500: 249 115 22;
+    --color-accent-600: 234 88 12;
+  }
+
+  /* Purple Theme */
+  [data-theme="purple"] {
+    --color-primary-50: 250 245 255;
+    --color-primary-100: 243 232 255;
+    --color-primary-200: 233 213 255;
+    --color-primary-300: 216 180 254;
+    --color-primary-400: 192 132 252;
+    --color-primary-500: 168 85 247;
+    --color-primary-600: 147 51 234;
+    --color-primary-700: 126 34 206;
+    --color-primary-800: 107 33 168;
+    --color-primary-900: 88 28 135;
+    
+    --color-accent-500: 236 72 153;
+    --color-accent-600: 219 39 119;
+  }
+
+  /* Ocean Theme */
+  [data-theme="ocean"] {
+    --color-primary-50: 236 254 255;
+    --color-primary-100: 207 250 254;
+    --color-primary-200: 165 243 252;
+    --color-primary-300: 103 232 249;
+    --color-primary-400: 34 211 238;
+    --color-primary-500: 6 182 212;
+    --color-primary-600: 8 145 178;
+    --color-primary-700: 14 116 144;
+    --color-primary-800: 21 94 117;
+    --color-primary-900: 22 78 99;
+    
+    --color-accent-500: 56 189 248;
+    --color-accent-600: 14 165 233;
+  }
+
+  body {
+    @apply bg-gray-100 text-gray-900 transition-colors duration-200;
+  }
+  
+  .dark body,
+  html.dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  /* Primary color utilities */
+  .bg-primary-50 { background-color: rgb(var(--color-primary-50)); }
+  .bg-primary-100 { background-color: rgb(var(--color-primary-100)); }
+  .bg-primary-200 { background-color: rgb(var(--color-primary-200)); }
+  .bg-primary-300 { background-color: rgb(var(--color-primary-300)); }
+  .bg-primary-400 { background-color: rgb(var(--color-primary-400)); }
+  .bg-primary-500 { background-color: rgb(var(--color-primary-500)); }
+  .bg-primary-600 { background-color: rgb(var(--color-primary-600)); }
+  .bg-primary-700 { background-color: rgb(var(--color-primary-700)); }
+  .bg-primary-800 { background-color: rgb(var(--color-primary-800)); }
+  .bg-primary-900 { background-color: rgb(var(--color-primary-900)); }
+  
+  .text-primary-50 { color: rgb(var(--color-primary-50)); }
+  .text-primary-100 { color: rgb(var(--color-primary-100)); }
+  .text-primary-200 { color: rgb(var(--color-primary-200)); }
+  .text-primary-300 { color: rgb(var(--color-primary-300)); }
+  .text-primary-400 { color: rgb(var(--color-primary-400)); }
+  .text-primary-500 { color: rgb(var(--color-primary-500)); }
+  .text-primary-600 { color: rgb(var(--color-primary-600)); }
+  .text-primary-700 { color: rgb(var(--color-primary-700)); }
+  .text-primary-800 { color: rgb(var(--color-primary-800)); }
+  .text-primary-900 { color: rgb(var(--color-primary-900)); }
+  
+  .border-primary-200 { border-color: rgb(var(--color-primary-200)); }
+  .border-primary-300 { border-color: rgb(var(--color-primary-300)); }
+  .border-primary-400 { border-color: rgb(var(--color-primary-400)); }
+  .border-primary-500 { border-color: rgb(var(--color-primary-500)); }
+  .border-primary-600 { border-color: rgb(var(--color-primary-600)); }
+  
+  .ring-primary-500 { --tw-ring-color: rgb(var(--color-primary-500)); }
+  .ring-primary-600 { --tw-ring-color: rgb(var(--color-primary-600)); }
+  
+  /* Hover states */
+  .hover\:bg-primary-50:hover { background-color: rgb(var(--color-primary-50)); }
+  .hover\:bg-primary-100:hover { background-color: rgb(var(--color-primary-100)); }
+  .hover\:bg-primary-600:hover { background-color: rgb(var(--color-primary-600)); }
+  .hover\:bg-primary-700:hover { background-color: rgb(var(--color-primary-700)); }
+  .hover\:text-primary-600:hover { color: rgb(var(--color-primary-600)); }
+  .hover\:text-primary-700:hover { color: rgb(var(--color-primary-700)); }
+  .hover\:border-primary-400:hover { border-color: rgb(var(--color-primary-400)); }
+  .hover\:border-primary-500:hover { border-color: rgb(var(--color-primary-500)); }
+  
+  /* Focus states */
+  .focus\:ring-primary-500:focus { --tw-ring-color: rgb(var(--color-primary-500)); }
+  .focus\:border-primary-500:focus { border-color: rgb(var(--color-primary-500)); }
+  
+  /* Dark mode variants */
+  .dark\:bg-primary-900\/20:is(.dark *) { background-color: rgb(var(--color-primary-900) / 0.2); }
+  .dark\:bg-primary-900\/30:is(.dark *) { background-color: rgb(var(--color-primary-900) / 0.3); }
+  .dark\:bg-primary-900\/50:is(.dark *) { background-color: rgb(var(--color-primary-900) / 0.5); }
+  .dark\:text-primary-300:is(.dark *) { color: rgb(var(--color-primary-300)); }
+  .dark\:text-primary-400:is(.dark *) { color: rgb(var(--color-primary-400)); }
+  .dark\:border-primary-400:is(.dark *) { border-color: rgb(var(--color-primary-400)); }
+  .dark\:border-primary-600:is(.dark *) { border-color: rgb(var(--color-primary-600)); }
+  .dark\:hover\:text-primary-400:hover:is(.dark *) { color: rgb(var(--color-primary-400)); }
+  
+  /* Gradient utilities */
+  .from-primary-500 { --tw-gradient-from: rgb(var(--color-primary-500)); }
+  .to-primary-700 { --tw-gradient-to: rgb(var(--color-primary-700)); }
+  .from-primary-600 { --tw-gradient-from: rgb(var(--color-primary-600)); }
+  .to-primary-800 { --tw-gradient-to: rgb(var(--color-primary-800)); }
+  
+  /* Accent colors */
+  .bg-accent-500 { background-color: rgb(var(--color-accent-500)); }
+  .bg-accent-600 { background-color: rgb(var(--color-accent-600)); }
+  .text-accent-500 { color: rgb(var(--color-accent-500)); }
+  .text-accent-600 { color: rgb(var(--color-accent-600)); }
+  .from-accent-500 { --tw-gradient-from: rgb(var(--color-accent-500)); }
+  .to-accent-600 { --tw-gradient-to: rgb(var(--color-accent-600)); }
+  
+  /* Opacity variants */
+  .bg-primary-500\/10 { background-color: rgb(var(--color-primary-500) / 0.1); }
+  .bg-primary-500\/20 { background-color: rgb(var(--color-primary-500) / 0.2); }
+  .bg-primary-600\/10 { background-color: rgb(var(--color-primary-600) / 0.1); }
+  .bg-primary-600\/20 { background-color: rgb(var(--color-primary-600) / 0.2); }
+  
+  /* Button primary class - for easy theming */
+  .btn-primary {
+    background-color: rgb(var(--color-primary-600));
+    color: white;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: rgb(var(--color-primary-700));
+  }
+  
+  .btn-primary-outline {
+    border: 2px solid rgb(var(--color-primary-600));
+    color: rgb(var(--color-primary-600));
+    background-color: transparent;
+    transition: all 0.2s;
+  }
+  .btn-primary-outline:hover {
+    background-color: rgb(var(--color-primary-50));
+  }
+  .dark .btn-primary-outline:hover {
+    background-color: rgb(var(--color-primary-900) / 0.3);
+  }
+}
