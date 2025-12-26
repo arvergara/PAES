@@ -1,0 +1,36 @@
+--- Buscar y reemplazar la función fetchExplanation ---
+
+  const fetchExplanation = async (question: Question) => {
+    // Si ya tiene explicación en memoria, usarla
+    if (question.explanation) {
+      setCurrentExplanation(question.explanation);
+      return;
+    }
+
+    // Buscar en la base de datos si tiene ID
+    if (!question.id) {
+      setCurrentExplanation(null);
+      return;
+    }
+
+    setIsLoadingExplanation(true);
+    try {
+      const { data, error } = await supabase
+        .from('questions')
+        .select('explanation')
+        .eq('id', question.id)
+        .maybeSingle();
+      
+      if (error) {
+        console.error('Error fetching explanation:', error);
+        setCurrentExplanation(null);
+      } else {
+        setCurrentExplanation(data?.explanation || null);
+      }
+    } catch (err) {
+      console.error('Error fetching explanation:', err);
+      setCurrentExplanation(null);
+    } finally {
+      setIsLoadingExplanation(false);
+    }
+  };

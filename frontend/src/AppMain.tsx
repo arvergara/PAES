@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { FlaskConical, Atom, Leaf } from 'lucide-react';
+import { BookOpen, FlaskConical, Atom, Leaf } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
 import { ModeSelector } from './components/ModeSelector';
@@ -10,6 +10,8 @@ import { PAESMode } from './components/PAESMode';
 import { ReviewMode } from './components/ReviewMode';
 import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
+import { LandingPage } from './components/LandingPage';
+import { useAuth } from './hooks/useAuth';
 import type { Subject, PracticeMode } from './types';
 
 type AppState = 'subject' | 'science-specialty' | 'mode' | 'practice';
@@ -17,17 +19,14 @@ type ScienceSpecialty = 'CF' | 'CQ' | 'CB';
 
 const subjects: Subject[] = ['M1', 'M2', 'L', 'C', 'H'];
 
-// Colores clásicos para especialidades de ciencias
 const classicSpecialtyStyles = [
-  { gradient: 'from-cyan-400 to-blue-600', hover: 'hover:from-cyan-500 hover:to-blue-700' },     // Física
-  { gradient: 'from-purple-400 to-pink-600', hover: 'hover:from-purple-500 hover:to-pink-700' }, // Química
-  { gradient: 'from-green-400 to-emerald-600', hover: 'hover:from-green-500 hover:to-emerald-700' }, // Biología
+  { gradient: 'from-cyan-400 to-blue-600', hover: 'hover:from-cyan-500 hover:to-blue-700' },
+  { gradient: 'from-purple-400 to-pink-600', hover: 'hover:from-purple-500 hover:to-pink-700' },
+  { gradient: 'from-green-400 to-emerald-600', hover: 'hover:from-green-500 hover:to-emerald-700' },
 ];
 
-// Intensidades para especialidades (mayor variación)
-const specialtyIntensities = [2, 5, 7]; // Física=claro, Química=medio, Biología=oscuro
+const specialtyIntensities = [2, 5, 7];
 
-// Gradientes unificados con mayor variación
 const themeSpecialtyGradients: Record<string, Record<number, { gradient: string; hover: string }>> = {
   indigo: {
     2: { gradient: 'from-indigo-400 to-indigo-500', hover: 'hover:from-indigo-500 hover:to-indigo-600' },
@@ -70,34 +69,41 @@ const getSpecialtyStyles = (theme: string, index: number) => {
   if (theme === 'classic') {
     return classicSpecialtyStyles[index];
   }
-  
   const intensity = specialtyIntensities[index];
   const themeStyles = themeSpecialtyGradients[theme] || themeSpecialtyGradients.indigo;
   return themeStyles[intensity] || themeStyles[5];
 };
 
 const scienceSpecialties = [
-  { 
-    code: 'CF' as ScienceSpecialty, 
-    name: 'Física', 
-    icon: Atom,
-    description: 'Mecánica, ondas, electricidad y más'
-  },
-  { 
-    code: 'CQ' as ScienceSpecialty, 
-    name: 'Química', 
-    icon: FlaskConical,
-    description: 'Reacciones, estequiometría y química orgánica'
-  },
-  { 
-    code: 'CB' as ScienceSpecialty, 
-    name: 'Biología', 
-    icon: Leaf,
-    description: 'Célula, genética, evolución y ecología'
-  },
+  { code: 'CF' as ScienceSpecialty, name: 'Fisica', icon: Atom, description: 'Mecanica, ondas, electricidad y mas' },
+  { code: 'CQ' as ScienceSpecialty, name: 'Quimica', icon: FlaskConical, description: 'Reacciones, estequiometria y quimica organica' },
+  { code: 'CB' as ScienceSpecialty, name: 'Biologia', icon: Leaf, description: 'Celula, genetica, evolucion y ecologia' },
 ];
 
 function App() {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
+        <div className="w-16 h-16 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <>
+        <Toaster position="top-center" />
+        <LandingPage />
+      </>
+    );
+  }
+
+  return <AuthenticatedApp />;
+}
+
+function AuthenticatedApp() {
   const [state, setState] = useState<AppState>('subject');
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [selectedMode, setSelectedMode] = useState<PracticeMode | null>(null);
@@ -157,7 +163,6 @@ function App() {
       const paesQuestions = getPaesQuestionsForSubject(configSubject as Subject);
       const readingTime = getReadingTimeForSubject(configSubject as Subject);
       const reviewQuestions = getReviewQuestionsForSubject(configSubject as Subject);
-      
       if (selectedMode === 'PAES') {
         return (
           <PAESMode 
@@ -190,7 +195,6 @@ function App() {
       return <TestMode subject={selectedSubject} onExit={handleExit} timePerQuestion={testTime} />;
     }
 
-    // Selector de especialidad de Ciencias
     if (state === 'science-specialty') {
       return (
         <div>
@@ -200,12 +204,8 @@ function App() {
           >
             ← Volver a materias
           </button>
-          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2 text-center">
-            Ciencias
-          </h2>
-          <p className="text-gray-500 dark:text-gray-400 mb-8 text-center">
-            Selecciona tu especialidad
-          </p>
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2 text-center">Ciencias</h2>
+          <p className="text-gray-500 dark:text-gray-400 mb-8 text-center">Selecciona tu especialidad</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {scienceSpecialties.map((specialty, index) => {
               const Icon = specialty.icon;
@@ -214,22 +214,14 @@ function App() {
                 <button
                   key={specialty.code}
                   onClick={() => handleScienceSpecialtySelect(specialty.code)}
-                  className={`
-                    group relative bg-gradient-to-br ${styles.gradient} ${styles.hover}
-                    rounded-2xl shadow-xl hover:shadow-2xl
-                    hover:scale-105 transition-all duration-300 overflow-hidden
-                  `}
+                  className={`group relative bg-gradient-to-br ${styles.gradient} ${styles.hover} rounded-2xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 overflow-hidden`}
                 >
                   <div className="relative p-8 flex flex-col items-center text-center text-white">
                     <div className="p-4 rounded-2xl bg-white/30 mb-4 group-hover:bg-white/40 transition-colors group-hover:scale-110 duration-300">
                       <Icon className="w-10 h-10" />
                     </div>
-                    <h3 className="text-xl font-bold mb-2">
-                      {specialty.name}
-                    </h3>
-                    <p className="text-sm text-white/90">
-                      {specialty.description}
-                    </p>
+                    <h3 className="text-xl font-bold mb-2">{specialty.name}</h3>
+                    <p className="text-sm text-white/90">{specialty.description}</p>
                   </div>
                 </button>
               );
@@ -249,9 +241,7 @@ function App() {
           >
             ← Volver a {isScienceSpecialty ? 'especialidades' : 'materias'}
           </button>
-          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
-            Selecciona un modo de práctica
-          </h2>
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">Selecciona un modo de practica</h2>
           <ModeSelector onSelect={handleModeSelect} />
         </div>
       );
@@ -259,16 +249,10 @@ function App() {
 
     return (
       <div>
-        <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
-          Selecciona una materia
-        </h2>
+        <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">Selecciona una materia</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-6xl mx-auto">
           {subjects.map((subject) => (
-            <SubjectCard
-              key={subject}
-              subject={subject}
-              onSelect={handleSubjectSelect}
-            />
+            <SubjectCard key={subject} subject={subject} onSelect={handleSubjectSelect} />
           ))}
         </div>
       </div>
@@ -287,10 +271,19 @@ function App() {
         showHomeButton={state !== 'subject'}
         onGoHome={handleExit}
       />
-
       <main className="container mx-auto px-4 py-8">
         {renderContent()}
       </main>
+
+      <a
+        href="/resumenes.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-500 hover:to-indigo-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 z-50"
+      >
+        <BookOpen className="w-5 h-5 text-white" />
+        <span className="text-white font-medium">Resúmenes PAES</span>
+      </a>
     </div>
   );
 }

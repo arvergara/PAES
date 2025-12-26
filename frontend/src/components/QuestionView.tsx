@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Lightbulb } from 'lucide-react';
 import { useThemeColors } from '../hooks/useThemeColors';
 import type { Question } from '../types';
 
@@ -25,9 +24,6 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
     setImageError(false);
   }, [question.id]);
 
-  // Para M2: usar formato simple con botones circulares
-  const isM2 = question.subject === 'M2';
-  
   // Obtener opciones disponibles
   const allOptions = ['a', 'b', 'c', 'd', 'e'];
   const availableOptions = allOptions.filter(option => {
@@ -35,10 +31,16 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
     return optionValue && optionValue.trim() !== '';
   });
 
-  // Si no hay opciones con contenido, mostrar A-D por defecto para M2
-  const optionsToShow = isM2 
-    ? (availableOptions.length > 0 ? availableOptions : ['a', 'b', 'c', 'd'])
-    : availableOptions;
+  // Determinar si hay opciones con texto real
+  const hasTextOptions = availableOptions.length > 0;
+  
+  // Usar botones circulares SOLO si NO hay opciones con texto Y hay imagen
+  const useCircleButtons = !hasTextOptions && question.image_url;
+
+  // Opciones a mostrar
+  const optionsToShow = hasTextOptions 
+    ? availableOptions 
+    : ['a', 'b', 'c', 'd'];
   
   const getCircleButtonClass = (option: string) => {
     const baseClass = "w-16 h-16 rounded-full border-2 transition-all duration-200 flex items-center justify-center font-bold text-xl";
@@ -80,7 +82,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Imagen de la pregunta (principalmente para M2) */}
+      {/* Imagen de la pregunta */}
       {question.image_url && !imageError ? (
         <div className="mb-6 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-hidden p-3">
           <img
@@ -97,8 +99,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
       )}
 
       {/* Opciones de respuesta */}
-      {isM2 ? (
-        // M2: Botones circulares simples
+      {useCircleButtons ? (
         <div className="flex justify-center gap-4 flex-wrap">
           {optionsToShow.map((option) => (
             <button
@@ -112,7 +113,6 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
           ))}
         </div>
       ) : (
-        // Otras materias: Opciones con texto completo
         <div className="space-y-3">
           {optionsToShow.map((option) => (
             <button
@@ -131,7 +131,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
                 {option.toUpperCase()}
               </span>
               <span className="text-gray-800 dark:text-gray-200 flex-1">
-                {question.options?.[option] || ''}
+                {question.options?.[option] || `Opción ${option.toUpperCase()}`}
               </span>
             </button>
           ))}
@@ -152,22 +152,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
         </div>
       )}
 
-      {/* Explicación */}
-      {showExplanation && question.explanation && (
-        <div className="mt-4 p-5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl">
-          <div className="flex items-start gap-3">
-            <div className="flex-shrink-0 p-2 bg-amber-100 dark:bg-amber-800 rounded-lg">
-              <Lightbulb className="w-5 h-5 text-amber-600 dark:text-amber-300" />
-            </div>
-            <div>
-              <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">Explicación</h4>
-              <p className="text-amber-900 dark:text-amber-100 whitespace-pre-wrap leading-relaxed">
-                {question.explanation}
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Explicación removida - cada modo (TestMode, ReviewMode) maneja su propia explicación */}
     </div>
   );
 }

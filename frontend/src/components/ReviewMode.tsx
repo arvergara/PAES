@@ -3,6 +3,7 @@ import { Home, BookOpen, CheckCircle2, AlertCircle, Brain, FileText, HelpCircle 
 import type { Question, Subject } from '../types';
 import { QuestionView } from './QuestionView';
 import { PdfViewer } from './PdfViewer';
+import { ResultsView } from './ResultsView';
 import { getQuestionsBySubject } from '../lib/questions';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
@@ -47,7 +48,12 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [wantsToStop, setWantsToStop] = useState(false);
   
+  // Track answered questions and answers for ResultsView
+  const [answeredQuestions, setAnsweredQuestions] = useState<Question[]>([]);
+  const [answersRecord, setAnswersRecord] = useState<Record<string, string>>({});
+  
   const [sessionId] = useState<string>(() => crypto.randomUUID());
+  const [sessionCreated, setSessionCreated] = useState(false);
 
   const [activeTab, setActiveTab] = useState<'text' | 'questions'>('text');
   const [readingTexts, setReadingTexts] = useState<Record<number, ReadingText>>({});
@@ -87,6 +93,23 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
         });
 
         if (user) {
+          // CREAR SESIÓN AL INICIO para que el FK de question_attempts funcione
+          const { error: sessionError } = await supabase.from('user_sessions').insert({
+            id: sessionId,
+            user_id: user.id,
+            subject,
+            mode: 'REVIEW',
+            questions_total: 0,
+            questions_correct: 0,
+            time_spent: 0
+          });
+
+          if (sessionError) {
+            console.error('Error creating session:', sessionError);
+          } else {
+            setSessionCreated(true);
+          }
+
           const { data: attempts } = await supabase
             .from('question_attempts')
             .select('*')
@@ -191,6 +214,12 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
 
     setCurrentAnswer(answer);
     setShowExplanation(true);
+    
+    // Store the question and answer for ResultsView
+    const questionIndex = answeredQuestions.length;
+    setAnsweredQuestions(prev => [...prev, currentQuestion]);
+    setAnswersRecord(prev => ({ ...prev, [questionIndex]: answer }));
+    
     setQuestionsAnswered(prev => prev + 1);
 
     const isCorrect = answer === currentQuestion.correctAnswer;
@@ -218,10 +247,10 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
   };
 
   const saveAttempt = async (answer: string, isCorrect: boolean) => {
-    if (!user || !currentQuestion) return;
+    if (!user || !currentQuestion || !sessionCreated) return;
 
     try {
-      await supabase.from('question_attempts').insert({
+      const { error } = await supabase.from('question_attempts').insert({
         user_id: user.id,
         session_id: sessionId,
         question_id: currentQuestion.id,
@@ -234,6 +263,10 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
         is_correct: isCorrect,
         time_spent: 0
       });
+
+      if (error) {
+        console.error('Error saving attempt:', error);
+      }
     } catch (error) {
       console.error('Error saving attempt:', error);
     }
@@ -257,20 +290,24 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
   };
 
   const saveSession = async () => {
-    if (!user) return;
+    if (!user || !sessionCreated) return;
 
     const timeSpent = Math.round((Date.now() - startTime) / 1000);
 
     try {
-      await supabase.from('user_sessions').insert({
-        id: sessionId,
-        user_id: user.id,
-        subject,
-        mode: 'REVIEW',
-        questions_total: questionsAnswered,
-        questions_correct: correctAnswers,
-        time_spent: timeSpent
-      });
+      // UPDATE en vez de INSERT porque la sesión ya existe
+      const { error } = await supabase.from('user_sessions')
+        .update({
+          questions_total: questionsAnswered,
+          questions_correct: correctAnswers,
+          time_spent: timeSpent
+        })
+        .eq('id', sessionId);
+
+      if (error) {
+        console.error('Error updating session:', error);
+        toast.error('Error al guardar la sesión');
+      }
     } catch (error) {
       console.error('Error saving session:', error);
       toast.error('Error al guardar la sesión');
@@ -299,43 +336,43 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
     );
   }
 
+  // Show ResultsView when finished (with questions answered)
   if (isFinished) {
-    const percentage = questionsAnswered > 0 ? Math.round((correctAnswers / questionsAnswered) * 100) : 0;
+    const timeSpent = Math.round((Date.now() - startTime) / 1000);
     
-    return (
-      <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-          {wantsToStop || reachedLimit ? '¡Práctica Finalizada!' : '¡Felicitaciones!'}
-        </h2>
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-8">
-          {wantsToStop || reachedLimit ? (
-            <>
-              <div className={`text-6xl font-bold ${colors.primaryText} mb-4`}>{percentage}%</div>
-              <div className="text-xl text-gray-600 dark:text-gray-300 mb-6">
-                Has respondido {correctAnswers} de {questionsAnswered} preguntas correctamente
-              </div>
-              <p className="text-gray-600 dark:text-gray-400">
-                ¡Continúa practicando para mejorar tu rendimiento!
-              </p>
-            </>
-          ) : (
-            <>
-              <div className="flex justify-center mb-6">
-                <Brain className="h-16 w-16 text-green-500" />
-              </div>
-              <p className="text-xl text-gray-800 dark:text-gray-100">
-                ¡Has dominado todos los temas de esta materia!
-              </p>
-            </>
-          )}
+    // If user dominated all topics without answering questions, show simple message
+    if (answeredQuestions.length === 0) {
+      return (
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">
+            ¡Felicitaciones!
+          </h2>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-8">
+            <div className="flex justify-center mb-6">
+              <Brain className="h-16 w-16 text-green-500" />
+            </div>
+            <p className="text-xl text-gray-800 dark:text-gray-100">
+              ¡Has dominado todos los temas de esta materia!
+            </p>
+          </div>
+          <button
+            onClick={onExit}
+            className={`${colors.primary} text-white px-6 py-3 rounded-lg ${colors.primaryHover} transition-colors`}
+          >
+            Volver al inicio
+          </button>
         </div>
-        <button
-          onClick={onExit}
-          className={`${colors.primary} text-white px-6 py-3 rounded-lg ${colors.primaryHover} transition-colors`}
-        >
-          Volver al inicio
-        </button>
-      </div>
+      );
+    }
+    
+    // Show full ResultsView with analysis
+    return (
+      <ResultsView
+        questions={answeredQuestions}
+        answers={answersRecord}
+        timeSpent={timeSpent}
+        onExit={onExit}
+      />
     );
   }
 
@@ -444,7 +481,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
 
           {showExplanation && (
             <div className="mt-6">
-              <div className="flex items-center justify-center space-x-2 mb-6">
+              <div className="flex items-center justify-center space-x-2 mb-4">
                 {currentAnswer === currentQuestion.correctAnswer ? (
                   <>
                     <CheckCircle2 className="h-6 w-6 text-green-500" />
@@ -453,10 +490,23 @@ export function ReviewMode({ subject, onExit, questionCount = 0 }: ReviewModePro
                 ) : (
                   <>
                     <AlertCircle className="h-6 w-6 text-red-500" />
-                    <span className="text-red-600 dark:text-red-400 font-semibold">Respuesta Incorrecta</span>
+                    <span className="text-red-600 dark:text-red-400 font-semibold">
+                      Respuesta Incorrecta - La correcta es: {currentQuestion.correctAnswer.toUpperCase()}
+                    </span>
                   </>
                 )}
               </div>
+
+              {currentQuestion.explanation && (
+                <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
+                  <div className="flex items-center space-x-2 mb-2">
+                    <BookOpen className={`h-5 w-5 ${colors.primaryText}`} />
+                    <h4 className={`font-semibold ${colors.primaryText}`}>Explicación</h4>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{currentQuestion.explanation}</p>
+                </div>
+              )}
+
               <button
                 onClick={handleNext}
                 className={`w-full px-6 py-3 ${colors.primary} text-white rounded-lg ${colors.primaryHover} transition-colors`}

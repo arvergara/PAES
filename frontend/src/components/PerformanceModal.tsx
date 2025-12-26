@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { X, Calendar, TrendingUp, ChevronRight, ChevronDown, History, Target, Clock, GraduationCap, BookOpen, Trophy, Award, Zap, Star, Flame } from 'lucide-react';
+import { X, Calendar, TrendingUp, ChevronRight, ChevronDown, History, Target, Clock, GraduationCap, BookOpen, Trophy, Award, Zap, Star, Flame, Brain } from 'lucide-react';
+import { DiagnosticView } from './DiagnosticView';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import { format, subDays, subWeeks, subMonths, parseISO } from 'date-fns';
@@ -25,7 +26,7 @@ interface PerformanceModalProps {
 }
 
 type TimeRange = 'day' | 'week' | 'month';
-type TabType = 'progress' | 'history' | 'records';
+type TabType = 'diagnostic' | 'progress' | 'history' | 'records';
 
 interface AreaStats {
   total: number;
@@ -1006,7 +1007,7 @@ function RecordsView({ records, loading }: { records: RecordData | null; loading
 
 export function PerformanceModal({ isOpen, onClose }: PerformanceModalProps) {
   const { user } = useAuth();
-  const [activeTab, setActiveTab] = useState<TabType>('progress');
+  const [activeTab, setActiveTab] = useState<TabType>('diagnostic');
   const [timeRange, setTimeRange] = useState<TimeRange>('week');
   const [stats, setStats] = useState<SubjectStats>({});
   const [chartData, setChartData] = useState<any[]>([]);
@@ -1404,10 +1405,21 @@ export function PerformanceModal({ isOpen, onClose }: PerformanceModalProps) {
           </div>
 
           {/* Tabs */}
-          <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6">
+          <div className="flex border-b border-gray-200 dark:border-gray-700 mb-6 overflow-x-auto">
+            <button
+              onClick={() => setActiveTab('diagnostic')}
+              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors whitespace-nowrap ${
+                activeTab === 'diagnostic'
+                  ? 'text-purple-600 dark:text-purple-400 border-b-2 border-purple-600 dark:border-purple-400 bg-purple-50 dark:bg-purple-900/20'
+                  : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+              }`}
+            >
+              <Brain className="w-5 h-5" />
+              Diagnóstico
+            </button>
             <button
               onClick={() => setActiveTab('progress')}
-              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors ${
+              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors whitespace-nowrap ${
                 activeTab === 'progress'
                   ? 'text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 bg-indigo-50 dark:bg-indigo-900/20'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
@@ -1418,7 +1430,7 @@ export function PerformanceModal({ isOpen, onClose }: PerformanceModalProps) {
             </button>
             <button
               onClick={() => setActiveTab('records')}
-              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors ${
+              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors whitespace-nowrap ${
                 activeTab === 'records'
                   ? 'text-amber-600 dark:text-amber-400 border-b-2 border-amber-600 dark:border-amber-400 bg-amber-50 dark:bg-amber-900/20'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
@@ -1429,7 +1441,7 @@ export function PerformanceModal({ isOpen, onClose }: PerformanceModalProps) {
             </button>
             <button
               onClick={() => setActiveTab('history')}
-              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors ${
+              className={`flex items-center gap-2 px-6 py-3 font-medium transition-colors whitespace-nowrap ${
                 activeTab === 'history'
                   ? 'text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 bg-indigo-50 dark:bg-indigo-900/20'
                   : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
@@ -1445,7 +1457,9 @@ export function PerformanceModal({ isOpen, onClose }: PerformanceModalProps) {
             </button>
           </div>
 
-          {activeTab === 'progress' ? (
+          {activeTab === 'diagnostic' ? (
+            <DiagnosticView />
+          ) : activeTab === 'progress' ? (
             <>
               <div className="flex items-center space-x-4 mb-6">
                 <Calendar className="h-5 w-5 text-gray-500 dark:text-gray-400" />

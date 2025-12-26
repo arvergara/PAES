@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TutorPAES - Resúmenes Completos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    .prose { line-height: 1.7; }
+    .prose h2 { font-size: 1.6rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #60a5fa; border-bottom: 2px solid #3b82f6; padding-bottom: 0.5rem; }
+    .prose h3 { font-size: 1.3rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #a78bfa; }
+    .prose h4 { font-size: 1.1rem; font-weight: 600; margin-top: 1.25rem; margin-bottom: 0.5rem; color: #34d399; }
+    .prose p { margin-bottom: 1rem; }
+    .prose ul, .prose ol { margin-left: 1.5rem; margin-bottom: 1rem; }
+    .prose li { margin-bottom: 0.4rem; }
+    .prose strong { color: #fbbf24; }
+    .prose code { background: #1e293b; padding: 0.2rem 0.5rem; border-radius: 0.25rem; font-size: 0.9em; color: #e879f9; }
+    .prose pre { background: #0f172a; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; margin: 1rem 0; border: 1px solid #334155; }
+    .prose blockquote { border-left: 4px solid #3b82f6; padding-left: 1rem; margin: 1.5rem 0; font-style: italic; color: #94a3b8; background: #1e293b; padding: 1rem; border-radius: 0 0.5rem 0.5rem 0; }
+    .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+    .prose th { background: #1e293b; padding: 0.75rem; text-align: left; border: 1px solid #334155; color: #60a5fa; }
+    .prose td { padding: 0.75rem; border: 1px solid #334155; }
+    .prose tr:nth-child(even) { background: #1e293b50; }
+    .prose hr { border-color: #334155; margin: 2rem 0; }
+  </style>
+</head>
+<body class="bg-slate-900">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    // CONFIGURACIÓN
+    const SUPABASE_URL = 'https://bmsmmlymsjpydpealmcw.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJtc21tbHltc2pweWRwZWFsbWN3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU5NzMwODgsImV4cCI6MjA4MTU0OTA4OH0.B1I7SIA4r9FwYOkm7te40M-zxuG0WUVlzpXOj1tCmIo';
+
+    const SUBJECT_NAMES = {
+      'M1': 'Competencia Matemática 1', 'M2': 'Competencia Matemática 2',
+      'L': 'Competencia Lectora', 'H': 'Historia y Ciencias Sociales',
+      'CB': 'Ciencias - Biología', 'CF': 'Ciencias - Física', 'CQ': 'Ciencias - Química',
+    };
+    const SUBJECT_COLORS = { 'M1': 'bg-blue-600', 'M2': 'bg-indigo-600', 'L': 'bg-green-600', 'H': 'bg-amber-600', 'CB': 'bg-emerald-600', 'CF': 'bg-purple-600', 'CQ': 'bg-rose-600' };
+    const SUBJECT_ICONS = { 'M1': '📐', 'M2': '📊', 'L': '📖', 'H': '🌍', 'CB': '🧬', 'CF': '⚡', 'CQ': '🧪' };
+
+    // RESÚMENES PRE-GENERADOS
+    const RESUMENES = {
+      "H": {
+        "Cuestión social": {
+          "completo": `## La Cuestión Social en Chile (1880-1920)
+
+### Introducción
+
+La **Cuestión Social** fue el conjunto de problemas sociales, económicos y laborales que afectaron a los sectores populares chilenos entre 1880 y 1920, período marcado por el auge del salitre y una profunda desigualdad.
+
+> "La Cuestión Social no fue solo pobreza, sino la toma de conciencia de que esa pobreza era un problema que el Estado debía resolver."
+
+---
+
+### Contexto: El Boom del Salitre
+
+Tras la **Guerra del Pacífico (1879-1884)**, Chile se convirtió en el principal productor mundial de salitre:
+
+- **Enorme riqueza fiscal**: Más del 50% del presupuesto nacional
+- **Migración masiva**: Campesinos al norte salitrero y ciudades
+- **Urbanización descontrolada**: Santiago pasó de 130.000 (1875) a 330.000 habitantes (1907)
+- **Desigualdad extrema**: Oligarquía vs. proletariado explotado
+
+---
+
+### Condiciones de Vida
+
+#### Los Conventillos
+
+| Característica | Descripción |
+|----------------|-------------|
+| **Hacinamiento** | 8-10 personas por habitación de 12m² |
+| **Saneamiento** | Un baño para 100+ personas |
+| **Mortalidad infantil** | 300 de cada 1.000 niños morían antes de los 5 años |
+
+#### El Sistema de Fichas
+
+- Trabajadores recibían **fichas** (tokens) en vez de dinero
+- Solo canjeables en la **pulpería** de la empresa
+- Precios **30-50% más altos** que el comercio libre
+- Generaba **endeudamiento perpetuo**
+
+#### Jornadas Laborales
+
+- **16-18 horas diarias**
+- Sin descanso dominical
+- **Trabajo infantil** desde los 8 años
+- Sin indemnización por accidentes
+
+---
+
+### Organización Obrera
+
+1. **Mutuales** (desde 1850s): Socorro mutuo
+2. **Mancomunales** (desde 1900): Federaciones de trabajadores
+3. **Sociedades de Resistencia**: Influencia anarquista
+4. **Sindicatos**: Hacia 1920
+
+---
+
+### Principales Masacres
+
+| Año | Evento | Víctimas |
+|-----|--------|----------|
+| 1903 | Huelga Valparaíso | Muertos y heridos |
+| 1905 | "Semana Roja" Santiago | 200-250 muertos |
+| **1907** | **Masacre Santa María Iquique** | **2.000-3.600 muertos** |
+
+#### La Masacre de Santa María (21 dic 1907)
+
+- 10.000-15.000 obreros bajaron a Iquique
+- Demandaban: fin de fichas, pago en moneda, mejores salarios
+- General **Roberto Silva Renard** abrió fuego con ametralladoras
+- **Gobierno de Pedro Montt**
+
+---
+
+### Luis Emilio Recabarren (1876-1924)
+
+- Tipógrafo, líder del movimiento obrero
+- Fundó **"El Despertar de los Trabajadores"** (1912)
+- Creó el **Partido Obrero Socialista (POS)** en 1912
+- El POS se transformó en **Partido Comunista** (1922)
+
+---
+
+### Respuestas a la Cuestión Social
+
+| Corriente | Diagnóstico | Solución |
+|-----------|-------------|----------|
+| **Católica** | Crisis moral | Caridad, Encíclica Rerum Novarum (1891) |
+| **Liberal** | Falta de leyes | Legislación social estatal |
+| **Socialista** | Explotación capitalista | Organización obrera autónoma |
+
+---
+
+### Primeras Leyes Sociales
+
+| Año | Ley |
+|-----|-----|
+| 1906 | Habitaciones Obreras |
+| 1907 | Descanso Dominical |
+| 1916 | Accidentes del Trabajo |
+| 1917 | Salas Cuna obligatorias |
+| 1920 | Instrucción Primaria Obligatoria |
+
+---
+
+### Consecuencias
+
+1. **Constitución de 1925**: Rol social del Estado
+2. **Código del Trabajo (1931)**
+3. **Estado de Bienestar** en décadas siguientes
+
+---
+
+### Síntesis PAES
+
+✅ **Período**: 1880-1920, vinculado al salitre
+✅ **Causas**: Industrialización + migración + Estado liberal
+✅ **Problemas**: Conventillos, fichas, jornadas extensas
+✅ **Hito clave**: Santa María 1907
+✅ **Actores**: Recabarren, mancomunales, Iglesia
+✅ **Tres corrientes**: Católica, liberal, socialista
+
+#### Errores a evitar:
+
+❌ Pensar que solo hubo pobreza (hubo organización)
+❌ Confundir masacres (Santa María 1907 es la principal)
+❌ Olvidar Rerum Novarum`
+        },
+        "Régimen militar": {
+          "completo": `## El Régimen Militar en Chile (1973-1990)
+
+### Introducción
+
+Período de gobierno autoritario entre el **11 de septiembre de 1973** y el **11 de marzo de 1990**, encabezado por **Augusto Pinochet**.
+
+---
+
+### Contexto: Gobierno de Allende (1970-1973)
+
+**Salvador Allende** y la Unidad Popular:
+- Nacionalización del cobre
+- Reforma agraria
+- Estatización de empresas
+
+**Crisis 1972-1973:**
+- Inflación 600%
+- Desabastecimiento
+- Bloqueo de EE.UU.
+- Polarización extrema
+
+---
+
+### El Golpe (11 septiembre 1973)
+
+| Hora | Evento |
+|------|--------|
+| 5:30 | Sublevación de la Armada |
+| 9:00 | Último discurso de Allende |
+| 12:00 | Bombardeo de La Moneda |
+| 14:00 | Muerte de Allende |
+
+**La Junta Militar:**
+- Augusto Pinochet (Ejército)
+- José Toribio Merino (Armada)
+- Gustavo Leigh (FACH)
+- César Mendoza (Carabineros)
+
+---
+
+### Características del Régimen
+
+#### Represión
+
+**Organismos:**
+- **DINA** (1974-1977): Manuel Contreras
+- **CNI** (1977-1990)
+
+**Víctimas (Informes oficiales):**
+
+| Informe | Víctimas |
+|---------|----------|
+| Rettig (1991) | 2.279 muertos/desaparecidos |
+| Valech I (2004) | 27.255 torturados |
+| Valech II (2011) | 9.795 adicionales |
+| **Total** | **~40.000 víctimas** |
+
+#### Transformación Económica
+
+**Chicago Boys** (economistas de U. de Chicago):
+
+| Área | Reforma |
+|------|---------|
+| Comercio | Apertura, arancel 10% |
+| Previsión | AFP (1981) |
+| Salud | ISAPRES |
+| Educación | Municipalización |
+
+**Crisis 1982-83:** PIB -14%, desempleo 30%
+
+---
+
+### Constitución de 1980
+
+- Plebiscito 11 sept 1980 (sin registros electorales)
+- Presidencialismo fuerte
+- Rol subsidiario del Estado
+- Sistema binominal
+- Senadores designados
+
+---
+
+### Plebiscito 1988
+
+| Opción | Porcentaje |
+|--------|------------|
+| **NO** | **54,71%** |
+| SÍ | 43,01% |
+
+Campaña del NO: **"La alegría ya viene"**
+
+---
+
+### Síntesis PAES
+
+✅ **Fechas**: 1973 (golpe), 1980 (Constitución), 1988 (plebiscito)
+✅ **Organismos**: DINA, CNI
+✅ **Economía**: Chicago Boys, neoliberalismo
+✅ **DD.HH.**: Rettig, Valech (~40.000 víctimas)
+
+❌ No mencionar violaciones a DD.HH.
+❌ Confundir fechas clave`
+        },
+        "Guerra Fría": {
+          "completo": `## La Guerra Fría (1947-1991)
+
+### Definición
+
+Tensión entre **EE.UU.** y **URSS** sin enfrentamiento militar directo. Competencia ideológica, carrera armamentista, conflictos indirectos.
+
+---
+
+### Los Bloques
+
+| Occidental | Oriental |
+|------------|----------|
+| Democracia liberal | Partido único |
+| Capitalismo | Economía planificada |
+| OTAN (1949) | Pacto de Varsovia (1955) |
+
+---
+
+### Inicio (1947)
+
+- **Doctrina Truman**: Contener el comunismo
+- **Plan Marshall**: $13.000 millones para Europa
+- **"Telón de Acero"** (Churchill)
+
+---
+
+### Crisis Principales
+
+#### Berlín
+- **Bloqueo 1948-49**: Puente aéreo
+- **Muro**: Construcción 1961, Caída 1989
+
+#### Cuba (octubre 1962)
+- Misiles soviéticos en Cuba
+- Kennedy ordena bloqueo naval
+- 13 días de tensión nuclear
+- Resultado: "Teléfono rojo"
+
+#### Vietnam (1955-1975)
+- 500.000 soldados de EE.UU.
+- 58.000 estadounidenses muertos
+- Victoria comunista 1975
+
+---
+
+### Carrera Nuclear
+
+| Año | Evento |
+|-----|--------|
+| 1945 | EE.UU. bomba atómica |
+| 1949 | URSS bomba atómica |
+| 1957 | Sputnik |
+
+**MAD**: Destrucción Mutua Asegurada
+
+---
+
+### Fin de la Guerra Fría
+
+**Gorbachov (1985):**
+- Glasnost (transparencia)
+- Perestroika (reestructuración)
+
+**Cronología:**
+- 1989: Caída Muro de Berlín
+- 1991: Disolución URSS
+
+---
+
+### América Latina
+
+- Revolución Cubana (1959)
+- Doctrina de Seguridad Nacional
+- Operación Cóndor
+- Chile: EE.UU. vs. Allende
+
+---
+
+### Síntesis PAES
+
+✅ **Período**: 1947-1991
+✅ **Bloques**: OTAN vs. Pacto de Varsovia
+✅ **Crisis**: Berlín, Cuba 1962, Vietnam
+✅ **Fin**: Muro 1989, URSS 1991
+
+❌ No hubo guerra directa EE.UU.-URSS
+❌ Muro: construcción 1961, caída 1989`
+        }
+      }
+    };
+
+    function generarFallback(contenido) {
+      return `## ${contenido.subtema || contenido.tema}
+
+${contenido.descripcion || 'Contenido del tema.'}
+
+---
+
+### Preparación PAES
+
+Este tema requiere estudio de los conceptos fundamentales.
+
+> Los temas con 🌟 tienen resúmenes completos pre-generados.`;
+    }
+
+    function App() {
+      const [contenidos, setContenidos] = useState([]);
+      const [loading, setLoading] = useState(true);
+      const [error, setError] = useState(null);
+      const [selectedSubject, setSelectedSubject] = useState(null);
+      const [selectedContenido, setSelectedContenido] = useState(null);
+      const [expandedAreas, setExpandedAreas] = useState(new Set());
+      const [expandedTemas, setExpandedTemas] = useState(new Set());
+      const [resumenHTML, setResumenHTML] = useState('');
+
+      useEffect(() => {
+        async function fetchContenidos() {
+          try {
+            console.log('Fetching from:', SUPABASE_URL);
+            const response = await fetch(
+              `${SUPABASE_URL}/rest/v1/paes_contenidos?select=*&order=orden`,
+              { 
+                headers: { 
+                  'apikey': SUPABASE_ANON_KEY, 
+                  'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+                  'Content-Type': 'application/json'
+                }
+              }
+            );
+            console.log('Response status:', response.status);
+            if (!response.ok) {
+              const text = await response.text();
+              console.error('Error response:', text);
+              throw new Error(`Error ${response.status}: ${response.statusText}`);
+            }
+            const data = await response.json();
+            console.log('Data received:', data.length, 'items');
+            setContenidos(data || []);
+          } catch (err) {
+            console.error('Fetch error:', err);
+            setError(err.message);
+          } finally {
+            setLoading(false);
+          }
+        }
+        fetchContenidos();
+      }, []);
+
+      const contenidosPorMateria = useMemo(() => contenidos.reduce((acc, c) => {
+        if (!acc[c.subject]) acc[c.subject] = [];
+        acc[c.subject].push(c);
+        return acc;
+      }, {}), [contenidos]);
+
+      const getArbolContenidos = (subject) => {
+        const items = contenidosPorMateria[subject] || [];
+        const arbol = {};
+        items.forEach((item) => {
+          if (!arbol[item.area_tematica]) arbol[item.area_tematica] = {};
+          if (!arbol[item.area_tematica][item.tema]) arbol[item.area_tematica][item.tema] = [];
+          arbol[item.area_tematica][item.tema].push(item);
+        });
+        return arbol;
+      };
+
+      const generarResumen = (contenido) => {
+        const nombreTema = contenido.subtema || contenido.tema;
+        const pregenerado = RESUMENES[contenido.subject]?.[nombreTema]?.completo;
+        const markdown = pregenerado || generarFallback(contenido);
+        setResumenHTML(marked.parse(markdown));
+      };
+
+      if (loading) {
+        return (
+          <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+            <div className="text-center text-white">
+              <div className="text-6xl mb-4 animate-bounce">📚</div>
+              <p className="text-xl">Cargando TutorPAES...</p>
+              <p className="text-slate-400 text-sm mt-2">Conectando a Supabase...</p>
+            </div>
+          </div>
+        );
+      }
+
+      if (error) {
+        return (
+          <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
+            <div className="bg-red-900/50 border border-red-500 rounded-xl p-6 max-w-lg text-center text-white">
+              <div className="text-4xl mb-4">⚠️</div>
+              <h2 className="text-xl font-bold text-red-400 mb-2">Error de conexión</h2>
+              <p className="text-red-200 mb-4">{error}</p>
+              <p className="text-sm text-slate-400">Abre la consola del navegador (F12) para ver más detalles</p>
+            </div>
+          </div>
+        );
+      }
+
+      return (
+        <div className="min-h-screen bg-slate-900 text-white">
+          <header className="bg-slate-800 border-b border-slate-700 sticky top-0 z-20">
+            <div className="max-w-7xl mx-auto px-4 py-4">
+              <h1 className="text-2xl font-bold">🎓 TutorPAES - Resúmenes de Estudio</h1>
+              <p className="text-slate-400 text-sm mt-1">{contenidos.length} contenidos • Los temas con 🌟 tienen resúmenes completos</p>
+            </div>
+          </header>
+
+          <main className="max-w-7xl mx-auto px-4 py-6">
+            {!selectedSubject ? (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                {Object.keys(SUBJECT_NAMES).map((subject) => (
+                  <button key={subject} onClick={() => setSelectedSubject(subject)}
+                    className={`p-6 rounded-xl ${SUBJECT_COLORS[subject]} hover:opacity-90 transition-all hover:scale-105 text-left`}>
+                    <div className="text-4xl mb-3">{SUBJECT_ICONS[subject]}</div>
+                    <h3 className="font-bold text-lg">{SUBJECT_NAMES[subject]}</h3>
+                    <p className="text-white/80 text-sm mt-1">
+                      {contenidosPorMateria[subject]?.length || 0} contenidos
+                      {RESUMENES[subject] && ` • ${Object.keys(RESUMENES[subject]).length} 🌟`}
+                    </p>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <div className="flex flex-col lg:flex-row gap-6">
+                <div className="lg:w-80 flex-shrink-0">
+                  <button onClick={() => { setSelectedSubject(null); setSelectedContenido(null); setResumenHTML(''); }}
+                    className="mb-4 text-blue-400 hover:text-blue-300 flex items-center gap-2">
+                    ← Volver a materias
+                  </button>
+
+                  <div className={`p-4 rounded-xl ${SUBJECT_COLORS[selectedSubject]} mb-4`}>
+                    <div className="text-3xl mb-1">{SUBJECT_ICONS[selectedSubject]}</div>
+                    <h2 className="font-bold">{SUBJECT_NAMES[selectedSubject]}</h2>
+                  </div>
+
+                  <div className="bg-slate-800 rounded-xl overflow-hidden max-h-[60vh] overflow-y-auto">
+                    {Object.entries(getArbolContenidos(selectedSubject)).length === 0 ? (
+                      <div className="p-4 text-slate-400 text-center">
+                        <p>No hay contenidos para esta materia.</p>
+                        <p className="text-xs mt-2">Ejecuta el SQL de inserción en Supabase.</p>
+                      </div>
+                    ) : (
+                      Object.entries(getArbolContenidos(selectedSubject)).map(([area, temas]) => (
+                        <div key={area} className="border-b border-slate-700">
+                          <button onClick={() => {
+                            const newSet = new Set(expandedAreas);
+                            newSet.has(area) ? newSet.delete(area) : newSet.add(area);
+                            setExpandedAreas(newSet);
+                          }} className="w-full flex items-center justify-between p-3 hover:bg-slate-700/50">
+                            <span className="font-medium text-sm">{area}</span>
+                            <span className="text-slate-400">{expandedAreas.has(area) ? '▼' : '▶'}</span>
+                          </button>
+                          {expandedAreas.has(area) && (
+                            <div className="bg-slate-900/50">
+                              {Object.entries(temas).map(([tema, items]) => (
+                                <div key={tema}>
+                                  <button onClick={() => {
+                                    const key = `${area}-${tema}`;
+                                    const newSet = new Set(expandedTemas);
+                                    newSet.has(key) ? newSet.delete(key) : newSet.add(key);
+                                    setExpandedTemas(newSet);
+                                  }} className="w-full flex items-center justify-between p-2 pl-6 hover:bg-slate-700/30 text-sm text-slate-300">
+                                    <span>{tema}</span>
+                                    <span className="text-slate-500 text-xs">{items.length}</span>
+                                  </button>
+                                  {expandedTemas.has(`${area}-${tema}`) && items.map((item) => {
+                                    const nombre = item.subtema || item.tema;
+                                    const tiene = RESUMENES[selectedSubject]?.[nombre];
+                                    return (
+                                      <button key={item.id}
+                                        onClick={() => { setSelectedContenido(item); setResumenHTML(''); }}
+                                        className={`w-full text-left p-2 pl-10 text-xs hover:bg-blue-600/30 ${
+                                          selectedContenido?.id === item.id ? 'bg-blue-600/40 text-blue-300' : 'text-slate-400'
+                                        }`}>
+                                        {tiene ? '🌟 ' : ''}{nombre}
+                                      </button>
+                                    );
+                                  })}
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+
+                <div className="flex-1">
+                  {selectedContenido ? (
+                    <div className="bg-slate-800 rounded-xl overflow-hidden">
+                      <div className={`p-6 ${SUBJECT_COLORS[selectedSubject]}`}>
+                        <p className="text-white/70 text-sm">{selectedContenido.area_tematica}</p>
+                        <h2 className="text-2xl font-bold mt-1">
+                          {RESUMENES[selectedSubject]?.[selectedContenido.subtema || selectedContenido.tema] && '🌟 '}
+                          {selectedContenido.subtema || selectedContenido.tema}
+                        </h2>
+                      </div>
+
+                      <div className="p-4 border-b border-slate-700">
+                        <button onClick={() => generarResumen(selectedContenido)}
+                          className="w-full py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl font-semibold text-lg hover:from-blue-500 hover:to-purple-500">
+                          ✨ Ver Resumen Completo
+                        </button>
+                      </div>
+
+                      {resumenHTML && (
+                        <div className="p-6">
+                          <div className="prose prose-invert max-w-none" dangerouslySetInnerHTML={{ __html: resumenHTML }} />
+                        </div>
+                      )}
+
+                      {!resumenHTML && selectedContenido.descripcion && (
+                        <div className="p-6 text-slate-400">
+                          <p>{selectedContenido.descripcion}</p>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="bg-slate-800 rounded-xl p-12 text-center">
+                      <div className="text-6xl mb-4">👈</div>
+                      <h3 className="text-xl font-semibold">Selecciona un contenido</h3>
+                      <p className="text-slate-400 mt-2">Los temas con 🌟 tienen resúmenes completos</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </main>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

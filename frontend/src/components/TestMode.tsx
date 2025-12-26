@@ -81,12 +81,14 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   useImagePreloader(nextImageUrls);
 
   const fetchExplanation = async (question: Question) => {
+    console.log("fetchExplanation called for:", question.id, question.subject);
+    console.log("question.explanation in memory:", question.explanation);
     if (question.explanation) {
       setCurrentExplanation(question.explanation);
       return;
     }
 
-    if (!question.subject || !question.question_number) {
+    if (!question.id) {
       setCurrentExplanation(null);
       return;
     }
@@ -102,6 +104,7 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
       if (error) {
         setCurrentExplanation(null);
       } else {
+        console.log("Explanation from DB:", data?.explanation);
         setCurrentExplanation(data?.explanation || null);
       }
     } catch (err) {
