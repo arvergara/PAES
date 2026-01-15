@@ -11,6 +11,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useThemeColors } from '../hooks/useThemeColors';
 import toast from 'react-hot-toast';
 import { useImagePreloader } from '../hooks/useImagePreloader';
+import type { PausedSession } from '../hooks/useTestSession';
 
 interface ReadingText {
   id: number;
@@ -24,9 +25,18 @@ interface TestModeProps {
   timePerQuestion?: number;
   subject: Subject;
   onExit: () => void;
+  // Props para restaurar sesión
+  resumeSession?: PausedSession | null;
+  onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
 }
 
-export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModeProps) {
+export function TestMode({ 
+  subject, 
+  onExit, 
+  timePerQuestion = 2.5,
+  resumeSession,
+  onSessionChange 
+}: TestModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -42,6 +52,13 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submittedAnswers, setSubmittedAnswers] = useState<Record<number, boolean>>({});
+  
+  // Estado para mostrar mensaje de tiempo agotado
+  const [showTimeUpMessage, setShowTimeUpMessage] = useState(false);
+  
+  // Estado para el tiempo actual (para pausar)
+  const [currentTimeRemaining, setCurrentTimeRemaining] = useState<number>(timePerQuestion * 60);
+  const [initialTime, setInitialTime] = useState<number | undefined>(undefined);
   
   // Generar sessionId al inicio (como PAESMode)
   const [sessionId] = useState<string>(() => crypto.randomUUID());
@@ -67,6 +84,9 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   const [currentExplanation, setCurrentExplanation] = useState<string | null>(null);
   const [isLoadingExplanation, setIsLoadingExplanation] = useState(false);
 
+  // Flag para saber si estamos restaurando una sesión
+  const [isRestoring, setIsRestoring] = useState(!!resumeSession);
+
   const currentQuestion = questions[currentQuestionIndex];
   const isLanguageQuestion = currentQuestion?.subject === 'L';
   const currentReadingText = currentQuestion?.reading_text_id 
@@ -79,6 +99,43 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
     .slice(currentQuestionIndex, currentQuestionIndex + 4)
     .map(q => q.image_url);
   useImagePreloader(nextImageUrls);
+
+  // Callback para actualizar tiempo desde el Timer
+  const handleTimerTick = useCallback((timeLeft: number) => {
+    setCurrentTimeRemaining(timeLeft);
+  }, []);
+
+  // Guardar sesión pausada cuando el usuario sale
+  const saveSessionState = useCallback(() => {
+    if (onSessionChange && questions.length > 0 && !isFinished) {
+      onSessionChange({
+        subject,
+        mode: 'TEST',
+        currentQuestionIndex,
+        timeRemaining: currentTimeRemaining,
+        answers: Object.fromEntries(
+          Object.entries(answers).map(([k, v]) => [k, v])
+        ),
+        questionIds: questions.map(q => q.id),
+        startTime,
+        totalQuestions: questions.length,
+        currentTopic: currentQuestion?.tema,
+      });
+    }
+  }, [onSessionChange, questions, isFinished, subject, currentQuestionIndex, currentTimeRemaining, answers, startTime, currentQuestion]);
+
+  // Limpiar sesión guardada cuando se completa el test
+  const clearSessionState = useCallback(() => {
+    if (onSessionChange) {
+      onSessionChange(null);
+    }
+  }, [onSessionChange]);
+
+  // Modificar handleExit para guardar sesión
+  const handleExitWithSave = useCallback(() => {
+    saveSessionState();
+    onExit();
+  }, [saveSessionState, onExit]);
 
   const fetchExplanation = async (question: Question) => {
     console.log("fetchExplanation called for:", question.id, question.subject);
@@ -179,6 +236,31 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
     }
   }, [subject]);
 
+  // Cargar preguntas por IDs (para restaurar sesión)
+  const loadQuestionsByIds = useCallback(async (questionIds: string[]) => {
+    try {
+      const { data, error } = await supabase
+        .from('questions')
+        .select('*')
+        .in('id', questionIds);
+
+      if (error) throw error;
+      if (!data || data.length === 0) {
+        throw new Error('No se pudieron cargar las preguntas de la sesión');
+      }
+
+      // Ordenar en el mismo orden que los IDs
+      const orderedQuestions = questionIds
+        .map(id => data.find(q => q.id === id))
+        .filter((q): q is Question => q !== undefined);
+
+      return orderedQuestions;
+    } catch (error) {
+      console.error('Error loading questions by IDs:', error);
+      throw error;
+    }
+  }, []);
+
   // Initialize test session
   useEffect(() => {
     let mounted = true;
@@ -189,7 +271,34 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
       setError(null);
 
       try {
-        const selectedQuestions = await loadQuestions();
+        let selectedQuestions: Question[];
+
+        // Si hay sesión para restaurar, cargar esas preguntas específicas
+        if (resumeSession && resumeSession.questionIds.length > 0) {
+          selectedQuestions = await loadQuestionsByIds(resumeSession.questionIds);
+          
+          // Restaurar estado
+          setCurrentQuestionIndex(resumeSession.currentQuestionIndex);
+          setInitialTime(resumeSession.timeRemaining);
+          setCurrentTimeRemaining(resumeSession.timeRemaining);
+          
+          // Restaurar respuestas
+          const restoredAnswers: Record<number, string> = {};
+          Object.entries(resumeSession.answers).forEach(([key, value]) => {
+            restoredAnswers[parseInt(key)] = value;
+          });
+          setAnswers(restoredAnswers);
+          
+          // La respuesta actual
+          if (restoredAnswers[resumeSession.currentQuestionIndex]) {
+            setCurrentAnswer(restoredAnswers[resumeSession.currentQuestionIndex]);
+          }
+          
+          toast.success('Sesión restaurada', { duration: 2000 });
+        } else {
+          selectedQuestions = await loadQuestions();
+        }
+
         if (!mounted) return;
 
         setQuestions(selectedQuestions);
@@ -199,6 +308,8 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
         if (lQuestions.length > 0) {
           await loadReadingTexts(lQuestions);
         }
+        
+        setIsRestoring(false);
       } catch (error) {
         if (!mounted) return;
         console.error('Error initializing test:', error);
@@ -216,7 +327,7 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
     return () => {
       mounted = false;
     };
-  }, [subject, loadQuestions]);
+  }, [subject, loadQuestions, loadQuestionsByIds, resumeSession]);
 
   // Cambiar a tab de texto cuando cambia el texto de lectura
   useEffect(() => {
@@ -306,6 +417,9 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
 
         console.log('Attempts saved successfully');
       }
+      
+      // Limpiar sesión pausada al completar
+      clearSessionState();
     } catch (error) {
       console.error('Error saving session:', error);
       toast.error('Error al guardar la sesión');
@@ -345,6 +459,9 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   };
 
   const handleNext = async () => {
+    setShowTimeUpMessage(false);
+    setInitialTime(undefined); // Reset initial time for next question
+    
     if (currentQuestionIndex < questions.length - 1) {
       const nextIndex = currentQuestionIndex + 1;
       setCurrentQuestionIndex(nextIndex);
@@ -365,14 +482,57 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   };
 
   const handleTimeUp = async () => {
-    if (!isCurrentAnswerSubmitted && currentAnswer) {
-      await handleSubmitAnswer();
+    // Si ya se envió la respuesta, no hacer nada
+    if (isCurrentAnswerSubmitted) return;
+    
+    const question = questions[currentQuestionIndex];
+    
+    if (currentAnswer) {
+      // Hay respuesta seleccionada: enviarla y mostrar resultado brevemente
+      const isCorrect = currentAnswer === question.correctAnswer;
+      
+      setSubmittedAnswers(prev => ({
+        ...prev,
+        [currentQuestionIndex]: true
+      }));
+
+      if (isCorrect) {
+        setCorrectAnswers((prev) => prev + 1);
+      }
+
+      setShowExplanation(true);
+      saveQuestionAttempt(currentAnswer, isCorrect);
+      
+      // Mostrar resultado por 2 segundos y luego avanzar
+      setTimeout(async () => {
+        await handleNext();
+      }, 2000);
+    } else {
+      // No hay respuesta: marcar como omitida y pasar directamente
+      setSubmittedAnswers(prev => ({
+        ...prev,
+        [currentQuestionIndex]: true
+      }));
+      
+      // Guardar como respuesta omitida (vacía, incorrecta)
+      saveQuestionAttempt('', false);
+      
+      // Mostrar mensaje breve y avanzar
+      setShowTimeUpMessage(true);
+      toast.error('¡Tiempo agotado! Pregunta omitida', { duration: 1500 });
+      
+      setTimeout(async () => {
+        await handleNext();
+      }, 1500);
     }
   };
 
   const handleRetry = () => {
     // Reset attempts
     questionAttemptsRef.current = [];
+    
+    // Limpiar sesión pausada
+    clearSessionState();
     
     setQuestions([]);
     setCurrentQuestionIndex(0);
@@ -382,6 +542,8 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
     setIsFinished(false);
     setEndTime(null);
     setLoading(true);
+    setShowTimeUpMessage(false);
+    setInitialTime(undefined);
     
     loadQuestions().then((selectedQuestions) => {
       setQuestions(selectedQuestions);
@@ -392,7 +554,9 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[400px]">
-        <div className="text-gray-600 dark:text-gray-300">Cargando preguntas...</div>
+        <div className="text-gray-600 dark:text-gray-300">
+          {isRestoring ? 'Restaurando sesión...' : 'Cargando preguntas...'}
+        </div>
       </div>
     );
   }
@@ -437,7 +601,7 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center space-x-4">
           <button
-            onClick={onExit}
+            onClick={handleExitWithSave}
             className={`flex items-center space-x-2 text-gray-600 dark:text-gray-300 ${colors.primaryText.replace('text-', 'hover:text-')} transition-colors`}
           >
             <Home className="h-5 w-5" />
@@ -446,7 +610,9 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
           <Timer
             totalMinutes={timePerQuestion}
             onTimeUp={handleTimeUp}
-            resetKey={currentQuestion.id}
+            resetKey={initialTime ? undefined : currentQuestion.id}
+            onTick={handleTimerTick}
+            initialTimeSeconds={initialTime}
           />
         </div>
         <div className="text-gray-600 dark:text-gray-300">
@@ -517,7 +683,12 @@ export function TestMode({ subject, onExit, timePerQuestion = 2.5 }: TestModePro
       </div>
 
       <div className="sticky bottom-0 bg-white dark:bg-gray-800 p-4 border-t border-gray-200 dark:border-gray-700 mt-4">
-        {!isCurrentAnswerSubmitted ? (
+        {showTimeUpMessage ? (
+          <div className="flex items-center justify-center space-x-2 py-3">
+            <AlertCircle className="h-6 w-6 text-orange-500" />
+            <span className="text-orange-600 font-semibold">¡Tiempo agotado! Pasando a la siguiente...</span>
+          </div>
+        ) : !isCurrentAnswerSubmitted ? (
           <button
             onClick={handleSubmitAnswer}
             disabled={!currentAnswer}

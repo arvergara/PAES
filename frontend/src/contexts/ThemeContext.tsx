@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-export type ThemeColor = 'classic' | 'indigo' | 'slate' | 'rose' | 'emerald' | 'amber' | 'purple' | 'ocean';
+export type ThemeColor = 'classic' | 'indigo' | 'slate' | 'rose' | 'emerald' | 'amber' | 'ocean';
 
 interface ThemeContextType {
   theme: ThemeColor;
@@ -18,14 +18,15 @@ export const themeOptions: { id: ThemeColor; name: string; color: string; darkCo
   { id: 'rose', name: 'Rosa', color: '#f43f5e', darkColor: '#fb7185' },
   { id: 'emerald', name: 'Esmeralda', color: '#10b981', darkColor: '#34d399' },
   { id: 'amber', name: 'Ámbar', color: '#f59e0b', darkColor: '#fbbf24' },
-  { id: 'purple', name: 'Púrpura', color: '#a855f7', darkColor: '#c084fc' },
   { id: 'ocean', name: 'Océano', color: '#06b6d4', darkColor: '#22d3ee' },
 ];
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<ThemeColor>(() => {
     if (typeof window !== 'undefined') {
-      return (localStorage.getItem('theme-color') as ThemeColor) || 'classic';
+      const saved = localStorage.getItem('theme-color') as string;
+      if (saved === 'purple') return 'indigo';
+      return (saved as ThemeColor) || 'classic';
     }
     return 'classic';
   });
@@ -38,7 +39,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   });
 
   useEffect(() => {
-    // Aplicar tema de color
     if (theme === 'classic' || theme === 'indigo') {
       document.documentElement.removeAttribute('data-theme');
     } else {
@@ -48,7 +48,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }, [theme]);
 
   useEffect(() => {
-    // Aplicar modo oscuro
     if (isDark) {
       document.documentElement.classList.add('dark');
     } else {
@@ -57,13 +56,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('darkMode', String(isDark));
   }, [isDark]);
 
-  const setTheme = (newTheme: ThemeColor) => {
-    setThemeState(newTheme);
-  };
-
-  const toggleDark = () => {
-    setIsDark(prev => !prev);
-  };
+  const setTheme = (newTheme: ThemeColor) => setThemeState(newTheme);
+  const toggleDark = () => setIsDark(prev => !prev);
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme, isDark, toggleDark }}>

@@ -8,6 +8,7 @@ import { getQuestionsBySubject } from '../lib/questions';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import { useThemeColors } from '../hooks/useThemeColors';
+import type { PausedSession } from '../hooks/useTestSession';
 import toast from 'react-hot-toast';
 
 interface ReadingTestModeProps {
@@ -15,6 +16,8 @@ interface ReadingTestModeProps {
   onExit: () => void;
   timePerQuestion?: number;
   readingTime?: number;
+  resumeSession?: PausedSession | null;
+  onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
 }
 
 type Phase = 'reading' | 'questions';
@@ -24,7 +27,9 @@ export function ReadingTestMode({
   subject, 
   onExit, 
   timePerQuestion = 2.5,
-  readingTime = 5
+  readingTime = 5,
+  resumeSession,
+  onSessionChange
 }: ReadingTestModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
@@ -60,6 +65,7 @@ export function ReadingTestMode({
   const [questionTimerKey, setQuestionTimerKey] = useState(0);
   
   const [currentTimeLeft, setCurrentTimeLeft] = useState(readingTime * 60);
+  const [initialTime, setInitialTime] = useState<number | undefined>(undefined);
 
   const loadReadingForQuestion = useCallback(async (question: Question) => {
     if (!question.reading_text_id) {
@@ -120,6 +126,18 @@ export function ReadingTestMode({
         if (selectedQuestions.length > 0) {
           await loadReadingForQuestion(selectedQuestions[0]);
         }
+        
+        // Restaurar sesión si existe
+        if (resumeSession && resumeSession.subject === subject) {
+          console.log('[ReadingTestMode] Restaurando sesión:', resumeSession);
+          setCurrentQuestionIndex(resumeSession.currentQuestionIndex);
+          setCurrentTimeLeft(resumeSession.timeRemaining);
+          setInitialTime(resumeSession.timeRemaining);
+          setAnswers(resumeSession.answers as Record<number, string>);
+          setPhase('questions');
+          setActiveTab('preguntas');
+          toast.success('Sesión restaurada');
+        }
       } catch (error) {
         if (!mounted) return;
         console.error('Error initializing test:', error);
@@ -131,7 +149,26 @@ export function ReadingTestMode({
     };
     initialize();
     return () => { mounted = false; };
-  }, [subject, loadQuestions, loadReadingForQuestion]);
+  }, [subject, loadQuestions, loadReadingForQuestion, resumeSession]);
+
+  // Guardar sesión al salir
+  const handleExitWithSave = useCallback(() => {
+    if (onSessionChange && !isFinished && questions.length > 0) {
+      console.log('[ReadingTestMode] Guardando sesión antes de salir');
+      onSessionChange({
+        subject,
+        mode: 'TEST',
+        currentQuestionIndex,
+        timeRemaining: currentTimeLeft,
+        answers: answers as Record<string, string>,
+        questionIds: questions.map(q => q.id),
+        startTime,
+        totalQuestions: questions.length,
+        currentTopic: currentReading?.title
+      });
+    }
+    onExit();
+  }, [onSessionChange, isFinished, questions, subject, currentQuestionIndex, currentTimeLeft, answers, startTime, currentReading, onExit]);
 
   const saveQuestionAttempt = (answer: string, isCorrect: boolean) => {
     const question = questions[currentQuestionIndex];
@@ -150,6 +187,11 @@ export function ReadingTestMode({
   };
 
   const saveSession = async () => {
+    // Limpiar sesión pausada al completar
+    if (onSessionChange) {
+      onSessionChange(null);
+    }
+    
     if (!user) return;
 
     const timeSpent = Math.round((Date.now() - startTime) / 1000);
@@ -226,6 +268,11 @@ export function ReadingTestMode({
   };
 
   const handleNext = async () => {
+    // Limpiar initialTime después de la primera pregunta restaurada
+    if (initialTime !== undefined) {
+      setInitialTime(undefined);
+    }
+    
     if (currentQuestionIndex < questions.length - 1) {
       const nextIndex = currentQuestionIndex + 1;
       setCurrentQuestionIndex(nextIndex);
@@ -274,6 +321,7 @@ export function ReadingTestMode({
     setQuestionStartTime(Date.now());
     setQuestionTimerKey(prev => prev + 1);
     setCurrentTimeLeft(timePerQuestion * 60);
+    setInitialTime(undefined); // Reset initialTime cuando empieza fase normal
   };
 
   const handleTimerTick = useCallback((timeLeft: number) => {
@@ -329,7 +377,7 @@ export function ReadingTestMode({
       <div className="max-w-6xl mx-auto flex flex-col min-h-[calc(100vh-4rem)]">
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center space-x-4">
-            <button onClick={onExit} className={`flex items-center space-x-2 text-gray-600 dark:text-gray-300 ${colors.primaryText.replace('text-', 'hover:text-')} transition-colors`}>
+            <button onClick={handleExitWithSave} className={`flex items-center space-x-2 text-gray-600 dark:text-gray-300 ${colors.primaryText.replace('text-', 'hover:text-')} transition-colors`}>
               <Home className="h-5 w-5" />
               <span>Inicio</span>
             </button>
@@ -397,15 +445,16 @@ export function ReadingTestMode({
     <div className="max-w-6xl mx-auto flex flex-col min-h-[calc(100vh-4rem)]">
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center space-x-4">
-          <button onClick={onExit} className={`flex items-center space-x-2 text-gray-600 dark:text-gray-300 ${colors.primaryText.replace('text-', 'hover:text-')} transition-colors`}>
+          <button onClick={handleExitWithSave} className={`flex items-center space-x-2 text-gray-600 dark:text-gray-300 ${colors.primaryText.replace('text-', 'hover:text-')} transition-colors`}>
             <Home className="h-5 w-5" />
             <span>Inicio</span>
           </button>
           <Timer
             totalMinutes={timePerQuestion}
             onTimeUp={handleQuestionTimeUp}
-            resetKey={`question-${questionTimerKey}`}
+            resetKey={initialTime ? undefined : `question-${questionTimerKey}`}
             onTick={handleTimerTick}
+            initialTimeSeconds={initialTime}
           />
         </div>
         <div className="text-gray-600 dark:text-gray-300">

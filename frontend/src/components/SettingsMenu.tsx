@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Settings, Clock, X, Calculator, Brain, BookOpen, FlaskConical, History, GraduationCap, Target, Hash, RefreshCw } from 'lucide-react';
+import { Settings, Clock, X, Calculator, Brain, BookOpen, FlaskConical, History, GraduationCap, Target, Hash, RefreshCw, Layers } from 'lucide-react';
 import type { Subject } from '../types';
 
 interface ModeTimeSettings {
@@ -18,7 +18,7 @@ interface TimeSettings {
   reviewQuestions: ModeTimeSettings;
 }
 
-const STORAGE_KEY = 'paes_time_settings_v6'; // Bump version to reset settings
+const STORAGE_KEY = 'paes_time_settings_v6';
 
 const defaultSettings: TimeSettings = {
   test: { M1: 1, M2: 1, L: 1, C: 1, H: 1 },
@@ -97,6 +97,8 @@ function formatTotalTime(totalMinutes: number): string {
   }
 }
 
+const allSubjects: Subject[] = ['M1', 'M2', 'L', 'C', 'H'];
+
 export function useTimeSettings() {
   const [settings, setSettings] = useState<TimeSettings>(() => {
     if (typeof window !== 'undefined') {
@@ -130,10 +132,26 @@ export function useTimeSettings() {
     }));
   };
 
+  // Nuevo: Actualizar tiempo para todas las materias
+  const updateAllSettings = (mode: 'test' | 'paes', time: number) => {
+    setSettings(prev => ({
+      ...prev,
+      [mode]: { M1: time, M2: time, L: time, C: time, H: time }
+    }));
+  };
+
   const updatePaesQuestions = (subject: Subject, count: number) => {
     setSettings(prev => ({
       ...prev,
       paesQuestions: { ...prev.paesQuestions, [subject]: count }
+    }));
+  };
+
+  // Nuevo: Actualizar preguntas PAES para todas las materias
+  const updateAllPaesQuestions = (count: number) => {
+    setSettings(prev => ({
+      ...prev,
+      paesQuestions: { M1: count, M2: count, L: count, C: count, H: count }
     }));
   };
 
@@ -144,10 +162,26 @@ export function useTimeSettings() {
     }));
   };
 
+  // Nuevo: Actualizar tiempo de lectura para todas las materias
+  const updateAllReadingTime = (time: number) => {
+    setSettings(prev => ({
+      ...prev,
+      readingTime: { M1: time, M2: time, L: time, C: time, H: time }
+    }));
+  };
+
   const updateReviewQuestions = (subject: Subject, count: number) => {
     setSettings(prev => ({
       ...prev,
       reviewQuestions: { ...prev.reviewQuestions, [subject]: count }
+    }));
+  };
+
+  // Nuevo: Actualizar preguntas de repaso para todas las materias
+  const updateAllReviewQuestions = (count: number) => {
+    setSettings(prev => ({
+      ...prev,
+      reviewQuestions: { M1: count, M2: count, L: count, C: count, H: count }
     }));
   };
 
@@ -169,10 +203,14 @@ export function useTimeSettings() {
 
   return { 
     settings, 
-    updateSetting, 
-    updatePaesQuestions, 
+    updateSetting,
+    updateAllSettings,
+    updatePaesQuestions,
+    updateAllPaesQuestions,
     updateReadingTime,
+    updateAllReadingTime,
     updateReviewQuestions,
+    updateAllReviewQuestions,
     getTimeForSubject, 
     getPaesQuestionsForSubject,
     getReadingTimeForSubject,
@@ -185,12 +223,28 @@ interface SettingsModalProps {
   onClose: () => void;
   settings: TimeSettings;
   onUpdateSetting: (mode: 'test' | 'paes', subject: Subject, time: number) => void;
+  onUpdateAllSettings: (mode: 'test' | 'paes', time: number) => void;
   onUpdatePaesQuestions: (subject: Subject, count: number) => void;
+  onUpdateAllPaesQuestions: (count: number) => void;
   onUpdateReadingTime: (subject: Subject, time: number) => void;
+  onUpdateAllReadingTime: (time: number) => void;
   onUpdateReviewQuestions: (subject: Subject, count: number) => void;
+  onUpdateAllReviewQuestions: (count: number) => void;
 }
 
-export function SettingsModal({ isOpen, onClose, settings, onUpdateSetting, onUpdatePaesQuestions, onUpdateReadingTime, onUpdateReviewQuestions }: SettingsModalProps) {
+export function SettingsModal({ 
+  isOpen, 
+  onClose, 
+  settings, 
+  onUpdateSetting, 
+  onUpdateAllSettings,
+  onUpdatePaesQuestions, 
+  onUpdateAllPaesQuestions,
+  onUpdateReadingTime,
+  onUpdateAllReadingTime,
+  onUpdateReviewQuestions,
+  onUpdateAllReviewQuestions
+}: SettingsModalProps) {
   const [activeTab, setActiveTab] = useState<'test' | 'paes' | 'review'>('test');
   const subjects: Subject[] = ['M1', 'M2', 'L', 'C', 'H'];
 
@@ -217,6 +271,27 @@ export function SettingsModal({ isOpen, onClose, settings, onUpdateSetting, onUp
 
   const calculateTotalTime = (subject: Subject, timePerQ: number): number => {
     return currentQuestionSettings[subject] * timePerQ;
+  };
+
+  // Verificar si todas las materias tienen el mismo valor
+  const allSameTime = (mode: 'test' | 'paes'): number | null => {
+    const values = subjects.map(s => settings[mode][s]);
+    return values.every(v => v === values[0]) ? values[0] : null;
+  };
+
+  const allSamePaesQuestions = (): number | null => {
+    const values = subjects.map(s => currentQuestionSettings[s]);
+    return values.every(v => v === values[0]) ? values[0] : null;
+  };
+
+  const allSameReviewQuestions = (): number | null => {
+    const values = subjects.map(s => currentReviewSettings[s]);
+    return values.every(v => v === values[0]) ? values[0] : null;
+  };
+
+  const allSameReadingTime = (): number | null => {
+    const values = subjects.map(s => currentReadingSettings[s]);
+    return values.every(v => v === values[0]) ? values[0] : null;
   };
 
   return (
@@ -304,6 +379,259 @@ export function SettingsModal({ isOpen, onClose, settings, onUpdateSetting, onUp
 
         {/* Content */}
         <div className="p-6 space-y-4 overflow-y-auto max-h-[calc(90vh-280px)]">
+          
+          {/* ========== SECCIÓN: APLICAR A TODAS LAS MATERIAS ========== */}
+          <div className={`rounded-xl p-4 border-2 border-dashed ${
+            activeTab === 'test' 
+              ? 'border-indigo-300 dark:border-indigo-600 bg-indigo-50/50 dark:bg-indigo-900/10'
+              : activeTab === 'paes'
+              ? 'border-purple-300 dark:border-purple-600 bg-purple-50/50 dark:bg-purple-900/10'
+              : 'border-green-300 dark:border-green-600 bg-green-50/50 dark:bg-green-900/10'
+          }`}>
+            <div className="flex items-center gap-4 mb-3">
+              <div className={`p-3 rounded-xl ${
+                activeTab === 'test' 
+                  ? 'bg-indigo-100 dark:bg-indigo-500/20'
+                  : activeTab === 'paes'
+                  ? 'bg-purple-100 dark:bg-purple-500/20'
+                  : 'bg-green-100 dark:bg-green-500/20'
+              }`}>
+                <Layers className={`w-5 h-5 ${
+                  activeTab === 'test' 
+                    ? 'text-indigo-600 dark:text-indigo-400'
+                    : activeTab === 'paes'
+                    ? 'text-purple-600 dark:text-purple-400'
+                    : 'text-green-600 dark:text-green-400'
+                }`} />
+              </div>
+              <div className="flex-1">
+                <h3 className={`font-semibold ${
+                  activeTab === 'test' 
+                    ? 'text-indigo-700 dark:text-indigo-300'
+                    : activeTab === 'paes'
+                    ? 'text-purple-700 dark:text-purple-300'
+                    : 'text-green-700 dark:text-green-300'
+                }`}>
+                  Aplicar a todas las materias
+                </h3>
+                {/* Resumen de configuración actual */}
+                <div className="flex items-center gap-3 flex-wrap">
+                  {activeTab !== 'review' && allSameTime(activeTab) && (
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      Tiempo: <span className={`font-medium ${activeTab === 'test' ? 'text-indigo-600 dark:text-indigo-400' : 'text-purple-600 dark:text-purple-400'}`}>
+                        {formatTimeOption(allSameTime(activeTab)!)}/preg
+                      </span>
+                    </p>
+                  )}
+                  {activeTab === 'test' && allSameReadingTime() && (
+                    <>
+                      <span className="text-gray-300 dark:text-gray-600">•</span>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        Lectura: <span className="font-medium text-amber-600 dark:text-amber-400">
+                          {allSameReadingTime()} min
+                        </span>
+                      </p>
+                    </>
+                  )}
+                  {activeTab === 'paes' && allSamePaesQuestions() && (
+                    <>
+                      <span className="text-gray-300 dark:text-gray-600">•</span>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                        Preguntas: <span className="font-medium text-purple-600 dark:text-purple-400">
+                          {allSamePaesQuestions()}
+                        </span>
+                      </p>
+                      {allSameTime('paes') && (
+                        <span className="text-sm px-2 py-0.5 bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 rounded-full font-medium">
+                          Total: {formatTotalTime(allSameTime('paes')! * allSamePaesQuestions()!)}
+                        </span>
+                      )}
+                    </>
+                  )}
+                  {activeTab === 'review' && allSameReviewQuestions() !== null && (
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      Preguntas: <span className="font-medium text-green-600 dark:text-green-400">
+                        {allSameReviewQuestions() === 0 ? 'Sin límite' : allSameReviewQuestions()}
+                      </span>
+                    </p>
+                  )}
+                  {/* Mensaje cuando hay valores mixtos */}
+                  {activeTab === 'test' && !allSameTime('test') && (
+                    <p className="text-sm text-gray-400 dark:text-gray-500 italic">
+                      Valores mixtos por materia
+                    </p>
+                  )}
+                  {activeTab === 'paes' && (!allSameTime('paes') || !allSamePaesQuestions()) && (
+                    <p className="text-sm text-gray-400 dark:text-gray-500 italic">
+                      Valores mixtos por materia
+                    </p>
+                  )}
+                  {activeTab === 'review' && allSameReviewQuestions() === null && (
+                    <p className="text-sm text-gray-400 dark:text-gray-500 italic">
+                      Valores mixtos por materia
+                    </p>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Tiempo por pregunta (Test y PAES) */}
+            {activeTab !== 'review' && (
+              <div className="mb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Clock className="w-4 h-4 text-gray-400" />
+                  <span className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                    Tiempo por pregunta
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {timeOptions.map((time) => {
+                    const isSelected = allSameTime(activeTab) === time;
+                    // Calcular tiempo total promedio para PAES (usando la cantidad de preguntas actual)
+                    const avgQuestions = allSamePaesQuestions();
+                    const totalTimeEstimate = activeTab === 'paes' && avgQuestions ? avgQuestions * time : null;
+                    
+                    return (
+                      <button
+                        key={time}
+                        onClick={() => onUpdateAllSettings(activeTab, time)}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                          isSelected
+                            ? activeTab === 'test'
+                              ? 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-md scale-105'
+                              : 'bg-purple-600 hover:bg-purple-700 text-white shadow-md scale-105'
+                            : 'bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400 hover:shadow-sm'
+                        }`}
+                      >
+                        <span>{formatTimeOption(time)}</span>
+                        {activeTab === 'paes' && totalTimeEstimate && (
+                          <span className={`block text-xs ${
+                            isSelected 
+                              ? 'text-white/80' 
+                              : 'text-gray-400 dark:text-gray-500'
+                          }`}>
+                            = {formatTotalTime(totalTimeEstimate)}
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Tiempo de lectura (solo Test) */}
+            {activeTab === 'test' && (
+              <div className="mb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <BookOpen className="w-4 h-4 text-amber-500" />
+                  <span className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                    Tiempo de lectura (Lenguaje)
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {readingTimeOptions.map((time) => {
+                    const isSelected = allSameReadingTime() === time;
+                    return (
+                      <button
+                        key={time}
+                        onClick={() => onUpdateAllReadingTime(time)}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                          isSelected
+                            ? 'bg-amber-500 hover:bg-amber-600 text-white shadow-md scale-105'
+                            : 'bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400 hover:shadow-sm'
+                        }`}
+                      >
+                        {time} min
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Cantidad de preguntas (PAES) */}
+            {activeTab === 'paes' && (
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <Hash className="w-4 h-4 text-gray-400" />
+                  <span className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                    Cantidad de preguntas
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {questionOptions.map((count) => {
+                    const isSelected = allSamePaesQuestions() === count;
+                    // Calcular tiempo total usando el tiempo por pregunta actual
+                    const currentTime = allSameTime('paes') ?? 1;
+                    const totalTimeEstimate = currentTime * count;
+                    
+                    return (
+                      <button
+                        key={count}
+                        onClick={() => onUpdateAllPaesQuestions(count)}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                          isSelected
+                            ? 'bg-purple-600 hover:bg-purple-700 text-white shadow-md scale-105'
+                            : 'bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400 hover:shadow-sm'
+                        }`}
+                      >
+                        <span>{count}</span>
+                        <span className={`block text-xs ${
+                          isSelected 
+                            ? 'text-white/80' 
+                            : 'text-gray-400 dark:text-gray-500'
+                        }`}>
+                          = {formatTotalTime(totalTimeEstimate)}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Cantidad de preguntas (Repaso) */}
+            {activeTab === 'review' && (
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <Hash className="w-4 h-4 text-gray-400" />
+                  <span className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                    Cantidad de preguntas por sesión
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {reviewQuestionOptions.map((count) => {
+                    const isSelected = allSameReviewQuestions() === count;
+                    return (
+                      <button
+                        key={count}
+                        onClick={() => onUpdateAllReviewQuestions(count)}
+                        className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                          isSelected
+                            ? 'bg-green-500 hover:bg-green-600 text-white shadow-md scale-105'
+                            : 'bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400 hover:shadow-sm'
+                        }`}
+                      >
+                        {count === 0 ? '∞ Sin límite' : count}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Separador */}
+          <div className="flex items-center gap-3 py-2">
+            <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700"></div>
+            <span className="text-xs font-medium text-gray-400 dark:text-gray-500 uppercase tracking-wide">
+              O configura por materia
+            </span>
+            <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700"></div>
+          </div>
+
+          {/* ========== CONFIGURACIÓN POR MATERIA ========== */}
           {subjects.map((subject) => {
             const config = subjectConfig[subject];
             const Icon = config.icon;

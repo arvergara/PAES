@@ -132,6 +132,128 @@
   }
 }
 
+@layer components {
+  /* ========================================
+     LIQUID GLASS EFFECT - Inspirado en Apple
+     ======================================== */
+  .liquid-glass {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.05) 40%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+    backdrop-filter: blur(50px) saturate(200%) brightness(1.1);
+    -webkit-backdrop-filter: blur(50px) saturate(200%) brightness(1.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.4),
+      0 2px 8px rgba(0, 0, 0, 0.2),
+      inset 0 2px 1px rgba(255, 255, 255, 0.15),
+      inset 0 -1px 1px rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Línea brillante superior */
+  .liquid-glass::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.3) 15%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0.3) 85%,
+      transparent 100%
+    );
+    opacity: 0.8;
+  }
+  
+  /* Reflejo curvo de luz */
+  .liquid-glass::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 50%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 100%
+    );
+    border-radius: 0 0 50% 50%;
+    pointer-events: none;
+  }
+
+  /* Glass card para paneles */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+  }
+
+  /* Efecto glow para cards */
+  .glow-blue { box-shadow: 0 0 40px rgba(59, 130, 246, 0.15); }
+  .glow-purple { box-shadow: 0 0 40px rgba(139, 92, 246, 0.15); }
+  .glow-rose { box-shadow: 0 0 40px rgba(244, 63, 94, 0.15); }
+  .glow-emerald { box-shadow: 0 0 40px rgba(16, 185, 129, 0.15); }
+  .glow-amber { box-shadow: 0 0 40px rgba(245, 158, 11, 0.15); }
+
+  /* Hover con glow intensificado */
+  .card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-hover:hover { 
+    transform: translateY(-4px) scale(1.02); 
+  }
+  .card-hover:hover.glow-blue { box-shadow: 0 8px 50px rgba(59, 130, 246, 0.3); }
+  .card-hover:hover.glow-purple { box-shadow: 0 8px 50px rgba(139, 92, 246, 0.3); }
+  .card-hover:hover.glow-rose { box-shadow: 0 8px 50px rgba(244, 63, 94, 0.3); }
+  .card-hover:hover.glow-emerald { box-shadow: 0 8px 50px rgba(16, 185, 129, 0.3); }
+  .card-hover:hover.glow-amber { box-shadow: 0 8px 50px rgba(245, 158, 11, 0.3); }
+
+  /* Transición suave premium */
+  .smooth-transition {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Gradiente animado para CTAs */
+  .animated-gradient {
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Fondo premium con gradiente */
+  .premium-bg {
+    background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+    min-height: 100vh;
+  }
+
+  /* Patrón de puntos sutil */
+  .pattern-overlay {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Texto con glow */
+  .stat-glow {
+    text-shadow: 0 0 20px currentColor;
+  }
+}
+
 @layer utilities {
   /* Primary color utilities */
   .bg-primary-50 { background-color: rgb(var(--color-primary-50)); }

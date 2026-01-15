@@ -1,321 +1,270 @@
 import { useState } from 'react';
-import { 
-  GraduationCap, 
-  Target, 
-  TrendingUp, 
-  Clock, 
-  BookOpen,
-  Sparkles,
-  Brain,
-  Smartphone,
-  FileText,
-  Shield,
-  ChevronDown
-} from 'lucide-react';
+import { BookOpen, Calculator, Languages, FlaskConical, Clock, Check, X, Play, ChevronDown, ChevronUp } from 'lucide-react';
 import { AuthModal } from './AuthModal';
 
-// Colores consistentes con el dashboard
-const subjectColors = {
-  matematica1: 'from-indigo-500 to-purple-600',
-  matematica2: 'from-cyan-400 to-blue-500',
-  lenguaje: 'from-pink-400 to-rose-500',
-  ciencias: 'from-teal-400 to-green-500',
-  historia: 'from-orange-400 to-yellow-500',
-};
-
-const subjects = [
-  { id: 'matematica1', name: 'Matemática 1', subtitle: 'Álgebra y funciones', questions: 450, icon: '📐' },
-  { id: 'matematica2', name: 'Matemática 2', subtitle: 'Geometría y probabilidad', questions: 380, icon: '📊' },
-  { id: 'lenguaje', name: 'Lenguaje', subtitle: 'Comprensión lectora', questions: 420, icon: '📚' },
-  { id: 'ciencias', name: 'Ciencias', subtitle: 'Biología, Química y Física', questions: 400, icon: '🔬' },
-  { id: 'historia', name: 'Historia', subtitle: 'Historia y ciencias sociales', questions: 350, icon: '🏛️' },
-];
-
-const features = [
-  {
-    icon: Target,
-    title: 'Preguntas Oficiales Reales',
-    description: 'Practica con las mismas preguntas que han aparecido en PAES anteriores. No inventadas, no "estilo PAES". Las reales.'
-  },
-  {
-    icon: Brain,
-    title: 'Práctica Adaptativa',
-    description: 'El sistema identifica tus puntos débiles y te muestra más preguntas de los temas que necesitas reforzar.'
-  },
-  {
-    icon: TrendingUp,
-    title: 'Mide tu Progreso',
-    description: 'Simulacros cronometrados, estadísticas detalladas por tema, y seguimiento de tu avance real.'
-  },
-  {
-    icon: BookOpen,
-    title: 'Explicaciones Completas',
-    description: 'Cada pregunta incluye el razonamiento paso a paso. Entiende el "por qué", no solo el "qué".'
-  },
-  {
-    icon: Smartphone,
-    title: 'Donde Quieras',
-    description: 'Funciona en computador, tablet o celular. Practica en el metro, en tu casa, donde sea.'
-  },
-  {
-    icon: FileText,
-    title: 'Textos Originales',
-    description: 'Para Lenguaje: los textos completos en PDF tal como aparecen en la prueba real.'
-  }
-];
-
-const faqs = [
-  {
-    q: '¿Realmente son 30 días gratis?',
-    a: 'Sí. Acceso completo a todas las funciones durante 30 días sin pagar nada. Ni siquiera te pedimos tarjeta de crédito para registrarte.'
-  },
-  {
-    q: '¿Qué pasa después de los 30 días?',
-    a: 'Si quieres seguir, activas tu suscripción por $25.000 mensuales. Si no, tu cuenta queda inactiva. Sin cargos sorpresa.'
-  },
-  {
-    q: '¿Puedo cancelar cuando quiera?',
-    a: 'Absolutamente. Sin contratos ni permanencia mínima. Cancelas con un click y no se te cobra el siguiente mes.'
-  },
-  {
-    q: '¿Las preguntas son realmente oficiales?',
-    a: 'Sí. Trabajamos con preguntas de pruebas PAES ya rendidas. Son las reales, no inventadas.'
-  },
-  {
-    q: '¿Incluye las 5 pruebas?',
-    a: 'Todo incluido. Por $25.000/mes tienes Matemática 1, Matemática 2, Lenguaje, Ciencias e Historia.'
-  }
-];
-
-const comparisonData = [
-  { label: 'Precio mensual', values: ['$200.000 x materia', '$150.000 - $400.000', '$25.000'] },
-  { label: 'Materias incluidas', values: ['1', 'Depende del plan', 'Las 5'] },
-  { label: 'Preguntas oficiales', values: ['Depende', 'Algunas', '2.000+'] },
-  { label: 'Disponibilidad', values: ['2-4 hrs/semana', 'Horario fijo', '24/7 ilimitada'] },
-  { label: 'Explicación de cada pregunta', values: ['A veces', 'Algunas', 'Todas'] },
-  { label: 'Costo anual (5 materias)', values: ['~$12.000.000', '~$2.400.000', '$300.000'] }
-];
-
 export function LandingPage() {
-  const [authModal, setAuthModal] = useState<{ isOpen: boolean; mode: 'login' | 'register' }>({
-    isOpen: false,
-    mode: 'login'
-  });
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const weeksUntilPAES = 48;
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
 
-  const openLogin = () => setAuthModal({ isOpen: true, mode: 'login' });
-  const openRegister = () => setAuthModal({ isOpen: true, mode: 'register' });
-  const closeModal = () => setAuthModal({ ...authModal, isOpen: false });
+  const handleLogin = () => {
+    setAuthMode('login');
+    setShowAuthModal(true);
+  };
+
+  const handleRegister = () => {
+    setAuthMode('register');
+    setShowAuthModal(true);
+  };
+
+  const daysUntilPAES = Math.ceil((new Date('2026-11-24').getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
+
+  const subjects = [
+    { name: 'Matemática 1', description: 'Álgebra y funciones', icon: Calculator, questions: 156, color: 'blue' },
+    { name: 'Matemática 2', description: 'Geometría y probabilidad', icon: Calculator, questions: 89, color: 'violet' },
+    { name: 'Lenguaje', description: 'Comprensión lectora', icon: Languages, questions: 35, color: 'rose' },
+    { name: 'Ciencias', description: 'Biología, Química y Física', icon: FlaskConical, questions: 124, color: 'emerald' },
+    { name: 'Historia', description: 'Historia y ciencias sociales', icon: Clock, questions: 23, color: 'amber' },
+  ];
+
+  const faqs = [
+    { q: '¿Realmente son 30 días gratis?', a: 'Sí. Acceso completo a todas las funciones durante 30 días sin pagar nada. Ni siquiera te pedimos tarjeta de crédito para registrarte.' },
+    { q: '¿Qué pasa después de los 30 días?', a: 'Si quieres seguir, activas tu suscripción por $25.000 mensuales. Si no, tu cuenta queda inactiva. Sin cargos sorpresa.' },
+    { q: '¿Puedo cancelar cuando quiera?', a: 'Absolutamente. Sin contratos ni permanencia mínima. Cancelas con un click y no se te cobra el siguiente mes.' },
+    { q: '¿Las preguntas son realmente oficiales?', a: 'Sí. Trabajamos con preguntas de pruebas PAES ya rendidas. Son las reales, no inventadas.' },
+    { q: '¿Incluye las 5 pruebas?', a: 'Todo incluido. Por $25.000/mes tienes Matemática 1, Matemática 2, Lenguaje, Ciencias e Historia.' },
+  ];
+
+  const colorClasses: Record<string, { card: string; icon: string; badge: string; text: string; desc: string }> = {
+    blue: {
+      card: 'from-blue-500/20 via-blue-500/10 to-transparent border-blue-500/30 hover:border-blue-400/50',
+      icon: 'bg-blue-500/20 text-blue-400',
+      badge: 'bg-blue-500/20 text-blue-300',
+      text: 'text-blue-100',
+      desc: 'text-blue-300/80'
+    },
+    violet: {
+      card: 'from-violet-500/20 via-violet-500/10 to-transparent border-violet-500/30 hover:border-violet-400/50',
+      icon: 'bg-violet-500/20 text-violet-400',
+      badge: 'bg-violet-500/20 text-violet-300',
+      text: 'text-violet-100',
+      desc: 'text-violet-300/80'
+    },
+    rose: {
+      card: 'from-rose-500/20 via-rose-500/10 to-transparent border-rose-500/30 hover:border-rose-400/50',
+      icon: 'bg-rose-500/20 text-rose-400',
+      badge: 'bg-rose-500/20 text-rose-300',
+      text: 'text-rose-100',
+      desc: 'text-rose-300/80'
+    },
+    emerald: {
+      card: 'from-emerald-500/20 via-emerald-500/10 to-transparent border-emerald-500/30 hover:border-emerald-400/50',
+      icon: 'bg-emerald-500/20 text-emerald-400',
+      badge: 'bg-emerald-500/20 text-emerald-300',
+      text: 'text-emerald-100',
+      desc: 'text-emerald-300/80'
+    },
+    amber: {
+      card: 'from-amber-500/20 via-amber-500/10 to-transparent border-amber-500/30 hover:border-amber-400/50',
+      icon: 'bg-amber-500/20 text-amber-400',
+      badge: 'bg-amber-500/20 text-amber-300',
+      text: 'text-amber-100',
+      desc: 'text-amber-300/80'
+    },
+  };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Urgency Banner */}
-      <div className="fixed top-0 left-0 right-0 bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 text-center font-medium text-sm z-50">
-        <Clock className="inline w-4 h-4 mr-2" />
-        Quedan <strong>{weeksUntilPAES} semanas</strong> para la PAES 2026. Cada semana de práctica cuenta.
+    <div className="min-h-screen bg-[#0f0f1a] text-white overflow-x-hidden">
+      {/* Animated Background Orbs */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-cyan-600/20 rounded-full blur-[120px] animate-pulse" />
+        <div className="absolute top-[30%] right-[-15%] w-[500px] h-[500px] bg-teal-600/20 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '-1.5s' }} />
+        <div className="absolute bottom-[-20%] left-[30%] w-[700px] h-[700px] bg-cyan-600/15 rounded-full blur-[150px] animate-pulse" style={{ animationDelay: '-2s' }} />
       </div>
 
-      {/* Header */}
-      <header className="fixed top-11 left-0 right-0 z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
-        <div className="container mx-auto px-4 lg:px-8 py-4 flex items-center justify-between">
+      {/* Urgency Banner */}
+      <div className="relative bg-gradient-to-r from-cyan-600 via-teal-500 to-cyan-600 py-3 px-4 text-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse" />
+        <span className="relative text-sm font-bold">
+          🔥 Quedan <span className="text-yellow-300">{daysUntilPAES} días</span> para la PAES 2026 · 
+          <button onClick={handleRegister} className="underline cursor-pointer hover:text-yellow-200 transition-colors ml-1">
+            ¡Comienza gratis hoy!
+          </button>
+        </span>
+      </div>
+
+      {/* Navbar */}
+      <nav className="relative bg-black/30 backdrop-blur-xl border-b border-white/10 sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="p-2 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl">
-              <GraduationCap className="w-6 h-6 text-white" />
+            <div className="relative p-3 bg-gradient-to-br from-cyan-500 via-teal-500 to-cyan-600 rounded-2xl shadow-lg">
+              <BookOpen className="w-6 h-6 text-white" />
             </div>
             <div>
-              <span className="text-xl font-bold text-gray-900 dark:text-white">
-                Tutor<span className="text-indigo-600 dark:text-indigo-400">PAES</span>
-              </span>
-              <div className="text-xs text-gray-400 hidden sm:block">Tu preparación inteligente</div>
+              <div className="font-black text-xl tracking-tight">TutorPAES</div>
+              <div className="text-xs text-gray-400">Tu preparación inteligente</div>
             </div>
           </div>
-          <div className="hidden md:flex items-center gap-2">
-            <a href="#como-funciona" className="px-4 py-2 text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-lg font-medium transition-colors">
-              Cómo funciona
+          <div className="flex items-center gap-2">
+            <a href="#materias" className="hidden md:block text-sm text-gray-300 hover:text-white px-4 py-2 rounded-xl hover:bg-white/10 transition-all">
+              Materias
             </a>
-            <a href="#precios" className="px-4 py-2 text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-lg font-medium transition-colors">
-              Precios
+            <a href="#comparacion" className="hidden md:block text-sm text-gray-300 hover:text-white px-4 py-2 rounded-xl hover:bg-white/10 transition-all">
+              Comparar
             </a>
-            <a href="#faq" className="px-4 py-2 text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-lg font-medium transition-colors">
-              FAQ
+            <a href="#precio" className="hidden md:block text-sm text-gray-300 hover:text-white px-4 py-2 rounded-xl hover:bg-white/10 transition-all">
+              Precio
             </a>
-          </div>
-          <div className="flex items-center gap-3">
-            <button 
-              onClick={openLogin} 
-              className="px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-indigo-600 font-medium transition-colors hidden sm:block"
+            <button
+              onClick={handleLogin}
+              className="ml-2 md:ml-4 px-4 md:px-5 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white text-sm font-semibold rounded-xl transition-all"
             >
-              Iniciar Sesión
+              Iniciar sesión
             </button>
-            <button 
-              onClick={openRegister} 
-              className="px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold rounded-xl shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:-translate-y-0.5 transition-all"
+            <button
+              onClick={handleRegister}
+              className="hidden md:flex px-6 py-2.5 bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-600 text-white text-sm font-bold rounded-xl shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all hover:scale-105"
             >
-              Comenzar gratis
+              Comenzar gratis →
             </button>
           </div>
         </div>
-      </header>
+      </nav>
 
       {/* Hero Section */}
-      <section className="pt-40 pb-16 px-4 lg:px-8 bg-white dark:bg-gray-900 text-center">
-        <div className="container mx-auto max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-purple-100 to-indigo-100 dark:from-purple-900/40 dark:to-indigo-900/40 rounded-full mb-6">
-            <Sparkles className="w-4 h-4 text-purple-600 dark:text-purple-400" />
-            <span className="text-sm font-semibold text-purple-700 dark:text-purple-300">
-              Preparación inteligente para la PAES 2026
-            </span>
-          </div>
-          
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6 tracking-tight">
-            Un profesor particular cuesta<br/>
-            <span className="relative inline-block text-red-500 text-5xl lg:text-6xl">
-              $200.000
-              <span className="absolute left-0 right-0 top-1/2 h-1 bg-red-500 -rotate-6"></span>
-            </span> al mes.<br/>
-            <span className="text-gray-400 text-2xl lg:text-3xl font-medium">Por una sola materia.</span>
-          </h1>
-          
-          <p className="text-xl text-gray-500 dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">
-            TutorPAES te prepara para las <strong className="text-gray-900 dark:text-white">5 pruebas</strong> por solo{' '}
-            <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent font-extrabold text-2xl lg:text-3xl">
-              $25.000/mes
-            </span>
-            <br/>
-            Preguntas oficiales, explicaciones paso a paso, y práctica que se adapta a ti.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <button 
-              onClick={openRegister}
-              className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-xl font-semibold text-lg shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
-            >
-              <GraduationCap className="w-5 h-5" />
-              Prueba 30 días gratis →
-            </button>
-          </div>
-          
-          <p className="text-gray-400 text-sm">
-            Sin tarjeta de crédito · Cancela cuando quieras
-          </p>
-        </div>
-      </section>
+      <section className="relative min-h-[90vh] flex items-center py-20 px-6" style={{
+        background: `
+          radial-gradient(ellipse at 20% 0%, rgba(6, 182, 212, 0.3) 0%, transparent 50%),
+          radial-gradient(ellipse at 80% 0%, rgba(20, 184, 166, 0.3) 0%, transparent 50%),
+          radial-gradient(ellipse at 50% 100%, rgba(6, 182, 212, 0.2) 0%, transparent 50%),
+          linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 100%)
+        `
+      }}>
+        {/* Grid background */}
+        <div className="absolute inset-0 opacity-30" style={{
+          backgroundImage: 'linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px)',
+          backgroundSize: '50px 50px'
+        }} />
 
-      {/* Subject Cards */}
-      <section className="py-12 px-4 lg:px-8 bg-white dark:bg-gray-900">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-10">
-            Las 5 pruebas. Todo incluido.
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-            {subjects.slice(0, 3).map(subject => (
-              <div
-                key={subject.id}
-                className={`bg-gradient-to-br ${subjectColors[subject.id as keyof typeof subjectColors]} rounded-2xl p-7 text-white cursor-pointer hover:-translate-y-1 hover:shadow-xl transition-all`}
-              >
-                <div className="w-14 h-14 bg-white/25 rounded-2xl flex items-center justify-center text-3xl mb-4">
-                  {subject.icon}
-                </div>
-                <h3 className="text-2xl font-bold mb-1">{subject.name}</h3>
-                <p className="opacity-90 text-sm">{subject.subtitle}</p>
-                <p className="mt-3 text-sm opacity-80">{subject.questions}+ preguntas oficiales</p>
+        <div className="relative max-w-6xl mx-auto w-full">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div>
+              {/* Badge */}
+              <div className="inline-flex items-center gap-3 px-5 py-2.5 bg-white/5 backdrop-blur-sm border border-white/20 rounded-full mb-8">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
+                </span>
+                <span className="text-sm font-medium text-gray-200">+2,500 preguntas oficiales PAES</span>
               </div>
-            ))}
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
-            {subjects.slice(3).map(subject => (
-              <div
-                key={subject.id}
-                className={`bg-gradient-to-br ${subjectColors[subject.id as keyof typeof subjectColors]} rounded-2xl p-7 text-white cursor-pointer hover:-translate-y-1 hover:shadow-xl transition-all`}
-              >
-                <div className="w-14 h-14 bg-white/25 rounded-2xl flex items-center justify-center text-3xl mb-4">
-                  {subject.icon}
-                </div>
-                <h3 className="text-2xl font-bold mb-1">{subject.name}</h3>
-                <p className="opacity-90 text-sm">{subject.subtitle}</p>
-                <p className="mt-3 text-sm opacity-80">{subject.questions}+ preguntas oficiales</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Stats Bar */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 py-12">
-        <div className="container mx-auto max-w-4xl flex flex-wrap justify-around gap-8 text-center text-white px-4">
-          {[
-            { number: '2.000+', label: 'Preguntas oficiales' },
-            { number: '5', label: 'Pruebas completas' },
-            { number: '24/7', label: 'Disponible siempre' },
-            { number: '30', label: 'Días gratis' }
-          ].map((stat, i) => (
-            <div key={i}>
-              <div className="text-4xl font-extrabold">{stat.number}</div>
-              <div className="opacity-80 text-sm mt-1">{stat.label}</div>
+              <h1 className="text-5xl md:text-7xl font-black leading-[1.1] mb-6">
+                Prepara tu{' '}
+                <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent">
+                  PAES
+                </span>
+                <br />
+                con preguntas{' '}
+                <span className="relative">
+                  <span className="relative z-10">reales</span>
+                  <span className="absolute bottom-2 left-0 right-0 h-4 bg-gradient-to-r from-cyan-500/40 to-teal-500/40 -skew-x-6" />
+                </span>
+              </h1>
+
+              <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-xl">
+                Practica con las mismas preguntas de pruebas oficiales. 
+                Sin trucos, sin invenciones. Solo práctica real.
+              </p>
+
+              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+                <button
+                  onClick={handleRegister}
+                  className="group px-8 py-4 bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-600 text-white font-bold text-lg rounded-2xl shadow-xl shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all hover:scale-105 flex items-center justify-center gap-2"
+                >
+                  <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                  Comenzar gratis
+                </button>
+                <a
+                  href="#materias"
+                  className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/20 text-white font-semibold rounded-2xl transition-all text-center"
+                >
+                  Ver materias
+                </a>
+              </div>
+
+              {/* Trust badges */}
+              <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">
+                <div className="flex items-center gap-2">
+                  <Check className="w-5 h-5 text-emerald-400" />
+                  <span>30 días gratis</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Check className="w-5 h-5 text-emerald-400" />
+                  <span>Sin tarjeta de crédito</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Check className="w-5 h-5 text-emerald-400" />
+                  <span>Cancela cuando quieras</span>
+                </div>
+              </div>
             </div>
-          ))}
-        </div>
-      </section>
 
-      {/* Problem Section */}
-      <section className="bg-indigo-950 py-20 px-4 lg:px-8">
-        <div className="container mx-auto max-w-3xl text-center text-white">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
-            Prepararse para la PAES<br/>no debería costarte millones
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            {[
-              { price: '$150.000 - $400.000', label: 'Preuniversitario mensual' },
-              { price: '$200.000 x materia', label: 'Profesor particular' },
-              { price: '+$2.000.000', label: 'Preparación anual completa' }
-            ].map((item, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-8">
-                <div className="text-2xl font-bold text-red-300">{item.price}</div>
-                <div className="text-indigo-300 mt-2 text-sm">{item.label}</div>
+            {/* Right - Subject Cards Preview */}
+            <div className="hidden lg:block relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 rounded-3xl blur-3xl" />
+              <div className="relative grid grid-cols-2 gap-4">
+                {subjects.slice(0, 4).map((subject, index) => {
+                  const Icon = subject.icon;
+                  const colors = colorClasses[subject.color];
+                  return (
+                    <div
+                      key={subject.name}
+                      className={`bg-gradient-to-br ${colors.card} backdrop-blur-sm border rounded-2xl p-5 transform hover:scale-105 transition-all duration-300`}
+                      style={{ animationDelay: `${index * 100}ms` }}
+                    >
+                      <div className={`inline-flex p-3 ${colors.icon} rounded-xl mb-3`}>
+                        <Icon className="w-5 h-5" />
+                      </div>
+                      <h3 className={`font-bold ${colors.text} mb-1`}>{subject.name}</h3>
+                      <p className={`text-sm ${colors.desc}`}>{subject.questions} preguntas</p>
+                    </div>
+                  );
+                })}
               </div>
-            ))}
+            </div>
           </div>
-          
-          <p className="mt-12 text-lg text-indigo-200 leading-relaxed">
-            Y aún así, muchos estudiantes no mejoran porque no pueden practicar a su ritmo,
-            no tienen acceso a preguntas oficiales, y no saben cuáles son sus puntos débiles.
-          </p>
-          
-          <p className="mt-6 text-2xl font-semibold">
-            Tiene que haber una mejor forma.
-          </p>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section id="como-funciona" className="py-20 px-4 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
-        <div className="container mx-auto max-w-5xl">
+      {/* Subjects Section */}
+      <section id="materias" className="relative py-24 px-6">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Todo lo que necesitas.<br/>
-              <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Por el precio de una salida al cine.
-              </span>
-            </h2>
-            <p className="text-gray-500 dark:text-gray-400 text-lg">
-              Por $25.000 al mes tienes acceso ilimitado a todo.
+            <h2 className="text-4xl md:text-5xl font-black mb-4">5 pruebas completas</h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Todo lo que necesitas para la PAES en un solo lugar
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {features.map((feature, i) => {
-              const Icon = feature.icon;
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {subjects.map((subject) => {
+              const Icon = subject.icon;
+              const colors = colorClasses[subject.color];
               return (
-                <div key={i} className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all border border-gray-100 dark:border-gray-700">
-                  <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-white" />
+                <div
+                  key={subject.name}
+                  className={`group bg-gradient-to-br ${colors.card} backdrop-blur-sm border rounded-3xl p-8 cursor-pointer transition-all duration-300 hover:scale-[1.02]`}
+                  onClick={handleRegister}
+                >
+                  <div className={`inline-flex p-4 ${colors.icon} rounded-2xl mb-6`}>
+                    <Icon className="w-7 h-7" />
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">{feature.title}</h3>
-                  <p className="text-gray-500 dark:text-gray-400 leading-relaxed">{feature.description}</p>
+                  <div className={`inline-flex px-3 py-1 ${colors.badge} rounded-full text-xs font-bold mb-4`}>
+                    {subject.questions} preguntas
+                  </div>
+                  <h3 className={`text-2xl font-bold ${colors.text} mb-2`}>{subject.name}</h3>
+                  <p className={`${colors.desc}`}>{subject.description}</p>
                 </div>
               );
             })}
@@ -323,158 +272,230 @@ export function LandingPage() {
         </div>
       </section>
 
-      {/* How it Works */}
-      <section className="py-20 px-4 lg:px-8 bg-white dark:bg-gray-900">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-16">
-            Empieza a mejorar en 3 minutos
-          </h2>
-          
-          <div className="flex flex-col md:flex-row gap-12 justify-center">
+      {/* Comparison Section */}
+      <section id="comparacion" className="relative py-24 px-6 bg-black/30">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-4">¿Por qué TutorPAES?</h2>
+            <p className="text-xl text-gray-400">Comparado con otras opciones</p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b border-white/10">
+                  <th className="p-6 text-left text-gray-400 font-medium"></th>
+                  <th className="p-6 text-center">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 rounded-full">
+                      <BookOpen className="w-5 h-5 text-cyan-400" />
+                      <span className="font-bold text-cyan-300">TutorPAES</span>
+                    </div>
+                  </th>
+                  <th className="p-6 text-center text-gray-400">Preu tradicional</th>
+                  <th className="p-6 text-center text-gray-400">Estudiar solo</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { feature: 'Preguntas oficiales', us: true, preu: false, solo: false },
+                  { feature: 'Práctica ilimitada', us: true, preu: false, solo: true },
+                  { feature: 'Explicaciones detalladas', us: true, preu: true, solo: false },
+                  { feature: 'Seguimiento de progreso', us: true, preu: true, solo: false },
+                  { feature: 'Precio accesible', us: true, preu: false, solo: true },
+                  { feature: 'A tu ritmo', us: true, preu: false, solo: true },
+                ].map((row) => (
+                  <tr key={row.feature} className="border-b border-white/5 hover:bg-white/5 transition-colors">
+                    <td className="p-6 font-medium">{row.feature}</td>
+                    <td className="p-6 text-center">
+                      {row.us ? (
+                        <Check className="w-6 h-6 text-emerald-400 mx-auto" />
+                      ) : (
+                        <X className="w-6 h-6 text-red-400/50 mx-auto" />
+                      )}
+                    </td>
+                    <td className="p-6 text-center">
+                      {row.preu ? (
+                        <Check className="w-6 h-6 text-gray-400 mx-auto" />
+                      ) : (
+                        <X className="w-6 h-6 text-red-400/50 mx-auto" />
+                      )}
+                    </td>
+                    <td className="p-6 text-center">
+                      {row.solo ? (
+                        <Check className="w-6 h-6 text-gray-400 mx-auto" />
+                      ) : (
+                        <X className="w-6 h-6 text-red-400/50 mx-auto" />
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="relative py-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { step: '1', title: 'Crea tu cuenta', desc: 'Solo necesitas un email. 30 segundos.' },
-              { step: '2', title: 'Haz tu diagnóstico', desc: 'El sistema entiende tu nivel actual.' },
-              { step: '3', title: 'Practica cada día', desc: '20-30 minutos. El sistema se adapta a ti.' }
-            ].map((item, i) => (
-              <div key={i} className="flex-1 text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-5 text-white text-3xl font-bold">
-                  {item.step}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{item.title}</h3>
-                <p className="text-gray-500 dark:text-gray-400">{item.desc}</p>
+              { value: '2,500+', label: 'preguntas oficiales', color: 'text-cyan-400' },
+              { value: '5', label: 'pruebas completas', color: 'text-teal-400' },
+              { value: '∞', label: 'práctica ilimitada', color: 'text-teal-400' },
+              { value: '100%', label: 'preguntas oficiales', color: 'text-cyan-400' },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center p-6 bg-white/5 rounded-2xl border border-white/10">
+                <div className={`text-3xl font-black ${stat.color} mb-1`}>{stat.value}</div>
+                <div className="text-sm text-gray-400">{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Comparison Table */}
-      <section id="precios" className="py-20 px-4 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
-            La matemática es simple
-          </h2>
-          
-          <div className="bg-white dark:bg-gray-800 rounded-3xl p-6 lg:p-8 shadow-sm overflow-x-auto border border-gray-100 dark:border-gray-700">
-            <div className="min-w-[600px]">
+      {/* Pricing Comparison */}
+      <section id="precio" className="relative py-24 px-6 bg-black/30">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black mb-4">Compara y decide</h2>
+            <p className="text-xl text-gray-400">La preparación PAES más accesible de Chile</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+            {/* Preuniversitario */}
+            <div className="bg-gradient-to-b from-slate-800 to-slate-900 border border-slate-600/50 rounded-3xl p-8 flex flex-col">
               {/* Header */}
-              <div className="grid grid-cols-4 gap-4 p-4 bg-gray-50 dark:bg-gray-700/50 rounded-xl mb-2 font-bold text-gray-900 dark:text-white">
-                <div></div>
-                <div className="text-center text-sm">Profesor Particular</div>
-                <div className="text-center text-sm">Preuniversitario</div>
-                <div className="text-center text-sm bg-gradient-to-r from-purple-100 to-indigo-100 dark:from-purple-900/40 dark:to-indigo-900/40 rounded-xl py-2">
-                  <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                    TutorPAES
-                  </span>
-                </div>
+              <div className="text-center mb-8">
+                <span className="inline-block px-5 py-2 bg-slate-700 text-slate-200 rounded-full text-sm font-semibold">
+                  Preuniversitario Tradicional
+                </span>
               </div>
               
-              {/* Rows */}
-              {comparisonData.map((row, i) => (
-                <div key={i} className="grid grid-cols-4 gap-4 p-4 border-b border-gray-100 dark:border-gray-700 items-center">
-                  <div className="font-semibold text-gray-900 dark:text-white text-sm">{row.label}</div>
-                  <div className="text-center text-gray-500 dark:text-gray-400 text-sm">{row.values[0]}</div>
-                  <div className="text-center text-gray-500 dark:text-gray-400 text-sm">{row.values[1]}</div>
-                  <div className="text-center font-semibold text-purple-600 dark:text-purple-400 bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-xl py-2 text-sm">
-                    {row.values[2]}
+              {/* Precio mensual */}
+              <div className="text-center mb-8">
+                <p className="text-slate-400 text-sm mb-2">Precio mensual</p>
+                <span className="text-4xl md:text-5xl font-black text-white">$150.000 - $400.000</span>
+              </div>
+
+              {/* Características */}
+              <div className="space-y-4 mb-8 flex-grow">
+                {[
+                  { text: 'Horarios fijos', ok: false },
+                  { text: 'Clases presenciales', ok: true },
+                  { text: 'Material no oficial', ok: false },
+                  { text: 'Grupos de 20-40 alumnos', ok: false },
+                  { text: 'Requiere matrícula extra', ok: false },
+                ].map((item) => (
+                  <div key={item.text} className="flex items-center gap-3">
+                    <div className={`w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 ${item.ok ? 'bg-slate-600' : 'bg-slate-700/60'}`}>
+                      {item.ok ? <Check className="w-3.5 h-3.5 text-white" /> : <X className="w-3.5 h-3.5 text-slate-400" />}
+                    </div>
+                    <span className="text-slate-300 text-base">{item.text}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Precio anual */}
+              <div className="bg-slate-800 rounded-2xl p-6 text-center border border-slate-700/50">
+                <p className="text-slate-500 text-xs uppercase tracking-wider mb-2">Costo anual estimado</p>
+                <span className="text-4xl font-black text-white">$1.800.000</span>
+                <p className="text-slate-500 text-sm mt-2">+ matrícula adicional</p>
+              </div>
+            </div>
+
+            {/* TutorPAES */}
+            <div className="relative flex flex-col">
+              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-teal-400 to-cyan-500 rounded-[28px] opacity-50 blur-lg" />
+              
+              <div className="relative bg-gradient-to-b from-[#0a2535] to-[#061a25] border border-cyan-500/50 rounded-3xl p-8 flex flex-col flex-grow">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-500 via-teal-400 to-cyan-500 rounded-t-3xl" />
+                
+                {/* Header */}
+                <div className="text-center mb-8">
+                  <div className="inline-flex items-center gap-2 flex-wrap justify-center">
+                    <span className="px-5 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-full text-sm font-bold shadow-lg shadow-cyan-500/25">
+                      ★ TutorPAES
+                    </span>
+                    <span className="px-4 py-2 bg-emerald-500/20 border border-emerald-400/30 text-emerald-400 rounded-full text-sm font-bold">
+                      30 días gratis
+                    </span>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-          
-          <p className="text-center mt-8 text-lg text-gray-500 dark:text-gray-400">
-            Con TutorPAES, tu preparación completa cuesta menos que <strong className="text-gray-900 dark:text-white">UN mes</strong> de preuniversitario.
-          </p>
-        </div>
-      </section>
-
-      {/* Pricing Card */}
-      <section className="py-20 px-4 lg:px-8 bg-white dark:bg-gray-900">
-        <div className="container mx-auto max-w-md">
-          <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-3xl p-10 text-white text-center shadow-2xl shadow-indigo-500/30">
-            <div className="inline-block bg-white/20 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
-              Precio de lanzamiento
-            </div>
-            
-            <h3 className="text-2xl font-medium mb-2">TutorPAES</h3>
-            <div className="text-6xl font-extrabold">
-              $25.000<span className="text-xl font-normal">/mes</span>
-            </div>
-            
-            <div className="mt-8 text-left bg-white/10 rounded-2xl p-6 space-y-3">
-              {[
-                'Acceso a las 5 pruebas completas',
-                'Más de 2.000 preguntas oficiales',
-                'Explicaciones detalladas',
-                'Simulacros cronometrados',
-                'Seguimiento de progreso',
-                'Textos de lectura originales',
-                'Acceso desde cualquier dispositivo'
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3">
-                  <span className="text-green-300">✓</span>
-                  <span>{item}</span>
+                
+                {/* Precio mensual */}
+                <div className="text-center mb-8">
+                  <p className="text-cyan-300/70 text-sm mb-2">Precio mensual</p>
+                  <span className="text-5xl md:text-6xl font-black bg-gradient-to-r from-cyan-300 via-teal-200 to-cyan-300 bg-clip-text text-transparent">$25.000</span>
                 </div>
-              ))}
-            </div>
-            
-            <button
-              onClick={openRegister}
-              className="w-full mt-8 py-4 bg-white text-indigo-600 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-colors"
-            >
-              Empezar 30 días gratis
-            </button>
-            
-            <p className="mt-4 text-sm opacity-80">
-              Después, $25.000/mes. Cancela cuando quieras.
-            </p>
-          </div>
-          
-          <div className="flex justify-center gap-6 mt-6 text-gray-400 dark:text-gray-500 text-sm">
-            <span>🔒 Pago seguro</span>
-            <span>📧 Soporte por email</span>
-            <span>❌ Sin contratos</span>
-          </div>
-        </div>
-      </section>
 
-      {/* Guarantee */}
-      <section className="py-16 px-4 lg:px-8 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20">
-        <div className="container mx-auto max-w-3xl text-center">
-          <Shield className="w-16 h-16 text-green-600 dark:text-green-400 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Prueba sin riesgo. En serio.
-          </h2>
-          <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-            Tienes <strong>30 días completos</strong> para explorar todo TutorPAES.
-            Si no es para ti, simplemente no continúes. No te cobramos nada.
-            No necesitas tarjeta para empezar. No hay letra chica.
-          </p>
+                {/* Características */}
+                <div className="space-y-4 mb-8 flex-grow">
+                  {[
+                    'Practica cuando quieras',
+                    '5 pruebas completas',
+                    'Preguntas 100% oficiales',
+                    'Explicaciones paso a paso',
+                    'Sin matrícula ni contratos',
+                  ].map((text) => (
+                    <div key={text} className="flex items-center gap-3">
+                      <div className="w-6 h-6 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 flex items-center justify-center flex-shrink-0 shadow-md shadow-cyan-500/20">
+                        <Check className="w-3.5 h-3.5 text-white" />
+                      </div>
+                      <span className="text-gray-100 text-base">{text}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Precio anual */}
+                <div className="bg-cyan-950/50 rounded-2xl p-6 text-center border border-cyan-500/30">
+                  <p className="text-cyan-400/70 text-xs uppercase tracking-wider mb-2">Costo anual</p>
+                  <span className="text-4xl font-black bg-gradient-to-r from-cyan-300 via-teal-200 to-cyan-300 bg-clip-text text-transparent">$300.000</span>
+                  <p className="text-cyan-400/60 text-sm mt-2">Todo incluido</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Savings callout */}
+          <div className="mt-12 text-center">
+            <div className="inline-flex items-center gap-4 px-8 py-5 bg-gradient-to-r from-emerald-500/10 via-emerald-500/20 to-emerald-500/10 border border-emerald-500/30 rounded-2xl">
+              <span className="text-4xl">💰</span>
+              <div className="text-left">
+                <div className="text-emerald-400 font-black text-xl">Ahorra $1.500.000 al año</div>
+                <div className="text-gray-400 text-sm">vs un preuniversitario tradicional</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-20 px-4 lg:px-8 bg-white dark:bg-gray-900">
-        <div className="container mx-auto max-w-2xl">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
-            Preguntas frecuentes
-          </h2>
-          
+      <section className="relative py-24 px-6">
+        <div className="max-w-2xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-black mb-4">Preguntas frecuentes</h2>
+          </div>
+
           <div className="space-y-3">
-            {faqs.map((faq, i) => (
-              <div key={i} className="bg-gray-50 dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700">
-                <button 
-                  className="w-full px-6 py-5 text-left font-semibold flex justify-between items-center hover:bg-gray-100 dark:hover:bg-gray-700/50 transition-colors text-gray-900 dark:text-white"
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden"
+              >
+                <button
+                  onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                  className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
                 >
-                  <span>{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-indigo-500 transition-transform ${openFaq === i ? 'rotate-180' : ''}`} />
+                  <span className="font-semibold">{faq.q}</span>
+                  {openFaq === index ? (
+                    <ChevronUp className="w-5 h-5 text-gray-400" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-gray-400" />
+                  )}
                 </button>
-                {openFaq === i && (
-                  <div className="px-6 pb-5 text-gray-500 dark:text-gray-400 leading-relaxed">
-                    {faq.a}
-                  </div>
+                {openFaq === index && (
+                  <div className="px-6 pb-4 text-gray-400 leading-relaxed">{faq.a}</div>
                 )}
               </div>
             ))}
@@ -483,73 +504,64 @@ export function LandingPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 lg:px-8 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center">
-        <div className="container mx-auto max-w-2xl">
-          <GraduationCap className="w-16 h-16 mx-auto mb-6 opacity-90" />
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            Tu futuro universitario<br/>empieza hoy
+      <section className="relative py-24 px-6 overflow-hidden" style={{
+        background: `
+          radial-gradient(ellipse at 20% 0%, rgba(6, 182, 212, 0.3) 0%, transparent 50%),
+          radial-gradient(ellipse at 80% 0%, rgba(20, 184, 166, 0.3) 0%, transparent 50%),
+          linear-gradient(180deg, #0f0f1a 0%, #1a1a2e 100%)
+        `
+      }}>
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-cyan-600/30 via-teal-600/30 to-cyan-600/30 rounded-full blur-[150px] animate-pulse" />
+        </div>
+
+        <div className="relative max-w-3xl mx-auto text-center">
+          <div className="text-8xl mb-8">🎓</div>
+          <h2 className="text-4xl md:text-6xl font-black mb-6">
+            Tu futuro universitario<br />
+            <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent">
+              empieza hoy
+            </span>
           </h2>
-          <p className="text-xl opacity-90 mb-8">
-            30 días gratis. $25.000/mes después. Acceso a todo.<br/>
-            Sin excusas, sin riesgos.
+          <p className="text-xl text-gray-300 mb-10">
+            30 días gratis. $25.000/mes después.<br />
+            Acceso completo a las 5 pruebas.
           </p>
           <button
-            onClick={openRegister}
-            className="px-10 py-5 bg-white text-indigo-600 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all"
+            onClick={handleRegister}
+            className="px-12 py-6 bg-white text-gray-900 font-black text-xl rounded-2xl shadow-2xl hover:scale-105 transition-transform"
           >
-            Crear mi cuenta gratis
+            Crear mi cuenta gratis →
           </button>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-indigo-950 text-indigo-300 py-12 px-4 lg:px-8">
-        <div className="container mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg">
-                <GraduationCap className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-white font-bold">TutorPAES</span>
+      <footer className="py-12 px-6 bg-black border-t border-white/10">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-xl">
+              <BookOpen className="w-5 h-5 text-white" />
             </div>
-            <p className="text-sm leading-relaxed">
-              Preparación inteligente para la PAES.
-              Practica con preguntas oficiales, mejora con explicaciones detalladas.
-            </p>
+            <span className="font-bold">TutorPAES</span>
           </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Producto</h4>
-            <div className="space-y-2 text-sm">
-              <a href="#como-funciona" className="block hover:text-white transition-colors">Cómo funciona</a>
-              <a href="#precios" className="block hover:text-white transition-colors">Precios</a>
-              <a href="#faq" className="block hover:text-white transition-colors">FAQ</a>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Legal</h4>
-            <div className="space-y-2 text-sm">
-              <a href="#" className="block hover:text-white transition-colors">Términos y condiciones</a>
-              <a href="#" className="block hover:text-white transition-colors">Política de privacidad</a>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Contacto</h4>
-            <div className="space-y-2 text-sm">
-              <p>hola@tutorpaes.cl</p>
-              <p>@tutorpaes</p>
-            </div>
+          <div className="flex gap-8 text-sm text-gray-400">
+            <a href="#" className="hover:text-white transition-colors">Términos</a>
+            <a href="#" className="hover:text-white transition-colors">Privacidad</a>
+            <a href="mailto:hola@tutorpaes.cl" className="hover:text-white transition-colors">Contacto</a>
           </div>
         </div>
-        
-        <div className="container mx-auto max-w-5xl mt-12 pt-6 border-t border-white/10 text-center text-sm">
+        <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-white/10 text-center text-sm text-gray-500">
           © 2025 TutorPAES. Preparación inteligente para tu futuro.
         </div>
       </footer>
 
-      <AuthModal isOpen={authModal.isOpen} onClose={closeModal} mode={authModal.mode} />
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={showAuthModal}
+        onClose={() => setShowAuthModal(false)}
+        mode={authMode}
+      />
     </div>
   );
 }

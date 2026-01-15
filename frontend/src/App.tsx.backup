@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle } from 'lucide-react';
+import { BookOpen, FlaskConical, Atom, Leaf, Target } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
 import { ModeSelector } from './components/ModeSelector';
@@ -74,8 +74,6 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   const [selectedMode, setSelectedMode] = useState<PracticeMode | null>(null);
   const [resumeData, setResumeData] = useState<SavedSession | null>(null);
   const [showStrengthsModal, setShowStrengthsModal] = useState(false);
-  const [showConfirmModal, setShowConfirmModal] = useState(false);
-  const [pendingSubject, setPendingSubject] = useState<Subject | null>(null);
   const { theme } = useTheme();
   const { 
     settings: timeSettings, 
@@ -100,46 +98,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     return () => window.removeEventListener('openStrengths', handleOpenStrengths);
   }, []);
 
-  // Helper para obtener la sesión guardada válida
-  const getSavedSession = (): SavedSession | null => {
-    const sessionData = localStorage.getItem('lastPracticeSession');
-    if (!sessionData) return null;
-    
-    try {
-      const session: SavedSession = JSON.parse(sessionData);
-      const hoursSinceSession = (Date.now() - session.timestamp) / (1000 * 60 * 60);
-      
-      // Verificar que pertenece al usuario actual y no ha expirado
-      if (session.userId && session.userId !== userId) return null;
-      if (hoursSinceSession >= 72 || session.timeRemaining <= 0) {
-        localStorage.removeItem('lastPracticeSession');
-        return null;
-      }
-      
-      return session;
-    } catch {
-      localStorage.removeItem('lastPracticeSession');
-      return null;
-    }
-  };
-
   const handleSubjectSelect = (subject: Subject) => {
-    const savedSession = getSavedSession();
-    
-    if (savedSession) {
-      // Si es la misma materia, ir directo a continuar
-      if (savedSession.subject === subject) {
-        handleContinueSession(subject, savedSession.mode, savedSession.questionIndex, savedSession.timeRemaining);
-        return;
-      }
-      
-      // Si es diferente materia, mostrar confirmación
-      setPendingSubject(subject);
-      setShowConfirmModal(true);
-      return;
-    }
-    
-    // No hay sesión guardada, proceder normal
     setSelectedSubject(subject);
     setResumeData(null);
     if (subject === 'C') {
@@ -147,28 +106,6 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     } else {
       setState('mode');
     }
-  };
-
-  // Confirmar cambio de materia (perder progreso)
-  const handleConfirmChangeSubject = () => {
-    localStorage.removeItem('lastPracticeSession');
-    setShowConfirmModal(false);
-    
-    if (pendingSubject) {
-      setSelectedSubject(pendingSubject);
-      setResumeData(null);
-      if (pendingSubject === 'C') {
-        setState('science-specialty');
-      } else {
-        setState('mode');
-      }
-      setPendingSubject(null);
-    }
-  };
-
-  const handleCancelChangeSubject = () => {
-    setShowConfirmModal(false);
-    setPendingSubject(null);
   };
 
   const handleScienceSpecialtySelect = (specialty: ScienceSpecialty) => {
@@ -199,13 +136,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     setSelectedSubject('C');
   };
 
-  // Handler para continuar sesión desde ContinueButton o SubjectCard
+  // Handler para continuar sesión desde ContinueButton
   const handleContinueSession = (subject: Subject, mode: PracticeMode, questionIndex?: number, timeRemaining?: number) => {
     const sessionData = localStorage.getItem('lastPracticeSession');
     if (sessionData) {
       const session: SavedSession = JSON.parse(sessionData);
-      // Verificar que la sesión pertenece al usuario actual (o no tiene userId - sesión antigua)
-      if (!session.userId || session.userId === userId) {
+      // Verificar que la sesión pertenece al usuario actual
+      if (session.userId === userId) {
         setResumeData(session);
       }
     }
@@ -255,47 +192,21 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         );
       }
       if (selectedMode === 'REVIEW') {
-        const resumeSessionReview = resumeData && resumeData.subject === selectedSubject && resumeData.mode === 'REVIEW' ? {
-          subject: resumeData.subject,
-          mode: 'REVIEW' as const,
-          currentQuestionIndex: resumeData.questionIndex - 1,
-          questionIds: resumeData.questionIds || [],
-          answers: resumeData.answers || {},
-          totalQuestions: resumeData.totalQuestions,
-        } : undefined;
-        
         return (
           <ReviewMode 
             subject={selectedSubject} 
             onExit={handleExit}
             questionCount={reviewQuestions}
-            onSessionChange={handleSessionChange}
-            resumeSession={resumeSessionReview}
           />
         );
       }
       if (selectedSubject === 'L') {
-        const resumeSessionL = resumeData && resumeData.subject === 'L' ? {
-          subject: resumeData.subject,
-          mode: resumeData.mode as 'TEST',
-          currentQuestionIndex: resumeData.questionIndex - 1,
-          timeRemaining: resumeData.timeRemaining,
-          answers: resumeData.answers || {},
-          questionIds: resumeData.questionIds || [],
-          startTime: Date.now(),
-          totalQuestions: resumeData.totalQuestions,
-          pausedAt: resumeData.timestamp,
-          subjectLabel: 'L' as Subject,
-        } : undefined;
-        
         return (
           <ReadingTestMode 
             subject={selectedSubject} 
             onExit={handleExit} 
             timePerQuestion={testTime}
             readingTime={readingTime}
-            resumeSession={resumeSessionL}
-            onSessionChange={handleSessionChange}
           />
         );
       }
@@ -420,17 +331,15 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         )}
       </main>
 
-      {state !== 'practice' && (
-        <a
-          href="/resumenes.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed bottom-6 right-6 flex items-center gap-2 px-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-500/50 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50"
-        >
-          <BookOpen className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-          <span className="text-gray-700 dark:text-gray-200 font-medium text-sm">Resúmenes PAES</span>
-        </a>
-      )}
+      <a
+        href="/resumenes.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 flex items-center gap-2 px-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-500/50 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50"
+      >
+        <BookOpen className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+        <span className="text-gray-700 dark:text-gray-200 font-medium text-sm">Resúmenes PAES</span>
+      </a>
 
       {/* Modal de análisis de fortalezas */}
       <StrengthsModal 
@@ -438,59 +347,6 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         onClose={() => setShowStrengthsModal(false)}
         onSelectSubject={handleSubjectSelect}
       />
-
-      {/* Modal de confirmación para cambiar de materia */}
-      {showConfirmModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={handleCancelChangeSubject} />
-          <div className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden">
-            <div className="p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-amber-100 dark:bg-amber-500/20 rounded-xl">
-                  <AlertTriangle className="w-6 h-6 text-amber-600 dark:text-amber-400" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    ¿Cambiar de materia?
-                  </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Tienes una sesión en progreso
-                  </p>
-                </div>
-              </div>
-              
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Perderás tu progreso en <span className="font-semibold text-amber-600 dark:text-amber-400">
-                  {(() => {
-                    const session = getSavedSession();
-                    if (!session) return '';
-                    const names: Record<string, string> = {
-                      M1: 'Matemática 1', M2: 'Matemática 2', L: 'Lenguaje',
-                      H: 'Historia', C: 'Ciencias', CF: 'Física', CQ: 'Química', CB: 'Biología'
-                    };
-                    return names[session.subject] || session.subject;
-                  })()}
-                </span>. ¿Estás seguro?
-              </p>
-              
-              <div className="flex gap-3">
-                <button
-                  onClick={handleCancelChangeSubject}
-                  className="flex-1 px-4 py-2.5 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-xl font-medium hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-                >
-                  Cancelar
-                </button>
-                <button
-                  onClick={handleConfirmChangeSubject}
-                  className="flex-1 px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-medium transition-colors"
-                >
-                  Sí, cambiar
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
