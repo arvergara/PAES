@@ -3,7 +3,7 @@ import { Timer } from './Timer';
 import { QuestionView } from './QuestionView';
 import { PdfViewer } from './PdfViewer';
 import { ResultsView } from './ResultsView';
-import { AlertCircle, CheckCircle2, Home, FileText, HelpCircle, Send, Loader2, BookOpen } from 'lucide-react';
+import { AlertCircle, CheckCircle2, Home, FileText, HelpCircle, Send, Loader2, BookOpen, SkipForward, ArrowLeft } from 'lucide-react';
 import type { Question, Subject } from '../types';
 import { getQuestionsBySubject } from '../lib/questions';
 import { supabase } from '../lib/supabase';
@@ -53,12 +53,16 @@ export function TestMode({
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submittedAnswers, setSubmittedAnswers] = useState<Record<number, boolean>>({});
   
+  // Estado para preguntas saltadas
+  const [skippedQuestions, setSkippedQuestions] = useState<Set<number>>(new Set());
+  const [savedTimes, setSavedTimes] = useState<Record<number, number>>({});
+  const [timerKey, setTimerKey] = useState(0);
+  
   // Estado para mostrar mensaje de tiempo agotado
   const [showTimeUpMessage, setShowTimeUpMessage] = useState(false);
   
   // Estado para el tiempo actual (para pausar)
   const [currentTimeRemaining, setCurrentTimeRemaining] = useState<number>(timePerQuestion * 60);
-  const [initialTime, setInitialTime] = useState<number | undefined>(undefined);
   
   // Generar sessionId al inicio (como PAESMode)
   const [sessionId] = useState<string>(() => crypto.randomUUID());
@@ -279,8 +283,9 @@ export function TestMode({
           
           // Restaurar estado
           setCurrentQuestionIndex(resumeSession.currentQuestionIndex);
-          setInitialTime(resumeSession.timeRemaining);
+          setSavedTimes({ [resumeSession.currentQuestionIndex]: resumeSession.timeRemaining });
           setCurrentTimeRemaining(resumeSession.timeRemaining);
+          setTimerKey(prev => prev + 1);
           
           // Restaurar respuestas
           const restoredAnswers: Record<number, string> = {};
@@ -436,6 +441,73 @@ export function TestMode({
     }));
   };
 
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex <= 0) return;
+    navigateToQuestion(currentQuestionIndex - 1);
+  };
+
+  const handleSkip = () => {
+    if (isCurrentAnswerSubmitted) return;
+    
+    // Save remaining time for this question
+    setSavedTimes(prev => ({ ...prev, [currentQuestionIndex]: currentTimeRemaining }));
+    
+    setSkippedQuestions(prev => new Set(prev).add(currentQuestionIndex));
+    
+    // Find next unanswered question
+    let nextIndex = -1;
+    for (let i = currentQuestionIndex + 1; i < questions.length; i++) {
+      if (!submittedAnswers[i]) {
+        nextIndex = i;
+        break;
+      }
+    }
+    
+    if (nextIndex === -1) {
+      // No more unanswered ahead, find first skipped/unanswered from beginning
+      for (let i = 0; i < currentQuestionIndex; i++) {
+        if (!submittedAnswers[i]) {
+          nextIndex = i;
+          break;
+        }
+      }
+    }
+    
+    if (nextIndex !== -1) {
+      setCurrentQuestionIndex(nextIndex);
+      setCurrentAnswer(answers[nextIndex] || null);
+      setShowExplanation(submittedAnswers[nextIndex] || false);
+      setCurrentExplanation(null);
+      setQuestionStartTime(Date.now());
+      setShowTimeUpMessage(false);
+      
+      setTimerKey(prev => prev + 1);
+    }
+  };
+
+  const navigateToQuestion = (index: number) => {
+    if (index === currentQuestionIndex) return;
+    
+    // Save current question time before leaving
+    if (!submittedAnswers[currentQuestionIndex]) {
+      setSavedTimes(prev => ({ ...prev, [currentQuestionIndex]: currentTimeRemaining }));
+    }
+    
+    setCurrentQuestionIndex(index);
+    setCurrentAnswer(answers[index] || null);
+    setShowExplanation(submittedAnswers[index] || false);
+    setCurrentExplanation(null);
+    setQuestionStartTime(Date.now());
+    setShowTimeUpMessage(false);
+    
+    setTimerKey(prev => prev + 1);
+    
+    if (submittedAnswers[index]) {
+      fetchExplanation(questions[index]);
+    }
+  };
+
   const handleSubmitAnswer = async () => {
     if (!currentAnswer) return;
     
@@ -454,13 +526,29 @@ export function TestMode({
     setShowExplanation(true);
     fetchExplanation(question);
     
+    // Remove from skipped if was skipped
+    setSkippedQuestions(prev => {
+      const next = new Set(prev);
+      next.delete(currentQuestionIndex);
+      return next;
+    });
+    
     // Guardar attempt en memoria
     saveQuestionAttempt(currentAnswer, isCorrect);
   };
 
   const handleNext = async () => {
     setShowTimeUpMessage(false);
-    setInitialTime(undefined); // Reset initial time for next question
+    setTimerKey(prev => prev + 1);
+    
+    // Check if all questions are now answered → finish immediately
+    const allAnswered = questions.every((_, i) => submittedAnswers[i]);
+    if (allAnswered) {
+      setEndTime(Date.now());
+      await saveSession();
+      setIsFinished(true);
+      return;
+    }
     
     if (currentQuestionIndex < questions.length - 1) {
       const nextIndex = currentQuestionIndex + 1;
@@ -474,7 +562,16 @@ export function TestMode({
         fetchExplanation(questions[nextIndex]);
       }
     } else {
-      // Terminar examen - guardar sesión completa
+      // At the end, loop back to first unanswered
+      const firstSkipped = Array.from({ length: questions.length }, (_, i) => i)
+        .find(i => !submittedAnswers[i] && i !== currentQuestionIndex);
+      
+      if (firstSkipped !== undefined) {
+        navigateToQuestion(firstSkipped);
+        return;
+      }
+      
+      // Fallback: finish
       setEndTime(Date.now());
       await saveSession();
       setIsFinished(true);
@@ -538,13 +635,15 @@ export function TestMode({
     setCurrentQuestionIndex(0);
     setAnswers({});
     setSubmittedAnswers({});
+    setSkippedQuestions(new Set());
+    setSavedTimes({});
+    setTimerKey(prev => prev + 1);
     setCorrectAnswers(0);
     setIsFinished(false);
     setEndTime(null);
     setLoading(true);
     setShowTimeUpMessage(false);
-    setInitialTime(undefined);
-    
+        
     loadQuestions().then((selectedQuestions) => {
       setQuestions(selectedQuestions);
       setLoading(false);
@@ -608,15 +707,48 @@ export function TestMode({
             <span>Inicio</span>
           </button>
           <Timer
+            key={timerKey}
             totalMinutes={timePerQuestion}
             onTimeUp={handleTimeUp}
-            resetKey={initialTime ? undefined : currentQuestion.id}
             onTick={handleTimerTick}
-            initialTimeSeconds={initialTime}
+            initialTimeSeconds={savedTimes[currentQuestionIndex]}
           />
         </div>
         <div className="text-gray-600 dark:text-gray-300">
           Pregunta {currentQuestionIndex + 1} de {totalQuestions}
+        </div>
+      </div>
+
+      {/* Floating question navigation bar */}
+      <div className="fixed top-0 left-0 right-0 z-[55] flex items-center justify-center pointer-events-none h-[60px]">
+        <div className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 pointer-events-auto">
+          {questions.map((_, idx) => {
+            const isActive = idx === currentQuestionIndex;
+            const isAnswered = submittedAnswers[idx];
+            const isSkipped = skippedQuestions.has(idx) && !isAnswered;
+            
+            let dotClass = 'w-3 h-3 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+            if (isActive) {
+              dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+            } else if (isAnswered) {
+              dotClass += answers[idx] === questions[idx].correctAnswer
+                ? 'bg-green-500 border-green-500'
+                : 'bg-red-400 border-red-400';
+            } else if (isSkipped) {
+              dotClass += 'bg-amber-400 border-amber-400';
+            } else {
+              dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+            }
+            
+            return (
+              <button
+                key={idx}
+                onClick={() => navigateToQuestion(idx)}
+                className={dotClass}
+                title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : isSkipped ? ' (saltada)' : ''}`}
+              />
+            );
+          })}
         </div>
       </div>
 
@@ -689,18 +821,33 @@ export function TestMode({
             <span className="text-orange-600 font-semibold">¡Tiempo agotado! Pasando a la siguiente...</span>
           </div>
         ) : !isCurrentAnswerSubmitted ? (
-          <button
-            onClick={handleSubmitAnswer}
-            disabled={!currentAnswer}
-            className={`w-full px-6 py-3 rounded-lg transition-colors flex items-center justify-center gap-2 ${
-              currentAnswer
-                ? `${colors.primary} text-white ${colors.primaryHover}`
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            }`}
-          >
-            <Send className="w-5 h-5" />
-            Contestar
-          </button>
+          <div className="flex gap-3">
+            <button
+              onClick={handlePrevious}
+              disabled={currentQuestionIndex === 0}
+              className={`px-5 py-3 rounded-lg transition-colors flex items-center justify-center gap-2 border border-gray-300 dark:border-gray-600 ${currentQuestionIndex === 0 ? 'opacity-40 cursor-not-allowed' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'}`}
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </button>
+            <button
+              onClick={handleSubmitAnswer}
+              disabled={!currentAnswer}
+              className={`flex-1 px-6 py-3 rounded-lg transition-colors flex items-center justify-center gap-2 ${
+                currentAnswer
+                  ? `${colors.primary} text-white ${colors.primaryHover}`
+                  : 'bg-gray-300 dark:bg-gray-600 text-gray-500 dark:text-gray-400 cursor-not-allowed'
+              }`}
+            >
+              <Send className="w-5 h-5" />
+              Contestar
+            </button>
+            <button
+              onClick={handleSkip}
+              className="px-5 py-3 rounded-lg transition-colors flex items-center justify-center gap-2 border border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <SkipForward className="w-5 h-5" />
+            </button>
+          </div>
         ) : (
           <>
             <div className="flex items-center justify-center space-x-2 mb-4">
@@ -713,7 +860,7 @@ export function TestMode({
                 <>
                   <AlertCircle className="h-6 w-6 text-red-500" />
                   <span className="text-red-600 font-semibold">
-                    Respuesta Incorrecta - La correcta es: {currentQuestion.correctAnswer.toUpperCase()}
+                    Respuesta Incorrecta - La correcta es: {currentQuestion.correctAnswer?.toUpperCase() ?? '—'}
                   </span>
                 </>
               )}
@@ -743,7 +890,16 @@ export function TestMode({
               onClick={handleNext}
               className={`w-full px-6 py-3 ${colors.primary} text-white rounded-lg ${colors.primaryHover} transition-colors`}
             >
-              {currentQuestionIndex === totalQuestions - 1 ? 'Ver Resultados' : 'Siguiente Pregunta'}
+              {(() => {
+                const unansweredCount = Array.from({ length: questions.length }, (_, i) => i)
+                  .filter(i => !submittedAnswers[i] && i !== currentQuestionIndex).length;
+                if (currentQuestionIndex === totalQuestions - 1 || !Array.from({ length: questions.length }, (_, i) => i).slice(currentQuestionIndex + 1).some(i => !submittedAnswers[i])) {
+                  return unansweredCount > 0 
+                    ? `Ir a pregunta saltada (${unansweredCount} restante${unansweredCount > 1 ? 's' : ''})` 
+                    : 'Ver Resultados';
+                }
+                return 'Siguiente Pregunta';
+              })()}
             </button>
           </>
         )}

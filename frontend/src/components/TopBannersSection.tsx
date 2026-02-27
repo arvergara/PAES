@@ -1,11 +1,12 @@
 import { WelcomeBanner } from './WelcomeBanner';
 import { CountdownBanner } from './CountdownBanner';
 import { ContinueButton } from './ContinueButton';
+import { StreakBanner } from './StreakBanner';
 import type { Subject, PracticeMode } from '../types';
 
 interface TopBannersSectionProps {
   onContinue: (subject: Subject, mode: PracticeMode, questionIndex?: number, timeRemaining?: number) => void;
-  userId: string; // Nuevo: userId requerido
+  userId: string;
 }
 
 export function TopBannersSection({ onContinue, userId }: TopBannersSectionProps) {
@@ -14,11 +15,14 @@ export function TopBannersSection({ onContinue, userId }: TopBannersSectionProps
       {/* Welcome Banner - Full Width */}
       <WelcomeBanner />
       
-      {/* Countdown and Continue - Side by side on larger screens */}
+      {/* Streak + Continue - Side by side */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <CountdownBanner />
+        <StreakBanner userId={userId} />
         <ContinueButton onContinue={onContinue} userId={userId} />
       </div>
+
+      {/* Countdown - Full Width */}
+      <CountdownBanner />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useThemeColors } from '../hooks/useThemeColors';
 import type { Question } from '../types';
+import { QuestionContent } from './QuestionContent';
 
 const SUPABASE_STORAGE_URL = 'https://bmsmmlymsjpydpealmcw.supabase.co/storage/v1/object/public/questions-images';
 
@@ -40,7 +41,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
   // Opciones a mostrar
   const optionsToShow = hasTextOptions 
     ? availableOptions 
-    : ['a', 'b', 'c', 'd'];
+    : ['a', 'b', 'c', 'd', 'e'];
   
   const getCircleButtonClass = (option: string) => {
     const baseClass = "w-16 h-16 rounded-full border-2 transition-all duration-200 flex items-center justify-center font-bold text-xl";
@@ -83,10 +84,10 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
   return (
     <div className="max-w-4xl mx-auto">
       {/* Imagen de la pregunta */}
-      {question.image_url && !imageError ? (
+      {(question.image_url || (question as any).imagen_url) && !imageError ? (
         <div className="mb-6 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-hidden p-3">
           <img
-            src={`${SUPABASE_STORAGE_URL}/${question.image_url}`}
+           src={question.image_url ? `${SUPABASE_STORAGE_URL}/${question.image_url}` : (question as any).imagen_url}
             alt={`Pregunta ${question.question_number}`}
             className="w-full h-auto rounded bg-white"
             onError={() => setImageError(true)}
@@ -94,7 +95,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
         </div>
       ) : (
         <div className="mb-6 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
-          <p className="text-lg text-gray-900 dark:text-gray-100 whitespace-pre-wrap">{question.content}</p>
+         <QuestionContent content={question.content} imagenUrl={(question as any).imagen_url} />
         </div>
       )}
 

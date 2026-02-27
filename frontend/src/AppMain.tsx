@@ -400,6 +400,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         onUpdateAllReviewQuestions={updateAllReviewQuestions}
         showHomeButton={state !== 'subject'}
         onGoHome={handleExit}
+        isInExam={state === 'practice'}
       />
       <main className="container mx-auto px-4 py-8">
         {state === 'subject' && (

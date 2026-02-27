@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BookOpen, Calculator, Clock, FlaskConical, Languages } from 'lucide-react';
+import { BookOpen, Calculator, Clock, FlaskConical } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import type { Subject } from '../types';
@@ -32,11 +32,11 @@ const subjectConfig: Record<Subject, {
     bgColor: 'bg-blue-100 dark:bg-blue-600/30',
     bgHover: 'hover:bg-blue-200 dark:hover:bg-blue-600/40',
     borderColor: 'border-blue-300 dark:border-blue-500/50 hover:border-blue-400 dark:hover:border-blue-400/70',
-    iconBg: 'bg-blue-200 dark:bg-blue-500/40',
+    iconBg: 'bg-blue-200 group-hover:bg-blue-300 dark:bg-blue-500/40 dark:group-hover:bg-blue-500/40',
     iconColor: 'text-blue-700 dark:text-blue-300',
-    badgeBg: 'bg-blue-200/80 dark:bg-blue-500/40',
+    badgeBg: 'bg-blue-200/80 group-hover:bg-blue-300/80 dark:bg-blue-500/40 dark:group-hover:bg-blue-500/40',
     badgeText: 'text-blue-800 dark:text-blue-200',
-    progressBg: 'bg-blue-200 dark:bg-blue-500/30',
+    progressBg: 'bg-blue-200 group-hover:bg-blue-300 dark:bg-blue-500/30 dark:group-hover:bg-blue-500/30',
     progressBar: 'bg-blue-600 dark:bg-blue-400',
     textColor: 'text-blue-900 dark:text-blue-100',
     descColor: 'text-blue-700 dark:text-blue-300',
@@ -48,11 +48,11 @@ const subjectConfig: Record<Subject, {
     bgColor: 'bg-violet-100 dark:bg-violet-600/30',
     bgHover: 'hover:bg-violet-200 dark:hover:bg-violet-600/40',
     borderColor: 'border-violet-300 dark:border-violet-500/50 hover:border-violet-400 dark:hover:border-violet-400/70',
-    iconBg: 'bg-violet-200 dark:bg-violet-500/40',
+    iconBg: 'bg-violet-200 group-hover:bg-violet-300 dark:bg-violet-500/40 dark:group-hover:bg-violet-500/40',
     iconColor: 'text-violet-700 dark:text-violet-300',
-    badgeBg: 'bg-violet-200/80 dark:bg-violet-500/40',
+    badgeBg: 'bg-violet-200/80 group-hover:bg-violet-300/80 dark:bg-violet-500/40 dark:group-hover:bg-violet-500/40',
     badgeText: 'text-violet-800 dark:text-violet-200',
-    progressBg: 'bg-violet-200 dark:bg-violet-500/30',
+    progressBg: 'bg-violet-200 group-hover:bg-violet-300 dark:bg-violet-500/30 dark:group-hover:bg-violet-500/30',
     progressBar: 'bg-violet-600 dark:bg-violet-400',
     textColor: 'text-violet-900 dark:text-violet-100',
     descColor: 'text-violet-700 dark:text-violet-300',
@@ -60,15 +60,15 @@ const subjectConfig: Record<Subject, {
   L: {
     name: 'Lenguaje',
     description: 'Comprensión lectora',
-    icon: Languages,
+    icon: BookOpen,
     bgColor: 'bg-rose-100 dark:bg-rose-600/30',
     bgHover: 'hover:bg-rose-200 dark:hover:bg-rose-600/40',
     borderColor: 'border-rose-300 dark:border-rose-500/50 hover:border-rose-400 dark:hover:border-rose-400/70',
-    iconBg: 'bg-rose-200 dark:bg-rose-500/40',
+    iconBg: 'bg-rose-200 group-hover:bg-rose-300 dark:bg-rose-500/40 dark:group-hover:bg-rose-500/40',
     iconColor: 'text-rose-700 dark:text-rose-300',
-    badgeBg: 'bg-rose-200/80 dark:bg-rose-500/40',
+    badgeBg: 'bg-rose-200/80 group-hover:bg-rose-300/80 dark:bg-rose-500/40 dark:group-hover:bg-rose-500/40',
     badgeText: 'text-rose-800 dark:text-rose-200',
-    progressBg: 'bg-rose-200 dark:bg-rose-500/30',
+    progressBg: 'bg-rose-200 group-hover:bg-rose-300 dark:bg-rose-500/30 dark:group-hover:bg-rose-500/30',
     progressBar: 'bg-rose-600 dark:bg-rose-400',
     textColor: 'text-rose-900 dark:text-rose-100',
     descColor: 'text-rose-700 dark:text-rose-300',
@@ -80,11 +80,11 @@ const subjectConfig: Record<Subject, {
     bgColor: 'bg-emerald-100 dark:bg-emerald-600/30',
     bgHover: 'hover:bg-emerald-200 dark:hover:bg-emerald-600/40',
     borderColor: 'border-emerald-300 dark:border-emerald-500/50 hover:border-emerald-400 dark:hover:border-emerald-400/70',
-    iconBg: 'bg-emerald-200 dark:bg-emerald-500/40',
+    iconBg: 'bg-emerald-200 group-hover:bg-emerald-300 dark:bg-emerald-500/40 dark:group-hover:bg-emerald-500/40',
     iconColor: 'text-emerald-700 dark:text-emerald-300',
-    badgeBg: 'bg-emerald-200/80 dark:bg-emerald-500/40',
+    badgeBg: 'bg-emerald-200/80 group-hover:bg-emerald-300/80 dark:bg-emerald-500/40 dark:group-hover:bg-emerald-500/40',
     badgeText: 'text-emerald-800 dark:text-emerald-200',
-    progressBg: 'bg-emerald-200 dark:bg-emerald-500/30',
+    progressBg: 'bg-emerald-200 group-hover:bg-emerald-300 dark:bg-emerald-500/30 dark:group-hover:bg-emerald-500/30',
     progressBar: 'bg-emerald-600 dark:bg-emerald-400',
     textColor: 'text-emerald-900 dark:text-emerald-100',
     descColor: 'text-emerald-700 dark:text-emerald-300',
@@ -96,11 +96,11 @@ const subjectConfig: Record<Subject, {
     bgColor: 'bg-amber-100 dark:bg-amber-600/30',
     bgHover: 'hover:bg-amber-200 dark:hover:bg-amber-600/40',
     borderColor: 'border-amber-300 dark:border-amber-500/50 hover:border-amber-400 dark:hover:border-amber-400/70',
-    iconBg: 'bg-amber-200 dark:bg-amber-500/40',
+    iconBg: 'bg-amber-200 group-hover:bg-amber-300 dark:bg-amber-500/40 dark:group-hover:bg-amber-500/40',
     iconColor: 'text-amber-700 dark:text-amber-300',
-    badgeBg: 'bg-amber-200/80 dark:bg-amber-500/40',
+    badgeBg: 'bg-amber-200/80 group-hover:bg-amber-300/80 dark:bg-amber-500/40 dark:group-hover:bg-amber-500/40',
     badgeText: 'text-amber-800 dark:text-amber-200',
-    progressBg: 'bg-amber-200 dark:bg-amber-500/30',
+    progressBg: 'bg-amber-200 group-hover:bg-amber-300 dark:bg-amber-500/30 dark:group-hover:bg-amber-500/30',
     progressBar: 'bg-amber-600 dark:bg-amber-400',
     textColor: 'text-amber-900 dark:text-amber-100',
     descColor: 'text-amber-700 dark:text-amber-300',
@@ -169,7 +169,7 @@ export function SubjectCard({ subject, onSelect }: SubjectCardProps) {
   return (
     <button
       onClick={() => onSelect(subject)}
-      className={`group relative text-left ${config.bgColor} ${config.bgHover} rounded-2xl border ${config.borderColor} shadow-sm hover:shadow-lg transition-all duration-300 p-6`}
+      className={`group relative text-left ${config.bgColor} ${config.bgHover} rounded-2xl border ${config.borderColor} shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 p-6`}
     >
       {/* Question count badge */}
       {questionCount !== null && (

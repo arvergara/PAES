@@ -1,11 +1,37 @@
-import { useState } from 'react';
-import { BookOpen, Calculator, Languages, FlaskConical, Clock, Check, X, Play, ChevronDown, ChevronUp } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Calculator, BookOpen, FlaskConical, Clock, Check, X, Play, ChevronDown, ChevronUp } from 'lucide-react';
+import { TutorPAESLogo } from './TutorPAESLogo';
 import { AuthModal } from './AuthModal';
+import { supabase } from '../lib/supabase';
 
 export function LandingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
+  const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    async function fetchCounts() {
+      try {
+        const subjects = ['M1', 'M2', 'L', 'CB', 'CF', 'CQ', 'H'];
+        const counts: Record<string, number> = {};
+        await Promise.all(
+          subjects.map(async (s) => {
+            const { count } = await supabase
+              .from('questions')
+              .select('*', { count: 'exact', head: true })
+              .eq('subject', s);
+            counts[s] = count ?? 0;
+          })
+        );
+        counts['C'] = (counts['CB'] || 0) + (counts['CF'] || 0) + (counts['CQ'] || 0);
+        setQuestionCounts(counts);
+      } catch {
+        // Silently fail — counts just won't show
+      }
+    }
+    fetchCounts();
+  }, []);
 
   const handleLogin = () => {
     setAuthMode('login');
@@ -19,12 +45,16 @@ export function LandingPage() {
 
   const daysUntilPAES = Math.ceil((new Date('2026-11-24').getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
 
+  const totalQuestions = Object.entries(questionCounts)
+    .filter(([k]) => !['C'].includes(k)) // avoid double-counting Ciencias
+    .reduce((sum, [, v]) => sum + v, 0);
+
   const subjects = [
-    { name: 'Matemática 1', description: 'Álgebra y funciones', icon: Calculator, questions: 156, color: 'blue' },
-    { name: 'Matemática 2', description: 'Geometría y probabilidad', icon: Calculator, questions: 89, color: 'violet' },
-    { name: 'Lenguaje', description: 'Comprensión lectora', icon: Languages, questions: 35, color: 'rose' },
-    { name: 'Ciencias', description: 'Biología, Química y Física', icon: FlaskConical, questions: 124, color: 'emerald' },
-    { name: 'Historia', description: 'Historia y ciencias sociales', icon: Clock, questions: 23, color: 'amber' },
+    { name: 'Matemática 1', description: 'Álgebra y funciones', icon: Calculator, questions: questionCounts['M1'], color: 'blue' },
+    { name: 'Matemática 2', description: 'Geometría y probabilidad', icon: Calculator, questions: questionCounts['M2'], color: 'violet' },
+    { name: 'Lenguaje', description: 'Comprensión lectora', icon: BookOpen, questions: questionCounts['L'], color: 'rose' },
+    { name: 'Ciencias', description: 'Biología, Química y Física', icon: FlaskConical, questions: questionCounts['C'], color: 'emerald' },
+    { name: 'Historia', description: 'Historia y ciencias sociales', icon: Clock, questions: questionCounts['H'], color: 'amber' },
   ];
 
   const faqs = [
@@ -98,7 +128,7 @@ export function LandingPage() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="relative p-3 bg-gradient-to-br from-cyan-500 via-teal-500 to-cyan-600 rounded-2xl shadow-lg">
-              <BookOpen className="w-6 h-6 text-white" />
+              <TutorPAESLogo size={28} color="white" />
             </div>
             <div>
               <div className="font-black text-xl tracking-tight">TutorPAES</div>
@@ -132,7 +162,7 @@ export function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center py-20 px-6" style={{
+      <section className="relative min-h-fit lg:min-h-[90vh] flex items-center py-20 px-6" style={{
         background: `
           radial-gradient(ellipse at 20% 0%, rgba(6, 182, 212, 0.3) 0%, transparent 50%),
           radial-gradient(ellipse at 80% 0%, rgba(20, 184, 166, 0.3) 0%, transparent 50%),
@@ -156,7 +186,7 @@ export function LandingPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" />
                 </span>
-                <span className="text-sm font-medium text-gray-200">+2,500 preguntas oficiales PAES</span>
+                <span className="text-sm font-medium text-gray-200">+{totalQuestions > 0 ? totalQuestions.toLocaleString() : '...'} preguntas oficiales PAES</span>
               </div>
 
               <h1 className="text-5xl md:text-7xl font-black leading-[1.1] mb-6">
@@ -227,7 +257,7 @@ export function LandingPage() {
                         <Icon className="w-5 h-5" />
                       </div>
                       <h3 className={`font-bold ${colors.text} mb-1`}>{subject.name}</h3>
-                      <p className={`text-sm ${colors.desc}`}>{subject.questions} preguntas</p>
+                      <p className={`text-sm ${colors.desc}`}>{subject.questions != null ? `${subject.questions} preguntas` : ''}</p>
                     </div>
                   );
                 })}
@@ -260,9 +290,11 @@ export function LandingPage() {
                   <div className={`inline-flex p-4 ${colors.icon} rounded-2xl mb-6`}>
                     <Icon className="w-7 h-7" />
                   </div>
-                  <div className={`inline-flex px-3 py-1 ${colors.badge} rounded-full text-xs font-bold mb-4`}>
-                    {subject.questions} preguntas
-                  </div>
+                  {subject.questions != null && (
+                    <div className={`inline-flex px-3 py-1 ${colors.badge} rounded-full text-xs font-bold mb-4`}>
+                      {subject.questions} preguntas
+                    </div>
+                  )}
                   <h3 className={`text-2xl font-bold ${colors.text} mb-2`}>{subject.name}</h3>
                   <p className={`${colors.desc}`}>{subject.description}</p>
                 </div>
@@ -277,7 +309,7 @@ export function LandingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">¿Por qué TutorPAES?</h2>
-            <p className="text-xl text-gray-400">Comparado con otras opciones</p>
+            <p className="text-xl text-gray-400">Comparado con un preu tradicional</p>
           </div>
 
           <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden">
@@ -285,34 +317,25 @@ export function LandingPage() {
               <thead>
                 <tr className="border-b border-white/10">
                   <th className="p-6 text-left text-gray-400 font-medium"></th>
+                  <th className="p-6 text-center text-gray-400">Preu tradicional</th>
                   <th className="p-6 text-center">
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 rounded-full">
-                      <BookOpen className="w-5 h-5 text-cyan-400" />
+                      <TutorPAESLogo size={24} color="gradient" />
                       <span className="font-bold text-cyan-300">TutorPAES</span>
                     </div>
                   </th>
-                  <th className="p-6 text-center text-gray-400">Preu tradicional</th>
-                  <th className="p-6 text-center text-gray-400">Estudiar solo</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { feature: 'Preguntas oficiales', us: true, preu: false, solo: false },
-                  { feature: 'Práctica ilimitada', us: true, preu: false, solo: true },
-                  { feature: 'Explicaciones detalladas', us: true, preu: true, solo: false },
-                  { feature: 'Seguimiento de progreso', us: true, preu: true, solo: false },
-                  { feature: 'Precio accesible', us: true, preu: false, solo: true },
-                  { feature: 'A tu ritmo', us: true, preu: false, solo: true },
+                  { feature: 'Preguntas 100% oficiales PAES', preu: false, us: true },
+                  { feature: 'Práctica ilimitada a tu ritmo', preu: false, us: true },
+                  { feature: 'Seguimiento de progreso', preu: true, us: true },
+                  { feature: 'Explicaciones paso a paso', preu: true, us: true },
+                  { feature: 'Simulacros con tiempo real', preu: false, us: true },
                 ].map((row) => (
                   <tr key={row.feature} className="border-b border-white/5 hover:bg-white/5 transition-colors">
                     <td className="p-6 font-medium">{row.feature}</td>
-                    <td className="p-6 text-center">
-                      {row.us ? (
-                        <Check className="w-6 h-6 text-emerald-400 mx-auto" />
-                      ) : (
-                        <X className="w-6 h-6 text-red-400/50 mx-auto" />
-                      )}
-                    </td>
                     <td className="p-6 text-center">
                       {row.preu ? (
                         <Check className="w-6 h-6 text-gray-400 mx-auto" />
@@ -321,8 +344,8 @@ export function LandingPage() {
                       )}
                     </td>
                     <td className="p-6 text-center">
-                      {row.solo ? (
-                        <Check className="w-6 h-6 text-gray-400 mx-auto" />
+                      {row.us ? (
+                        <Check className="w-6 h-6 text-emerald-400 mx-auto" />
                       ) : (
                         <X className="w-6 h-6 text-red-400/50 mx-auto" />
                       )}
@@ -340,7 +363,7 @@ export function LandingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: '2,500+', label: 'preguntas oficiales', color: 'text-cyan-400' },
+              { value: totalQuestions > 0 ? `${totalQuestions.toLocaleString()}+` : '...', label: 'preguntas oficiales', color: 'text-cyan-400' },
               { value: '5', label: 'pruebas completas', color: 'text-teal-400' },
               { value: '∞', label: 'práctica ilimitada', color: 'text-teal-400' },
               { value: '100%', label: 'preguntas oficiales', color: 'text-cyan-400' },
@@ -541,7 +564,7 @@ export function LandingPage() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-xl">
-              <BookOpen className="w-5 h-5 text-white" />
+              <TutorPAESLogo size={24} color="white" />
             </div>
             <span className="font-bold">TutorPAES</span>
           </div>

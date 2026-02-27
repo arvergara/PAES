@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Home, BookOpen, CheckCircle2, AlertCircle, Brain, FileText, HelpCircle } from 'lucide-react';
+import { Home, BookOpen, CheckCircle2, AlertCircle, Brain, FileText, HelpCircle, ArrowLeft, SkipForward } from 'lucide-react';
 import type { Question, Subject } from '../types';
 import { QuestionView } from './QuestionView';
 import { PdfViewer } from './PdfViewer';
@@ -50,6 +50,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
   const [correctAnswers, setCorrectAnswers] = useState(0);
   
   const [answeredQuestions, setAnsweredQuestions] = useState<Question[]>([]);
+  const [submittedAnswers, setSubmittedAnswers] = useState<Record<number, boolean>>({});
   const [answersRecord, setAnswersRecord] = useState<Record<string, string>>({});
   
   const [sessionId] = useState<string>(() => crypto.randomUUID());
@@ -58,6 +59,8 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
   const [activeTab, setActiveTab] = useState<'questions' | 'text'>('questions');
   const [readingTexts, setReadingTexts] = useState<Record<number, ReadingText>>({});
   const lastReadingTextId = useRef<number | null>(null);
+  const [navExpanded, setNavExpanded] = useState(false);
+  const navScrollRef = useRef<HTMLDivElement>(null);
 
   const currentQuestion = questionQueue[currentQuestionIndex] || null;
   const isLanguageQuestion = currentQuestion?.subject === 'L';
@@ -276,13 +279,62 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
     }
   }, [currentQuestion?.reading_text_id]);
 
+  const navigateToQuestion = (index: number) => {
+    if (index === currentQuestionIndex) return;
+    const targetQuestion = questionQueue[index];
+    
+    setCurrentQuestionIndex(index);
+    
+    // Restore state for target question
+    if (submittedAnswers[index]) {
+      // Already answered - show the answer and explanation
+      setCurrentAnswer(answersRecord[index] || null);
+      setShowExplanation(true);
+    } else {
+      setCurrentAnswer(null);
+      setShowExplanation(false);
+    }
+    
+    // Handle reading text tab switch
+    if (targetQuestion?.reading_text_id && 
+        targetQuestion.reading_text_id !== lastReadingTextId.current) {
+      setActiveTab('text');
+      lastReadingTextId.current = targetQuestion.reading_text_id;
+    } else if (!targetQuestion?.reading_text_id) {
+      setActiveTab('questions');
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex > 0) {
+      navigateToQuestion(currentQuestionIndex - 1);
+    }
+  };
+
+  const handleSkipReview = () => {
+    if (currentQuestionIndex < effectiveLimit - 1) {
+      navigateToQuestion(currentQuestionIndex + 1);
+    }
+  };
+
+  // Auto-scroll nav dots to center on current question
+  useEffect(() => {
+    if (navExpanded && navScrollRef.current) {
+      const dotSize = 20; // dot width + gap
+      const containerWidth = navScrollRef.current.clientWidth;
+      const scrollTarget = (currentQuestionIndex * dotSize) - (containerWidth / 2) + (dotSize / 2);
+      navScrollRef.current.scrollTo({ left: scrollTarget, behavior: 'smooth' });
+    }
+  }, [navExpanded, currentQuestionIndex]);
+
   const handleAnswer = (answer: string) => {
     if (!currentQuestion) return;
 
     setCurrentAnswer(answer);
     setShowExplanation(true);
+    setSubmittedAnswers(prev => ({ ...prev, [currentQuestionIndex]: true }));
     
-    const questionIndex = answeredQuestions.length;
+    const questionIndex = currentQuestionIndex;
     setAnsweredQuestions(prev => [...prev, currentQuestion]);
     setAnswersRecord(prev => ({ ...prev, [questionIndex]: answer }));
     
@@ -322,11 +374,40 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
     setCurrentAnswer(null);
     setShowExplanation(false);
 
-    if (currentQuestionIndex + 1 >= effectiveLimit) {
-      saveSession();
-      setIsFinished(true);
+    // Find next unanswered question
+    let nextUnanswered = -1;
+    for (let i = currentQuestionIndex + 1; i < effectiveLimit; i++) {
+      if (!submittedAnswers[i]) {
+        nextUnanswered = i;
+        break;
+      }
+    }
+    
+    if (nextUnanswered === -1) {
+      // Check if all answered
+      const allAnswered = Array.from({ length: effectiveLimit }, (_, i) => i)
+        .every(i => submittedAnswers[i]);
+      if (allAnswered) {
+        saveSession();
+        setIsFinished(true);
+      } else {
+        // Find first unanswered from beginning
+        for (let i = 0; i < currentQuestionIndex; i++) {
+          if (!submittedAnswers[i]) {
+            navigateToQuestion(i);
+            return;
+          }
+        }
+        // If somehow none found, just go next
+        if (currentQuestionIndex + 1 < effectiveLimit) {
+          setCurrentQuestionIndex(prev => prev + 1);
+        } else {
+          saveSession();
+          setIsFinished(true);
+        }
+      }
     } else {
-      setCurrentQuestionIndex(prev => prev + 1);
+      navigateToQuestion(nextUnanswered);
     }
   };
 
@@ -428,6 +509,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
 
   return (
     <div className="max-w-4xl mx-auto">
+      <style>{`.nav-scroll-hide::-webkit-scrollbar { display: none; }`}</style>
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center space-x-4">
           <button
@@ -458,15 +540,152 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
         </div>
       </div>
 
+
+      {/* Floating navigation bar - compact when >10 questions */}
+      <div className="fixed top-0 left-0 right-0 z-[55] flex items-center justify-center pointer-events-none h-[60px]">
+        {effectiveLimit <= 10 ? (
+          /* Full dots for ≤10 questions */
+          <div className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 pointer-events-auto">
+            {Array.from({ length: effectiveLimit }, (_, idx) => {
+              const isActive = idx === currentQuestionIndex;
+              const isAnswered = submittedAnswers[idx];
+              
+              let dotClass = 'w-3 h-3 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+              if (isActive) {
+                dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+              } else if (isAnswered) {
+                const q = questionQueue[idx];
+                const ans = answersRecord[idx];
+                dotClass += ans === q?.correctAnswer
+                  ? 'bg-green-500 border-green-500'
+                  : 'bg-red-400 border-red-400';
+              } else {
+                dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+              }
+              
+              return (
+                <button
+                  key={idx}
+                  onClick={() => navigateToQuestion(idx)}
+                  className={dotClass}
+                  title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                />
+              );
+            })}
+          </div>
+        ) : (
+          /* Compact/expandable for >10 questions */
+          <div 
+            className="pointer-events-auto"
+            onMouseEnter={() => setNavExpanded(true)}
+            onMouseLeave={() => setNavExpanded(false)}
+          >
+          {!navExpanded ? (
+            /* Compact: pill with question number and mini progress */
+            <div 
+              className="flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 cursor-pointer"
+              onClick={() => setNavExpanded(true)}
+            >
+              <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+                {currentQuestionIndex + 1} / {effectiveLimit}
+              </span>
+              <div className="flex items-center gap-0.5">
+                {/* Mini 3-dot summary: previous, current, next */}
+                {[-1, 0, 1].map(offset => {
+                  const idx = currentQuestionIndex + offset;
+                  if (idx < 0 || idx >= effectiveLimit) return <div key={offset} className="w-2 h-2" />;
+                  const isCurrent = offset === 0;
+                  const isAnswered = submittedAnswers[idx];
+                  let miniClass = 'w-2 h-2 rounded-full ';
+                  if (isCurrent) {
+                    miniClass += `${colors.primary} scale-125`;
+                  } else if (isAnswered) {
+                    const q = questionQueue[idx];
+                    miniClass += answersRecord[idx] === q?.correctAnswer ? 'bg-green-500' : 'bg-red-400';
+                  } else {
+                    miniClass += 'bg-gray-300 dark:bg-gray-600';
+                  }
+                  return <div key={offset} className={miniClass} />;
+                })}
+              </div>
+              <span className="text-xs text-gray-400 dark:text-gray-500">
+                {Object.keys(submittedAnswers).length} ✓
+              </span>
+            </div>
+          ) : (
+            /* Expanded: scrollable dot carousel with arrows */
+            <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50">
+              <button
+                onClick={(e) => { 
+                  e.stopPropagation();
+                  if (navScrollRef.current) navScrollRef.current.scrollBy({ left: -100, behavior: 'smooth' });
+                }}
+                className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+              >
+                ‹
+              </button>
+              <div 
+                ref={navScrollRef}
+                className="nav-scroll-hide flex items-center gap-1.5 overflow-x-auto py-1 px-1"
+                style={{ maxWidth: '220px', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+                onWheel={(e) => {
+                  if (navScrollRef.current) {
+                    navScrollRef.current.scrollLeft += e.deltaY;
+                    e.preventDefault();
+                  }
+                }}
+              >
+                {Array.from({ length: effectiveLimit }, (_, idx) => {
+                  const isActive = idx === currentQuestionIndex;
+                  const isAnswered = submittedAnswers[idx];
+                  
+                  let dotClass = 'w-3 h-3 flex-shrink-0 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+                  if (isActive) {
+                    dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+                  } else if (isAnswered) {
+                    const q = questionQueue[idx];
+                    const ans = answersRecord[idx];
+                    dotClass += ans === q?.correctAnswer
+                      ? 'bg-green-500 border-green-500'
+                      : 'bg-red-400 border-red-400';
+                  } else {
+                    dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+                  }
+                  
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => navigateToQuestion(idx)}
+                      className={dotClass}
+                      title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                    />
+                  );
+                })}
+              </div>
+              <button
+                onClick={(e) => { 
+                  e.stopPropagation();
+                  if (navScrollRef.current) navScrollRef.current.scrollBy({ left: 100, behavior: 'smooth' });
+                }}
+                className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+              >
+                ›
+              </button>
+            </div>
+          )}
+          </div>
+        )}
+      </div>
+
       <div className="mb-6">
         <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
           <span>Progreso</span>
-          <span>Pregunta {currentQuestionIndex + 1} de {effectiveLimit}</span>
+          <span>Pregunta {currentQuestionIndex + 1} de {effectiveLimit} • {Object.keys(submittedAnswers).length} respondidas</span>
         </div>
         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
           <div 
             className={`${colors.primary} h-2 rounded-full transition-all duration-300`}
-            style={{ width: `${((currentQuestionIndex + 1) / effectiveLimit) * 100}%` }}
+            style={{ width: `${(Object.keys(submittedAnswers).length / effectiveLimit) * 100}%` }}
           />
         </div>
       </div>
@@ -521,6 +740,28 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
             showExplanation={showExplanation}
           />
 
+          {!showExplanation && (
+            <div className="flex justify-between mt-6">
+              <button
+                onClick={handlePrevious}
+                disabled={currentQuestionIndex === 0}
+                className={`px-5 py-3 rounded-lg transition-colors flex items-center gap-2 border border-gray-300 dark:border-gray-600 ${currentQuestionIndex === 0 ? 'opacity-40 cursor-not-allowed' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'}`}
+              >
+                <ArrowLeft className="w-5 h-5" />
+              </button>
+              <span className="text-sm text-gray-500 dark:text-gray-400 flex items-center">
+                Selecciona una respuesta
+              </span>
+              <button
+                onClick={handleSkipReview}
+                disabled={currentQuestionIndex >= effectiveLimit - 1}
+                className={`px-5 py-3 rounded-lg transition-colors flex items-center gap-2 border border-gray-300 dark:border-gray-600 ${currentQuestionIndex >= effectiveLimit - 1 ? 'opacity-40 cursor-not-allowed' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'}`}
+              >
+                <SkipForward className="w-5 h-5" />
+              </button>
+            </div>
+          )}
+
           {showExplanation && (
             <div className="mt-6">
               <div className="flex items-center justify-center space-x-2 mb-4">
@@ -553,10 +794,12 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
                 onClick={handleNext}
                 className={`w-full px-6 py-3 ${colors.primary} text-white rounded-lg ${colors.primaryHover} transition-colors`}
               >
-                {currentQuestionIndex + 1 >= effectiveLimit
-                  ? 'Ver Resultados' 
-                  : 'Siguiente Pregunta'
-                }
+                {(() => {
+                  const unansweredCount = Array.from({ length: effectiveLimit }, (_, i) => i)
+                    .filter(i => !submittedAnswers[i] && i !== currentQuestionIndex).length;
+                  if (unansweredCount === 0) return 'Ver Resultados';
+                  return 'Siguiente Pregunta';
+                })()}
               </button>
             </div>
           )}

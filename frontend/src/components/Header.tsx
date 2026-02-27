@@ -39,6 +39,7 @@ interface HeaderProps {
   onUpdateAllReviewQuestions?: (count: number) => void;
   showHomeButton?: boolean;
   onGoHome?: () => void;
+  isInExam?: boolean;
 }
 
 export function Header({ 
@@ -52,7 +53,8 @@ export function Header({
   onUpdateReviewQuestions,
   onUpdateAllReviewQuestions,
   showHomeButton = false,
-  onGoHome
+  onGoHome,
+  isInExam = false
 }: HeaderProps) {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [showPerformanceModal, setShowPerformanceModal] = useState(false);
@@ -106,7 +108,7 @@ export function Header({
   };
 
   // Verificar si tenemos todas las props necesarias para mostrar el modal de configuración
-  const canShowSettings = timeSettings && 
+  const canShowSettings = !isInExam && timeSettings && 
     onUpdateTimeSetting && 
     onUpdateAllTimeSettings &&
     onUpdatePaesQuestions && 

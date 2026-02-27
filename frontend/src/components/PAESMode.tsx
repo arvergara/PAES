@@ -26,8 +26,8 @@ type TabType = 'texto' | 'preguntas';
 export function PAESMode({ 
   subject, 
   onExit, 
-  timePerQuestion = 2.16, 
-  questionCount = 15,
+  timePerQuestion = 2.15, 
+  questionCount = 65,
   resumeSession,
   onSessionChange
 }: PAESModeProps) {
@@ -52,6 +52,8 @@ export function PAESMode({
   const [activeTab, setActiveTab] = useState<TabType>('preguntas');
   const [showTextFirst, setShowTextFirst] = useState(false);
   const lastReadingTextId = useRef<number | null>(null);
+  const [navExpanded, setNavExpanded] = useState(false);
+  const navScrollRef = useRef<HTMLDivElement>(null);
 
   const isLanguageSubject = subject === 'L';
 
@@ -294,6 +296,29 @@ export function PAESMode({
     }
   };
 
+  // Auto-scroll nav dots to center on current question
+  useEffect(() => {
+    if (navExpanded && navScrollRef.current) {
+      const dotSize = 20;
+      const containerWidth = navScrollRef.current.clientWidth;
+      const scrollTarget = (currentQuestionIndex * dotSize) - (containerWidth / 2) + (dotSize / 2);
+      navScrollRef.current.scrollTo({ left: scrollTarget, behavior: 'smooth' });
+    }
+  }, [navExpanded, currentQuestionIndex]);
+
+  const navigateToQuestion = (index: number) => {
+    if (index === currentQuestionIndex) return;
+    setCurrentQuestionIndex(index);
+    // If navigating to a language question with a new reading text, show it
+    const targetQuestion = questions[index];
+    if (isLanguageSubject && targetQuestion?.reading_text_id && 
+        targetQuestion.reading_text_id !== lastReadingTextId.current) {
+      lastReadingTextId.current = targetQuestion.reading_text_id;
+      setShowTextFirst(true);
+      setActiveTab('texto');
+    }
+  };
+
   const handleAnswer = (answer: string) => setAnswers((prev) => ({ ...prev, [currentQuestionIndex]: answer }));
   
   const handleNext = () => { 
@@ -372,6 +397,7 @@ export function PAESMode({
   if (hasReadingText) {
     return (
       <div className="max-w-6xl mx-auto flex flex-col min-h-[calc(100vh-4rem)]">
+        <style>{`.nav-scroll-hide::-webkit-scrollbar { display: none; }`}</style>
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center space-x-4">
@@ -392,6 +418,115 @@ export function PAESMode({
             Pregunta {currentQuestionIndex + 1} de {questions.length}
           </div>
         </div>
+
+      {/* Floating navigation bar - compact when >10 questions */}
+      <div className="fixed top-0 left-0 right-0 z-[55] flex items-center justify-center pointer-events-none h-[60px]">
+        {questions.length <= 10 ? (
+          /* Full dots for ≤10 questions */
+          <div className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 pointer-events-auto">
+            {questions.map((_, idx) => {
+              const isActive = idx === currentQuestionIndex;
+                    const isAnswered = answers[idx] !== undefined;
+                    
+                    let dotClass = 'w-3 h-3 flex-shrink-0 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+                    if (isActive) {
+                      dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+                    } else if (isAnswered) {
+                      dotClass += 'bg-blue-400 border-blue-400';
+                    } else {
+                      dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+                    }
+                    
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => navigateToQuestion(idx)}
+                        className={dotClass}
+                        title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                      />
+                    );
+            })}
+          </div>
+        ) : (
+          /* Compact/expandable for >10 questions */
+          <div 
+            className="pointer-events-auto"
+            onMouseEnter={() => setNavExpanded(true)}
+            onMouseLeave={() => setNavExpanded(false)}
+          >
+            {!navExpanded ? (
+              <div 
+                className="flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 cursor-pointer"
+                onClick={() => setNavExpanded(true)}
+              >
+                <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+                  {currentQuestionIndex + 1} / {questions.length}
+                </span>
+                <div className="flex items-center gap-0.5">
+                  {[-1, 0, 1].map(offset => {
+                    const idx = currentQuestionIndex + offset;
+                    if (idx < 0 || idx >= questions.length) return <div key={offset} className="w-2 h-2" />;
+                    const isCurrent = offset === 0;
+                    const isAnswered = answers[idx] !== undefined;
+                    let miniClass = 'w-2 h-2 rounded-full ';
+                    if (isCurrent) {
+                      miniClass += `${colors.primary} scale-125`;
+                    } else if (isAnswered) {
+                      miniClass += 'bg-blue-400';
+                    } else {
+                      miniClass += 'bg-gray-300 dark:bg-gray-600';
+                    }
+                    return <div key={offset} className={miniClass} />;
+                  })}
+                </div>
+                <span className="text-xs text-gray-400 dark:text-gray-500">
+                  {Object.keys(answers).length} ✓
+                </span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50">
+                <button
+                  onClick={(e) => { e.stopPropagation(); if (navScrollRef.current) navScrollRef.current.scrollBy({ left: -100, behavior: 'smooth' }); }}
+                  className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                >‹</button>
+                <div 
+                  ref={navScrollRef}
+                  className="nav-scroll-hide flex items-center gap-1.5 overflow-x-auto py-1 px-1"
+                  style={{ maxWidth: '220px', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+                  onWheel={(e) => { if (navScrollRef.current) { navScrollRef.current.scrollLeft += e.deltaY; e.preventDefault(); } }}
+                >
+                  {questions.map((_, idx) => {
+                    const isActive = idx === currentQuestionIndex;
+                    const isAnswered = answers[idx] !== undefined;
+                    
+                    let dotClass = 'w-3 h-3 flex-shrink-0 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+                    if (isActive) {
+                      dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+                    } else if (isAnswered) {
+                      dotClass += 'bg-blue-400 border-blue-400';
+                    } else {
+                      dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+                    }
+                    
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => navigateToQuestion(idx)}
+                        className={dotClass}
+                        title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                      />
+                    );
+                  })}
+                </div>
+                <button
+                  onClick={(e) => { e.stopPropagation(); if (navScrollRef.current) navScrollRef.current.scrollBy({ left: 100, behavior: 'smooth' }); }}
+                  className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                >›</button>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
 
         {/* Info del texto */}
         {currentReadingText && (
@@ -533,6 +668,7 @@ export function PAESMode({
   // Vista normal (sin texto de lectura)
   return (
     <div className="max-w-4xl mx-auto">
+      <style>{`.nav-scroll-hide::-webkit-scrollbar { display: none; }`}</style>
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center space-x-4">
           <button 
@@ -550,6 +686,116 @@ export function PAESMode({
         </div>
         <div className="text-gray-600 dark:text-gray-300">Pregunta {currentQuestionIndex + 1} de {questions.length}</div>
       </div>
+
+      {/* Floating navigation bar - compact when >10 questions */}
+      <div className="fixed top-0 left-0 right-0 z-[55] flex items-center justify-center pointer-events-none h-[60px]">
+        {questions.length <= 10 ? (
+          /* Full dots for ≤10 questions */
+          <div className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 pointer-events-auto">
+            {questions.map((_, idx) => {
+              const isActive = idx === currentQuestionIndex;
+                    const isAnswered = answers[idx] !== undefined;
+                    
+                    let dotClass = 'w-3 h-3 flex-shrink-0 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+                    if (isActive) {
+                      dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+                    } else if (isAnswered) {
+                      dotClass += 'bg-blue-400 border-blue-400';
+                    } else {
+                      dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+                    }
+                    
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => navigateToQuestion(idx)}
+                        className={dotClass}
+                        title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                      />
+                    );
+            })}
+          </div>
+        ) : (
+          /* Compact/expandable for >10 questions */
+          <div 
+            className="pointer-events-auto"
+            onMouseEnter={() => setNavExpanded(true)}
+            onMouseLeave={() => setNavExpanded(false)}
+          >
+            {!navExpanded ? (
+              <div 
+                className="flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50 cursor-pointer"
+                onClick={() => setNavExpanded(true)}
+              >
+                <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+                  {currentQuestionIndex + 1} / {questions.length}
+                </span>
+                <div className="flex items-center gap-0.5">
+                  {[-1, 0, 1].map(offset => {
+                    const idx = currentQuestionIndex + offset;
+                    if (idx < 0 || idx >= questions.length) return <div key={offset} className="w-2 h-2" />;
+                    const isCurrent = offset === 0;
+                    const isAnswered = answers[idx] !== undefined;
+                    let miniClass = 'w-2 h-2 rounded-full ';
+                    if (isCurrent) {
+                      miniClass += `${colors.primary} scale-125`;
+                    } else if (isAnswered) {
+                      miniClass += 'bg-blue-400';
+                    } else {
+                      miniClass += 'bg-gray-300 dark:bg-gray-600';
+                    }
+                    return <div key={offset} className={miniClass} />;
+                  })}
+                </div>
+                <span className="text-xs text-gray-400 dark:text-gray-500">
+                  {Object.keys(answers).length} ✓
+                </span>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1 px-2 py-2 rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-lg border border-gray-200/50 dark:border-gray-700/50">
+                <button
+                  onClick={(e) => { e.stopPropagation(); if (navScrollRef.current) navScrollRef.current.scrollBy({ left: -100, behavior: 'smooth' }); }}
+                  className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                >‹</button>
+                <div 
+                  ref={navScrollRef}
+                  className="nav-scroll-hide flex items-center gap-1.5 overflow-x-auto py-1 px-1"
+                  style={{ maxWidth: '220px', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+                  onWheel={(e) => { if (navScrollRef.current) { navScrollRef.current.scrollLeft += e.deltaY; e.preventDefault(); } }}
+                >
+                  {questions.map((_, idx) => {
+                    const isActive = idx === currentQuestionIndex;
+                    const isAnswered = answers[idx] !== undefined;
+                    
+                    let dotClass = 'w-3 h-3 flex-shrink-0 rounded-full transition-all duration-200 cursor-pointer border-2 ';
+                    if (isActive) {
+                      dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
+                    } else if (isAnswered) {
+                      dotClass += 'bg-blue-400 border-blue-400';
+                    } else {
+                      dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
+                    }
+                    
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => navigateToQuestion(idx)}
+                        className={dotClass}
+                        title={`Pregunta ${idx + 1}${isAnswered ? ' (respondida)' : ''}`}
+                      />
+                    );
+                  })}
+                </div>
+                <button
+                  onClick={(e) => { e.stopPropagation(); if (navScrollRef.current) navScrollRef.current.scrollBy({ left: 100, behavior: 'smooth' }); }}
+                  className="flex-shrink-0 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                >›</button>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
       <div className="mb-4 text-sm font-medium text-gray-600 dark:text-gray-300">
         Materia: {currentQuestion.subject === 'M1' ? 'Matemática 1' : currentQuestion.subject === 'M2' ? 'Matemática 2' : currentQuestion.subject === 'L' ? 'Lenguaje' : 'Ciencias'}
       </div>

@@ -18,19 +18,19 @@ interface TimeSettings {
   reviewQuestions: ModeTimeSettings;
 }
 
-const STORAGE_KEY = 'paes_time_settings_v6';
+const STORAGE_KEY = 'paes_time_settings_v7';
 
 const defaultSettings: TimeSettings = {
   test: { M1: 1, M2: 1, L: 1, C: 1, H: 1 },
-  paes: { M1: 1, M2: 1, L: 1, C: 1, H: 1 },
-  paesQuestions: { M1: 15, M2: 15, L: 15, C: 15, H: 15 },
+  paes: { M1: 2.15, M2: 2.55, L: 2.31, C: 2, H: 1.85 },
+  paesQuestions: { M1: 65, M2: 55, L: 65, C: 80, H: 65 },
   readingTime: { M1: 5, M2: 5, L: 5, C: 5, H: 5 },
   reviewQuestions: { M1: 0, M2: 0, L: 0, C: 0, H: 0 },
 };
 
 const realPaesQuestionCount: Record<Subject, number> = {
   M1: 65,
-  M2: 65,
+  M2: 55,
   L: 65,
   C: 80,
   H: 65,
