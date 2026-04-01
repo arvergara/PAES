@@ -1,5 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, FormEvent } from 'react';
 import { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
+import { supabase } from './lib/supabase';
 import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
@@ -40,14 +42,97 @@ interface SavedSession {
   userId?: string; // Nuevo: identificador del usuario
 }
 
+function NewPasswordModal({ onComplete }: { onComplete: () => void }) {
+  const [password, setPassword] = useState('');
+  const [confirm, setConfirm] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    if (password !== confirm) {
+      toast.error('Las contraseñas no coinciden');
+      return;
+    }
+    setLoading(true);
+    try {
+      const { error } = await supabase.auth.updateUser({ password });
+      if (error) throw error;
+      toast.success('¡Contraseña actualizada! Ya puedes ingresar.');
+      onComplete();
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : 'Error al actualizar contraseña');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl w-full max-w-md p-8">
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2 text-center">
+          Nueva contraseña
+        </h2>
+        <p className="text-sm text-gray-500 dark:text-gray-400 text-center mb-6">
+          Elige una contraseña segura para tu cuenta
+        </p>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              Nueva contraseña
+            </label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-4 py-2.5 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+              required
+              minLength={6}
+              autoFocus
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              Confirmar contraseña
+            </label>
+            <input
+              type="password"
+              value={confirm}
+              onChange={(e) => setConfirm(e.target.value)}
+              className="w-full rounded-lg border border-gray-300 dark:border-gray-600 px-4 py-2.5 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+              required
+              minLength={6}
+            />
+          </div>
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full bg-indigo-600 text-white py-2.5 px-4 rounded-lg hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium mt-2"
+          >
+            {loading ? 'Guardando...' : 'Guardar nueva contraseña'}
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
 function App() {
-  const { user, loading } = useAuth();
+  const { user, loading, isPasswordRecovery, setIsPasswordRecovery } = useAuth();
 
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="w-12 h-12 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
       </div>
+    );
+  }
+
+  if (isPasswordRecovery) {
+    return (
+      <>
+        <Toaster position="top-center" />
+        <NewPasswordModal onComplete={() => setIsPasswordRecovery(false)} />
+      </>
     );
   }
 

@@ -81,7 +81,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
     try {
       if (mode === 'reset') {
         const { error } = await supabase.auth.resetPasswordForEmail(email, {
-          redirectTo: `${window.location.origin}/reset-password`,
+          redirectTo: window.location.origin,
         });
 
         if (error) throw error;
@@ -93,9 +93,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
           email,
           password,
           options: {
-            data: {
-              name,
-            },
+            data: { name },
             emailRedirectTo: window.location.origin
           },
         });
@@ -107,8 +105,13 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
           throw signUpError;
         }
 
-        if (data.user) {
-          toast.success('¡Registro exitoso! Ya puedes iniciar sesión.');
+        if (data.session) {
+          // Confirmación de email desactivada — usuario entra directo
+          toast.success(`¡Bienvenido${name ? ', ' + name : ''}! Tu cuenta ha sido creada.`);
+          onClose();
+        } else {
+          // Confirmación de email activada — avisar correctamente
+          toast.success('¡Registro exitoso! Revisa tu email para confirmar tu cuenta antes de ingresar.');
           setMode('login');
         }
       } else {

@@ -1,0 +1,172 @@
+[
+  {
+    "content": "Un agricultor utiliza plantas de tomate transgénicas que producen una toxina insecticida proveniente de la bacteria Bacillus thuringiensis (Bt). Esta toxina protege al cultivo sin necesidad de aplicar pesticidas químicos. ¿Qué técnica de manipulación genética se empleó para obtener estas plantas?",
+    "options": {
+      "a": "Inserción de un gen de interés proveniente de otro organismo en el genoma de la planta mediante ingeniería genética.",
+      "b": "Transferencia horizontal de genes mediante conjugación bacteriana directa con la planta.",
+      "c": "Selección artificial de variedades de tomate naturalmente resistentes a insectos.",
+      "d": "Inducción de mutaciones aleatorias con radiación ultravioleta para generar resistencia."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque las plantas Bt se obtienen mediante ingeniería genética, insertando el gen cry de Bacillus thuringiensis en el genoma vegetal usando vectores como Agrobacterium tumefaciens o biobalística, lo que permite a la planta producir la toxina insecticida. La opción (b) es incorrecta porque la conjugación bacteriana es un mecanismo de transferencia genética entre bacterias, no entre bacterias y plantas superiores. La opción (c) es incorrecta porque la selección artificial solo trabaja con variabilidad genética preexistente en la especie; el tomate no posee naturalmente genes para toxinas Bt. La opción (d) es incorrecta porque la mutagénesis con radiación UV genera mutaciones al azar e impredecibles, y no permitiría introducir un gen específico de otra especie de forma dirigida.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Aplicaciones de la manipulacion genetica",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un cultivo celular se observa que las células se dividen y al final del proceso cada célula hija posee exactamente la misma cantidad de cromosomas que la célula madre. Además, se comprueba que las células hijas son genéticamente idénticas entre sí. ¿Qué tipo de división celular se está llevando a cabo?",
+    "options": {
+      "a": "Meiosis I, ya que separa cromosomas homólogos sin alterar el número cromosómico.",
+      "b": "Amitosis, ya que es una división directa del núcleo sin formación de huso mitótico.",
+      "c": "Meiosis II, ya que genera células con el mismo número de cromosomas que la célula que inicia esta etapa.",
+      "d": "Mitosis, ya que produce dos células hijas diploides genéticamente idénticas a la célula progenitora."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque la mitosis produce dos células hijas con el mismo número de cromosomas que la célula madre (2n) y que son genéticamente idénticas, ya que se replican y reparten equitativamente todas las cromátidas hermanas. La opción (a) es incorrecta porque la meiosis I es reduccional: separa los cromosomas homólogos reduciendo la dotación cromosómica a la mitad (de 2n a n), por lo que las células resultantes no conservan el número cromosómico original. La opción (b) es incorrecta porque la amitosis es un proceso poco frecuente, descrito en algunos organismos unicelulares, que no garantiza un reparto equitativo del material genético ni produce células genéticamente idénticas de forma precisa. La opción (c) es incorrecta porque, aunque la meiosis II es ecuacional y mantiene el número n, las células que entran a meiosis II ya son haploides y, además, no son idénticas entre sí debido al entrecruzamiento ocurrido en meiosis I.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Division celular (mitosis y meiosis)",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Darwin y Wallace propusieron que la selección natural es el principal mecanismo de la evolución biológica. Según esta teoría, ¿cuál de las siguientes condiciones es indispensable para que la selección natural actúe sobre una población?",
+    "options": {
+      "a": "Que todos los individuos de la población posean las mismas características fenotípicas.",
+      "b": "Que exista variabilidad heredable entre los individuos de la población.",
+      "c": "Que las mutaciones se produzcan de manera dirigida hacia caracteres beneficiosos.",
+      "d": "Que el ambiente se mantenga constante e invariable durante generaciones."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la selección natural requiere que exista variación fenotípica entre los individuos, que dicha variación tenga una base genética heredable y que algunas variantes confieran ventajas reproductivas diferenciales. Sin variabilidad heredable, la selección natural no tiene material sobre el cual actuar. La opción (a) es incorrecta porque si todos los individuos fueran idénticos fenotípicamente, no habría diferencias sobre las cuales la selección pudiera operar; la uniformidad elimina la materia prima de la evolución. La opción (c) es incorrecta porque las mutaciones son eventos aleatorios y no dirigidos; la selección natural filtra las variantes ya existentes, pero no las genera con una dirección predeterminada. La opción (d) es incorrecta porque los ambientes cambiantes son precisamente los que generan nuevas presiones selectivas; un ambiente constante no es requisito, y de hecho la selección natural opera tanto en ambientes estables como cambiantes.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Evidencias de la evolucion biologica y teorias evolutivas",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En una cadena trófica marina, el fitoplancton fija 10.000 kcal de energía solar. El zooplancton que se alimenta de él obtiene 1.000 kcal, los peces pequeños que consumen zooplancton retienen 100 kcal, y los peces depredadores que se alimentan de peces pequeños acumulan 10 kcal. ¿Qué principio ecológico explica esta progresiva disminución de energía disponible entre niveles tróficos?",
+    "options": {
+      "a": "La ley de conservación de la materia, que impide la creación de nueva energía en cada nivel.",
+      "b": "La regla del 10%, según la cual aproximadamente solo un 10% de la energía de un nivel trófico se transfiere al siguiente, perdiéndose el resto principalmente como calor por respiración celular.",
+      "c": "El principio de exclusión competitiva, que limita la cantidad de organismos por nivel trófico.",
+      "d": "La ley de tolerancia de Shelford, que establece rangos óptimos de energía para cada especie."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque en cada nivel trófico los organismos utilizan gran parte de la energía asimilada para sus procesos metabólicos (respiración celular), liberándola como calor, y solo aproximadamente un 10% queda disponible para el siguiente nivel. Esto explica la disminución progresiva observada (10.000 → 1.000 → 100 → 10 kcal). La opción (a) es incorrecta porque, aunque la conservación de la materia es un principio válido, la disminución energética entre niveles tróficos se debe a la segunda ley de la termodinámica (pérdida de energía como calor), no a la imposibilidad de crear materia. La opción (c) es incorrecta porque el principio de exclusión competitiva se refiere a que dos especies no pueden ocupar el mismo nicho ecológico indefinidamente, y no explica la transferencia energética entre niveles. La opción (d) es incorrecta porque la ley de tolerancia de Shelford describe los rangos de condiciones ambientales que un organismo puede soportar, no la transferencia de energía en cadenas tróficas.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Cadenas troficas y flujo de materia y energia en los ecosistemas",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una planta acuática sumergida se coloca en un recipiente cerrado con agua y se ilumina con luz blanca. Se observa que se producen burbujas de gas desde las hojas. Al apagar la luz, la producción de burbujas cesa por completo. ¿Qué proceso metabólico es directamente responsable de la liberación de este gas?",
+    "options": {
+      "a": "La fermentación alcohólica, que produce CO2 y etanol en condiciones anaeróbicas.",
+      "b": "La respiración celular aeróbica, que libera CO2 como producto de la oxidación de glucosa.",
+      "c": "La fase oscura de la fotosíntesis (ciclo de Calvin), que fija CO2 y libera O2 como subproducto.",
+      "d": "La fase luminosa de la fotosíntesis, que libera O2 como producto de la fotólisis del agua."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque las burbujas corresponden a oxígeno molecular (O2), producido durante la fase luminosa de la fotosíntesis mediante la fotólisis del agua (2H2O → 4H+ + 4e- + O2). Al apagar la luz, la fase luminosa se detiene y cesa la producción de O2. La opción (a) es incorrecta porque la fermentación alcohólica es un proceso anaeróbico que no depende de la luz y ocurre en ausencia de oxígeno, lo cual no corresponde al escenario experimental descrito. La opción (b) es incorrecta porque la respiración celular ocurre tanto con luz como sin luz y su producto gaseoso es CO2, no O2; además, el CO2 se disuelve fácilmente en agua y no forma burbujas visibles en estas condiciones. La opción (c) es incorrecta porque el ciclo de Calvin (fase oscura) fija CO2 para sintetizar glucosa, pero no libera O2; el oxígeno se produce exclusivamente en la fase luminosa durante la fotólisis del agua.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Fotosintesis y respiracion celular",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se colocan glóbulos rojos humanos en tres soluciones con distinta concentración de NaCl: solución A (0,9%), solución B (0,2%) y solución C (3%). Después de 30 minutos, los glóbulos rojos en la solución B se han lisado (reventado). ¿Cuál es la explicación correcta de este fenómeno?",
+    "options": {
+      "a": "La solución B es hipertónica respecto al citoplasma del glóbulo rojo, lo que provoca salida de agua y deshidratación celular.",
+      "b": "La solución B es isotónica, por lo que el agua entra y sale en igual proporción, manteniendo el volumen celular constante.",
+      "c": "La solución B es hipotónica respecto al citoplasma del glóbulo rojo, lo que genera entrada neta de agua por ósmosis hasta provocar la lisis celular.",
+      "d": "La solución B tiene un pH ácido que destruye la membrana plasmática del glóbulo rojo por desnaturalización de proteínas."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque la solución B (0,2% NaCl) tiene menor concentración de soluto que el interior del glóbulo rojo (cuya concentración isotónica es ~0,9%), por lo tanto es hipotónica. El agua se mueve por ósmosis desde la solución (menor concentración de soluto) hacia el interior de la célula (mayor concentración de soluto), provocando hinchazón y eventual lisis (hemólisis). La opción (a) es incorrecta porque una solución hipertónica tiene mayor concentración de soluto que la célula, lo que provocaría salida de agua y crenación (arrugamiento), no lisis; esto correspondería a la solución C (3%). La opción (b) es incorrecta porque la solución isotónica es la que tiene igual concentración de soluto que el interior celular (~0,9%), lo que corresponde a la solución A, no a la B. La opción (d) es incorrecta porque el problema describe concentraciones de NaCl y no menciona variaciones de pH; la lisis observada se explica completamente por el fenómeno osmótico.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion, estructura y actividad celular",
+    "subtema": "Intercambio de sustancias celula/ambiente",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un estudiante observa al microscopio una célula que posee núcleo definido con doble membrana, mitocondrias abundantes, retículo endoplasmático rugoso desarrollado, aparato de Golgi y lisosomas, pero carece de cloroplastos y pared celular. ¿A qué tipo de célula corresponde esta descripción?",
+    "options": {
+      "a": "Célula vegetal, porque posee organelos membranosos como mitocondrias y retículo endoplasmático.",
+      "b": "Célula animal eucarionte, porque presenta organelos membranosos pero carece de cloroplastos y pared celular.",
+      "c": "Célula procarionte heterótrofa, porque carece de cloroplastos y tiene abundantes mitocondrias.",
+      "d": "Célula fúngica, porque los hongos carecen de cloroplastos y poseen lisosomas prominentes."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la célula descrita posee todas las características de una célula eucarionte animal: núcleo definido con doble membrana, organelos membranosos (mitocondrias, RE rugoso, Golgi, lisosomas) y, crucialmente, carece de cloroplastos (no realiza fotosíntesis) y de pared celular, dos estructuras típicas de células vegetales. La opción (a) es incorrecta porque las células vegetales, además de tener mitocondrias y RE, poseen cloroplastos para la fotosíntesis y pared celular de celulosa, ambos ausentes en la célula descrita. La opción (c) es incorrecta porque las células procariontes carecen de núcleo definido con doble membrana y no poseen organelos membranosos como mitocondrias, retículo endoplasmático ni aparato de Golgi; la célula descrita es claramente eucarionte. La opción (d) es incorrecta porque, aunque los hongos son heterótrofos y carecen de cloroplastos, sus células poseen pared celular (compuesta de quitina), y la célula descrita explícitamente carece de pared celular.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion, estructura y actividad celular",
+    "subtema": "Organelos y estructuras celulares en procariontes y eucariontes",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una persona es diagnosticada con sífilis, una infección de transmisión sexual (ITS) causada por la bacteria Treponema pallidum. El médico le prescribe un tratamiento con antibióticos y le indica que su pareja sexual también debe ser evaluada y tratada. ¿Por qué es fundamental tratar también a la pareja sexual del paciente?",
+    "options": {
+      "a": "Porque la pareja podría estar infectada y asintomática, y sin tratamiento puede reinfectar al paciente original o transmitir la bacteria a otras personas.",
+      "b": "Porque la sífilis es causada por un virus que permanece latente y solo los antivirales pueden eliminarlo de ambos organismos simultáneamente.",
+      "c": "Porque los antibióticos solo funcionan si ambos miembros de la pareja los toman al mismo tiempo, debido a un efecto sinérgico inmunológico.",
+      "d": "Porque el tratamiento genera inmunidad permanente en el paciente, pero no en la pareja, que queda vulnerable de por vida."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque muchas ITS, incluida la sífilis, pueden presentar períodos asintomáticos en los que la persona infectada no muestra signos clínicos pero sigue siendo portadora y transmisora de la bacteria. Si la pareja no es tratada, puede reinfectar al paciente curado o contagiar a otros contactos sexuales. La opción (b) es incorrecta porque la sífilis es causada por una bacteria (Treponema pallidum), no por un virus, y se trata con antibióticos (penicilina), no con antivirales. La opción (c) es incorrecta porque la eficacia de los antibióticos depende de su acción sobre la bacteria en el organismo individual; no existe un efecto sinérgico inmunológico que requiera tratamiento simultáneo para que el fármaco funcione. La opción (d) es incorrecta porque el tratamiento antibiótico de la sífilis no genera inmunidad permanente; una persona curada puede reinfectarse si se expone nuevamente a la bacteria.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos y funciones biologicas",
+    "subtema": "Infecciones de transmision sexual (ITS)",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un deportista consume una barra energética cuya etiqueta indica que contiene 30 g de carbohidratos, 10 g de proteínas y 8 g de lípidos. Considerando que los carbohidratos y proteínas aportan aproximadamente 4 kcal/g y los lípidos 9 kcal/g, ¿cuál es el aporte calórico total aproximado de la barra y cuál de las biomoléculas aporta más energía por gramo?",
+    "options": {
+      "a": "232 kcal totales; los carbohidratos aportan más energía por gramo que los lípidos.",
+      "b": "192 kcal totales; las proteínas aportan más energía por gramo que las demás biomoléculas.",
+      "c": "232 kcal totales; los lípidos aportan más energía por gramo que los carbohidratos y las proteínas.",
+      "d": "300 kcal totales; las tres biomoléculas aportan la misma cantidad de energía por gramo."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque el cálculo es: carbohidratos 30 g x 4 kcal/g = 120 kcal, proteínas 10 g x 4 kcal/g = 40 kcal, lípidos 8 g x 9 kcal/g = 72 kcal, total = 120 + 40 + 72 = 232 kcal. Además, los lípidos son la biomolécula que aporta más energía por gramo (9 kcal/g frente a 4 kcal/g de carbohidratos y proteínas). La opción (a) es incorrecta porque, aunque el total de 232 kcal es correcto, afirma erróneamente que los carbohidratos aportan más energía por gramo que los lípidos; en realidad los carbohidratos aportan 4 kcal/g frente a 9 kcal/g de los lípidos. La opción (b) es incorrecta porque el total de 192 kcal es incorrecto (resulta de omitir las calorías de los carbohidratos o calcular erróneamente) y porque las proteínas aportan 4 kcal/g, igual que los carbohidratos, no más que los lípidos. La opción (d) es incorrecta porque 300 kcal no corresponde al cálculo correcto y porque las tres biomoléculas no aportan lo mismo por gramo: los lípidos aportan más del doble que carbohidratos y proteínas.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos y funciones biologicas",
+    "subtema": "Nutricion y biomoleculas",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una persona recibe una vacuna contra la influenza que contiene virus inactivados. Tres semanas después, al exponerse al virus de la influenza, su organismo lo neutraliza rápidamente sin que desarrolle síntomas significativos. ¿Qué componente del sistema inmunológico es el principal responsable de esta respuesta rápida y específica?",
+    "options": {
+      "a": "Las barreras físicas como la piel y las mucosas, que impiden la entrada del virus al organismo.",
+      "b": "Los linfocitos B y T de memoria, generados durante la respuesta primaria a la vacuna, que permiten una respuesta secundaria más rápida e intensa.",
+      "c": "Los neutrófilos, que fagocitan inespecíficamente cualquier patógeno que ingrese al organismo.",
+      "d": "Las células natural killer (NK), que destruyen todas las células infectadas sin necesidad de reconocimiento previo."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la vacunación estimula una respuesta inmune primaria que genera linfocitos B y T de memoria específicos contra los antígenos del virus de la influenza. Al producirse una segunda exposición (infección real), estas células de memoria se activan rápidamente, produciendo una respuesta secundaria más veloz, intensa y específica que neutraliza el virus antes de que cause enfermedad. La opción (a) es incorrecta porque las barreras físicas son mecanismos de defensa inespecíficos y pasivos que actúan antes de cualquier vacunación; no se modifican ni mejoran por efecto de la vacuna. La opción (c) es incorrecta porque los neutrófilos forman parte de la inmunidad innata inespecífica; aunque participan en la primera línea de defensa, no generan memoria inmunológica ni explican la rapidez y especificidad de la respuesta tras la vacunación. La opción (d) es incorrecta porque las células NK pertenecen a la inmunidad innata y eliminan células infectadas de manera inespecífica (sin reconocimiento antigénico previo); no son responsables de la respuesta de memoria específica inducida por la vacuna.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos y funciones biologicas",
+    "subtema": "Sistema inmunologico y enfermedades inmunologicas",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "content": "Lea el siguiente fragmento:\n\n\"Art. 19 N°2.- La Constitución asegura a todas las personas: La igualdad ante la ley. En Chile no hay persona ni grupo privilegiados. [...] Ni la ley ni autoridad alguna podrán establecer diferencias arbitrarias.\"\n(Constitución Política de la República de Chile, 1980)\n\n\"Art. 1°.- Los hombres nacen y permanecen libres e iguales en derechos. Las distinciones sociales solo pueden fundarse en la utilidad común.\"\n(Declaración de los Derechos del Hombre y del Ciudadano, Francia, 1789)\n\nAl comparar ambos documentos, ¿cuál de las siguientes conclusiones es más pertinente respecto de los fundamentos de la democracia?",
+    "options": {
+      "a": "Ambos textos rechazan cualquier tipo de distinción entre las personas, sin excepción",
+      "b": "La Declaración de 1789 establece un marco de derechos más amplio que la Constitución chilena vigente",
+      "c": "La Constitución chilena se basa en principios completamente distintos a los de la tradición liberal europea",
+      "d": "Los dos documentos comparten el principio de igualdad jurídica como fundamento del orden político, aunque fueron redactados en contextos históricos muy diferentes",
+      "e": "Ambos documentos consagran la igualdad económica como base de la democracia"
+    },
+    "correct_answer": "d",
+    "explanation": "Tanto la Constitución de 1980 como la Declaración de 1789 consagran la igualdad ante la ley como principio rector del orden político. La opción a) es incorrecta porque ambos textos admiten distinciones, siempre que no sean arbitrarias (Chile) o se funden en la utilidad común (Francia). La b) no puede inferirse de los fragmentos citados. La c) es falsa porque la tradición constitucional chilena recoge precisamente la herencia liberal europea. La e) confunde igualdad jurídica con igualdad económica, concepto que ninguno de los textos establece.",
+    "area_tematica": "Formacion Ciudadana",
+    "tema": "Sociedad democratica",
+    "subtema": "Fundamentos y atributos de la democracia",
+    "difficulty": 3,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente texto:\n\n\"En las elecciones municipales de 2021 en Chile, la participación electoral alcanzó un 43,4%, cifra que contrasta con el 87% registrado en el plebiscito constitucional de octubre de 2020. Diversos analistas señalan que las campañas desarrolladas en redes sociales —particularmente en Instagram y TikTok— tuvieron un papel significativo en la movilización de votantes jóvenes durante el plebiscito.\"\n(Adaptado de datos del Servel y análisis de prensa, 2021)\n\nA partir de la información presentada, ¿qué relación puede establecerse entre tecnología y participación democrática?",
+    "options": {
+      "a": "Las redes sociales garantizan altos niveles de participación electoral en cualquier tipo de elección",
+      "b": "La tecnología digital puede actuar como catalizador de la participación ciudadana, aunque su efecto varía según el tipo de proceso electoral y el nivel de interés que este genera",
+      "c": "Las plataformas digitales reemplazan eficazmente los mecanismos tradicionales de campaña electoral",
+      "d": "La baja participación en las municipales demuestra que las redes sociales no tienen ningún impacto en la democracia chilena",
+      "e": "Los datos muestran que solo los jóvenes utilizan la tecnología con fines de participación política"
+    },
+    "correct_answer": "b",
+    "explanation": "Los datos muestran que la movilización digital fue relevante en el plebiscito (alta participación), pero que en las municipales —con menor atención mediática y digital— la participación cayó drásticamente. Esto indica que el efecto de las redes sociales sobre la participación no es automático, sino que depende del contexto y el interés ciudadano. La opción a) es incorrecta porque los propios datos la contradicen. La c) no se sustenta en el texto. La d) es una generalización errónea. La e) extrapola indebidamente: el texto menciona jóvenes, pero no excluye a otros grupos.",
+    "area_tematica": "Formacion Ciudadana",
+    "tema": "Sociedad democratica",
+    "subtema": "Impacto de la tecnologia en la democracia",
+    "difficulty": 3,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Observe la siguiente línea temporal:\n\n1810 – Primera Junta Nacional de Gobierno\n1818 – Declaración de Independencia\n1823 – Constitución moralista de Egaña\n1828 – Constitución liberal\n1833 – Constitución conservadora (autoritaria-presidencialista)\n\nLa sucesión de constituciones entre 1823 y 1833 refleja un fenómeno característico de la formación de la República de Chile. ¿Cuál de las siguientes opciones lo describe con mayor precisión?",
+    "options": {
+      "a": "La consolidación inmediata de un proyecto político único tras la independencia",
+      "b": "La disputa entre distintas visiones sobre la organización del nuevo Estado, que se resolvió con la imposición del proyecto conservador autoritario",
+      "c": "La copia directa del modelo constitucional de Estados Unidos en todas las constituciones del período",
+      "d": "La continuidad sin cambios del orden político colonial bajo nuevas formas jurídicas",
+      "e": "La ausencia total de ideas liberales en el debate político de la época"
+    },
+    "correct_answer": "b",
+    "explanation": "La sucesión de tres constituciones en apenas una década (1823, 1828, 1833) evidencia el enfrentamiento entre proyectos políticos rivales —moralista, liberal y conservador— por definir la organización del Estado. Finalmente, tras la batalla de Lircay (1830), el bando conservador liderado por Portales impuso su visión en la Constitución de 1833, de carácter autoritario y presidencialista. La opción a) es incorrecta precisamente porque la inestabilidad muestra lo contrario. La c) es falsa: hubo influencias diversas, no copia directa. La d) es errónea porque la República rompió con el orden colonial. La e) es falsa porque la Constitución de 1828 es de corte liberal.",
+    "area_tematica": "Historia",
+    "tema": "Chile durante el siglo XIX",
+    "subtema": "Formacion y organizacion de la Republica",
+    "difficulty": 2,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente documento:\n\n\"El comercio de trigo y harina desde los puertos de Valparaíso y Talcahuano hacia los mercados de California y Australia experimentó un auge sin precedentes entre 1848 y 1856. La fiebre del oro en ambos destinos generó una demanda explosiva de alimentos que los productores del Valle Central chileno supieron aprovechar. Sin embargo, cuando la producción local de esos mercados se restableció, las exportaciones chilenas cayeron abruptamente.\"\n(Adaptado de Villalobos et al., Historia de Chile)\n\nSegún el texto, ¿qué característica de la inserción económica de Chile en los mercados internacionales durante el siglo XIX se evidencia?",
+    "options": {
+      "a": "Chile logró una diversificación productiva que le permitió mantener sus exportaciones estables a largo plazo",
+      "b": "Los productores chilenos controlaban los precios internacionales de los bienes que exportaban",
+      "c": "La economía chilena dependía de la industrialización interna para competir en los mercados globales",
+      "d": "El comercio exterior chileno estaba dirigido exclusivamente hacia mercados europeos",
+      "e": "La inserción económica chilena se basó en la exportación de materias primas y productos agrícolas, quedando expuesta a la volatilidad de la demanda externa"
+    },
+    "correct_answer": "e",
+    "explanation": "El fragmento muestra cómo Chile aprovechó un boom de demanda externa (fiebre del oro) exportando trigo y harina, pero cuando esa demanda coyuntural desapareció, las exportaciones se desplomaron. Esto evidencia una inserción económica basada en productos primarios y dependiente de factores externos no controlados por Chile. La a) es incorrecta porque el texto describe lo contrario: caída abrupta. La b) es errónea porque la caída demuestra que no controlaban la demanda. La c) es falsa porque Chile no se industrializó en ese período. La d) es falsa porque el texto menciona California y Australia.",
+    "area_tematica": "Historia",
+    "tema": "Chile durante el siglo XIX",
+    "subtema": "Insercion de la economia chilena en mercados internacionales",
+    "difficulty": 2,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea los siguientes fragmentos:\n\nDocumento 1:\n\"El Estado fascista reivindica para sí el dominio económico no menos que el político y el moral; [...] el individuo no existe si no es en el Estado y subordinado al Estado.\"\n(Benito Mussolini, La doctrina del fascismo, 1932)\n\nDocumento 2:\n\"El líder populista se presenta como la encarnación de la voluntad del pueblo, establece una relación directa con las masas prescindiendo de las instituciones intermedias y fomenta una visión dicotómica entre pueblo y oligarquía.\"\n(Adaptado de análisis historiográfico sobre populismos latinoamericanos)\n\n¿Qué elemento comparten el totalitarismo europeo y el populismo latinoamericano de la primera mitad del siglo XX, según estos documentos?",
+    "options": {
+      "a": "Ambos promueven la subordinación total del individuo al Estado y rechazan cualquier forma de participación política",
+      "b": "Tanto el fascismo como el populismo latinoamericano eliminan por completo el sistema económico de mercado",
+      "c": "Ambos surgen exclusivamente como respuesta a la Primera Guerra Mundial",
+      "d": "Los dos movimientos coinciden en concentrar el poder en una figura central que se impone sobre las instituciones y las libertades individuales",
+      "e": "Los dos movimientos rechazan todo tipo de movilización de masas y prefieren gobernar a través de élites reducidas"
+    },
+    "correct_answer": "d",
+    "explanation": "Ambos documentos describen modelos políticos centrados en un liderazgo fuerte: en el fascismo, el Estado totalitario somete al individuo; en el populismo, el líder se arroga la representación directa del pueblo, debilitando las instituciones intermedias. El elemento común es la concentración del poder y la subordinación del marco institucional a una figura o entidad central. La a) es parcialmente correcta para el fascismo, pero el populismo sí promovió participación (movilización de masas). La b) es falsa: ninguno eliminó completamente el mercado. La c) es incorrecta: el populismo latinoamericano tiene causas propias. La e) contradice ambos textos, que describen movilización de masas.",
+    "area_tematica": "Historia",
+    "tema": "Europa, America y Chile en la primera mitad del siglo XX",
+    "subtema": "Totalitarismos europeos y populismo en America Latina",
+    "difficulty": 4,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente texto:\n\n\"En febrero de 1945, Roosevelt, Churchill y Stalin se reunieron en Yalta, en la península de Crimea, para discutir la reorganización de Europa tras la derrota de Alemania. Los acuerdos establecieron zonas de influencia, la celebración de elecciones libres en los países liberados y la creación de una organización internacional para mantener la paz. Sin embargo, las diferencias ideológicas entre las potencias occidentales y la Unión Soviética pronto se transformarían en una confrontación global.\"\n(Adaptado de Hobsbawm, Historia del siglo XX)\n\n¿Cuál de las siguientes afirmaciones se desprende correctamente del texto respecto del orden mundial posterior a la Segunda Guerra Mundial?",
+    "options": {
+      "a": "La Conferencia de Yalta logró establecer un orden mundial basado en la cooperación permanente entre Estados Unidos y la Unión Soviética",
+      "b": "Los acuerdos de Yalta fueron respetados plenamente por todas las partes, garantizando elecciones libres en Europa del Este",
+      "c": "La organización internacional creada a partir de estos acuerdos eliminó los conflictos armados durante la segunda mitad del siglo XX",
+      "d": "La conferencia demostró que las diferencias ideológicas entre capitalismo y comunismo eran irrelevantes en la política internacional",
+      "e": "Las zonas de influencia acordadas sentaron las bases para la división del mundo en bloques antagónicos, dando origen a la Guerra Fría"
+    },
+    "correct_answer": "e",
+    "explanation": "El texto señala que en Yalta se establecieron zonas de influencia y que las diferencias ideológicas entre potencias occidentales y la URSS pronto derivaron en una confrontación global. Esto describe directamente el origen de la bipolaridad de la Guerra Fría. La a) es incorrecta porque el propio texto indica que la cooperación se quebró. La b) es falsa históricamente: la URSS impuso regímenes comunistas en Europa del Este. La c) es errónea porque la ONU no eliminó los conflictos armados. La d) contradice el texto, que subraya el peso de las diferencias ideológicas.",
+    "area_tematica": "Historia",
+    "tema": "Segunda mitad del siglo XX y el nuevo orden internacional",
+    "subtema": "Configuracion del orden mundial posterior a la Segunda Guerra Mundial",
+    "difficulty": 3,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente documento:\n\n\"Chile ha buscado profundizar su inserción en la economía global mediante la firma de tratados de libre comercio con más de 60 economías. Los defensores de esta política argumentan que amplía los mercados para las exportaciones nacionales y reduce los precios de los bienes importados. Sus críticos, en cambio, sostienen que favorece a los grandes exportadores y expone a los pequeños productores a una competencia desigual.\"\n(Adaptado de DIRECON, Informe de Comercio Exterior, 2019)\n\nDesde la perspectiva del funcionamiento del mercado, ¿qué efecto de la apertura comercial puede inferirse del texto?",
+    "options": {
+      "a": "La apertura comercial elimina automáticamente las desigualdades económicas internas de un país",
+      "b": "Los tratados de libre comercio benefician por igual a todos los actores económicos del mercado nacional",
+      "c": "La libre competencia internacional puede ampliar oportunidades de mercado, pero también generar asimetrías entre distintos actores económicos nacionales",
+      "d": "La integración al comercio global no tiene ningún efecto sobre los precios internos de los productos",
+      "e": "Los pequeños productores son siempre los principales beneficiarios de la apertura comercial"
+    },
+    "correct_answer": "c",
+    "explanation": "El texto presenta dos perspectivas: quienes valoran la ampliación de mercados y la baja de precios, y quienes advierten sobre la competencia desigual que enfrentan los pequeños productores. La opción c) recoge esta dualidad: oportunidades y asimetrías. La a) es falsa porque el texto no menciona eliminación de desigualdades. La b) contradice la crítica expuesta. La d) es incorrecta porque el texto menciona explícitamente la reducción de precios de importaciones. La e) invierte la crítica presentada.",
+    "area_tematica": "Sistema Economico",
+    "tema": "Funcionamiento del sistema economico",
+    "subtema": "Factores que afectan el mercado y su funcionamiento",
+    "difficulty": 3,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente fragmento:\n\n\"El proceso de emancipación hispanoamericano estuvo influido por tres grandes referentes intelectuales: la Ilustración francesa, que cuestionó el absolutismo y promovió la razón; la independencia de los Estados Unidos (1776), que demostró la viabilidad de una república en América; y la revolución liberal española de 1812, que introdujo el constitucionalismo en el mundo hispánico.\"\n(Adaptado de Bethell, Historia de América Latina, vol. III)\n\nConsiderando los referentes mencionados, ¿en qué período histórico se ubica el inicio del proceso de independencia de la mayoría de las colonias hispanoamericanas?",
+    "options": {
+      "a": "En la segunda mitad del siglo XVII, como consecuencia directa de la Reforma Protestante",
+      "b": "En las primeras décadas del siglo XIX, en un contexto de crisis de la monarquía española y difusión de ideas liberales",
+      "c": "A mediados del siglo XVIII, como resultado inmediato de las reformas borbónicas",
+      "d": "En la segunda mitad del siglo XIX, simultáneamente con las unificaciones de Italia y Alemania",
+      "e": "A comienzos del siglo XX, como parte de los movimientos antiimperialistas posteriores a la Primera Guerra Mundial"
+    },
+    "correct_answer": "b",
+    "explanation": "El texto sitúa los referentes intelectuales de la emancipación entre fines del siglo XVIII y comienzos del XIX (Ilustración, independencia de EE.UU. de 1776, Constitución de Cádiz de 1812). Las independencias hispanoamericanas se iniciaron efectivamente en las primeras décadas del siglo XIX (1810-1825), en el contexto de la invasión napoleónica a España y la crisis monárquica. La a) es anacrónica. La c) confunde las reformas borbónicas con la independencia. La d) y la e) son cronológicamente incorrectas.",
+    "area_tematica": "Historia",
+    "tema": "Cambios politicos, economicos, sociales y culturales del siglo XIX",
+    "subtema": "Ideas republicanas y liberales en America y Europa",
+    "difficulty": 2,
+    "habilidad": "Localizar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea los siguientes fragmentos:\n\nDocumento 1:\n\"La Junta de Gobierno decreta: Se declara que el actual gobierno de Chile es ilegítimo y contrario al derecho, procediéndose a constituir una Junta de Gobierno que asume el Mando Supremo de la Nación.\"\n(Bando N°5, Junta Militar de Gobierno, 11 de septiembre de 1973)\n\nDocumento 2:\n\"Artículo transitorio 29.- El Presidente de la República, dentro del plazo de 30 días contado desde la entrada en vigencia de esta Constitución, convocará mediante decreto supremo a un plebiscito nacional [...] en el cual se pronunciará por la aprobación o rechazo de la proposición que le formule para que continúe en el cargo de Presidente.\"\n(Constitución Política de 1980, disposiciones transitorias relativas al plebiscito de 1988)\n\n¿Qué proceso histórico vincula ambos documentos?",
+    "options": {
+      "a": "El establecimiento y posterior término del régimen militar en Chile, que se inició con el golpe de Estado de 1973 y derivó en el plebiscito de 1988 como mecanismo de transición",
+      "b": "La continuidad sin cambios del sistema democrático chileno entre 1973 y 1988",
+      "c": "La imposición de un régimen socialista que fue revertido mediante un plebiscito popular",
+      "d": "Un proceso de reformas constitucionales progresivas acordadas entre gobierno y oposición desde 1973",
+      "e": "La aplicación de sanciones internacionales que obligaron al régimen militar a convocar elecciones inmediatas en 1973"
+    },
+    "correct_answer": "a",
+    "explanation": "El Documento 1 corresponde al golpe de Estado del 11 de septiembre de 1973, que derrocó al gobierno de Salvador Allende e instauró una dictadura militar. El Documento 2 contiene la disposición constitucional que estableció el plebiscito de 1988 como mecanismo para definir la continuidad o el fin del régimen. Juntos, enmarcan el arco histórico de la dictadura y el inicio de la transición democrática. La b) es incorrecta porque hubo quiebre democrático. La c) es falsa porque el régimen militar no fue socialista. La d) es errónea porque no hubo reformas consensuadas desde 1973. La e) es anacrónica y factualmente incorrecta.",
+    "area_tematica": "Historia",
+    "tema": "Segunda mitad del siglo XX y el nuevo orden internacional",
+    "subtema": "Dictadura Militar en Chile y retorno a la democracia",
+    "difficulty": 2,
+    "habilidad": "Localizar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente texto:\n\n\"El Congreso Nacional del siglo XIX fue el escenario de intensos debates entre conservadores y liberales respecto del papel de la Iglesia Católica en la vida pública. Los conservadores defendían la unión entre Iglesia y Estado y el catolicismo como religión oficial, mientras que los liberales abogaban por la secularización: cementerios laicos, matrimonio civil y registro civil estatal. Estas reformas, conocidas como 'leyes laicas', fueron aprobadas durante la década de 1880.\"\n(Adaptado de Collier y Sater, Historia de Chile, 1808-2002)\n\nConsiderando la evolución del Estado nación en el Chile decimonónico, ¿cuál de las siguientes afirmaciones evalúa correctamente el impacto de las leyes laicas?",
+    "options": {
+      "a": "Las leyes laicas eliminaron completamente la influencia de la Iglesia Católica en la sociedad chilena",
+      "b": "Estas reformas carecieron de importancia real, pues la mayoría de la población las rechazó y fueron derogadas",
+      "c": "Las leyes laicas fortalecieron la autoridad del Estado sobre funciones civiles antes controladas por la Iglesia, avanzando en la construcción de un Estado moderno y secular",
+      "d": "La aprobación de estas leyes fue resultado de un consenso amplio entre conservadores y liberales",
+      "e": "Las leyes laicas se implementaron durante el período de la Independencia como parte de la ruptura con España"
+    },
+    "correct_answer": "c",
+    "explanation": "Las leyes laicas de la década de 1880 (cementerios laicos, matrimonio civil, registro civil) transfirieron al Estado funciones que antes ejercía la Iglesia Católica, fortaleciendo la institucionalidad estatal y avanzando hacia la secularización. Esto es parte del proceso de consolidación del Estado nación moderno. La a) es una exageración: la Iglesia mantuvo influencia social y cultural. La b) es falsa: las leyes se mantuvieron vigentes. La d) contradice el texto, que describe un conflicto entre conservadores y liberales. La e) es cronológicamente incorrecta: fueron de la década de 1880, no del período de Independencia.",
+    "area_tematica": "Historia",
+    "tema": "Cambios politicos, economicos, sociales y culturales del siglo XIX",
+    "subtema": "Impacto del Estado nacion en America y Europa",
+    "difficulty": 4,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

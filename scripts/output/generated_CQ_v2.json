@@ -1,0 +1,172 @@
+[
+  {
+    "content": "Un átomo neutro de azufre (S, Z = 16) tiene 16 electrones. Su configuración electrónica es 1s2 2s2 2p6 3s2 3p4. ¿En qué período y grupo de la tabla periódica se ubica este elemento, y cuántos electrones de valencia posee?",
+    "options": {
+      "a": "Período 3, grupo VIA (16), con 6 electrones de valencia.",
+      "b": "Período 2, grupo IVA (14), con 4 electrones de valencia.",
+      "c": "Período 3, grupo IVA (14), con 4 electrones de valencia.",
+      "d": "Período 4, grupo VIA (16), con 6 electrones de valencia."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque el último nivel de energía ocupado es el tercero (3s2 3p4), lo que ubica al azufre en el período 3. Los electrones de valencia son los del último nivel: 3s2 + 3p4 = 6 electrones, lo que corresponde al grupo VIA (o grupo 16 en nomenclatura IUPAC). La opción (b) es incorrecta porque el período 2 correspondería a elementos cuyo último nivel es el segundo (como C, N, O); el azufre tiene electrones en el nivel 3, no en el 2, y tiene 6 electrones de valencia, no 4. La opción (c) es incorrecta porque, aunque el período 3 es correcto, el grupo IVA corresponde a elementos con 4 electrones de valencia (como el silicio); el azufre tiene 6 electrones de valencia (3s2 3p4), por lo que pertenece al grupo VIA. La opción (d) es incorrecta porque el período 4 correspondería a elementos cuyo último nivel energético ocupado es el cuarto (como K, Ca, Br); el azufre tiene electrones hasta el nivel 3, por lo que está en el período 3.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Configuracion electronica y tabla periodica",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "A lo largo de la historia, distintos científicos propusieron modelos para explicar la estructura del átomo. Uno de estos modelos postula que los electrones giran alrededor del núcleo en órbitas circulares definidas, cada una con un nivel de energía específico, y que los electrones solo pueden ganar o perder energía al saltar entre estas órbitas. ¿A qué modelo atómico corresponde esta descripción?",
+    "options": {
+      "a": "Modelo de Dalton, que propone átomos como esferas sólidas e indivisibles.",
+      "b": "Modelo de Thomson, que describe al átomo como una esfera de carga positiva con electrones incrustados.",
+      "c": "Modelo de Rutherford, que postula un núcleo positivo central con electrones orbitando libremente a cualquier distancia.",
+      "d": "Modelo de Bohr, que establece órbitas cuantizadas con niveles de energía discretos para los electrones."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque Niels Bohr (1913) propuso que los electrones orbitan el núcleo en trayectorias circulares estables (órbitas estacionarias) con niveles de energía cuantizados (discretos). Los electrones solo absorben o emiten energía al realizar transiciones entre estos niveles, lo que explica los espectros de emisión discontinuos del hidrógeno. La opción (a) es incorrecta porque el modelo de Dalton (1803) concebía al átomo como una esfera indivisible y sin estructura interna, sin considerar electrones ni núcleo. La opción (b) es incorrecta porque el modelo de Thomson (1904), conocido como 'budín de pasas', describía al átomo como una esfera uniforme de carga positiva con electrones distribuidos en su interior, sin órbitas ni niveles de energía discretos. La opción (c) es incorrecta porque el modelo de Rutherford (1911), aunque descubrió el núcleo positivo central, proponía que los electrones orbitaban libremente a cualquier distancia sin restricciones energéticas definidas, lo que no explicaba la estabilidad atómica ni los espectros de emisión; fue Bohr quien solucionó este problema con la cuantización de las órbitas.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Modelos atomicos de Dalton, Thomson, Rutherford y Bohr",
+    "difficulty": 1,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El cloruro de sodio (NaCl) es un sólido cristalino con alto punto de fusión (801 °C) que conduce la electricidad cuando está disuelto en agua o fundido, pero no en estado sólido. ¿Qué tipo de enlace químico mantiene unidos al sodio y al cloro en este compuesto, y cómo se explican estas propiedades?",
+    "options": {
+      "a": "Enlace covalente polar, donde los átomos comparten electrones de forma desigual, formando moléculas polares que se disuelven en agua.",
+      "b": "Enlace metálico, donde los cationes de sodio están inmersos en un mar de electrones deslocalizados del cloro.",
+      "c": "Enlace iónico, donde el sodio transfiere un electrón al cloro formando iones Na+ y Cl- que se atraen electrostáticamente en una red cristalina ordenada.",
+      "d": "Enlace covalente no polar, donde sodio y cloro comparten electrones equitativamente formando moléculas discretas."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque el NaCl se forma mediante enlace iónico: el sodio (metal, baja electronegatividad) transfiere un electrón al cloro (no metal, alta electronegatividad), generando los iones Na+ y Cl- que se atraen por fuerzas electrostáticas en una red cristalina tridimensional. Esto explica el alto punto de fusión (se necesita mucha energía para romper la red), la conducción eléctrica en disolución o fundido (los iones se mueven libremente) y la no conducción en estado sólido (los iones están fijos en la red). La opción (a) es incorrecta porque el enlace covalente polar implica compartición desigual de electrones, no transferencia completa; además, los compuestos covalentes polares generalmente tienen puntos de fusión mucho más bajos que 801 °C y no forman redes cristalinas iónicas. La opción (b) es incorrecta porque el enlace metálico ocurre entre átomos metálicos y se caracteriza por un mar de electrones deslocalizados que confiere conductividad eléctrica en estado sólido; el NaCl no conduce en estado sólido y el cloro no es un metal. La opción (d) es incorrecta porque el enlace covalente no polar ocurre entre átomos con electronegatividad similar (como Cl2 o H2) y forma moléculas discretas con bajos puntos de fusión; la gran diferencia de electronegatividad entre Na y Cl favorece la transferencia electrónica, no la compartición equitativa.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Tipos de enlaces quimicos (ionico, covalente y metalico)",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un compuesto orgánico tiene la fórmula molecular C2H6O. Al analizarlo, se determina que contiene un grupo funcional -OH unido a un carbono. ¿A qué familia de compuestos orgánicos pertenece y cuál es su nombre IUPAC?",
+    "options": {
+      "a": "Es un éter (metoximetano), porque tiene un átomo de oxígeno unido a dos carbonos.",
+      "b": "Es un aldehído (etanal), porque posee un grupo carbonilo terminal.",
+      "c": "Es un alcohol (etanol), porque presenta un grupo hidroxilo (-OH) unido a un carbono saturado.",
+      "d": "Es un ácido carboxílico (ácido etanoico), porque contiene un grupo -COOH."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque la fórmula C2H6O con un grupo -OH unido a un carbono corresponde al etanol (CH3-CH2-OH), un alcohol. El grupo funcional hidroxilo (-OH) es la característica definitoria de los alcoholes, y el nombre IUPAC se forma con la raíz 'etan-' (2 carbonos) más el sufijo '-ol' (alcohol). La opción (a) es incorrecta porque, aunque el metoximetano (CH3-O-CH3) también tiene fórmula C2H6O, este compuesto tiene el oxígeno entre dos carbonos (enlace C-O-C) y no posee un grupo -OH libre; el enunciado especifica que hay un grupo -OH unido a un carbono, lo que descarta al éter. La opción (b) es incorrecta porque el etanal (CH3-CHO) tiene fórmula molecular C2H4O (no C2H6O) y contiene un grupo carbonilo (C=O), no un grupo hidroxilo (-OH); le faltan dos hidrógenos respecto a la fórmula dada. La opción (d) es incorrecta porque el ácido etanoico (CH3-COOH) tiene fórmula C2H4O2 (contiene dos átomos de oxígeno), no C2H6O; además, el grupo carboxilo (-COOH) incluye un doble enlace C=O que reduce el número de hidrógenos.",
+    "area_tematica": "Quimica",
+    "tema": "Quimica organica",
+    "subtema": "Hidrocarburos y grupos funcionales",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El átomo de carbono tiene número atómico 6 y configuración electrónica 1s2 2s2 2p2. En los compuestos orgánicos, el carbono forma 4 enlaces covalentes, lo que le permite unirse a otros átomos de carbono formando cadenas y anillos. ¿Cuál de las siguientes afirmaciones explica correctamente por qué el carbono forma exactamente 4 enlaces?",
+    "options": {
+      "a": "Porque el carbono tiene 4 protones disponibles para compartir con otros átomos.",
+      "b": "Porque el carbono tiene 4 electrones en su último nivel de energía y necesita 4 electrones más para completar el octeto, lo que logra formando 4 enlaces covalentes.",
+      "c": "Porque el carbono tiene alta electronegatividad y atrae 4 electrones de otros átomos mediante enlaces iónicos.",
+      "d": "Porque el carbono tiene 6 electrones totales y necesita perder 4 para alcanzar la configuración del helio."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque el carbono tiene 4 electrones de valencia (2s2 2p2) y, según la regla del octeto, necesita 8 electrones en su capa de valencia para alcanzar estabilidad. Al formar 4 enlaces covalentes, comparte sus 4 electrones con los de otros átomos, completando así los 8 electrones requeridos. Esto explica su tetravalencia característica. La opción (a) es incorrecta porque los protones están en el núcleo y no participan en la formación de enlaces químicos; son los electrones de valencia los que se comparten en los enlaces covalentes. La opción (c) es incorrecta porque, aunque el carbono tiene una electronegatividad moderada (2,55), no es lo suficientemente alta como para arrancar electrones de otros átomos formando iones; el carbono forma predominantemente enlaces covalentes, no iónicos. La opción (d) es incorrecta porque perder 4 electrones requeriría una enorme cantidad de energía (4 ionizaciones sucesivas) y formaría un catión C4+, lo cual es energéticamente desfavorable; el carbono prefiere compartir electrones mediante enlaces covalentes a perderlos.",
+    "area_tematica": "Quimica",
+    "tema": "Quimica organica",
+    "subtema": "Propiedades del carbono y enlaces quimicos",
+    "difficulty": 1,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Al balancear la ecuación química de la combustión del metano (CH4 + O2 -> CO2 + H2O), un estudiante propone los coeficientes: 1 CH4 + 2 O2 -> 1 CO2 + 2 H2O. ¿Es correcto este balance? Justifique verificando la ley de conservación de la masa.",
+    "options": {
+      "a": "Es correcto, porque hay 1 C, 4 H y 4 O en ambos lados de la ecuación.",
+      "b": "Es incorrecto, porque hay 4 átomos de oxígeno en los reactantes pero 6 en los productos.",
+      "c": "Es incorrecto, porque no se conserva el número de moléculas totales a cada lado.",
+      "d": "Es correcto, porque la suma de las masas molares de los reactantes iguala la de los productos."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque al verificar el balance: Reactantes: 1 C (del CH4), 4 H (del CH4), 4 O (del 2 O2). Productos: 1 C (del CO2), 4 H (del 2 H2O), 2 O (del CO2) + 2 O (del 2 H2O) = 4 O. Hay 1 C, 4 H y 4 O en ambos lados, cumpliendo la ley de conservación de la masa. La opción (b) es incorrecta porque el conteo de oxígeno en los productos es erróneo: el CO2 aporta 2 O y las 2 H2O aportan 2 O, dando un total de 4 O en los productos (no 6); el cálculo de 6 probablemente confunde el número de átomos con otra cantidad. La opción (c) es incorrecta porque la ley de conservación de la masa exige que se conserve el número de átomos de cada elemento, no el número de moléculas; en una reacción química es normal que el número total de moléculas cambie (3 moléculas de reactantes y 3 de productos en este caso es coincidencia, no requisito). La opción (d) es incorrecta en su razonamiento porque la verificación del balance se hace contando átomos individuales de cada elemento, no sumando masas molares de moléculas completas; aunque la masa total sí se conserva, el criterio correcto para el balance estequiométrico es la igualdad de átomos de cada elemento.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas y estequiometria",
+    "subtema": "Balance de ecuaciones quimicas",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En la reacción 2 H2 + O2 -> 2 H2O, se mezclan 3 mol de H2 con 1 mol de O2. Según la estequiometría, ¿cuántos moles de agua se producen y cuál es el reactivo limitante?",
+    "options": {
+      "a": "Se producen 3 mol de H2O y el reactivo limitante es el H2.",
+      "b": "Se producen 2 mol de H2O y el reactivo limitante es el O2.",
+      "c": "Se producen 2 mol de H2O y el reactivo limitante es el H2.",
+      "d": "Se producen 4 mol de H2O y no hay reactivo limitante porque ambos se consumen completamente."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque según la estequiometría, 2 mol de H2 reaccionan con 1 mol de O2 para formar 2 mol de H2O. Con 1 mol de O2 disponible, se necesitan exactamente 2 mol de H2 (de los 3 disponibles). Por lo tanto, el O2 se consume completamente (es el reactivo limitante), sobra 1 mol de H2 sin reaccionar, y se producen 2 mol de H2O. La opción (a) es incorrecta porque el H2 no es el reactivo limitante ya que está en exceso (3 mol disponibles, solo se necesitan 2 mol); además, con 1 mol de O2 solo se pueden producir 2 mol de H2O, no 3. La opción (c) es incorrecta porque, aunque los 2 mol de H2O son correctos, el reactivo limitante es el O2 (que se agota primero), no el H2 (que queda en exceso con 1 mol sobrante). La opción (d) es incorrecta porque para consumir completamente 3 mol de H2 se necesitarían 1,5 mol de O2, pero solo hay 1 mol disponible; al no consumirse ambos completamente, sí existe un reactivo limitante (O2), y los moles de producto dependen de este.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas y estequiometria",
+    "subtema": "Relaciones estequiometricas y reactivo limitante",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se prepara una solución disolviendo 20 g de NaCl (masa molar = 58,5 g/mol) en agua hasta completar 500 mL de solución. ¿Cuál es la concentración molar (molaridad) aproximada de esta solución?",
+    "options": {
+      "a": "0,04 M, porque se divide la masa del soluto entre el volumen en litros.",
+      "b": "0,68 M, porque se calcula dividiendo los moles de soluto (20/58,5 = 0,342 mol) entre el volumen en litros (0,5 L).",
+      "c": "40 M, porque se multiplica la masa del soluto por el volumen en mililitros.",
+      "d": "0,34 M, porque la molaridad es igual a los moles de soluto divididos entre el volumen en mililitros."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la molaridad (M) se calcula como: M = moles de soluto / volumen de solución en litros. Primero se calculan los moles: n = masa / masa molar = 20 g / 58,5 g/mol = 0,342 mol. Luego, M = 0,342 mol / 0,5 L = 0,684 M, aproximadamente 0,68 M. La opción (a) es incorrecta porque 0,04 resulta de dividir la masa directamente entre el volumen (20/500 = 0,04), sin convertir gramos a moles; la molaridad requiere expresar el soluto en moles, no en gramos. La opción (c) es incorrecta porque 40 resulta de multiplicar 20 g x 500 mL / 250, operación sin sentido químico; la molaridad nunca se calcula multiplicando masa por volumen, y un valor de 40 M es físicamente imposible para una solución acuosa de NaCl. La opción (d) es incorrecta porque, aunque los 0,342 mol son correctos, se dividen entre 500 (mL) en lugar de 0,5 (L), dando 0,000684 que se redondea erróneamente a 0,34; la molaridad exige expresar el volumen en litros, no en mililitros.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas y estequiometria",
+    "subtema": "Solubilidad y unidades de concentracion",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Al comparar las propiedades de un trozo de cobre metálico (Cu) con las de un cristal de cloruro de sodio (NaCl), se observa que el cobre es buen conductor de electricidad en estado sólido, es maleable y tiene brillo metálico, mientras que el NaCl es frágil, no conduce electricidad en estado sólido y es soluble en agua. ¿Qué tipo de enlace predomina en cada sustancia y cómo explica las diferencias observadas?",
+    "options": {
+      "a": "Ambas sustancias tienen enlace iónico, pero el Cu tiene iones más móviles que el NaCl.",
+      "b": "El Cu presenta enlace covalente y el NaCl enlace metálico, lo que explica la conductividad del NaCl en solución.",
+      "c": "El Cu presenta enlace metálico (cationes Cu+ en un mar de electrones deslocalizados) y el NaCl presenta enlace iónico (red cristalina de Na+ y Cl-), lo que explica que solo el Cu conduzca en estado sólido.",
+      "d": "El Cu presenta enlace iónico débil y el NaCl enlace covalente fuerte, lo que explica la fragilidad del NaCl."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque en el cobre metálico, los cationes Cu están rodeados por un mar de electrones deslocalizados (enlace metálico) que pueden moverse libremente, otorgando conductividad eléctrica, maleabilidad y brillo. En el NaCl, los iones Na+ y Cl- están fijos en una red cristalina (enlace iónico); en estado sólido no pueden moverse, impidiendo la conducción eléctrica. La fragilidad del NaCl se debe a que al desplazar planos iónicos, cargas iguales quedan enfrentadas y se repelen, fracturando el cristal. La opción (a) es incorrecta porque el cobre no tiene enlace iónico; es un metal puro con enlace metálico, y su conductividad se debe a electrones deslocalizados, no a iones móviles en estado sólido. La opción (b) es incorrecta porque invierte los tipos de enlace: el Cu tiene enlace metálico (no covalente) y el NaCl tiene enlace iónico (no metálico); esta inversión no explica ninguna de las propiedades observadas. La opción (d) es incorrecta porque el cobre no presenta enlace iónico (es un elemento metálico puro con enlace metálico) y el NaCl no tiene enlace covalente (la gran diferencia de electronegatividad entre Na y Cl favorece la transferencia completa de electrones, formando un enlace iónico).",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Tipos de enlaces quimicos (ionico, covalente y metalico)",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "La configuración electrónica del ion Ca2+ (calcio con dos electrones menos que el átomo neutro, Z = 20) es idéntica a la de un gas noble. ¿A cuál gas noble es isoelectrónico el Ca2+ y cuántos electrones posee este ion?",
+    "options": {
+      "a": "Es isoelectrónico con el neón (Ne, Z = 10) y posee 10 electrones.",
+      "b": "Es isoelectrónico con el argón (Ar, Z = 18) y posee 18 electrones.",
+      "c": "Es isoelectrónico con el kriptón (Kr, Z = 36) y posee 36 electrones.",
+      "d": "Es isoelectrónico con el helio (He, Z = 2) y posee 2 electrones."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque el calcio neutro (Z = 20) tiene 20 electrones con configuración 1s2 2s2 2p6 3s2 3p6 4s2. Al perder 2 electrones para formar Ca2+, queda con 18 electrones y configuración 1s2 2s2 2p6 3s2 3p6, que es idéntica a la del argón (Ar, Z = 18). Por lo tanto, Ca2+ es isoelectrónico con el Ar. La opción (a) es incorrecta porque el neón tiene 10 electrones, y el Ca2+ tiene 20 - 2 = 18 electrones; para ser isoelectrónico con el neón, el calcio debería perder 10 electrones (Ca10+), lo cual es energéticamente inviable. La opción (c) es incorrecta porque el kriptón tiene 36 electrones, muy por encima de los 18 electrones del Ca2+; el calcio no puede ganar electrones para alcanzar 36 ni tiene sentido en el contexto de un catión. La opción (d) es incorrecta porque el helio tiene solo 2 electrones; el Ca2+ tendría que perder 18 electrones para ser isoelectrónico con el helio, lo cual es prácticamente imposible debido a la energía de ionización requerida.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Configuracion electronica y tabla periodica",
+    "difficulty": 4,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

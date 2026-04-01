@@ -1,0 +1,172 @@
+[
+  {
+    "content": "Un termometro digital tiene un error de medicion de 3/8 de grado. Si la temperatura real de un paciente es 37,5 grados Celsius y el termometro puede marcar por exceso o por defecto, cual es la diferencia entre la lectura maxima y la lectura minima que podria registrar el termometro?",
+    "options": {
+      "a": "3/8 de grado",
+      "b": "3/4 de grado",
+      "c": "3/16 de grado",
+      "d": "1/8 de grado"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: La lectura maxima es 37,5 + 3/8 = 37 + 4/8 + 3/8 = 37 + 7/8. Paso 2: La lectura minima es 37,5 - 3/8 = 37 + 4/8 - 3/8 = 37 + 1/8. Paso 3: La diferencia es (37 + 7/8) - (37 + 1/8) = 6/8 = 3/4 de grado. Tambien se puede calcular directamente: el rango total es 2 * (3/8) = 6/8 = 3/4. A) 3/8 es incorrecto porque solo considera el error en una direccion, no la diferencia total entre maxima y minima. B) 3/4 es correcto porque la diferencia entre la lectura maxima y minima es el doble del error: 2 * 3/8 = 3/4. C) 3/16 es incorrecto, resultado de dividir 3/8 entre 2 en vez de multiplicar. D) 1/8 es incorrecto, resultado de restar 3/8 - 2/8 por error de operacion.",
+    "area_tematica": "Numeros",
+    "tema": "Conjunto de los numeros enteros y racionales",
+    "subtema": "Operaciones y orden en el conjunto de los numeros enteros y racionales",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.97, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una tienda ofrece un descuento del 20% en todos sus productos durante una liquidacion. Ademas, los clientes con tarjeta de fidelidad obtienen un 10% de descuento adicional sobre el precio ya rebajado. Si un articulo tiene un precio original de $45.000, cual es el precio final para un cliente con tarjeta de fidelidad?",
+    "options": {
+      "a": "$31.500",
+      "b": "$32.400",
+      "c": "$30.000",
+      "d": "$33.750"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Aplicar el descuento del 20% sobre $45.000. Precio con primer descuento = 45.000 * (1 - 0,20) = 45.000 * 0,80 = $36.000. Paso 2: Aplicar el 10% adicional sobre el precio ya rebajado. Precio final = 36.000 * (1 - 0,10) = 36.000 * 0,90 = $32.400. A) $31.500 es incorrecto: corresponde a aplicar un 30% directo (45.000 * 0,70 = 31.500), error comun de sumar los porcentajes. B) $32.400 es correcto: se aplican los descuentos sucesivamente, 45.000 * 0,80 * 0,90 = 32.400. C) $30.000 es incorrecto: resultado de aplicar solo un tercio de descuento aproximado (45.000 * 2/3). D) $33.750 es incorrecto: corresponde a aplicar solo el primer descuento del 25% (45.000 * 0,75), confundiendo los porcentajes.",
+    "area_tematica": "Numeros",
+    "tema": "Porcentaje",
+    "subtema": "Aplicaciones del porcentaje en descuentos e intereses",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.98, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Simplifica la expresion: (2^3 * 2^(-1))^2 / 2^2",
+    "options": {
+      "a": "4",
+      "b": "2",
+      "c": "8",
+      "d": "1"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Simplificar el interior del parentesis usando propiedades de potencias. 2^3 * 2^(-1) = 2^(3+(-1)) = 2^2. Paso 2: Elevar al cuadrado. (2^2)^2 = 2^(2*2) = 2^4 = 16. Paso 3: Dividir por 2^2. 2^4 / 2^2 = 2^(4-2) = 2^2 = 4. A) 4 es correcto: 2^3 * 2^(-1) = 2^2, luego (2^2)^2 = 2^4, y 2^4 / 2^2 = 2^2 = 4. B) 2 es incorrecto: error comun de calcular el exponente final como 1 en vez de 2, posiblemente dividiendo 2^4 / 2^3. C) 8 es incorrecto: resultado de olvidar la division por 2^2 y calcular (2^2)^2 / 2 = 16/2 = 8. D) 1 es incorrecto: resultado de cancelar incorrectamente todos los exponentes, calculando 2^0 = 1.",
+    "area_tematica": "Numeros",
+    "tema": "Potencias y raices enesimas",
+    "subtema": "Propiedades de las potencias de base racional y exponente racional",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un fontanero cobra $15.000 por la visita a domicilio mas $8.000 por cada hora de trabajo. Si un cliente tiene un presupuesto maximo de $55.000, cual es el numero maximo de horas completas que el fontanero puede trabajar?",
+    "options": {
+      "a": "4 horas",
+      "b": "6 horas",
+      "c": "5 horas",
+      "d": "3 horas"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Plantear la ecuacion. El costo total es 15.000 + 8.000h, donde h es el numero de horas. Paso 2: Resolver la inecuacion 15.000 + 8.000h <= 55.000. Paso 3: 8.000h <= 55.000 - 15.000 = 40.000. Paso 4: h <= 40.000 / 8.000 = 5. Como h debe ser un numero entero de horas completas, h = 5. Verificacion: 15.000 + 8.000 * 5 = 15.000 + 40.000 = 55.000, que esta dentro del presupuesto. A) 4 horas es incorrecto: el fontanero puede trabajar mas horas dentro del presupuesto (15.000 + 32.000 = 47.000 < 55.000). B) 6 horas es incorrecto: 15.000 + 48.000 = 63.000, excede el presupuesto de 55.000. C) 5 horas es correcto: 15.000 + 40.000 = 55.000, exactamente el presupuesto maximo. D) 3 horas es incorrecto: subestima las horas posibles (15.000 + 24.000 = 39.000 < 55.000).",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Ecuaciones e inecuaciones de primer grado",
+    "subtema": "Resolucion de ecuaciones lineales e inecuaciones",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Si (x + 3)(x - 2) = x^2 + ax + b, cuales son los valores de a y b?",
+    "options": {
+      "a": "a = 1, b = -6",
+      "b": "a = -1, b = -6",
+      "c": "a = 1, b = 6",
+      "d": "a = 5, b = -6"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Expandir (x + 3)(x - 2) usando la propiedad distributiva. Paso 2: x * x = x^2, x * (-2) = -2x, 3 * x = 3x, 3 * (-2) = -6. Paso 3: x^2 - 2x + 3x - 6 = x^2 + x - 6. Paso 4: Comparando con x^2 + ax + b, se obtiene a = 1 y b = -6. A) a = 1, b = -6 es correcto: la expansion da x^2 + x - 6. B) a = -1, b = -6 es incorrecto: error de signo al sumar -2x + 3x, obteniendo -x en vez de +x. C) a = 1, b = 6 es incorrecto: error de signo en el producto 3 * (-2), obteniendo +6 en vez de -6. D) a = 5, b = -6 es incorrecto: error de sumar los coeficientes como 3 + 2 = 5 en vez de restar -2 + 3 = 1.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Expresiones algebraicas",
+    "subtema": "Productos notables, factorizaciones y operatoria",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un mapa esta dibujado a escala 1:50.000. Si la distancia entre dos ciudades en el mapa es de 7,4 cm, cual es la distancia real entre ambas ciudades?",
+    "options": {
+      "a": "3,7 km",
+      "b": "37 km",
+      "c": "0,37 km",
+      "d": "3.700 km"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: La escala 1:50.000 significa que 1 cm en el mapa equivale a 50.000 cm en la realidad. Paso 2: Distancia real = 7,4 cm * 50.000 = 370.000 cm. Paso 3: Convertir a kilometros: 370.000 cm / 100.000 = 3,7 km (ya que 1 km = 100.000 cm). A) 3,7 km es correcto: 7,4 * 50.000 = 370.000 cm = 3,7 km. B) 37 km es incorrecto: error de conversion, dividiendo entre 10.000 en vez de 100.000 cm por km. C) 0,37 km es incorrecto: error de dividir por 1.000.000 en vez de 100.000. D) 3.700 km es incorrecto: no se realizo la conversion de cm a km, dejando el resultado en metros sin dividir adecuadamente.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Proporcionalidad",
+    "subtema": "Aplicaciones en escalas y mapas",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un cilindro recto tiene un radio de 5 cm y una altura de 12 cm. Cual es el volumen del cilindro? (Usa pi = 3,14)",
+    "options": {
+      "a": "942 cm^3",
+      "b": "376,8 cm^3",
+      "c": "1.884 cm^3",
+      "d": "188,4 cm^3"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: La formula del volumen de un cilindro es V = pi * r^2 * h. Paso 2: V = 3,14 * 5^2 * 12. Paso 3: V = 3,14 * 25 * 12. Paso 4: V = 3,14 * 300 = 942 cm^3. A) 942 cm^3 es correcto: 3,14 * 25 * 12 = 942. B) 376,8 cm^3 es incorrecto: resultado de usar pi * r^2 * h con r = 5 pero confundiendo y calculando pi * 10 * 12 = 376,8, es decir, usando el diametro como 2r pero sin elevarlo al cuadrado. C) 1.884 cm^3 es incorrecto: resultado de calcular pi * r^2 * h * 2, duplicando el volumen por error. D) 188,4 cm^3 es incorrecto: resultado de usar pi * r * h = 3,14 * 5 * 12 = 188,4, olvidando elevar el radio al cuadrado.",
+    "area_tematica": "Geometria",
+    "tema": "Cuerpos geometricos",
+    "subtema": "area y volumen de prismas rectos y cilindros",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un terreno tiene forma de trapecio rectangular. Sus bases miden 20 m y 14 m, y la altura del trapecio es 9 m. Cual es el area del terreno?",
+    "options": {
+      "a": "180 m^2",
+      "b": "153 m^2",
+      "c": "126 m^2",
+      "d": "306 m^2"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: La formula del area de un trapecio es A = (base mayor + base menor) * altura / 2. Paso 2: A = (20 + 14) * 9 / 2. Paso 3: A = 34 * 9 / 2. Paso 4: A = 306 / 2 = 153 m^2. A) 180 m^2 es incorrecto: resultado de calcular solo 20 * 9 = 180, usando unicamente la base mayor sin promediar. B) 153 m^2 es correcto: (20 + 14) * 9 / 2 = 34 * 9 / 2 = 153. C) 126 m^2 es incorrecto: resultado de calcular solo 14 * 9 = 126, usando unicamente la base menor sin promediar. D) 306 m^2 es incorrecto: resultado de olvidar dividir entre 2, calculando (20 + 14) * 9 = 306.",
+    "area_tematica": "Geometria",
+    "tema": "Figuras geometricas",
+    "subtema": "Calculo de areas y perimetros en figuras complejas",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un curso de 30 estudiantes se registraron las siguientes notas en una prueba de matematicas: 10 estudiantes obtuvieron nota 5, 8 estudiantes obtuvieron nota 6, 7 estudiantes obtuvieron nota 4, 3 estudiantes obtuvieron nota 7 y 2 estudiantes obtuvieron nota 3. Cual es la mediana de las notas?",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "4,5"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Ordenar las notas de menor a mayor y encontrar las posiciones centrales. Como hay 30 datos (par), la mediana es el promedio de los datos en las posiciones 15 y 16. Paso 2: Organizar por frecuencia acumulada. Nota 3: 2 estudiantes (acumulado: 2). Nota 4: 7 estudiantes (acumulado: 9). Nota 5: 10 estudiantes (acumulado: 19). Nota 6: 8 estudiantes (acumulado: 27). Nota 7: 3 estudiantes (acumulado: 30). Paso 3: Las posiciones 15 y 16 caen ambas en el grupo de nota 5 (que abarca las posiciones 10 a 19). Paso 4: Mediana = (5 + 5) / 2 = 5. A) 4 es incorrecto: la posicion acumulada para nota 4 llega hasta el dato 9, que no alcanza las posiciones 15-16. B) 5 es correcto: ambas posiciones centrales (15 y 16) corresponden a nota 5. C) 6 es incorrecto: la nota 6 comienza en la posicion 20, posterior a las posiciones centrales. D) 4,5 es incorrecto: seria el resultado si las posiciones 15 y 16 tuvieran notas 4 y 5 respectivamente, lo cual no ocurre.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Medidas de tendencia central",
+    "subtema": "Media, mediana y moda",
+    "difficulty": 3,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En una bolsa hay 4 bolitas rojas, 3 bolitas azules y 5 bolitas verdes. Si se extraen 2 bolitas al azar sin reposicion, cual es la probabilidad de que ambas sean verdes?",
+    "options": {
+      "a": "25/144",
+      "b": "5/33",
+      "c": "5/66",
+      "d": "1/12"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Total de bolitas = 4 + 3 + 5 = 12. Paso 2: Probabilidad de que la primera bolita sea verde = 5/12. Paso 3: Sin reposicion, quedan 11 bolitas y 4 verdes. Probabilidad de que la segunda sea verde = 4/11. Paso 4: P(ambas verdes) = (5/12) * (4/11) = 20/132 = 5/33. A) 25/144 es incorrecto: resultado de calcular (5/12) * (5/12) = 25/144, error de considerar reposicion en vez de sin reposicion. B) 5/33 es correcto: (5/12) * (4/11) = 20/132 = 5/33. C) 5/66 es incorrecto: resultado de calcular (5/12) * (2/11) = 10/132 = 5/66, confundiendo la cantidad de bolitas verdes restantes. D) 1/12 es incorrecto: resultado de calcular incorrectamente 5/12 * 1/5 = 1/12, dividiendo por el numero inicial de verdes.",
+    "area_tematica": "Estadistica",
+    "tema": "Probabilidades",
+    "subtema": "Probabilidad simple",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.98, "issues": "Ninguno", "active": true}
+  }
+]

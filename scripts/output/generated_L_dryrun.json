@@ -1,0 +1,250 @@
+[
+  {
+    "reading_text": {
+      "title": "El guardián de las mareas",
+      "source": "Texto original creado para evaluación PAES Lenguaje (narrativo-literario)",
+      "content": "Ernesto llevaba cuarenta años midiendo el nivel del mar en la caleta de Pichilemu. Cada mañana, antes de que el sol asomara por el horizonte, descendía por el sendero de piedra hasta la pequeña estación meteorológica que el Estado había instalado en 1978, cuando él era apenas un joven técnico recién egresado del liceo industrial de Rancagua.\n\nLa rutina era siempre la misma: revisar el mareógrafo, anotar las cifras en su cuaderno de tapas azules, comparar los datos con los del día anterior y transmitir el informe por radio a la oficina regional de la Armada. Durante décadas, esos números habían sido predecibles, oscilando dentro de rangos que Ernesto conocía de memoria, como quien reconoce los latidos de su propio corazón.\n\nSin embargo, en los últimos cinco años algo había cambiado. Las mareas ya no obedecían los patrones que él había memorizado. El nivel promedio subía milímetro a milímetro, mes a mes, con una constancia inquietante. Los temporales invernales, que antes azotaban la costa entre junio y agosto, ahora se extendían hasta octubre y dejaban destrozos que los pescadores más viejos jamás habían presenciado.\n\nUna mañana de septiembre, Ernesto encontró que la marca de agua había superado el umbral que, según los manuales técnicos de los años ochenta, correspondía a una situación de alerta. Sintió un escalofrío que no provenía del viento austral. Tomó el radiotransmisor y, con la voz templada por la costumbre pero con las manos temblorosas, dictó los números. Del otro lado, un funcionario joven le respondió con tono rutinario que el dato sería «procesado en el sistema».\n\nErnesto colgó el micrófono y miró el océano. Las gaviotas volaban más bajo que de costumbre, casi rozando la superficie gris del agua. Recordó las palabras de su abuelo, un pescador artesanal de Cáhuil: «Cuando el mar sube callado, es porque está tomando impulso». En aquel entonces, esas frases le parecían supersticiones de anciano. Ahora, con cuatro décadas de datos anotados en libretas que llenaban un estante completo, comprendía que la sabiduría popular y la evidencia científica podían señalar la misma verdad con lenguajes distintos.\n\nAl regresar a su casa, Ernesto se sentó frente a la mesa de la cocina y redactó una carta dirigida al alcalde, al director regional del Servicio Hidrográfico y al periódico local. En ella explicaba, con cifras concretas y comparaciones históricas, que la línea costera de Pichilemu estaba retrocediendo y que era urgente tomar medidas de protección antes de que la próxima temporada de marejadas causara daños irreversibles. Firmó la carta con su nombre completo, su número de funcionario y una frase final: «Llevo cuarenta años escuchando al mar. Hoy les pido que ustedes también lo escuchen»."
+    },
+    "questions": [
+      {
+        "content": "¿En qué año fue instalada la estación meteorológica donde trabaja Ernesto?",
+        "options": {
+          "a": "1968",
+          "b": "1978",
+          "c": "1988",
+          "d": "1982",
+          "e": "1975"
+        },
+        "correct_answer": "b",
+        "explanation": "El texto señala explícitamente en el primer párrafo que 'el Estado había instalado en 1978'. La información se encuentra de manera literal, sin necesidad de inferencias. Las demás opciones son fechas cercanas que no corresponden a lo indicado en el texto.",
+        "area_tematica": "Localizar",
+        "tema": "Extraer informacion explicita de textos",
+        "subtema": "en texto literario - narraciones",
+        "difficulty": 1,
+        "habilidad": "Localizar",
+        "question_number": 1,
+        "_meta": {
+          "confidence": 0.99,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "En el texto, cuando se dice que Ernesto conocía los rangos del nivel del mar «como quien reconoce los latidos de su propio corazón», se expresa que:",
+        "options": {
+          "a": "Ernesto padecía una enfermedad cardíaca que lo hacía consciente de su pulso.",
+          "b": "Los datos del mar tenían un ritmo musical que Ernesto disfrutaba.",
+          "c": "Ernesto estaba tan familiarizado con las cifras que las percibía de forma natural e instintiva.",
+          "d": "El mareógrafo funcionaba con un mecanismo similar al de un electrocardiograma.",
+          "e": "El protagonista sentía miedo cada vez que leía los datos del instrumento."
+        },
+        "correct_answer": "c",
+        "explanation": "La comparación (símil) entre conocer los rangos del mar y reconocer los propios latidos expresa un grado de familiaridad tan profundo que se vuelve casi involuntario e instintivo. Opción (a) introduce un dato médico inexistente en el texto. Opción (b) atribuye un carácter musical que no corresponde al contexto técnico. Opción (d) hace una comparación literal entre instrumentos que no es lo que el texto comunica. Opción (e) introduce una emoción de miedo que no se asocia a este pasaje sino a uno posterior.",
+        "area_tematica": "Localizar",
+        "tema": "Reconocer sinonimos y parafrasis en textos",
+        "subtema": "en texto literario - narraciones",
+        "difficulty": 2,
+        "habilidad": "Localizar",
+        "question_number": 2,
+        "_meta": {
+          "confidence": 0.95,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál es la idea central del texto?",
+        "options": {
+          "a": "La descripción técnica del funcionamiento de un mareógrafo y sus usos científicos.",
+          "b": "El conflicto generacional entre la sabiduría de los pescadores y la ciencia moderna.",
+          "c": "La vida cotidiana de un técnico meteorológico en una caleta costera de Chile.",
+          "d": "Un funcionario público que, tras décadas de observación, advierte sobre el avance del mar y la necesidad urgente de actuar.",
+          "e": "La denuncia política contra las autoridades que no invierten en infraestructura costera."
+        },
+        "correct_answer": "d",
+        "explanation": "El texto narra la trayectoria de Ernesto como observador del mar y culmina con su decisión de alertar a las autoridades ante la evidencia acumulada de que el nivel del mar está subiendo peligrosamente. Opción (a) reduce el texto a un aspecto técnico secundario. Opción (b) menciona un elemento presente pero no central; la relación entre sabiduría popular y ciencia es complementaria, no conflictiva. Opción (c) describe el escenario pero no capta el conflicto ni el desenlace. Opción (e) exagera el tono del texto, que es más de advertencia que de denuncia política.",
+        "area_tematica": "Interpretar",
+        "tema": "Sintetizar las ideas centrales del texto",
+        "subtema": "en texto literario - narraciones",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 3,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "Según el texto, ¿qué consecuencia tuvo el cambio en los patrones de marea durante los últimos cinco años?",
+        "options": {
+          "a": "Ernesto fue despedido de su cargo por entregar informes alarmistas.",
+          "b": "La Armada decidió cerrar la estación meteorológica por considerarla obsoleta.",
+          "c": "Los pescadores abandonaron definitivamente la caleta de Pichilemu.",
+          "d": "El gobierno construyó un nuevo muro de contención para proteger la costa.",
+          "e": "Los temporales invernales se prolongaron más allá de su periodo habitual y provocaron daños sin precedentes."
+        },
+        "correct_answer": "e",
+        "explanation": "El texto indica que 'los temporales invernales, que antes azotaban la costa entre junio y agosto, ahora se extendían hasta octubre y dejaban destrozos que los pescadores más viejos jamás habían presenciado'. Esta es una relación causa (cambio en patrones de marea) y efecto (temporales prolongados con daños inéditos). Las opciones (a), (b), (c) y (d) presentan hechos que no se mencionan ni se infieren del texto.",
+        "area_tematica": "Interpretar",
+        "tema": "Establecer relaciones causa-efecto y problema-solucion",
+        "subtema": "en texto literario - narraciones",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 4,
+        "_meta": {
+          "confidence": 0.97,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál es la intención comunicativa predominante del autor al incluir la frase del abuelo de Ernesto: «Cuando el mar sube callado, es porque está tomando impulso»?",
+        "options": {
+          "a": "Evidenciar que el conocimiento empírico tradicional puede coincidir con la observación científica, reforzando la advertencia del protagonista.",
+          "b": "Demostrar que las creencias populares carecen de fundamento científico.",
+          "c": "Añadir un elemento humorístico que alivie la tensión narrativa.",
+          "d": "Criticar la educación formal que recibió Ernesto en el liceo industrial.",
+          "e": "Introducir un personaje secundario que protagonizará el desenlace del relato."
+        },
+        "correct_answer": "a",
+        "explanation": "El autor utiliza la frase del abuelo para mostrar que la sabiduría popular anticipaba lo que ahora los datos confirman: el mar está avanzando peligrosamente. Esto refuerza la credibilidad de la advertencia de Ernesto, quien une ambas perspectivas. Opción (b) contradice el sentido del texto, que valora la sabiduría popular. Opción (c) no corresponde al tono grave del pasaje. Opción (d) no tiene relación con el contenido del fragmento. Opción (e) es incorrecta porque el abuelo no reaparece como personaje activo.",
+        "area_tematica": "Evaluar",
+        "tema": "Determinar la intencion del emisor",
+        "subtema": "en texto literario - narraciones",
+        "difficulty": 4,
+        "habilidad": "Evaluar",
+        "question_number": 5,
+        "_meta": {
+          "confidence": 0.94,
+          "issues": "Ninguno",
+          "active": true
+        }
+      }
+    ]
+  },
+  {
+    "reading_text": {
+      "title": "Alfabetización digital y pensamiento crítico: un desafío para la educación del siglo XXI",
+      "source": "Texto original creado para evaluación PAES Lenguaje (expositivo-argumentativo)",
+      "content": "En las últimas dos décadas, el acceso masivo a internet y a dispositivos móviles ha transformado radicalmente la manera en que las personas obtienen, procesan y comparten información. Según datos del Ministerio de Transportes y Telecomunicaciones de Chile, en 2023 el 92 % de los hogares del país contaba con algún tipo de conexión a internet, cifra que en el año 2005 apenas alcanzaba el 20 %. Este crecimiento exponencial de la conectividad, sin embargo, no ha ido acompañado de un desarrollo equivalente en las competencias que los ciudadanos necesitan para evaluar críticamente la información que consumen.\n\nEl problema se manifiesta con especial claridad en el fenómeno de la desinformación. Estudios realizados por universidades chilenas y latinoamericanas han demostrado que un porcentaje significativo de usuarios de redes sociales comparte noticias sin verificar su origen ni contrastar los datos presentados. Una investigación de la Pontificia Universidad Católica de Chile reveló que el 63 % de los estudiantes universitarios encuestados reconocía haber compartido al menos una noticia falsa durante el último año, y que la principal razón para hacerlo era la coincidencia del contenido con sus creencias previas. Este dato es particularmente preocupante porque sugiere que la desinformación no es solo un problema tecnológico, sino también cognitivo: las personas tienden a aceptar como verdadero aquello que confirma lo que ya piensan, un fenómeno conocido en psicología como sesgo de confirmación.\n\nFrente a este escenario, diversos especialistas en educación han propuesto que la alfabetización digital debería incorporarse de manera transversal en el currículo escolar, desde la enseñanza básica hasta la educación media. No se trata únicamente de enseñar a los estudiantes a usar herramientas tecnológicas, sino de desarrollar en ellos la capacidad de identificar fuentes confiables, distinguir hechos de opiniones, reconocer estrategias persuasivas y comprender cómo los algoritmos de las plataformas digitales seleccionan y priorizan la información que cada usuario recibe.\n\nNo obstante, esta propuesta enfrenta obstáculos considerables. En primer lugar, la formación docente en competencias digitales es aún insuficiente: muchos profesores no han recibido capacitación formal en estas materias y, por lo tanto, carecen de herramientas pedagógicas para abordarlas en el aula. En segundo lugar, existe una resistencia institucional a modificar los planes de estudio, que ya están sobrecargados de contenidos. Finalmente, algunos críticos argumentan que la responsabilidad de combatir la desinformación no debería recaer principalmente en las escuelas, sino en las propias plataformas tecnológicas, que obtienen beneficios económicos de la viralización de contenidos, independientemente de su veracidad.\n\nA pesar de estas dificultades, la evidencia internacional indica que los países que han implementado programas de alfabetización mediática en sus sistemas educativos —como Finlandia, Canadá y Estonia— presentan menores índices de vulnerabilidad frente a campañas de desinformación. La experiencia finlandesa, en particular, ha demostrado que cuando los estudiantes aprenden desde temprana edad a cuestionar las fuentes y a contrastar la información, desarrollan hábitos de pensamiento crítico que se mantienen en la vida adulta."
+    },
+    "questions": [
+      {
+        "content": "Según el texto, ¿qué porcentaje de hogares chilenos contaba con conexión a internet en 2005?",
+        "options": {
+          "a": "92 %",
+          "b": "63 %",
+          "c": "45 %",
+          "d": "20 %",
+          "e": "35 %"
+        },
+        "correct_answer": "d",
+        "explanation": "El primer párrafo indica explícitamente que 'en el año 2005 apenas alcanzaba el 20 %'. Opción (a) corresponde a la cifra de 2023, no de 2005. Opción (b) corresponde al porcentaje de estudiantes que compartieron noticias falsas, dato de otro párrafo. Opciones (c) y (e) no aparecen en el texto.",
+        "area_tematica": "Localizar",
+        "tema": "Extraer informacion explicita de textos",
+        "subtema": "en texto no literario",
+        "difficulty": 1,
+        "habilidad": "Localizar",
+        "question_number": 6,
+        "_meta": {
+          "confidence": 0.99,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "En el texto, la expresión «sesgo de confirmación» se utiliza para referirse a:",
+        "options": {
+          "a": "La tendencia de las plataformas digitales a mostrar solo noticias positivas.",
+          "b": "La inclinación de las personas a aceptar como verdadera la información que coincide con sus creencias previas.",
+          "c": "El proceso mediante el cual los algoritmos confirman la identidad de los usuarios.",
+          "d": "La costumbre de los periodistas de confirmar sus fuentes antes de publicar.",
+          "e": "La preferencia de los estudiantes por leer noticias en formato digital en lugar de impreso."
+        },
+        "correct_answer": "b",
+        "explanation": "El texto define explícitamente el sesgo de confirmación como el fenómeno por el cual 'las personas tienden a aceptar como verdadero aquello que confirma lo que ya piensan'. Opción (a) confunde el sesgo cognitivo con el funcionamiento de algoritmos. Opción (c) introduce un concepto de verificación de identidad ajeno al texto. Opción (d) describe una práctica periodística que no se relaciona con el término. Opción (e) alude a un formato de lectura que no tiene vínculo con el concepto psicológico descrito.",
+        "area_tematica": "Localizar",
+        "tema": "Reconocer sinonimos y parafrasis en textos",
+        "subtema": "en texto no literario",
+        "difficulty": 2,
+        "habilidad": "Localizar",
+        "question_number": 7,
+        "_meta": {
+          "confidence": 0.97,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál es la función del cuarto párrafo dentro de la estructura argumentativa del texto?",
+        "options": {
+          "a": "Presentar la tesis central del autor sobre la alfabetización digital.",
+          "b": "Exponer los contraargumentos y obstáculos que enfrenta la propuesta de incorporar la alfabetización digital en las escuelas.",
+          "c": "Entregar datos estadísticos que respaldan la gravedad del problema de la desinformación.",
+          "d": "Describir la experiencia exitosa de Finlandia en educación mediática.",
+          "e": "Concluir el texto con una síntesis de las ideas principales."
+        },
+        "correct_answer": "b",
+        "explanation": "El cuarto párrafo comienza con 'No obstante, esta propuesta enfrenta obstáculos considerables' y desarrolla tres dificultades: insuficiente formación docente, resistencia institucional y el argumento de que la responsabilidad debería recaer en las plataformas. Su función es presentar los contraargumentos y limitaciones de la propuesta expuesta en el tercer párrafo. Opción (a) corresponde más al primer o segundo párrafo. Opción (c) corresponde al segundo párrafo. Opción (d) corresponde al quinto párrafo. Opción (e) no describe el cuarto párrafo, que está en medio del texto.",
+        "area_tematica": "Interpretar",
+        "tema": "Determinar el significado de un parrafo o seccion",
+        "subtema": "en texto no literario",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 8,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál de las siguientes afirmaciones representa una debilidad en la calidad de la información presentada en el texto?",
+        "options": {
+          "a": "El texto no identifica las universidades latinoamericanas que realizaron los estudios sobre desinformación, lo que dificulta verificar esa fuente.",
+          "b": "El texto utiliza un registro formal que resulta inadecuado para un público escolar.",
+          "c": "El texto carece por completo de datos numéricos que respalden sus afirmaciones.",
+          "d": "El autor cita exclusivamente fuentes internacionales sin referirse a la realidad chilena.",
+          "e": "La estructura del texto no sigue un orden lógico, lo que impide comprender su argumento."
+        },
+        "correct_answer": "a",
+        "explanation": "El texto menciona 'estudios realizados por universidades chilenas y latinoamericanas' sin especificar cuáles son (salvo la PUC), lo que efectivamente constituye una referencia vaga que dificulta la verificación. Opción (b) es incorrecta porque el registro formal es apropiado para un texto académico-expositivo. Opción (c) es falsa: el texto incluye cifras como 92 %, 20 % y 63 %. Opción (d) es incorrecta porque el texto sí menciona datos chilenos (Ministerio de Transportes, PUC). Opción (e) es incorrecta porque el texto tiene una estructura clara: problema, evidencia, propuesta, obstáculos y evidencia internacional.",
+        "area_tematica": "Evaluar",
+        "tema": "Juzgar la calidad y pertinencia de la informacion textual",
+        "subtema": "en texto no literario",
+        "difficulty": 4,
+        "habilidad": "Evaluar",
+        "question_number": 9,
+        "_meta": {
+          "confidence": 0.93,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "Si un establecimiento educacional quisiera utilizar la información de este texto para justificar la creación de un taller de pensamiento crítico digital, ¿cuál de los siguientes argumentos del texto sería el más pertinente para respaldar esa iniciativa?",
+        "options": {
+          "a": "Que el 92 % de los hogares chilenos cuenta con conexión a internet.",
+          "b": "Que algunos críticos consideran que la responsabilidad debería recaer en las plataformas tecnológicas.",
+          "c": "Que muchos profesores no han recibido capacitación formal en competencias digitales.",
+          "d": "Que los planes de estudio ya están sobrecargados de contenidos.",
+          "e": "Que los países que han implementado programas de alfabetización mediática presentan menores índices de vulnerabilidad frente a la desinformación."
+        },
+        "correct_answer": "e",
+        "explanation": "Para justificar la creación de un taller, se necesita evidencia de que este tipo de iniciativas funciona. El texto señala que países como Finlandia, Canadá y Estonia, que implementaron programas similares, muestran menores índices de vulnerabilidad ante la desinformación, lo que constituye el argumento más sólido para respaldar la iniciativa. Opción (a) describe la conectividad pero no justifica un taller. Opción (b) es un contraargumento que debilitaría la justificación. Opción (c) señala un obstáculo, no un respaldo. Opción (d) también es un obstáculo que dificultaría la propuesta, no la respalda.",
+        "area_tematica": "Evaluar",
+        "tema": "Valorar la informacion textual en relacion con nuevos contextos",
+        "subtema": "en texto no literario",
+        "difficulty": 4,
+        "habilidad": "Evaluar",
+        "question_number": 10,
+        "_meta": {
+          "confidence": 0.95,
+          "issues": "Ninguno",
+          "active": true
+        }
+      }
+    ]
+  }
+]

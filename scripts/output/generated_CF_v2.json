@@ -1,0 +1,172 @@
+[
+  {
+    "content": "Un estudiante frota una barra de vidrio con un paño de seda. Después del frotamiento, acerca la barra a pequeños trozos de papel y observa que estos son atraídos hacia ella. ¿Qué fenómeno explica correctamente esta observación?",
+    "options": {
+      "a": "La barra de vidrio se magnetizó por el frotamiento y atrae materiales ferromagnéticos como el papel.",
+      "b": "El frotamiento transfirió electrones desde la barra de vidrio hacia el paño de seda, dejando la barra con carga neta positiva que polariza e induce atracción en los trozos de papel neutros.",
+      "c": "El calor generado por la fricción fundió parcialmente el vidrio, creando una superficie adhesiva que retiene el papel.",
+      "d": "El paño de seda transfirió protones a la barra de vidrio, dándole carga positiva que repele los electrones del papel."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque al frotar vidrio con seda, los electrones de la superficie del vidrio se transfieren a la seda (el vidrio tiene menor afinidad electrónica), quedando la barra con carga neta positiva. Al acercarla al papel neutro, el campo eléctrico de la barra polariza las moléculas del papel (polarización por inducción), atrayendo las cargas negativas inducidas en la superficie más cercana y generando una fuerza neta de atracción. La opción (a) es incorrecta porque el vidrio no es un material ferromagnético y el frotamiento no produce magnetización; el fenómeno observado es electrostático, no magnético. La opción (c) es incorrecta porque el frotamiento manual no genera suficiente temperatura para fundir el vidrio (punto de fusión ~1.500 °C); la atracción se debe a fuerzas electrostáticas, no a adhesión mecánica. La opción (d) es incorrecta porque los protones están firmemente unidos al núcleo atómico y no se transfieren por frotamiento; en la electrización por fricción solo se transfieren electrones.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Electrizacion y conductores/aislantes",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una central termoeléctrica a carbón consume 1.000 MJ de energía química del combustible y entrega 350 MJ de energía eléctrica a la red. ¿Cuál es la eficiencia energética de esta central y qué ocurre con la energía restante?",
+    "options": {
+      "a": "La eficiencia es del 65%, y la energía restante se almacena como energía potencial en las cenizas del carbón.",
+      "b": "La eficiencia es del 35%, y los 650 MJ restantes se disipan principalmente como calor hacia el ambiente a través de gases de combustión y sistemas de refrigeración.",
+      "c": "La eficiencia es del 35%, y los 650 MJ restantes se destruyen según la primera ley de la termodinámica.",
+      "d": "La eficiencia es del 100% si se considera que toda la energía se transforma en alguna forma útil."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la eficiencia se calcula como energía útil obtenida dividida por energía total consumida: 350 MJ / 1.000 MJ = 0,35 = 35%. Los 650 MJ restantes no desaparecen, sino que se disipan como calor residual a través de los gases de escape de la chimenea, el sistema de refrigeración (torres de enfriamiento) y otras pérdidas térmicas, de acuerdo con la segunda ley de la termodinámica. La opción (a) es incorrecta porque la eficiencia calculada es 35%, no 65%; además, la energía no se almacena como energía potencial en las cenizas, ya que estas son residuos sólidos con muy bajo contenido energético. La opción (c) es incorrecta porque, aunque la eficiencia del 35% es correcta, la primera ley de la termodinámica establece que la energía no se crea ni se destruye, solo se transforma; los 650 MJ no se destruyen, se disipan como calor. La opción (d) es incorrecta porque en toda conversión energética real existen pérdidas inevitables (principalmente calor); la energía disipada como calor de baja temperatura no es energía útil, por lo que la eficiencia nunca alcanza el 100% en una central térmica.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Generacion de electricidad y eficiencia energetica",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un circuito eléctrico simple contiene una batería de 12 V conectada a una resistencia de 4 ohmios. Si se agrega una segunda resistencia de 4 ohmios en serie, ¿cómo cambia la corriente total que circula por el circuito?",
+    "options": {
+      "a": "La corriente se duplica, pasando de 3 A a 6 A.",
+      "b": "La corriente se reduce a la mitad, pasando de 3 A a 1,5 A.",
+      "c": "La corriente permanece igual en 3 A, porque el voltaje de la batería no cambia.",
+      "d": "La corriente se reduce a un tercio, pasando de 3 A a 1 A."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque, aplicando la ley de Ohm (V = I x R), con una sola resistencia de 4 ohm: I = 12 V / 4 ohm = 3 A. Al agregar una segunda resistencia de 4 ohm en serie, la resistencia total se suma: R_total = 4 + 4 = 8 ohm, y la nueva corriente es I = 12 V / 8 ohm = 1,5 A. La corriente se reduce a la mitad. La opción (a) es incorrecta porque agregar resistencias en serie aumenta la resistencia total, lo que disminuye la corriente según la ley de Ohm; la corriente no puede duplicarse si la resistencia aumenta con voltaje constante. La opción (c) es incorrecta porque, aunque el voltaje de la batería se mantiene en 12 V, la corriente depende de la resistencia total del circuito según V = IR; al aumentar R, la corriente necesariamente disminuye. La opción (d) es incorrecta porque la corriente se reduciría a un tercio solo si la resistencia total se triplicara (12 ohm), pero al agregar una resistencia igual en serie, la resistencia se duplica, reduciendo la corriente a la mitad, no a un tercio.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Ley de Ohm y circuitos electricos",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se suministra calor a un trozo de hielo a -10 °C de manera constante y se registra su temperatura en función del tiempo. Durante cierto intervalo se observa que la temperatura permanece constante en 0 °C a pesar de que se sigue entregando energía al sistema. ¿Qué ocurre a nivel molecular durante este intervalo de temperatura constante?",
+    "options": {
+      "a": "Las moléculas de agua dejan de moverse por completo al alcanzar el equilibrio térmico con el ambiente.",
+      "b": "La energía se almacena como energía cinética de las moléculas, pero el termómetro no puede detectar el aumento.",
+      "c": "El hielo absorbe calor y lo reemite inmediatamente al ambiente, por lo que no hay cambio neto de temperatura ni de fase.",
+      "d": "La energía suministrada se utiliza para romper las interacciones intermoleculares que mantienen la estructura cristalina del hielo, provocando el cambio de fase de sólido a líquido."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque durante el cambio de fase (fusión), toda la energía suministrada (calor latente de fusión) se utiliza para romper los puentes de hidrógeno y otras interacciones intermoleculares que mantienen la estructura cristalina ordenada del hielo, sin aumentar la temperatura. La energía incrementa la energía potencial intermolecular, no la cinética. La opción (a) es incorrecta porque las moléculas no dejan de moverse; incluso en el estado sólido vibran en torno a posiciones fijas, y durante la fusión siguen teniendo movimiento molecular; la temperatura constante no implica ausencia de movimiento. La opción (b) es incorrecta porque si la energía se convirtiera en energía cinética molecular, la temperatura aumentaría, ya que la temperatura es una medida directa de la energía cinética promedio de las moléculas; el termómetro sí detectaría ese cambio. La opción (c) es incorrecta porque durante la fusión el sistema está absorbiendo calor de manera neta (no lo reemite todo); la evidencia es que el hielo se convierte progresivamente en agua líquida.",
+    "area_tematica": "Fisica",
+    "tema": "Energia",
+    "subtema": "Cambios de fase y transferencia de calor",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un termómetro clínico marca 37 °C para la temperatura corporal de una persona sana. Si se desea expresar esta temperatura en la escala Kelvin, ¿cuál es el valor correcto y qué relación existe entre ambas escalas?",
+    "options": {
+      "a": "310 K, porque la escala Kelvin se obtiene sumando 273 al valor en grados Celsius.",
+      "b": "236 K, porque la escala Kelvin se obtiene restando 273 al valor en grados Celsius.",
+      "c": "98,6 K, porque la conversión a Kelvin se realiza multiplicando los grados Celsius por 2,66.",
+      "d": "310 °K, porque la escala Kelvin usa el mismo tamaño de grado que la Fahrenheit."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque la relación entre la escala Celsius y la escala Kelvin es T(K) = T(°C) + 273,15. Así, 37 °C + 273 = 310 K (aproximadamente 310,15 K). Ambas escalas tienen el mismo tamaño de grado, pero difieren en su punto cero: 0 K corresponde al cero absoluto (-273,15 °C). La opción (b) es incorrecta porque restar 273 a un valor Celsius daría un resultado negativo o muy bajo (37 - 273 = -236), lo que no tiene sentido físico para una temperatura corporal; la conversión correcta es sumar, no restar. La opción (c) es incorrecta porque no existe un factor de conversión multiplicativo de 2,66 entre Celsius y Kelvin; la conversión es una simple adición de 273,15, no una multiplicación. La opción (d) es incorrecta porque la escala Kelvin no usa el símbolo de grado (se escribe K, no °K) y, además, el tamaño del grado Kelvin es igual al del grado Celsius, no al del grado Fahrenheit (que es más pequeño: 1 °C = 1,8 °F).",
+    "area_tematica": "Fisica",
+    "tema": "Energia",
+    "subtema": "Temperatura y escalas termometricas",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un buzo desciende a 20 metros de profundidad en el mar. Si la presión atmosférica en la superficie es de aproximadamente 1 atm y la densidad del agua de mar es 1.025 kg/m3, ¿cuál es la presión total aproximada que experimenta el buzo a esa profundidad?",
+    "options": {
+      "a": "Aproximadamente 1 atm, porque la presión del agua se compensa con la presión atmosférica.",
+      "b": "Aproximadamente 2 atm, porque la presión hidrostática a 20 m equivale a 1 atm adicional.",
+      "c": "Aproximadamente 3 atm, porque la presión total es la suma de la presión atmosférica (1 atm) más la presión hidrostática del agua (~2 atm a 20 m).",
+      "d": "Aproximadamente 20 atm, porque cada metro de profundidad equivale a 1 atm de presión."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque la presión hidrostática se calcula como P = densidad x g x h = 1.025 kg/m3 x 9,8 m/s2 x 20 m = 200.900 Pa, aproximadamente 2 atm (1 atm = 101.325 Pa). La presión total es la suma de la presión atmosférica (1 atm) más la presión hidrostática (~2 atm), dando aproximadamente 3 atm. La opción (a) es incorrecta porque a 20 m de profundidad la presión del agua no se compensa con la atmosférica; se suman, ya que la columna de agua ejerce una presión adicional sobre el buzo. La opción (b) es incorrecta porque 2 atm corresponde a una profundidad de aproximadamente 10 m (donde la presión hidrostática es ~1 atm sumada a 1 atm atmosférica); a 20 m, la presión hidrostática es aproximadamente 2 atm y la total es 3 atm. La opción (d) es incorrecta porque cada metro de profundidad en agua de mar agrega aproximadamente 0,1 atm de presión (no 1 atm); 1 atm de presión hidrostática se alcanza a unos 10 m de profundidad, no a 1 m.",
+    "area_tematica": "Fisica",
+    "tema": "Mecanica",
+    "subtema": "Fuerza de roce y presion sobre solidos, liquidos y gases",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un ascensor de 800 kg sube con aceleración constante de 2 m/s2. Si la aceleración de gravedad es 10 m/s2, ¿cuál es la tensión en el cable que sostiene al ascensor? Para responder, considere las fuerzas que actúan sobre el ascensor según la segunda ley de Newton.",
+    "options": {
+      "a": "6.400 N, porque la tensión solo debe vencer la fuerza de gravedad.",
+      "b": "8.000 N, porque la tensión es igual al peso del ascensor cuando este se mueve a velocidad constante.",
+      "c": "9.600 N, porque la fuerza neta hacia arriba es T - mg = ma, entonces T = m(g + a) = 800(10 + 2).",
+      "d": "1.600 N, porque la tensión solo necesita proporcionar la fuerza para la aceleración, sin considerar el peso."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque, aplicando la segunda ley de Newton al ascensor que sube con aceleración a = 2 m/s2, la fuerza neta hacia arriba es F_neta = T - mg = ma. Despejando: T = m(g + a) = 800 kg x (10 + 2) m/s2 = 800 x 12 = 9.600 N. La tensión debe superar el peso para producir la aceleración neta hacia arriba. La opción (a) es incorrecta porque 6.400 N = 800 x 8, lo que correspondería a restar la aceleración de la gravedad (T = m(g - a)), resultado que describe un ascensor en caída o desaceleración, no uno que sube acelerando. La opción (b) es incorrecta porque 8.000 N = mg es el peso del ascensor y correspondería a la tensión solo si el ascensor se moviera a velocidad constante (aceleración cero); al subir acelerando, la tensión debe ser mayor que el peso. La opción (d) es incorrecta porque 1.600 N = ma considera solo la fuerza necesaria para la aceleración pero ignora que la tensión también debe sostener el peso del ascensor contra la gravedad; ambas contribuciones deben sumarse.",
+    "area_tematica": "Fisica",
+    "tema": "Mecanica",
+    "subtema": "Leyes de Newton y diagramas de cuerpo libre",
+    "difficulty": 4,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Los hornos de microondas calientan los alimentos emitiendo radiación electromagnética con una frecuencia de aproximadamente 2,45 GHz. Esta radiación pertenece a una región específica del espectro electromagnético. ¿A qué región corresponde y por qué calienta los alimentos?",
+    "options": {
+      "a": "Pertenece a la región de las ondas de radio, que calientan los alimentos al ionizar sus átomos y generar corrientes eléctricas internas.",
+      "b": "Pertenece a la región de los rayos infrarrojos, que calientan los alimentos por conducción térmica desde la superficie hacia el interior.",
+      "c": "Pertenece a la región de las microondas, que calientan los alimentos al hacer vibrar las moléculas de agua presentes en ellos, generando fricción interna y calor.",
+      "d": "Pertenece a la región de la luz ultravioleta, que rompe los enlaces químicos de los alimentos y libera energía en forma de calor."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque la frecuencia de 2,45 GHz se ubica en la región de las microondas del espectro electromagnético. Estas ondas provocan la rotación y vibración de las moléculas polares del agua presentes en los alimentos; la fricción entre moléculas vecinas convierte esta energía rotacional en calor, calentando el alimento desde su interior. La opción (a) es incorrecta porque, aunque las microondas limitan con las ondas de radio, 2,45 GHz se clasifica como microondas; además, las microondas de un horno no ionizan átomos (no tienen suficiente energía para ello) ni generan corrientes eléctricas; su mecanismo es la rotación de moléculas polares. La opción (b) es incorrecta porque 2,45 GHz corresponde a microondas, no a infrarrojo; la radiación infrarroja tiene frecuencias mucho mayores (del orden de THz) y longitudes de onda más cortas (micrómetros). Además, el mecanismo de calentamiento de las microondas es volumétrico, no por conducción superficial. La opción (d) es incorrecta porque la radiación ultravioleta tiene frecuencias aún más altas que el infrarrojo (del orden de 10^15 Hz) y energía suficiente para dañar enlaces moleculares, pero 2,45 GHz está muy lejos de esa región; las microondas no tienen energía para romper enlaces químicos.",
+    "area_tematica": "Fisica",
+    "tema": "Ondas",
+    "subtema": "Espectro electromagnetico y formacion de colores",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un rayo de luz viaja desde el aire hacia un bloque de vidrio con un ángulo de incidencia de 45°. Se observa que al ingresar al vidrio, el rayo se desvía acercándose a la línea normal a la superficie. ¿Qué fenómeno óptico ocurre y por qué el rayo cambia de dirección?",
+    "options": {
+      "a": "Reflexión total interna, porque la luz pasa de un medio más denso a uno menos denso.",
+      "b": "Dispersión, porque la luz blanca se separa en sus colores componentes al entrar al vidrio.",
+      "c": "Difracción, porque la luz se curva al pasar por una abertura estrecha entre el aire y el vidrio.",
+      "d": "Refracción, porque la luz cambia de velocidad al pasar del aire (menor índice de refracción) al vidrio (mayor índice de refracción), acercándose a la normal."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque cuando la luz pasa del aire (índice de refracción n = 1,0) al vidrio (n aproximadamente 1,5), cambia de velocidad (se ralentiza) y, según la ley de Snell (n1 sen theta1 = n2 sen theta2), el ángulo de refracción es menor que el de incidencia, lo que significa que el rayo se acerca a la normal. Este cambio de dirección es la refracción. La opción (a) es incorrecta porque la reflexión total interna solo puede ocurrir cuando la luz viaja desde un medio con mayor índice de refracción hacia uno con menor índice (por ejemplo, de vidrio a aire), no al revés; en este caso la luz va del aire al vidrio. La opción (b) es incorrecta porque, aunque la dispersión efectivamente puede separar la luz blanca en colores (como en un prisma), el enunciado describe un rayo que se desvía como un todo sin mención de separación cromática; el fenómeno principal descrito es la refracción. La opción (c) es incorrecta porque la difracción es el fenómeno de curvatura de las ondas al pasar por aberturas o rodear obstáculos de tamaño comparable a su longitud de onda; la interfaz aire-vidrio no constituye una abertura estrecha y el fenómeno descrito es refracción.",
+    "area_tematica": "Fisica",
+    "tema": "Ondas",
+    "subtema": "Interacciones como absorcion, reflexion y refraccion",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las ondas electromagnéticas se propagan a la velocidad de la luz en el vacío (3 x 10^8 m/s) y no necesitan un medio material para transmitirse. ¿Cuál de las siguientes afirmaciones describe correctamente una propiedad fundamental de las ondas electromagnéticas?",
+    "options": {
+      "a": "Son ondas longitudinales en las que los campos eléctrico y magnético oscilan en la misma dirección de propagación.",
+      "b": "Requieren un medio material elástico (como el éter) para propagarse, al igual que las ondas sonoras necesitan aire.",
+      "c": "Son ondas transversales formadas por campos eléctrico y magnético perpendiculares entre sí y perpendiculares a la dirección de propagación.",
+      "d": "Su velocidad de propagación en el vacío depende de su frecuencia: a mayor frecuencia, mayor velocidad."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque las ondas electromagnéticas son ondas transversales compuestas por un campo eléctrico y un campo magnético que oscilan perpendicularmente entre sí y ambos perpendiculares a la dirección de propagación, según las ecuaciones de Maxwell. Esta naturaleza transversal les permite propagarse en el vacío. La opción (a) es incorrecta porque en una onda longitudinal la perturbación ocurre en la misma dirección de propagación (como el sonido); las ondas electromagnéticas son transversales, con los campos oscilando perpendicularmente a la dirección de avance. La opción (b) es incorrecta porque la existencia del éter luminífero fue descartada experimentalmente por el experimento de Michelson-Morley (1887); las ondas electromagnéticas se propagan perfectamente en el vacío sin necesidad de un medio material. La opción (d) es incorrecta porque en el vacío todas las ondas electromagnéticas viajan exactamente a la misma velocidad c = 3 x 10^8 m/s, independientemente de su frecuencia; la velocidad puede variar al atravesar medios materiales, pero en el vacío es constante.",
+    "area_tematica": "Fisica",
+    "tema": "Ondas",
+    "subtema": "Ondas electromagneticas y su propagacion",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

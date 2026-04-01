@@ -5,18 +5,20 @@ import type { User } from '@supabase/supabase-js';
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isPasswordRecovery, setIsPasswordRecovery] = useState(false);
 
   useEffect(() => {
-    // Get initial session
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUser(session?.user ?? null);
       setLoading(false);
     });
 
-    // Listen for auth changes
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (_event === 'PASSWORD_RECOVERY') {
+        setIsPasswordRecovery(true);
+      }
       setUser(session?.user ?? null);
       setLoading(false);
     });
@@ -24,5 +26,5 @@ export function useAuth() {
     return () => subscription.unsubscribe();
   }, []);
 
-  return { user, loading };
+  return { user, loading, isPasswordRecovery, setIsPasswordRecovery };
 }

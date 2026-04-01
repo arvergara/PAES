@@ -1,0 +1,182 @@
+[
+  {
+    "content": "Cual es el resultado de simplificar la expresion (sqrt(50) - sqrt(18)) / sqrt(2)?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "sqrt(2)",
+      "d": "4",
+      "e": "2*sqrt(2)"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Simplificar sqrt(50) = sqrt(25*2) = 5*sqrt(2). Paso 2: Simplificar sqrt(18) = sqrt(9*2) = 3*sqrt(2). Paso 3: Restar: 5*sqrt(2) - 3*sqrt(2) = 2*sqrt(2). Paso 4: Dividir por sqrt(2): 2*sqrt(2) / sqrt(2) = 2. A) 1 es incorrecto: resultado de calcular (5-3)/2 = 1, dividiendo los coeficientes pero tambien dividiendo por 2 adicional. B) 2 es correcto: (5*sqrt(2) - 3*sqrt(2)) / sqrt(2) = 2*sqrt(2) / sqrt(2) = 2. C) sqrt(2) es incorrecto: resultado de olvidar dividir por sqrt(2) y dejar la respuesta como el coeficiente de sqrt(2) en la resta. D) 4 es incorrecto: resultado de sumar en vez de restar, calculando (5+3)*sqrt(2)/sqrt(2) = 8, o un error de calculo intermedio. E) 2*sqrt(2) es incorrecto: resultado de no realizar la division final por sqrt(2), dejando solo el resultado de la resta.",
+    "area_tematica": "Numeros",
+    "tema": "Conjunto de los numeros reales",
+    "subtema": "Relacion entre radicales, fracciones y decimales",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Si log_2(x) = 5, cual es el valor de log_2(4x)?",
+    "options": {
+      "a": "10",
+      "b": "6",
+      "c": "7",
+      "d": "20",
+      "e": "25"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Por propiedad de logaritmos, log_2(4x) = log_2(4) + log_2(x). Paso 2: log_2(4) = log_2(2^2) = 2. Paso 3: log_2(x) = 5 (dato del enunciado). Paso 4: log_2(4x) = 2 + 5 = 7. A) 10 es incorrecto: resultado de multiplicar log_2(x) por 2, es decir 2 * 5 = 10, confundiendo la propiedad del logaritmo de un producto con una multiplicacion de logaritmos. B) 6 es incorrecto: resultado de sumar 1 + 5 = 6, calculando log_2(4) = 1 por error. C) 7 es correcto: log_2(4x) = log_2(4) + log_2(x) = 2 + 5 = 7. D) 20 es incorrecto: resultado de multiplicar 4 * 5 = 20, calculando literalmente 4 veces el logaritmo. E) 25 es incorrecto: resultado de calcular 5^2 = 25, confundiendo la propiedad de producto con potencia.",
+    "area_tematica": "Numeros",
+    "tema": "Logaritmos",
+    "subtema": "Concepto y propiedades de los logaritmos",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Claudia invierte $2.000.000 en un deposito a plazo fijo que ofrece una tasa de interes simple anual del 6%. Si mantiene la inversion durante 8 meses, cuanto dinero recibira en total al retirar su inversion?",
+    "options": {
+      "a": "$2.080.000",
+      "b": "$2.120.000",
+      "c": "$2.096.000",
+      "d": "$2.060.000",
+      "e": "$2.960.000"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: La formula de interes simple es I = C * r * t, donde C es el capital, r la tasa anual y t el tiempo en anos. Paso 2: Convertir 8 meses a anos: t = 8/12 = 2/3 de ano. Paso 3: I = 2.000.000 * 0,06 * (8/12) = 2.000.000 * 0,06 * 0,6667 = 2.000.000 * 0,04 = 80.000. Verificacion: 2.000.000 * 6/100 * 8/12 = 2.000.000 * 48/1200 = 2.000.000 * 1/25 = 80.000. Paso 4: Monto total = 2.000.000 + 80.000 = 2.080.000. A) $2.080.000 es correcto: capital + interes = 2.000.000 + 80.000 = 2.080.000. B) $2.120.000 es incorrecto: resultado de calcular interes por un ano completo (2.000.000 * 0,06 = 120.000), sin ajustar por los 8 meses. C) $2.096.000 es incorrecto: resultado de usar interes compuesto mensual aproximado en vez de interes simple. D) $2.060.000 es incorrecto: resultado de calcular 2.000.000 * 0,06 * (6/12), usando 6 meses en vez de 8. E) $2.960.000 es incorrecto: resultado de multiplicar 2.000.000 * 0,06 * 8 = 960.000, usando 8 anos en vez de 8 meses.",
+    "area_tematica": "Numeros",
+    "tema": "Matematica financiera",
+    "subtema": "Calculo de intereses y creditos financieros",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las soluciones de la ecuacion 2x^2 - 8x + 6 = 0 son:",
+    "options": {
+      "a": "x = 1 y x = 3",
+      "b": "x = -1 y x = -3",
+      "c": "x = 2 y x = 3",
+      "d": "x = 1 y x = -3",
+      "e": "x = 2 y x = 6"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Dividir toda la ecuacion por 2: x^2 - 4x + 3 = 0. Paso 2: Factorizar: buscamos dos numeros que multiplicados den 3 y sumados den -4. Esos numeros son -1 y -3. Paso 3: x^2 - 4x + 3 = (x - 1)(x - 3) = 0. Paso 4: x - 1 = 0 => x = 1, o x - 3 = 0 => x = 3. Verificacion: 2(1)^2 - 8(1) + 6 = 2 - 8 + 6 = 0. Y 2(3)^2 - 8(3) + 6 = 18 - 24 + 6 = 0. Ambas verifican. A) x = 1 y x = 3 es correcto: (x-1)(x-3) = 0 produce estas raices. B) x = -1 y x = -3 es incorrecto: error de signo al factorizar, confundiendo (x+1)(x+3) = 0. C) x = 2 y x = 3 es incorrecto: resultado de no dividir por 2 inicialmente y factorizar incorrectamente. D) x = 1 y x = -3 es incorrecto: error parcial de signo en una de las raices. E) x = 2 y x = 6 es incorrecto: resultado de usar la formula x = -b/a y x = c/a separadamente sin aplicar correctamente la cuadratica.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Ecuaciones de segundo grado",
+    "subtema": "Resolucion y graficos de ecuaciones cuadraticas",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una pelota se lanza verticalmente hacia arriba y su altura h (en metros) despues de t segundos esta dada por h(t) = -5t^2 + 20t. En que instante la pelota alcanza su altura maxima y cual es esa altura?",
+    "options": {
+      "a": "t = 2 s, h = 20 m",
+      "b": "t = 4 s, h = 0 m",
+      "c": "t = 2 s, h = 40 m",
+      "d": "t = 1 s, h = 15 m",
+      "e": "t = 3 s, h = 15 m"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: La altura maxima de una parabola h(t) = at^2 + bt + c se alcanza en t = -b/(2a). Paso 2: Con a = -5 y b = 20: t = -20/(2*(-5)) = -20/(-10) = 2 segundos. Paso 3: Calcular h(2) = -5(2)^2 + 20(2) = -5(4) + 40 = -20 + 40 = 20 metros. A) t = 2 s, h = 20 m es correcto: el vertice esta en t = 2 y h(2) = 20. B) t = 4 s, h = 0 m es incorrecto: t = 4 es cuando la pelota vuelve al suelo (h(4) = -5*16 + 80 = -80 + 80 = 0), no la altura maxima. C) t = 2 s, h = 40 m es incorrecto: el tiempo es correcto pero la altura esta mal, olvidando el termino -5(4) y calculando solo 20*2 = 40. D) t = 1 s, h = 15 m es incorrecto: h(1) = -5 + 20 = 15, que es una altura valida pero no la maxima. E) t = 3 s, h = 15 m es incorrecto: h(3) = -5(9) + 60 = -45 + 60 = 15, que es una altura valida pero no la maxima.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Ecuaciones de segundo grado",
+    "subtema": "Uso de ecuaciones cuadraticas en modelos fisicos",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Dado el sistema de ecuaciones lineales: 3x + 2y = 16 y x - y = 2, cuales son los valores de x e y?",
+    "options": {
+      "a": "x = 2, y = 5",
+      "b": "x = 4, y = 2",
+      "c": "x = 6, y = 4",
+      "d": "x = 3, y = 1",
+      "e": "x = 5, y = 3"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: De la segunda ecuacion, despejar x: x = y + 2. Paso 2: Sustituir en la primera ecuacion: 3(y + 2) + 2y = 16. Paso 3: 3y + 6 + 2y = 16, es decir, 5y + 6 = 16. Paso 4: 5y = 10, por lo tanto y = 2. Paso 5: x = y + 2 = 2 + 2 = 4. Verificacion: 3(4) + 2(2) = 12 + 4 = 16 (correcto). Y 4 - 2 = 2 (correcto). A) x = 2, y = 5 es incorrecto: verificacion 3(2) + 2(5) = 6 + 10 = 16 cumple la primera, pero 2 - 5 = -3, no cumple la segunda. B) x = 4, y = 2 es correcto: cumple ambas ecuaciones. C) x = 6, y = 4 es incorrecto: 6 - 4 = 2 cumple la segunda, pero 3(6) + 2(4) = 18 + 8 = 26, no cumple la primera. D) x = 3, y = 1 es incorrecto: 3 - 1 = 2 cumple la segunda, pero 3(3) + 2(1) = 9 + 2 = 11, no cumple la primera. E) x = 5, y = 3 es incorrecto: 5 - 3 = 2 cumple la segunda, pero 3(5) + 2(3) = 15 + 6 = 21, no cumple la primera.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Sistemas de ecuaciones lineales",
+    "subtema": "Resolucion grafica y algebraica",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un triangulo tiene vertices en A(1, 2), B(5, 2) y C(3, 6). Se aplica una homotecia con centro en el origen y razon k = 2. Cuales son las coordenadas del vertice C' (imagen de C)?",
+    "options": {
+      "a": "(6, 12)",
+      "b": "(3, 12)",
+      "c": "(5, 8)",
+      "d": "(1,5; 3)",
+      "e": "(6, 6)"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: En una homotecia con centro en el origen y razon k, cada punto (x, y) se transforma en (kx, ky). Paso 2: C = (3, 6), con k = 2. Paso 3: C' = (2*3, 2*6) = (6, 12). A) (6, 12) es correcto: se multiplican ambas coordenadas por k = 2. B) (3, 12) es incorrecto: solo se multiplico la coordenada y por 2, olvidando transformar x. C) (5, 8) es incorrecto: se sumo 2 a cada coordenada en vez de multiplicar (3+2, 6+2), confundiendo homotecia con traslacion. D) (1,5; 3) es incorrecto: se dividio entre 2 en vez de multiplicar, aplicando k = 1/2 en vez de k = 2. E) (6, 6) es incorrecto: solo se multiplico la coordenada x por 2, dejando y sin transformar.",
+    "area_tematica": "Geometria",
+    "tema": "Homotecia de figuras",
+    "subtema": "Ampliacion y reduccion de figuras en planos cartesianos",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Desde un punto en el suelo, se observa la cima de un edificio con un angulo de elevacion de 60 grados. Si el observador se encuentra a 25 metros de la base del edificio, cual es la altura aproximada del edificio? (Usa tan(60) = 1,73)",
+    "options": {
+      "a": "14,45 m",
+      "b": "43,25 m",
+      "c": "50 m",
+      "d": "25 m",
+      "e": "21,65 m"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: En un triangulo rectangulo formado por el observador, la base del edificio y la cima, el angulo de elevacion es 60 grados, el cateto adyacente es 25 m (distancia al edificio) y el cateto opuesto es la altura h del edificio. Paso 2: tan(60) = cateto opuesto / cateto adyacente = h / 25. Paso 3: h = 25 * tan(60) = 25 * 1,73 = 43,25 m. A) 14,45 m es incorrecto: resultado de calcular 25 / 1,73 = 14,45, dividiendo en vez de multiplicar (usando cotangente en vez de tangente). B) 43,25 m es correcto: h = 25 * 1,73 = 43,25. C) 50 m es incorrecto: resultado de multiplicar 25 * 2, confundiendo con la razon del seno o coseno de otro angulo. D) 25 m es incorrecto: usar la distancia directamente como altura, lo que corresponderia a un angulo de 45 grados. E) 21,65 m es incorrecto: resultado de calcular 25 * sin(60) = 25 * 0,866 = 21,65, confundiendo tangente con seno.",
+    "area_tematica": "Geometria",
+    "tema": "Razones trigonometricas",
+    "subtema": "Seno, coseno y tangente en triangulos rectangulos",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las edades de 6 hermanos son: 8, 12, 15, 10, 22 y 15 anos. Cual es la desviacion estandar muestral aproximada de las edades? (Redondea al entero mas cercano)",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6",
+      "e": "7"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Calcular la media: (8 + 12 + 15 + 10 + 22 + 15) / 6 = 82 / 6 = 13,667 (aproximadamente 41/3). Paso 2: Calcular las desviaciones al cuadrado: (8 - 13,667)^2 = (-5,667)^2 = 32,11; (12 - 13,667)^2 = (-1,667)^2 = 2,78; (15 - 13,667)^2 = (1,333)^2 = 1,78; (10 - 13,667)^2 = (-3,667)^2 = 13,44; (22 - 13,667)^2 = (8,333)^2 = 69,44; (15 - 13,667)^2 = (1,333)^2 = 1,78. Paso 3: Suma de desviaciones al cuadrado = 32,11 + 2,78 + 1,78 + 13,44 + 69,44 + 1,78 = 121,33. Paso 4: Varianza muestral = 121,33 / (6-1) = 121,33 / 5 = 24,27. Paso 5: Desviacion estandar = sqrt(24,27) = 4,93, que redondeado al entero mas cercano es 5. A) 3 es incorrecto: subestima la variabilidad, posiblemente por error de calculo en las desviaciones. B) 4 es incorrecto: resultado de calcular la desviacion estandar poblacional (dividiendo por n=6 en vez de n-1=5), sqrt(121,33/6) = sqrt(20,22) = 4,5, redondeado a 4. C) 5 es correcto: sqrt(121,33/5) = sqrt(24,27) = 4,93, redondeado a 5. D) 6 es incorrecto: sobreestima la dispersion, posiblemente por un error de calculo en los cuadrados. E) 7 es incorrecto: resultado de incluir un error de suma significativo en las desviaciones cuadradas.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Medidas de dispersion",
+    "subtema": "Analisis de variabilidad de datos",
+    "difficulty": 4,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.96, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En una poblacion, el 5% de las personas tiene una enfermedad rara. Una prueba diagnostica tiene una sensibilidad del 90% (detecta correctamente al 90% de los enfermos) y una especificidad del 80% (descarta correctamente al 80% de los sanos). Si una persona seleccionada al azar resulta positiva en la prueba, cual es la probabilidad aproximada de que realmente tenga la enfermedad?",
+    "options": {
+      "a": "90%",
+      "b": "19,1%",
+      "c": "5%",
+      "d": "80%",
+      "e": "45%"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Definir los eventos. P(E) = 0,05 (tiene la enfermedad), P(no E) = 0,95. P(+|E) = 0,90 (sensibilidad), P(+|no E) = 1 - 0,80 = 0,20 (falso positivo). Paso 2: Calcular P(+) usando probabilidad total: P(+) = P(+|E)*P(E) + P(+|no E)*P(no E) = 0,90*0,05 + 0,20*0,95 = 0,045 + 0,19 = 0,235. Paso 3: Aplicar Teorema de Bayes: P(E|+) = P(+|E)*P(E) / P(+) = 0,045 / 0,235 = 0,1914... = 19,1% aproximadamente. A) 90% es incorrecto: confunde la sensibilidad de la prueba (P(+|E)) con la probabilidad buscada (P(E|+)). B) 19,1% es correcto: aplicando Bayes, P(E|+) = 0,045/0,235 = 0,191 = 19,1%. C) 5% es incorrecto: usa solo la prevalencia de la enfermedad sin considerar el resultado de la prueba. D) 80% es incorrecto: confunde la especificidad con la probabilidad posterior. E) 45% es incorrecto: resultado de un calculo parcial erroneo, como dividir 0,045/0,10 o una estimacion intermedia incorrecta.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Probabilidad condicional",
+    "subtema": "Uso en la toma de decisiones y analisis de riesgos",
+    "difficulty": 5,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  }
+]

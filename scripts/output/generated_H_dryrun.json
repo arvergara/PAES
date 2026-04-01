@@ -1,0 +1,182 @@
+[
+  {
+    "content": "Lea el siguiente fragmento:\n\n\"Artículo 1°.- Las personas nacen libres e iguales en dignidad y derechos. [...] El Estado está al servicio de la persona humana y su finalidad es promover el bien común, para lo cual debe contribuir a crear las condiciones sociales que permitan a todos y a cada uno de los integrantes de la comunidad nacional su mayor realización espiritual y material posible.\"\n(Constitución Política de la República de Chile, 1980, con reformas posteriores)\n\nA partir del fragmento anterior, ¿cuál de los siguientes principios fundamentales de la democracia chilena se expresa con mayor claridad?",
+    "options": {
+      "a": "El principio de separación de poderes del Estado",
+      "b": "El principio de subsidiariedad del Estado frente al mercado",
+      "c": "La consagración del sufragio universal como mecanismo de participación",
+      "d": "El reconocimiento de la dignidad humana y el rol del Estado al servicio de las personas",
+      "e": "El establecimiento de un régimen presidencialista de gobierno"
+    },
+    "correct_answer": "d",
+    "explanation": "El artículo 1° de la Constitución establece explícitamente que las personas nacen libres e iguales en dignidad y derechos, y que el Estado está al servicio de la persona humana. Esto consagra directamente el principio de dignidad humana y la función instrumental del Estado respecto de las personas. Las demás opciones, si bien son elementos del ordenamiento constitucional chileno, no se expresan en el fragmento citado.",
+    "area_tematica": "Formacion Ciudadana",
+    "tema": "Sociedad democratica",
+    "subtema": "Institucionalidad chilena",
+    "difficulty": 2,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente texto:\n\n\"Las redes sociales se han convertido en un espacio donde los ciudadanos pueden expresar sus opiniones políticas, organizar movimientos sociales y fiscalizar a las autoridades. Sin embargo, también han facilitado la difusión de noticias falsas, la polarización del debate público y la manipulación de procesos electorales mediante campañas de desinformación.\"\n(Adaptado de informe PNUD, \"La democracia en la era digital\", 2021)\n\nSegún el texto, ¿cuál es la evaluación más precisa sobre el impacto de la tecnología en la democracia?",
+    "options": {
+      "a": "La tecnología ha resuelto los problemas de participación ciudadana en las democracias modernas",
+      "b": "Las redes sociales son herramientas exclusivamente negativas para el funcionamiento democrático",
+      "c": "Las plataformas digitales presentan tanto oportunidades de participación como riesgos para la calidad del debate democrático",
+      "d": "La tecnología no tiene ningún impacto significativo en los procesos democráticos actuales",
+      "e": "Las redes sociales han reemplazado completamente a las instituciones tradicionales de representación política"
+    },
+    "correct_answer": "c",
+    "explanation": "El texto presenta una visión dual del impacto tecnológico: por un lado destaca beneficios (expresión de opiniones, organización social, fiscalización), y por otro señala riesgos (noticias falsas, polarización, manipulación electoral). La opción c) captura correctamente esta ambivalencia. Las opciones a), b), d) y e) presentan visiones absolutas o extremas que no se corresponden con el análisis equilibrado del fragmento.",
+    "area_tematica": "Formacion Ciudadana",
+    "tema": "Sociedad democratica",
+    "subtema": "Impacto tecnologia",
+    "difficulty": 3,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Durante el siglo XIX, las ideas ilustradas y liberales influyeron profundamente en los procesos de independencia hispanoamericanos. ¿Cuál de las siguientes afirmaciones refleja correctamente la influencia de las ideas republicanas y liberales en la conformación de los nuevos Estados latinoamericanos?",
+    "options": {
+      "a": "Los nuevos Estados adoptaron monarquías constitucionales siguiendo el modelo británico como forma predominante de gobierno",
+      "b": "Las ideas republicanas se aplicaron de manera inmediata y sin conflictos, logrando estabilidad política desde el inicio",
+      "c": "El liberalismo latinoamericano rechazó completamente la influencia de la Revolución Francesa y se basó exclusivamente en el modelo estadounidense",
+      "d": "Los principios liberales condujeron al establecimiento del sufragio universal masculino y femenino en todos los nuevos Estados desde su independencia",
+      "e": "Las ideas liberales se tradujeron en la adopción de constituciones que establecían la soberanía popular, la separación de poderes y la garantía de derechos individuales"
+    },
+    "correct_answer": "e",
+    "explanation": "Las ideas republicanas y liberales del siglo XVIII (Ilustración, Revolución Francesa, independencia de EE.UU.) se materializaron en Hispanoamérica mediante la adopción de constituciones que recogían principios como la soberanía popular, la separación de poderes (ejecutivo, legislativo, judicial) y la declaración de derechos individuales. La opción a) es incorrecta porque la forma predominante fue la república, no la monarquía. La b) es incorrecta porque los nuevos Estados enfrentaron prolongada inestabilidad. La c) es falsa porque la Revolución Francesa sí tuvo gran influencia. La d) es falsa porque el sufragio fue restringido (censitario) y el voto femenino llegaría mucho después.",
+    "area_tematica": "Historia",
+    "tema": "Cambios siglo XIX",
+    "subtema": "Ideas republicanas/liberales",
+    "difficulty": 3,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente fragmento:\n\n\"El surgimiento del Estado nación en Europa durante el siglo XIX transformó la organización política del continente. La unificación de Italia (1861) y de Alemania (1871) son ejemplos paradigmáticos de cómo el nacionalismo operó como fuerza política capaz de crear nuevas entidades estatales a partir de territorios fragmentados.\"\n\n¿Cuál de las siguientes consecuencias se relaciona directamente con el proceso de formación de los Estados nacionales europeos en el siglo XIX?",
+    "options": {
+      "a": "La desaparición completa de los imperios multinacionales europeos antes de 1880",
+      "b": "La consolidación de sistemas políticos basados en la identidad nacional, la lengua común y la delimitación territorial",
+      "c": "El establecimiento inmediato de regímenes democráticos en todos los nuevos Estados nacionales",
+      "d": "La eliminación de los conflictos territoriales en Europa gracias a la formación de fronteras definitivas",
+      "e": "El abandono del colonialismo europeo como consecuencia directa del nacionalismo interno"
+    },
+    "correct_answer": "b",
+    "explanation": "La formación de los Estados nacionales europeos del siglo XIX se caracterizó por la consolidación de entidades políticas basadas en la identidad nacional compartida (lengua, cultura, historia), con delimitación clara de fronteras territoriales. La opción a) es incorrecta porque imperios multinacionales como el Austro-Húngaro, el Otomano y el Ruso persistieron hasta el siglo XX. La c) es falsa porque muchos Estados adoptaron monarquías constitucionales o regímenes autoritarios. La d) es incorrecta porque los conflictos territoriales continuaron y fueron causa de las guerras mundiales. La e) es falsa porque el nacionalismo europeo, lejos de frenar el colonialismo, lo intensificó en la era del imperialismo.",
+    "area_tematica": "Historia",
+    "tema": "Cambios siglo XIX",
+    "subtema": "Impacto Estado nacion",
+    "difficulty": 3,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente documento:\n\n\"Artículo 1°. La República de Chile es una e indivisible.\nArtículo 2°. La soberanía reside esencialmente en la Nación, que delega su ejercicio en las autoridades que establece esta Constitución.\"\n(Constitución Política de la República de Chile, 1833)\n\nConsiderando el contexto histórico de la formación de la República de Chile, ¿qué característica del ordenamiento político chileno del siglo XIX se evidencia en estos artículos?",
+    "options": {
+      "a": "Un Estado unitario y centralizado basado en el principio de soberanía nacional",
+      "b": "Un régimen monárquico constitucional con soberanía compartida entre el rey y el parlamento",
+      "c": "Un sistema federal descentralizado que otorgaba autonomía a las provincias",
+      "d": "Un sistema democrático con amplia participación popular directa en las decisiones de gobierno",
+      "e": "Un régimen parlamentario donde el Congreso concentraba todo el poder político"
+    },
+    "correct_answer": "a",
+    "explanation": "Los artículos citados de la Constitución de 1833 establecen dos principios fundamentales del Chile decimonónico: el carácter unitario e indivisible de la república (artículo 1°) y la soberanía nacional (artículo 2°). La Constitución de 1833, impulsada por Diego Portales y redactada por Mariano Egaña, consolidó un Estado centralizado y autoritario que definió la organización política de Chile durante gran parte del siglo XIX. La opción c) es incorrecta porque Chile adoptó un modelo unitario, no federal. La b) es falsa porque Chile era una república. La d) es incorrecta porque la participación era restringida (voto censitario). La e) es falsa porque bajo la Constitución de 1833 el régimen era presidencialista con un ejecutivo fuerte.",
+    "area_tematica": "Historia",
+    "tema": "Chile siglo XIX",
+    "subtema": "Formacion Republica",
+    "difficulty": 4,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Durante el siglo XIX, la economía chilena experimentó un importante proceso de inserción en los mercados internacionales. ¿Cuál de los siguientes productos constituyó la principal exportación chilena durante la segunda mitad del siglo XIX, permitiendo un significativo crecimiento de los ingresos fiscales?",
+    "options": {
+      "a": "El cobre extraído de las minas del norte chico",
+      "b": "El trigo exportado a los mercados de California y Australia",
+      "c": "La plata proveniente de Chañarcillo y otras minas",
+      "d": "El salitre extraído de las provincias de Tarapacá y Antofagasta",
+      "e": "La lana producida en las estancias del sur de Chile"
+    },
+    "correct_answer": "d",
+    "explanation": "El salitre fue el recurso económico más importante de Chile durante la segunda mitad del siglo XIX, especialmente tras la Guerra del Pacífico (1879-1884), que permitió a Chile incorporar las provincias de Tarapacá y Antofagasta. Los impuestos sobre la exportación de salitre llegaron a representar más del 50% de los ingresos fiscales del Estado chileno. El trigo (b) fue importante a mediados de siglo pero decayó. El cobre (a) y la plata (c) tuvieron importancia en períodos anteriores pero no alcanzaron la magnitud del salitre. La lana (e) no fue un producto de exportación principal.",
+    "area_tematica": "Historia",
+    "tema": "Chile siglo XIX",
+    "subtema": "Insercion economica",
+    "difficulty": 2,
+    "habilidad": "Localizar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente fragmento de un discurso de Benito Mussolini (1932):\n\n\"El fascismo rechaza en la democracia la absurda mentira convencional de la igualdad política, el hábito de la irresponsabilidad colectiva, el mito de la felicidad y del progreso indefinido. [...] El fascismo es una concepción religiosa [...] que eleva al ciudadano a miembro de un Estado consciente de su ser y de su deber. [...] Todo en el Estado, nada contra el Estado, nada fuera del Estado.\"\n(Benito Mussolini, \"La doctrina del fascismo\", 1932)\n\nA partir del documento, ¿cuál de las siguientes características del totalitarismo se identifica con mayor claridad en el discurso de Mussolini?",
+    "options": {
+      "a": "La promoción del libre mercado y la no intervención estatal en la economía",
+      "b": "La defensa de la democracia representativa como forma de gobierno ideal",
+      "c": "La subordinación total del individuo al Estado, que controla todas las esferas de la vida social",
+      "d": "El reconocimiento de la diversidad política y la tolerancia hacia la oposición",
+      "e": "La búsqueda de la cooperación internacional y la paz entre las naciones"
+    },
+    "correct_answer": "c",
+    "explanation": "La frase \"Todo en el Estado, nada contra el Estado, nada fuera del Estado\" es una de las definiciones más emblemáticas del totalitarismo fascista. Expresa la subordinación absoluta del individuo y la sociedad civil al Estado, que pretende controlar todas las dimensiones de la vida (política, económica, cultural, espiritual). Mussolini rechaza explícitamente la democracia y la igualdad política, lo que descarta las opciones b) y d). El fascismo italiano intervino fuertemente en la economía mediante el corporativismo, descartando a). La política exterior fascista fue expansionista y belicista, descartando e).",
+    "area_tematica": "Historia",
+    "tema": "Primera mitad siglo XX",
+    "subtema": "Totalitarismos y populismo",
+    "difficulty": 2,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Tras la Segunda Guerra Mundial, el orden internacional se reorganizó en torno a dos superpotencias. ¿Cuál de las siguientes afirmaciones describe correctamente una característica del orden mundial surgido después de 1945?",
+    "options": {
+      "a": "Estados Unidos y la Unión Soviética formaron una alianza militar permanente para mantener la paz mundial",
+      "b": "Se estableció un orden bipolar caracterizado por la competencia ideológica, militar y económica entre el bloque capitalista liderado por EE.UU. y el bloque socialista liderado por la URSS",
+      "c": "La Organización de las Naciones Unidas logró eliminar completamente los conflictos armados a nivel global",
+      "d": "Europa occidental se alineó mayoritariamente con la Unión Soviética tras recibir ayuda económica del Plan Molotov",
+      "e": "El orden de posguerra eliminó el colonialismo de manera inmediata en Asia y África"
+    },
+    "correct_answer": "b",
+    "explanation": "El orden mundial posterior a 1945 se caracterizó por la bipolaridad: dos bloques antagónicos liderados por EE.UU. (capitalista, liberal-democrático) y la URSS (socialista, de partido único) compitieron en los ámbitos ideológico, militar (carrera armamentista, disuasión nuclear) y económico (Plan Marshall vs. CAME/COMECON). La opción a) es incorrecta porque ambas superpotencias fueron rivales. La c) es falsa porque hubo múltiples conflictos (Corea, Vietnam, etc.). La d) es incorrecta porque Europa occidental se alineó con EE.UU. y recibió el Plan Marshall. La e) es falsa porque la descolonización fue un proceso gradual que se extendió por décadas.",
+    "area_tematica": "Historia",
+    "tema": "Segunda mitad siglo XX",
+    "subtema": "Orden mundial post-WWII",
+    "difficulty": 1,
+    "habilidad": "Localizar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Lea el siguiente fragmento del Informe de la Comisión Nacional de Verdad y Reconciliación (Informe Rettig, 1991):\n\n\"Esta Comisión ha llegado a la convicción de que agentes del Estado o personas a su servicio [...] participaron en graves violaciones a los derechos humanos. [...] Se estableció un cuadro de violaciones masivas y sistemáticas, que incluyó ejecuciones, desapariciones forzadas y torturas.\"\n(Informe de la Comisión Nacional de Verdad y Reconciliación, Chile, 1991)\n\nConsiderando el contexto histórico chileno, ¿cuál fue el principal objetivo de la creación de la Comisión Nacional de Verdad y Reconciliación en 1990?",
+    "options": {
+      "a": "Juzgar y condenar penalmente a los responsables de violaciones a los derechos humanos durante la dictadura militar",
+      "b": "Reformar la Constitución de 1980 para eliminar los enclaves autoritarios heredados del régimen militar",
+      "c": "Organizar un plebiscito para decidir si se debía enjuiciar a los militares involucrados en violaciones de derechos humanos",
+      "d": "Anular la Ley de Amnistía de 1978 para permitir el procesamiento judicial inmediato de todos los casos",
+      "e": "Establecer la verdad sobre las violaciones más graves a los derechos humanos ocurridas entre el 11 de septiembre de 1973 y el 11 de marzo de 1990, contribuyendo a la reconciliación nacional"
+    },
+    "correct_answer": "e",
+    "explanation": "La Comisión Nacional de Verdad y Reconciliación (Comisión Rettig) fue creada por el presidente Patricio Aylwin en abril de 1990 mediante Decreto Supremo N° 355. Su mandato fue esclarecer la verdad sobre las violaciones más graves a los derechos humanos (muertes y desapariciones) ocurridas durante la dictadura militar (1973-1990), con el fin de contribuir a la reconciliación nacional. La Comisión no tenía facultades judiciales (descarta a), no abordó reformas constitucionales (descarta b), no organizó plebiscitos (descarta c) ni anuló leyes (descarta d). Su labor fue establecer los hechos, identificar a las víctimas y proponer medidas de reparación.",
+    "area_tematica": "Historia",
+    "tema": "Segunda mitad siglo XX",
+    "subtema": "Dictadura/Democracia Chile",
+    "difficulty": 5,
+    "habilidad": "Evaluar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un mercado de competencia perfecta, el precio de un bien agrícola ha subido significativamente durante los últimos meses. Se sabe que las condiciones climáticas adversas redujeron la producción, mientras que la demanda se ha mantenido estable.\n\n¿Cuál de los siguientes conceptos económicos explica de manera más precisa el alza del precio observada?",
+    "options": {
+      "a": "Una disminución de la oferta que, frente a una demanda constante, genera un desplazamiento del punto de equilibrio hacia un precio mayor",
+      "b": "Un aumento de la demanda provocado por cambios en las preferencias de los consumidores",
+      "c": "Una intervención del gobierno que fijó un precio mínimo por sobre el precio de equilibrio original",
+      "d": "Un aumento en los subsidios a los productores que elevó artificialmente el precio",
+      "e": "Una disminución de la demanda que provocó una reducción de la cantidad transada en el mercado"
+    },
+    "correct_answer": "a",
+    "explanation": "Según la ley de oferta y demanda, cuando la oferta disminuye (desplazamiento de la curva de oferta hacia la izquierda) y la demanda se mantiene constante, el punto de equilibrio se desplaza: el precio sube y la cantidad transada disminuye. Las condiciones climáticas adversas reducen la producción (oferta), lo que explica el alza del precio. La opción b) es incorrecta porque el enunciado indica que la demanda se mantuvo estable. Las opciones c) y d) introducen intervenciones gubernamentales no mencionadas. La opción e) contradice el enunciado al hablar de disminución de demanda.",
+    "area_tematica": "Sistema Economico",
+    "tema": "Funcionamiento",
+    "subtema": "Factores del mercado",
+    "difficulty": 3,
+    "habilidad": "Interpretar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

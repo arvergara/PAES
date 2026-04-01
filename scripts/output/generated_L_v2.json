@@ -1,0 +1,250 @@
+[
+  {
+    "reading_text": {
+      "title": "La tejedora de Chiloé",
+      "source": "Texto original creado para evaluacion PAES Lenguaje (narrativo-literario)",
+      "content": "Cuando Elisa Nahuelquín cumplió setenta años, decidió que ya era momento de enseñarle a alguien el secreto del último diseño. No era un diseño cualquiera: se trataba del motivo que su abuela materna, una mujer mapuche-huilliche nacida en la isla de Quinchao, le había transmitido a los doce años con la condición de que solo lo tejiera en momentos de verdadera necesidad.\n\nElisa había pasado la vida entera en Curaco de Vélez, un pueblo pequeño en la costa oriental de la Isla Grande de Chiloé. Su casa de madera, con techo de alerce envejecido por la lluvia, daba directamente al canal que separaba la isla del continente. Allí, junto a la ventana que miraba hacia el mar interior, tenía su telar. Era un telar de madera de ciprés que su padre había construido en 1962, cuando ella era una niña y pasaba las tardes observando cómo su madre convertía la lana de oveja en mantas, bufandas y ponchos que después vendía en la feria de Castro.\n\nA lo largo de los años, Elisa se había convertido en una de las últimas tejedoras artesanales de la zona. Las mujeres más jóvenes habían migrado a Puerto Montt o a Santiago en busca de empleos mejor remunerados, y las que permanecían en la isla preferían comprar ropa industrial en las tiendas del centro. El oficio se estaba extinguiendo con la misma lentitud silenciosa con que el bosque nativo retrocedía frente a las plantaciones de eucalipto.\n\nUna tarde de marzo, su nieta Catalina llegó de visita desde Valdivia, donde cursaba el tercer año de Diseño en la Universidad Austral. Traía consigo un cuaderno lleno de bocetos inspirados en textiles indígenas de distintas regiones de América. Elisa los miró con atención durante un largo rato sin decir nada. Finalmente, señaló uno de los dibujos y dijo: «Este se parece al que hacía tu bisabuela, pero le falta el hilo que conecta los rombos con el borde. Sin ese hilo, el diseño no dice lo que tiene que decir».\n\nCatalina, intrigada, le preguntó qué significaba exactamente «decir» en un tejido. Elisa se levantó, fue hasta un baúl de madera que guardaba en el dormitorio y extrajo una manta doblada con cuidado extremo. Al desplegarla sobre la mesa, Catalina vio un patrón geométrico complejo: rombos entrelazados con líneas diagonales que formaban una especie de escalera ascendente, rodeada por un marco de zigzag continuo. Los colores eran sobrios —negro, blanco y un rojo oscuro obtenido de raíces de nalca— y la textura de la lana era áspera pero firme.\n\n«Cada figura cuenta algo», explicó Elisa. «Los rombos son los ojos que vigilan la casa. La escalera es el camino que sube hacia los antepasados. El zigzag es el agua del mar que nunca se detiene. Mi abuela me dijo que este diseño solo se teje cuando alguien de la familia necesita protección, y que si se teje sin motivo, pierde su fuerza.»\n\nCatalina grabó la conversación en su teléfono y tomó fotografías detalladas de la manta. Pero Elisa le pidió algo más: que se sentara frente al telar y aprendiera a hacerlo con sus propias manos. «Las fotos se borran», le dijo. «Los archivos se pierden. Pero lo que aprendes con los dedos, eso se queda para siempre en el cuerpo.»\n\nDurante las dos semanas siguientes, abuela y nieta trabajaron juntas cada mañana. Catalina descubrió que tejer no era solo repetir un patrón, sino mantener un ritmo, una respiración, una forma de estar presente que no se parecía a nada de lo que había experimentado en la universidad. Al terminar la visita, no había logrado completar más que un fragmento del diseño. Sin embargo, algo había cambiado: ahora entendía que aquel tejido no era simplemente un objeto decorativo ni un artefacto cultural para estudiar en una vitrina. Era un lenguaje vivo que exigía ser hablado con el cuerpo para no desaparecer."
+    },
+    "questions": [
+      {
+        "content": "Según el texto, ¿en qué año construyó el padre de Elisa el telar de madera de ciprés?",
+        "options": {
+          "a": "1952",
+          "b": "1958",
+          "c": "1970",
+          "d": "1962",
+          "e": "1965"
+        },
+        "correct_answer": "d",
+        "explanation": "El segundo párrafo indica explícitamente que el padre de Elisa construyó el telar 'en 1962, cuando ella era una niña'. La respuesta correcta es (d). Las demás opciones son fechas cercanas que no corresponden a la información del texto.",
+        "area_tematica": "Localizar",
+        "tema": "Identificacion de informacion",
+        "subtema": "Extraer informacion explicita de textos",
+        "difficulty": 1,
+        "habilidad": "Localizar",
+        "question_number": 1,
+        "_meta": {
+          "confidence": 0.99,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "En el tercer párrafo, cuando se afirma que el oficio de tejer «se estaba extinguiendo con la misma lentitud silenciosa con que el bosque nativo retrocedía frente a las plantaciones de eucalipto», se quiere expresar que:",
+        "options": {
+          "a": "Tanto la tradición textil como el bosque nativo estaban desapareciendo de forma gradual e inadvertida, desplazados por alternativas modernas.",
+          "b": "La deforestación del bosque nativo impedía obtener la madera necesaria para fabricar telares.",
+          "c": "Las tejedoras habían decidido trabajar en la industria forestal del eucalipto.",
+          "d": "El gobierno chileno había prohibido la tala de árboles nativos y también la artesanía textil.",
+          "e": "El eucalipto se utilizaba como materia prima para teñir la lana de manera industrial."
+        },
+        "correct_answer": "a",
+        "explanation": "La comparación establece un paralelismo entre dos procesos de desaparición lenta y silenciosa: el oficio artesanal (desplazado por la ropa industrial y la migración) y el bosque nativo (desplazado por el eucalipto). Ambos retroceden ante alternativas modernas sin que se perciba la magnitud de la pérdida. Las opciones (b), (c), (d) y (e) establecen relaciones literales o inventadas entre el bosque y el tejido que no corresponden al sentido figurado del texto.",
+        "area_tematica": "Localizar",
+        "tema": "Identificacion de informacion",
+        "subtema": "Reconocer sinonimos y parafrasis en textos",
+        "difficulty": 2,
+        "habilidad": "Localizar",
+        "question_number": 2,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál de las siguientes opciones sintetiza mejor la idea central del texto?",
+        "options": {
+          "a": "La historia de una anciana que vende artesanía textil en la feria de Castro para sobrevivir económicamente.",
+          "b": "Una estudiante de Diseño viaja a Chiloé para completar su tesis sobre textiles indígenas latinoamericanos.",
+          "c": "La descripción técnica de los materiales y herramientas utilizados en la tejeduría artesanal chilota.",
+          "d": "El conflicto entre la cultura mapuche-huilliche y la educación universitaria moderna en el sur de Chile.",
+          "e": "El encuentro entre una tejedora tradicional y su nieta universitaria permite la transmisión de un saber ancestral que corre riesgo de desaparecer."
+        },
+        "correct_answer": "e",
+        "explanation": "El texto narra el encuentro intergeneracional entre Elisa y Catalina, cuyo eje central es la transmisión de un saber textil ancestral amenazado por el desuso. La opción (a) distorsiona la motivación de Elisa: no se menciona que venda para sobrevivir. La opción (b) reduce la visita a un propósito académico que no se explicita en el texto. La opción (c) describe un aspecto secundario. La opción (d) plantea un conflicto que no existe en el relato: abuela y nieta colaboran, no se enfrentan.",
+        "area_tematica": "Interpretar",
+        "tema": "Comprension global",
+        "subtema": "Sintetizar las ideas centrales del texto",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 3,
+        "_meta": {
+          "confidence": 0.97,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Qué relación de causa-efecto se puede establecer entre la migración de las mujeres jóvenes y la situación del oficio textil en Curaco de Vélez?",
+        "options": {
+          "a": "La migración provocó que aumentara la demanda de tejidos artesanales, porque los compradores de la ciudad valoraban más la artesanía.",
+          "b": "La migración de las mujeres jóvenes a ciudades como Puerto Montt y Santiago dejó sin aprendices a las tejedoras, acelerando la extinción del oficio.",
+          "c": "Las mujeres que migraron fundaron talleres textiles en Santiago, lo que trasladó la tradición a la capital.",
+          "d": "La migración no tuvo ningún efecto sobre la artesanía porque Elisa siguió tejiendo sola.",
+          "e": "La migración hizo que los hombres del pueblo aprendieran a tejer para sustituir a las mujeres."
+        },
+        "correct_answer": "b",
+        "explanation": "El texto establece que las mujeres jóvenes migraron a ciudades en busca de mejores empleos (causa), lo que dejó a tejedoras como Elisa sin sucesoras para transmitir el oficio (efecto), contribuyendo a su progresiva desaparición. Las opciones (a), (c) y (e) plantean consecuencias inventadas que no aparecen en el texto. La opción (d) niega un efecto que el propio texto describe explícitamente.",
+        "area_tematica": "Interpretar",
+        "tema": "Relaciones textuales",
+        "subtema": "Establecer relaciones causa-efecto y problema-solucion",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 4,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "Al final del texto, Elisa le dice a Catalina: «Las fotos se borran. Los archivos se pierden. Pero lo que aprendes con los dedos, eso se queda para siempre en el cuerpo.» ¿Cuál es la intención comunicativa predominante de esta afirmación dentro del relato?",
+        "options": {
+          "a": "Criticar la tecnología moderna como una herramienta completamente inútil para la preservación cultural.",
+          "b": "Expresar que Elisa desconfía de su nieta y teme que las fotografías sean utilizadas con fines comerciales.",
+          "c": "Transmitir la idea de que el conocimiento corporal y práctico tiene una permanencia que los registros digitales no pueden garantizar, subrayando la importancia de la experiencia directa.",
+          "d": "Demostrar que Elisa no comprende el funcionamiento de los dispositivos electrónicos por su avanzada edad.",
+          "e": "Convencer a Catalina de que abandone sus estudios universitarios y se quede a vivir en Chiloé."
+        },
+        "correct_answer": "c",
+        "explanation": "La frase de Elisa contrapone la fragilidad de los registros digitales con la perdurabilidad del saber incorporado en el cuerpo a través de la práctica. No rechaza la tecnología por completo (opción a), sino que jerarquiza el aprendizaje corporal. La opción (b) introduce una desconfianza que no existe en el relato. La opción (d) reduce la reflexión a una limitación generacional, ignorando su profundidad filosófica. La opción (e) extrapola un mensaje que el texto no plantea.",
+        "area_tematica": "Evaluar",
+        "tema": "Valoracion del texto",
+        "subtema": "Determinar la intencion del emisor",
+        "difficulty": 4,
+        "habilidad": "Evaluar",
+        "question_number": 5,
+        "_meta": {
+          "confidence": 0.95,
+          "issues": "Ninguno",
+          "active": true
+        }
+      }
+    ]
+  },
+  {
+    "reading_text": {
+      "title": "El derecho al silencio: contaminacion acustica y salud publica en las ciudades chilenas",
+      "source": "Texto original creado para evaluacion PAES Lenguaje (argumentativo-expositivo)",
+      "content": "En mayo de 2024, el Ministerio del Medio Ambiente de Chile publicó un informe que reveló datos alarmantes: el 78 % de las estaciones de monitoreo de ruido ubicadas en las comunas más pobladas de Santiago registraba niveles sonoros superiores a los 65 decibeles recomendados por la Organización Mundial de la Salud como límite para evitar efectos nocivos sobre la salud humana. En comunas como Estación Central, Santiago Centro y Providencia, los promedios diurnos alcanzaban los 75 decibeles, cifra equivalente al ruido constante de una aspiradora industrial funcionando a un metro de distancia.\n\nLa contaminación acústica, a diferencia de otros tipos de contaminación ambiental, no deja residuos visibles ni genera imágenes impactantes para los medios de comunicación. Quizás por ello ha sido históricamente relegada a un segundo plano en las políticas públicas. Sin embargo, la evidencia científica acumulada durante las últimas tres décadas es contundente: la exposición prolongada a niveles elevados de ruido no solo produce pérdida auditiva, sino que incrementa significativamente el riesgo de enfermedades cardiovasculares, trastornos del sueño, deterioro cognitivo en niños y alteraciones en la salud mental, incluyendo ansiedad y depresión.\n\nUn estudio longitudinal realizado por la Escuela de Salud Pública de la Universidad de Chile entre 2018 y 2023 evaluó a 4.200 habitantes de comunas con alta exposición al ruido vehicular. Los resultados mostraron que quienes vivían a menos de 50 metros de avenidas principales presentaban un 34 % más de probabilidades de desarrollar hipertensión arterial y un 27 % más de riesgo de padecer insomnio crónico que quienes residían en zonas residenciales alejadas del tráfico. Estos datos se suman a investigaciones internacionales que han establecido correlaciones similares en ciudades como Ciudad de México, Buenos Aires y São Paulo.\n\nFrente a este panorama, las respuestas institucionales han sido insuficientes y fragmentarias. La normativa chilena vigente, contenida principalmente en el Decreto Supremo 38 de 2011, establece niveles máximos permisibles de ruido según el uso del suelo, pero su fiscalización es escasa. Las municipalidades carecen de equipos técnicos especializados para realizar mediciones sistemáticas, y las sanciones por incumplimiento son tan bajas que resultan irrelevantes para las fuentes emisoras más importantes, como el transporte público y la construcción.\n\nAlgunos urbanistas y especialistas en salud pública han propuesto soluciones que van más allá de la regulación tradicional. Entre ellas destacan la creación de «zonas de resguardo acústico» en torno a hospitales, escuelas y residencias de adultos mayores; la incorporación de criterios de atenuación sonora en la planificación urbana y en las normas de construcción; la ampliación de áreas verdes como barreras naturales de absorción de ruido; y la transición acelerada hacia el transporte eléctrico, que reduce drásticamente las emisiones sonoras respecto de los motores de combustión interna.\n\nNo obstante, estas propuestas enfrentan una resistencia que no es solo presupuestaria, sino también cultural. En muchas ciudades latinoamericanas, el ruido se ha normalizado hasta el punto de confundirse con la vitalidad urbana. El bullicio se interpreta como señal de actividad económica, de progreso, de vida. Cuestionar el ruido equivale, para algunos, a cuestionar el dinamismo de la ciudad misma. Esta asociación, profundamente arraigada, constituye uno de los obstáculos más difíciles de superar, porque no basta con cambiar las leyes: es necesario transformar la percepción colectiva sobre lo que significa habitar un espacio saludable.\n\nSi las ciudades chilenas aspiran a mejorar genuinamente la calidad de vida de sus habitantes, deben reconocer que el silencio no es un lujo ni una aspiración romántica. Es una condición básica de salud pública que merece la misma atención y los mismos recursos que se destinan a combatir la contaminación del aire o del agua."
+    },
+    "questions": [
+      {
+        "content": "De acuerdo con el texto, ¿qué porcentaje de las estaciones de monitoreo en las comunas más pobladas de Santiago superaba los niveles de ruido recomendados por la OMS?",
+        "options": {
+          "a": "78 %",
+          "b": "65 %",
+          "c": "34 %",
+          "d": "27 %",
+          "e": "75 %"
+        },
+        "correct_answer": "a",
+        "explanation": "El primer párrafo señala explícitamente que 'el 78 % de las estaciones de monitoreo de ruido (...) registraba niveles sonoros superiores a los 65 decibeles'. La opción (b) es el límite en decibeles de la OMS, no un porcentaje de estaciones. La opción (c) corresponde al porcentaje de mayor riesgo de hipertensión. La opción (d) es el porcentaje de riesgo de insomnio. La opción (e) corresponde al promedio diurno en decibeles de ciertas comunas.",
+        "area_tematica": "Localizar",
+        "tema": "Identificacion de informacion",
+        "subtema": "Extraer informacion explicita de textos",
+        "difficulty": 1,
+        "habilidad": "Localizar",
+        "question_number": 1,
+        "_meta": {
+          "confidence": 0.99,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "En el segundo párrafo, cuando el autor afirma que la contaminación acústica «ha sido históricamente relegada a un segundo plano en las políticas públicas», se puede entender que:",
+        "options": {
+          "a": "Las autoridades han prohibido investigar el tema del ruido urbano en Chile.",
+          "b": "Los ciudadanos han exigido reiteradamente que el ruido se regule, pero los políticos se han negado por razones ideológicas.",
+          "c": "La ciencia aún no ha logrado demostrar que el ruido tenga efectos negativos sobre la salud.",
+          "d": "La contaminación acústica ha sido considerada menos prioritaria que otras formas de contaminación en la agenda gubernamental.",
+          "e": "Solo las comunas de altos ingresos han implementado medidas contra el ruido."
+        },
+        "correct_answer": "d",
+        "explanation": "La expresión 'relegada a un segundo plano' significa que un asunto recibe menos atención o prioridad que otros. En contexto, el autor explica que la falta de visibilidad de la contaminación acústica (no deja residuos visibles) ha contribuido a que las políticas públicas la traten como un tema secundario frente a otras formas de contaminación. La opción (a) exagera: no se menciona prohibición alguna. La opción (b) introduce un conflicto ciudadano-político que no aparece en el texto. La opción (c) contradice directamente lo afirmado en el mismo párrafo. La opción (e) introduce una distinción socioeconómica ausente del texto.",
+        "area_tematica": "Localizar",
+        "tema": "Identificacion de informacion",
+        "subtema": "Reconocer sinonimos y parafrasis en textos",
+        "difficulty": 2,
+        "habilidad": "Localizar",
+        "question_number": 2,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "¿Cuál es la función del sexto párrafo en la estructura argumentativa general del texto?",
+        "options": {
+          "a": "Presentar los datos estadísticos más relevantes del estudio de la Universidad de Chile.",
+          "b": "Introducir un obstáculo de naturaleza cultural que dificulta la lucha contra la contaminación acústica, ampliando el análisis más allá de lo normativo y presupuestario.",
+          "c": "Describir las soluciones técnicas propuestas por los urbanistas para reducir el ruido.",
+          "d": "Concluir el texto con un llamado directo a las autoridades municipales para que aumenten la fiscalización.",
+          "e": "Resumir las ideas principales de los cinco párrafos anteriores."
+        },
+        "correct_answer": "b",
+        "explanation": "El sexto párrafo aborda un obstáculo cultural: la normalización del ruido como sinónimo de vitalidad urbana. Su función es ampliar el análisis más allá de las dimensiones técnicas y presupuestarias tratadas en párrafos anteriores, mostrando que el problema tiene raíces en la percepción colectiva. La opción (a) corresponde al tercer párrafo. La opción (c) corresponde al quinto párrafo. La opción (d) describe el séptimo párrafo, no el sexto. La opción (e) no es correcta porque el sexto párrafo introduce información nueva, no resume.",
+        "area_tematica": "Interpretar",
+        "tema": "Significado del texto",
+        "subtema": "Determinar el significado de un parrafo o seccion",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 3,
+        "_meta": {
+          "confidence": 0.97,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "Considerando la información del texto, ¿cuál es la relación entre la insuficiente fiscalización del Decreto Supremo 38 y la persistencia de la contaminación acústica en Santiago?",
+        "options": {
+          "a": "No existe relación, porque el decreto regula solo la contaminación del aire, no la del ruido.",
+          "b": "La relación es de oposición: a mayor fiscalización del decreto, mayor contaminación acústica en las ciudades.",
+          "c": "El decreto fue derogado en 2023, por lo que ya no tiene ninguna incidencia en la situación actual.",
+          "d": "La fiscalización es eficaz, pero las fuentes de ruido se han multiplicado tan rápido que resulta imposible controlarlas.",
+          "e": "La relación es de causa-efecto: la escasa fiscalización y las sanciones irrelevantes permiten que las fuentes emisoras sigan operando sin consecuencias, perpetuando los niveles excesivos de ruido."
+        },
+        "correct_answer": "e",
+        "explanation": "El cuarto párrafo establece que la normativa existe pero su fiscalización es escasa y las sanciones son tan bajas que resultan irrelevantes. Esta debilidad institucional (causa) permite que las fuentes de ruido como el transporte y la construcción continúen operando sin restricciones efectivas (efecto), perpetuando los niveles de contaminación acústica. La opción (a) es falsa: el decreto regula el ruido. La opción (b) invierte la relación lógica. La opción (c) inventa un dato. La opción (d) contradice lo que el texto dice sobre la fiscalización.",
+        "area_tematica": "Interpretar",
+        "tema": "Relaciones textuales",
+        "subtema": "Establecer relaciones causa-efecto y problema-solucion",
+        "difficulty": 3,
+        "habilidad": "Interpretar",
+        "question_number": 4,
+        "_meta": {
+          "confidence": 0.96,
+          "issues": "Ninguno",
+          "active": true
+        }
+      },
+      {
+        "content": "Un lector cuestiona la solidez del argumento central del texto señalando que los datos del estudio de la Universidad de Chile solo abarcan habitantes de Santiago y no del resto del país. ¿En qué medida esta observación afecta la calidad de la evidencia presentada?",
+        "options": {
+          "a": "No la afecta en absoluto, porque el texto afirma explícitamente que los resultados son válidos para todo Chile.",
+          "b": "La afecta de manera total, pues invalida completamente la tesis del autor sobre la contaminación acústica.",
+          "c": "Es una observación pertinente que señala una limitación del alcance de la evidencia, aunque el texto complementa los datos locales con referencias a investigaciones internacionales en ciudades comparables.",
+          "d": "Es irrelevante, porque la contaminación acústica solo existe en Santiago y no afecta a otras ciudades chilenas.",
+          "e": "Fortalece el argumento del autor, porque demuestra que el estudio fue riguroso al limitarse a una sola ciudad."
+        },
+        "correct_answer": "c",
+        "explanation": "La observación del lector identifica una limitación real: el estudio se centra en Santiago. Sin embargo, el texto mitiga parcialmente esta debilidad al citar investigaciones internacionales en ciudades latinoamericanas comparables (Ciudad de México, Buenos Aires, São Paulo), lo que sugiere que el fenómeno no es exclusivo de Santiago. La opción (a) es falsa: el texto no afirma validez nacional. La opción (b) exagera: una limitación geográfica no invalida toda la tesis. La opción (d) es absurda. La opción (e) confunde limitación con fortaleza metodológica.",
+        "area_tematica": "Evaluar",
+        "tema": "Critica del contenido",
+        "subtema": "Juzgar la calidad y pertinencia de la informacion textual",
+        "difficulty": 4,
+        "habilidad": "Evaluar",
+        "question_number": 5,
+        "_meta": {
+          "confidence": 0.94,
+          "issues": "Ninguno",
+          "active": true
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "content": "En un laboratorio de biotecnología se utiliza la técnica CRISPR-Cas9 para editar el gen responsable de la producción de una proteína defectuosa en células humanas. ¿Cuál es la principal ventaja de esta técnica de manipulación genética respecto a métodos anteriores?",
+    "options": {
+      "a": "Permite insertar genes completos de otras especies sin necesidad de vectores.",
+      "b": "Elimina completamente la posibilidad de mutaciones no deseadas en el genoma.",
+      "c": "Modifica simultáneamente todos los genes del organismo tratado.",
+      "d": "Posibilita la edición precisa de secuencias específicas del ADN con alta eficiencia."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque CRISPR-Cas9 funciona como unas 'tijeras moleculares' que permiten cortar el ADN en sitios específicos determinados por una secuencia guía de ARN, lo que otorga alta precisión y eficiencia en la edición genética. La opción (a) es incorrecta porque CRISPR-Cas9 sí puede requerir vectores para su entrega celular y no se limita a insertar genes completos. La opción (b) es incorrecta porque, aunque CRISPR es preciso, aún puede generar ediciones fuera del sitio blanco (off-target effects), por lo que no elimina completamente las mutaciones no deseadas. La opción (c) es incorrecta porque CRISPR-Cas9 edita secuencias específicas, no todos los genes simultáneamente.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Manipulacion genetica",
+    "difficulty": 3,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Durante la meiosis, ocurre un evento denominado entrecruzamiento (crossing-over) en la profase I. ¿Cuál es la consecuencia genética principal de este proceso?",
+    "options": {
+      "a": "Se duplica el número de cromosomas de la célula madre.",
+      "b": "Se producen células hijas genéticamente idénticas a la célula progenitora.",
+      "c": "Se genera variabilidad genética mediante el intercambio de segmentos entre cromátidas de cromosomas homólogos.",
+      "d": "Se reduce el número de genes presentes en cada cromátida hermana."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque el entrecruzamiento implica el intercambio recíproco de segmentos de ADN entre cromátidas no hermanas de cromosomas homólogos, generando nuevas combinaciones de alelos y aumentando la variabilidad genética de los gametos. La opción (a) es incorrecta porque la meiosis reduce el número cromosómico a la mitad, no lo duplica; la duplicación del ADN ocurre en la fase S previa. La opción (b) es incorrecta porque justamente el crossing-over genera células genéticamente distintas, no idénticas; la producción de células idénticas es característica de la mitosis. La opción (d) es incorrecta porque el entrecruzamiento intercambia segmentos equivalentes entre homólogos, manteniendo el mismo número de genes en cada cromátida.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Division celular",
+    "difficulty": 3,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un grupo de investigadores compara los huesos de las extremidades anteriores de un murciélago, una ballena, un caballo y un ser humano. A pesar de las diferencias en su función, todos presentan los mismos huesos básicos: húmero, radio, cúbito, carpos y falanges. Este patrón constituye una evidencia evolutiva conocida como:",
+    "options": {
+      "a": "Órganos análogos, que demuestran convergencia evolutiva entre especies no emparentadas.",
+      "b": "Órganos homólogos, que evidencian un ancestro común entre estas especies.",
+      "c": "Órganos vestigiales, que indican la pérdida de función de estructuras ancestrales.",
+      "d": "Estructuras adaptativas, que surgen independientemente por presiones ambientales similares."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque los órganos homólogos son estructuras que comparten un mismo origen embrionario y un plan estructural básico común (en este caso, los mismos huesos), pero pueden tener funciones diferentes, lo que evidencia un ancestro común. La opción (a) es incorrecta porque los órganos análogos tienen función similar pero origen embrionario distinto (por ejemplo, las alas de un insecto y las de un ave); en este caso, las estructuras comparten origen pero difieren en función. La opción (c) es incorrecta porque los órganos vestigiales son estructuras reducidas que han perdido su función original (como el apéndice humano), y las extremidades descritas son plenamente funcionales. La opción (d) es incorrecta porque las estructuras mencionadas no surgieron de forma independiente, sino que derivan de un plan corporal compartido heredado de un ancestro común.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Evidencias evolutivas",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un ecosistema lacustre, las algas microscópicas son consumidas por zooplancton, el zooplancton es depredado por peces pequeños, y estos a su vez son presa de garzas. Si una enfermedad elimina gran parte de la población de peces pequeños, ¿qué efecto inmediato se esperaría en las otras poblaciones?",
+    "options": {
+      "a": "Aumento del zooplancton y disminución de las algas.",
+      "b": "Disminución del zooplancton y aumento de las algas.",
+      "c": "Aumento de las garzas y disminución del zooplancton.",
+      "d": "Disminución de las algas y aumento de las garzas."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque al disminuir los peces pequeños (depredadores del zooplancton), la población de zooplancton aumentaría al reducirse su presión de depredación; como consecuencia, el mayor consumo del zooplancton provocaría una disminución de las algas. La opción (b) es incorrecta porque la disminución de peces liberaría al zooplancton de depredación, por lo que este aumentaría, no disminuiría. La opción (c) es incorrecta porque las garzas dependen de los peces como alimento, así que su población tendería a disminuir, no a aumentar. La opción (d) es incorrecta porque las garzas disminuirían por falta de alimento, y la disminución de algas solo ocurriría por un aumento del zooplancton, no por disminución de garzas.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Cadenas troficas",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una planta es sometida a un experimento en el que se mide la tasa de fotosíntesis y de respiración celular bajo diferentes intensidades lumínicas. Se observa que a cierta intensidad de luz, la cantidad de CO₂ fijado por fotosíntesis es exactamente igual a la cantidad de CO₂ liberado por respiración. Este punto se denomina:",
+    "options": {
+      "a": "Punto de saturación lumínica, donde la fotosíntesis alcanza su tasa máxima.",
+      "b": "Punto de compensación lumínica, donde la ganancia neta de carbono es cero.",
+      "c": "Punto de inhibición fotoquímica, donde el exceso de luz daña los fotosistemas.",
+      "d": "Punto de equilibrio termodinámico, donde cesa toda actividad metabólica."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque el punto de compensación lumínica es la intensidad de luz en la cual la tasa de fotosíntesis iguala exactamente a la tasa de respiración celular, por lo que no hay ganancia ni pérdida neta de carbono (CO₂ fijado = CO₂ liberado). La opción (a) es incorrecta porque el punto de saturación lumínica es la intensidad a la cual la fotosíntesis alcanza su tasa máxima y ya no aumenta con más luz; en ese punto la fotosíntesis supera ampliamente a la respiración. La opción (c) es incorrecta porque la fotoinhibición ocurre a intensidades de luz muy elevadas que dañan los complejos fotosintéticos, lo cual no describe un equilibrio entre fotosíntesis y respiración. La opción (d) es incorrecta porque en el punto de compensación lumínica ambas vías metabólicas están activas; no cesa la actividad metabólica.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Fotosintesis/respiracion",
+    "difficulty": 4,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las células del epitelio intestinal poseen microvellosidades en su superficie apical. ¿Cuál es la principal función de estas proyecciones en relación con el intercambio de sustancias?",
+    "options": {
+      "a": "Secretar enzimas digestivas al lumen intestinal para degradar lípidos complejos.",
+      "b": "Generar movimientos peristálticos que desplazan el alimento a lo largo del intestino.",
+      "c": "Aumentar la superficie de contacto para maximizar la absorción de nutrientes.",
+      "d": "Proteger la membrana celular del efecto corrosivo de los ácidos gástricos."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque las microvellosidades son proyecciones digitiformes de la membrana plasmática que incrementan enormemente el área de superficie disponible para la absorción de nutrientes (aminoácidos, monosacáridos, ácidos grasos, etc.) desde el lumen intestinal hacia la célula. La opción (a) es incorrecta porque, si bien algunas enzimas están ancladas en la membrana de las microvellosidades (enzimas del borde en cepillo), la función principal de las microvellosidades no es la secreción sino la absorción; además, la digestión de lípidos complejos depende principalmente de la lipasa pancreática y las sales biliares. La opción (b) es incorrecta porque el peristaltismo es generado por las capas de músculo liso de la pared intestinal, no por las microvellosidades epiteliales. La opción (d) es incorrecta porque la protección contra ácidos gástricos es función de la capa de moco secretada por células caliciformes, principalmente en el estómago; las microvellosidades están en el intestino donde el pH ya ha sido neutralizado.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion celular",
+    "subtema": "Intercambio sustancias",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una célula eucarionte animal se observa al microscopio electrónico y se identifican organelos con doble membrana que contienen su propio ADN circular. Estos organelos son responsables de la producción de ATP mediante fosforilación oxidativa. ¿A qué organelo corresponde esta descripción?",
+    "options": {
+      "a": "Retículo endoplasmático rugoso.",
+      "b": "Aparato de Golgi.",
+      "c": "Mitocondria.",
+      "d": "Lisosoma."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque las mitocondrias poseen doble membrana (externa e interna con crestas), contienen su propio ADN circular (evidencia de la teoría endosimbiótica) y son el sitio donde ocurre la fosforilación oxidativa para producir ATP. La opción (a) es incorrecta porque el retículo endoplasmático rugoso tiene una sola membrana, no posee ADN propio y su función principal es la síntesis de proteínas (gracias a los ribosomas adheridos). La opción (b) es incorrecta porque el aparato de Golgi está formado por cisternas de membrana simple, no tiene ADN propio y su función es la modificación, empaquetamiento y distribución de proteínas y lípidos. La opción (d) es incorrecta porque los lisosomas tienen una sola membrana, carecen de ADN propio y su función es la digestión intracelular mediante enzimas hidrolíticas.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion celular",
+    "subtema": "Organelos",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Los glóbulos rojos humanos, cuando se colocan en una solución hipotónica, se hinchan y pueden llegar a lisarse (hemólisis). En cambio, las células vegetales colocadas en el mismo tipo de solución no se rompen. ¿Cuál es la estructura que explica esta diferencia?",
+    "options": {
+      "a": "La vacuola central, que almacena el exceso de agua e impide la lisis.",
+      "b": "La membrana plasmática vegetal, que es impermeable al agua.",
+      "c": "Los cloroplastos, que consumen el agua excedente mediante la fotosíntesis.",
+      "d": "La pared celular, que resiste la presión de turgencia y evita que la célula estalle."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque la pared celular de las células vegetales, compuesta principalmente de celulosa, es una estructura rígida que resiste la presión de turgencia generada cuando el agua entra por ósmosis en un medio hipotónico, impidiendo que la célula estalle. La opción (a) es incorrecta porque, aunque la vacuola central almacena agua, no es la estructura que resiste mecánicamente la expansión celular; sin la pared celular, la célula igual se rompería. La opción (b) es incorrecta porque la membrana plasmática vegetal es semipermeable y sí permite el paso de agua por ósmosis, al igual que la de células animales. La opción (c) es incorrecta porque la cantidad de agua utilizada en la fotosíntesis es mínima comparada con el flujo osmótico, y los cloroplastos no cumplen un rol protector contra la lisis celular.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion celular",
+    "subtema": "Relacion estructura-funcion",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El virus de la inmunodeficiencia humana (VIH) infecta principalmente linfocitos T CD4+. Una persona diagnosticada con VIH recibe tratamiento antirretroviral (TAR) que logra reducir la carga viral a niveles indetectables. Respecto a esta situación, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": {
+      "a": "El tratamiento antirretroviral elimina completamente el virus del organismo, curando la infección.",
+      "b": "La persona con carga viral indetectable ya no necesita continuar con el tratamiento antirretroviral.",
+      "c": "A pesar de la carga viral indetectable, el virus persiste en reservorios celulares y el tratamiento debe mantenerse.",
+      "d": "La carga viral indetectable indica que el sistema inmunológico ha destruido todos los linfocitos infectados."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque el VIH integra su material genético (como provirus) en el ADN de linfocitos T CD4+ de memoria y otras células, formando reservorios latentes que no son eliminados por el TAR; por lo tanto, el tratamiento debe mantenerse de por vida para evitar la reactivación viral. La opción (a) es incorrecta porque el TAR suprime la replicación viral pero no elimina los provirus integrados en los reservorios celulares, por lo que no constituye una cura. La opción (b) es incorrecta porque si se suspende el TAR, el virus se reactiva desde los reservorios latentes y la carga viral aumenta nuevamente. La opción (d) es incorrecta porque la carga viral indetectable refleja la supresión de la replicación viral por el medicamento, no la destrucción de todas las células infectadas; de hecho, preservar los linfocitos T CD4+ es un objetivo del tratamiento.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos biologicos",
+    "subtema": "ITS",
+    "difficulty": 4,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las proteínas son biomoléculas esenciales para el organismo. Están formadas por aminoácidos unidos mediante enlaces peptídicos. Si una persona mantiene una dieta deficiente en proteínas durante un período prolongado, ¿cuál de las siguientes consecuencias es más probable?",
+    "options": {
+      "a": "Disminución en la síntesis de enzimas y anticuerpos, afectando el metabolismo y la respuesta inmune.",
+      "b": "Acumulación excesiva de glucógeno hepático por la falta de aminoácidos en la dieta.",
+      "c": "Aumento de la masa muscular debido a la compensación metabólica del organismo.",
+      "d": "Incremento en la producción de ácidos nucleicos como fuente alternativa de energía."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque las proteínas son fundamentales para la síntesis de enzimas (que catalizan reacciones metabólicas), anticuerpos (inmunoglobulinas para la defensa inmune), hormonas proteicas y estructuras celulares; una ingesta deficiente de proteínas limita la disponibilidad de aminoácidos esenciales, comprometiendo estas funciones. La opción (b) es incorrecta porque la acumulación de glucógeno depende de la ingesta de carbohidratos, no de aminoácidos; además, en desnutrición proteica el organismo puede catabolizar proteínas para obtener energía, no acumular glucógeno. La opción (c) es incorrecta porque la deficiencia de proteínas produce pérdida de masa muscular (atrofia), ya que el organismo degrada proteínas musculares para obtener aminoácidos necesarios para funciones vitales. La opción (d) es incorrecta porque los ácidos nucleicos (ADN, ARN) no son una fuente alternativa de energía significativa y su producción no aumenta por déficit proteico; de hecho, la síntesis de ácidos nucleicos también se vería comprometida.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos biologicos",
+    "subtema": "Nutricion/biomoleculas",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

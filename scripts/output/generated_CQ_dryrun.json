@@ -1,0 +1,172 @@
+[
+  {
+    "content": "El modelo atómico de Bohr propuso que los electrones se mueven en órbitas circulares definidas alrededor del núcleo, cada una con un nivel de energía específico. ¿Cuál de las siguientes limitaciones llevó al desarrollo de modelos atómicos posteriores?",
+    "options": {
+      "a": "El modelo de Bohr no podía explicar la existencia de protones y neutrones en el núcleo.",
+      "b": "El modelo de Bohr predecía que los electrones emitían radiación continuamente en sus órbitas.",
+      "c": "El modelo de Bohr no incluía la existencia de niveles de energía cuantizados.",
+      "d": "El modelo de Bohr no lograba predecir correctamente los espectros de emisión de átomos con más de un electrón."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque el modelo de Bohr funcionaba bien para el átomo de hidrógeno (un solo electrón), pero no podía predecir correctamente los espectros de átomos multielectrónicos debido a las interacciones electrón-electrón; esta limitación impulsó el desarrollo del modelo mecánico-cuántico. La opción (a) es incorrecta porque la existencia de protones y neutrones en el núcleo ya era conocida y aceptada en el modelo de Bohr; esa no fue una limitación de su modelo. La opción (b) es incorrecta porque justamente el modelo de Bohr resolvió el problema de la radiación continua del modelo de Rutherford, al postular que los electrones en órbitas estacionarias no emiten radiación. La opción (c) es incorrecta porque la cuantización de los niveles de energía es precisamente una de las características fundamentales del modelo de Bohr, no una carencia.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Modelos atomicos",
+    "difficulty": 3,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El átomo de nitrógeno (Z = 7) tiene la siguiente configuración electrónica: 1s² 2s² 2p³. De acuerdo con la regla de Hund, ¿cómo se distribuyen los tres electrones en los orbitales 2p?",
+    "options": {
+      "a": "Los tres electrones ocupan un mismo orbital 2p con espines alternados.",
+      "b": "Dos electrones se emparejan en un orbital 2p y el tercero ocupa otro orbital 2p.",
+      "c": "Cada electrón ocupa un orbital 2p diferente, todos con el mismo espín.",
+      "d": "Los tres electrones se distribuyen aleatoriamente sin seguir ningún patrón de espín."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque la regla de Hund establece que los electrones ocupan orbitales degenerados (de igual energía) de forma individual, con espines paralelos (mismo espín), antes de emparejarse; como hay tres orbitales 2p (2px, 2py, 2pz) y tres electrones, cada orbital recibe un electrón con el mismo espín. La opción (a) es incorrecta porque el principio de exclusión de Pauli prohíbe que más de dos electrones ocupen el mismo orbital, y si lo hicieran, deberían tener espines opuestos; tres electrones en un solo orbital es imposible. La opción (b) es incorrecta porque emparejar dos electrones antes de llenar todos los orbitales disponibles viola la regla de Hund; se maximiza el espín total ocupando primero cada orbital con un electrón. La opción (d) es incorrecta porque la distribución electrónica no es aleatoria; sigue reglas cuánticas específicas como la regla de Hund y el principio de exclusión de Pauli.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Configuracion electronica",
+    "difficulty": 3,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El cloruro de sodio (NaCl) es un compuesto iónico que se forma por la transferencia de un electrón desde el sodio al cloro. ¿Cuál de las siguientes propiedades es característica de los compuestos con enlace iónico?",
+    "options": {
+      "a": "Tienen puntos de fusión bajos y son buenos conductores de electricidad en estado sólido.",
+      "b": "Son solubles en solventes apolares como el hexano y forman moléculas discretas.",
+      "c": "Presentan altos puntos de fusión y conducen electricidad cuando están disueltos en agua o fundidos.",
+      "d": "Forman cristales blandos y maleables que se deforman fácilmente bajo presión."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque los compuestos iónicos forman redes cristalinas tridimensionales con fuertes interacciones electrostáticas entre cationes y aniones, lo que les confiere altos puntos de fusión; cuando se disuelven en agua o se funden, los iones quedan libres para moverse y conducir electricidad. La opción (a) es incorrecta porque los compuestos iónicos tienen puntos de fusión altos (no bajos) debido a las fuertes fuerzas electrostáticas, y en estado sólido los iones están fijos en la red cristalina y no conducen electricidad. La opción (b) es incorrecta porque los compuestos iónicos son solubles en solventes polares (como el agua) según el principio 'lo semejante disuelve a lo semejante', no en solventes apolares; además, forman redes cristalinas, no moléculas discretas. La opción (d) es incorrecta porque los cristales iónicos son duros pero frágiles (no maleables); al aplicar presión, las capas de iones se desplazan y cargas iguales quedan enfrentadas, provocando repulsión y fractura del cristal.",
+    "area_tematica": "Quimica",
+    "tema": "Estructura atomica",
+    "subtema": "Enlaces quimicos",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Los hidrocarburos se clasifican según el tipo de enlace entre sus átomos de carbono. ¿Cuál de las siguientes afirmaciones sobre los alquenos es correcta?",
+    "options": {
+      "a": "Poseen exclusivamente enlaces simples C–C y tienen fórmula general CₙH₂ₙ₊₂.",
+      "b": "Contienen al menos un doble enlace C=C y tienen fórmula general CₙH₂ₙ.",
+      "c": "Presentan al menos un triple enlace C≡C y tienen fórmula general CₙH₂ₙ₋₂.",
+      "d": "Son hidrocarburos cíclicos aromáticos con electrones deslocalizados en un anillo."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque los alquenos son hidrocarburos insaturados que contienen al menos un doble enlace carbono-carbono (C=C) y su fórmula general para alquenos acíclicos con un doble enlace es CₙH₂ₙ (por ejemplo, el eteno C₂H₄). La opción (a) es incorrecta porque la descripción de enlaces simples exclusivos y fórmula CₙH₂ₙ₊₂ corresponde a los alcanos (hidrocarburos saturados), no a los alquenos. La opción (c) es incorrecta porque la presencia de un triple enlace C≡C y la fórmula CₙH₂ₙ₋₂ corresponde a los alquinos, no a los alquenos. La opción (d) es incorrecta porque los hidrocarburos aromáticos con electrones deslocalizados corresponden a compuestos como el benceno (arenos), no a los alquenos.",
+    "area_tematica": "Quimica",
+    "tema": "Quimica organica",
+    "subtema": "Hidrocarburos",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El carbono es un elemento fundamental en la química orgánica debido a sus propiedades únicas. ¿Cuál de las siguientes características del carbono explica su capacidad para formar una enorme diversidad de compuestos orgánicos?",
+    "options": {
+      "a": "Su alta electronegatividad, que le permite atraer electrones de cualquier otro elemento.",
+      "b": "Su gran tamaño atómico, que permite acomodar muchos electrones de valencia.",
+      "c": "Su capacidad de existir exclusivamente como catión C⁴⁺ en compuestos orgánicos.",
+      "d": "Su capacidad de formar cuatro enlaces covalentes estables, creando cadenas, ramificaciones y anillos."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque el carbono tiene 4 electrones de valencia y puede formar 4 enlaces covalentes estables con otros átomos, incluyendo otros carbonos, lo que le permite generar cadenas lineales, ramificadas, cíclicas, con enlaces simples, dobles y triples, dando origen a una enorme diversidad de moléculas orgánicas. La opción (a) es incorrecta porque el carbono tiene una electronegatividad intermedia (2,55 en la escala de Pauling), no particularmente alta; elementos como el flúor (3,98) y el oxígeno (3,44) son mucho más electronegativos. La opción (b) es incorrecta porque el carbono es un átomo relativamente pequeño (segundo período); de hecho, su pequeño tamaño contribuye a la fortaleza de sus enlaces covalentes, no a acomodar muchos electrones. La opción (c) es incorrecta porque el carbono no forma cationes C⁴⁺ en compuestos orgánicos; la energía requerida para remover 4 electrones sería enorme. El carbono forma enlaces covalentes, no iónicos, en la química orgánica.",
+    "area_tematica": "Quimica",
+    "tema": "Quimica organica",
+    "subtema": "Propiedades carbono",
+    "difficulty": 2,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se representa la molécula de ácido acético (CH₃COOH) mediante una fórmula estructural. ¿Cuál de las siguientes representaciones corresponde correctamente al grupo funcional presente en esta molécula?",
+    "options": {
+      "a": "Un grupo hidroxilo (–OH) unido a un carbono con doble enlace a otro oxígeno, formando el grupo carboxilo (–COOH).",
+      "b": "Un grupo carbonilo (C=O) sin ningún otro átomo de oxígeno unido al mismo carbono.",
+      "c": "Un grupo amino (–NH₂) unido a la cadena carbonada principal.",
+      "d": "Un grupo éter (–O–) conectando dos cadenas carbonadas."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque el ácido acético contiene el grupo funcional carboxilo (–COOH), que consiste en un átomo de carbono unido simultáneamente a un grupo hidroxilo (–OH) y a un oxígeno mediante doble enlace (C=O); esta combinación le confiere las propiedades ácidas características. La opción (b) es incorrecta porque un grupo carbonilo aislado (C=O sin –OH) corresponde a aldehídos o cetonas, no a ácidos carboxílicos; el ácido acético tiene ambos oxígenos. La opción (c) es incorrecta porque el grupo amino (–NH₂) es el grupo funcional de las aminas y aminoácidos, no de los ácidos carboxílicos; el ácido acético no contiene nitrógeno. La opción (d) es incorrecta porque el grupo éter (R–O–R') une dos cadenas carbonadas mediante un oxígeno puente, y no describe la estructura del ácido acético, que tiene un grupo carboxilo terminal.",
+    "area_tematica": "Quimica",
+    "tema": "Quimica organica",
+    "subtema": "Representacion moleculas",
+    "difficulty": 3,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Considere la siguiente ecuación química sin balancear: Fe + O₂ → Fe₂O₃. ¿Cuáles son los coeficientes estequiométricos correctos que balancean esta ecuación?",
+    "options": {
+      "a": "2Fe + O₂ → Fe₂O₃",
+      "b": "4Fe + 3O₂ → 2Fe₂O₃",
+      "c": "3Fe + 2O₂ → Fe₂O₃",
+      "d": "Fe + 3O₂ → 2Fe₂O₃"
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque al balancear: 4Fe + 3O₂ → 2Fe₂O₃ se obtienen 4 átomos de Fe en cada lado (4 reactivos = 2×2 productos) y 6 átomos de O en cada lado (3×2 reactivos = 2×3 productos), cumpliendo la ley de conservación de la masa. La opción (a) es incorrecta porque 2Fe + O₂ → Fe₂O₃ tiene 2 átomos de O en reactivos y 3 en productos, por lo que no está balanceada. La opción (c) es incorrecta porque 3Fe + 2O₂ → Fe₂O₃ tiene 3 Fe en reactivos pero solo 2 en productos, y 4 O en reactivos pero 3 en productos. La opción (d) es incorrecta porque Fe + 3O₂ → 2Fe₂O₃ tiene 1 Fe en reactivos y 4 en productos, y 6 O en reactivos y 6 en productos; el hierro no está balanceado.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas",
+    "subtema": "Balance ecuaciones",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En la reacción de combustión completa del metano: CH₄ + 2O₂ → CO₂ + 2H₂O, si se queman 32 g de metano (masa molar CH₄ = 16 g/mol), ¿cuántos moles de CO₂ se producen?",
+    "options": {
+      "a": "1 mol",
+      "b": "2 moles",
+      "c": "4 moles",
+      "d": "16 moles"
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque primero se calculan los moles de CH₄: n = masa / masa molar = 32 g / 16 g/mol = 2 mol de CH₄. Según la estequiometría de la reacción balanceada, 1 mol de CH₄ produce 1 mol de CO₂ (relación 1:1), por lo que 2 mol de CH₄ producen 2 mol de CO₂. La opción (a) es incorrecta porque 1 mol de CO₂ se produciría a partir de 1 mol (16 g) de CH₄, no de 32 g. La opción (c) es incorrecta porque 4 moles de CO₂ supondrían una relación 1:2 entre CH₄ y CO₂, lo cual no corresponde a la ecuación balanceada que muestra una relación 1:1. La opción (d) es incorrecta porque 16 moles no corresponde a ningún cálculo estequiométrico válido; parece confundir la masa molar (16 g/mol) con la cantidad de moles de producto.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas",
+    "subtema": "Estequiometria",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un estudiante intenta disolver cloruro de sodio (NaCl) en agua y en hexano (C₆H₁₄) a temperatura ambiente. Observa que el NaCl se disuelve fácilmente en agua pero no en hexano. ¿Cuál es la explicación correcta de esta observación?",
+    "options": {
+      "a": "El agua reacciona químicamente con el NaCl formando nuevos compuestos, mientras que el hexano es inerte.",
+      "b": "El hexano tiene un punto de ebullición más bajo que el agua, lo que impide la disolución.",
+      "c": "El agua, al ser un solvente polar, puede rodear y estabilizar los iones Na⁺ y Cl⁻ mediante solvatación; el hexano, apolar, no puede hacerlo.",
+      "d": "El NaCl solo se disuelve a temperaturas superiores a 100 °C, y el agua hierve a esa temperatura permitiendo la disolución."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque el agua es una molécula polar que puede rodear a los iones Na⁺ y Cl⁻ mediante interacciones ion-dipolo (solvatación o hidratación), estabilizándolos en solución y superando la energía reticular del cristal iónico; el hexano es apolar y no puede establecer estas interacciones, por lo que no disuelve compuestos iónicos. Esto sigue el principio 'lo semejante disuelve a lo semejante'. La opción (a) es incorrecta porque la disolución de NaCl en agua es un proceso físico de disociación iónica (NaCl → Na⁺ + Cl⁻), no una reacción química que forme nuevos compuestos. La opción (b) es incorrecta porque el punto de ebullición del solvente no determina su capacidad de disolver un soluto; la solubilidad depende de la polaridad y las interacciones intermoleculares. La opción (d) es incorrecta porque el NaCl se disuelve en agua a temperatura ambiente (su solubilidad es de aproximadamente 36 g/100 mL a 20 °C); no requiere temperaturas superiores a 100 °C.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas",
+    "subtema": "Solubilidad",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un laboratorio se prepara una solución saturada de KNO₃ a 60 °C y luego se enfría lentamente a 20 °C. Se observa la formación de cristales en el fondo del recipiente. ¿Qué concepto explica la aparición de estos cristales?",
+    "options": {
+      "a": "La evaporación del solvente concentró la solución hasta superar el punto de ebullición.",
+      "b": "La solubilidad del KNO₃ disminuye al bajar la temperatura, por lo que el exceso de soluto precipita como cristales.",
+      "c": "El KNO₃ se descompuso térmicamente al enfriarse, formando un precipitado insoluble.",
+      "d": "El agua se congeló parcialmente a 20 °C, expulsando las moléculas de KNO₃ del solvente."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la solubilidad de la mayoría de las sales, incluido el KNO₃, aumenta con la temperatura; al enfriar la solución saturada desde 60 °C a 20 °C, la cantidad máxima de KNO₃ que puede permanecer disuelta disminuye, y el exceso cristaliza como sólido en un proceso llamado cristalización. La opción (a) es incorrecta porque el recipiente se enfría (no se evapora solvente intencionalmente), y el punto de ebullición del agua es 100 °C, muy por encima de las temperaturas mencionadas. La opción (c) es incorrecta porque el KNO₃ es un compuesto estable a estas temperaturas; su descomposición térmica ocurre a temperaturas mucho más altas (por encima de 400 °C). La opción (d) es incorrecta porque el agua se congela a 0 °C (o menos en presencia de solutos), no a 20 °C; además, la cristalización del soluto no se debe a congelamiento del solvente.",
+    "area_tematica": "Quimica",
+    "tema": "Reacciones quimicas",
+    "subtema": "Solubilidad",
+    "difficulty": 4,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

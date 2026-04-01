@@ -1,0 +1,182 @@
+[
+  {
+    "content": "Cual es la suma de las soluciones de la ecuacion x^2 - 6x + 8 = 0?",
+    "options": {
+      "a": "8",
+      "b": "-6",
+      "c": "2",
+      "d": "4",
+      "e": "6"
+    },
+    "correct_answer": "e",
+    "explanation": "Paso 1: Factorizar la ecuacion. Buscamos dos numeros que multiplicados den 8 y sumados den -6. Esos numeros son -2 y -4. Paso 2: x^2 - 6x + 8 = (x - 2)(x - 4) = 0. Paso 3: Las soluciones son x = 2 y x = 4. Paso 4: La suma de las soluciones es 2 + 4 = 6. Alternativa: por las relaciones de Vieta, la suma de las raices de ax^2 + bx + c = 0 es -b/a = -(-6)/1 = 6. Verificacion: 2^2 - 6(2) + 8 = 4 - 12 + 8 = 0. Y 4^2 - 6(4) + 8 = 16 - 24 + 8 = 0. Ambas verifican. A) 8 es incorrecto: este es el producto de las soluciones (2 * 4 = 8), no la suma. Error de confundir suma con producto de raices. B) -6 es incorrecto: resultado de tomar directamente el coeficiente b = -6 sin cambiar el signo, olvidando que la suma es -b/a. C) 2 es incorrecto: este es solo una de las dos raices, no la suma. D) 4 es incorrecto: este es solo la otra raiz, no la suma de ambas. E) 6 es correcto: la suma de las raices es 2 + 4 = 6, o equivalentemente -b/a = 6.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Ecuaciones de segundo grado",
+    "subtema": "Resolucion y graficos de ecuaciones cuadraticas",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Si log_3(27) + log_3(1/9) = k, cual es el valor de k?",
+    "options": {
+      "a": "5",
+      "b": "3",
+      "c": "1",
+      "d": "-1",
+      "e": "0"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Calcular log_3(27). Como 27 = 3^3, entonces log_3(27) = 3. Paso 2: Calcular log_3(1/9). Como 1/9 = 9^(-1) = (3^2)^(-1) = 3^(-2), entonces log_3(1/9) = -2. Paso 3: Sumar: k = 3 + (-2) = 1. Verificacion alternativa: log_3(27) + log_3(1/9) = log_3(27 * 1/9) = log_3(27/9) = log_3(3) = 1. A) 5 es incorrecto: resultado de calcular 3 + 2 = 5, olvidando el signo negativo de log_3(1/9). B) 3 es incorrecto: resultado de calcular solo log_3(27) = 3 e ignorar el segundo termino. C) 1 es correcto: log_3(27) + log_3(1/9) = 3 + (-2) = 1. D) -1 es incorrecto: resultado de invertir los calculos, restando 3 - 2 con signo equivocado o calculando log_3(1/9) + log_3(1/27). E) 0 es incorrecto: resultado de pensar que log_3(27 * 1/9) = log_3(1) = 0 por error de simplificacion (27/9 = 3, no 1).",
+    "area_tematica": "Numeros",
+    "tema": "Logaritmos",
+    "subtema": "Concepto y propiedades de los logaritmos",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un triangulo rectangulo, uno de los angulos agudos mide 30 grados y la hipotenusa mide 10 cm. Cual es la longitud del cateto opuesto al angulo de 30 grados?",
+    "options": {
+      "a": "5*sqrt(3) cm",
+      "b": "10*sqrt(3) cm",
+      "c": "5 cm",
+      "d": "5*sqrt(2) cm",
+      "e": "10 cm"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: En un triangulo rectangulo, sen(angulo) = cateto opuesto / hipotenusa. Paso 2: sen(30) = cateto opuesto / 10. Paso 3: Como sen(30) = 1/2, entonces cateto opuesto = 10 * (1/2) = 5 cm. Verificacion: En un triangulo 30-60-90, las proporciones de los lados son 1 : sqrt(3) : 2. Si la hipotenusa es 10, el cateto opuesto a 30 es 10/2 = 5 y el cateto opuesto a 60 es 5*sqrt(3). A) 5*sqrt(3) cm es incorrecto: este es el cateto adyacente al angulo de 30 (u opuesto al de 60), no el opuesto al de 30. Error de confundir seno con coseno. B) 10*sqrt(3) cm es incorrecto: resultado de multiplicar la hipotenusa por sqrt(3), lo cual excede la hipotenusa y es imposible para un cateto. C) 5 cm es correcto: cateto opuesto = hipotenusa * sen(30) = 10 * 0,5 = 5 cm. D) 5*sqrt(2) cm es incorrecto: resultado de confundir este triangulo con un triangulo 45-45-90 donde los catetos serian hipotenusa/sqrt(2). E) 10 cm es incorrecto: este es el valor de la hipotenusa, no del cateto.",
+    "area_tematica": "Geometria",
+    "tema": "Razones trigonometricas",
+    "subtema": "Seno, coseno y tangente en triangulos rectangulos",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "El sistema de ecuaciones lineales: 3x + y = 11 y x - 2y = -1. Cual es el valor de x + y?",
+    "options": {
+      "a": "7",
+      "b": "5",
+      "c": "6",
+      "d": "8",
+      "e": "4"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: De la segunda ecuacion, despejar x: x = 2y - 1. Paso 2: Sustituir en la primera ecuacion: 3(2y - 1) + y = 11. Paso 3: 6y - 3 + y = 11, es decir 7y = 14, entonces y = 2. Paso 4: x = 2(2) - 1 = 3. Paso 5: x + y = 3 + 2 = 5. Verificacion: 3(3) + 2 = 9 + 2 = 11. Correcto. Y 3 - 2(2) = 3 - 4 = -1. Correcto. A) 7 es incorrecto: resultado de calcular x + 2y = 3 + 4 = 7, sumando 2y en vez de y. B) 5 es correcto: x = 3 e y = 2, por lo tanto x + y = 5. C) 6 es incorrecto: resultado de un error algebraico, por ejemplo calcular x = 4 e y = 2 por error al sustituir. D) 8 es incorrecto: resultado de calcular 3x - y = 9 - 1 = 8, confundiendo la expresion pedida. E) 4 es incorrecto: resultado de calcular y + y = 2 + 2 = 4 o un error donde x = 2 e y = 2.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Sistemas de ecuaciones lineales",
+    "subtema": "Resolucion grafica y algebraica",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Roberto invierte $5.000.000 en un deposito a plazo con una tasa de interes compuesto anual del 4%. Si no retira el dinero durante 2 anos, cual es el monto total acumulado al finalizar ese periodo?",
+    "options": {
+      "a": "$5.200.000",
+      "b": "$5.400.000",
+      "c": "$5.408.000",
+      "d": "$5.800.000",
+      "e": "$5.416.000"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: La formula de interes compuesto es M = C * (1 + r)^n, donde C = 5.000.000, r = 0,04, n = 2. Paso 2: M = 5.000.000 * (1,04)^2. Paso 3: (1,04)^2 = 1,04 * 1,04 = 1,0816. Paso 4: M = 5.000.000 * 1,0816 = 5.408.000. Verificacion: Ano 1: 5.000.000 * 1,04 = 5.200.000. Ano 2: 5.200.000 * 1,04 = 5.408.000. Correcto. A) $5.200.000 es incorrecto: resultado de calcular el monto solo despues del primer ano: 5.000.000 * 1,04 = 5.200.000. B) $5.400.000 es incorrecto: resultado de calcular interes simple: 5.000.000 + 5.000.000 * 0,04 * 2 = 5.000.000 + 400.000 = 5.400.000. No considera el interes sobre el interes. C) $5.408.000 es correcto: 5.000.000 * (1,04)^2 = 5.408.000. D) $5.800.000 es incorrecto: resultado de usar una tasa del 8% anual durante un ano, o 4% por 4 anos en interes simple. E) $5.416.000 es incorrecto: resultado de un error de calculo en la potencia, posiblemente calculando 1,04^2 como 1,0832 por error.",
+    "area_tematica": "Numeros",
+    "tema": "Matematica financiera",
+    "subtema": "Calculo de intereses y creditos financieros",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Simplifica la expresion: sqrt(72) - sqrt(32) + sqrt(8).",
+    "options": {
+      "a": "4*sqrt(2)",
+      "b": "2*sqrt(2)",
+      "c": "6*sqrt(2)",
+      "d": "sqrt(48)",
+      "e": "3*sqrt(2)"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Simplificar cada radical. sqrt(72) = sqrt(36 * 2) = 6*sqrt(2). Paso 2: sqrt(32) = sqrt(16 * 2) = 4*sqrt(2). Paso 3: sqrt(8) = sqrt(4 * 2) = 2*sqrt(2). Paso 4: Operar: 6*sqrt(2) - 4*sqrt(2) + 2*sqrt(2) = (6 - 4 + 2)*sqrt(2) = 4*sqrt(2). Verificacion numerica: sqrt(72) ≈ 8,485. sqrt(32) ≈ 5,657. sqrt(8) ≈ 2,828. Resultado: 8,485 - 5,657 + 2,828 ≈ 5,657. Y 4*sqrt(2) ≈ 4 * 1,414 ≈ 5,657. Correcto. A) 4*sqrt(2) es correcto: (6 - 4 + 2)*sqrt(2) = 4*sqrt(2). B) 2*sqrt(2) es incorrecto: resultado de calcular (6 - 4)*sqrt(2) = 2*sqrt(2), olvidando sumar el tercer termino sqrt(8). C) 6*sqrt(2) es incorrecto: resultado de sumar todos los coeficientes (6 + 4 + 2) / 2 o algun error con los signos. D) sqrt(48) es incorrecto: sqrt(48) = 4*sqrt(3), que tiene valor numerico distinto (≈ 6,93). Error de tratar de combinar los radicandos directamente. E) 3*sqrt(2) es incorrecto: resultado de un error de simplificacion, como calcular sqrt(72) = 5*sqrt(2) o sqrt(8) = sqrt(2).",
+    "area_tematica": "Numeros",
+    "tema": "Conjunto de los numeros reales",
+    "subtema": "Relacion entre radicales, fracciones y decimales",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Los pesos (en kg) de 8 paquetes en una bodega son: 12, 15, 18, 22, 14, 30, 16, 13. Cual es el rango de estos datos?",
+    "options": {
+      "a": "18",
+      "b": "15",
+      "c": "17",
+      "d": "12",
+      "e": "22"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Identificar el valor maximo y el valor minimo del conjunto de datos. Paso 2: Ordenando: 12, 13, 14, 15, 16, 18, 22, 30. Valor minimo = 12. Valor maximo = 30. Paso 3: El rango es la diferencia entre el valor maximo y el minimo: Rango = 30 - 12 = 18. A) 18 es correcto: el rango es 30 - 12 = 18. B) 15 es incorrecto: este es uno de los datos del conjunto o resultado de restar 30 - 15 = 15 usando un dato que no es el minimo. C) 17 es incorrecto: resultado de restar 30 - 13 = 17, usando el segundo valor mas bajo en vez del minimo. D) 12 es incorrecto: este es el valor minimo del conjunto, no el rango. Error de confundir el rango con el minimo. E) 22 es incorrecto: resultado de restar 30 - 8 = 22 (confundiendo el numero de datos con un dato) o es simplemente otro dato del conjunto.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Medidas de dispersion",
+    "subtema": "Analisis de variabilidad de datos",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En una ciudad, el 60% de los dias de julio son nublados. De los dias nublados, el 30% tiene lluvia. Cual es la probabilidad de que un dia de julio elegido al azar sea nublado y con lluvia?",
+    "options": {
+      "a": "0,90",
+      "b": "0,30",
+      "c": "0,50",
+      "d": "0,18",
+      "e": "0,02"
+    },
+    "correct_answer": "d",
+    "explanation": "Paso 1: Identificar las probabilidades. P(nublado) = 0,60. P(lluvia | nublado) = 0,30. Paso 2: Usando la definicion de probabilidad condicional: P(nublado y lluvia) = P(nublado) * P(lluvia | nublado). Paso 3: P(nublado y lluvia) = 0,60 * 0,30 = 0,18. A) 0,90 es incorrecto: resultado de sumar 0,60 + 0,30 = 0,90, confundiendo la probabilidad conjunta con la suma de probabilidades. B) 0,30 es incorrecto: resultado de tomar solo P(lluvia | nublado) = 0,30 sin considerar que es condicional al evento nublado. C) 0,50 es incorrecto: resultado de calcular 0,30/0,60 = 0,50, dividiendo en vez de multiplicar las probabilidades. D) 0,18 es correcto: P(nublado y lluvia) = 0,60 * 0,30 = 0,18. E) 0,02 es incorrecto: resultado de multiplicar 0,06 * 0,3 o un error de calculo con los decimales.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Probabilidad condicional",
+    "subtema": "Aplicaciones de probabilidad condicional",
+    "difficulty": 2,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un triangulo rectangulo, el cateto adyacente a un angulo agudo mide 5 cm y la hipotenusa mide 13 cm. Cual es el valor del seno de dicho angulo agudo?",
+    "options": {
+      "a": "5/13",
+      "b": "12/13",
+      "c": "5/12",
+      "d": "13/12",
+      "e": "12/5"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Usar el Teorema de Pitagoras para encontrar el cateto opuesto. cateto_opuesto^2 = hipotenusa^2 - cateto_adyacente^2 = 13^2 - 5^2 = 169 - 25 = 144. Paso 2: cateto_opuesto = sqrt(144) = 12 cm. Paso 3: El seno del angulo es sen = cateto opuesto / hipotenusa = 12/13. Verificacion: 5^2 + 12^2 = 25 + 144 = 169 = 13^2 (terna pitagorica 5-12-13). A) 5/13 es incorrecto: este es el coseno del angulo (cateto adyacente / hipotenusa), no el seno. Error de confundir seno con coseno. B) 12/13 es correcto: sen = cateto opuesto / hipotenusa = 12/13. C) 5/12 es incorrecto: este es la cotangente del angulo (cateto adyacente / cateto opuesto) o la tangente del angulo complementario. D) 13/12 es incorrecto: este es la cosecante (inversa del seno), resultado de invertir la fraccion correcta. E) 12/5 es incorrecto: este es la tangente del angulo (cateto opuesto / cateto adyacente), no el seno.",
+    "area_tematica": "Geometria",
+    "tema": "Razones trigonometricas",
+    "subtema": "Seno, coseno y tangente en triangulos rectangulos",
+    "difficulty": 3,
+    "habilidad": "Argumentar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un credito de consumo por $1.200.000 se paga en 12 cuotas mensuales iguales con una tasa de interes simple mensual del 1,5%. Cual es el monto total que se pagara al terminar de pagar las 12 cuotas?",
+    "options": {
+      "a": "$1.200.000",
+      "b": "$1.218.000",
+      "c": "$1.380.000",
+      "d": "$1.320.000",
+      "e": "$1.416.000"
+    },
+    "correct_answer": "e",
+    "explanation": "Paso 1: Calcular el interes total con interes simple. I = C * r * n = 1.200.000 * 0,015 * 12. Paso 2: I = 1.200.000 * 0,18 = 216.000. Paso 3: Monto total = Capital + Interes = 1.200.000 + 216.000 = 1.416.000. Verificacion: 1.200.000 * 0,015 = 18.000 por mes. En 12 meses: 18.000 * 12 = 216.000 de interes total. Total: 1.200.000 + 216.000 = 1.416.000. A) $1.200.000 es incorrecto: este es solo el capital original sin intereses. B) $1.218.000 es incorrecto: resultado de calcular solo un mes de interes: 1.200.000 + 18.000 = 1.218.000, como si fuera una sola cuota de interes. C) $1.380.000 es incorrecto: resultado de usar una tasa del 1,5% anual (no mensual): 1.200.000 * 0,015 * 12 confundido como 1.200.000 * 0,15 = 180.000. D) $1.320.000 es incorrecto: resultado de calcular 1.200.000 * 0,01 * 12 = 144.000, o usar una tasa del 1% en vez de 1,5%: 1.200.000 + 120.000 = 1.320.000. E) $1.416.000 es correcto: 1.200.000 + (1.200.000 * 0,015 * 12) = 1.200.000 + 216.000 = 1.416.000.",
+    "area_tematica": "Numeros",
+    "tema": "Matematica financiera",
+    "subtema": "Calculo de intereses y creditos financieros",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  }
+]

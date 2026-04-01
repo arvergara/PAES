@@ -1,0 +1,87 @@
+[
+  {
+    "content": "En un cultivo de células animales, se aplica colchicina, una sustancia que inhibe la formación del huso mitótico. ¿Cuál es el efecto esperado sobre las células tratadas?",
+    "options": {
+      "a": "Las células completarán la división celular normalmente, pero las células hijas serán más pequeñas.",
+      "b": "Las células se detendrán en metafase, ya que los cromosomas no podrán migrar hacia los polos celulares.",
+      "c": "Las células entrarán directamente en meiosis II sin completar la primera división meiótica.",
+      "d": "Las células duplicarán su ADN repetidamente sin detenerse, generando células con múltiples núcleos."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la colchicina inhibe la polimerización de los microtúbulos que forman el huso mitótico, estructura indispensable para la separación de los cromosomas durante la anafase. Sin huso mitótico funcional, los cromosomas se alinean en la placa metafásica pero no pueden ser traccionados hacia los polos, deteniendo la célula en metafase. La opción (a) es incorrecta porque sin huso mitótico la división celular no puede completarse. La opción (c) es incorrecta porque la colchicina no induce meiosis. La opción (d) es incorrecta porque la duplicación del ADN ocurre antes de la mitosis y no se repite indefinidamente.",
+    "area_tematica": "Biologia",
+    "tema": "Herencia y evolucion",
+    "subtema": "Division celular (mitosis y meiosis)",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "En un ecosistema terrestre, los productores primarios fijan energía solar mediante fotosíntesis. Un estudio muestra que los productores acumulan 10.000 kcal de energía, los consumidores primarios 1.000 kcal y los consumidores secundarios 100 kcal. ¿Cuál de las siguientes afirmaciones explica correctamente esta distribución de energía en la cadena trófica?",
+    "options": {
+      "a": "La energía se crea en cada nivel trófico, pero en cantidades cada vez menores debido al tamaño corporal de los organismos.",
+      "b": "En cada nivel trófico se transfiere aproximadamente el 10% de la energía al nivel siguiente, ya que el resto se pierde principalmente como calor en la respiración celular.",
+      "c": "Los consumidores secundarios reciben menos energía porque son menos eficientes en la captura de sus presas que los consumidores primarios.",
+      "d": "La disminución de energía entre niveles tróficos se debe a que los productores absorben progresivamente la energía de los niveles superiores."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque en cada nivel trófico los organismos utilizan gran parte de la energía asimilada para sus procesos metabólicos (respiración celular), liberándola como calor. Esto explica que típicamente solo un 10% de la energía de un nivel trófico se transfiera al siguiente (10.000 → 1.000 → 100 kcal). La opción (a) es incorrecta porque la energía no se crea. La opción (c) es incorrecta porque la principal razón es la pérdida metabólica. La opción (d) es incorrecta porque el flujo de energía es unidireccional.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Cadenas troficas y flujo de materia y energia en los ecosistemas",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se observan al microscopio electrónico dos tipos celulares: una bacteria y una célula animal. Ambas presentan membrana plasmática, ribosomas y material genético. Sin embargo, difieren en la presencia de ciertos organelos. ¿Cuál de las siguientes diferencias es correcta entre estas células?",
+    "options": {
+      "a": "La bacteria posee mitocondrias para la producción de ATP, mientras que la célula animal carece de ellas.",
+      "b": "La célula animal posee núcleo delimitado por una doble membrana, mientras que la bacteria tiene su ADN disperso en el citoplasma formando un nucleoide.",
+      "c": "La bacteria posee retículo endoplasmático rugoso para la síntesis de proteínas, mientras que la célula animal utiliza únicamente ribosomas libres.",
+      "d": "Ambas células poseen aparato de Golgi funcional, pero en la bacteria este se encuentra asociado a la pared celular."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la principal diferencia entre células procariontes (bacteria) y eucariontes (célula animal) es la presencia de un núcleo verdadero delimitado por envoltura nuclear de doble membrana en eucariontes. En bacterias, el ADN se encuentra en el nucleoide sin membrana. La opción (a) es incorrecta porque las mitocondrias son exclusivas de eucariontes. La opción (c) es incorrecta porque el retículo endoplasmático es exclusivo de eucariontes. La opción (d) es incorrecta porque el aparato de Golgi es exclusivo de eucariontes.",
+    "area_tematica": "Biologia",
+    "tema": "Organizacion, estructura y actividad celular",
+    "subtema": "Organelos y estructuras celulares en procariontes y eucariontes",
+    "difficulty": 2,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una persona es diagnosticada con una infección por el virus del papiloma humano (VPH). El médico le explica que ciertos serotipos de este virus están asociados a un mayor riesgo de desarrollar cáncer cervicouterino. Respecto a esta infección de transmisión sexual, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": {
+      "a": "El VPH se transmite exclusivamente a través de transfusiones de sangre contaminada, no por contacto sexual directo.",
+      "b": "La vacunación contra el VPH es efectiva únicamente si se administra después de contraer la infección, como tratamiento curativo.",
+      "c": "Los serotipos de alto riesgo del VPH pueden integrar su material genético en el ADN de la célula huésped, alterando el control del ciclo celular y favoreciendo la transformación maligna.",
+      "d": "El uso de anticonceptivos hormonales orales previene completamente la infección por VPH al modificar el pH vaginal."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque los serotipos de alto riesgo del VPH (como 16 y 18) producen oncoproteínas E6 y E7 que inactivan proteínas supresoras de tumores (p53 y Rb), alterando la regulación del ciclo celular. La opción (a) es incorrecta porque el VPH se transmite por contacto directo piel/mucosa durante relaciones sexuales. La opción (b) es incorrecta porque la vacuna es preventiva, no curativa. La opción (d) es incorrecta porque los anticonceptivos hormonales no previenen ITS.",
+    "area_tematica": "Biologia",
+    "tema": "Procesos y funciones biologicas",
+    "subtema": "Infecciones de transmision sexual (ITS)",
+    "difficulty": 3,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una planta acuática sumergida es iluminada con luz blanca de intensidad constante. Se observa que produce burbujas de oxígeno a una tasa estable. Si se aumenta progresivamente la concentración de CO₂ disuelto en el agua, manteniendo constantes la temperatura y la intensidad lumínica, ¿qué se espera que ocurra con la tasa de fotosíntesis?",
+    "options": {
+      "a": "La tasa de fotosíntesis disminuirá progresivamente, ya que el exceso de CO₂ inhibe la enzima RuBisCO.",
+      "b": "La tasa de fotosíntesis aumentará inicialmente al disponer de más sustrato para la fijación de carbono, hasta estabilizarse cuando otro factor se vuelva limitante.",
+      "c": "La tasa de fotosíntesis no se modificará, porque la concentración de CO₂ no influye en las reacciones del ciclo de Calvin.",
+      "d": "La tasa de fotosíntesis aumentará indefinidamente de forma proporcional a la concentración de CO₂, sin alcanzar nunca un máximo."
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque el CO₂ es sustrato de la RuBisCO en el ciclo de Calvin. Al aumentar su concentración, se incrementa la fijación de carbono. Sin embargo, eventualmente otro factor (como la intensidad lumínica fija o la cantidad de enzimas) se vuelve limitante (concepto de factor limitante de Blackman). La opción (a) es incorrecta porque el CO₂ no inhibe a la RuBisCO. La opción (c) es incorrecta porque el CO₂ es el sustrato principal del ciclo de Calvin. La opción (d) es incorrecta porque la tasa se satura al agotarse otros factores.",
+    "area_tematica": "Biologia",
+    "tema": "Organismo y ambiente",
+    "subtema": "Fotosintesis y respiracion celular",
+    "difficulty": 4,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

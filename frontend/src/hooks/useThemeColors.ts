@@ -1,38 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useTheme as useThemeContext } from '../contexts/ThemeContext';
 
-export type ThemeColor = 'classic' | 'indigo' | 'slate' | 'rose' | 'emerald' | 'amber' | 'purple' | 'ocean';
-
-// Hook para obtener el tema actual
-export function useTheme(): ThemeColor {
-  const [theme, setTheme] = useState<ThemeColor>(() => {
-    if (typeof window !== 'undefined') {
-      return (localStorage.getItem('theme-color') as ThemeColor) || 'classic';
-    }
-    return 'classic';
-  });
-
-  useEffect(() => {
-    const checkTheme = () => {
-      const currentTheme = (localStorage.getItem('theme-color') as ThemeColor) || 'classic';
-      if (currentTheme !== theme) {
-        setTheme(currentTheme);
-      }
-    };
-
-    // Revisar periódicamente (para cambios del ThemeContext)
-    const interval = setInterval(checkTheme, 100);
-    
-    // También escuchar cambios de storage
-    window.addEventListener('storage', checkTheme);
-    
-    return () => {
-      clearInterval(interval);
-      window.removeEventListener('storage', checkTheme);
-    };
-  }, [theme]);
-
-  return theme;
-}
+export type ThemeColor = 'classic' | 'indigo' | 'slate' | 'rose' | 'emerald' | 'amber' | 'ocean';
 
 // Definición completa de colores por tema
 const themeColorMap: Record<ThemeColor, {
@@ -133,20 +101,6 @@ const themeColorMap: Record<ThemeColor, {
     badge: 'bg-amber-500',
     optionBg: 'border-amber-400 bg-amber-50 dark:bg-amber-900/30 ring-amber-100 dark:ring-amber-800',
   },
-  purple: {
-    primary: 'bg-purple-600',
-    primaryHover: 'hover:bg-purple-700',
-    primaryText: 'text-purple-600 dark:text-purple-400',
-    primaryLight: 'bg-purple-50 dark:bg-purple-900/30',
-    primaryBorder: 'border-purple-500',
-    tabActive: 'text-purple-600 dark:text-purple-400 border-purple-600 dark:border-purple-400',
-    tabActiveBg: 'bg-purple-50 dark:bg-purple-900/30',
-    selected: 'border-purple-500 bg-purple-500',
-    selectedRing: 'ring-purple-100 dark:ring-purple-800',
-    hover: 'hover:border-purple-400 dark:hover:border-purple-500 hover:bg-purple-50 dark:hover:bg-gray-600',
-    badge: 'bg-purple-500',
-    optionBg: 'border-purple-400 bg-purple-50 dark:bg-purple-900/30 ring-purple-100 dark:ring-purple-800',
-  },
   ocean: {
     primary: 'bg-cyan-600',
     primaryHover: 'hover:bg-cyan-700',
@@ -165,7 +119,7 @@ const themeColorMap: Record<ThemeColor, {
 
 // Hook principal que retorna todos los colores del tema actual
 export function useThemeColors() {
-  const theme = useTheme();
+  const { theme } = useThemeContext();
   return themeColorMap[theme] || themeColorMap.classic;
 }
 

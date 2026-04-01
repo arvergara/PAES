@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Home, BookOpen, CheckCircle2, AlertCircle, Brain, FileText, HelpCircle, ArrowLeft, SkipForward } from 'lucide-react';
+import { Home, BookOpen, CheckCircle2, AlertCircle, Brain, FileText, HelpCircle, ArrowLeft, SkipForward, Loader2 } from 'lucide-react';
 import type { Question, Subject } from '../types';
 import { QuestionView } from './QuestionView';
 import { PdfViewer } from './PdfViewer';
@@ -8,6 +8,7 @@ import { getQuestionsBySubject } from '../lib/questions';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import { useThemeColors } from '../hooks/useThemeColors';
+import { useImagePreloader } from '../hooks/useImagePreloader';
 import toast from 'react-hot-toast';
 
 // Interfaz para sesión restaurada
@@ -62,6 +63,10 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
   const [navExpanded, setNavExpanded] = useState(false);
   const navScrollRef = useRef<HTMLDivElement>(null);
 
+  // --- Explicaciones ---
+  const [currentExplanation, setCurrentExplanation] = useState<string | null>(null);
+  const [isLoadingExplanation, setIsLoadingExplanation] = useState(false);
+
   const currentQuestion = questionQueue[currentQuestionIndex] || null;
   const isLanguageQuestion = currentQuestion?.subject === 'L';
   const currentReadingText = currentQuestion?.reading_text_id 
@@ -71,15 +76,52 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
   const hasQuestionLimit = questionCount > 0;
   const effectiveLimit = hasQuestionLimit ? questionCount : questionQueue.length;
 
+  // --- Precargar imágenes de las próximas 4 preguntas ---
+  const nextImageUrls = questionQueue
+    .slice(currentQuestionIndex, currentQuestionIndex + 4)
+    .map(q => q.image_url);
+  useImagePreloader(nextImageUrls);
+
+  // --- Fetch explicación desde DB ---
+  const fetchExplanation = async (question: Question) => {
+    if (question.explanation) {
+      setCurrentExplanation(question.explanation);
+      return;
+    }
+
+    if (!question.id) {
+      setCurrentExplanation(null);
+      return;
+    }
+
+    setIsLoadingExplanation(true);
+    try {
+      const { data, error } = await supabase
+        .from('questions')
+        .select('explanation')
+        .eq('id', question.id)
+        .maybeSingle();
+      
+      if (error) {
+        setCurrentExplanation(null);
+      } else {
+        setCurrentExplanation(data?.explanation || null);
+      }
+    } catch (err) {
+      setCurrentExplanation(null);
+    } finally {
+      setIsLoadingExplanation(false);
+    }
+  };
+
   // Función para guardar sesión al salir
   const handleExitWithSave = () => {
     if (onSessionChange && questionQueue.length > 0 && !isFinished) {
-      // Guardar sesión actual
       onSessionChange({
         subject,
         mode: 'REVIEW',
         currentQuestionIndex,
-        timeRemaining: 999999, // ReviewMode no tiene tiempo límite
+        timeRemaining: 999999,
         totalQuestions: effectiveLimit,
         questionIds: questionQueue.map(q => q.id),
         answers: answersRecord,
@@ -104,14 +146,12 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
 
         // Verificar si hay sesión para restaurar
         if (resumeSession && resumeSession.questionIds && resumeSession.questionIds.length > 0) {
-          // Restaurar sesión: ordenar preguntas según questionIds guardados
           const questionMap = new Map(questions.map(q => [q.id, q]));
           const restoredQueue = resumeSession.questionIds
             .map(id => questionMap.get(id))
             .filter((q): q is Question => q !== undefined);
 
           if (restoredQueue.length > 0) {
-            // Para Lenguaje: cargar textos de lectura
             if (subject === 'L') {
               await loadReadingTexts(restoredQueue);
             }
@@ -119,13 +159,11 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
             setQuestionQueue(restoredQueue);
             setCurrentQuestionIndex(resumeSession.currentQuestionIndex);
             
-            // Restaurar respuestas anteriores
             if (resumeSession.answers) {
               setAnswersRecord(resumeSession.answers as Record<string, string>);
               const answeredCount = Object.keys(resumeSession.answers).length;
               setQuestionsAnswered(answeredCount);
               
-              // Reconstruir answeredQuestions y correctAnswers
               const answered: Question[] = [];
               let correct = 0;
               for (let i = 0; i < answeredCount; i++) {
@@ -141,7 +179,6 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
               setCorrectAnswers(correct);
             }
             
-            // Limpiar la sesión guardada ya que la estamos restaurando
             if (onSessionChange) {
               onSessionChange(null);
             }
@@ -151,24 +188,20 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
           }
         }
 
-        // Para Lenguaje: agrupar por reading_text_id y ordenar
         let orderedQuestions: Question[];
         if (subject === 'L') {
           await loadReadingTexts(questions);
           orderedQuestions = orderLanguageQuestions(questions);
         } else {
-          // Para otras materias: barajar aleatoriamente
           orderedQuestions = shuffleArray([...questions]);
         }
 
-        // Aplicar límite si existe
         const limitedQuestions = hasQuestionLimit 
           ? orderedQuestions.slice(0, questionCount)
           : orderedQuestions;
 
         setQuestionQueue(limitedQuestions);
 
-        // Crear sesión
         if (user) {
           const { error: sessionError } = await supabase.from('user_sessions').insert({
             id: sessionId,
@@ -197,9 +230,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
     loadData();
   }, [user, subject, questionCount]);
 
-  // Ordenar preguntas de Lenguaje por texto
   const orderLanguageQuestions = (questions: Question[]): Question[] => {
-    // Agrupar por reading_text_id
     const byText: Record<number, Question[]> = {};
     const noText: Question[] = [];
 
@@ -214,21 +245,17 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
       }
     });
 
-    // Ordenar preguntas dentro de cada texto por question_number
     Object.values(byText).forEach(group => {
       group.sort((a, b) => (a.question_number || 0) - (b.question_number || 0));
     });
 
-    // Barajar el orden de los textos
     const textIds = shuffleArray(Object.keys(byText).map(Number));
     
-    // Construir cola: todas las preguntas de un texto juntas
     const result: Question[] = [];
     textIds.forEach(textId => {
       result.push(...byText[textId]);
     });
     
-    // Agregar preguntas sin texto al final (barajadas)
     result.push(...shuffleArray(noText));
     
     return result;
@@ -334,6 +361,10 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
     setShowExplanation(true);
     setSubmittedAnswers(prev => ({ ...prev, [currentQuestionIndex]: true }));
     
+    // Fetch explicación al responder
+    setCurrentExplanation(null);
+    fetchExplanation(currentQuestion);
+
     const questionIndex = currentQuestionIndex;
     setAnsweredQuestions(prev => [...prev, currentQuestion]);
     setAnswersRecord(prev => ({ ...prev, [questionIndex]: answer }));
@@ -357,7 +388,8 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
         session_id: sessionId,
         question_id: currentQuestion.id,
         subject: currentQuestion.subject,
-        selected_answer: answer,
+        mode: 'REVIEW',
+        answer,
         is_correct: isCorrect,
         time_spent: 0
       });
@@ -373,6 +405,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
   const handleNext = () => {
     setCurrentAnswer(null);
     setShowExplanation(false);
+    setCurrentExplanation(null);
 
     // Find next unanswered question
     let nextUnanswered = -1;
@@ -413,7 +446,6 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
 
   const handleStop = () => {
     saveSession();
-    // Limpiar sesión guardada al terminar voluntariamente
     if (onSessionChange) {
       onSessionChange(null);
     }
@@ -780,15 +812,26 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
                 )}
               </div>
 
-              {currentQuestion.explanation && (
-                <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
-                  <div className="flex items-center space-x-2 mb-2">
-                    <BookOpen className={`h-5 w-5 ${colors.primaryText}`} />
-                    <h4 className={`font-semibold ${colors.primaryText}`}>Explicación</h4>
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{currentQuestion.explanation}</p>
+              {/* Explicación con loading state */}
+              <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
+                <div className="flex items-center space-x-2 mb-2">
+                  <BookOpen className={`h-5 w-5 ${colors.primaryText}`} />
+                  <h4 className={`font-semibold ${colors.primaryText}`}>Explicación</h4>
                 </div>
-              )}
+                
+                {isLoadingExplanation ? (
+                  <div className="flex items-center space-x-2 text-gray-500">
+                    <Loader2 className="h-4 w-4 animate-spin" />
+                    <span>Cargando explicación...</span>
+                  </div>
+                ) : currentExplanation ? (
+                  <p className="text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{currentExplanation}</p>
+                ) : (
+                  <p className="text-gray-500 italic">
+                    No hay explicación disponible para esta pregunta.
+                  </p>
+                )}
+              </div>
 
               <button
                 onClick={handleNext}

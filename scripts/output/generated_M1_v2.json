@@ -1,0 +1,172 @@
+[
+  {
+    "content": "En una ferreteria, el precio de un taladro es $48.000. Durante una oferta, se aplica un descuento del 15% y luego, al pagar con tarjeta del banco, se aplica un descuento adicional del 10% sobre el precio ya rebajado. Cual es el precio final del taladro pagando con la tarjeta del banco?",
+    "options": {
+      "a": "$36.000",
+      "b": "$40.800",
+      "c": "$36.720",
+      "d": "$34.200"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Aplicar el descuento del 15% sobre $48.000. Precio con primer descuento = 48.000 * (1 - 0,15) = 48.000 * 0,85 = $40.800. Paso 2: Aplicar el 10% adicional sobre el precio ya rebajado. Precio final = 40.800 * (1 - 0,10) = 40.800 * 0,90 = $36.720. Verificacion: 48.000 * 0,85 * 0,90 = 48.000 * 0,765 = 36.720. A) $36.000 es incorrecto: resultado de aplicar un 25% directo (48.000 * 0,75 = 36.000), sumando los porcentajes como si fueran un solo descuento. B) $40.800 es incorrecto: resultado de aplicar solo el primer descuento del 15% y olvidar el segundo. C) $36.720 es correcto: descuentos sucesivos de 15% y luego 10% dan 48.000 * 0,85 * 0,90 = 36.720. D) $34.200 es incorrecto: resultado de un error de calculo distinto, como aplicar 28,75% de descuento.",
+    "area_tematica": "Numeros",
+    "tema": "Porcentaje",
+    "subtema": "Aplicaciones del porcentaje en descuentos e intereses",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Si a = -3 y b = 2, cual es el valor de la expresion (a^2 * b^(-1)) / (a^(-1) * b)?",
+    "options": {
+      "a": "-27/4",
+      "b": "27/4",
+      "c": "-9/4",
+      "d": "9/4"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Simplificar agrupando potencias. (a^2 * b^(-1)) / (a^(-1) * b) = a^(2-(-1)) * b^(-1-1) = a^3 * b^(-2). Paso 2: Sustituir a = -3 y b = 2. a^3 = (-3)^3 = -27. b^(-2) = 2^(-2) = 1/4. Paso 3: Multiplicar: -27 * (1/4) = -27/4. Verificacion directa: Numerador = (-3)^2 * 2^(-1) = 9 * (1/2) = 9/2. Denominador = (-3)^(-1) * 2 = (-1/3) * 2 = -2/3. Division: (9/2) / (-2/3) = (9/2) * (-3/2) = -27/4. Correcto. A) -27/4 es correcto: a^3 * b^(-2) = (-27) * (1/4) = -27/4. B) 27/4 es incorrecto: resultado de olvidar que (-3)^3 = -27 y no +27, es decir, error de signo en la potencia impar. C) -9/4 es incorrecto: resultado de calcular a^(2-(-1)) = a^1 = -3 en vez de a^3, error en la resta de exponentes negativos. D) 9/4 es incorrecto: combina ambos errores, calculando a^1 = 3 (sin el signo) y b^(-2) = 1/4.",
+    "area_tematica": "Numeros",
+    "tema": "Potencias y raices enesimas",
+    "subtema": "Propiedades de las potencias de base racional y exponente racional",
+    "difficulty": 3,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Cual de los siguientes numeros es el resultado de ordenar de menor a mayor los valores -5/3, -2, 0,5 y -1,8 y luego seleccionar el segundo?",
+    "options": {
+      "a": "-5/3",
+      "b": "-2",
+      "c": "0,5",
+      "d": "-1,8"
+    },
+    "correct_answer": "d",
+    "explanation": "Paso 1: Convertir todas las fracciones a decimales para comparar. -5/3 = -1,666... (periodico). -2 = -2,0. 0,5 = 0,5. -1,8 = -1,8. Paso 2: Ordenar de menor a mayor. El numero mas negativo es el menor: -2,0 < -1,8 < -1,666... < 0,5. Es decir: -2 < -1,8 < -5/3 < 0,5. Paso 3: El segundo en el orden (de menor a mayor) es -1,8. A) -5/3 es incorrecto: -5/3 = -1,666... es el tercero en el orden, no el segundo. Error comun de pensar que -5/3 < -1,8 porque 5/3 > 1,8. B) -2 es incorrecto: -2 es el primero (el menor), no el segundo. C) 0,5 es incorrecto: 0,5 es el cuarto (el mayor de todos). D) -1,8 es correcto: en el orden -2 < -1,8 < -5/3 < 0,5, el segundo valor es -1,8.",
+    "area_tematica": "Numeros",
+    "tema": "Conjunto de los numeros enteros y racionales",
+    "subtema": "Operaciones y orden en el conjunto de los numeros enteros y racionales",
+    "difficulty": 2,
+    "habilidad": "Argumentar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una receta de cocina para 4 personas requiere 600 gramos de harina. Si se quiere preparar la misma receta para 10 personas, cuantos gramos de harina se necesitan?",
+    "options": {
+      "a": "1.200 gramos",
+      "b": "1.500 gramos",
+      "c": "2.400 gramos",
+      "d": "900 gramos"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Identificar que se trata de una proporcion directa: mas personas requieren mas harina. Paso 2: Plantear la proporcion. 4 personas -> 600 gramos. 10 personas -> x gramos. Paso 3: 4/10 = 600/x, entonces x = 600 * 10 / 4 = 6.000 / 4 = 1.500. Verificacion: 600 gramos / 4 personas = 150 gramos por persona. Para 10 personas: 150 * 10 = 1.500 gramos. A) 1.200 gramos es incorrecto: resultado de multiplicar 600 * 2 = 1.200, como si fuera el doble de personas (8) en vez de 10. B) 1.500 gramos es correcto: 150 gramos por persona * 10 personas = 1.500 gramos. C) 2.400 gramos es incorrecto: resultado de multiplicar 600 * 4 = 2.400, error de multiplicar por el numero original de personas. D) 900 gramos es incorrecto: resultado de sumar 600 + 150 * 2 = 900, calculando solo el incremento para 2 personas adicionales en vez de 6.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Proporcionalidad",
+    "subtema": "Concepto de proporcion directa e inversa",
+    "difficulty": 1,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se lanzan dos dados simultaneamente. Cual es la probabilidad de que la suma de ambos dados sea igual a 7?",
+    "options": {
+      "a": "7/36",
+      "b": "1/12",
+      "c": "5/36",
+      "d": "1/6"
+    },
+    "correct_answer": "d",
+    "explanation": "Paso 1: El espacio muestral al lanzar dos dados tiene 6 * 6 = 36 resultados posibles. Paso 2: Contar los pares (dado1, dado2) que suman 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Son 6 pares favorables. Paso 3: P(suma = 7) = 6/36 = 1/6. A) 7/36 es incorrecto: error de usar el valor de la suma (7) como numero de casos favorables en vez de contar los pares reales. B) 1/12 es incorrecto: resultado de calcular 3/36 = 1/12, contando solo la mitad de los pares favorables (solo los donde dado1 < dado2). C) 5/36 es incorrecto: resultado de contar solo 5 pares, olvidando uno de los casos como (6,1). D) 1/6 es correcto: hay 6 combinaciones que suman 7 de un total de 36, es decir 6/36 = 1/6.",
+    "area_tematica": "Estadistica",
+    "tema": "Probabilidades",
+    "subtema": "Probabilidad simple",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Las notas de un estudiante en 5 pruebas de matematicas fueron: 5,0; 6,0; 4,5; 5,5 y 5,0. Cual es la mediana de estas notas?",
+    "options": {
+      "a": "5,2",
+      "b": "5,0",
+      "c": "5,5",
+      "d": "4,5"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Ordenar los datos de menor a mayor: 4,5; 5,0; 5,0; 5,5; 6,0. Paso 2: Como hay 5 datos (numero impar), la mediana es el valor central, es decir el tercer dato. Paso 3: El tercer dato en orden es 5,0. Verificacion: la media seria (4,5 + 5,0 + 5,0 + 5,5 + 6,0) / 5 = 26,0 / 5 = 5,2 (distinta de la mediana). A) 5,2 es incorrecto: este es el promedio (media aritmetica), no la mediana. Error comun de confundir media con mediana. B) 5,0 es correcto: al ordenar los 5 datos, el valor central (posicion 3) es 5,0. C) 5,5 es incorrecto: resultado de tomar el cuarto dato en vez del tercero, o no ordenar los datos correctamente. D) 4,5 es incorrecto: resultado de seleccionar el valor minimo en vez de la mediana.",
+    "area_tematica": "Probabilidad y Estadistica",
+    "tema": "Medidas de tendencia central",
+    "subtema": "Media, mediana y moda",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un tanque de agua tiene forma de prisma rectangular con base de 2 metros de largo y 1,5 metros de ancho, y una altura de 1,2 metros. Si el tanque esta lleno hasta 3/4 de su capacidad, cuantos litros de agua contiene? (1 m^3 = 1.000 litros)",
+    "options": {
+      "a": "3.600 litros",
+      "b": "2.400 litros",
+      "c": "2.700 litros",
+      "d": "1.800 litros"
+    },
+    "correct_answer": "c",
+    "explanation": "Paso 1: Calcular el volumen total del prisma rectangular. V = largo * ancho * altura = 2 * 1,5 * 1,2 = 3,6 m^3. Paso 2: Calcular el volumen de agua (3/4 del total). V_agua = (3/4) * 3,6 = 2,7 m^3. Paso 3: Convertir a litros. 2,7 m^3 * 1.000 = 2.700 litros. A) 3.600 litros es incorrecto: resultado de calcular el volumen total sin aplicar la fraccion de 3/4. B) 2.400 litros es incorrecto: resultado de usar 2/3 en vez de 3/4 sobre el volumen total. C) 2.700 litros es correcto: volumen total 3,6 m^3, 3/4 de eso es 2,7 m^3 = 2.700 litros. D) 1.800 litros es incorrecto: resultado de calcular 3,6 / 2 = 1,8 m^3, dividiendo por 2 en vez de multiplicar por 3/4.",
+    "area_tematica": "Geometria",
+    "tema": "Cuerpos geometricos",
+    "subtema": "area y volumen de prismas rectos y cilindros",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un poste de 5 metros de altura proyecta una sombra de 12 metros sobre el suelo. Cual es la distancia desde la punta del poste hasta el extremo de la sombra?",
+    "options": {
+      "a": "13 metros",
+      "b": "17 metros",
+      "c": "11 metros",
+      "d": "15 metros"
+    },
+    "correct_answer": "a",
+    "explanation": "Paso 1: Identificar el triangulo rectangulo formado por el poste (cateto vertical = 5 m), la sombra (cateto horizontal = 12 m) y la distancia pedida (hipotenusa). Paso 2: Aplicar el Teorema de Pitagoras: hipotenusa^2 = 5^2 + 12^2 = 25 + 144 = 169. Paso 3: hipotenusa = sqrt(169) = 13 metros. Verificacion: 5^2 + 12^2 = 25 + 144 = 169 = 13^2. Correcto (terna pitagorica 5-12-13). A) 13 metros es correcto: sqrt(5^2 + 12^2) = sqrt(169) = 13. B) 17 metros es incorrecto: resultado de sumar los catetos directamente, 5 + 12 = 17, sin aplicar Pitagoras. C) 11 metros es incorrecto: resultado de calcular sqrt(12^2 - 5^2) = sqrt(144 - 25) = sqrt(119) ≈ 10,9 ≈ 11, restando en vez de sumar los cuadrados. D) 15 metros es incorrecto: resultado de un error de calculo, posiblemente confundiendo con la terna pitagorica 9-12-15.",
+    "area_tematica": "Geometria",
+    "tema": "Figuras geometricas",
+    "subtema": "Teorema de Pitagoras y perimetro y areas",
+    "difficulty": 1,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Si 3x - 7 = 2x + 5, cual es el valor de 4x?",
+    "options": {
+      "a": "12",
+      "b": "24",
+      "c": "3",
+      "d": "48"
+    },
+    "correct_answer": "d",
+    "explanation": "Paso 1: Resolver la ecuacion 3x - 7 = 2x + 5. Paso 2: Restar 2x en ambos lados: 3x - 2x - 7 = 5, es decir x - 7 = 5. Paso 3: Sumar 7 en ambos lados: x = 12. Paso 4: Calcular 4x = 4 * 12 = 48. Verificacion: 3(12) - 7 = 36 - 7 = 29. Y 2(12) + 5 = 24 + 5 = 29. Ambos lados son iguales. A) 12 es incorrecto: este es el valor de x, no de 4x. Error comun de responder la incognita en vez de la expresion pedida. B) 24 es incorrecto: resultado de calcular 2x = 2 * 12 = 24 en vez de 4x, confundiendo el coeficiente. C) 3 es incorrecto: resultado de calcular 12/4 = 3 en vez de 12 * 4, confundiendo multiplicacion con division. D) 48 es correcto: x = 12, entonces 4x = 4 * 12 = 48.",
+    "area_tematica": "Algebra y funciones",
+    "tema": "Ecuaciones e inecuaciones de primer grado",
+    "subtema": "Resolucion de ecuaciones lineales e inecuaciones",
+    "difficulty": 1,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se sabe que el sistema de ecuaciones: x + y = 10 y 2x - y = 5 tiene una unica solucion. Cual es el valor de x * y?",
+    "options": {
+      "a": "15",
+      "b": "25",
+      "c": "30",
+      "d": "20"
+    },
+    "correct_answer": "b",
+    "explanation": "Paso 1: Resolver el sistema sumando ambas ecuaciones. (x + y) + (2x - y) = 10 + 5. 3x = 15. x = 5. Paso 2: Sustituir x = 5 en la primera ecuacion. 5 + y = 10, entonces y = 5. Paso 3: Calcular x * y = 5 * 5 = 25. Verificacion: En la segunda ecuacion, 2(5) - 5 = 10 - 5 = 5. Correcto. A) 15 es incorrecto: resultado de confundir x * y con la suma de la segunda ecuacion (2x - y = 5 -> 15?) o tomar 3 * 5 = 15. B) 25 es correcto: x = 5 e y = 5, entonces x * y = 25. C) 30 es incorrecto: resultado de calcular x = 5 e y = 6 (error al resolver y en la primera ecuacion) dando 5 * 6 = 30. D) 20 es incorrecto: resultado de calcular x = 4 e y = 5 por un error algebraico, dando 4 * 5 = 20.",
+    "area_tematica": "Algebra",
+    "tema": "Ecuaciones",
+    "subtema": "Sistemas de ecuaciones",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.99, "issues": "Ninguno", "active": true}
+  }
+]

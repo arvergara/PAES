@@ -1,0 +1,172 @@
+[
+  {
+    "content": "Un estudiante frota una barra de vidrio con un paño de seda. Después de la frotación, la barra de vidrio queda con carga eléctrica positiva. ¿Cuál es la explicación correcta de este fenómeno?",
+    "options": {
+      "a": "La barra de vidrio ganó protones del paño de seda durante la frotación.",
+      "b": "Los neutrones de la barra de vidrio se convirtieron en protones durante el proceso.",
+      "c": "La barra de vidrio creó cargas positivas por el calor generado durante la frotación.",
+      "d": "La barra de vidrio perdió electrones que fueron transferidos al paño de seda."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque la electrización por frotación se produce por transferencia de electrones entre los materiales en contacto; el vidrio tiene menor afinidad electrónica que la seda, por lo que pierde electrones, quedando con un exceso de cargas positivas. La opción (a) es incorrecta porque los protones están firmemente unidos en los núcleos atómicos y no se transfieren durante la frotación; solo los electrones se mueven entre materiales. La opción (b) es incorrecta porque la conversión de neutrones en protones es un proceso de desintegración nuclear (desintegración beta) que requiere condiciones extremas y no ocurre por simple frotación. La opción (c) es incorrecta porque las cargas eléctricas no se crean; según el principio de conservación de la carga, solo se redistribuyen.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Electrizacion",
+    "difficulty": 1,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Una central hidroeléctrica utiliza la caída de agua desde una represa para generar electricidad. ¿Cuál es la secuencia correcta de transformaciones de energía que ocurre en este proceso?",
+    "options": {
+      "a": "Energía potencial gravitatoria → energía cinética → energía eléctrica.",
+      "b": "Energía química → energía cinética → energía eléctrica.",
+      "c": "Energía nuclear → energía térmica → energía eléctrica.",
+      "d": "Energía eléctrica → energía cinética → energía potencial gravitatoria."
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque el agua almacenada en la represa posee energía potencial gravitatoria; al caer, esta se transforma en energía cinética que mueve las turbinas, las cuales están acopladas a generadores que convierten la energía cinética de rotación en energía eléctrica mediante inducción electromagnética. La opción (b) es incorrecta porque el agua no almacena energía química significativa en este contexto; la energía inicial es gravitatoria, no química. La opción (c) es incorrecta porque la energía nuclear corresponde a centrales nucleares, no hidroeléctricas; en una represa no hay reacciones nucleares involucradas. La opción (d) es incorrecta porque invierte completamente la secuencia real; la energía eléctrica es el producto final, no el punto de partida.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Generacion electricidad",
+    "difficulty": 1,
+    "habilidad": "Representar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un circuito eléctrico simple consta de una batería de 12 V conectada a una resistencia. Si por el circuito circula una corriente de 0,5 A, ¿cuál es el valor de la resistencia según la Ley de Ohm?",
+    "options": {
+      "a": "6 Ω",
+      "b": "12 Ω",
+      "c": "24 Ω",
+      "d": "0,042 Ω"
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque según la Ley de Ohm, V = I × R, despejando R = V / I = 12 V / 0,5 A = 24 Ω. La opción (a) es incorrecta porque 6 Ω resultaría de multiplicar V × I (12 × 0,5 = 6), lo cual es el cálculo de la potencia (en watts), no de la resistencia. La opción (b) es incorrecta porque 12 Ω correspondería a R = V / I solo si la corriente fuera de 1 A, no de 0,5 A. La opción (d) es incorrecta porque 0,042 Ω resultaría de calcular I / V (0,5 / 12), invirtiendo la fórmula correcta.",
+    "area_tematica": "Fisica",
+    "tema": "Electricidad",
+    "subtema": "Ley de Ohm",
+    "difficulty": 2,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Se agregan 500 g de hielo a 0 °C en un recipiente aislado térmicamente. Se suministra calor de forma constante. Sabiendo que el calor latente de fusión del hielo es 334 J/g, ¿cuánta energía se necesita para fundir completamente el hielo sin cambiar la temperatura del agua resultante?",
+    "options": {
+      "a": "334 J",
+      "b": "167 000 J",
+      "c": "167 J",
+      "d": "668 000 J"
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque la energía necesaria para un cambio de fase se calcula con Q = m × L, donde m = 500 g y L = 334 J/g; por lo tanto, Q = 500 × 334 = 167 000 J (167 kJ). Durante la fusión la temperatura se mantiene constante a 0 °C. La opción (a) es incorrecta porque 334 J correspondería a la energía necesaria para fundir solo 1 g de hielo, no 500 g. La opción (c) es incorrecta porque 167 J sería el resultado de dividir 334/2, sin considerar la masa correctamente. La opción (d) es incorrecta porque 668 000 J resultaría de multiplicar 500 × 334 × 2, duplicando erróneamente el calor latente o la masa sin justificación física.",
+    "area_tematica": "Fisica",
+    "tema": "Energia",
+    "subtema": "Cambios de fase",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Dos objetos, uno de cobre y otro de madera, se encuentran en una habitación a 20 °C. Al tocarlos, el objeto de cobre se siente más frío que el de madera. ¿Cuál es la explicación correcta de esta percepción?",
+    "options": {
+      "a": "El objeto de cobre está a menor temperatura que el de madera.",
+      "b": "La madera genera calor interno por reacciones químicas que elevan su temperatura superficial.",
+      "c": "El cobre absorbe radiación infrarroja del ambiente, lo que reduce su temperatura.",
+      "d": "El cobre tiene mayor conductividad térmica, por lo que transfiere calor desde la mano más rápidamente."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque ambos objetos están en equilibrio térmico con la habitación a 20 °C (misma temperatura), pero el cobre, al tener una conductividad térmica mucho mayor que la madera, transfiere calor desde la mano (a ~37 °C) más rápidamente, lo que genera la sensación de mayor frío. La opción (a) es incorrecta porque ambos objetos están a la misma temperatura (20 °C) al encontrarse en equilibrio térmico con el ambiente; la sensación de frío no indica diferencia de temperatura. La opción (b) es incorrecta porque la madera no genera calor por reacciones químicas espontáneas a temperatura ambiente. La opción (c) es incorrecta porque todos los objetos a la misma temperatura absorben y emiten radiación infrarroja en equilibrio; esto no explica la diferencia en la sensación térmica.",
+    "area_tematica": "Fisica",
+    "tema": "Energia",
+    "subtema": "Modelos termicos",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un termómetro de mercurio marca 37 °C cuando se mide la temperatura corporal de una persona. ¿Cuál es el equivalente de esta temperatura en la escala Kelvin?",
+    "options": {
+      "a": "310,15 K",
+      "b": "236,15 K",
+      "c": "98,6 K",
+      "d": "373,15 K"
+    },
+    "correct_answer": "a",
+    "explanation": "La opción (a) es correcta porque la conversión de Celsius a Kelvin se realiza sumando 273,15 a la temperatura en Celsius: T(K) = 37 + 273,15 = 310,15 K. La opción (b) es incorrecta porque 236,15 K resultaría de restar 273,15 - 37, invirtiendo la operación de conversión. La opción (c) es incorrecta porque 98,6 K es la temperatura corporal expresada en grados Fahrenheit (98,6 °F), no en Kelvin; además, 98,6 K equivaldría a aproximadamente -174,55 °C, una temperatura extremadamente baja. La opción (d) es incorrecta porque 373,15 K corresponde a 100 °C (punto de ebullición del agua a presión atmosférica estándar), no a 37 °C.",
+    "area_tematica": "Fisica",
+    "tema": "Energia",
+    "subtema": "Temperatura",
+    "difficulty": 1,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un bloque de 5 kg se desliza sobre una superficie horizontal con una fuerza de roce cinético de 10 N. Si se aplica una fuerza horizontal constante de 30 N al bloque, ¿cuál es la aceleración del bloque?",
+    "options": {
+      "a": "2 m/s²",
+      "b": "4 m/s²",
+      "c": "6 m/s²",
+      "d": "8 m/s²"
+    },
+    "correct_answer": "b",
+    "explanation": "La opción (b) es correcta porque según la segunda ley de Newton, F_neta = m × a. La fuerza neta es la fuerza aplicada menos la fuerza de roce: F_neta = 30 N - 10 N = 20 N. Entonces a = F_neta / m = 20 N / 5 kg = 4 m/s². La opción (a) es incorrecta porque 2 m/s² resultaría de dividir solo la fuerza de roce entre la masa (10/5), sin considerar la fuerza aplicada correctamente. La opción (c) es incorrecta porque 6 m/s² resultaría de dividir la fuerza aplicada entre la masa (30/5) sin descontar la fuerza de roce, es decir, ignorando la fricción. La opción (d) es incorrecta porque 8 m/s² resultaría de sumar las fuerzas en vez de restarlas (40/5), lo cual contradice el hecho de que la fuerza de roce se opone al movimiento.",
+    "area_tematica": "Fisica",
+    "tema": "Mecanica",
+    "subtema": "Fuerza de roce/presion",
+    "difficulty": 3,
+    "habilidad": "Resolver problemas",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un automóvil de 1 200 kg viaja a velocidad constante de 90 km/h en línea recta sobre una carretera horizontal. Respecto a las fuerzas que actúan sobre el automóvil, ¿cuál de las siguientes afirmaciones es correcta según las leyes de Newton?",
+    "options": {
+      "a": "La fuerza del motor es mayor que las fuerzas de roce, ya que el auto se mueve hacia adelante.",
+      "b": "No actúan fuerzas sobre el automóvil porque se mueve a velocidad constante.",
+      "c": "La fuerza neta sobre el automóvil es cero, ya que la fuerza del motor equilibra las fuerzas de roce.",
+      "d": "La masa del automóvil disminuye progresivamente debido al consumo de combustible, lo que explica la velocidad constante."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque según la primera ley de Newton (ley de inercia), un objeto que se mueve a velocidad constante en línea recta tiene una fuerza neta igual a cero; esto significa que la fuerza de tracción del motor es igual en magnitud a las fuerzas de resistencia (roce, resistencia del aire), equilibrándose mutuamente. La opción (a) es incorrecta porque si la fuerza del motor fuera mayor que las fuerzas de roce, habría una fuerza neta hacia adelante y el auto aceleraría, no se movería a velocidad constante. La opción (b) es incorrecta porque sí actúan fuerzas sobre el automóvil (peso, normal, tracción, roce, resistencia del aire), pero su suma vectorial es cero; velocidad constante no implica ausencia de fuerzas. La opción (d) es incorrecta porque, aunque el consumo de combustible reduce levemente la masa, esto no es la explicación del movimiento a velocidad constante; la velocidad constante se explica por el equilibrio de fuerzas.",
+    "area_tematica": "Fisica",
+    "tema": "Mecanica",
+    "subtema": "Leyes de Newton",
+    "difficulty": 3,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "Un horno de microondas utiliza radiación electromagnética para calentar alimentos. Las microondas actúan principalmente sobre las moléculas de agua presentes en los alimentos. ¿Cuál de los siguientes enunciados describe correctamente el funcionamiento de este dispositivo?",
+    "options": {
+      "a": "Las microondas son ondas de sonido de alta frecuencia que calientan el alimento por compresión mecánica.",
+      "b": "Las microondas transmiten calor por conducción desde las paredes del horno hacia el centro del alimento.",
+      "c": "Las microondas hacen vibrar y rotar las moléculas polares de agua, aumentando la energía cinética y la temperatura del alimento.",
+      "d": "Las microondas son ondas ionizantes que rompen enlaces moleculares en el alimento, liberando energía térmica."
+    },
+    "correct_answer": "c",
+    "explanation": "La opción (c) es correcta porque las microondas son ondas electromagnéticas con frecuencias cercanas a 2,45 GHz que interactúan con las moléculas polares de agua; el campo eléctrico oscilante de la onda hace que estas moléculas intenten alinearse continuamente, provocando rotación y vibración molecular que aumenta la energía cinética promedio y, por ende, la temperatura del alimento. La opción (a) es incorrecta porque las microondas son ondas electromagnéticas, no ondas de sonido; las ondas sonoras requieren un medio material y no son el mecanismo de calentamiento en un horno de microondas. La opción (b) es incorrecta porque el calentamiento por microondas es volumétrico (la radiación penetra en el alimento y calienta las moléculas de agua directamente), no por conducción desde las paredes. La opción (d) es incorrecta porque las microondas son radiación no ionizante; su energía fotónica es insuficiente para romper enlaces químicos. La radiación ionizante corresponde a rayos X y gamma, de mucha mayor frecuencia.",
+    "area_tematica": "Fisica",
+    "tema": "Ondas",
+    "subtema": "Dispositivos tecnologicos",
+    "difficulty": 3,
+    "habilidad": "Modelar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  },
+  {
+    "content": "La luz blanca del Sol, al pasar a través de un prisma de vidrio, se descompone en los colores del espectro visible. ¿Cuál es la explicación física de este fenómeno?",
+    "options": {
+      "a": "El prisma absorbe todas las longitudes de onda excepto las del espectro visible, que se transmiten.",
+      "b": "El prisma emite luz de diferentes colores cuando es excitado por la energía de la luz blanca incidente.",
+      "c": "La luz blanca se refleja internamente múltiples veces dentro del prisma, separándose por diferencias de velocidad.",
+      "d": "Cada longitud de onda que compone la luz blanca tiene un índice de refracción diferente en el vidrio, lo que produce distinta desviación angular."
+    },
+    "correct_answer": "d",
+    "explanation": "La opción (d) es correcta porque la dispersión cromática ocurre debido a que el índice de refracción del vidrio varía según la longitud de onda (dispersión); las longitudes de onda más cortas (violeta) se refractan más que las más largas (rojo), de acuerdo con la ley de Snell, produciendo la separación en los colores del espectro visible. La opción (a) es incorrecta porque un prisma transparente no absorbe selectivamente longitudes de onda; si las absorbiera, no se observarían todos los colores del espectro. La opción (b) es incorrecta porque el prisma no emite luz propia; simplemente separa las componentes de la luz blanca incidente por refracción diferencial. La opción (c) es incorrecta porque la separación de colores se debe a la refracción (cambio de dirección al pasar de un medio a otro), no a múltiples reflexiones internas; la reflexión total interna es un fenómeno diferente que no explica la dispersión cromática.",
+    "area_tematica": "Fisica",
+    "tema": "Ondas",
+    "subtema": "Absorcion/reflexion/refraccion",
+    "difficulty": 4,
+    "habilidad": "Argumentar y comunicar",
+    "_meta": {"confidence": 0.95, "issues": "Ninguno", "active": true}
+  }
+]

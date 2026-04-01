@@ -10,23 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
     "date-fns": "^3.6.0",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
-    "react-pdf": "^7.7.1",
-    "recharts": "^2.12.2",
-    "@supabase/supabase-js": "^2.39.7"
+    "react-pdf": "^10.3.0",
+    "recharts": "^2.12.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^7.0.2",
-    "@typescript-eslint/parser": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
-    "eslint": "^8.56.0",
+    "eslint": "^10.0.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.35",
