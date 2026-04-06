@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Mail } from 'lucide-react';
+import { X } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import toast from 'react-hot-toast';
 
@@ -9,7 +9,6 @@ interface AuthModalProps {
   mode: 'login' | 'register';
 }
 
-// Componente del ícono de Google
 function GoogleIcon({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,12 +26,9 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
   const [name, setName] = useState('');
   const [loading, setLoading] = useState(false);
   const [mode, setMode] = useState<'login' | 'register' | 'reset'>(initialMode);
-  const [authMethod, setAuthMethod] = useState<'select' | 'email'>('select');
 
-  // Reset state when modal opens
   useEffect(() => {
     if (isOpen) {
-      setAuthMethod('select');
       setMode(initialMode);
       setEmail('');
       setPassword('');
@@ -40,7 +36,6 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
     }
   }, [isOpen, initialMode]);
 
-  // Cerrar con Escape
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
@@ -58,16 +53,12 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
     try {
       const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
-        options: {
-          redirectTo: window.location.origin
-        }
+        options: { redirectTo: window.location.origin }
       });
       if (error) {
-        console.error('Error de login:', error);
         toast.error('Error al iniciar sesión con Google');
       }
-    } catch (err) {
-      console.error('Error:', err);
+    } catch {
       toast.error('Error al conectar con Google');
     } finally {
       setLoading(false);
@@ -83,9 +74,7 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
         const { error } = await supabase.auth.resetPasswordForEmail(email, {
           redirectTo: window.location.origin,
         });
-
         if (error) throw error;
-
         toast.success('Revisa tu email para restablecer tu contraseña');
         setMode('login');
       } else if (mode === 'register') {
@@ -106,12 +95,10 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
         }
 
         if (data.session) {
-          // Confirmación de email desactivada — usuario entra directo
           toast.success(`¡Bienvenido${name ? ', ' + name : ''}! Tu cuenta ha sido creada.`);
           onClose();
         } else {
-          // Confirmación de email activada — avisar correctamente
-          toast.success('¡Registro exitoso! Revisa tu email para confirmar tu cuenta antes de ingresar.');
+          toast.success('¡Registro exitoso! Revisa tu email para confirmar tu cuenta.');
           setMode('login');
         }
       } else {
@@ -134,7 +121,6 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
         onClose();
       }
     } catch (error) {
-      console.error('Auth error:', error);
       const message = error instanceof Error ? error.message : 'Ocurrió un error';
       toast.error(message);
     } finally {
@@ -142,193 +128,18 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
     }
   };
 
-  // Pantalla de selección de método
-  const renderMethodSelection = () => (
-    <div className="space-y-4">
-      <p className="text-center text-gray-600 dark:text-gray-400 mb-6">
-        Elige cómo quieres continuar
-      </p>
-
-      {/* Botón Google */}
-      <button
-        onClick={handleGoogleLogin}
-        disabled={loading}
-        className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
-      >
-        <GoogleIcon className="w-5 h-5" />
-        <span className="font-medium text-gray-700 dark:text-gray-200">
-          Continuar con Google
-        </span>
-      </button>
-
-      {/* Separador */}
-      <div className="relative my-6">
-        <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-gray-300 dark:border-gray-600"></div>
-        </div>
-        <div className="relative flex justify-center text-sm">
-          <span className="px-4 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400">
-            o
-          </span>
-        </div>
-      </div>
-
-      {/* Botón Email */}
-      <button
-        onClick={() => setAuthMethod('email')}
-        disabled={loading}
-        className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
-      >
-        <Mail className="w-5 h-5" />
-        <span className="font-medium">
-          Continuar con Email
-        </span>
-      </button>
-
-      {/* Toggle login/register */}
-      <div className="text-center text-sm mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
-        {mode === 'login' ? (
-          <p className="text-gray-600 dark:text-gray-400">
-            ¿No tienes cuenta?{' '}
-            <button
-              onClick={() => setMode('register')}
-              className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 font-medium"
-            >
-              Regístrate
-            </button>
-          </p>
-        ) : (
-          <p className="text-gray-600 dark:text-gray-400">
-            ¿Ya tienes cuenta?{' '}
-            <button
-              onClick={() => setMode('login')}
-              className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 font-medium"
-            >
-              Inicia sesión
-            </button>
-          </p>
-        )}
-      </div>
-    </div>
-  );
-
-  // Formulario de email
-  const renderEmailForm = () => (
-    <form onSubmit={handleSubmit} className="space-y-4">
-      {/* Botón volver */}
-      <button
-        type="button"
-        onClick={() => setAuthMethod('select')}
-        className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 mb-2"
-      >
-        ← Volver
-      </button>
-
-      {mode === 'register' && (
-        <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-            Nombre
-          </label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-            required
-          />
-        </div>
-      )}
-
-      <div>
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-          Email
-        </label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-          required
-        />
-      </div>
-
-      {mode !== 'reset' && (
-        <div>
-          <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-            Contraseña
-          </label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-            required
-            minLength={6}
-          />
-        </div>
-      )}
-
-      <button
-        type="submit"
-        disabled={loading}
-        className="w-full bg-indigo-600 text-white py-2.5 px-4 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
-      >
-        {loading ? 'Cargando...' : mode === 'login' ? 'Iniciar Sesión' : mode === 'register' ? 'Registrarse' : 'Enviar'}
-      </button>
-
-      <div className="text-sm text-center space-y-2">
-        {mode === 'login' && (
-          <>
-            <button
-              type="button"
-              onClick={() => setMode('reset')}
-              className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
-            >
-              ¿Olvidaste tu contraseña?
-            </button>
-            <div>
-              <span className="text-gray-600 dark:text-gray-400">¿No tienes cuenta? </span>
-              <button
-                type="button"
-                onClick={() => setMode('register')}
-                className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
-              >
-                Regístrate
-              </button>
-            </div>
-          </>
-        )}
-        {(mode === 'register' || mode === 'reset') && (
-          <button
-            type="button"
-            onClick={() => setMode('login')}
-            className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
-          >
-            Volver a iniciar sesión
-          </button>
-        )}
-      </div>
-    </form>
-  );
-
   const getTitle = () => {
-    if (authMethod === 'select') {
-      return mode === 'login' ? 'Iniciar Sesión' : 'Crear Cuenta';
-    }
-    if (mode === 'login') return 'Iniciar con Email';
-    if (mode === 'register') return 'Registrarse con Email';
+    if (mode === 'login') return 'Iniciar Sesión';
+    if (mode === 'register') return 'Crear Cuenta';
     return 'Recuperar Contraseña';
   };
 
   return (
-    <div 
+    <div
       className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
       onClick={onClose}
     >
-      <div 
+      <div
         className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl w-full max-w-md relative"
         onClick={(e) => e.stopPropagation()}
       >
@@ -344,7 +155,145 @@ export function AuthModal({ isOpen, onClose, mode: initialMode }: AuthModalProps
             {getTitle()}
           </h2>
 
-          {authMethod === 'select' ? renderMethodSelection() : renderEmailForm()}
+          {mode !== 'reset' && (
+            <>
+              {/* Google — un solo clic */}
+              <button
+                onClick={handleGoogleLogin}
+                disabled={loading}
+                className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+              >
+                <GoogleIcon className="w-5 h-5" />
+                <span className="font-medium text-gray-700 dark:text-gray-200">
+                  Continuar con Google
+                </span>
+              </button>
+
+              {/* Separador */}
+              <div className="relative my-5">
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t border-gray-300 dark:border-gray-600"></div>
+                </div>
+                <div className="relative flex justify-center text-sm">
+                  <span className="px-4 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400">
+                    o con email
+                  </span>
+                </div>
+              </div>
+            </>
+          )}
+
+          {/* Formulario directo */}
+          <form onSubmit={handleSubmit} className="space-y-4">
+            {mode === 'register' && (
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                  Nombre
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+            )}
+
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                placeholder="tu@email.com"
+                required
+              />
+            </div>
+
+            {mode !== 'reset' && (
+              <div>
+                <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                  Contraseña
+                </label>
+                <input
+                  type="password"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  className="mt-1 block w-full rounded-lg border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 px-4 py-2.5 border bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                  placeholder="Mínimo 6 caracteres"
+                  required
+                  minLength={6}
+                />
+              </div>
+            )}
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-indigo-600 text-white py-2.5 px-4 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+            >
+              {loading
+                ? 'Cargando...'
+                : mode === 'login'
+                  ? 'Iniciar Sesión'
+                  : mode === 'register'
+                    ? 'Crear Cuenta'
+                    : 'Enviar link de recuperación'}
+            </button>
+
+            <div className="text-sm text-center space-y-2 pt-2">
+              {mode === 'login' && (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => setMode('reset')}
+                    className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
+                  >
+                    ¿Olvidaste tu contraseña?
+                  </button>
+                  <div>
+                    <span className="text-gray-600 dark:text-gray-400">¿No tienes cuenta? </span>
+                    <button
+                      type="button"
+                      onClick={() => setMode('register')}
+                      className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 font-medium"
+                    >
+                      Regístrate
+                    </button>
+                  </div>
+                </>
+              )}
+              {mode === 'register' && (
+                <div>
+                  <span className="text-gray-600 dark:text-gray-400">¿Ya tienes cuenta? </span>
+                  <button
+                    type="button"
+                    onClick={() => setMode('login')}
+                    className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300 font-medium"
+                  >
+                    Inicia sesión
+                  </button>
+                </div>
+              )}
+              {mode === 'reset' && (
+                <button
+                  type="button"
+                  onClick={() => setMode('login')}
+                  className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-300"
+                >
+                  ← Volver a iniciar sesión
+                </button>
+              )}
+            </div>
+          </form>
         </div>
       </div>
     </div>
