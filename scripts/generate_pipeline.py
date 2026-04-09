@@ -34,7 +34,7 @@ TEMARIO_CSV = BASE_DIR / "content" / "temario_paes.csv"
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 
 BATCH_SIZE = 5  # Preguntas por llamada a Claude
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+CLAUDE_MODEL = "claude-sonnet-4-6-20250514"
 CONFIDENCE_THRESHOLD = 0.8
 
 # Número de opciones por asignatura
