@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import { Flag } from 'lucide-react';
 import { useThemeColors } from '../hooks/useThemeColors';
 import type { Question } from '../types';
 import { QuestionContent } from './QuestionContent';
+import { ReportQuestionModal } from './ReportQuestionModal';
 
 const SUPABASE_STORAGE_URL = 'https://bmsmmlymsjpydpealmcw.supabase.co/storage/v1/object/public/questions-images';
 
@@ -16,6 +18,7 @@ interface QuestionViewProps {
 
 export function QuestionView({ question, onAnswer, showResult = false, selectedAnswer, currentAnswer, showExplanation }: QuestionViewProps) {
   const [imageError, setImageError] = useState(false);
+  const [reportOpen, setReportOpen] = useState(false);
   const colors = useThemeColors();
   
   const answer = currentAnswer ?? selectedAnswer ?? null;
@@ -83,6 +86,18 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
 
   return (
     <div className="max-w-4xl mx-auto">
+      <div className="flex justify-end mb-2">
+        <button
+          type="button"
+          onClick={() => setReportOpen(true)}
+          className="inline-flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400 hover:text-orange-500 dark:hover:text-orange-400 transition-colors"
+          title="Reportar un problema con esta pregunta"
+        >
+          <Flag className="w-3.5 h-3.5" />
+          Reportar problema
+        </button>
+      </div>
+
       {/* Imagen de la pregunta */}
       {(question.image_url || (question as any).imagen_url) && !imageError ? (
         <div className="mb-6 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-hidden p-3">
@@ -154,6 +169,13 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
       )}
 
       {/* Explicación removida - cada modo (TestMode, ReviewMode) maneja su propia explicación */}
+
+      <ReportQuestionModal
+        isOpen={reportOpen}
+        onClose={() => setReportOpen(false)}
+        questionId={question.id}
+        userAnswer={answer}
+      />
     </div>
   );
 }

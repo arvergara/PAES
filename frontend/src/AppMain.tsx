@@ -14,11 +14,12 @@ import { StrengthsModal } from './components/StrengthsModal';
 import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
 import { LandingPage } from './components/LandingPage';
+import { AdminReportsPanel } from './components/AdminReportsPanel';
 import { useAuth } from './hooks/useAuth';
 import { TopBannersSection } from './components/TopBannersSection';
 import type { Subject, PracticeMode } from './types';
 
-type AppState = 'subject' | 'science-specialty' | 'mode' | 'practice';
+type AppState = 'subject' | 'science-specialty' | 'mode' | 'practice' | 'admin';
 type ScienceSpecialty = 'CF' | 'CQ' | 'CB';
 
 const subjects: Subject[] = ['M1', 'M2', 'L', 'C', 'H'];
@@ -185,6 +186,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     return () => window.removeEventListener('openStrengths', handleOpenStrengths);
   }, []);
 
+  // Escuchar evento openAdmin (panel de reportes, solo admins)
+  useEffect(() => {
+    const handleOpenAdmin = () => setState('admin');
+    window.addEventListener('openAdmin', handleOpenAdmin);
+    return () => window.removeEventListener('openAdmin', handleOpenAdmin);
+  }, []);
+
   // Helper para obtener la sesión guardada válida
   const getSavedSession = (): SavedSession | null => {
     const sessionData = localStorage.getItem('lastPracticeSession');
@@ -320,6 +328,10 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   };
 
   const renderContent = () => {
+    if (state === 'admin') {
+      return <AdminReportsPanel onExit={handleExit} />;
+    }
+
     if (state === 'practice' && selectedSubject && selectedMode) {
       const configSubject = ['CF', 'CQ', 'CB'].includes(selectedSubject) ? 'C' : selectedSubject;
       const testTime = getTimeForSubject('test', configSubject as Subject);

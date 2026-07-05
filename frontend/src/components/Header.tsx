@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BarChart, Home, FileText, Sun, Moon } from 'lucide-react';
+import { BarChart, Home, FileText, Sun, Moon, Flag } from 'lucide-react';
 import { TutorPAESLogo } from './TutorPAESLogo';
 import { AuthModal } from './AuthModal';
 import { PerformanceModal } from './PerformanceModal';
@@ -8,6 +8,7 @@ import { SettingsModal, SettingsButton } from './SettingsMenu';
 import { supabase } from '../lib/supabase';
 import toast from 'react-hot-toast';
 import { useAuth } from '../hooks/useAuth';
+import { useIsAdmin } from '../hooks/useIsAdmin';
 import { useTheme } from '../contexts/ThemeContext';
 import type { Subject } from '../types';
 
@@ -62,6 +63,7 @@ export function Header({
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
   const { user, loading } = useAuth();
+  const { isAdmin } = useIsAdmin();
   const { isDark, toggleDark } = useTheme();
 
   const handleLogout = async () => {
@@ -169,6 +171,20 @@ export function Header({
                 </li>
               )}
               
+              {/* Botón Reportes (solo admins) */}
+              {user && isAdmin && !isInExam && (
+                <li>
+                  <button
+                    onClick={() => window.dispatchEvent(new Event('openAdmin'))}
+                    className="flex items-center space-x-2 px-3 py-2 rounded-lg transition-colors text-orange-600 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-orange-500/10"
+                    title="Reportes de preguntas"
+                  >
+                    <Flag className="h-4 w-4" />
+                    <span className="hidden sm:inline text-sm font-medium">Reportes</span>
+                  </button>
+                </li>
+              )}
+
               {loading ? (
                 <li className="text-gray-400 text-sm">Cargando...</li>
               ) : user ? (

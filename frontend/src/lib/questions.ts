@@ -296,6 +296,199 @@ export async function getQuestionsBySubject(subject: Subject): Promise<Question[
   }
 }
 
+export type QuestionReportReason =
+  | 'clave_incorrecta'
+  | 'enunciado_confuso'
+  | 'error_tipografico'
+  | 'imagen_no_carga'
+  | 'opciones_incorrectas'
+  | 'otro';
+
+export interface ReportQuestionInput {
+  questionId: string;
+  reason: QuestionReportReason;
+  details?: string;
+  userAnswer?: string | null;
+}
+
+export async function reportQuestion({
+  questionId,
+  reason,
+  details,
+  userAnswer,
+}: ReportQuestionInput): Promise<void> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    throw new Error('Debes iniciar sesión para reportar un problema');
+  }
+
+  const { error } = await supabase.from('question_reports').insert({
+    question_id: questionId,
+    user_id: user.id,
+    reason,
+    details: details?.trim() || null,
+    user_answer: userAnswer || null,
+  });
+
+  if (error) {
+    console.error('Error reporting question:', error);
+    throw new Error('No se pudo enviar el reporte. Intenta nuevamente.');
+  }
+}
+
+export type QuestionReportStatus = 'open' | 'reviewing' | 'resolved' | 'rejected';
+
+export interface AdminReportRow {
+  id: string;
+  created_at: string;
+  status: QuestionReportStatus;
+  reason: QuestionReportReason;
+  details: string | null;
+  user_answer: string | null;
+  user_id: string | null;
+  reviewed_at: string | null;
+  reviewed_by: string | null;
+  resolution_note: string | null;
+  question: {
+    id: string;
+    subject: string;
+    area_tematica: string | null;
+    tema: string | null;
+    subtema: string | null;
+    content: string;
+    correct_answer: string;
+    options: Record<string, string> | null;
+    explanation: string | null;
+    origen: string | null;
+    image_url: string | null;
+  };
+  reporter_email: string | null;
+}
+
+export interface AdminReportFilters {
+  status?: QuestionReportStatus | 'all';
+  subject?: string | 'all';
+  reason?: QuestionReportReason | 'all';
+}
+
+/**
+ * Devuelve reportes enriquecidos con datos de pregunta + email del reporter.
+ * Requiere que el usuario sea admin (validado por RLS).
+ */
+export async function getAdminReports(
+  filters: AdminReportFilters = {}
+): Promise<AdminReportRow[]> {
+  let query = supabase
+    .from('question_reports')
+    .select(`
+      id, created_at, status, reason, details, user_answer,
+      user_id, reviewed_at, reviewed_by, resolution_note,
+      question:questions!inner (
+        id, subject, area_tematica, tema, subtema, content,
+        correct_answer, options, explanation, origen, image_url
+      )
+    `)
+    .order('created_at', { ascending: false });
+
+  if (filters.status && filters.status !== 'all') {
+    query = query.eq('status', filters.status);
+  }
+  if (filters.reason && filters.reason !== 'all') {
+    query = query.eq('reason', filters.reason);
+  }
+  if (filters.subject && filters.subject !== 'all') {
+    query = query.eq('question.subject', filters.subject);
+  }
+
+  const { data, error } = await query;
+
+  if (error) {
+    console.error('Error fetching admin reports:', error);
+    throw new Error('No se pudieron cargar los reportes');
+  }
+
+  const rows = (data ?? []) as unknown as Array<Omit<AdminReportRow, 'reporter_email'>>;
+
+  // Traer emails en un batch aparte (la FK a auth.users no se puede expandir vía PostgREST
+  // salvo con una vista, y la vista admin usa service_role).
+  const userIds = Array.from(
+    new Set(rows.map((r) => r.user_id).filter((id): id is string => Boolean(id)))
+  );
+
+  let emailById = new Map<string, string>();
+  if (userIds.length > 0) {
+    const { data: profs } = await supabase
+      .from('profiles')
+      .select('id, email')
+      .in('id', userIds);
+    if (profs) {
+      emailById = new Map(profs.map((p) => [p.id as string, (p.email as string) ?? '']));
+    }
+  }
+
+  return rows.map((r) => ({
+    ...r,
+    reporter_email: r.user_id ? emailById.get(r.user_id) ?? null : null,
+  }));
+}
+
+export async function updateReportStatus(
+  reportId: string,
+  status: QuestionReportStatus,
+  resolutionNote?: string | null
+): Promise<void> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error('No autenticado');
+
+  const patch: Record<string, unknown> = {
+    status,
+    reviewed_at: new Date().toISOString(),
+    reviewed_by: user.id,
+  };
+  if (resolutionNote !== undefined) {
+    patch.resolution_note = resolutionNote?.trim() || null;
+  }
+
+  const { error } = await supabase
+    .from('question_reports')
+    .update(patch)
+    .eq('id', reportId);
+
+  if (error) {
+    console.error('Error updating report:', error);
+    throw new Error('No se pudo actualizar el reporte');
+  }
+}
+
+export async function bulkUpdateReportStatus(
+  reportIds: string[],
+  status: QuestionReportStatus,
+  resolutionNote?: string | null
+): Promise<void> {
+  if (reportIds.length === 0) return;
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error('No autenticado');
+
+  const patch: Record<string, unknown> = {
+    status,
+    reviewed_at: new Date().toISOString(),
+    reviewed_by: user.id,
+  };
+  if (resolutionNote !== undefined) {
+    patch.resolution_note = resolutionNote?.trim() || null;
+  }
+
+  const { error } = await supabase
+    .from('question_reports')
+    .update(patch)
+    .in('id', reportIds);
+
+  if (error) {
+    console.error('Error bulk updating reports:', error);
+    throw new Error('No se pudieron actualizar los reportes');
+  }
+}
+
 export async function getTablesForQuestion(questionId: string): Promise<QuestionTable[]> {
   const { data, error } = await supabase
     .from('question_tables')

@@ -38,3 +38,4 @@ pruebas/*.json
 .branches
 .temp
 .vercel
+.mcp.json
