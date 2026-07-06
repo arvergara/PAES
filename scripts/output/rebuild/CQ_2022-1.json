@@ -1,0 +1,1291 @@
+{
+  "meta": {
+    "subject": "CQ",
+    "subject_nombre": "Ciencias - Química",
+    "origen": "PAES Ciencias - Química Admision 2022-1",
+    "anio": 2022,
+    "forma": 171,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [
+      1,
+      25,
+      38,
+      57,
+      63
+    ],
+    "fuente_pdf": "pruebas/oficiales/C-quimica-2022-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-quimica-2022-1.pdf",
+    "nota": "El documento fuente corresponde al 'Modelo de Prueba de Transición - Ciencias Química' (Forma 171) publicado por DEMRE para el Proceso de Admisión 2022, no a un formulario administrado de la prueba oficial PAES. De las 80 preguntas, 75 puntúan y 5 son piloto (marcadas con * en el clavijero): 1, 25, 38, 57 y 63."
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "Los electrones son entidades que forman parte del átomo. ¿Cuál de las siguientes características corresponde a los electrones?",
+      "options": {
+        "a": "Tienen una masa mayor que la del neutrón.",
+        "b": "Tienen carga eléctrica positiva.",
+        "c": "Giran alrededor del núcleo.",
+        "d": "Se encuentran en el centro del átomo.",
+        "e": "Tienen una masa mayor que la del protón."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 2,
+      "content": "En el año 1869, Dimitri Mendeleiev propuso una clasificación de los elementos basada en la repetición periódica de sus propiedades, cuando se ordenan de menor a mayor masa atómica.\nDe acuerdo con la siguiente información para tres elementos hipotéticos,\n\n| Elementos | Cantidad de neutrones | Cantidad de protones |\n|---|---|---|\n| X | 76 | 52 |\n| Z | 74 | 53 |\n| T | 71 | 51 |\n\n¿cuál es el orden correcto de los elementos, según la clasificación de Mendeleiev?",
+      "options": {
+        "a": "X – Z – T",
+        "b": "T – X – Z",
+        "c": "T – Z – X",
+        "d": "X – T – Z",
+        "e": "Z– X – T"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "A continuación se muestran cuatro compuestos binarios hipotéticos y el tipo de compuesto al que corresponden:\n\nR₂Y: iónico\nXY₂: covalente apolar\nXZ₄: covalente apolar\nYZ₂: covalente polar\n\n¿Cuál de los siguientes esquemas representa adecuadamente la ubicación de los elementos, que forman los compuestos, en el sistema periódico? [Figura: cinco esquemas (A-E) de tabla periódica con las letras R, X, Y, Z ubicadas en distintas posiciones/celdas; no reproducible como texto exacto, ver PDF pág. 5]",
+      "options": {
+        "a": "[Esquema de tabla periódica — ver figura, PDF pág. 5]",
+        "b": "[Esquema de tabla periódica — ver figura, PDF pág. 5]",
+        "c": "[Esquema de tabla periódica — ver figura, PDF pág. 5]",
+        "d": "[Esquema de tabla periódica — ver figura, PDF pág. 5]",
+        "e": "[Esquema de tabla periódica — ver figura, PDF pág. 5]"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Antes de realizar una práctica de laboratorio, dos estudiantes sostienen la siguiente conversación:\n\nEstudiante 1: Si se reemplaza un átomo de hidrógeno en el metano por un átomo de cloro, entonces la molécula debería ser polar.\n\nEstudiante 2: Sí, puede ser, ya que el cloro es más electronegativo que el hidrógeno.\n\nA partir de lo anterior, ¿a qué corresponde lo planteado por el Estudiante 1?",
+      "options": {
+        "a": "A un procedimiento",
+        "b": "A una hipótesis",
+        "c": "A una teoría",
+        "d": "A una observación"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "La siguiente estructura representa un compuesto orgánico: [Figura: diagrama de bolas y palos con una cadena de carbonos unida a un anillo de seis carbonos; leyenda: ● Carbono, ⊗(relleno rayado) Oxígeno, ○ Hidrógeno; ver PDF pág. 6]\n\nAl respecto, ¿cuál de las siguientes opciones corresponde a la clasificación del compuesto?",
+      "options": {
+        "a": "Aldehído",
+        "b": "Cetona",
+        "c": "Alcohol",
+        "d": "Éster",
+        "e": "Ácido carboxílico"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "En condiciones adecuadas, la propanona se transforma en 2-propanol. Al respecto, ¿cuál es el cambio de hibridación que experimenta el átomo de carbono unido al átomo de oxígeno?",
+      "options": {
+        "a": "Desde sp³ a sp²",
+        "b": "Desde sp² a sp³",
+        "c": "Desde sp a sp²",
+        "d": "Desde sp³ a sp",
+        "e": "Desde sp² a sp"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "El siguiente compuesto químico es utilizado como fungicida: [Figura: anillo bencénico con un grupo -OH en posición 1 y átomos de Br en posiciones 2, 4 y 6; ver PDF pág. 7]\n\nAl respecto, ¿cuál de las siguientes opciones presenta el nombre correcto de este compuesto?",
+      "options": {
+        "a": "1,3,5-tribromobenzaldehído",
+        "b": "2,4,6-tribromociclohexanol",
+        "c": "1,3,5-tribromociclohexano",
+        "d": "2,4,6-tribromofenol",
+        "e": "Ácido bromobenzoico"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "El butanoato de etilo es utilizado para potenciar el aroma del jugo de naranja procesado. Al respecto, ¿cuál de las siguientes opciones corresponde a dicho compuesto? [Figura: cinco estructuras químicas (A-E); ver PDF pág. 8]",
+      "options": {
+        "a": "[Estructura química: cadena de 3 carbonos–C(=O)–O–CH2CH3, tipo éster lineal — ver figura]",
+        "b": "[Estructura química: cadena de carbonos con grupo –C(=O)–O–CH2CH3 en distinta posición — ver figura]",
+        "c": "[Estructura química: cadena con grupo carbonilo central flanqueado por dos grupos alquilo, tipo cetona — ver figura]",
+        "d": "[Estructura química: cadena con un oxígeno tipo éter entre dos grupos alquilo, sin carbonilo — ver figura]",
+        "e": "[Estructura química: cadena ramificada con grupo carbonilo, tipo cetona ramificada — ver figura]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "Los restaurantes de comida rápida sirven las bebidas gaseosas a una temperatura inferior a los 5 °C y adicionan hielo picado en los vasos con el fin de mantener baja la temperatura de las gaseosas por mayor tiempo, de esta forma se aseguran que el gas (CO₂) esté disuelto en el líquido por mayor tiempo.\nA partir de lo anterior, ¿cuál de las siguientes preguntas de investigación permite relacionar correctamente las variables descritas?",
+      "options": {
+        "a": "¿Cuál es el efecto del estado físico del hielo en el comportamiento de un gas en una solución?",
+        "b": "¿Cómo afecta el tiempo de disolución del gas a la temperatura de un líquido?",
+        "c": "¿Cuál es la relación entre la temperatura de un gas y la del hielo agregado a una solución?",
+        "d": "¿Cómo influye la temperatura en el comportamiento de un gas en solución?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Cuando masas conocidas de X e Y reaccionan completamente, originan dos productos (etapa I): un compuesto W en estado sólido y un compuesto Z en estado gaseoso. El compuesto W se aísla para determinar su masa y el compuesto Z se recupera a través de la etapa II, para determinar su masa. El proceso completo se muestra en el siguiente diagrama:\n\n[Figura: diagrama de flujo — X + Y --(Etapa I)--> W(s) + Z(g); luego Z(g) --(Etapa II)--> Z(s); ver PDF pág. 9]\n\nDe acuerdo con lo anterior, ¿cuál de las siguientes leyes se demuestra con el proceso completo?",
+      "options": {
+        "a": "La conservación de la masa",
+        "b": "Las proporciones definidas",
+        "c": "Las proporciones múltiples",
+        "d": "Las proporciones recíprocas",
+        "e": "Los volúmenes de combinación"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "En la molécula de agua (H₂O) siempre existe una relación en masa de un 11,2 % de hidrógeno y un 88,8 % de oxígeno. ¿A qué ley hace referencia lo anterior?",
+      "options": {
+        "a": "A la ley de las proporciones múltiples",
+        "b": "A la ley de las proporciones recíprocas",
+        "c": "A la ley de las proporciones definidas",
+        "d": "A la ley de la conservación de la masa",
+        "e": "A la ley de los volúmenes de combinación"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Cuando se calientan 168 g de bicarbonato de sodio (NaHCO₃) se obtienen 106 g de carbonato de sodio (Na₂CO₃) como producto. Por la ley de conservación de la masa se puede apreciar el desprendimiento, como gases, de 62 g de producto. Mediante un análisis, es posible determinar que están involucradas dos especies gaseosas, de las cuales una de ellas es agua (H₂O). Al respecto, es posible afirmar que la segunda especie corresponde a",
+      "options": {
+        "a": "CO",
+        "b": "CO₂",
+        "c": "H₂O₂",
+        "d": "H₂CO₃",
+        "e": "NaOH"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "¿Cuál de las siguientes opciones presenta los coeficientes estequiométricos que permiten equilibrar la ecuación?\n\nCH₃OH + O₂ ⟶ CO₂ + H₂O\n\n(orden de columnas: CH₃OH | O₂ | CO₂ | H₂O)",
+      "options": {
+        "a": "2 | 3 | 2 | 4",
+        "b": "2 | 1 | 2 | 1",
+        "c": "1 | 2 | 1 | 2",
+        "d": "1 | 3 | 1 | 4",
+        "e": "1 | 1 | 1 | 2"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "En la figura se muestran las sustancias involucradas en una determinada reacción (no reversible) y la cantidad inicial de reactantes para formar un producto:\n\n[Figura: recuadro 'Mezcla inicial de reactantes' con partículas (pares de círculos pequeños y círculos negros grandes); recuadro de simbología: pares de círculos pequeños y círculo negro = Reactantes; círculo negro rodeado de círculos pequeños = Producto; ver PDF pág. 11]\n\nAl respecto, ¿cuál de los siguientes esquemas corresponde a la cantidad máxima de sustancias al término de la reacción? [Figura: cinco esquemas de partículas A-E; ver PDF pág. 11]",
+      "options": {
+        "a": "[Esquema de partículas — ver figura]",
+        "b": "[Esquema de partículas — ver figura]",
+        "c": "[Esquema de partículas — ver figura]",
+        "d": "[Esquema de partículas — ver figura]",
+        "e": "[Esquema de partículas — ver figura]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "En un laboratorio, a 25 °C, se prepararon diferentes soluciones acuosas de concentración 1 mol/L, a partir de las siguientes sustancias: NaCl, C₆H₁₂O₆, CH₃COOH y HNO₃. Posteriormente, se introdujeron al interior de las soluciones los electrodos de un dispositivo para registrar conductividad, tal como se muestra en la siguiente figura:\n\n[Figura: montaje experimental con batería, amperímetro y electrodos de grafito sumergidos en un vaso con solución; ver PDF pág. 12]\n\n¿Cuál es la pregunta de investigación que se desea resolver mediante el procedimiento experimental descrito anteriormente?",
+      "options": {
+        "a": "¿Cómo afecta la concentración a la conductividad eléctrica de las soluciones?",
+        "b": "¿Qué relación existe entre la conductividad eléctrica de una solución y el tipo de soluto disuelto en ella?",
+        "c": "¿Qué relación existe entre la conductividad eléctrica de las soluciones y la distancia entre los electrodos?",
+        "d": "¿Cómo afecta la temperatura de las soluciones a la conductividad eléctrica de las soluciones?",
+        "e": "¿Qué relación existe entre la temperatura, la concentración y la conductividad eléctrica de las soluciones?"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Para determinar experimentalmente la polaridad de dos líquidos incoloros (1 y 2) e inmiscibles entre ellos, en donde el líquido 1 está en el fondo del vaso y el líquido 2 se ubica sobre el líquido 1, se realizan, bajo las mismas condiciones y con iguales volúmenes de los líquidos, las siguientes experiencias:\n\nExperiencia 1: se agrega un sólido coloreado de naturaleza apolar y se observa que el líquido 2 se colorea y que el líquido 1 permanece incoloro.\nExperiencia 2: se agrega un sólido coloreado de naturaleza polar y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro.\nExperiencia 3: se agrega un sólido coloreado de naturaleza iónica y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro.\n\n[Figura: tres pares de vasos ilustrando las experiencias 1, 2 y 3; ver PDF pág. 13]\n\nCon respecto a lo anterior, ¿cuál de las siguientes opciones de respuesta señala correctamente la clasificación de los líquidos 1 y 2 estudiados?\n(orden de columnas: Líquido 1 | Líquido 2)",
+      "options": {
+        "a": "Polar | Iónico",
+        "b": "Apolar | Polar",
+        "c": "Polar | Apolar",
+        "d": "Iónico | Polar",
+        "e": "Apolar | Apolar"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Un grupo de investigadores descubrió una enzima \"devora suciedad\" en el estómago del krill, un diminuto crustáceo que habita en los mares australes. Las enzimas empleadas en los detergentes convencionales comienzan a “trabajar” cuando el agua bordea los 50 °C; no obstante, la que hallaron estos investigadores lo hace a los 20 °C. Actualmente, se encuentran estudiando métodos biotecnológicos para producir esta enzima, denominada “Juanasa\", fácilmente y a gran escala; de otra manera, sería imposible obtener un producto comercial.\nEn relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente un impacto directo de la utilización de esta enzima en términos de protección medioambiental?",
+      "options": {
+        "a": "Reducción de la utilización de energía para calentar el agua a 50 °C y así promover el ahorro de la misma.",
+        "b": "Aumento de la fabricación de lavadoras automáticas que funcionen con detergentes más efectivos en la eliminación de la suciedad.",
+        "c": "Aumento en la explotación del krill como materia prima para la obtención de la Juanasa.",
+        "d": "Reducción de la utilización de agua debido a la elevada actividad de la Juanasa a bajas temperaturas, promoviendo así su ahorro."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Si a 50 mL de una solución de concentración X mol/L se agregan 150 mL de agua, considerando volúmenes aditivos, ¿cuál es la concentración de la solución resultante?",
+      "options": {
+        "a": "3X mol/L",
+        "b": "X mol/L",
+        "c": "X/2 mol/L",
+        "d": "X/3 mol/L",
+        "e": "X/4 mol/L"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "¿Cuál de las siguientes afirmaciones acerca de las ondas sísmicas es correcta?",
+      "options": {
+        "a": "Solo se producen en sismos de gran magnitud.",
+        "b": "Tienen una intensidad que aumenta con su profundidad.",
+        "c": "Solo las ondas secundarias generan daños estructurales.",
+        "d": "Se propagan desde el epicentro hacia la superficie terrestre.",
+        "e": "Transmiten una energía que aumenta con la magnitud del sismo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Se decidió investigar si la curvatura de un espejo convexo afecta la imagen que se produce. Para ello, se fijó un objeto delante de un espejo convexo y con una regla se midió el tamaño de la imagen producida. Si en todas las mediciones se utilizó el mismo objeto, ¿cuál de las siguientes acciones experimentales debió haberse implementado para resolver esta investigación?",
+      "options": {
+        "a": "Utilizar espejos convexos de igual tamaño, pero situar el objeto a diferentes distancias del espejo.",
+        "b": "Utilizar espejos convexos de igual curvatura, pero situar el objeto a diferentes distancias del espejo.",
+        "c": "Utilizar espejos convexos con distinta curvatura, pero de igual tamaño.",
+        "d": "Utilizar espejos convexos de distinto tamaño, pero de igual curvatura."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Cierta onda mecánica se representa mediante el siguiente perfil temporal: [Figura: gráfico y(m) vs t(s), onda senoidal con amplitud 1 m y periodo 4 s, entre t=0 y t=8 s; ver PDF pág. 16]\n\n¿Cuál es la frecuencia de la onda representada?",
+      "options": {
+        "a": "1/8 Hz",
+        "b": "1/4 Hz",
+        "c": "1/2 Hz",
+        "d": "2 Hz",
+        "e": "4 Hz"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Una persona está sentada junto a una fuente sonora que genera un sonido de 800 Hz, a 400 m de una superficie reflectora, percibiendo su correspondiente eco 2 s después de la emisión del sonido. Al respecto, ¿cuál es la longitud de onda asociada a la onda de este sonido?",
+      "options": {
+        "a": "4,00 m",
+        "b": "2,00 m",
+        "c": "1,00 m",
+        "d": "0,50 m",
+        "e": "0,25 m"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "La siguiente figura representa un objeto situado frente a una lente convergente cuyo eje óptico es w y que tiene dos focos identificados como F₁ y F₂. Los rayos s y q provienen desde el extremo superior del objeto.\n\n[Figura: lente convergente con objeto, rayos s y q, focos F1 y F2; ver PDF pág. 17]\n\nAl respecto, ¿cuáles son las características de los rayos s y q una vez que atraviesan la lente?\n(orden de columnas: Rayo s | Rayo q)",
+      "options": {
+        "a": "Cruza w entre la lente y F2 | Mantiene la dirección que tenía antes de incidir en la lente",
+        "b": "Cruza w entre la lente y F2 | Cruza w entre la lente y F2",
+        "c": "Pasa por F2 | Pasa por F2",
+        "d": "Sigue paralelo a w | Pasa por F2",
+        "e": "Sigue paralelo a w | Mantiene la dirección que tenía antes de incidir en la lente"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "El siguiente gráfico permite comparar las longitudes de onda de las ondas electromagnéticas S, Q, W, R y T, que se propagan en el vacío.\n\n[Figura: gráfico de dispersión, eje Y 'longitud de onda', eje X 'onda electromagnética' con puntos S, Q, W, R, T; W presenta el mayor valor, T el menor; ver PDF pág. 18]\n\n¿Cuál de las siguientes afirmaciones es correcta respecto de la información proporcionada en el gráfico?",
+      "options": {
+        "a": "Si T está en el infrarrojo, entonces W está en el ultravioleta.",
+        "b": "Si W está en el espectro visible, entonces Q también lo está.",
+        "c": "Si W corresponde al color rojo, entonces S, Q, R y T están en el infrarrojo.",
+        "d": "Si S corresponde al color violeta, entonces Q, W, R y T están en el espectro visible.",
+        "e": "Si W corresponde al color rojo y T al violeta, entonces S, Q y R son parte del espectro visible."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Una persona aplica una determinada fuerza inicial sobre un bloque de cierta masa. Luego, mide la distancia que alcanza a recorrer el bloque hasta detenerse. Si repite lo anteriormente realizado en superficies de distintos materiales, aplicando siempre la misma fuerza inicial, ¿cuál de las siguientes preguntas de investigación se responde con este experimento?",
+      "options": {
+        "a": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y el material de la superficie en que se desliza?",
+        "b": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y la distancia que alcanza a recorrer?",
+        "c": "¿Cuál es la relación entre la distancia recorrida por el bloque y el material de la superficie en que se desliza?",
+        "d": "¿Cuál es la relación entre la distancia recorrida por el bloque y su masa?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 26,
+      "content": "Dos cuerpos se mueven rectilíneamente en el mismo sentido con rapidez constante, pero diferente entre sí. Considerando que al inicio del registro ambos cuerpos están en el mismo punto, ¿cuál de los siguientes gráficos de posición X en función del tiempo t representa mejor el movimiento de ambos cuerpos? [Figura: cinco gráficos X vs t (A-E); ver PDF pág. 19]",
+      "options": {
+        "a": "[Gráfico: dos rectas paralelas con igual pendiente, con puntos de partida distintos en el eje t — ver figura]",
+        "b": "[Gráfico: dos rectas que parten del origen (0,0) con distinta pendiente — ver figura]",
+        "c": "[Gráfico: una recta desde el origen con quiebre abrupto — ver figura]",
+        "d": "[Gráfico: dos rectas desde el origen con distinta pendiente, de menor extensión — ver figura]",
+        "e": "[Gráfico: dos rectas horizontales a distinta altura — ver figura]"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "Un niño y una niña suben una escalera mecánica, que se encuentra detenida, con rapideces de 0,5 m/s y 1 m/s, respectivamente. ¿Cuál es la rapidez relativa entre los niños si los escalones de la escalera comienzan a moverse con una rapidez de 1 m/s?",
+      "options": {
+        "a": "2,5 m/s",
+        "b": "2,0 m/s",
+        "c": "1,5 m/s",
+        "d": "1,0 m/s",
+        "e": "0,5 m/s"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Considerando que G corresponde a la constante de gravitación universal, M a la masa de la Tierra y R a su radio, ¿cuál de las siguientes opciones expresa correctamente la magnitud de la aceleración con la que cae un objeto de masa m, cerca de la superficie de la Tierra, según la Ley de Gravitación Universal?",
+      "options": {
+        "a": "G M / R²",
+        "b": "G m² / R²",
+        "c": "G m / R",
+        "d": "G M / R",
+        "e": "G M m / R"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un grupo de personas realizó un experimento para investigar cuáles son los factores que afectan el número de oscilaciones de un resorte. Para ello, desde un resorte suspendieron un objeto de cierto peso y lo hicieron oscilar verticalmente. Con esto, determinaron el número total de oscilaciones completadas por el resorte durante 10 s. Los datos se muestran en la siguiente tabla:\n\n| | Intento 1 | Intento 2 | Intento 3 |\n|---|---|---|---|\n| Longitud natural del resorte | 69 cm | 30 cm | 30 cm |\n| Estiramiento del resorte | 15 cm | 8 cm | 15 cm |\n| Masa del objeto | 72 g | 72 g | 72 g |\n| Cantidad de oscilaciones durante 10 s | 30 | 45 | 45 |\n\nSegún los resultados presentados anteriormente, ¿cuál de las siguientes variables incide en la cantidad de oscilaciones del resorte?",
+      "options": {
+        "a": "La longitud natural del resorte",
+        "b": "El estiramiento del resorte",
+        "c": "La masa del objeto",
+        "d": "El peso del objeto"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Sobre una caja que se desliza con velocidad constante, en una superficie plana y horizontal, además de las fuerzas peso y normal actúan la fuerza de roce y una fuerza F paralela a la superficie. En el instante t₁ la superficie cambia de rugosidad, pero la caja continúa con la misma velocidad constante. Con esta información, ¿cuál de los siguientes gráficos de la magnitud de la fuerza F en función del tiempo es compatible con la situación descrita? [Figura: cinco gráficos F vs t (A-E); ver PDF pág. 22]",
+      "options": {
+        "a": "[Gráfico: F aumenta desde antes de t1 y sigue aumentando con distinta pendiente después de t1 — ver figura]",
+        "b": "[Gráfico: F constante antes de t1, cae a un valor menor y permanece constante después de t1 — ver figura]",
+        "c": "[Gráfico: F constante en todo momento, sin cambio en t1 — ver figura]",
+        "d": "[Gráfico: F disminuye linealmente de forma continua, sin quiebre en t1 — ver figura]",
+        "e": "[Gráfico: F aumenta linealmente, cae abruptamente en t1 y vuelve a aumentar con igual pendiente — ver figura]"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "¿A qué se denomina epicentro de un sismo?",
+      "options": {
+        "a": "Al punto donde se registra la mayor magnitud del sismo.",
+        "b": "Al punto donde se registra la mayor intensidad del sismo.",
+        "c": "Al punto en el interior de la Tierra, donde se produce el sismo.",
+        "d": "Al punto en la superficie de la Tierra, donde el sismo provoca los mayores daños.",
+        "e": "Al punto en la superficie de la Tierra, ubicado verticalmente sobre el hipocentro."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Una persona mide los volúmenes de golillas y tornillos de metal antes de modificar su temperatura. Luego de calentar dichos objetos por un breve tiempo y registrar su temperatura, obtiene los volúmenes después del cambio de temperatura. ¿A qué componente de la investigación científica corresponde lo descrito anteriormente?",
+      "options": {
+        "a": "A un procedimiento experimental",
+        "b": "A una hipótesis experimental",
+        "c": "A una conclusión del estudio",
+        "d": "A un modelo experimental",
+        "e": "A un problema del estudio"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "Un bloque que se desplaza sobre una superficie horizontal con una rapidez constante de 12 m/s inicia el ascenso de un plano inclinado. Despreciando los efectos del roce y considerando la magnitud de la aceleración de gravedad igual a 10 m/s², ¿cuál es la altura máxima que alcanza el bloque al subir por el plano inclinado con respecto a la superficie horizontal?",
+      "options": {
+        "a": "7,2 m",
+        "b": "36,0 m",
+        "c": "72,0 m",
+        "d": "120,0 m",
+        "e": "144,0 m"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Un bloque de 12 kg se desliza sobre una superficie horizontal. En cierto instante su energía cinética es 600 J y en un instante posterior es 384 J. Si la magnitud de la aceleración de gravedad es 10 m/s², el coeficiente de roce cinético entre el piso y el bloque es 0,2 y las únicas fuerzas que actúan sobre el bloque son la fuerza de roce, la fuerza peso y la fuerza normal, ¿qué distancia recorre el bloque entre estos dos instantes?",
+      "options": {
+        "a": "4,5 m",
+        "b": "9,0 m",
+        "c": "16,0 m",
+        "d": "25,0 m",
+        "e": "41,0 m"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "A continuación se proporcionan registros de eventos sísmicos en Chile, cuyas magnitudes se encuentran entre 7,1 y 8,4.\n\n| Fecha (UTC) | Latitud (°) | Longitud (°) | Profundidad (km) | Magnitud |\n|---|---|---|---|---|\n| 2014-04-03 02:43:15 | –20,52 | –70,44 | 28 | 7,6 |\n| 2014-04-01 23:46:45 | –19,57 | –70,91 | 39 | 8,2 |\n| 2015-09-16 23:18:35 | –31,59 | –71,79 | 16 | 7,6 |\n| 2015-09-16 22:54:28 | –31,55 | –71,86 | 11 | 8,4 |\n| 2015-09-16 22:59:15 | –31,62 | –71,75 | 27 | 7,1 |\n| 2016-12-25 14:22:23 | –43,52 | –74,39 | 30 | 7,6 |\n\n¿Cuál de las siguientes afirmaciones es correcta a partir de la información proporcionada?",
+      "options": {
+        "a": "La latitud de los sismos posteriores a 2016 sigue aumentando progresivamente.",
+        "b": "La magnitud está relacionada con la hora en que sucedió el sismo, entre 2014 y 2016.",
+        "c": "Debió ocurrir al menos un sismo de magnitud entre 7,1 a 8,4 durante 2013 en Chile.",
+        "d": "La magnitud de un sismo es independiente de la profundidad a la que se origina, entre 2014 y 2016.",
+        "e": "La profundidad en que ocurrió un sismo entre 2014 y 2016 es directamente proporcional a la coordenada de longitud."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Un cubo de hielo de 100 g a –5 °C se introduce en un recipiente térmicamente aislado, el que contiene 900 g de agua líquida a 25 °C. Si después de derretirse todo el hielo se alcanza una temperatura de equilibrio de 14 °C y el calor específico del agua líquida es 1 cal/(g·°C), ¿cuál es la cantidad de calor absorbido por los 100 g de agua que inicialmente eran hielo?",
+      "options": {
+        "a": "17100 cal",
+        "b": "9900 cal",
+        "c": "8800 cal",
+        "d": "1900 cal",
+        "e": "500 cal"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "Por error, un grupo de estudiantes mueve un tejido vegetal proveniente de una hoja desde un medio isotónico a un medio hipertónico. ¿Qué fenómeno experimentarán estas células?",
+      "options": {
+        "a": "Plasmólisis",
+        "b": "Turgencia",
+        "c": "Crenación",
+        "d": "Apoptosis",
+        "e": "Citólisis"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Si una célula posee gran cantidad de retículo endoplasmático liso, ¿cuál de las siguientes funciones se puede asociar directamente a esta célula?",
+      "options": {
+        "a": "Síntesis de proteínas",
+        "b": "Glicosilación de proteínas",
+        "c": "Síntesis de unidades ribosomales",
+        "d": "Detoxificación celular",
+        "e": "Absorción de sustancias"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 39,
+      "content": "El gráfico muestra los niveles plasmáticos de la hormona luteinizante (LH) en tres grupos de mujeres sanas de entre 18 y 22 años de edad, con ciclos ováricos de 28 días.\n\n[Figura: gráfico de barras 'Nivel plasmático de LH (u.a.)' para Grupo 1 (barra baja), Grupo 2 (barra alta) y Grupo 3 (barra baja); ver PDF pág. 28]\n\nSabiendo que el grupo 1 corresponde a mujeres en el día 10 del ciclo, ¿cuál de las siguientes opciones es una inferencia correcta?",
+      "options": {
+        "a": "Las mujeres del grupo 1 están en sus días fértiles.",
+        "b": "Las mujeres del grupo 2 están ovulando.",
+        "c": "Las mujeres del grupo 1 están menstruando.",
+        "d": "Las mujeres del grupo 2 están menstruando.",
+        "e": "Las mujeres del grupo 3 están ovulando."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Un investigador está realizando un estudio sobre diabetes tipo 1, para lo cual plantea una serie de preguntas con el fin de confeccionar un cuestionario que aplicará a personas con esta condición. ¿Cuál de las siguientes preguntas generaría datos que pueden ser analizados solo de manera cualitativa?",
+      "options": {
+        "a": "¿Qué porcentaje de tus familiares presenta diabetes tipo 1?",
+        "b": "¿Cuántas veces al día te inyectas insulina?",
+        "c": "¿Cuáles son los valores de glicemia que registras en ayuno?",
+        "d": "¿Cómo afecta la diabetes a tu estado de ánimo?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "Los gráficos muestran los efectos de una única inyección de un análogo de la hormona liberadora de gonadotrofinas (GnRH) sobre la liberación de gametos en machos y hembras, en cierta especie de pez.\n\n[Figura: dos gráficos de barras — 'Hembras que desovan (%)' y 'Machos que eyaculan (%)' vs tiempo posinyección (horas: 0, 12, 24, 48), comparando grupo 'Análogo GnRH' y 'Control'; ver PDF pág. 29]\n\nDel análisis de los gráficos, ¿cuál de las siguientes afirmaciones es correcta con relación al análogo de la GnRH?",
+      "options": {
+        "a": "Triplica la liberación de gametos respecto de los controles en ambos sexos.",
+        "b": "Produce su máximo efecto 24 horas después de su inyección en ambos sexos.",
+        "c": "En machos, los efectos ocurren en menor tiempo que en hembras.",
+        "d": "En hembras presenta un efecto inhibitorio en las primeras 12 horas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "El siguiente esquema representa dos mecanismos de regulación del sistema endocrino humano:\n\n[Figura: diagrama — Hipófisis produce Hormona 1 (+) que actúa sobre Glándula endocrina X, la cual produce Hormona 2 (+) que actúa sobre Tejidos generando Efectos; Hipófisis también produce Hormona 3 (+) que actúa sobre Glándula exocrina Z generando un Efecto; ver PDF pág. 30]\n\n¿Cuál de las siguientes hormonas se ajusta al mecanismo de regulación ejercido por la hormona 1?",
+      "options": {
+        "a": "Prolactina",
+        "b": "Estrógenos",
+        "c": "Progesterona",
+        "d": "Foliculoestimulante"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "A partir de la investigación del sistema endocrino se han desarrollado múltiples alternativas que permiten el control de la natalidad. Una de estas corresponde a los métodos hormonales combinados, que operan mediante retroalimentación negativa. Al respecto, ¿cuál es el mecanismo de acción de estos métodos?",
+      "options": {
+        "a": "Inhibir la movilidad de los espermatozoides.",
+        "b": "Impedir la liberación del ovocito.",
+        "c": "Favorecer la maduración de los gametos.",
+        "d": "Inducir la muerte de los gametos.",
+        "e": "Modificar el pH vaginal."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "El siguiente esquema representa una célula en división meiótica:\n\n[Figura: célula elíptica con dos grupos de cromosomas duplicados desplazándose hacia polos opuestos; ver PDF pág. 31]\n\n¿Qué etapa de la meiosis está representada?",
+      "options": {
+        "a": "Anafase I",
+        "b": "Telofase I",
+        "c": "Metafase II",
+        "d": "Profase II",
+        "e": "Telofase II"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "En la piel de la especie humana (cariotipo de 46 cromosomas), las células poseen una alta tasa de recambio, la cual está mediada por la presencia de células troncales epidermales. Estas células residen en la lámina basal de la epidermis y son las únicas mitóticamente activas. Al respecto, ¿cuántas cromátidas presentaría una célula troncal epidermal en etapa de metafase mitótica?",
+      "options": {
+        "a": "22",
+        "b": "23",
+        "c": "44",
+        "d": "46",
+        "e": "92"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "En la siguiente figura se muestra el cariograma de un mamífero:\n\n[Figura: cariograma con 18 pares de cromosomas numerados (1-18) más un par de cromosomas sexuales X e Y; ver PDF pág. 32]\n\nBasándose en el análisis de este cariograma, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "Los gametos producidos por este mamífero presentan 20 autosomas.",
+        "b": "Este mamífero tiene 19 pares de autosomas.",
+        "c": "Las células somáticas de este mamífero tienen 38 cromosomas.",
+        "d": "Ambos cromosomas sexuales fueron aportados por uno de los progenitores del mamífero.",
+        "e": "Este mamífero presenta mutaciones en los cromosomas 13, 14 y 15."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "En las poblaciones humanas, la estatura es un rasgo de variación continua, de tal manera que la mayor parte de la población tiene valores de estatura cercanos al promedio y las estaturas extremas (muy bajas o muy altas) son poco frecuentes. ¿Cuál de los siguientes gráficos representa de manera correcta la distribución de estaturas en las poblaciones humanas? [Figura: cuatro gráficos N° de individuos vs Estatura (A-D); ver PDF pág. 33]",
+      "options": {
+        "a": "[Gráfico: forma de meseta/trapezoidal — ver figura]",
+        "b": "[Gráfico: bimodal, con dos picos — ver figura]",
+        "c": "[Gráfico: forma de U, bajo en el centro y alto en los extremos — ver figura]",
+        "d": "[Gráfico: campana simétrica (distribución normal) — ver figura]"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "La figura representa la herencia de un rasgo.\n\n[Figura: árbol genealógico (pedigrí) de tres generaciones, con individuos afectados (símbolos rellenos) y no afectados (símbolos vacíos); ver PDF pág. 34]\n\nDe acuerdo con la figura, ¿qué tipo de herencia presenta este rasgo?",
+      "options": {
+        "a": "Autosómica dominante",
+        "b": "Autosómica recesiva",
+        "c": "Dominante ligada al cromosoma X",
+        "d": "Ligada al cromosoma Y"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "En sistemas altamente productivos, como los arrecifes de coral del océano Pacífico, se han descubierto ecosistemas con pirámides de biomasa invertida. Estos contrastan con la visión clásica, donde los productores presentan los mayores valores de biomasa. Al respecto, ¿en cuál de las siguientes situaciones se produce una pirámide de biomasa invertida?",
+      "options": {
+        "a": "Cuando existe mayor abundancia relativa de presas que depredadores.",
+        "b": "Cuando los herbívoros presentan una baja eficiencia de consumo.",
+        "c": "Cuando los productores experimentan elevadas tasas de recambio.",
+        "d": "Cuando existe una alta tasa de extracción de productores.",
+        "e": "Cuando los productores son de gran tamaño."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Para escapar de sus depredadores, algunos crustáceos se refugian en el interior de las esponjas, las que no se ven perjudicadas ni beneficiadas con esta estrategia. De acuerdo con esta información, ¿qué tipo de interacción se establece entre estos crustáceos y las esponjas que los albergan?",
+      "options": {
+        "a": "Simbiosis",
+        "b": "Comensalismo",
+        "c": "Mutualismo",
+        "d": "Competencia",
+        "e": "Parasitismo"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "En el gráfico se representa la variación de la velocidad fotosintética de la especie vegetal Prosopis tamarugo en función de la intensidad de la luz, en dos condiciones de riego.\n\n[Figura: gráfico velocidad fotosintética (u.a.) vs intensidad de la luz (u.a.), dos curvas de saturación: 'Riego habitual' (mayor) y 'Menor riego' (menor); ver PDF pág. 36]\n\nDe acuerdo con los datos del gráfico, ¿cuál de las siguientes opciones describe correctamente la relación entre la velocidad fotosintética del tamarugo, la intensidad de la luz y el riego?",
+      "options": {
+        "a": "Cuando hay menor riego, la velocidad fotosintética se reduce, aproximadamente, a la mitad a medida que aumenta la intensidad de la luz.",
+        "b": "Cuando hay menor riego, la velocidad fotosintética aumenta, aproximadamente, al doble a medida que disminuye la intensidad de la luz.",
+        "c": "Independiente del volumen de riego y de la intensidad de la luz, la velocidad fotosintética es constante.",
+        "d": "Cuando el riego es habitual, la velocidad fotosintética aumenta exponencialmente a medida que se incrementa la intensidad de la luz.",
+        "e": "Cuando hay menor riego, la velocidad fotosintética disminuye de manera constante a medida que aumenta la intensidad de la luz."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "El siguiente esquema representa una cadena trófica constituida por tres niveles y compuesta de especies que habitan un ecosistema terrestre:\n\n[Figura: diagrama con nodos V, W, X, Y, Z y flechas: V→W, V→X, V→Y, X→W, X→Z; ver PDF pág. 37]\n\nAl respecto, ¿a cuál de los siguientes tipos de organismos correspondería la especie Z?",
+      "options": {
+        "a": "Bacterias autótrofas",
+        "b": "Plantas",
+        "c": "Herbívoros",
+        "d": "Carnívoros",
+        "e": "Protista autótrofo"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Con la finalidad de conocer el estado de conservación de una especie de ave costera, se propone evaluar su densidad poblacional en el área que comprende su rango de distribución en Chile. Al respecto, ¿qué variables se requieren conocer para determinar la densidad poblacional de esta especie?",
+      "options": {
+        "a": "El número de individuos y su tasa de natalidad.",
+        "b": "El tamaño poblacional y el número de especies de la comunidad.",
+        "c": "El área ocupada por la población y la tasa de mortalidad de esta.",
+        "d": "El número de individuos de una población y la superficie ocupada por esta.",
+        "e": "La superficie ocupada por la población y la biodiversidad existente en la zona."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Los gráficos muestran la localización de tres especies de aves (1, 2 y 3) en cuatro islas (W, X, Y y Z), cuando habitan las tres al mismo tiempo en una isla, solo dos de ellas (1 y 2) y cuando estas últimas habitan en solitario una isla.\n\n[Figura: cuatro histogramas de frecuencia de individuos por tamaño vs ambiente (área de la costa, bosque abierto, bosque cerrado lluvioso) para las islas W, X, Y y Z, mostrando la distribución de las especies 1, 2 y 3; ver PDF pág. 38]\n\nA partir de los gráficos, ¿cuál de las siguientes opciones es una conclusión correcta acerca de estas aves?",
+      "options": {
+        "a": "Las tres especies pueden habitar en solitario una isla.",
+        "b": "Las tres especies mantienen su distribución espacial cuando compiten.",
+        "c": "Las especies no compiten por el recurso espacio en las distintas islas.",
+        "d": "Las especies presentes en las islas Z e Y son las mejores competidoras.",
+        "e": "Las especies cambian su distribución espacial al haber menos especies en la isla."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "En la siguiente tabla se presentan tres especies químicas. Para cada una de ellas se muestra su número másico y su número de electrones.\n\n| Especie química | Número másico | Número de electrones |\n|---|---|---|\n| T²⁺ | 24 | 10 |\n| R⁻ | 18 | 10 |\n| Q | 7 | 4 |\n\nAl respecto, ¿cuál de las opciones presenta la simbología correcta para los átomos neutros de estas especies químicas?",
+      "options": {
+        "a": "²⁴₁₂T ; ¹⁸₉R ; ⁷₄Q",
+        "b": "¹²₁₀T ; ⁹₁₀R ; ⁷₄Q",
+        "c": "¹²₂₄T ; ⁹₁₀R ; ⁴₇Q",
+        "d": "¹²₁₀T ; ¹⁸₉R ; ⁴₇Q",
+        "e": "²⁴₁₂T ; ¹⁸₉R ; ⁴₇Q"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "¿Cuál de los siguientes compuestos presenta el menor número de pares de electrones no compartidos?",
+      "options": {
+        "a": "CH₂O₂",
+        "b": "CH₂O",
+        "c": "CH₃OH",
+        "d": "C₂H₄",
+        "e": "CO₂"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "El siguiente esquema representa una parte del sistema periódico.\n\n[Figura: esquema de tabla periódica con X e Y en la fila superior (Y más a la derecha, cerca de los gases nobles) y Z en la fila inferior, bajo X; ver PDF pág. 40]\n\nDe acuerdo con el esquema anterior, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "X tiene mayor radio que Z.",
+        "b": "Y tiene menor potencial de ionización que X.",
+        "c": "Z tiene menor radio que Y.",
+        "d": "X tiene menor afinidad electrónica que Z.",
+        "e": "Z tiene menor electronegatividad que Y."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 58,
+      "content": "¿Cuál de las siguientes estructuras presenta tres carbonos primarios y un carbono secundario? [Figura: cinco estructuras químicas (A-E); ver PDF pág. 41]",
+      "options": {
+        "a": "[Estructura química: éter dipropílico — ver figura]",
+        "b": "[Estructura química: éter ramificado con un carbono secundario adicional — ver figura]",
+        "c": "[Estructura química: alcohol de cadena lineal (pentan-1-ol) — ver figura]",
+        "d": "[Estructura química: alcohol secundario de cadena lineal (hexan-2-ol) — ver figura]",
+        "e": "[Estructura química: alcohol ramificado (3-metil-2-butanol) — ver figura]"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "En la siguiente tabla se presentan todos los enlaces de un compuesto orgánico:\n\n| Enlace | Enlace entre | Cantidad de enlaces |\n|---|---|---|\n| σ (sp²–sp²) | C–C | 5 |\n| π (p–p) | C–C | 3 |\n| σ (sp²–s) | C–H | 8 |\n\nDe acuerdo con la tabla, ¿cuál es la representación correcta del compuesto? [Figura: cinco estructuras químicas (A-E); ver PDF pág. 42]",
+      "options": {
+        "a": "[Estructura química: trieno de cadena abierta (dieno conjugado con doble enlace terminal adicional) — ver figura]",
+        "b": "[Estructura química: metilenciclopenteno — ver figura]",
+        "c": "[Estructura química: vinilciclobuteno — ver figura]",
+        "d": "[Estructura química: dimetil-pentadieno ramificado — ver figura]",
+        "e": "[Estructura química: ciclohexeno — ver figura]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "¿Cuál de las siguientes representaciones estructurales corresponde al C₆H₈? [Figura: cinco estructuras químicas (A-E); ver PDF pág. 43]",
+      "options": {
+        "a": "[Estructura química: ciclohexeno — ver figura]",
+        "b": "[Estructura química: hexano lineal — ver figura]",
+        "c": "[Estructura química: 3-metilpentano — ver figura]",
+        "d": "[Estructura química: metilciclopentano — ver figura]",
+        "e": "[Estructura química: cadena con tres dobles enlaces conjugados (hexatrieno) — ver figura]"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "En la siguiente figura se muestra la estructura química de un fármaco antiviral, utilizado clínicamente en el tratamiento de la gripe.\n\n[Figura: anillo ciclohexénico con grupo NH2, un grupo acetamido marcado I, un grupo éster etílico marcado II, y un grupo unido por oxígeno marcado III; ver PDF pág. 44]\n\nAl respecto, ¿qué opción relaciona correctamente las áreas marcadas I, II y III con los grupos funcionales?\n(orden de columnas: I | II | III)",
+      "options": {
+        "a": "Amina | Éster | Éter",
+        "b": "Éster | Éter | Cetona",
+        "c": "Amida | Éster | Éter",
+        "d": "Cetona | Éter | Éster",
+        "e": "Amida | Cetona | Éter"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "¿Cuál es el nombre IUPAC del siguiente compuesto orgánico?\n\n[Figura: proyección de Newman — átomo frontal con sustituyentes Br (arriba), C₃H₇ y C₂H₃; átomo posterior con sustituyentes H, CH₃ y Br; ver PDF pág. 45]",
+      "options": {
+        "a": "3,4-bromo-3-metilheptano",
+        "b": "3,3-bromo-3-metilhexano",
+        "c": "3,4-dibromo-3-metil-1-hepteno",
+        "d": "1-isopropil-2-metil-1,2-dibromobuteno",
+        "e": "1-etil-2-metil-1,2-bromopenteno"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Dadas las siguientes moléculas:\n\n[Figura: molécula 1 — HO–CH2–CH3 (etanol); molécula 2 — H3C–O–CH3 (dimetil éter); ver PDF pág. 45]\n\n¿Qué tipo de isomería presentan?",
+      "options": {
+        "a": "Isomería de cadena",
+        "b": "Isomería de posición",
+        "c": "Isomería de función",
+        "d": "Estereoisomería",
+        "e": "Isomería óptica"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 64,
+      "content": "¿Cuál de los siguientes pares de especies químicas ejemplifica correctamente la ley de las proporciones múltiples?",
+      "options": {
+        "a": "H₂O y H₂O₂",
+        "b": "CO₂ y H₂O",
+        "c": "H₂O₂ y CO₃²⁻",
+        "d": "CO₂ y H₂O₂",
+        "e": "H⁺ y OH⁻"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "Para la siguiente ecuación química:\n\n2 Al (s) + 3 H₂SO₄ (ac) ⟶ Al₂(SO₄)₃ (ac) + 3 H₂ (g)\n\n¿Cuál de las siguientes opciones es correcta si se forman 6 g de H₂?",
+      "options": {
+        "a": "Participan 27 g de Al",
+        "b": "Se forma 1 mol de moléculas de Al₂(SO₄)₃",
+        "c": "Se obtienen 22,4 g de Al₂(SO₄)₃",
+        "d": "Participan, en total, 4 mol de reactantes",
+        "e": "Participan, en total, 6 g de H₂SO₄"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "En la siguiente tabla se muestran las diferentes masas de azufre (S) y de oxígeno (O) que se combinan para generar 1 mol de los compuestos X, Y y Z.\n\n| S | O | Compuestos |\n|---|---|---|\n| 32 g | 16 g | X |\n| 32 g | 32 g | Y |\n| 32 g | 48 g | Z |\n\nConsiderando la información anterior, ¿cuál de las siguientes relaciones de cantidad de producto y masas de reactantes es correcta?",
+      "options": {
+        "a": "Para producir 2 mol de Z se requieren 16 g de azufre y 24 g de oxígeno.",
+        "b": "Para producir 0,25 mol de Y se requieren 16 g de azufre y 16 g de oxígeno.",
+        "c": "Para producir 0,5 mol de Z se requieren 8 g de azufre y 12 g de oxígeno.",
+        "d": "Para producir 0,25 mol de X se requieren 8 g de azufre y 4 g de oxígeno.",
+        "e": "Para producir 2 mol de Y se requieren 32 g de azufre y 32 g de oxígeno."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Se tienen dos óxidos de nitrógeno, NOx y NOy. El óxido NOx contiene 2,8 g de nitrógeno y 3,2 g de oxígeno. El óxido NOy contiene 2,8 g de nitrógeno y 6,4 g de oxígeno. De acuerdo con esta información, ¿qué valores tienen x e y?\n(orden de columnas: x | y)",
+      "options": {
+        "a": "1 | 1",
+        "b": "1 | 2",
+        "c": "1 | 3",
+        "d": "2 | 3",
+        "e": "3 | 4"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "En una reacción química se producen 132 g de CO₂, a partir de la reacción completa de C y de O₂. ¿Qué masas de estos elementos reaccionan, respectivamente?",
+      "options": {
+        "a": "48 g y 84 g",
+        "b": "96 g y 36 g",
+        "c": "60 g y 72 g",
+        "d": "84 g y 48 g",
+        "e": "36 g y 96 g"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "En un experimento se combinan completamente 150 g de As (masa molar = 75 g/mol) con 96 g de S (masa molar = 32 g/mol). ¿Cuál es la fórmula empírica del compuesto formado?",
+      "options": {
+        "a": "As₃S₃",
+        "b": "AsS₂",
+        "c": "As₃S₂",
+        "d": "As₂S₂",
+        "e": "As₂S₃"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "La siguiente ecuación química representa la combustión del metano:\n\nCH₄ (g) + 2 O₂ (g) ⟶ CO₂ (g) + 2 H₂O (g)\n\n¿Cuál de las siguientes opciones es correcta si reaccionan masas iguales de los reactantes?",
+      "options": {
+        "a": "Reacciona todo el oxígeno.",
+        "b": "Reaccionan dos mol de oxígeno.",
+        "c": "Reacciona una cuarta parte del oxígeno.",
+        "d": "Se forman masas iguales de los productos.",
+        "e": "Reacciona solo la mitad de la masa de metano."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "Las composiciones de las siguientes soluciones son:\n\nSolución 1: 75 mL de etanol (densidad = 0,8 g/mL) + Agua; V solución = 200 mL\nSolución 2: 64 g de etanol + Agua; V solución = 300 mL\n\n[Figura: dos matraces con los niveles de líquido de las soluciones 1 y 2; ver PDF pág. 49]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "a": "La solución 2 es una solución saturada.",
+        "b": "La solución 2 es más concentrada que la solución 1.",
+        "c": "Ambas soluciones tienen la misma concentración.",
+        "d": "La solución 2 es una solución sobresaturada.",
+        "e": "La solución 2 es más diluida que la solución 1."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "En el gráfico se muestra la solubilidad del soluto X en agua, en función de la temperatura:\n\n[Figura: gráfico solubilidad (g de soluto/100 g de agua) vs temperatura (°C); curva creciente desde 10 g a 0°C hasta 30 g a 42°C aprox.; ver PDF pág. 50]\n\nAl respecto, ¿cuál es la masa de X a 20 °C en 200 g de agua?",
+      "options": {
+        "a": "5 g",
+        "b": "10 g",
+        "c": "15 g",
+        "d": "20 g",
+        "e": "30 g"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "Si se desea aumentar al doble la concentración de ion potasio de una solución acuosa 1 mol/L de KCl, ¿cuál de las siguientes acciones es necesaria?",
+      "options": {
+        "a": "Extraer por ebullición solvente hasta obtener la mitad del volumen de la solución inicial.",
+        "b": "Agregar solvente hasta obtener el doble de volumen de la solución inicial.",
+        "c": "Extraer por precipitación la mitad de la masa original de K⁺.",
+        "d": "Agregar el doble de la cantidad, en mol, de KCl a la solución original.",
+        "e": "Agregar el doble en masa de cualquier sal de K⁺ diferente a la original."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Para una solución, ¿qué unidad de concentración se obtiene si solo se conoce la cantidad en mol de soluto y la masa del solvente?",
+      "options": {
+        "a": "Molaridad",
+        "b": "Molalidad",
+        "c": "Fracción molar",
+        "d": "Porcentaje en masa",
+        "e": "Porcentaje en volumen"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Si a 250 mL de una solución acuosa que contiene 16,4 g de Ca(NO₃)₂ (masa molar = 164 g/mol), se le agrega agua hasta completar 1000 mL, ¿cuál es la concentración molar del ion nitrato (NO₃⁻)?",
+      "options": {
+        "a": "0,1 mol/L",
+        "b": "0,2 mol/L",
+        "c": "0,025 mol/L",
+        "d": "0,050 mol/L",
+        "e": "1,0×10⁻⁴ mol/L"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "Se tienen dos soluciones acuosas de NaCl:\n\n- Solución X, se preparó masando 100 g de NaCl en 1 L de agua.\n- Solución Y, se preparó masando 100 g de NaCl y agregando agua hasta completar 1 L de solución.\n\nA partir de lo anterior, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "La solución X es más concentrada que la solución Y.",
+        "b": "La solución Y es más concentrada que la solución X.",
+        "c": "Ambas soluciones tienen la misma concentración.",
+        "d": "Ambas soluciones tienen el mismo volumen.",
+        "e": "Ambas soluciones tienen la misma masa total."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "¿Qué significa que una solución tenga una concentración 30% m/v?",
+      "options": {
+        "a": "Que contiene 30 g de soluto en 100 g de solución.",
+        "b": "Que contiene 30 g de solvente en 100 mL de solución.",
+        "c": "Que contiene 30 mL de soluto en 100 mL de solvente.",
+        "d": "Que contiene 30 g de soluto en 100 mL de solución.",
+        "e": "Que contiene 30 mL de soluto en 70 mL de solución."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "En la siguiente tabla se registran los valores de presión de vapor de dos líquidos en función de la temperatura:\n\n| Líquido | 35 °C | 50 °C | 70 °C | 100 °C |\n|---|---|---|---|---|\n| Agua | 50 | 100 | 240 | 380 |\n| Benceno | 100 | 240 | 550 | 850 |\n\n(Presión de vapor en mmHg)\n\nA partir de estos datos, ¿cuál de las siguientes opciones es correcta respecto de la presión de vapor?",
+      "options": {
+        "a": "La presión de vapor del benceno es inversamente proporcional a la temperatura.",
+        "b": "La presión de vapor del agua y del benceno aumenta en la misma proporción con el aumento de la temperatura.",
+        "c": "Bajo los 70 °C, la presión de vapor del agua se duplica cuando la temperatura aumenta en 15 °C.",
+        "d": "Desde los 50 °C, la presión de vapor para ambos líquidos aumenta al doble cuando se duplica la temperatura.",
+        "e": "La presión de vapor del benceno aumenta al doble de la presión de vapor del agua para cada valor de temperatura."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Considerando que el etilenglicol (masa molar = 62 g/mol) es un compuesto soluble en agua que se puede utilizar para disminuir la temperatura de congelación del solvente en una solución, ¿cuál de las siguientes combinaciones de masas de agua y etilenglicol formará la solución con la menor temperatura de congelación?\n(orden de columnas: Masa de agua (kg) | Masa de etilenglicol (g))",
+      "options": {
+        "a": "10 | 248,0",
+        "b": "15 | 124,0",
+        "c": "20 | 62,0",
+        "d": "30 | 31,0",
+        "e": "60 | 15,5"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "En un laboratorio se realiza el siguiente experimento:\n\n- En tres recipientes que contienen inicialmente 1 L de solución acuosa de cloruro de sodio (NaCl) de diferentes concentraciones, se depositan tres lechugas de igual masa, las cuales poseen sales y un alto contenido de agua (cerca del 95 % de su masa).\n\nLas concentraciones iniciales (Ci) de las soluciones en cada recipiente son:\n\n| Ci (mol/L) | Recipiente I | Recipiente II | Recipiente III |\n|---|---|---|---|\n| | 1,25 | 1,40 | 1,50 |\n\nAl terminar el experimento, ¿cuáles recipientes contienen las lechugas de mayor y de menor masa final?\n(orden de columnas: Lechuga con mayor masa | Lechuga con menor masa)",
+      "options": {
+        "a": "I | II",
+        "b": "I | III",
+        "c": "II | III",
+        "d": "III | I",
+        "e": "III | II"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    }
+  ]
+}

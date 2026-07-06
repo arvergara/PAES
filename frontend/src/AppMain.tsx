@@ -22,7 +22,7 @@ import type { Subject, PracticeMode } from './types';
 type AppState = 'subject' | 'science-specialty' | 'mode' | 'practice' | 'admin';
 type ScienceSpecialty = 'CF' | 'CQ' | 'CB';
 
-const subjects: Subject[] = ['M1', 'M2', 'L', 'C', 'H'];
+const subjects: Subject[] = ['M1', 'M2', 'L', 'CF', 'CQ', 'CB', 'H'];
 
 const scienceSpecialties = [
   { code: 'CF' as ScienceSpecialty, name: 'Física', icon: Atom, description: 'Mecánica, ondas, electricidad y más', color: 'text-cyan-600 dark:text-cyan-400', iconBg: 'bg-cyan-100 dark:bg-cyan-500/20', borderHover: 'hover:border-cyan-400 dark:hover:border-cyan-500/50', bgColor: 'bg-cyan-50 dark:bg-cyan-500/10', borderColor: 'border-cyan-200 dark:border-cyan-500/30' },
@@ -287,11 +287,6 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     setSelectedSubject(null);
   };
 
-  const handleBackToSpecialty = () => {
-    setState('science-specialty');
-    setSelectedSubject('C');
-  };
-
   // Handler para continuar sesión desde ContinueButton o SubjectCard
   const handleContinueSession = (subject: Subject, mode: PracticeMode, questionIndex?: number, timeRemaining?: number) => {
     const sessionData = localStorage.getItem('lastPracticeSession');
@@ -455,14 +450,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     }
 
     if (state === 'mode' && selectedSubject) {
-      const isScienceSpecialty = ['CF', 'CQ', 'CB'].includes(selectedSubject);
       return (
         <div>
           <button
-            onClick={isScienceSpecialty ? handleBackToSpecialty : handleBackToSubjects}
+            onClick={handleBackToSubjects}
             className="mb-6 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 transition-colors text-sm font-medium"
           >
-            ← Volver a {isScienceSpecialty ? 'especialidades' : 'materias'}
+            ← Volver a materias
           </button>
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 text-center">Selecciona un modo de práctica</h2>
           <ModeSelector onSelect={handleModeSelect} />

@@ -1,0 +1,873 @@
+{
+  "meta": {
+    "subject": "CF",
+    "subject_nombre": "Ciencias - Física",
+    "origen": "PAES Ciencias - Física Admision 2025-1",
+    "anio": 2025,
+    "forma": 163,
+    "total_preguntas": 56,
+    "preguntas_piloto_no_puntuan": [
+      11,
+      46,
+      67,
+      69,
+      76
+    ],
+    "fuente_pdf": "pruebas/oficiales/C-fisica-2025-1.pdf",
+    "fuente_clave": null
+  },
+  "preguntas": [
+    {
+      "numero": 3,
+      "content": "Una persona limpia un piso de baldosas, y se percata que la parte mojada parece más oscura que la parte seca, tal como se muestra en la siguiente imagen:\n\n[Imagen: fotografía de un piso de baldosas con una zona mojada de aspecto más oscuro que el resto]\n\nEn relación con lo anterior, ¿qué pregunta de investigación surge directamente de la observación realizada por la persona?",
+      "options": {
+        "a": "¿Cuáles longitudes de onda se reflejan en las baldosas?",
+        "b": "¿Cuáles longitudes de onda son absorbidas por el agua?",
+        "c": "¿Cuáles longitudes de onda se refractan en las baldosas?",
+        "d": "¿Cuáles longitudes de onda inciden en el agua?"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Un grupo de estudiantes observa que, al hacer incidir dos rayos luminosos distintos entre sí con un mismo ángulo de incidencia sobre la superficie del agua, estos se refractan con ángulos distintos. Luego, repiten el experimento con otros rayos luminosos, observando el mismo comportamiento de los rayos refractados del experimento anterior.\nAl respecto, ¿cuál de las siguientes opciones corresponde a una pregunta de investigación relacionada directamente con lo observado?",
+      "options": {
+        "a": "¿Cómo influye el ángulo de incidencia en el ángulo de reflexión?",
+        "b": "¿Cómo influyen los medios de transmisión en el ángulo refractado?",
+        "c": "¿Qué relación hay entre la frecuencia del rayo incidente con el ángulo de reflexión?",
+        "d": "¿Qué relación hay entre la frecuencia del rayo incidente con el ángulo de refracción?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Un rayo de luz monocromática incide sobre una placa de vidrio de caras paralelas, como indica la figura. La línea segmentada indica la dirección que originalmente tenía el rayo de luz.\n\n[Figura: diagrama muestra un rayo incidiendo desde el aire sobre una placa horizontal de vidrio (rodeada de aire arriba y abajo); una línea segmentada muestra la dirección original del rayo sin desviarse]\n\nEl rayo atraviesa la placa y emerge al otro lado. De los esquemas presentados en las opciones, ¿cuál representa mejor la trayectoria del rayo de luz?",
+      "options": {
+        "a": "[Diagrama: el rayo se refracta levemente al entrar y salir de la placa de vidrio, emergiendo paralelo al rayo incidente y cercano a la línea segmentada original]",
+        "b": "[Diagrama: el rayo se refracta fuertemente al entrar, marcado con un ángulo recto respecto de la normal dentro del vidrio, y emerge desviado de forma pronunciada]",
+        "c": "[Diagrama: variante similar a la opción B, con un ángulo recto marcado dentro del vidrio pero con una desviación de salida distinta]",
+        "d": "[Diagrama: el rayo atraviesa la placa sin desviarse, coincidiendo exactamente con la línea segmentada original]",
+        "e": "[Diagrama: variante con un ángulo recto marcado dentro del vidrio, con un patrón de refracción distinto a B y C]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Frente a un espejo plano se coloca uno convexo, de modo que sus ejes ópticos coinciden. A igual distancia de ambos espejos, se ubica un objeto sobre el eje óptico. En esta situación, se puede afirmar correctamente que",
+      "options": {
+        "a": "se formarán solo imágenes reales.",
+        "b": "se formarán solo imágenes virtuales.",
+        "c": "se formará una imagen real y una imagen virtual.",
+        "d": "se formará una imagen virtual y múltiples imágenes reales.",
+        "e": "se formará una imagen real y múltiples imágenes virtuales."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "Tres bloques de 1 kg, 2 kg y 3 kg, se conectan y cuelgan mediante cuerdas inextensibles y de masas despreciables. Las fuerzas en las cuerdas tienen magnitudes T₁, T₂ y T₃, como se representa en la siguiente figura:\n\n[Figura: desde un techo fijo cuelga una cuerda con tensión T₃ que sostiene un bloque de 3 kg; de este bloque cuelga una cuerda con tensión T₂ que sostiene un bloque de 2 kg; de este bloque cuelga una cuerda con tensión T₁ que sostiene un bloque de 1 kg. Se indica un vector g apuntando hacia abajo]\n\nAl respecto, ¿cuál de las siguientes expresiones para T₃ en función de T₁ es correcta?",
+      "options": {
+        "a": "T₃ = T₁",
+        "b": "T₃ = 2T₁",
+        "c": "T₃ = 3T₁",
+        "d": "T₃ = 6T₁"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Un resorte de longitud natural 50 cm, tiene un extremo fijo a una pared vertical y el otro libre. El resorte permanece en la dirección del eje x horizontal, como muestra la figura.\n\n[Figura: resorte fijo en x=0 a una pared, con su extremo libre inicialmente en x=50 cm; se marcan en el eje x las posiciones 0, 40, 50 y 80 cm]\n\nSi para mantener el extremo libre en la posición x = 80 cm hay que ejercer una fuerza, paralela al eje x, de magnitud 24 N, entonces para mantener el extremo libre en la posición x = 40 cm hay que ejercer una fuerza, paralela al eje x, de magnitud",
+      "options": {
+        "a": "8 N",
+        "b": "12 N",
+        "c": "16 N",
+        "d": "24 N",
+        "e": "32 N"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "Un grupo de geólogas monitorea la sismicidad de un volcán ante la sospecha de que su actividad ha aumentado. Para ello, primeramente, realizan un estudio geográfico del sector donde se emplaza el volcán con el fin de instalar sensores sismográficos. Con los sensores ya instalados y en funcionamiento comienza un periodo de mediciones que son procesadas y analizadas. \"Finalmente, a partir de los resultados obtenidos, el grupo de geólogas reporta que la sismicidad está dentro de los parámetros normales\".\nAl respecto, ¿a qué componente de la investigación científica se asocia la frase entre comillas?",
+      "options": {
+        "a": "Al planteamiento del problema.",
+        "b": "A la formulación de la hipótesis.",
+        "c": "A la presentación de una conclusión.",
+        "d": "A la recolección de los datos experimentales."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "Un grupo de personas pretende realizar una investigación para comparar la máxima temperatura del aire en un mismo día y en distintos lugares del planeta, de acuerdo a la distancia que los separa de la línea del Ecuador. En base a los antecedentes presentados, ¿cuál de las siguientes hipótesis pudo haber dado origen a esta investigación?",
+      "options": {
+        "a": "La temperatura es constante en todos los puntos de la línea del Ecuador.",
+        "b": "La temperatura disminuye conforme aumenta la altura de un lugar.",
+        "c": "La temperatura aumenta conforme aumenta la latitud de un lugar.",
+        "d": "La temperatura depende de la presión atmosférica."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Una lámpara saldrá al mercado pronto, la cual consiste en dos ampolletas conectadas en serie. Respecto de este tipo de conexión, ¿qué opción señala correctamente la información que debiese contener el manual para evitar problemas de funcionamiento de esta lámpara?",
+      "options": {
+        "a": "La corriente eléctrica medida en ambas ampolletas tiene la misma intensidad.",
+        "b": "El encendido de la lámpara dependerá de que ambas ampolletas estén en buen estado.",
+        "c": "El voltaje en los extremos de cada ampolleta es distinto al voltaje suministrado por el enchufe.",
+        "d": "La resistencia interna de la lámpara equivale a la suma de las resistencias de las ampolletas."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Una persona está en un local comercial y pretende comprar un refrigerador cuyo uso implique el menor gasto económico posible. La persona compara el etiquetado de distintos refrigeradores, uno de los cuales se representa en la siguiente imagen:\n\n[Figura: etiqueta de eficiencia energética de un Refrigerador Automático. Escala de eficiencia de A (más eficiente) a G (menos eficiente), con el nivel A+ destacado]\n\n| Dato | Valor |\n|---|---|\n| Consumo mensual (kWh/mes) | 18,67 |\n| Temperatura de ensayo | 25 °C |\n| Volumen útil del compartimiento refrigerado (L) | 182 |\n| Volumen útil del compartimiento congelado (L) | 95 |\n| Temperatura del compartimiento congelado (°C) | -18 |\n\nEn relación con lo anterior, ¿qué información de la etiqueta debe considerar la persona para tomar su decisión?",
+      "options": {
+        "a": "El consumo mensual del refrigerador",
+        "b": "El voltaje que se debe suministrar al refrigerador",
+        "c": "La temperatura del compartimiento congelado del refrigerador",
+        "d": "El volumen útil total de ambos compartimientos del refrigerador"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "La diabetes tipo I es causada por la destrucción de células beta pancreáticas, las cuales tienen como función secretar insulina permitiendo regular los niveles de glucosa en la sangre. Con el fin de abordar este problema, un equipo de investigación ha desarrollado un tratamiento que implica la producción de células beta funcionales a partir de células troncales. Los resultados preliminares in vitro indican que las células transformadas son capaces de liberar insulina en respuesta a la exposición a la glucosa. En base a estos antecedentes, ¿qué hipótesis podría validarse a través de la implementación de esta estrategia por parte del equipo de investigación?",
+      "options": {
+        "a": "El trasplante de células troncales transformadas disminuye significativamente el ingreso de glucosa al interior de la célula.",
+        "b": "La transformación de células troncales es fundamental para el trasplante de páncreas en personas con diabetes tipo I.",
+        "c": "Altos niveles de glucosa disminuyen la probabilidad de liberación de insulina en células beta pancreáticas transformadas.",
+        "d": "Las células beta pancreáticas formadas a partir de células troncales son un posible tratamiento para la diabetes tipo I."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Un estudio realizado en adolescentes determinó la edad de aparición de algunas características sexuales asociadas a la pubertad. Los resultados se resumen en la siguiente figura, donde las líneas negras indican el rango etario de aparición de estas características y las flechas su promedio:\n\n[Figura: gráfico de barras horizontales que muestra el rango etario (eje Edad en años, de 10 a 18) para cuatro características: Cambio de voz (rango aproximado 13 a 18 años, promedio marcado cerca de 14-15 años); Vello púbico (rango aproximado 11 a 13 años, promedio cerca de 12 años); Vello facial (rango aproximado 13 a 17 años, promedio cerca de 15 años); Vello axilar (rango aproximado 13 a 17 años, promedio cerca de 14 años)]\n\nAnalizando los datos presentados, ¿cuál de las siguientes opciones corresponde a una conclusión correcta?",
+      "options": {
+        "a": "El vello púbico corresponde a la característica sexual que se manifiesta más tardíamente.",
+        "b": "El cambio de voz y el vello facial son las características sexuales que se manifiestan, en promedio, a más temprana edad.",
+        "c": "El vello púbico es la característica sexual que, en promedio, se manifiesta más tempranamente durante el desarrollo.",
+        "d": "El cambio de voz y el vello axilar son las características sexuales que se manifiestan más tardíamente."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Una científica evaluó in vitro el efecto inhibitorio de la molécula Z en la afinidad de los gametos masculinos (espermatozoides) con la superficie de los gametos femeninos (ovocitos). El diseño experimental consistió en cuantificar los espermatozoides presentes en la superficie de ovocitos bajo cuatro concentraciones crecientes de Z. Para estos fines, trabajó con una muestra de 100 espermatozoides y 25 ovocitos provenientes de ratones de laboratorio. Sus resultados sugieren que el efecto inhibitorio depende directamente de la concentración de la molécula Z. En este contexto, ¿cuál de las siguientes opciones representa de manera correcta los posibles resultados obtenidos por la científica?",
+      "options": {
+        "a": "Tabla:\n\n| Molécula Z | Número de espermatozoides unidos | Número de ovocitos |\n|---|---|---|\n| Ausente | 80 | 15 |\n| Presente | 20 | 10 |",
+        "b": "[Diagrama: gráfico de líneas con eje Y 'Número de gametos' (0 a 100) y eje X 'Concentración de Z (u.a.)' (1 a 4); una línea horizontal alta rotulada 'Espermatozoides' se mantiene aproximadamente constante cerca de 100; una línea horizontal punteada baja rotulada 'Ovocitos' se mantiene constante cerca de 25]",
+        "c": "Tabla:\n\n| Concentración de Z (u.a.) | Número de espermatozoides | Porcentaje |\n|---|---|---|\n| 1 | 40 | 40 |\n| 2 | 10 | 10 |\n| 3 | 20 | 20 |\n| 4 | 30 | 30 |",
+        "d": "[Diagrama: gráfico de líneas con eje Y 'Espermatozoides unidos (N)' (0 a 80) y eje X 'Concentración de Z (u.a.)' (1 a 4); línea descendente que parte cerca de 40 en concentración 1 y llega a 0 en concentración 4]"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "El lupus es una enfermedad autoinmune, es decir, corresponde a una enfermedad donde el propio sistema inmunológico ataca a las células sanas de la persona. La evidencia internacional muestra que la prevalencia de lupus es mayor en las mujeres. Considerando que un grupo de científicas desea saber si ocurre lo mismo en la población chilena, ¿cuál de las siguientes opciones señala una pregunta de investigación pertinente al problema planteado por las científicas?",
+      "options": {
+        "a": "¿Cuál es el rango de edad de las mujeres que presentan lupus en Chile?",
+        "b": "¿Cuál es la probabilidad que una mujer chilena desarrolle lupus?",
+        "c": "¿Cuál es la frecuencia de lupus en la población total chilena?",
+        "d": "¿Cuál es el porcentaje de mujeres y hombres con lupus en Chile?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "En los inicios de la inmunología, existían investigadores que proponían como teoría que la respuesta inmunológica es humoral, es decir, mediada por secreciones de sustancias liberadas por los glóbulos blancos. A partir de lo anterior, ¿cuál de las siguientes opciones corresponde a una evidencia que apoya dicha propuesta?",
+      "options": {
+        "a": "La disminución de la cantidad de macrófagos en las zonas de la piel afectadas por una infección micótica.",
+        "b": "El aumento de temperatura corporal producido por la presencia de una sustancia irritante.",
+        "c": "El aumento en la cantidad de anticuerpos en la sangre de un individuo afectado por un agente infeccioso.",
+        "d": "La disminución en la cantidad de linfocitos T citotóxicos presentes en el plasma sanguíneo producida por una infección viral."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un equipo de investigación está probando dos compuestos químicos (1 y 2), que afectan la viabilidad celular, como posibles fármacos que actúen contra el cáncer de mamas. Para ello, generaron tres cultivos con la misma cantidad de células (cultivos iniciales), extraídas del tejido mamario de una persona diagnosticada con cáncer de mama. Dos de los cultivos fueron tratados individualmente con los compuestos 1 y 2, y el cultivo restante quedó como control. Los resultados obtenidos se representan en la siguiente figura:\n\n[Figura: tabla-esquema titulada 'Experimento tras 72 horas' con cuatro columnas (Cultivos iniciales, Cultivo control, Cultivo con compuesto 1, Cultivo con compuesto 2), cada una mostrando un dibujo esquemático de células. Cultivos iniciales muestra pocas células (5-6) con núcleo visible; Cultivo control muestra muchas células agrupadas y proliferadas; Cultivo con compuesto 1 muestra un número de células similar al control, agrupadas; Cultivo con compuesto 2 muestra menos células que el control, más dispersas]\n\nEn base a lo anterior, ¿cuál de las siguientes opciones corresponde a una inferencia correcta?",
+      "options": {
+        "a": "El compuesto 1 aumentó el número de células viables cancerosas.",
+        "b": "El compuesto 1 aumentó el volumen de las células viables cancerosas.",
+        "c": "El compuesto 2 disminuyó la tasa de proliferación de las células viables cancerosas.",
+        "d": "El compuesto 2 transformó las células viables cancerosas en células viables normales."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "El arroz dorado es una variedad de arroz genéticamente modificado para producir betacaroteno, un precursor de la vitamina A. En el siguiente gráfico, se presenta una comparación de los niveles de betacaroteno entre el arroz dorado y el arroz no modificado genéticamente a lo largo del tiempo:\n\n[Figura: gráfico de líneas, eje Y 'Niveles de betacaroteno (u.a.)' de 0 a 3, eje X 'Tiempo (semanas)' de 0 a 5. Línea sólida 'Arroz dorado' comienza baja (~0,2 en semana 0) y aumenta progresivamente hasta ~2,7 en semana 5. Línea segmentada 'Arroz no modificado genéticamente' comienza más alta (~0,5 en semana 0), aumenta levemente hasta ~1,4 en semana 3 y luego se mantiene aproximadamente constante hasta la semana 5. Las líneas se cruzan alrededor de la semana 3]\n\nEn relación con el análisis del gráfico, ¿cuál de las siguientes conclusiones es correcta?",
+      "options": {
+        "a": "Los niveles de betacaroteno en el arroz dorado son siempre más altos que en el arroz no modificado genéticamente.",
+        "b": "Los niveles de betacaroteno en el arroz dorado son siempre más bajos que en el arroz no modificado genéticamente.",
+        "c": "Los niveles de betacaroteno en el arroz no modificado genéticamente aumentan de manera constante a lo largo del tiempo.",
+        "d": "Los niveles de betacaroteno en el arroz dorado aumentan con el transcurso de las semanas."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "El algodón transgénico Bt ha sido modificado genéticamente para que sea resistente a insectos. Experimentalmente, a esta planta se le introducen genes provenientes de la bacteria Bacillus thuringiensis, los cuales codifican para proteínas que resultan ser tóxicas para las larvas de polillas que atacan el algodón. A partir de estos antecedentes, ¿cuál de las siguientes opciones corresponde a la hipótesis asociada con el procedimiento de generación del algodón Bt?",
+      "options": {
+        "a": "Las proteínas sintetizadas por la planta de algodón transgénico Bt provocaron toxicidad en las larvas de polilla.",
+        "b": "Determinar el efecto defensivo del algodón transgénico Bt frente al ataque de larvas de polillas.",
+        "c": "Mediante la inserción de genes de Bacillus thuringiensis, el algodón consigue protección frente al ataque de insectos.",
+        "d": "Mediante la inserción de genes de Bacillus thuringiensis, el algodón presentó una menor resistencia a insectos de lo que se postulaba."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "La fermentación de bebidas, la fabricación de quesos y la producción de pan, corresponden a procesos basados en el metabolismo de las levaduras, los cuales pueden ser optimizados por medio de la manipulación genética. Lo anterior se puede lograr gracias al avance en la identificación de genes, sus funciones y los mecanismos del funcionamiento celular. Considerando la información entregada, ¿cuál de las siguientes opciones corresponde a una aplicación científica de la manipulación genética en el funcionamiento celular?",
+      "options": {
+        "a": "La manipulación genética permite la síntesis de nuevos organelos celulares con nuevas funciones.",
+        "b": "La manipulación genética permite identificar nuevas especies unicelulares con potencial para ser utilizadas en procesos industriales.",
+        "c": "La manipulación genética permite aumentar la actividad metabólica de los organelos celulares de los organismos.",
+        "d": "La manipulación genética permite mantener las funciones celulares inalteradas en las especies de interés productivo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Una estudiante tomó una botella, la cortó y colocó un tipo de tierra. Posteriormente dispuso una capa de lentejas de la misma variedad a germinar cerca de la ventana (1). Tras algunos días observó el germinado (2) y decidió girarlo en 180° (3). Luego de un tiempo, determinó que las plántulas están listas para consumir (4).\n\n[Figura: cuatro esquemas etiquetados (1) a (4) que muestran una botella cortada horizontalmente con tierra en su interior, ubicada junto a una ventana (representada con un sol). En (1) se muestra solo tierra sin brotes. En (2) aparecen brotes cortos inclinados hacia la ventana/sol. En (3), tras girar la botella 180°, los brotes siguen orientados hacia la ventana/sol. En (4) los brotes son más largos y curvados hacia la ventana/sol]\n\nEn relación con lo anterior, ¿cuál podría ser la pregunta de la estudiante considerando el cambio de condiciones que ha realizado en el procedimiento experimental?",
+      "options": {
+        "a": "¿Cuál es el efecto del ángulo de incidencia de la luz solar sobre el crecimiento de la planta?",
+        "b": "¿Cuál es el efecto de la evaporación del agua en el crecimiento de las plántulas?",
+        "c": "¿Cuál es el efecto de la brisa en la ventana, respecto de la tasa de crecimiento de las plántulas?",
+        "d": "¿Cuál es el efecto del tipo de tierra utilizada en la tasa de crecimiento de las plántulas?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Un grupo de estudiantes realiza una serie de mediciones en el laboratorio, reportando sus resultados en la siguiente tabla:\n\n| Masa de agua (g) | Presión atmosférica (mmHg) | Temperatura de ebullición (°C) |\n|---|---|---|\n| 100 | 526 | 90 |\n| 100 | 760 | 100 |\n| 200 | 760 | 100 |\n| 400 | 760 | 100 |\n| 200 | 879 | 104 |\n| 200 | 983 | 107 |\n\nPosteriormente, su profesor les consulta qué condiciones de experimentación deberían variar para que el agua ebulla a una temperatura inferior a 90 °C. De acuerdo con los resultados reportados en la tabla, ¿cuál de las siguientes acciones permite obtener correctamente las condiciones que posibilitan obtener lo indicado por el profesor?",
+      "options": {
+        "a": "Disminuir la presión atmosférica a menos de 526 mmHg.",
+        "b": "Aumentar la presión atmosférica a más de 983 mmHg.",
+        "c": "Aumentar la masa de agua al doble.",
+        "d": "Disminuir la masa de agua a la mitad."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "Una persona investigando sobre los cambios químicos, realiza el siguiente experimento en su casa: le quita la cáscara a una manzana, corta cuatro trozos de igual masa y forma. Luego, toma tres trozos y cada uno de ellos es sumergido en tres recipientes que contienen diferentes solventes: uno es sumergido en vinagre, otro en limón y otro en agua. Posteriormente, deja el cuarto trozo de manzana en un recipiente al aire libre y sin tapa. Finalmente, deja transcurrir 1 hora y observa el cambio de color de cada trozo de manzana, los cuales adquirieron una coloración oscura con diferente intensidad. Los datos obtenidos se registran en la siguiente tabla:\n\nCondición experimental:\n\n| | Vinagre | Limón | Agua | Aire libre |\n|---|---|---|---|---|\n| Intensidad de la coloración del trozo de manzana | Baja | Baja | Media | Alta |\n\nConsiderando que la intensidad de la coloración es una medida directa del nivel de oxidación de la manzana, ¿cuál de las siguientes opciones muestra correctamente la variable que manipula la persona?",
+      "options": {
+        "a": "Nivel de oxidación de la manzana",
+        "b": "Tiempo de exposición de la manzana",
+        "c": "Condición al que se expone el trozo de manzana",
+        "d": "Intensidad de la coloración del trozo de manzana"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Rutherford inicia su estudio del átomo experimentando con el bombardeo de rayos alfa sobre una lámina muy delgada de oro. El resultado fue que del total de partículas alfa proyectadas, la gran mayoría pasó sin problemas, otras experimentaron una leve desviación y muy pocas se devolvieron en trayectoria de línea recta. Debido a estos resultados, Rutherford estableció que \"el átomo no tiene una estructura compacta, salvo una diminuta parte donde rebotan los rayos alfa\". Comprobó que la mayor parte de la masa del átomo estaba en esa diminuta parte, al centro del átomo y la llamó núcleo. Este estaba formado por protones y, a su alrededor, se encontraban girando los electrones separados por una distancia tal, que las partículas alfa pasaban sin problemas. ¿A qué componente de una investigación científica corresponde la oración entre comillas?",
+      "options": {
+        "a": "A una conclusión",
+        "b": "A una hipótesis",
+        "c": "A una teoría",
+        "d": "A un procedimiento experimental"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "¿Cuál de las siguientes estructuras contiene 3 enlaces del tipo pi (π) y dos átomos de carbono con hibridación sp²?\n\n[Las cinco opciones se presentan como estructuras químicas representadas gráficamente]",
+      "options": {
+        "a": "[Diagrama: estructura tipo dieno, dos dobles enlaces conjugados (CH₂=CH-CH=CH₂), en zigzag]",
+        "b": "[Diagrama: estructura con dos triples enlaces (alquino-alquino) consecutivos]",
+        "c": "[Diagrama: estructura con un triple enlace seguido de un doble enlace (enino), en ángulo]",
+        "d": "[Diagrama: estructura con un triple enlace y un segmento de enlace simple adicional]",
+        "e": "[Diagrama: estructura tipo alqueno con un solo doble enlace, en zigzag, configuración trans]"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "Un docente comenta en clase que los carbohidratos son biomoléculas presentes en diferentes alimentos y que algunos de estos pueden ser detectados poniendo en contacto el alimento con una solución al 1% m/m de KI y I₂ (lugol), cuyo cambio de coloración indica la presencia de carbohidratos. En base a lo expuesto, un estudiante se plantea la siguiente interrogante, \"¿Cómo varía la coloración del lugol en relación a la cantidad de carbohidratos en los alimentos?\". De acuerdo con lo anterior, ¿cuál de las siguientes opciones señala correctamente las variables que el estudiante debería manipular y constatar para poder contestar su interrogante?",
+      "options": {
+        "a": "Masa de alimento y cantidad de lugol",
+        "b": "Masa de alimento y tipo de alimento",
+        "c": "Tipo de alimento y coloración de lugol",
+        "d": "Coloración de lugol y cantidad de lugol"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "Uno de los agentes terapéuticos que fueron usados en el tratamiento clínico de la tuberculosis en los años 60 fue un derivado de tiourea conocido como tiocarlida (molécula líder) THC cuya estructura se presenta a continuación:\n\n[Figura: estructura química de la tiocarlida (THC): un grupo isopentiloxi unido a un anillo bencénico, el cual está unido a un grupo NH-C(=S)-NH-R]\n\nLos laboratorios farmacéuticos en un intento por mejorar el valor terapéutico de la tiocarlida, sintetizaron una serie de derivados de esta molécula las cuales presentaron diferente actividad inhibitoria contra Mycobacterium tuberculosis (el microorganismo causante de la tuberculosis), al ser evaluadas en las mismas condiciones experimentales. Las modificaciones realizadas a la THC se muestran a continuación:\n\n[Figura: tres estructuras de anillo tipo piranosa (azúcar) etiquetadas I, II y III, cada una con un grupo CH₂OH y distintas orientaciones de grupos OH e H alrededor del anillo, unidas mediante el grupo R a la molécula THC]\n\nEn relación con lo anterior, ¿cuál de las siguientes conclusiones es correcta?",
+      "options": {
+        "a": "Las diferencias en la actividad inhibitoria contra Mycobacterium tuberculosis se deben a la disposición de los grupos hidroxilo presentes en el radical de la THC.",
+        "b": "Las diferencias en la actividad inhibitoria contra Mycobacterium tuberculosis se deben a la cantidad de átomos de carbono presentes en el radical de la THC.",
+        "c": "Las diferencias en la actividad inhibitoria contra Mycobacterium tuberculosis se deben a la cantidad de los grupos hidroxilo presentes en el radical de la THC.",
+        "d": "Las diferencias en la actividad inhibitoria contra Mycobacterium tuberculosis se deben a la cantidad de átomos de oxígeno presentes en el radical de la THC."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "La fórmula estructural de la valina es:\n\n[Figura: estructura química de la valina: un carbono central unido a un grupo CH(CH₃)₂ (isopropilo), un grupo NH₂, un átomo de H, y un grupo carboxilo COOH]\n\nAl respecto, ¿qué funciones orgánicas se encuentran en este compuesto?",
+      "options": {
+        "a": "Alcohol y amina",
+        "b": "Cetona y alcohol",
+        "c": "Amina y ácido carboxílico",
+        "d": "Amida y ácido carboxílico",
+        "e": "Alcohol y amida"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "Un estudiante toma tres esferas de metal, de igual volumen, que contienen la misma cantidad de aire en su interior. Cada una de las esferas tiene un sensor que permite medir la presión interna. El estudiante agrega las esferas, por separado, en tres vasos de precipitados que contienen igual volumen de agua, a diferentes temperaturas en un rango que no dilate las esferas. El diseño experimental se muestra en la siguiente imagen:\n\n[Figura: tres vasos de precipitados con agua a -2 °C, 25 °C y 90 °C respectivamente, cada uno con una esfera de metal sumergida que tiene un sensor de presión en su superficie]\n\nAl respecto y sabiendo que el procedimiento realizado por el estudiante es correcto, ¿cuál de las siguientes hipótesis desea someter a prueba el estudiante con el diseño experimental implementado?",
+      "options": {
+        "a": "La temperatura afecta la presión del aire al interior de la esfera de acero a volumen constante.",
+        "b": "El volumen afecta la presión del gas al interior de la esfera de acero a temperatura constante.",
+        "c": "La temperatura de las esferas de acero determina cambios en los vasos de precipitados.",
+        "d": "La presión del aire al interior de la esfera determina el volumen de la esfera de acero."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Si 1 mol del elemento X reacciona completamente con hidrógeno, se producen 34,0 g de producto, de acuerdo a la siguiente ecuación no balanceada:\n\nX₂ + H₂ → XH₃\n\n¿Cuál es la masa molar, en g/mol, del elemento X?",
+      "options": {
+        "a": "31,0",
+        "b": "17,0",
+        "c": "16,0",
+        "d": "15,5",
+        "e": "14,0"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 48,
+      "content": "La combustión completa de un hidrocarburo de fórmula desconocida produce únicamente 132 g de CO₂ (masa molar = 44 g/mol) y 72 g de agua (masa molar = 18 g/mol), de acuerdo a la siguiente reacción:\n\nCₓHᵧ + O₂ → CO₂ + H₂O\n\nAl respecto, ¿cuál es la fórmula empírica del hidrocarburo?",
+      "options": {
+        "a": "C₃H₅",
+        "b": "C₃H₄",
+        "c": "C₄H₇",
+        "d": "C₃H₈",
+        "e": "C₄H₉"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "En la siguiente ecuación se muestra la formación de hidróxido de magnesio, Mg(OH)₂, a partir de la reacción entre un hidruro de magnesio, MgH₂, y agua:\n\nMgH₂ + 2 H₂O → Mg(OH)₂ + 2 H₂\n\nSi la reacción se lleva a cabo con 4 mol de MgH₂ y un exceso de H₂O, ¿qué masa de H₂ se forma?",
+      "options": {
+        "a": "4 g",
+        "b": "8 g",
+        "c": "12 g",
+        "d": "16 g",
+        "e": "20 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Un grupo de investigadores ha observado que un lago cercano a su laboratorio recibe una descarga de residuos industriales líquidos (RILES) con contenido de metales pesados, compuestos solubles en agua que afectan negativamente la vida de los peces. A partir de lo anterior, el grupo de investigadores midió la concentración de metales pesados en muestras de agua del lago, en ausencia y presencia de precipitaciones intensas, realizando muestreos en las 4 estaciones durante un año. En relación con lo anterior, y considerando que el procedimiento experimental se realizó correctamente, ¿cuál de las siguientes opciones corresponde a la hipótesis que dio origen al procedimiento llevado a cabo por los investigadores?",
+      "options": {
+        "a": "La temperatura aumenta la capacidad de eliminar metales pesados de las aguas del lago.",
+        "b": "La concentración de metales pesados en el lago disminuye en períodos de lluvia intensa.",
+        "c": "La solubilidad de los metales pesados en el lago disminuye en períodos de lluvia intensa.",
+        "d": "La cantidad de metales pesados está determinada por el tiempo que transcurre desde la descarga de RILES hacia el lago."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Para preparar 200 mL de una solución 1 mol/L de NaOH (masa molar = 40 g/mol), a partir de una solución 20% m/v, de esta última se debe extraer y medir",
+      "options": {
+        "a": "1 mL y agregar 199 mL de agua.",
+        "b": "20 mL y agregar 180 mL de agua.",
+        "c": "1 mL y agregar agua hasta 200 mL.",
+        "d": "20 mL y agregar agua hasta 200 mL.",
+        "e": "40 mL y agregar agua hasta 200 mL."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "¿Qué masa de solvente hay en 300 g de una disolución al 20% masa/masa?",
+      "options": {
+        "a": "20 g",
+        "b": "60 g",
+        "c": "80 g",
+        "d": "240 g",
+        "e": "280 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "En el contexto de un estudio de la relación entre el índice de refracción de un medio y su temperatura, se registran datos del índice de refracción n del agua y de su temperatura T para la propagación de un haz de luz monocromático, los que se resumen en la siguiente tabla:\n\n| T (°C) | 20 | 30 | 40 | 50 | 60 |\n|---|---|---|---|---|---|\n| n (×10⁻³) | 1332,1 | 1331,0 | 1329,7 | 1328,1 | 1326,3 |\n\nAl respecto, ¿cuál de los siguientes gráficos comunica con mejor precisión la información presentada?",
+      "options": {
+        "a": "[Diagrama: gráfico de dispersión (puntos) con eje Y 'n (×10⁻³)' de 1326 a 1334 y eje X 'T (°C)' de 20 a 60, mostrando puntos descendentes que coinciden con los valores de la tabla]",
+        "b": "[Diagrama: gráfico de barras con eje Y 'n (×10⁻³)' de 1322 a 1334 y eje X 'medición' numerado 1 a 5, con barras de altura decreciente]",
+        "c": "[Diagrama: gráfico de barras con eje Y 'n (×10⁻³)' de 0 a 2500 y eje X 'T (°C)' de 20 a 60, mostrando una única barra continua de altura aproximadamente constante, sin distinguir variación entre los valores]",
+        "d": "[Diagrama: gráfico circular (de torta) dividido en 5 secciones etiquetadas con los valores 1326,3; 1332,1; 1331,0; 1329,7 y 1328,1]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "Un rayo de luz que se transmite en el vacío, incide sobre un material transparente con un ángulo de incidencia α respecto de la normal, tal que 0° < α < 90°. ¿Qué ocurre con el rayo de luz luego de incidir en el material transparente?",
+      "options": {
+        "a": "Se refleja parcialmente con un ángulo menor que α y se refracta parcialmente con un ángulo menor que α.",
+        "b": "Se refleja parcialmente con un ángulo mayor que α y se refracta parcialmente con un ángulo mayor que α.",
+        "c": "Se refleja parcialmente con un ángulo igual a α y se refracta parcialmente con un ángulo menor que α.",
+        "d": "Se refleja parcialmente con un ángulo igual a α y se refracta parcialmente con un ángulo igual a α."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Un grupo de estudiantes plantea la posibilidad de recomponer rayos de luz de colores, previamente dispersados por un prisma, en un haz de luz blanca. ¿Cuál de los siguientes procedimientos le permitiría al grupo lograr el objetivo de investigación?",
+      "options": {
+        "a": "Medir los ángulos que forman entre sí los rayos una vez dispersados por el prisma",
+        "b": "Utilizar una secuencia de prismas o lentes para redireccionar los rayos previamente dispersados",
+        "c": "Estudiar el efecto de utilizar prismas de distintas características para descomponer la luz blanca",
+        "d": "Utilizar una secuencia de espejos planos para reflejar los rayos previamente dispersados por el prisma"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "Al fijarse en las características de su crema de protección solar, una estudiante observa que la crema posee una protección alta contra rayos UVA y UVB, pero no contra los rayos UVC. La estudiante se sorprende que la crema no proteja contra los rayos UVC, pues recuerda que todas esas ondas se diferencian principalmente por su longitud de onda. ¿Cuál de las siguientes hipótesis explica correctamente lo observado por la estudiante?",
+      "options": {
+        "a": "La atmósfera terrestre bloquea el paso de la radiación UVC, pero no el de la radiación UVA y UVB.",
+        "b": "La radiación UVC no puede propagarse a través del vacío, por lo que no llega a la superficie terrestre.",
+        "c": "Las radiaciones UVA y UVB son más rápidas que la UVC, por lo que la protección debe ser focalizada en ellas.",
+        "d": "Las frecuencias de los rayos UVA y UVB son iguales, por lo que es más fácil fabricar cremas protectoras contra ellas."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Una cefeida es un tipo de estrella que cambia periódicamente de tamaño, lo que produce alteraciones en su luminosidad que son detectadas como pulsaciones. En 1912, se descubrió que las estrellas más luminosas presentan una menor frecuencia de pulsación. Entre los gráficos de luminosidad L en función del tiempo t que se presentan a continuación, ¿cuál representa a dos cefeidas distintas que cumplen con la relación descubierta?",
+      "options": {
+        "a": "[Diagrama: gráfico L vs t. Cefeida 2 (curva superior) tiene mayor luminosidad promedio y pulsaciones de baja frecuencia (pocos picos anchos); Cefeida 1 (curva inferior) tiene menor luminosidad y pulsaciones de mayor frecuencia (varios picos angostos)]",
+        "b": "[Diagrama: gráfico L vs t. Cefeida 1 (curva superior) tiene mayor luminosidad y alta frecuencia de pulsación (muchos picos); Cefeida 2 (curva inferior) tiene menor luminosidad y baja frecuencia de pulsación (pocos picos)]",
+        "c": "[Diagrama: gráfico L vs t. Cefeida 1 (curva superior) con mayor luminosidad y baja frecuencia; Cefeida 2 (curva inferior) con menor luminosidad y también baja frecuencia, ambas con pulsaciones espaciadas de forma similar]",
+        "d": "[Diagrama: gráfico L vs t. Cefeida 2 (curva superior) y Cefeida 1 (curva inferior) con luminosidades similares y alta frecuencia de pulsación en ambas, curvas superpuestas]"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "Una persona introduce su mano en un recipiente de vidrio lleno con agua y nota que la imagen que observa de su mano a través del recipiente no invierte su orientación y es de mayor tamaño en comparación a cuando esta se encuentra fuera del agua. ¿Cuál de las siguientes afirmaciones explica correctamente lo observado por la persona?",
+      "options": {
+        "a": "El recipiente de vidrio lleno de agua actúa como lente convergente, quedando la mano dentro de su distancia focal.",
+        "b": "El recipiente de vidrio lleno de agua actúa como lente convergente, quedando la mano fuera de su distancia focal.",
+        "c": "El recipiente de vidrio lleno de agua actúa como lente divergente, quedando la mano dentro de su distancia focal.",
+        "d": "El recipiente de vidrio lleno de agua actúa como lente divergente, quedando su mano fuera de la distancia focal."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "Un profesor presenta a sus estudiantes una fotografía que tomó de un objeto frente a un espejo cóncavo, observándose que no se formó el reflejo del objeto en el espejo. Considerando lo anterior, ¿cuál de las siguientes opciones menciona correctamente la condición que consideró el profesor para tomar la fotografía?",
+      "options": {
+        "a": "La tomó cuando el objeto estaba posicionado entre el foco y el espejo.",
+        "b": "La tomó cuando el objeto estaba posicionado en el foco del espejo.",
+        "c": "La tomó cuando el objeto estaba posicionado en el centro de curvatura del espejo.",
+        "d": "La tomó cuando el objeto estaba posicionado entre el foco y el centro de curvatura del espejo."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Una persona busca analizar la relación entre la fuerza neta ejercida sobre un cuerpo y su movimiento. Para ello, ubica una canasta con maní en un plano inclinado en 20° respecto de la horizontal y observa que esta se mantiene en reposo. ¿Cuál de las siguientes predicciones debiese cumplirse en la situación descrita?",
+      "options": {
+        "a": "Si se inclina la superficie en 10°, en lugar de 20°, eventualmente la canasta deslizará.",
+        "b": "Si se reemplaza la superficie por otra más rugosa, la canasta deslizará.",
+        "c": "Si se saca cierta cantidad de maníes de la canasta, esta última deslizará.",
+        "d": "Si se aumenta el ángulo de inclinación del plano, eventualmente la canasta deslizará."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "La siguiente figura representa dos bloques de masas m₁ y m₂, conectados por una cuerda delgada e inextensible que pasa por una polea ideal:\n\n[Figura: bloque m₁ sobre una superficie horizontal conectado mediante una cuerda que pasa por una polea fija en el borde de la superficie, hacia un bloque m₂ que cuelga verticalmente; se indica el vector g apuntando hacia abajo]\n\nSi actúa la fuerza de roce debido a la interacción entre el bloque de masa m₁ y la superficie horizontal, ¿cuál de las siguientes condiciones se debe cumplir para que ambos bloques aumenten su rapidez?",
+      "options": {
+        "a": "Que la magnitud de la fuerza que ejerce la cuerda sobre los bloques sea menor que la magnitud de la fuerza peso del bloque de masa m₂.",
+        "b": "Que la magnitud de la fuerza que ejerce la cuerda sobre los bloques sea menor que la magnitud de la fuerza peso del bloque de masa m₁.",
+        "c": "Que la magnitud de la fuerza normal sea mayor que la magnitud de la fuerza que ejerce la cuerda sobre los bloques.",
+        "d": "Que la magnitud de la fuerza normal sea mayor que la magnitud de la fuerza de roce."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Un joven se mantiene en reposo con sus pies apoyados en una pared casi vertical (punto Q), sostenido con sus manos a la cuerda PR en el extremo R. La cuerda está fija a la pared en el extremo superior P, como ilustra la figura.\n\n[Figura: pared casi vertical; punto P en la parte superior de la pared donde se fija una cuerda; la cuerda baja hasta el punto R donde el joven la sujeta con sus manos; los pies del joven se apoyan en la pared en el punto Q, más abajo]\n\nSi la cuerda ejerce una fuerza F en las manos del joven, la fuerza de reacción a F, es la fuerza que",
+      "options": {
+        "a": "la pared ejerce sobre los pies del joven en Q.",
+        "b": "la cuerda ejerce sobre la pared en el punto P.",
+        "c": "los pies del joven ejercen sobre la pared en Q.",
+        "d": "la pared ejerce sobre la cuerda en el extremo P.",
+        "e": "las manos del joven ejercen sobre la cuerda en el extremo R."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Un bloque de madera se encuentra en reposo encima de una superficie horizontal de madera. Sobre el bloque actúa una fuerza F constante y paralela a la superficie, haciendo que el bloque se mueva por esta con aceleración constante. A partir de cierto instante, la fuerza F deja de actuar.\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta con relación a la fuerza neta que actúa sobre el bloque desde que la fuerza F deja de actuar hasta justo antes de detenerse?",
+      "options": {
+        "a": "Su magnitud es constante y su sentido coincide con el del movimiento del bloque.",
+        "b": "Su magnitud es variable y su sentido coincide con el del movimiento del bloque.",
+        "c": "Su magnitud es constante y su sentido se opone al del movimiento del bloque.",
+        "d": "Su magnitud es variable y su sentido se opone al del movimiento del bloque."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 68,
+      "content": "Una estudiante investiga el comportamiento de un resorte al colgarle bloques de distinto peso. Las siguientes figuras presentan las mediciones realizadas con el mismo resorte para distintos bloques suspendidos de él:\n\n[Figura: cuatro resortes colgados de un soporte fijo. El primero, sin peso, mide 10 cm. El segundo, con un bloque de 1 N colgado, mide 12 cm. El tercero, con bloques de 1 N y 2 N colgados, mide 16 cm. El cuarto, con bloques de 1 N, 2 N y 3 N colgados, mide 22 cm]\n\nSegún los resultados obtenidos, ¿cuál de las siguientes tablas le permitirá a la estudiante calcular la constante elástica del resorte?",
+      "options": {
+        "a": "Tabla:\n\n| Peso (N) | Elongación (cm) |\n|---|---|\n| 1 | 12 |\n| 3 | 16 |\n| 6 | 22 |",
+        "b": "Tabla:\n\n| Peso (N) | Elongación (cm) |\n|---|---|\n| 1 | 2 |\n| 3 | 6 |\n| 6 | 12 |",
+        "c": "Tabla:\n\n| Peso (N) | Elongación (cm) |\n|---|---|\n| 1 | 2 |\n| 2 | 6 |\n| 3 | 12 |",
+        "d": "Tabla:\n\n| Peso (N) | Elongación (cm) |\n|---|---|\n| 1 | 12 |\n| 2 | 16 |\n| 3 | 22 |"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Un auto de juguete es empujado por una pared vertical, tal como se representa en la siguiente figura:\n\n[Figura: una mano sostiene con los dedos un auto de juguete (representado por dos ruedas circulares) presionándolo contra una pared vertical inclinada, vista desde arriba; se indican las direcciones Izquierda y Derecha desde la posición del observador]\n\nEn relación con lo anterior, ¿cuál es la dirección y sentido, desde tu posición, de la fuerza normal aplicada por la pared sobre el auto de juguete?",
+      "options": {
+        "a": "Paralela a la pared y hacia abajo",
+        "b": "Paralela a la pared y hacia arriba",
+        "c": "Perpendicular a la pared y hacia la derecha",
+        "d": "Perpendicular a la pared y hacia la izquierda"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 70,
+      "content": "En un recipiente cilíndrico que contiene agua, se sumerge una moneda. Si se conoce la magnitud de la aceleración de gravedad y la densidad del agua, ¿cuál de las siguientes opciones presenta la variable faltante que permite determinar la presión que el agua ejerce sobre la moneda?",
+      "options": {
+        "a": "El radio del recipiente cilíndrico que contiene el agua",
+        "b": "La fuerza que el agua ejerce sobre la moneda sumergida",
+        "c": "La profundidad de la moneda con respecto a la superficie del agua",
+        "d": "El volumen de agua que se desplaza cuando se sumerge la moneda"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "Una investigadora y su ayudante indagan acerca de fenómenos geológicos en una zona de su país. Para esto, confeccionan dos mapas, uno de los volcanes activos y otro con los epicentros de sismos sobre 4,0 en magnitud que han ocurrido en el último año en esa zona. Los mapas de la investigadora y su ayudante se presentan a continuación:\n\n[Figura: dos mapas de una costa con el mar al oeste. El mapa izquierdo 'Mapa de volcanes activos' muestra varios triángulos (volcanes) alineados paralelos a la costa, tierra adentro. El mapa derecho 'Mapa de epicentros de sismos sobre 4,0 en magnitud' muestra varios círculos (sismos) distribuidos entre la costa y algo más hacia el interior, en una franja paralela a la costa]\n\nDe acuerdo con la teoría de tectónica de placas y la información obtenida, ¿cuál es una inferencia apropiada al análisis de ambos mapas?",
+      "options": {
+        "a": "La zona estudiada se encuentra cerca del centro de una de las placas tectónicas principales.",
+        "b": "La zona estudiada se encuentra cerca de un límite transformante de placas tectónicas.",
+        "c": "La zona estudiada se encuentra cerca de un límite convergente de placas tectónicas.",
+        "d": "La zona estudiada se encuentra cerca de un límite divergente de placas tectónicas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "Para investigar sobre el efecto invernadero, un grupo de estudiantes dispone de cuatro cajas plásticas transparentes iguales. En cada una de ellas, el grupo pone distinta cantidad de vasos con igual cantidad de agua a temperatura ambiente, tal como indica la siguiente tabla:\n\n| Caja | N° vasos con agua en su interior |\n|---|---|\n| M | 0 |\n| N | 1 |\n| O | 2 |\n| P | 3 |\n\nLuego, fijan un termómetro en el interior de cada caja, las tapan, las dejan al Sol y registran la temperatura cada 5 minutos. ¿Qué pregunta de investigación puede ser abordada con el procedimiento realizado por los estudiantes?",
+      "options": {
+        "a": "¿Influye la temperatura en la humedad ambiental?",
+        "b": "¿Influye la humedad ambiental en el efecto invernadero?",
+        "c": "¿Influye la temperatura ambiental en el efecto invernadero?",
+        "d": "¿Influye el tiempo de registro en la temperatura promedio?"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "En un noticiero, en el cual informan el tiempo atmosférico para cierta localidad del país, un periodista dice: \"hoy tenemos un tiempo atmosférico primaveral, pero mañana cambiará el clima, ya que se espera una lluvia intensa\".\nAl respecto, ¿es correcta la información proporcionada por el periodista y por qué?",
+      "options": {
+        "a": "Es correcta, porque las estaciones del año tienen climas independientes.",
+        "b": "Es correcta, porque los conceptos de tiempo atmosférico y clima son sinónimos.",
+        "c": "Es incorrecta, porque las variaciones del clima se producen en un largo periodo de tiempo.",
+        "d": "Es incorrecta, porque las variaciones del tiempo atmosférico se producen en un largo periodo de tiempo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Un circuito eléctrico está compuesto por cuatro resistores S, T, U y W de resistencias de igual magnitud, conectados a una única fuente que suministra una determinada diferencia de potencial. Al respecto, ¿de qué manera debe ser la asociación entre los resistores para que por cada uno de estos circule una corriente eléctrica de igual intensidad?",
+      "options": {
+        "a": "S y T están en paralelo y a su vez ambos se encuentran en serie con U y W.",
+        "b": "S, T y U están en paralelo entre sí, a su vez estos se encuentran en serie con W.",
+        "c": "S, T y U están en serie entre sí, a su vez estos se encuentran en paralelo con W.",
+        "d": "S y T están en serie, U y W están en serie, y a su vez U y W se encuentran en paralelo con S y T."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "Se tienen las resistencias R₁ = 30 Ω, R₂ = 30 Ω y R₃ = 60 Ω conectadas como se representa en el esquema.\n\n[Figura: circuito con R₁ en serie con un amperímetro A, seguido de R₂ y R₃ conectados en paralelo entre sí, todo conectado a una fuente de voltaje con terminales + y -]\n\nSi el circuito está conectado a una diferencia de potencial de 12 V, la corriente eléctrica que se registra en el amperímetro A es",
+      "options": {
+        "a": "0,60 A",
+        "b": "0,53 A",
+        "c": "0,40 A",
+        "d": "0,24 A",
+        "e": "0,10 A"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Una estudiante construye un circuito para estudiar cómo se distribuye la corriente en él. El circuito consiste en un interruptor, tres ampolletas idénticas, una batería y suficiente cable, conectados originalmente como se representa en la siguiente figura:\n\n[Figura: una batería conectada a un interruptor, y luego a tres ampolletas conectadas en paralelo entre sí: la primera ampolleta en la rama superior, y las otras dos en ramas paralelas adicionales]\n\nLas pruebas de la estudiante consisten en encender y apagar el interruptor y anotar las ampolletas que se encienden y las que no. ¿Qué elemento del circuito debería ir modificando en sus pruebas la estudiante para poder lograr su objetivo?",
+      "options": {
+        "a": "La distribución de las ampolletas",
+        "b": "La polaridad de la batería",
+        "c": "La posición del interruptor",
+        "d": "La extensión de cable empleado"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Las siguientes figuras representan tres dispositivos eléctricos:\n\n[Figura: tres íconos - un amperímetro (medidor con aguja y letra A), una conexión a tierra (dispositivo con tres puntos), y un interruptor automático (dispositivo rectangular con una palanca)]\n\nDe ellos, ¿cuál(es) es(son) elemento(s) de seguridad en un circuito domiciliario?",
+      "options": {
+        "a": "El amperímetro",
+        "b": "El amperímetro y la conexión a tierra",
+        "c": "El amperímetro y el interruptor automático",
+        "d": "La conexión a tierra y el interruptor automático"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Una persona realiza pruebas de potencia a unas ampolletas. Para ello, construye un circuito simple, conectando una ampolleta a una batería. Luego, en un tiempo t₁, conecta una segunda ampolleta en serie al circuito, manteniendo siempre la misma batería. ¿Cuál de las siguientes opciones representa correctamente la potencia eléctrica, P, que desarrolla la batería en función del tiempo?",
+      "options": {
+        "a": "[Diagrama: gráfico P vs t. P se mantiene constante en un valor desde 0 hasta t₁, luego disminuye gradualmente (línea con pendiente negativa) después de t₁]",
+        "b": "[Diagrama: gráfico P vs t. P aumenta linealmente desde un valor inicial bajo hasta t₁, luego se mantiene constante en un valor más alto después de t₁]",
+        "c": "[Diagrama: gráfico P vs t. P se mantiene constante en el mismo valor durante todo el intervalo, sin cambio en t₁]",
+        "d": "[Diagrama: gráfico P vs t. P se mantiene constante en un valor desde 0 hasta t₁, luego cae abruptamente (escalón) a un valor menor y se mantiene constante después de t₁]"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

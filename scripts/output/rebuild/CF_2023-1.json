@@ -1,0 +1,1124 @@
+{
+  "meta": {
+    "subject": "CF",
+    "subject_nombre": "Ciencias - Física",
+    "origen": "PAES Ciencias - Física Admision 2023-1",
+    "anio": 2023,
+    "forma": 163,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [8, 14, 64, 68, 71],
+    "fuente_pdf": "pruebas/oficiales/C-fisica-2023-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-fisica-2023-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "Una onda periódica cuya frecuencia es 25 Hz, se propaga en un medio material completando 20 oscilaciones en una distancia de 8 m. ¿Cuál es la rapidez de propagación de la onda?",
+      "options": {"a": "500 m/s", "b": "200 m/s", "c": "160/25 m/s", "d": "10 m/s", "e": "125/2 m/s"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Un estudiante quiere determinar si la intensidad del sonido decrece con la distancia. Para ello, instala un generador de sonido de frecuencia f y tres sensores que miden su intensidad, ubicados a 1 m, 2 m y 3 m del generador. En función del objetivo planteado, ¿cuál de las siguientes opciones presenta correctamente las variables del experimento?",
+      "options": {
+        "a": "Variable independiente: Frecuencia del sonido | Variable dependiente: Intensidad del sonido",
+        "b": "Variable independiente: Intensidad del sonido | Variable dependiente: Frecuencia del sonido",
+        "c": "Variable independiente: Intensidad del sonido | Variable dependiente: Ubicación de los sensores",
+        "d": "Variable independiente: Ubicación de los sensores | Variable dependiente: Frecuencia del sonido",
+        "e": "Variable independiente: Ubicación de los sensores | Variable dependiente: Intensidad del sonido"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "En una investigación acerca de las ondas sísmicas P y S, se simularon este tipo de ondas mediante una fuente generadora. En el experimento se ubicaron sismógrafos en distintos puntos de diferentes medios, para luego analizar los sismogramas obtenidos. A partir de estos registros, se estableció que las ondas P se detectaron en todos los sismógrafos, en cambio las ondas S se detectaron solo en algunos de ellos. Al respecto, ¿cuál de las siguientes preguntas es posible contestar a partir de la información entregada?",
+      "options": {
+        "a": "¿En cuáles medios se pueden propagar las ondas P y S?",
+        "b": "¿En cuál medio la onda P se propaga con la mayor rapidez?",
+        "c": "¿En cuál medio la onda S se propaga con la mayor intensidad?",
+        "d": "¿En cuáles medios las ondas P y S se pueden propagar con la misma amplitud?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "¿Cuál de los siguientes fenómenos está relacionado con la posible ruptura de un objeto, al ser sometido a una frecuencia similar a su frecuencia natural de oscilación?",
+      "options": {"a": "Difracción", "b": "Refracción", "c": "Dispersión", "d": "Resonancia", "e": "Efecto Doppler"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Al estudiar la relación entre la frecuencia f, la longitud de onda λ y la energía E de algunos fotones, se obtuvieron los datos presentados en la siguiente tabla:\n\n| f (Hz) | λ (m) | E (J) |\n|---|---|---|\n| 3,00×10¹⁹ | 1,0×10⁻¹¹ | 2,00×10⁻¹² |\n| 1,50×10¹⁵ | 2,0×10⁻⁷ | 9,93×10⁻¹⁹ |\n| 3,84×10¹⁴ | 7,8×10⁻⁷ | 2,55×10⁻¹⁹ |\n| 3,00×10⁸ | 1,0×10⁻² | 2,00×10⁻²⁰ |\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta a partir de los datos proporcionados?",
+      "options": {
+        "a": "A medida que disminuye f, disminuye λ y aumenta E.",
+        "b": "A medida que aumenta f, disminuye λ y aumenta E.",
+        "c": "A medida que aumenta f, disminuyen λ y E.",
+        "d": "A medida que disminuye f, aumentan λ y E."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Un radar basa su funcionamiento en la emisión y recepción de ondas electromagnéticas. De acuerdo con esta información, si se construyera un dispositivo similar al radar, pero reemplazando las ondas electromagnéticas por ondas sonoras, ¿a cuál de los siguientes dispositivos se ajusta mejor este funcionamiento?",
+      "options": {"a": "A la radioemisora", "b": "Al micrófono", "c": "Al ecógrafo", "d": "Al parlante"},
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Una persona está estudiando el tiempo que demora en caer un objeto al ser soltado desde diferentes alturas, en un mismo lugar, registrando datos experimentales y teóricos en la siguiente tabla:\n\n| Altura (m) | Tiempo experimental (s) | Tiempo teórico (s) |\n|---|---|---|\n| 3,0 | 0,8 | 0,7 |\n| 4,0 | 0,9 | 0,8 |\n| 5,0 | 1,2 | 1,0 |\n| 6,0 | 1,4 | 1,1 |\n\nBasándose en lo anterior, ¿a qué se deben estas diferencias entre el tiempo teórico y el experimental?",
+      "options": {
+        "a": "A la magnitud de la aceleración de gravedad sobre el objeto.",
+        "b": "A la fuerza de roce que actúa sobre el objeto mientras cae.",
+        "c": "A la magnitud de la velocidad que alcanza el objeto.",
+        "d": "A la fuerza peso sobre el objeto mientras cae."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "Una roca de 12 kg es puesta sobre una báscula de baño, luego es colgada de un dinamómetro. La respectiva medida que marca cada uno es 12 kg y 120 N. Considerando que la aceleración de gravedad en la superficie de la Luna es 1/6 de la aceleración de gravedad en la superficie de la Tierra, ¿cuál sería la medida que marcaría exactamente la misma báscula de baño y el mismo dinamómetro, si se realizara el mismo procedimiento en la Luna?",
+      "options": {
+        "a": "Báscula de baño: 12 kg | Dinamómetro: 120 N",
+        "b": "Báscula de baño: 2 kg | Dinamómetro: 120 N",
+        "c": "Báscula de baño: 12 kg | Dinamómetro: 20 N",
+        "d": "Báscula de baño: 2 kg | Dinamómetro: 20 N"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": true
+    },
+    {
+      "numero": 9,
+      "content": "Un grupo de estudiantes piensa que los resortes ejercen mayor fuerza mientras más estirados se encuentren. Para verificarlo, planifican colgar de diferentes resortes el mismo objeto de masa m conocida, como se representa en la figura, y luego medir la longitud del resorte antes y después de colgar el objeto, con una regla graduada en milímetros.\n\n[Figura: cuatro resortes distintos colgados de un soporte horizontal, cada uno con un objeto de masa m colgado en su extremo]\n\nLos estudiantes muestran la planificación a un profesor, quien les señala que no es adecuada para la verificación que desean realizar. Al respecto, ¿cuál de los siguientes aspectos de su planificación deben cambiar los estudiantes para que al realizar la actividad se logre adecuadamente el objetivo?",
+      "options": {
+        "a": "Las variables del procedimiento: de un mismo resorte colgar objetos de masa distinta y medir cuánto varía su longitud.",
+        "b": "Los instrumentos de medida: utilizar una regla graduada en una unidad de medida diferente para medir el estiramiento.",
+        "c": "Los instrumentos de medida: utilizar un instrumento que les permita medir la fuerza que ejercen los resortes en cada caso.",
+        "d": "Las variables del procedimiento: colgar en cada uno de los diferentes resortes el mismo objeto de masa m y medir la longitud final."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Una persona lanza dos objetos con la misma velocidad inicial, desde una misma altura y hacia abajo, midiendo el tiempo que demoran en llegar al suelo, en un lugar en donde la aceleración de gravedad es constante. Si estos objetos tienen distinta masa, pero los mismos volúmenes y formas, ¿cuál es el parámetro que la persona decidió modificar durante el experimento realizado?",
+      "options": {
+        "a": "El peso de los objetos",
+        "b": "La aceleración de los objetos",
+        "c": "La posición inicial de los objetos",
+        "d": "El tiempo de movimiento de los objetos"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "Un recipiente contiene 100 g de agua. Considerando que el calor específico del agua es 1 cal/g°C y que no experimenta cambios de fase, ¿cuál de las siguientes afirmaciones es correcta para dicha masa de agua?",
+      "options": {
+        "a": "Al ceder 1 caloría su temperatura disminuye en 100 °C.",
+        "b": "Al absorber 100 calorías su temperatura aumenta en 1 °C.",
+        "c": "Al absorber 10 calorías su temperatura disminuye en 10 °C.",
+        "d": "Al absorber 100 calorías su temperatura aumenta en 100 °C."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Si dos cuerpos que están a diferente temperatura se ponen en contacto térmico entre sí, ¿cuál de las siguientes informaciones se puede determinar conociendo únicamente la temperatura inicial de cada cuerpo?",
+      "options": {
+        "a": "La cantidad de energía térmica que posee cada uno de los cuerpos.",
+        "b": "El sentido en que ocurre la transferencia de calor entre los cuerpos.",
+        "c": "El tipo de mecanismo de transferencia de calor entre los cuerpos.",
+        "d": "La cantidad de calor que se transfiere entre los cuerpos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "Un termómetro de 80 cm de longitud está graduado en una escala afín de temperaturas definida en °S. La distancia entre la marca de –20 °S y la marca que corresponde a 100 °S es 60 cm, como se representa en la siguiente figura:\n\n[Figura: termómetro de 80 cm mostrando marcas de -20°S y 100°S separadas por 60 cm]\n\nAl respecto, ¿qué distancia debe haber entre la marca que indica –20 °S y la marca que debe indicar 10 °S?",
+      "options": {"a": "6 cm", "b": "8 cm", "c": "15 cm", "d": "20 cm"},
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Considere un modelo simplificado de una cordillera en un límite convergente, en donde la altura H es directamente proporcional a la rapidez de convergencia V de las placas tectónicas, generándose alzamiento; e inversamente proporcional a la erosión fluvial F, producida por los ríos que degradan la cordillera. La erosión fluvial aumenta con las precipitaciones P, y disminuye en función de la resistencia de las rocas R. ¿Cuál de las siguientes relaciones de proporcionalidad es siempre correcta a partir de la información entregada?",
+      "options": {
+        "a": "A mayor rapidez de convergencia V, mayor será la erosión fluvial F.",
+        "b": "A menor resistencia de las rocas R, mayor será la rapidez de convergencia V.",
+        "c": "A mayor cantidad de precipitaciones P, menor será la rapidez de convergencia V.",
+        "d": "Si se mantienen constantes las precipitaciones, a mayor resistencia de las rocas R, mayor será la altura H.",
+        "e": "Si se mantiene constante la resistencia de las rocas R, a mayor cantidad de precipitaciones P, mayor será la altura H."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 15,
+      "content": "Una estudiante escuchó decir a su profesor de Física que una taza con agua fría aumenta más rápidamente su temperatura cuanto menor sea su temperatura inicial. Dudando de la veracidad de esta afirmación decide realizar un experimento para verificarla, procediendo del siguiente modo: introduce en el refrigerador dos tazas del mismo material y tamaño, con igual cantidad de agua. Después de un tiempo, retira una de las tazas, mide su temperatura inicial y el tiempo que tarda en alcanzar la temperatura ambiente. Posteriormente, retira la segunda taza, mide su temperatura inicial, que resulta menor que la de la otra taza y también mide el tiempo que tarda en alcanzar la temperatura ambiente.\nEn relación con lo anterior, ¿cuál de las siguientes opciones presenta una acción que hace más confiable el procedimiento?",
+      "options": {
+        "a": "Emplear el congelador en vez del refrigerador.",
+        "b": "Retirar al mismo tiempo ambas tazas del refrigerador.",
+        "c": "Utilizar varios recipientes con aislación térmica en vez de tazas.",
+        "d": "Medir varias veces la temperatura de las tazas mientras esta aumenta."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Con el objeto de verificar la ley de Ohm, en el circuito de la figura se utilizan dos instrumentos eléctricos P y Q.\n\n[Figura: circuito eléctrico con una resistencia R, un instrumento P conectado en paralelo a R, un instrumento Q conectado en serie, y una batería]\n\n¿En qué unidades quedan expresadas las medidas que marcan los instrumentos P y Q?",
+      "options": {
+        "a": "P en ampere y Q en ohm",
+        "b": "P en volt y Q en ohm",
+        "c": "P en ampere y Q en volt",
+        "d": "P en volt y Q en ampere",
+        "e": "P en ohm y Q en ampere"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Una persona pretende establecer el tiempo mínimo que se requiere frotar un globo para que este quede adherido al cielo de una habitación debido a la electrización que experimenta. Para ello, frota un globo con su cabello para luego ponerlo en contacto con el cielo de yeso de la habitación y repite esto para distintas duraciones del frotamiento. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Duración del frotamiento en segundos | Registro |\n|---|---|\n| 2 | Se cae del cielo |\n| 5 | Se cae del cielo |\n| 6 | Se mantiene en el cielo |\n| 9 | Se cae del cielo |\n| 11 | Se cae del cielo |\n| 13 | Se mantiene en el cielo |\n| 16 | Se mantiene en el cielo |\n| 20 | Se mantiene en el cielo |\n\nAl respecto, ¿cuál de las siguientes opciones asociadas al experimento es una inferencia correcta basándose en la información proporcionada?",
+      "options": {
+        "a": "Si el globo se frota más de 16 s, es probable que se mantenga adherido al cielo de madera de una habitación por más tiempo que en el cielo de yeso.",
+        "b": "Si el globo se frota más de 20 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 16 s.",
+        "c": "Si el globo se frota menos de 8 s, es probable que se caiga en lugar de mantenerse adherido al cielo de yeso de la habitación.",
+        "d": "Si el globo se frota 6 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 13 s."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Dos personas conectan el mismo aparato de medición Z en tres configuraciones de circuitos eléctricos, L, M y N, en las que se emplean dos ampolletas X conectadas a una batería. A continuación, se presentan las tres configuraciones realizadas con el aparato Z:\n\n[Figura: tres circuitos eléctricos (Circuito L, Circuito M, Circuito N) cada uno con dos ampolletas X, un instrumento Z y una batería, conectados en distintas configuraciones]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es una hipótesis coherente con lo realizado por las personas?",
+      "options": {
+        "a": "La lectura de Z varía si se cambia el tipo de ampolletas utilizadas en el circuito.",
+        "b": "La lectura de Z varía si se cambia la manera en que se conecta en el circuito.",
+        "c": "La lectura de Z varía si se cambia la cantidad de ampolletas en el circuito.",
+        "d": "La lectura de Z varía si se cambia el tipo de batería de los circuitos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "La concentración fisiológica de una sustancia X al interior de la célula es de 140 mM, mientras que en el medio extracelular es de 4 mM. Considerando que X se transporta pasivamente, ¿qué sucederá si se expone dicha célula a un medio con una concentración de 14 mM de X?",
+      "options": {
+        "a": "Ingresará a la célula más rápido que en la condición fisiológica.",
+        "b": "Ingresará a la célula más lento que en la condición fisiológica.",
+        "c": "Saldrá de la célula más rápido que en la condición fisiológica.",
+        "d": "Saldrá de la célula más lento que en la condición fisiológica."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Si experimentalmente se inhibe la función del retículo endoplasmático rugoso en una célula pancreática, ¿cuál de los siguientes procesos se verá directa e inicialmente afectado?",
+      "options": {"a": "Exocitosis", "b": "División celular", "c": "Respiración celular", "d": "Síntesis de enzimas", "e": "Transporte intracelular"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Un grupo de investigación busca evaluar el efecto que tiene cierta molécula X en el transporte de glucosa en las células. Para esto, desarrollan un protocolo que aplican a células cultivadas en medios con glucosa, obteniendo que \"el transporte de glucosa, al agregar la molécula X, es de cinco moléculas transportadas por segundo\". La expresión entre comillas corresponde a",
+      "options": {"a": "una hipótesis.", "b": "una inferencia.", "c": "un modelo.", "d": "un procedimiento.", "e": "un resultado."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Un grupo de investigación buscaba determinar qué estructura celular permite que ciertos organelos se mantengan sujetos y relativamente estables en el citoplasma de una célula eucarionte. Para esto, formaron tres grupos con el mismo tipo de células en cultivo, aplicando a cada grupo uno de los tratamientos siguientes:\n1) Reducción del complejo de Golgi.\n2) Reducción del citoesqueleto.\n3) Remoción de la envoltura nuclear.\nFinalmente, se midió el porcentaje de células que presentaban organelos sujetos y estables en cada grupo tratado y en un grupo control. El gráfico siguiente muestra los datos obtenidos:\n\n[Figura: gráfico de barras que muestra el porcentaje de células con organelos sujetos y estables en cuatro grupos: Normales (control) ~100%, Con complejo de Golgi reducido ~97%, Con citoesqueleto reducido ~2%, Sin envoltura nuclear ~96%]\n\n¿Cuál de las siguientes aseveraciones es coherente con la metodología y los datos expuestos?",
+      "options": {
+        "a": "El complejo de Golgi, el citoesqueleto y la envoltura nuclear, en conjunto, mantienen sujetos y estables los organelos en el citoplasma.",
+        "b": "El complejo de Golgi y la envoltura nuclear mantienen sujetos y estables a los organelos en el citoplasma.",
+        "c": "La envoltura nuclear mantiene sujetos y estables a los organelos en el citoplasma.",
+        "d": "El citoesqueleto mantiene sujetos y estables a los organelos en el citoplasma."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Un estudio realizado in vitro demostró que tanto la ausencia de ATP como las mutaciones en la dineína (un tipo de proteína presente en flagelos), se relacionan con la pérdida de movilidad de los espermatozoides.\nSegún lo anterior, ¿cuál de las siguientes preguntas de investigación se responde con los datos de este estudio?",
+      "options": {
+        "a": "¿Qué moléculas contribuyen al movimiento de los espermatozoides?",
+        "b": "¿Qué concentración mínima de ATP se requiere para generar el movimiento de los espermatozoides?",
+        "c": "¿Qué factores influyen en el tipo de movimiento de los espermatozoides?",
+        "d": "¿Qué factores determinan la velocidad de desplazamiento de los espermatozoides?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Una pareja desea posponer durante dos años la posibilidad de tener un hijo. ¿Cuál de los siguientes métodos de control de la natalidad es el más efectivo para este propósito?",
+      "options": {"a": "Un implante subcutáneo", "b": "El método del ritmo", "c": "Una vasectomía", "d": "Un espermicida"},
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Algunos métodos hormonales de control de la natalidad están constituidos por una combinación de progestágenos y estrógenos. ¿Cuál es el efecto principal de este tipo de métodos?",
+      "options": {
+        "a": "Mantener los niveles hormonales como si hubiera embarazo.",
+        "b": "Eliminar los espermatozoides en las vías genitales femeninas.",
+        "c": "Bloquear la formación del tapón mucoso en el cuello uterino.",
+        "d": "Impedir el tránsito del embrión desde el oviducto hacia el útero."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "El siguiente gráfico representa la incidencia de enfermedades cardiovasculares (porcentaje de la población estudiada) en función de la ingesta de grasa (porcentaje de las calorías ingeridas) en adultos:\n\n[Figura: gráfico con dos curvas (Baja actividad física, línea sólida; Alta actividad física, línea segmentada) que muestran la incidencia de enfermedades cardiovasculares (%) en función de la ingesta de grasa (% de las calorías), ambas curvas crecientes, con la curva de baja actividad física siempre por encima de la de alta actividad física]\n\nDe los datos presentados, es correcto inferir que",
+      "options": {
+        "a": "la incidencia de enfermedades permanece constante en la población adulta.",
+        "b": "la actividad física es un factor de riesgo para las enfermedades cardiovasculares.",
+        "c": "un aumento de la actividad física no incide en la aparición de enfermedades cardiovasculares.",
+        "d": "existe una relación directamente proporcional entre la ingesta de grasa y la incidencia de enfermedades cardiovasculares.",
+        "e": "el ejercicio físico disminuye el efecto del consumo de grasa sobre la incidencia de enfermedades cardiovasculares."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "En un experimento se utilizaron dos grupos de diez ratas cada uno. A uno de los grupos se le administró una dieta proteica que carece de un aminoácido esencial (no puede ser sintetizado por el organismo). Al otro grupo se le administró una dieta proteica completa. Después del mismo período de tiempo, se midió la concentración de proteínas plasmáticas de las ratas de ambos grupos. Al respecto, ¿cuál de las siguientes opciones corresponde a la variable independiente en este experimento?",
+      "options": {
+        "a": "La cantidad de ratas en ambos grupos",
+        "b": "El tipo de dieta administrada a las ratas",
+        "c": "El tiempo de administración de la dieta a las ratas",
+        "d": "La concentración de proteínas plasmáticas de las ratas"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Con respecto a la mitosis es correcto afirmar que",
+      "options": {
+        "a": "al comenzar el proceso se duplica el material genético.",
+        "b": "es el mecanismo mediante el cual se logra variabilidad genética.",
+        "c": "al inicio de esta, cada cromosoma está compuesto por dos cromátidas hermanas.",
+        "d": "las dos células resultantes tienen la mitad de cromosomas que la célula original.",
+        "e": "los cromosomas se desplazan adheridos a filamentos de actina."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "El restablecimiento de la dotación cromosómica en la especie humana se realiza",
+      "options": {
+        "a": "en la fecundación.",
+        "b": "en la primera división celular del cigoto.",
+        "c": "en la segunda división celular del cigoto.",
+        "d": "durante la profase I.",
+        "e": "durante la anafase II."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "La pérdida parcial del hígado promueve que algunas células hepáticas en reposo proliferativo entren en mitosis, contribuyendo a la regeneración de este órgano. En una investigación, a animales se les removió experimentalmente el lóbulo izquierdo del hígado (lobectomía) y luego se evaluaron los posibles cambios en este órgano, a intervalos de 10 días. Considerando estos antecedentes, ¿cuál de las siguientes opciones es un resultado potencial para esta investigación?",
+      "options": {
+        "a": "Al final del estudio, la masa del hígado estaría disminuida, producto de la lobectomía.",
+        "b": "Habría un incremento progresivo del tamaño del hígado tras la lobectomía.",
+        "c": "Se iniciaría la muerte celular en el lóbulo izquierdo, propagándose luego a los otros lóbulos.",
+        "d": "Al final del estudio, la función hepática estaría disminuida en un 50 % en comparación al estado inicial."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "En la mitosis pueden ocurrir dificultades durante la migración de los cromosomas en anafase. En un estudio, se han identificado puentes cromosómicos (unión persistente de cromátidas hermanas) y se piensa que durante la anafase los puentes finalmente se rompen, generando cromosomas anormales en las dos células hijas, impidiendo su diferenciación. Así, las células forman tejidos vinculados al cáncer. El gráfico siguiente muestra el porcentaje de puentes cromosómicos observados en tres tipos de cultivos diferentes (P, Q y M) durante tres momentos del ciclo celular:\n\n[Figura: gráfico de barras que muestra el porcentaje de puentes cromosómicos para tres tipos de cultivo (P, Q, M) en tres etapas del ciclo celular: Anafase, Telofase y G1 temprana]\n\nDe acuerdo con los antecedentes, ¿cuál pudo ser la pregunta de investigación que guió este estudio?",
+      "options": {
+        "a": "¿Cuál es el origen de los puentes cromosómicos?",
+        "b": "¿Pueden los puentes cromosómicos originar cáncer en tejidos humanos?",
+        "c": "¿Cuánto persisten los puentes cromosómicos en las células que los presentan?",
+        "d": "¿Qué tipo de cultivo celular se ve favorecido con la presencia de puentes cromosómicos?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Si una especie X limita el acceso a cierto recurso a la especie Y, ocurrirá",
+      "options": {"a": "mutualismo.", "b": "competencia.", "c": "depredación.", "d": "comensalismo.", "e": "protocooperación."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "En un estudio se comparó la fauna asociada a tres tipos de cultivos diferentes. Los datos se muestran en la siguiente tabla:\n\n| Grupo taxonómico | Cultivo X | Cultivo Y | Cultivo Z | Categoría funcional |\n|---|---|---|---|---|\n| Formicidae | 505 | 25 | 0 | Depredadores |\n| Carabidae | 6 | 1 | 1 | Depredadores |\n| Coccinellidae | 1 | 1 | 1 | Depredadores |\n| Curculionidae | 1 | 0 | 1 | Fitófagos |\n| Staphylinidae | 3 | 7 | 3 | Depredadores |\n| Forficulidae | 2 | 1 | 1 | Detritívoros |\n| Blattidae | 16 | 2 | 0 | Detritívoros |\n| Lumbricidae | 48 | 45 | 2 | Detritívoros |\n| Hylidae | 1 | 0 | 0 | Depredadores |\n| Gastropoda | 429 | 536 | 308 | Fitófagos |\n| Riqueza | 10 | 8 | 7 | |\n| Abundancia | 1012 | 618 | 317 | |\n\nSi se quiere comparar estos cultivos mediante la construcción de pirámides ecológicas de número, ¿cuál de las siguientes opciones corresponde a un procedimiento correcto?",
+      "options": {
+        "a": "Deben agruparse las cifras de acuerdo a categoría funcional dentro de cada tipo de cultivo, con ello se podrá construir una pirámide para cada cultivo.",
+        "b": "Deben determinarse los valores de abundancia y riqueza para cada cultivo, con ello se podrá construir tres pirámides con tres niveles cada una.",
+        "c": "Deben sumarse las cifras para cada grupo de la columna grupo taxonómico, con ello se podrá construir tres pirámides para cada cultivo.",
+        "d": "Deben sumarse las cifras para cada grupo de las columnas de cultivo, con ello se podrá determinar el tamaño de los niveles tróficos."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "El gráfico representa la producción de glucosa con respecto a la variación de la concentración de CO2 ambiental en un organismo vegetal.\n\n[Figura: gráfico de líneas de Producción de glucosa (u.a.) en el eje Y (de 0 a 80) versus Concentración de CO2 ambiental (u.a.) en el eje X (150 a 650). La producción aumenta linealmente de 20 a 80 entre 150 y 450, y luego se mantiene estable alrededor de 80 entre 450 y 650]\n\nRespecto al análisis del gráfico, ¿cuál de las siguientes aseveraciones es correcta?",
+      "options": {
+        "a": "El incremento de la concentración de CO2 es inversamente proporcional al aumento de la producción de glucosa en todo el rango medido.",
+        "b": "El incremento de la producción de glucosa es directamente proporcional al aumento de la concentración de CO2 hasta los 450 u.a.",
+        "c": "La concentración de CO2 depende de la producción de glucosa en esta planta.",
+        "d": "La producción de glucosa en esta planta depende de la concentración de CO2 en todo el rango medido."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "El siguiente esquema presenta un experimento donde una planta acuática fue puesta en un vaso de precipitados, cubierta con un embudo y un tubo invertido. En el caso 1 el agua utilizada está a temperatura ambiente sin otro tratamiento. En el caso 2 el agua fue previamente hervida para eliminar los gases que contenía y luego enfriada a temperatura ambiente. Ambos sistemas fueron expuestos a la luz solar.\n\n[Figura: dos esquemas (Caso 1 y Caso 2) mostrando una planta acuática en un vaso de precipitados cubierta con embudo y tubo de ensayo invertido lleno de agua, expuesta a la luz solar (representada por un sol); en el caso 1 se observan burbujas de gas acumulándose en el tubo invertido tras la exposición, en el caso 2 no]\n\nDe acuerdo con estos antecedentes, ¿cuál de las siguientes opciones corresponde a la variable dependiente en este experimento?",
+      "options": {
+        "a": "La temperatura ambiental",
+        "b": "El dióxido de carbono producido",
+        "c": "El oxígeno producido",
+        "d": "La exposición al Sol"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Se extrajeron ejemplares de una misma especie de planta desde distintos sitios, exponiéndolos a las siguientes condiciones de laboratorio:\n\n| Control | Tratamiento |\n|---|---|\n| Se mantiene la disponibilidad de agua del sitio original de cada ejemplar | Se aumenta la disponibilidad de agua con respecto al sitio original de cada ejemplar |\n\nEl gráfico representa la longitud promedio de las hojas en relación con la exposición de ambos ejemplares a estas condiciones.\n\n[Figura: gráfico de barras que muestra la longitud promedio de las hojas (u.a.) para Planta 1 y Planta 2, en los grupos Control (barras similares y bajas) y Tratamiento (barras más altas, Planta 2 más alta que Planta 1)]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es coherente con los resultados obtenidos?",
+      "options": {
+        "a": "La cantidad de agua disponible influye en el tamaño de las hojas, en ambos ejemplares.",
+        "b": "La cantidad de agua disponible varía de acuerdo a la longitud de las hojas, en ambos ejemplares.",
+        "c": "La especie presenta diferentes tamaños de hojas según el sitio que habita originalmente cada ejemplar.",
+        "d": "El promedio de la longitud de las hojas de ambos ejemplares depende del material genético de la especie."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "En la vida diaria hay muchos hechos que se pueden clasificar en químicos o físicos. Al respecto, ¿cuál de los siguientes procesos corresponde a un cambio físico?",
+      "options": {
+        "a": "La oxidación de una reja metálica",
+        "b": "La evaporación de acetona",
+        "c": "La fermentación de una manzana",
+        "d": "La combustión de una hoja de papel"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Dada la siguiente simbología de un elemento químico:\n\n³⁰₁₆X\n\n¿Cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "X tiene 16 neutrones y 14 protones.",
+        "b": "X tiene 30 electrones y 14 protones.",
+        "c": "X tiene 30 neutrones y 16 electrones.",
+        "d": "X tiene 16 protones y 14 neutrones."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "En una empresa dedicada al desarrollo de nuevos materiales, un funcionario estudió una propiedad física realizando mediciones de densidad para metales del mismo grupo del sistema periódico y compuestos derivados de estos. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Metal/compuesto | Densidad (g/cm³) |\n|---|---|\n| Li | 0,53 |\n| Na | 0,97 |\n| Rb | 1,53 |\n| Li2O | 2,01 |\n| Na2O | 2,27 |\n| Rb2O | 4,00 |\n| LiCl | 2,07 |\n| NaCl | 2,16 |\n| RbCl | 2,80 |\n\nDe acuerdo con lo anterior, ¿cuál de las siguientes opciones describe de mejor manera el propósito de esta investigación?",
+      "options": {
+        "a": "Determinar la densidad del oxígeno y cloro a partir de la diferencia de densidades entre el compuesto y el metal.",
+        "b": "Evaluar la relación entre la densidad de un elemento y la densidad de los compuestos que forma.",
+        "c": "Evaluar de manera sistemática las variaciones en las propiedades físicas de los elementos dentro de un grupo del sistema periódico.",
+        "d": "Determinar la relación entre la densidad de los compuestos y su estado físico."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Un grupo de estudiantes realiza un experimento en el cual diferentes sustancias, que presentan en su estructura enlaces iónicos y covalentes, son sometidas a distintas pruebas para identificar sus características y propiedades. A partir de la actividad se determinó que las sustancias que tienen enlace covalente y son solubles en agua no conducen la electricidad, pero las que poseen enlace iónico sí lo hacen. Con respecto a lo comprobado, ¿cuál de las siguientes opciones corresponde a una pregunta para seguir con la investigación?",
+      "options": {
+        "a": "¿Cuál es la diferencia entre una sustancia que presenta enlace iónico y una que presenta enlace covalente?",
+        "b": "¿Qué tipo de enlace presentan las sustancias que conducen la corriente eléctrica y las que no lo hacen?",
+        "c": "¿Qué sucede con una sustancia cuando se disuelve en agua?",
+        "d": "¿Por qué las sustancias con enlace iónico conducen la corriente eléctrica al disolverse y las con enlace covalente no?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "De los siguientes compuestos clorados, ¿cuál de ellos presenta el enlace con mayor carácter iónico?",
+      "options": {"a": "LiCl", "b": "KCl", "c": "CaCl2", "d": "MgCl2", "e": "AlCl3"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "A un estudiante, en el laboratorio de química, se le entrega una muestra que contiene una solución de cuatro compuestos orgánicos, miscibles entre sí. Además, como dato anexo se le entregan las temperaturas de ebullición de los compuestos orgánicos. Estos datos se presentan en la siguiente tabla:\n\n| Compuesto | Temperatura de ebullición a 1 atm (°C) |\n|---|---|\n| 1 | 64 |\n| 2 | 82 |\n| 3 | 56 |\n| 4 | 78 |\n\nComo tarea se le solicita que separe los cuatro componentes de la mezcla. Para ello, implementa un método de separación por temperatura, recogiendo cada fracción de compuesto orgánico en un vaso de precipitados. Una vez terminado el experimento, ¿cuál de las siguientes opciones señala correctamente el orden en que los compuestos fueron separados de la mezcla?",
+      "options": {
+        "a": "1° lugar: Compuesto 1 | 2° lugar: Compuesto 2 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 3",
+        "b": "1° lugar: Compuesto 1 | 2° lugar: Compuesto 3 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 2",
+        "c": "1° lugar: Compuesto 3 | 2° lugar: Compuesto 1 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 2",
+        "d": "1° lugar: Compuesto 3 | 2° lugar: Compuesto 1 | 3° lugar: Compuesto 2 | 4° lugar: Compuesto 4"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "Un estudiante, visitando un bosque de pinos, se interesó por investigar si existe una relación entre el aroma a pino que se percibe y las diferentes especies de pino. Al respecto, ¿cuál de las siguientes opciones es una variable que debe analizar el estudiante para obtener conclusiones respecto de su investigación?",
+      "options": {
+        "a": "La cantidad de extractos generados por cada especie de pino del bosque.",
+        "b": "La forma de cada especie de pino del bosque.",
+        "c": "La cantidad de pinos de cada especie en el bosque.",
+        "d": "La distancia entre los distintos tipos de pinos que existen en el bosque."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "En un laboratorio de investigación se está evaluando la capacidad antifúngica de tres compuestos orgánicos (X, Y y Z) contra un tipo de hongo patógeno. El tratamiento se realiza durante 7 días, utilizando la misma concentración de cada compuesto. Los datos obtenidos se presentan a continuación:\n\n[Figura: gráfico de líneas que muestra el Diámetro del hongo patógeno (cm) en el eje Y (2,0 a 6,5) versus Tiempo (días) en el eje X (1 a 7), para cuatro series: Control (crece hasta 6,0), X (crece hasta 5,0), Z (crece hasta 4,5) e Y (se mantiene estable en 3,5)]\n\nSabiendo que el procedimiento experimental se llevó a cabo correctamente, ¿cuál de las siguientes opciones presenta la pregunta de investigación que pudo dar origen al estudio realizado?",
+      "options": {
+        "a": "¿Cuál es la mínima concentración a la cual los compuestos orgánicos inhiben el crecimiento del hongo patógeno?",
+        "b": "¿Cuál es el mecanismo de acción por el cual los compuestos inhiben el crecimiento del hongo patógeno?",
+        "c": "¿Qué compuesto orgánico presenta la mayor actividad sobre el hongo patógeno?",
+        "d": "¿Qué determina que un compuesto orgánico tenga una acción antifúngica?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "La fórmula molecular para el radical butil o butilo es",
+      "options": {"a": "C4H10", "b": "C4H9", "c": "C4H8", "d": "C4H7", "e": "C4H6"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "En un recipiente cerrado se tienen 56 g de gas nitrógeno (N2). Al abrirlo se pierden 6,02 x 10²³ moléculas. ¿Qué cantidad de nitrógeno queda?",
+      "options": {"a": "0,1 mol", "b": "0,2 mol", "c": "0,5 mol", "d": "1,0 mol", "e": "2,0 mol"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "Un grupo de estudiantes desea determinar la relación entre la masa (g) de carbonato de calcio (CaCO3) y el volumen (L) de dióxido de carbono (CO2) desprendido en la reacción de descomposición térmica del carbonato de calcio. La reacción química del proceso es:\n\nCaCO3 (s) →(Δ)→ CO2 (g) + CaO (s)\n\nCon este propósito, bajo las mismas condiciones de reacción, calientan distintas masas de carbonato de calcio y recogen el volumen de dióxido de carbono desprendido.\nEn relación con el experimento anterior, ¿cuál de las siguientes opciones señala correctamente la variable independiente y la variable dependiente?",
+      "options": {
+        "a": "Variable independiente: Temperatura ambiente | Variable dependiente: Masa de CaCO3",
+        "b": "Variable independiente: Masa de CaCO3 | Variable dependiente: Temperatura ambiente",
+        "c": "Variable independiente: Volumen de CO2 | Variable dependiente: Masa de CaCO3",
+        "d": "Variable independiente: Masa de CaCO3 | Variable dependiente: Volumen de CO2"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Una agricultora necesita comprar un fertilizante para 25 m² de un sembradío. Para ello, le ofrecen NH4NO3 y Ca(NO3)2 al mismo valor por cada mol de compuesto, los cuales poseen una masa molar de 80 g/mol y 164 g/mol, respectivamente, y le recomiendan utilizar 50 g por cada m². Al respecto, ¿cuál de los fertilizantes debería elegir la agricultora para abaratar sus costos?",
+      "options": {
+        "a": "Debería elegir Ca(NO3)2, ya que posee mayor masa por unidad de mol.",
+        "b": "Debería elegir Ca(NO3)2, ya que la masa a utilizar por m² es menor.",
+        "c": "Debería elegir NH4NO3, ya que posee mayor masa por unidad de mol.",
+        "d": "Debería elegir cualquiera de los compuestos, ya que el valor por cada mol varía según el m²."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "La siguiente ecuación no equilibrada representa la reacción del óxido de arsénico (III) (As4O6) con hidróxido de sodio (NaOH):\n\nAs4O6 (s) + NaOH (ac) → Na3AsO3 (ac) + H2O (ℓ)\n\n¿Qué masa de As4O6 (masa molar = 396 g/mol) se necesita para formar 96,0 g de Na3AsO3 (masa molar = 192 g/mol)?",
+      "options": {"a": "24,0 g", "b": "25,5 g", "c": "49,5 g", "d": "198,0 g", "e": "204,0 g"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "En el contexto de una investigación se planteó la pregunta acerca de cuántos compuestos diferentes se pueden llegar a formar a partir de la combinación de dos elementos, hasta ese momento desconocidos, denominados M y R. Para intentar dar respuesta a la pregunta planteada se propuso el siguiente procedimiento: Propiciar la reacción de masas conocidas de los elementos M y R, siempre en la misma proporción, y luego, medir la cantidad de producto obtenido.\nLuego de obtenidos los resultados, los investigadores propusieron mejoras en el procedimiento. En relación con lo anterior, ¿cuál de las siguientes opciones indica una propuesta pertinente que contribuye a mejorar directamente el procedimiento para dar respuesta a la pregunta planteada?",
+      "options": {
+        "a": "Efectuar la reacción de los elementos en proporciones variables y masas conocidas y estudiar la naturaleza de los productos obtenidos.",
+        "b": "Aumentar el volumen de los reactantes para incrementar la cantidad de producto y así disminuir los errores en las mediciones.",
+        "c": "Agregar un tercer elemento a la reacción, de tal manera que compita con uno de los reactantes.",
+        "d": "Agregar un catalizador de forma que la reacción ocurra con mayor rapidez."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "El acero es un material que puede clasificarse como una solución química, formada principalmente por hierro y carbono. En la zona costera de Chile, se identifica que el acero sufre alteraciones debido a procesos corrosivos provocados por otras soluciones. Una de ellas, el agua de mar. Un estudiante decide investigar el efecto del uso de dos pinturas anticorrosivas R y Q, evaluando su efecto, según criterios de clasificación sobre clavos de acero expuestos a ciertas condiciones de la zona costera. En relación con lo anterior, ¿cuál de las siguientes opciones representa un procedimiento adecuado para que el estudiante realice su investigación?",
+      "options": {
+        "a": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "b": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar a los clavos pintados y agua destilada al clavo usado como control, describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "c": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero pintarlo con las dos pinturas. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "d": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua destilada y describir su aspecto luego de 15, 30 y 45 días de exposición."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "La tabla resume los resultados de un experimento, cuyo objetivo es estudiar aspectos de una reacción química que ocurre en solución.\n\n| Concentración inicial de reactante AgNO3 (mol/L) | Concentración inicial de reactante Cu2+ (mol/L) | Concentración final de producto Cu(NO3)2 (mol/L) |\n|---|---|---|\n| 0,1 | 0,05 | 0,015 |\n| 0,2 | 0,10 | 0,030 |\n| 0,4 | 0,20 | 0,060 |\n\n¿Cuál de las siguientes opciones describe correctamente la información científica entregada por esta tabla?",
+      "options": {
+        "a": "La relación que existe entre la concentración inicial de los reactantes con la concentración final del producto en la reacción estudiada.",
+        "b": "La relación que existe entre los volúmenes iniciales de reactantes requeridos para obtener determinadas concentraciones del producto final en la reacción estudiada.",
+        "c": "Las cantidades iniciales de los reactantes, que se necesitan para llegar a generar determinadas concentraciones del producto final en la reacción en estudio.",
+        "d": "La relación observada entre la concentración inicial de un reactante y la cantidad del producto de la reacción en estudio."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Se prepara una solución X masando 100 g de KOH y agregándolos a 1 L de agua. Por otra parte, se prepara una solución Y, masando 100 g de KOH y agregando el volumen de agua necesario para completar 1 L de solución. Entonces, a partir de lo descrito, se puede deducir que",
+      "options": {
+        "a": "la solución X tiene más soluto que la solución Y.",
+        "b": "ambas soluciones tienen la misma masa.",
+        "c": "el volumen de ambas soluciones es el mismo.",
+        "d": "ambas soluciones poseen igual concentración.",
+        "e": "la solución Y es más concentrada que la solución X."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Se preparan 1000 mL de una solución acuosa 2 mol/L de NaOH (masa molar = 40 g/mol). Al respecto, ¿cuál fue la masa del soluto utilizado?",
+      "options": {"a": "80,00 g", "b": "40,00 g", "c": "0,80 g", "d": "0,40 g", "e": "0,04 g"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "¿Qué sucede siempre con las partículas del medio material por el que se propaga una onda mecánica viajera?",
+      "options": {
+        "a": "Viajan junto con la onda.",
+        "b": "Permanecen inmóviles cuando pasa la onda.",
+        "c": "Se deforman cuando pasa la onda.",
+        "d": "Oscilan cuando pasa la onda.",
+        "e": "Rotan con la onda."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "¿Cuál de las siguientes propuestas permite comprobar si la rapidez de una onda depende de las características del medio por el que se propaga?",
+      "options": {
+        "a": "Generar ondas de diferente frecuencia en una misma cuerda, sometidas a la misma tensión, medir la longitud de onda y calcular la rapidez de propagación.",
+        "b": "Emitir sonidos de diferente frecuencia, medir el tiempo que tardan en viajar por un tubo de vidrio con aire en su interior y calcular la rapidez de propagación.",
+        "c": "Generar ondas de igual frecuencia en cuerdas de diferente densidad, sometidas a la misma tensión, medir la longitud de onda y calcular la rapidez de propagación.",
+        "d": "Emitir un sonido a distintas distancias de una pared, medir el tiempo que tarda desde que se emite hasta que regresa al punto donde fue emitido y calcular la rapidez de propagación."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Una onda se propaga con rapidez V, longitud de onda λ y período T. Si la onda cambia a otro medio donde su rapidez de propagación es 2V, ¿cuáles son las magnitudes de su longitud de onda y período en este nuevo medio?",
+      "options": {
+        "a": "Longitud de onda: 2λ | Período: T",
+        "b": "Longitud de onda: 2λ | Período: T/2",
+        "c": "Longitud de onda: λ | Período: 2T",
+        "d": "Longitud de onda: λ/2 | Período: T",
+        "e": "Longitud de onda: λ | Período: T/2"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Una ambulancia hace sonar su sirena siempre con la misma frecuencia, siendo detectado el sonido por el conductor de un automóvil. Si la ambulancia y el automóvil se encuentran en un mismo camino recto y se mueven con las rapideces que en cada opción se indica, ¿en cuál de las opciones el conductor del automóvil percibirá el sonido de la sirena con la menor frecuencia?",
+      "options": {
+        "a": "Cuando la ambulancia se aleja con rapidez v del conductor del automóvil, el cual se encuentra en reposo con respecto al suelo.",
+        "b": "Cuando el conductor del automóvil se aleja con rapidez v/2 de la ambulancia, la cual se encuentra en reposo con respecto al suelo.",
+        "c": "Cuando la ambulancia y el conductor del automóvil se alejan entre sí, con rapidez relativa v/2.",
+        "d": "Cuando la ambulancia se acerca con rapidez v al conductor del automóvil, el cual se encuentra en reposo.",
+        "e": "Cuando la ambulancia y el conductor del automóvil se acercan entre sí, con rapidez v con respecto al suelo."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "Las ondas satisfacen un principio de superposición, es decir, pueden propagarse por la misma región del espacio sin perder su identidad. ¿Cuál de las siguientes situaciones permite ilustrar esta propiedad de las ondas?",
+      "options": {
+        "a": "Sintonizar dos radios, una al lado de la otra, en estaciones diferentes.",
+        "b": "Contestar un teléfono usando el altavoz primero, y luego usando audífonos.",
+        "c": "Alejarse de un televisor de modo que la intensidad del sonido percibido vaya disminuyendo.",
+        "d": "Conectar a un mismo enchufe dos aparatos electrodomésticos.",
+        "e": "Ver un relámpago y luego escuchar el trueno correspondiente."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "La siguiente figura representa el comportamiento de un rayo de luz al pasar de un medio P a uno Q:\n\n[Figura: un rayo de luz que incide sobre la interfaz entre el medio P y el medio Q, formando un ángulo α con la normal en el medio P y refractándose con un ángulo β, mayor que α, en el medio Q]\n\nAl respecto, ¿cuál de las siguientes afirmaciones asociadas al rayo es correcta?",
+      "options": {
+        "a": "La rapidez de propagación del rayo en el medio P es menor que en el medio Q.",
+        "b": "La longitud de onda del rayo en el medio P es mayor que en el medio Q.",
+        "c": "La amplitud del rayo en el medio P es menor que en el medio Q.",
+        "d": "La frecuencia del rayo en el medio P es mayor que en el medio Q."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "En la figura se representa el eje de un espejo cóncavo, un pequeño objeto O y la imagen I que forma el espejo de este objeto (no se representa el espejo).\n\n[Figura: eje óptico horizontal con un objeto O sobre el eje y una imagen I debajo del eje, más cerca del eje que O]\n\n¿En cuál de las opciones se representa mejor la posición que debe tener el espejo cóncavo y su correspondiente foco F, para que I sea la imagen de O?\n\n[Figura: cinco opciones (A-E) mostrando distintas posiciones relativas del objeto O, foco F, imagen I y el espejo cóncavo]",
+      "options": {
+        "a": "Espejo cóncavo con foco F ubicado entre O y el espejo, más cerca de O; imagen I se forma detrás del eje entre F y el espejo.",
+        "b": "Espejo cóncavo con foco F ubicado más cerca del espejo; imagen I se forma cerca del espejo, debajo del eje.",
+        "c": "Espejo cóncavo con foco F ubicado a la izquierda, más lejos del espejo que O; imagen I se forma entre F y el espejo.",
+        "d": "Espejo cóncavo con foco F ubicado cerca del espejo; imagen I se forma justo al lado del foco F.",
+        "e": "Espejo cóncavo con foco F ubicado en el mismo punto que la imagen I, ambos cerca del espejo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "Durante un temblor se producen varios tipos de ondas sísmicas, entre ellas están las ondas P y las S. Respecto de sus características, se afirma correctamente que",
+      "options": {
+        "a": "las ondas P provienen del hipocentro y las S del epicentro.",
+        "b": "las ondas P provienen del epicentro y las S del hipocentro.",
+        "c": "las ondas S pueden propagarse en el agua y las ondas P no.",
+        "d": "las ondas P son más lentas que las ondas S.",
+        "e": "las ondas S son transversales y las P longitudinales."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Un automóvil avanza en línea recta por una carretera horizontal con rapidez constante V (situación 1). Luego el conductor retira el pie del acelerador, momento a partir del cual el vehículo comienza a disminuir su rapidez (situación 2).\n\n[Figura: automóvil moviéndose con velocidad V horizontal, con vector de gravedad g apuntando hacia abajo]\n\nAl respecto, ¿cuál de las siguientes opciones representa mejor el diagrama de cuerpo libre para el automóvil, en las situaciones 1 y 2?\n\n[Figura: cinco opciones (A-E) mostrando diagramas de cuerpo libre con flechas representando fuerzas verticales y horizontales para las situaciones 1 y 2]",
+      "options": {
+        "a": "Situación 1: fuerzas verticales iguales (normal y peso) y sin fuerza horizontal neta; Situación 2: fuerza horizontal neta apuntando hacia atrás (oponiéndose al movimiento) además de fuerzas verticales iguales.",
+        "b": "Situación 1: solo una flecha horizontal hacia adelante; Situación 2: sin fuerzas (punto).",
+        "c": "Situación 1: fuerzas verticales desiguales con una componente horizontal hacia adelante; Situación 2: fuerza horizontal hacia atrás con fuerzas verticales.",
+        "d": "Situación 1: solo una flecha vertical hacia abajo; Situación 2: flecha horizontal hacia atrás y flecha vertical hacia abajo.",
+        "e": "Situación 1: una flecha horizontal hacia adelante; Situación 2: una flecha horizontal hacia atrás."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "El ladrillo de peso P del esquema, desliza hacia abajo en contacto con una pared vertical mientras se le aplica una fuerza F perpendicular a la pared. El coeficiente de roce dinámico entre la pared y el ladrillo es μ.\n\n[Figura: ladrillo en contacto con una pared vertical, deslizando hacia abajo, con una fuerza F horizontal aplicada perpendicular a la pared, empujando el ladrillo contra la pared]\n\n¿Cuál es la magnitud de la fuerza F si el ladrillo se mueve con rapidez constante?",
+      "options": {"a": "Cero", "b": "P/μ", "c": "P", "d": "μP", "e": "2P"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 65,
+      "content": "A un cuerpo de peso P que está en reposo sobre una superficie, se le aplica una fuerza horizontal de magnitud F, como se representa en la siguiente figura:\n\n[Figura: bloque sobre una superficie horizontal con una fuerza F horizontal aplicada]\n\nSi N y R son las magnitudes de la fuerza normal y de roce, respectivamente, ¿cuál de las siguientes condiciones es suficiente para que el cuerpo comience a moverse?",
+      "options": {"a": "F = P", "b": "F = R – N", "c": "F > R", "d": "F < R", "e": "F > N – P"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "En un planeta X, un astronauta realiza el siguiente experimento para determinar la aceleración de gravedad del lugar: cuelga diferentes objetos de masas conocidas en el extremo de un dinamómetro, cuyo resorte tiene una constante elástica igual a 2,5 N/cm. El astronauta toma los siguientes datos de los estiramientos producidos en el resorte al colgar cada uno de los objetos.\n\n| Masa del objeto (kg) | Estiramiento (cm) |\n|---|---|\n| 2 | 6 |\n| 3 | 9 |\n| 5 | 15 |\n\n¿Cuál es la aceleración de gravedad correctamente reportada por el astronauta?",
+      "options": {"a": "30,00 m/s²", "b": "7,50 m/s²", "c": "3,33 m/s²", "d": "3,00 m/s²", "e": "0,33 m/s²"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Una persona se encuentra en un lago y pretende estudiar la presión hidrostática. Al respecto, ¿cuál de los siguientes parámetros influye en la presión hidrostática de un punto cualquiera dentro del lago?",
+      "options": {
+        "a": "El área superficial del lago",
+        "b": "La masa de agua del lago",
+        "c": "La densidad del agua del lago",
+        "d": "El volumen de agua del lago"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "En la época de Arquímedes, se sabía calcular el volumen de cuerpos regulares y que cada material tenía una densidad que lo caracterizaba. Se cuenta que el rey Hierón encomendó a Arquímedes que averiguara, sin romper su corona, si esta era completamente de oro. Para Arquímedes, medir la masa de la corona no era problema, pero el volumen era difícil de determinar, ya que la corona era geométricamente compleja. Esto lo solucionó midiendo el volumen de agua que la corona desplazaba al ser sumergida, determinando que la corona no era de oro puro. Al respecto, ¿cuál es uno de los méritos científicos que se le reconoce a este trabajo de Arquímedes?",
+      "options": {
+        "a": "Haber ratificado la expresión del volumen de los cuerpos regulares.",
+        "b": "Haber descubierto las ecuaciones de volúmenes de cuerpos irregulares.",
+        "c": "Haber mejorado los rangos de medición de los instrumentos para medir volúmenes.",
+        "d": "Haber desarrollado un método indirecto para determinar volúmenes de cuerpos irregulares."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 69,
+      "content": "La temperatura de un objeto se mide con un termómetro graduado en una escala arbitraria P que se relaciona de modo afín con la escala Celsius. Cuando la temperatura de un objeto es de 20 °C, el termómetro marca 10 °P. Si se sabe que para la temperatura de ebullición del agua el termómetro marca 0 °P, ¿a qué temperatura en la escala P corresponde una temperatura de 60 °C?",
+      "options": {"a": "-40 °P", "b": "-5 °P", "c": "5 °P", "d": "15 °P", "e": "30 °P"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "Un hervidor está proporcionando calor a 2 kg de agua a razón de 80 kJ/min. Si el calor latente de vaporización del agua es 2200 kJ/kg, ¿cuánto tiempo debe transcurrir para que se evapore toda el agua contenida en el hervidor, desde que comienza a hervir?",
+      "options": {"a": "13,75 min", "b": "55,00 min", "c": "88000,00 min", "d": "352000,00 min"},
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "En un recipiente térmicamente aislado, que contiene 2 kg de agua a 20 °C, se introduce un trozo de 1/2 kg de cobre, de manera que el agua del recipiente alcanza una temperatura final de 25 °C. Considerando que los calores específicos respectivos del agua y del cobre son 4200 J/kg°C y 400 J/kg°C, ¿cuál era la temperatura inicial del trozo de cobre?",
+      "options": {"a": "235,0 °C", "b": "210,0 °C", "c": "185,0 °C", "d": "125,0 °C", "e": "77,5 °C"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 72,
+      "content": "Un cubo de hielo de 1 gramo, a –10 °C, es sometido a una fuente de calor hasta obtener únicamente agua líquida a 0 °C. Considere los datos de la siguiente tabla:\n\n| Calor específico del hielo | 0,5 cal/g°C |\n| Calor específico del agua líquida | 1,0 cal/g°C |\n| Calor latente de fusión del agua | 80,0 cal/g |\n\n¿Cuánta energía requiere absorber el cubo de hielo en el proceso descrito?",
+      "options": {"a": "Más de 80 cal", "b": "80 cal", "c": "10 cal", "d": "Entre 5 cal y 10 cal", "e": "5 cal"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "La escala Richter originalmente fue propuesta para instrumentos particulares y sismos en el sur de California, Estados Unidos. A su vez, la escala Mercalli originalmente tenía 10 grados en lugar de los 12 actuales. Sin embargo, con el tiempo, las limitaciones de las definiciones iniciales fueron corregidas por sucesivas modificaciones, hasta llegar a la definición actual de ambas escalas.\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta a partir de la información presentada anteriormente?",
+      "options": {
+        "a": "La investigación sismológica no ha sido realizada con suficiente rigurosidad.",
+        "b": "La definición actual de las escalas sísmicas no requerirá de nuevas modificaciones.",
+        "c": "La mejora gradual de las escalas sísmicas sugiere que hay un avance progresivo en el estudio de la sismicidad.",
+        "d": "Si se introduce una nueva escala, diferente a las anteriores, solo agregaría confusión en la investigación de los sismos."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "En relación con el cambio climático global, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "a": "El calentamiento global es producto del debilitamiento de la capa de ozono.",
+        "b": "El efecto invernadero ha sido acrecentado por la actividad humana.",
+        "c": "La reducción de la capa de ozono es más notoria en el ecuador terrestre que en los polos.",
+        "d": "El aumento del nivel de agua de los mares está relacionado con la emisión constante de gases CFC.",
+        "e": "La tala de grandes bosques ha causado un mayor debilitamiento de la capa de ozono."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Una estudiante quiere determinar cómo varía la intensidad de corriente eléctrica de un circuito cuando las resistencias están conectadas en serie, en comparación a cuando estas mismas se encuentran conectadas en paralelo. Si ambos circuitos están conectados a la misma fuente, ¿cuál de las siguientes estrategias sería la más adecuada para resolver su duda?",
+      "options": {
+        "a": "Elaborar teorías asociadas al comportamiento de la intensidad de corriente eléctrica debido a la conexión entre las resistencias.",
+        "b": "Plantear una hipótesis acerca del comportamiento de la intensidad de corriente eléctrica debido a la conexión entre las resistencias.",
+        "c": "Proponer un diseño experimental asociado al comportamiento de la intensidad de corriente eléctrica debido a la conexión entre las resistencias.",
+        "d": "Formular un problema de investigación para abordar el comportamiento de la intensidad de corriente eléctrica debido a la conexión entre las resistencias.",
+        "e": "Emplear un procedimiento experimental para medir el comportamiento de la intensidad de corriente eléctrica debido a la conexión entre las resistencias."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "Un circuito está compuesto por una batería f y dos resistencias eléctricas, de 2 Ω y 4 Ω, como se representa en la siguiente figura:\n\n[Figura: circuito eléctrico en serie con una batería f y dos resistencias, 2 Ω y 4 Ω]\n\nSi la intensidad de corriente eléctrica en la resistencia de 2 Ω es de 3 A, ¿cuál es el valor de la diferencia de potencial en la batería?",
+      "options": {"a": "2 V", "b": "4 V", "c": "6 V", "d": "18 V", "e": "24 V"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "En la sección del circuito representado en la figura, se muestra una conexión en la cual es posible encender una ampolleta mediante dos interruptores (Interruptor 1 e Interruptor 2). Los interruptores presentan tres posiciones cada uno.\n\n[Figura: circuito con una ampolleta conectada a dos interruptores; Interruptor 1 con posiciones K, L, M; Interruptor 2 con posiciones P, Q, R]\n\n¿Cuál de las siguientes opciones indica la posición correcta de los conectores para encender la ampolleta?",
+      "options": {
+        "a": "Interruptor 1: En K | Interruptor 2: En R",
+        "b": "Interruptor 1: En M | Interruptor 2: En P",
+        "c": "Interruptor 1: En L | Interruptor 2: En P",
+        "d": "Interruptor 1: En M | Interruptor 2: En R",
+        "e": "Interruptor 1: En K | Interruptor 2: En Q"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Se tienen tres cuerpos pequeños con cargas eléctricas q1, q0 y q2. La fuerza electrostática que actúa sobre q0 debido a las otras dos cargas es de magnitud F0, cuando los cuerpos están ubicados como se representa en la figura 1. Si el cuerpo con carga q2 se elimina, la fuerza electrostática sobre q0 es de igual magnitud pero de sentido contrario a la anterior, como se representa en la figura 2.\n\n[Figura 1: q1 y q2 ubicados a distancia L de q0 en lados opuestos (q1---L---q0---L---q2), con F0 apuntando desde q0 hacia q2]\n[Figura 2: q1 a distancia L de q0 (q1---L---q0), con F0 apuntando desde q0 hacia q1]\n\n¿Cuál de las siguientes es una posible distribución de signos para las cargas q1, q0 y q2?",
+      "options": {
+        "a": "Signo de q1: + | Signo de q0: – | Signo de q2: –",
+        "b": "Signo de q1: + | Signo de q0: – | Signo de q2: +",
+        "c": "Signo de q1: – | Signo de q0: + | Signo de q2: +",
+        "d": "Signo de q1: – | Signo de q0: – | Signo de q2: –",
+        "e": "Signo de q1: + | Signo de q0: + | Signo de q2: +"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Para ahorrar, una familia cambia 5 ampolletas de 100 W por 5 ampolletas de ahorro de energía de 20 W cada una, que iluminan como las de 100 W. Si las ampolletas se usan 5 horas diarias y el valor del kWh es de 100 pesos. ¿Cuánto será el ahorro diario para esta familia?",
+      "options": {"a": "10 pesos", "b": "40 pesos", "c": "50 pesos", "d": "200 pesos", "e": "250 pesos"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Dentro de sus especificaciones técnicas, un electrodoméstico tiene rotulado 1000 VA (volt·ampere). Esta información indica",
+      "options": {
+        "a": "el voltaje de uso.",
+        "b": "la intensidad de la corriente máxima.",
+        "c": "la resistencia eléctrica interna.",
+        "d": "la energía eléctrica que consumiría.",
+        "e": "la potencia eléctrica que consumiría."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

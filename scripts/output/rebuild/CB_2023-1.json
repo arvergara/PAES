@@ -1,0 +1,1239 @@
+{
+  "meta": {
+    "subject": "CB",
+    "subject_nombre": "Ciencias - Biología",
+    "origen": "PAES Ciencias - Biología Admision 2023-1",
+    "anio": 2023,
+    "forma": 153,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [26, 32, 62, 64, 80],
+    "fuente_pdf": "pruebas/oficiales/C-biologia-2023-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-biologia-2023-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "La concentración fisiológica de una sustancia X al interior de la célula es de 140 mM, mientras que en el medio extracelular es de 4 mM. Considerando que X se transporta pasivamente, ¿qué sucederá si se expone dicha célula a un medio con una concentración de 14 mM de X?",
+      "options": {
+        "a": "Ingresará a la célula más rápido que en la condición fisiológica.",
+        "b": "Ingresará a la célula más lento que en la condición fisiológica.",
+        "c": "Saldrá de la célula más rápido que en la condición fisiológica.",
+        "d": "Saldrá de la célula más lento que en la condición fisiológica."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Si experimentalmente se inhibe la función del retículo endoplasmático rugoso en una célula pancreática, ¿cuál de los siguientes procesos se verá directa e inicialmente afectado?",
+      "options": {
+        "a": "Exocitosis",
+        "b": "División celular",
+        "c": "Respiración celular",
+        "d": "Síntesis de enzimas",
+        "e": "Transporte intracelular"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Un grupo de investigación busca evaluar el efecto que tiene cierta molécula X en el transporte de glucosa en las células. Para esto, desarrollan un protocolo que aplican a células cultivadas en medios con glucosa, obteniendo que \"el transporte de glucosa, al agregar la molécula X, es de cinco moléculas transportadas por segundo\". La expresión entre comillas corresponde a",
+      "options": {
+        "a": "una hipótesis.",
+        "b": "una inferencia.",
+        "c": "un modelo.",
+        "d": "un procedimiento.",
+        "e": "un resultado."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Un grupo de investigación buscaba determinar qué estructura celular permite que ciertos organelos se mantengan sujetos y relativamente estables en el citoplasma de una célula eucarionte. Para esto, formaron tres grupos con el mismo tipo de células en cultivo, aplicando a cada grupo uno de los tratamientos siguientes:\n\n1) Reducción del complejo de Golgi.\n2) Reducción del citoesqueleto.\n3) Remoción de la envoltura nuclear.\n\nFinalmente, se midió el porcentaje de células que presentaban organelos sujetos y estables en cada grupo tratado y en un grupo control. El gráfico siguiente muestra los datos obtenidos:\n\n[Gráfico de barras — eje Y: \"Porcentaje de células con organelos sujetos y estables\" (0 a 100); eje X: Normales (control) ≈100%, Con complejo de Golgi reducido ≈97%, Con citoesqueleto reducido ≈2%, Sin envoltura nuclear ≈96%]\n\n¿Cuál de las siguientes aseveraciones es coherente con la metodología y los datos expuestos?",
+      "options": {
+        "a": "El complejo de Golgi, el citoesqueleto y la envoltura nuclear, en conjunto, mantienen sujetos y estables los organelos en el citoplasma.",
+        "b": "El complejo de Golgi y la envoltura nuclear mantienen sujetos y estables a los organelos en el citoplasma.",
+        "c": "La envoltura nuclear mantiene sujetos y estables a los organelos en el citoplasma.",
+        "d": "El citoesqueleto mantiene sujetos y estables a los organelos en el citoplasma."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Un estudio realizado in vitro demostró que tanto la ausencia de ATP como las mutaciones en la dineína (un tipo de proteína presente en flagelos), se relacionan con la pérdida de movilidad de los espermatozoides.\nSegún lo anterior, ¿cuál de las siguientes preguntas de investigación se responde con los datos de este estudio?",
+      "options": {
+        "a": "¿Qué moléculas contribuyen al movimiento de los espermatozoides?",
+        "b": "¿Qué concentración mínima de ATP se requiere para generar el movimiento de los espermatozoides?",
+        "c": "¿Qué factores influyen en el tipo de movimiento de los espermatozoides?",
+        "d": "¿Qué factores determinan la velocidad de desplazamiento de los espermatozoides?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Una pareja desea posponer durante dos años la posibilidad de tener un hijo. ¿Cuál de los siguientes métodos de control de la natalidad es el más efectivo para este propósito?",
+      "options": {
+        "a": "Un implante subcutáneo",
+        "b": "El método del ritmo",
+        "c": "Una vasectomía",
+        "d": "Un espermicida"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Algunos métodos hormonales de control de la natalidad están constituidos por una combinación de progestágenos y estrógenos. ¿Cuál es el efecto principal de este tipo de métodos?",
+      "options": {
+        "a": "Mantener los niveles hormonales como si hubiera embarazo.",
+        "b": "Eliminar los espermatozoides en las vías genitales femeninas.",
+        "c": "Bloquear la formación del tapón mucoso en el cuello uterino.",
+        "d": "Impedir el tránsito del embrión desde el oviducto hacia el útero."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "El siguiente gráfico representa la incidencia de enfermedades cardiovasculares (porcentaje de la población estudiada) en función de la ingesta de grasa (porcentaje de las calorías ingeridas) en adultos:\n\n[Gráfico — eje Y: \"Incidencia de enfermedades cardiovasculares (%)\" (0 a 45); eje X: \"Ingesta de grasa (% de las calorías)\" (10 a 60). Dos curvas crecientes: \"Baja actividad física\" (línea sólida, alcanza ≈39% a 50% de ingesta) y \"Alta actividad física\" (línea segmentada, alcanza ≈17% a 50% de ingesta); ambas parten de ≈5% cerca de 20-25% de ingesta.]\n\nDe los datos presentados, es correcto inferir que",
+      "options": {
+        "a": "la incidencia de enfermedades permanece constante en la población adulta.",
+        "b": "la actividad física es un factor de riesgo para las enfermedades cardiovasculares.",
+        "c": "un aumento de la actividad física no incide en la aparición de enfermedades cardiovasculares.",
+        "d": "existe una relación directamente proporcional entre la ingesta de grasa y la incidencia de enfermedades cardiovasculares.",
+        "e": "el ejercicio físico disminuye el efecto del consumo de grasa sobre la incidencia de enfermedades cardiovasculares."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "En un experimento se utilizaron dos grupos de diez ratas cada uno. A uno de los grupos se le administró una dieta proteica que carece de un aminoácido esencial (no puede ser sintetizado por el organismo). Al otro grupo se le administró una dieta proteica completa. Después del mismo período de tiempo, se midió la concentración de proteínas plasmáticas de las ratas de ambos grupos. Al respecto, ¿cuál de las siguientes opciones corresponde a la variable independiente en este experimento?",
+      "options": {
+        "a": "La cantidad de ratas en ambos grupos",
+        "b": "El tipo de dieta administrada a las ratas",
+        "c": "El tiempo de administración de la dieta a las ratas",
+        "d": "La concentración de proteínas plasmáticas de las ratas"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Con respecto a la mitosis es correcto afirmar que",
+      "options": {
+        "a": "al comenzar el proceso se duplica el material genético.",
+        "b": "es el mecanismo mediante el cual se logra variabilidad genética.",
+        "c": "al inicio de esta, cada cromosoma está compuesto por dos cromátidas hermanas.",
+        "d": "las dos células resultantes tienen la mitad de cromosomas que la célula original.",
+        "e": "los cromosomas se desplazan adheridos a filamentos de actina."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "El restablecimiento de la dotación cromosómica en la especie humana se realiza",
+      "options": {
+        "a": "en la fecundación.",
+        "b": "en la primera división celular del cigoto.",
+        "c": "en la segunda división celular del cigoto.",
+        "d": "durante la profase I.",
+        "e": "durante la anafase II."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "La pérdida parcial del hígado promueve que algunas células hepáticas en reposo proliferativo entren en mitosis, contribuyendo a la regeneración de este órgano. En una investigación, a animales se les removió experimentalmente el lóbulo izquierdo del hígado (lobectomía) y luego se evaluaron los posibles cambios en este órgano, a intervalos de 10 días. Considerando estos antecedentes, ¿cuál de las siguientes opciones es un resultado potencial para esta investigación?",
+      "options": {
+        "a": "Al final del estudio, la masa del hígado estaría disminuida, producto de la lobectomía.",
+        "b": "Habría un incremento progresivo del tamaño del hígado tras la lobectomía.",
+        "c": "Se iniciaría la muerte celular en el lóbulo izquierdo, propagándose luego a los otros lóbulos.",
+        "d": "Al final del estudio, la función hepática estaría disminuida en un 50 % en comparación al estado inicial."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "En la mitosis pueden ocurrir dificultades durante la migración de los cromosomas en anafase. En un estudio, se han identificado puentes cromosómicos (unión persistente de cromátidas hermanas) y se piensa que durante la anafase los puentes finalmente se rompen, generando cromosomas anormales en las dos células hijas, impidiendo su diferenciación. Así, las células forman tejidos vinculados al cáncer. El gráfico siguiente muestra el porcentaje de puentes cromosómicos observados en tres tipos de cultivos diferentes (P, Q y M) durante tres momentos del ciclo celular:\n\n[Gráfico de barras — eje Y: \"Porcentaje de puentes\" (0 a 50); eje X: \"Etapa del ciclo celular\" (Anafase, Telofase, G1 temprana). Series P (barra blanca), Q (barra gris), M (barra negra). Anafase: P≈18, Q≈28, M≈44. Telofase: P≈11, Q≈21, M≈33. G1 temprana: P≈28, Q≈28, M≈36.]\n\nDe acuerdo con los antecedentes, ¿cuál pudo ser la pregunta de investigación que guió este estudio?",
+      "options": {
+        "a": "¿Cuál es el origen de los puentes cromosómicos?",
+        "b": "¿Pueden los puentes cromosómicos originar cáncer en tejidos humanos?",
+        "c": "¿Cuánto persisten los puentes cromosómicos en las células que los presentan?",
+        "d": "¿Qué tipo de cultivo celular se ve favorecido con la presencia de puentes cromosómicos?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Si una especie X limita el acceso a cierto recurso a la especie Y, ocurrirá",
+      "options": {
+        "a": "mutualismo.",
+        "b": "competencia.",
+        "c": "depredación.",
+        "d": "comensalismo.",
+        "e": "protocooperación."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "En un estudio se comparó la fauna asociada a tres tipos de cultivos diferentes. Los datos se muestran en la siguiente tabla:\n\n| Grupo taxonómico | Cultivo X | Cultivo Y | Cultivo Z | Categoría funcional |\n|---|---|---|---|---|\n| Formicidae | 505 | 25 | 0 | Depredadores |\n| Carabidae | 6 | 1 | 1 | Depredadores |\n| Coccinellidae | 1 | 1 | 1 | Depredadores |\n| Curculionidae | 1 | 0 | 1 | Fitófagos |\n| Staphylinidae | 3 | 7 | 3 | Depredadores |\n| Forficulidae | 2 | 1 | 1 | Detritívoros |\n| Blattidae | 16 | 2 | 0 | Detritívoros |\n| Lumbricidae | 48 | 45 | 2 | Detritívoros |\n| Hylidae | 1 | 0 | 0 | Depredadores |\n| Gastropoda | 429 | 536 | 308 | Fitófagos |\n| Riqueza | 10 | 8 | 7 | |\n| Abundancia | 1012 | 618 | 317 | |\n\nSi se quiere comparar estos cultivos mediante la construcción de pirámides ecológicas de número, ¿cuál de las siguientes opciones corresponde a un procedimiento correcto?",
+      "options": {
+        "a": "Deben agruparse las cifras de acuerdo a categoría funcional dentro de cada tipo de cultivo, con ello se podrá construir una pirámide para cada cultivo.",
+        "b": "Deben determinarse los valores de abundancia y riqueza para cada cultivo, con ello se podrá construir tres pirámides con tres niveles cada una.",
+        "c": "Deben sumarse las cifras para cada grupo de la columna grupo taxonómico, con ello se podrá construir tres pirámides para cada cultivo.",
+        "d": "Deben sumarse las cifras para cada grupo de las columnas de cultivo, con ello se podrá determinar el tamaño de los niveles tróficos."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "El gráfico representa la producción de glucosa con respecto a la variación de la concentración de CO2 ambiental en un organismo vegetal.\n\n[Gráfico — eje Y: \"Producción de glucosa (u.a.)\" (0 a 80); eje X: \"Concentración de CO2 ambiental (u.a.)\" (150, 250, 350, 450, 550, 650). Puntos: (150,20), (250,40), (350,60), (450,80), (550,≈79), (650,≈79); la curva crece linealmente hasta 450 y luego se mantiene estable (plateau).]\n\nRespecto al análisis del gráfico, ¿cuál de las siguientes aseveraciones es correcta?",
+      "options": {
+        "a": "El incremento de la concentración de CO2 es inversamente proporcional al aumento de la producción de glucosa en todo el rango medido.",
+        "b": "El incremento de la producción de glucosa es directamente proporcional al aumento de la concentración de CO2 hasta los 450 u.a.",
+        "c": "La concentración de CO2 depende de la producción de glucosa en esta planta.",
+        "d": "La producción de glucosa en esta planta depende de la concentración de CO2 en todo el rango medido."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "El siguiente esquema presenta un experimento donde una planta acuática fue puesta en un vaso de precipitados, cubierta con un embudo y un tubo invertido. En el caso 1 el agua utilizada está a temperatura ambiente sin otro tratamiento. En el caso 2 el agua fue previamente hervida para eliminar los gases que contenía y luego enfriada a temperatura ambiente. Ambos sistemas fueron expuestos a la luz solar.\n\n[Esquema: dos montajes (Caso 1 y Caso 2). En cada uno, una planta acuática está cubierta por un embudo invertido dentro de un vaso con agua, y sobre el embudo hay un tubo de ensayo invertido lleno de agua; ambos expuestos a luz solar (sol). En el Caso 1 se observan burbujas de gas acumulándose en el tubo tras la exposición a la luz; en el Caso 2 no se observan burbujas.]\n\nDe acuerdo con estos antecedentes, ¿cuál de las siguientes opciones corresponde a la variable dependiente en este experimento?",
+      "options": {
+        "a": "La temperatura ambiental",
+        "b": "El dióxido de carbono producido",
+        "c": "El oxígeno producido",
+        "d": "La exposición al Sol"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Se extrajeron ejemplares de una misma especie de planta desde distintos sitios, exponiéndolos a las siguientes condiciones de laboratorio:\n\n| Control | Tratamiento |\n|---|---|\n| Se mantiene la disponibilidad de agua del sitio original de cada ejemplar | Se aumenta la disponibilidad de agua con respecto al sitio original de cada ejemplar |\n\nEl gráfico representa la longitud promedio de las hojas en relación con la exposición de ambos ejemplares a estas condiciones.\n\n[Gráfico de barras — eje Y: \"Longitud promedio de las hojas (u.a.)\"; eje X: \"Grupos\" (Control, Tratamiento). Series Planta 1 (negro) y Planta 2 (gris). En Control: Planta 1 ≈ Planta 2, ambas bajas y similares. En Tratamiento: Planta 1 sube moderadamente, Planta 2 sube más, superando a Planta 1.]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es coherente con los resultados obtenidos?",
+      "options": {
+        "a": "La cantidad de agua disponible influye en el tamaño de las hojas, en ambos ejemplares.",
+        "b": "La cantidad de agua disponible varía de acuerdo a la longitud de las hojas, en ambos ejemplares.",
+        "c": "La especie presenta diferentes tamaños de hojas según el sitio que habita originalmente cada ejemplar.",
+        "d": "El promedio de la longitud de las hojas de ambos ejemplares depende del material genético de la especie."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "Una onda periódica cuya frecuencia es 25 Hz, se propaga en un medio material completando 20 oscilaciones en una distancia de 8 m. ¿Cuál es la rapidez de propagación de la onda?",
+      "options": {
+        "a": "500 m/s",
+        "b": "200 m/s",
+        "c": "160/25 m/s",
+        "d": "10 m/s",
+        "e": "125/2 m/s"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Un estudiante quiere determinar si la intensidad del sonido decrece con la distancia. Para ello, instala un generador de sonido de frecuencia f y tres sensores que miden su intensidad, ubicados a 1 m, 2 m y 3 m del generador. En función del objetivo planteado, ¿cuál de las siguientes opciones presenta correctamente las variables del experimento? (columnas: Variable independiente | Variable dependiente)",
+      "options": {
+        "a": "Frecuencia del sonido | Intensidad del sonido",
+        "b": "Intensidad del sonido | Frecuencia del sonido",
+        "c": "Intensidad del sonido | Ubicación de los sensores",
+        "d": "Ubicación de los sensores | Frecuencia del sonido",
+        "e": "Ubicación de los sensores | Intensidad del sonido"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "En una investigación acerca de las ondas sísmicas P y S, se simularon este tipo de ondas mediante una fuente generadora. En el experimento se ubicaron sismógrafos en distintos puntos de diferentes medios, para luego analizar los sismogramas obtenidos. A partir de estos registros, se estableció que las ondas P se detectaron en todos los sismógrafos, en cambio las ondas S se detectaron solo en algunos de ellos. Al respecto, ¿cuál de las siguientes preguntas es posible contestar a partir de la información entregada?",
+      "options": {
+        "a": "¿En cuáles medios se pueden propagar las ondas P y S?",
+        "b": "¿En cuál medio la onda P se propaga con la mayor rapidez?",
+        "c": "¿En cuál medio la onda S se propaga con la mayor intensidad?",
+        "d": "¿En cuáles medios las ondas P y S se pueden propagar con la misma amplitud?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "¿Cuál de los siguientes fenómenos está relacionado con la posible ruptura de un objeto, al ser sometido a una frecuencia similar a su frecuencia natural de oscilación?",
+      "options": {
+        "a": "Difracción",
+        "b": "Refracción",
+        "c": "Dispersión",
+        "d": "Resonancia",
+        "e": "Efecto Doppler"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Al estudiar la relación entre la frecuencia f, la longitud de onda λ y la energía E de algunos fotones, se obtuvieron los datos presentados en la siguiente tabla:\n\n| f (Hz) | λ (m) | E (J) |\n|---|---|---|\n| 3,00×10¹⁹ | 1,0×10⁻¹¹ | 2,00×10⁻¹² |\n| 1,50×10¹⁵ | 2,0×10⁻⁷ | 9,93×10⁻¹⁹ |\n| 3,84×10¹⁴ | 7,8×10⁻⁷ | 2,55×10⁻¹⁹ |\n| 3,00×10⁸ | 1,0×10⁻² | 2,00×10⁻²⁰ |\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta a partir de los datos proporcionados?",
+      "options": {
+        "a": "A medida que disminuye f, disminuye λ y aumenta E.",
+        "b": "A medida que aumenta f, disminuye λ y aumenta E.",
+        "c": "A medida que aumenta f, disminuyen λ y E.",
+        "d": "A medida que disminuye f, aumentan λ y E."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Un radar basa su funcionamiento en la emisión y recepción de ondas electromagnéticas. De acuerdo con esta información, si se construyera un dispositivo similar al radar, pero reemplazando las ondas electromagnéticas por ondas sonoras, ¿a cuál de los siguientes dispositivos se ajusta mejor este funcionamiento?",
+      "options": {
+        "a": "A la radioemisora",
+        "b": "Al micrófono",
+        "c": "Al ecógrafo",
+        "d": "Al parlante"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Una persona está estudiando el tiempo que demora en caer un objeto al ser soltado desde diferentes alturas, en un mismo lugar, registrando datos experimentales y teóricos en la siguiente tabla:\n\n| Altura (m) | Tiempo experimental (s) | Tiempo teórico (s) |\n|---|---|---|\n| 3,0 | 0,8 | 0,7 |\n| 4,0 | 0,9 | 0,8 |\n| 5,0 | 1,2 | 1,0 |\n| 6,0 | 1,4 | 1,1 |\n\nBasándose en lo anterior, ¿a qué se deben estas diferencias entre el tiempo teórico y el experimental?",
+      "options": {
+        "a": "A la magnitud de la aceleración de gravedad sobre el objeto.",
+        "b": "A la fuerza de roce que actúa sobre el objeto mientras cae.",
+        "c": "A la magnitud de la velocidad que alcanza el objeto.",
+        "d": "A la fuerza peso sobre el objeto mientras cae."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "Una roca de 12 kg es puesta sobre una báscula de baño, luego es colgada de un dinamómetro. La respectiva medida que marca cada uno es 12 kg y 120 N. Considerando que la aceleración de gravedad en la superficie de la Luna es 1/6 de la aceleración de gravedad en la superficie de la Tierra, ¿cuál sería la medida que marcaría exactamente la misma báscula de baño y el mismo dinamómetro, si se realizara el mismo procedimiento en la Luna? (columnas: Báscula de baño | Dinamómetro)",
+      "options": {
+        "a": "12 kg | 120 N",
+        "b": "2 kg | 120 N",
+        "c": "12 kg | 20 N",
+        "d": "2 kg | 20 N"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": true
+    },
+    {
+      "numero": 27,
+      "content": "Un grupo de estudiantes piensa que los resortes ejercen mayor fuerza mientras más estirados se encuentren. Para verificarlo, planifican colgar de diferentes resortes el mismo objeto de masa m conocida, como se representa en la figura, y luego medir la longitud del resorte antes y después de colgar el objeto, con una regla graduada en milímetros.\n\n[Figura: cuatro resortes de distinto grosor/forma colgados de una barra horizontal, cada uno con un objeto de masa m colgando.]\n\nLos estudiantes muestran la planificación a un profesor, quien les señala que no es adecuada para la verificación que desean realizar. Al respecto, ¿cuál de los siguientes aspectos de su planificación deben cambiar los estudiantes para que al realizar la actividad se logre adecuadamente el objetivo?",
+      "options": {
+        "a": "Las variables del procedimiento: de un mismo resorte colgar objetos de masa distinta y medir cuánto varía su longitud.",
+        "b": "Los instrumentos de medida: utilizar una regla graduada en una unidad de medida diferente para medir el estiramiento.",
+        "c": "Los instrumentos de medida: utilizar un instrumento que les permita medir la fuerza que ejercen los resortes en cada caso.",
+        "d": "Las variables del procedimiento: colgar en cada uno de los diferentes resortes el mismo objeto de masa m y medir la longitud final."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Una persona lanza dos objetos con la misma velocidad inicial, desde una misma altura y hacia abajo, midiendo el tiempo que demoran en llegar al suelo, en un lugar en donde la aceleración de gravedad es constante. Si estos objetos tienen distinta masa, pero los mismos volúmenes y formas, ¿cuál es el parámetro que la persona decidió modificar durante el experimento realizado?",
+      "options": {
+        "a": "El peso de los objetos",
+        "b": "La aceleración de los objetos",
+        "c": "La posición inicial de los objetos",
+        "d": "El tiempo de movimiento de los objetos"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un recipiente contiene 100 g de agua. Considerando que el calor específico del agua es 1 cal/(g·°C) y que no experimenta cambios de fase, ¿cuál de las siguientes afirmaciones es correcta para dicha masa de agua?",
+      "options": {
+        "a": "Al ceder 1 caloría su temperatura disminuye en 100 °C.",
+        "b": "Al absorber 100 calorías su temperatura aumenta en 1 °C.",
+        "c": "Al absorber 10 calorías su temperatura disminuye en 10 °C.",
+        "d": "Al absorber 100 calorías su temperatura aumenta en 100 °C."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Si dos cuerpos que están a diferente temperatura se ponen en contacto térmico entre sí, ¿cuál de las siguientes informaciones se puede determinar conociendo únicamente la temperatura inicial de cada cuerpo?",
+      "options": {
+        "a": "La cantidad de energía térmica que posee cada uno de los cuerpos.",
+        "b": "El sentido en que ocurre la transferencia de calor entre los cuerpos.",
+        "c": "El tipo de mecanismo de transferencia de calor entre los cuerpos.",
+        "d": "La cantidad de calor que se transfiere entre los cuerpos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "Un termómetro de 80 cm de longitud está graduado en una escala afín de temperaturas definida en °S. La distancia entre la marca de –20 °S y la marca que corresponde a 100 °S es 60 cm, como se representa en la siguiente figura:\n\n[Figura: termómetro horizontal de 80 cm de longitud total; la marca -20°S y la marca 100°S están separadas por 60 cm.]\n\nAl respecto, ¿qué distancia debe haber entre la marca que indica –20 °S y la marca que debe indicar 10 °S?",
+      "options": {
+        "a": "6 cm",
+        "b": "8 cm",
+        "c": "15 cm",
+        "d": "20 cm"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Considere un modelo simplificado de una cordillera en un límite convergente, en donde la altura H es directamente proporcional a la rapidez de convergencia V de las placas tectónicas, generándose alzamiento; e inversamente proporcional a la erosión fluvial F, producida por los ríos que degradan la cordillera. La erosión fluvial aumenta con las precipitaciones P, y disminuye en función de la resistencia de las rocas R. ¿Cuál de las siguientes relaciones de proporcionalidad es siempre correcta a partir de la información entregada?",
+      "options": {
+        "a": "A mayor rapidez de convergencia V, mayor será la erosión fluvial F.",
+        "b": "A menor resistencia de las rocas R, mayor será la rapidez de convergencia V.",
+        "c": "A mayor cantidad de precipitaciones P, menor será la rapidez de convergencia V.",
+        "d": "Si se mantienen constantes las precipitaciones, a mayor resistencia de las rocas R, mayor será la altura H.",
+        "e": "Si se mantiene constante la resistencia de las rocas R, a mayor cantidad de precipitaciones P, mayor será la altura H."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 33,
+      "content": "Una estudiante escuchó decir a su profesor de Física que una taza con agua fría aumenta más rápidamente su temperatura cuanto menor sea su temperatura inicial. Dudando de la veracidad de esta afirmación decide realizar un experimento para verificarla, procediendo del siguiente modo: introduce en el refrigerador dos tazas del mismo material y tamaño, con igual cantidad de agua. Después de un tiempo, retira una de las tazas, mide su temperatura inicial y el tiempo que tarda en alcanzar la temperatura ambiente. Posteriormente, retira la segunda taza, mide su temperatura inicial, que resulta menor que la de la otra taza y también mide el tiempo que tarda en alcanzar la temperatura ambiente.\nEn relación con lo anterior, ¿cuál de las siguientes opciones presenta una acción que hace más confiable el procedimiento?",
+      "options": {
+        "a": "Emplear el congelador en vez del refrigerador.",
+        "b": "Retirar al mismo tiempo ambas tazas del refrigerador.",
+        "c": "Utilizar varios recipientes con aislación térmica en vez de tazas.",
+        "d": "Medir varias veces la temperatura de las tazas mientras esta aumenta."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Con el objeto de verificar la ley de Ohm, en el circuito de la figura se utilizan dos instrumentos eléctricos P y Q.\n\n[Figura: circuito eléctrico con una resistencia R; el instrumento P está conectado en paralelo a R; el instrumento Q está conectado en serie con la batería (terminales + y −).]\n\n¿En qué unidades quedan expresadas las medidas que marcan los instrumentos P y Q?",
+      "options": {
+        "a": "P en ampere y Q en ohm",
+        "b": "P en volt y Q en ohm",
+        "c": "P en ampere y Q en volt",
+        "d": "P en volt y Q en ampere",
+        "e": "P en ohm y Q en ampere"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "Una persona pretende establecer el tiempo mínimo que se requiere frotar un globo para que este quede adherido al cielo de una habitación debido a la electrización que experimenta. Para ello, frota un globo con su cabello para luego ponerlo en contacto con el cielo de yeso de la habitación y repite esto para distintas duraciones del frotamiento. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Duración del frotamiento en segundos | Registro |\n|---|---|\n| 2 | Se cae del cielo |\n| 5 | Se cae del cielo |\n| 6 | Se mantiene en el cielo |\n| 9 | Se cae del cielo |\n| 11 | Se cae del cielo |\n| 13 | Se mantiene en el cielo |\n| 16 | Se mantiene en el cielo |\n| 20 | Se mantiene en el cielo |\n\nAl respecto, ¿cuál de las siguientes opciones asociadas al experimento es una inferencia correcta basándose en la información proporcionada?",
+      "options": {
+        "a": "Si el globo se frota más de 16 s, es probable que se mantenga adherido al cielo de madera de una habitación por más tiempo que en el cielo de yeso.",
+        "b": "Si el globo se frota más de 20 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 16 s.",
+        "c": "Si el globo se frota menos de 8 s, es probable que se caiga en lugar de mantenerse adherido al cielo de yeso de la habitación.",
+        "d": "Si el globo se frota 6 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 13 s."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Dos personas conectan el mismo aparato de medición Z en tres configuraciones de circuitos eléctricos, L, M y N, en las que se emplean dos ampolletas X conectadas a una batería. A continuación, se presentan las tres configuraciones realizadas con el aparato Z:\n\n[Figura: tres circuitos eléctricos, Circuito L, Circuito M y Circuito N, cada uno con dos ampolletas X, un aparato de medición Z y una batería, conectados en distintas configuraciones entre sí.]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es una hipótesis coherente con lo realizado por las personas?",
+      "options": {
+        "a": "La lectura de Z varía si se cambia el tipo de ampolletas utilizadas en el circuito.",
+        "b": "La lectura de Z varía si se cambia la manera en que se conecta en el circuito.",
+        "c": "La lectura de Z varía si se cambia la cantidad de ampolletas en el circuito.",
+        "d": "La lectura de Z varía si se cambia el tipo de batería de los circuitos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "En la vida diaria hay muchos hechos que se pueden clasificar en químicos o físicos. Al respecto, ¿cuál de los siguientes procesos corresponde a un cambio físico?",
+      "options": {
+        "a": "La oxidación de una reja metálica",
+        "b": "La evaporación de acetona",
+        "c": "La fermentación de una manzana",
+        "d": "La combustión de una hoja de papel"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Dada la siguiente simbología de un elemento químico:\n\n³⁰₁₆X\n\n¿Cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "X tiene 16 neutrones y 14 protones.",
+        "b": "X tiene 30 electrones y 14 protones.",
+        "c": "X tiene 30 neutrones y 16 electrones.",
+        "d": "X tiene 16 protones y 14 neutrones."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "En una empresa dedicada al desarrollo de nuevos materiales, un funcionario estudió una propiedad física realizando mediciones de densidad para metales del mismo grupo del sistema periódico y compuestos derivados de estos. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Metal/compuesto | Densidad (g/cm³) |\n|---|---|\n| Li | 0,53 |\n| Na | 0,97 |\n| Rb | 1,53 |\n| Li₂O | 2,01 |\n| Na₂O | 2,27 |\n| Rb₂O | 4,00 |\n| LiCl | 2,07 |\n| NaCl | 2,16 |\n| RbCl | 2,80 |\n\nDe acuerdo con lo anterior, ¿cuál de las siguientes opciones describe de mejor manera el propósito de esta investigación?",
+      "options": {
+        "a": "Determinar la densidad del oxígeno y cloro a partir de la diferencia de densidades entre el compuesto y el metal.",
+        "b": "Evaluar la relación entre la densidad de un elemento y la densidad de los compuestos que forma.",
+        "c": "Evaluar de manera sistemática las variaciones en las propiedades físicas de los elementos dentro de un grupo del sistema periódico.",
+        "d": "Determinar la relación entre la densidad de los compuestos y su estado físico."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Un grupo de estudiantes realiza un experimento en el cual diferentes sustancias, que presentan en su estructura enlaces iónicos y covalentes, son sometidas a distintas pruebas para identificar sus características y propiedades. A partir de la actividad se determinó que las sustancias que tienen enlace covalente y son solubles en agua no conducen la electricidad, pero las que poseen enlace iónico sí lo hacen. Con respecto a lo comprobado, ¿cuál de las siguientes opciones corresponde a una pregunta para seguir con la investigación?",
+      "options": {
+        "a": "¿Cuál es la diferencia entre una sustancia que presenta enlace iónico y una que presenta enlace covalente?",
+        "b": "¿Qué tipo de enlace presentan las sustancias que conducen la corriente eléctrica y las que no lo hacen?",
+        "c": "¿Qué sucede con una sustancia cuando se disuelve en agua?",
+        "d": "¿Por qué las sustancias con enlace iónico conducen la corriente eléctrica al disolverse y las con enlace covalente no?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "De los siguientes compuestos clorados, ¿cuál de ellos presenta el enlace con mayor carácter iónico?",
+      "options": {
+        "a": "LiCl",
+        "b": "KCl",
+        "c": "CaCl2",
+        "d": "MgCl2",
+        "e": "AlCl3"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "A un estudiante, en el laboratorio de química, se le entrega una muestra que contiene una solución de cuatro compuestos orgánicos, miscibles entre sí. Además, como dato anexo se le entregan las temperaturas de ebullición de los compuestos orgánicos. Estos datos se presentan en la siguiente tabla:\n\n| Compuesto | Temperatura de ebullición a 1 atm (°C) |\n|---|---|\n| 1 | 64 |\n| 2 | 82 |\n| 3 | 56 |\n| 4 | 78 |\n\nComo tarea se le solicita que separe los cuatro componentes de la mezcla. Para ello, implementa un método de separación por temperatura, recogiendo cada fracción de compuesto orgánico en un vaso de precipitados. Una vez terminado el experimento, ¿cuál de las siguientes opciones señala correctamente el orden en que los compuestos fueron separados de la mezcla? (columnas: 1° lugar | 2° lugar | 3° lugar | 4° lugar)",
+      "options": {
+        "a": "Compuesto 1 | Compuesto 2 | Compuesto 4 | Compuesto 3",
+        "b": "Compuesto 1 | Compuesto 3 | Compuesto 4 | Compuesto 2",
+        "c": "Compuesto 3 | Compuesto 1 | Compuesto 4 | Compuesto 2",
+        "d": "Compuesto 3 | Compuesto 1 | Compuesto 2 | Compuesto 4"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "Un estudiante, visitando un bosque de pinos, se interesó por investigar si existe una relación entre el aroma a pino que se percibe y las diferentes especies de pino. Al respecto, ¿cuál de las siguientes opciones es una variable que debe analizar el estudiante para obtener conclusiones respecto de su investigación?",
+      "options": {
+        "a": "La cantidad de extractos generados por cada especie de pino del bosque.",
+        "b": "La forma de cada especie de pino del bosque.",
+        "c": "La cantidad de pinos de cada especie en el bosque.",
+        "d": "La distancia entre los distintos tipos de pinos que existen en el bosque."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "En un laboratorio de investigación se está evaluando la capacidad antifúngica de tres compuestos orgánicos (X, Y y Z) contra un tipo de hongo patógeno. El tratamiento se realiza durante 7 días, utilizando la misma concentración de cada compuesto. Los datos obtenidos se presentan a continuación:\n\n[Gráfico — eje Y: \"Diámetro del hongo patógeno (cm)\" (2,0 a 6,5); eje X: \"Tiempo (días)\" (1 a 7). Cuatro series: Control (cuadrado negro, sube de 3,0 a 6,0), X (rombo, sube de 3,0 a 5,0), Z (triángulo, sube de 3,0 a 4,5), Y (cuadrado gris, sube de 3,0 a 3,5 y se estabiliza).]\n\nSabiendo que el procedimiento experimental se llevó a cabo correctamente, ¿cuál de las siguientes opciones presenta la pregunta de investigación que pudo dar origen al estudio realizado?",
+      "options": {
+        "a": "¿Cuál es la mínima concentración a la cual los compuestos orgánicos inhiben el crecimiento del hongo patógeno?",
+        "b": "¿Cuál es el mecanismo de acción por el cual los compuestos inhiben el crecimiento del hongo patógeno?",
+        "c": "¿Qué compuesto orgánico presenta la mayor actividad sobre el hongo patógeno?",
+        "d": "¿Qué determina que un compuesto orgánico tenga una acción antifúngica?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "La fórmula molecular para el radical butil o butilo es",
+      "options": {
+        "a": "C4H10",
+        "b": "C4H9",
+        "c": "C4H8",
+        "d": "C4H7",
+        "e": "C4H6"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "En un recipiente cerrado se tienen 56 g de gas nitrógeno (N2). Al abrirlo se pierden 6,02 x 10²³ moléculas. ¿Qué cantidad de nitrógeno queda?",
+      "options": {
+        "a": "0,1 mol",
+        "b": "0,2 mol",
+        "c": "0,5 mol",
+        "d": "1,0 mol",
+        "e": "2,0 mol"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "Un grupo de estudiantes desea determinar la relación entre la masa (g) de carbonato de calcio (CaCO3) y el volumen (L) de dióxido de carbono (CO2) desprendido en la reacción de descomposición térmica del carbonato de calcio. La reacción química del proceso es:\n\nCaCO3 (s) →(Δ) CO2 (g) + CaO (s)\n\nCon este propósito, bajo las mismas condiciones de reacción, calientan distintas masas de carbonato de calcio y recogen el volumen de dióxido de carbono desprendido.\nEn relación con el experimento anterior, ¿cuál de las siguientes opciones señala correctamente la variable independiente y la variable dependiente? (columnas: Variable independiente | Variable dependiente)",
+      "options": {
+        "a": "Temperatura ambiente | Masa de CaCO3",
+        "b": "Masa de CaCO3 | Temperatura ambiente",
+        "c": "Volumen de CO2 | Masa de CaCO3",
+        "d": "Masa de CaCO3 | Volumen de CO2"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Una agricultora necesita comprar un fertilizante para 25 m² de un sembradío. Para ello, le ofrecen NH4NO3 y Ca(NO3)2 al mismo valor por cada mol de compuesto, los cuales poseen una masa molar de 80 g/mol y 164 g/mol, respectivamente, y le recomiendan utilizar 50 g por cada m². Al respecto, ¿cuál de los fertilizantes debería elegir la agricultora para abaratar sus costos?",
+      "options": {
+        "a": "Debería elegir Ca(NO3)2, ya que posee mayor masa por unidad de mol.",
+        "b": "Debería elegir Ca(NO3)2, ya que la masa a utilizar por m² es menor.",
+        "c": "Debería elegir NH4NO3, ya que posee mayor masa por unidad de mol.",
+        "d": "Debería elegir cualquiera de los compuestos, ya que el valor por cada mol varía según el m²."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "La siguiente ecuación no equilibrada representa la reacción del óxido de arsénico (III) (As4O6) con hidróxido de sodio (NaOH):\n\nAs4O6 (s) + NaOH (ac) → Na3AsO3 (ac) + H2O (l)\n\n¿Qué masa de As4O6 (masa molar = 396 g/mol) se necesita para formar 96,0 g de Na3AsO3 (masa molar = 192 g/mol)?",
+      "options": {
+        "a": "24,0 g",
+        "b": "25,5 g",
+        "c": "49,5 g",
+        "d": "198,0 g",
+        "e": "204,0 g"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "En el contexto de una investigación se planteó la pregunta acerca de cuántos compuestos diferentes se pueden llegar a formar a partir de la combinación de dos elementos, hasta ese momento desconocidos, denominados M y R. Para intentar dar respuesta a la pregunta planteada se propuso el siguiente procedimiento: Propiciar la reacción de masas conocidas de los elementos M y R, siempre en la misma proporción, y luego, medir la cantidad de producto obtenido.\nLuego de obtenidos los resultados, los investigadores propusieron mejoras en el procedimiento. En relación con lo anterior, ¿cuál de las siguientes opciones indica una propuesta pertinente que contribuye a mejorar directamente el procedimiento para dar respuesta a la pregunta planteada?",
+      "options": {
+        "a": "Efectuar la reacción de los elementos en proporciones variables y masas conocidas y estudiar la naturaleza de los productos obtenidos.",
+        "b": "Aumentar el volumen de los reactantes para incrementar la cantidad de producto y así disminuir los errores en las mediciones.",
+        "c": "Agregar un tercer elemento a la reacción, de tal manera que compita con uno de los reactantes.",
+        "d": "Agregar un catalizador de forma que la reacción ocurra con mayor rapidez."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "El acero es un material que puede clasificarse como una solución química, formada principalmente por hierro y carbono. En la zona costera de Chile, se identifica que el acero sufre alteraciones debido a procesos corrosivos provocados por otras soluciones. Una de ellas, el agua de mar. Un estudiante decide investigar el efecto del uso de dos pinturas anticorrosivas R y Q, evaluando su efecto, según criterios de clasificación sobre clavos de acero expuestos a ciertas condiciones de la zona costera. En relación con lo anterior, ¿cuál de las siguientes opciones representa un procedimiento adecuado para que el estudiante realice su investigación?",
+      "options": {
+        "a": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "b": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar a los clavos pintados y agua destilada al clavo usado como control, describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "c": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero pintarlo con las dos pinturas. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "d": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua destilada y describir su aspecto luego de 15, 30 y 45 días de exposición."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "La tabla resume los resultados de un experimento, cuyo objetivo es estudiar aspectos de una reacción química que ocurre en solución.\n\n| Concentración inicial de reactante AgNO3 (mol/L) | Concentración inicial de reactante Cu2+ (mol/L) | Concentración final de producto Cu(NO3)2 (mol/L) |\n|---|---|---|\n| 0,1 | 0,05 | 0,015 |\n| 0,2 | 0,10 | 0,030 |\n| 0,4 | 0,20 | 0,060 |\n\n¿Cuál de las siguientes opciones describe correctamente la información científica entregada por esta tabla?",
+      "options": {
+        "a": "La relación que existe entre la concentración inicial de los reactantes con la concentración final del producto en la reacción estudiada.",
+        "b": "La relación que existe entre los volúmenes iniciales de reactantes requeridos para obtener determinadas concentraciones del producto final en la reacción estudiada.",
+        "c": "Las cantidades iniciales de los reactantes, que se necesitan para llegar a generar determinadas concentraciones del producto final en la reacción en estudio.",
+        "d": "La relación observada entre la concentración inicial de un reactante y la cantidad del producto de la reacción en estudio."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Se prepara una solución X masando 100 g de KOH y agregándolos a 1 L de agua. Por otra parte, se prepara una solución Y, masando 100 g de KOH y agregando el volumen de agua necesario para completar 1 L de solución. Entonces, a partir de lo descrito, se puede deducir que",
+      "options": {
+        "a": "la solución X tiene más soluto que la solución Y.",
+        "b": "ambas soluciones tienen la misma masa.",
+        "c": "el volumen de ambas soluciones es el mismo.",
+        "d": "ambas soluciones poseen igual concentración.",
+        "e": "la solución Y es más concentrada que la solución X."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Se preparan 1000 mL de una solución acuosa 2 mol/L de NaOH (masa molar = 40 g/mol). Al respecto, ¿cuál fue la masa del soluto utilizado?",
+      "options": {
+        "a": "80,00 g",
+        "b": "40,00 g",
+        "c": "0,80 g",
+        "d": "0,40 g",
+        "e": "0,04 g"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "En una investigación, se utilizaron dos cultivos celulares (1 y 2), caracterizados en la siguiente tabla:\n\n| Células del cultivo 1 | Células del cultivo 2 |\n|---|---|\n| Sintetizan ATP | Sintetizan ATP |\n| Producen azúcares con requerimiento de luz | Producen azúcares con requerimiento de luz |\n| Sintetizan su ADN en un compartimento subcelular | Sintetizan su ADN en el citoplasma |\n| Sintetizan proteínas | Sintetizan proteínas |\n\n¿Cuál de las siguientes opciones corresponde a una deducción correcta con respecto a las características de las células de los cultivos 1 y 2?",
+      "options": {
+        "a": "En ambos cultivos hay células eucariontes animales.",
+        "b": "En ambos cultivos hay células eucariontes vegetales.",
+        "c": "En el cultivo 1 hay células eucariontes vegetales y en el 2 células procariontes.",
+        "d": "En el cultivo 1 hay células procariontes y en el 2 células eucariontes animales."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "En un estudio, se determinó la presencia de al menos tres tipos de fosfolípidos en los lados exoplasmático y citoplasmático de la membrana de un tipo celular X. Los datos obtenidos se representan en el siguiente gráfico:\n\n[Gráfico de barras — eje Y: \"Presencia (%)\" (0 a 60); eje X: Fosfolípidos totales, Esfingomielina, Fosfatidilcolina, Fosfatidiletanolamina. Series Exoplasmático (gris oscuro) y Citoplasmático (blanco). Fosfolípidos totales: Exo≈55, Cito≈45. Esfingomielina: Exo≈30, Cito≈10. Fosfatidilcolina: Exo≈20, Cito≈15. Fosfatidiletanolamina: Exo≈5, Cito≈20.]\n\nBasándose en la evidencia presentada, ¿cuál de las siguientes opciones corresponde a una conclusión correcta acerca de la membrana de las células X?",
+      "options": {
+        "a": "Presenta una organización que responde al modelo de mosaico fluido.",
+        "b": "Presenta fosfolípidos diferentes en los lados exoplasmático y citoplasmático.",
+        "c": "Presenta una distribución asimétrica de los fosfolípidos entre ambos lados.",
+        "d": "Presenta el mismo porcentaje exoplasmático de fosfatidilcolina que de fosfatidiletanolamina."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Considerando la relación entre estructura y función celular, ¿cuál de los siguientes tipos de células podría utilizarse como un modelo apropiado para el estudio del funcionamiento de los lisosomas?",
+      "options": {
+        "a": "Glóbulos rojos",
+        "b": "Neuronas motoras",
+        "c": "Células musculares contráctiles",
+        "d": "Células pancreáticas glandulares",
+        "e": "Glóbulos blancos fagocitarios"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "En una investigación se determinó la cantidad relativa de mitocondrias, núcleos y lisosomas, presentes en dos tipos de células (1 y 2) de un mamífero, ambos sincronizados en la misma etapa del ciclo. El siguiente gráfico muestra los datos obtenidos:\n\n[Gráfico de barras — eje Y: \"Cantidad relativa (u.a.)\" (0 a 16); eje X: Mitocondrias, Núcleos, Lisosomas. Series Célula 1 (blanco punteado) y Célula 2 (gris). Mitocondrias: Célula 1≈13, Célula 2≈4. Núcleos: Célula 1≈8, Célula 2≈1,5. Lisosomas: Célula 1≈1, Célula 2≈14.]\n\nAl respecto, ¿cuál de las siguientes opciones es una deducción correcta, sustentada por la información del gráfico?",
+      "options": {
+        "a": "La célula 2 podría ser un glóbulo rojo.",
+        "b": "La célula 1 podría ser una célula muscular.",
+        "c": "Las células 1 y 2 provendrían del mismo tejido.",
+        "d": "La célula 1 tendría más desarrollado el complejo de Golgi que la 2."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "Las células musculares experimentan un proceso de diferenciación que las lleva desde mioblastos uninucleados a miofibrillas multinucleadas. Considerando lo anterior, en un estudio para producir células que regeneren tejido muscular, se contabilizó la producción de células satélite (productoras de mioblastos) en cada miofibrilla desde tres cultivos diferentes (P, Q y R), obteniendo los siguientes datos:\n\n[Gráfico de barras — eje Y: \"Número promedio de células satélite\" (0 a 25); eje X: \"Cultivos celulares\" (P, Q, R). P≈8, Q≈25, R≈14.]\n\nAl respecto, ¿cuál de las siguientes aseveraciones es coherente con los datos de la investigación presentada?",
+      "options": {
+        "a": "El cultivo Q es el que presenta un mayor número de miofibrillas.",
+        "b": "Los tres cultivos estudiados tienen el potencial de producir mioblastos.",
+        "c": "Las células satélite incrementan proporcionalmente con la cantidad de miofibrillas.",
+        "d": "Los cultivos P y R son los más adecuados para utilizarse en la terapia de regeneración."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Si a una célula eucarionte se le inyecta un marcador químico, el cual se une exclusivamente al ADN, ¿en cuál de las siguientes estructuras celulares debería verificarse la presencia de dicho marcador?",
+      "options": {
+        "a": "En la membrana plasmática",
+        "b": "En la pared celular",
+        "c": "En las mitocondrias",
+        "d": "En el retículo endoplasmático",
+        "e": "En los lisosomas"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "El siguiente gráfico representa la relación proteínas/lípidos de la membrana plasmática en cuatro tipos celulares humanos:\n\n[Gráfico de barras horizontales — eje X: \"Relación proteínas / lípidos\" (0,00 a 2,00). Categorías: Células de Schwann (vaina de mielina) = 0,23; Hepatocito = 0,85; Eritrocito = 1,10; Células HeLa = 1,50.]\n\nA partir de los antecedentes expuestos, ¿cuál de las siguientes opciones corresponde a una afirmación correcta acerca de la membrana plasmática de estas células?",
+      "options": {
+        "a": "La membrana de las células HeLa presenta la mayor cantidad de proteínas.",
+        "b": "La membrana de los eritrocitos presenta la misma cantidad de lípidos que de proteínas.",
+        "c": "La membrana de los hepatocitos presenta una mayor cantidad de colesterol que de proteínas.",
+        "d": "La vaina de mielina presenta una mayor cantidad de lípidos que de proteínas.",
+        "e": "La membrana de las células HeLa presenta más del doble de proteínas que de lípidos."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "La enfermedad Kwashiorkor es una forma de desnutrición infantil causada por una alimentación deficiente en proteínas, por ello su tratamiento es esencialmente a nivel dietético. Según lo anterior, ¿cuál de los siguientes alimentos debería incluirse en la dieta de un niño con Kwashiorkor?",
+      "options": {
+        "a": "Cereales",
+        "b": "Pescados",
+        "c": "Frutos cítricos",
+        "d": "Aceites vegetales"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 63,
+      "content": "¿Cuál de las siguientes opciones es un argumento correcto para inferir que un hombre que se ha realizado una vasectomía está imposibilitado para fecundar un óvulo de manera natural?",
+      "options": {
+        "a": "La vasectomía es un método que presenta un alto porcentaje de efectividad en la prevención de embarazos.",
+        "b": "La vasectomía es un método que cambia los patrones hormonales del sujeto, afectando la formación de espermatozoides.",
+        "c": "Como resultado de la vasectomía, los espermatozoides no forman parte del fluido eyaculado.",
+        "d": "Como resultado de la vasectomía, no se producen los fluidos provenientes de las vesículas seminales."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "En el siguiente gráfico se representa la respuesta inmunológica de dos individuos (1 y 2) frente al mismo antígeno, en función del tiempo:\n\n[Gráfico — eje Y: \"Respuesta inmunológica ante la exposición al antígeno (u.a.)\"; eje X: \"Tiempo (u.a.)\" (0,0 a 2,0). Individuo 1 (línea sólida): sube a un pico bajo (≈2,5) en t=0,5 y decae lentamente. Individuo 2 (línea segmentada): sube a un pico alto (≈9) en t=0,5 y decae hasta ≈4 en t=2,0.]\n\nA partir de los datos del gráfico, ¿cuál de las siguientes inferencias es correcta con respecto a la respuesta inmunológica de los individuos 1 y 2?",
+      "options": {
+        "a": "El individuo 1 fue vacunado previamente contra el antígeno.",
+        "b": "El individuo 1 evidenció una alteración de tipo autoinmune.",
+        "c": "El individuo 2 presentó una reacción de hipersensibilidad.",
+        "d": "El individuo 2 exhibió una respuesta mediada por anticuerpos."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 65,
+      "content": "Un grupo de investigación propone que un mamífero sometido a la acción de un agente estresor, presenta una disminución de su respuesta inmunológica. Al respecto, ¿cuál de las siguientes opciones contiene elementos que deberían ser considerados en un experimento que sea pertinente para probar lo propuesto por este grupo de investigación?",
+      "options": {
+        "a": "Un agente estresor que afecte a los humanos y a otros mamíferos, para comparar su efecto sobre la respuesta inmunológica en ambos grupos.",
+        "b": "Un grupo control con mamíferos que presenten una respuesta inmunológica deprimida y un grupo experimental con mamíferos sometidos a un agente estresor.",
+        "c": "Una variable independiente que corresponda a un agente estresor y una variable dependiente en que se mida la intensidad de la respuesta inmunológica en un grupo de mamíferos.",
+        "d": "Un par de variables controladas que correspondan al tipo de respuesta inmunológica y al tipo de agente estresor que se aplicará a un mamífero."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Durante una investigación en tejido ovárico proveniente de ratas en distintas etapas del desarrollo, se constató una disminución en el número de folículos primordiales desde la etapa prenatal hasta la vejez. Estos datos demostraron que la degeneración folicular es el proceso que ocurre con mayor frecuencia en los ovarios. A partir de lo anterior, ¿cuál de las siguientes opciones incluye las variables dependiente e independiente, respectivamente, en esta investigación?",
+      "options": {
+        "a": "Etapas del desarrollo y estado del tejido ovárico",
+        "b": "Duración del ciclo folicular y número de folículos primordiales",
+        "c": "Estado de los ovarios y grado de degeneración folicular",
+        "d": "Número de folículos primordiales y etapas del desarrollo"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Se han evidenciado vestigios de extremidades posteriores en algunas serpientes, lo que ha llevado a emparentarlas con los lagartos. De acuerdo con las ideas propuestas por Darwin con respecto a la evolución biológica, ¿cuál de las siguientes opciones podría ser una explicación del parentesco de estos dos tipos de organismos?",
+      "options": {
+        "a": "Algunos lagartos redujeron el tamaño de sus extremidades por desuso de estas, originando las serpientes actuales.",
+        "b": "Los lagartos y las serpientes actuales presentan un antepasado en común, a partir del cual derivaron ambos grupos.",
+        "c": "Algunos lagartos actuales derivan de serpientes que desarrollaron extremidades, generación tras generación.",
+        "d": "Los lagartos actuales desarrollaron paulatinamente sus extremidades, debido al esfuerzo que les generaba reptar como las serpientes."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "Si mediante un sondeo, desde el fondo de un lago se extrae una columna de sedimento (perfil) de varios metros y se identifican los tipos de polen presentes en cada nivel de la columna, ¿cuál de los siguientes parámetros se relaciona con la antigüedad de cada nivel dentro de este perfil?",
+      "options": {
+        "a": "El tamaño del polen encontrado",
+        "b": "La cantidad de polen encontrada",
+        "c": "La cantidad de sedimento encontrada",
+        "d": "La profundidad donde se encuentra el polen"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Las siguientes figuras representan las condiciones inicial y final de dos pares de cromosomas homólogos, pertenecientes a dos células germinales idénticas, una control (Figura 1) y la otra tratada con una sustancia S, inhibidora del proceso de intercambio de material genético que ocurre durante la meiosis (Figura 2):\n\n[Figura 1: Condición inicial — dos pares de cromosomas homólogos (uno blanco, uno gris), cada uno con dos cromátidas en forma de X. Condición final — se observan pequeños segmentos intercambiados (grises en el cromosoma blanco y viceversa), evidenciando entrecruzamiento.\nFigura 2: Condición inicial — dos pares de cromosomas homólogos (uno gris claro, uno negro). Condición final — a pesar de la sustancia S (que debería inhibir el intercambio), también se observan pequeños segmentos intercambiados similares a los de la Figura 1.]\n\nConsiderando estos antecedentes, ¿qué discrepancia se advierte entre la información entregada en el texto y lo comunicado en las figuras 1 y 2?",
+      "options": {
+        "a": "Ambas figuras presentan regiones cromosómicas donde ocurrió entrecruzamiento.",
+        "b": "Ambas figuras presentan cromátidas en las que se inhibió el intercambio genético.",
+        "c": "En ambas figuras, S inhibió la formación de quiasmas entre cromosomas homólogos.",
+        "d": "En ambas figuras, S inhibió la síntesis de ADN que debe ocurrir antes de la meiosis."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "En un experimento se trabajó con dos líneas celulares sincronizadas. Una de ellas expresaba normalmente una proteína X, mientras que en la otra se inactivó el gen que la codificaba. Luego, ambas líneas celulares fueron expuestas a radiación gamma (que produce daño en el ADN), observándose el efecto de esta exposición sobre la división celular, mediante la determinación de la proporción de células que se encontraban en mitosis (índice mitótico) a través del tiempo. Los datos obtenidos se muestran en el siguiente gráfico:\n\n[Gráfico — eje Y: \"Índice mitótico (%)\" (0 a 16); eje X: \"Tiempo (horas)\" (0 a 60). Serie \"Sin expresión de proteína X\" (línea sólida): 7% en t=0, cae a 0 en t=12, sube a 4% en t=24, 5% en t=36, pico 14% en t=48, baja a 10% en t=60. Serie \"Con expresión de proteína X\" (línea segmentada): 4% en t=0, cae a 0 en t=12 y permanece en 0 hasta t=48, sube levemente a 1% en t=60.]\n\nAl respecto, ¿cuál de las siguientes opciones corresponde a una conclusión sustentada en los datos obtenidos en este experimento?",
+      "options": {
+        "a": "Las células que no expresan la proteína X entran en mitosis, a pesar del daño producido por la radiación gamma.",
+        "b": "El daño producido por la radiación gamma genera la inhibición irreversible de la mitosis, en ambas líneas celulares.",
+        "c": "La radiación gamma disminuye la velocidad de la mitosis en las células que expresan la proteína X.",
+        "d": "La proteína X es necesaria para que las células dañadas con radiación gamma inicien el proceso de mitosis."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "La comparación de secuencias de ADN o proteínas ha permitido evaluar el grado de parentesco evolutivo que tienen dos especies. La tabla siguiente muestra parte de la secuencia de aminoácidos de la hemoglobina humana:\n\n| Asn | Phe | Arg | Leu | Leu | Gly | Asn | Val | Leu | Val | Cys | Val |\n\nConsiderando que las siguientes opciones corresponden a secuencias equivalentes de hemoglobinas de cuatro especies, ¿cuál de estas secuencias pertenece a la especie que se encontraría más lejanamente emparentada con los humanos?",
+      "options": {
+        "a": "Asn | Phe | Arg | Leu | Leu | Gly | Asn | Val | Leu | Val | Cys | Val",
+        "b": "Asn | Phe | Lys | Leu | Leu | Gly | Asn | Val | Leu | Val | Cys | Val",
+        "c": "Asn | Phe | Lys | Leu | Leu | Gly | Asn | Ile | Leu | Val | Ile | Cys",
+        "d": "Asn | Phe | Arg | Leu | Leu | Gly | Asn | Val | Leu | Ala | Leu | Val"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "Los paleontólogos Niles Eldredge y Stephen J. Gould postularon el equilibrio puntuado o intermitente. Este señala que una gran parte del cambio evolutivo ocurre en periodos breves, seguidos por episodios de rápida formación de nuevas especies (especiación). Al respecto, ¿cuál de los siguientes gráficos representa de manera adecuada lo postulado por estos paleontólogos?\n\n[Cuatro gráficos A, B, C y D con diagramas de ramificación tipo árbol filogenético en ejes Tiempo/Morfología (u orientación invertida). A: eje Y Tiempo, eje X Morfología, ramificaciones abruptas en forma de escalones (cambios morfológicos súbitos separados por periodos de estabilidad). B: eje Y Tiempo, eje X Morfología, curvas suaves y graduales sin escalones. C: eje Y Morfología, eje X Tiempo, ramificaciones abruptas en forma de escalones (ejes invertidos respecto de A). D: eje Y Registro fósil, eje X Morfología, curvas suaves y graduales.]",
+      "options": {
+        "a": "Gráfico con eje Y \"Tiempo\" y eje X \"Morfología\", mostrando ramificaciones en forma de escalones (cambio abrupto seguido de estabilidad).",
+        "b": "Gráfico con eje Y \"Tiempo\" y eje X \"Morfología\", mostrando curvas suaves y graduales de cambio continuo.",
+        "c": "Gráfico con eje Y \"Morfología\" y eje X \"Tiempo\", mostrando ramificaciones en forma de escalones (cambio abrupto seguido de estabilidad).",
+        "d": "Gráfico con eje Y \"Registro fósil\" y eje X \"Morfología\", mostrando curvas suaves y graduales de cambio continuo."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "El siguiente esquema representa las especies encontradas al analizar los estratos geológicos de un terreno en estudio:\n\n[Esquema: columna estratigráfica de 4 capas, de arriba hacia abajo: capa superior con símbolos circulares (Especie P), segunda capa con símbolos en forma de media luna (Especie Q), tercera capa con triángulos (Especie T), capa inferior con estrellas (Especie U) y algunos triángulos adicionales.]\n\nA partir de la información del esquema, ¿cuál de las siguientes opciones es una inferencia correcta con respecto a las especies encontradas?",
+      "options": {
+        "a": "U sería el ancestro de la especie T.",
+        "b": "Q habría derivado de la especie U.",
+        "c": "P sería la especie más reciente.",
+        "d": "T habría tenido el menor éxito evolutivo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Las siguientes figuras representan el diseño de un experimento, en el cual se fusionaron dos células en distintas etapas del ciclo celular:\n\n[Figura: Célula en etapa S (cromatina dispersa, representada como una maraña) y Célula en etapa G1 (cromatina condensada/organizada, representada con líneas paralelas), que se fusionan (Fusión celular) resultando en una célula binucleada, donde ambos núcleos muestran cromatina en etapa S (maraña), etiquetados \"Etapa S\" y \"Etapa S\".]\n\nA partir de estos antecedentes, ¿qué ocurriría inicialmente en una célula en etapa G1 al fusionarse con una célula en mitosis?",
+      "options": {
+        "a": "Se detendría el ciclo celular en G1.",
+        "b": "Se dividirían los centrómeros.",
+        "c": "Se desensamblaría el huso mitótico.",
+        "d": "Se compactaría la cromatina.",
+        "e": "Se induciría la citocinesis."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "El siguiente gráfico representa la concentración, en partes por millón (ppm), de un contaminante presente en el agua y en tres niveles de consumidores de una cadena trófica característica de un ecosistema marino:\n\n[Gráfico de barras — eje Y: \"Concentración (ppm)\" (0 a 16); eje X: Agua (0,000005), Consumidor primario (0,23), Consumidor secundario (2,07), Consumidor terciario (13,8).]\n\nConsiderando que este contaminante se bioacumula en los tejidos de los componentes de la trama trófica, ¿en qué concentración debiera encontrarse en el tejido de los productores?",
+      "options": {
+        "a": "Menos de 0,000005 ppm",
+        "b": "Más de 0,000005 y menos de 0,23 ppm",
+        "c": "Más de 0,23 y menos de 2,07 ppm",
+        "d": "Más de 2,07 y menos de 13,8 ppm"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "Se colocaron dos plantas al interior de campanas de vidrio herméticas, ambas en condiciones ambientales similares, excepto que en una de las campanas se reemplazó el CO2 del aire por nitrógeno. Después de algunos días, comparando con la planta control, ¿qué cambio se podría constatar en la planta con restricción de CO2?",
+      "options": {
+        "a": "Un incremento de la evaporación de agua",
+        "b": "Un incremento en la tasa fotosintética",
+        "c": "Una disminución de la fijación de nitrógeno",
+        "d": "Una disminución de la síntesis de azúcares"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "Un investigador necesitaba determinar el efecto del incremento de la temperatura por cambio climático, sobre el tamaño corporal de una especie de pez. Para esto, estudió un lago durante 10 años, registrando datos cada dos años. En la siguiente tabla, se señalan las condiciones de este estudio:\n\n| Año | Horas luz por día | Temperatura promedio (°C) | pH | Presencia de contaminación | Medición de tamaño corporal en la población de peces |\n|---|---|---|---|---|---|\n| 2 | 10 | 19,0 | 7,5 | No | Sí |\n| 4 | 10 | 19,5 | 7,4 | No | Sí |\n| 6 | 10 | 19,7 | 7,5 | Sí | Sí |\n| 8 | 10 | 20,0 | 7,5 | Sí | Sí |\n| 10 | 10 | 20,3 | 7,4 | Sí | Sí |\n\nAl respecto, ¿cuál de las siguientes opciones representa una fuente de error, que puede restar validez a los datos obtenidos del estudio?",
+      "options": {
+        "a": "El lago presentó distintos estados de contaminación durante el tiempo del estudio.",
+        "b": "El lago presentó distintas temperaturas en el agua durante el tiempo del estudio.",
+        "c": "Todos los años estudiados se presentaron las mismas horas de luz por día.",
+        "d": "Todos los años estudiados se registró un pH muy parecido en el agua del lago."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "En un laboratorio se buscaba evaluar el crecimiento de cinco especies de insectos en un ambiente controlado. Para esto, se pusieron grupos iniciales equivalentes de individuos de cada especie bajo las mismas condiciones ambientales, y se contabilizaron los nuevos individuos generados en el tiempo. Al respecto, considerando que los siguientes gráficos están a la misma escala, ¿cuál de ellos representa a la especie de insectos con el mayor potencial de crecimiento en este ambiente?\n\n[Cinco gráficos (A-E), todos con eje Y \"Número de individuos\" y eje X \"Tiempo\", a la misma escala.]",
+      "options": {
+        "a": "Curva exponencial creciente sin límite (crecimiento acelerado y continuo).",
+        "b": "Curva sigmoidea que crece y luego se estabiliza en una meseta (crecimiento logístico).",
+        "c": "Línea horizontal constante (sin crecimiento en el tiempo).",
+        "d": "Línea recta con pendiente positiva constante (crecimiento lineal).",
+        "e": "Curva que sube y luego desciende (crecimiento seguido de decrecimiento)."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Desde la perspectiva de un desarrollo sustentable, si se tiene como propósito mitigar los efectos del calentamiento global, ¿cuál de las siguientes acciones sería pertinente y factible de implementar en el mediano plazo (entre 1 y 5 años)?",
+      "options": {
+        "a": "Impedir la utilización de combustibles fósiles a nivel mundial.",
+        "b": "Restringir la ganadería mundial exclusivamente a ganado porcino.",
+        "c": "Aumentar la reforestación en las zonas urbanas y rurales.",
+        "d": "Detener la explotación de la madera a nivel mundial.",
+        "e": "Incentivar la migración de la población urbana hacia zonas rurales."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "En un ecosistema, los individuos de una especie de lagartijas se encuentran distribuidos de tal manera que sus áreas de ocupación del hábitat no se superponen entre sí, tal como lo representa el siguiente esquema:\n\n[Esquema: mapa del hábitat dividido en 5 territorios delimitados por líneas punteadas, cada uno con un icono de lagartija, sin superposición entre territorios.]\n\nAl respecto, ¿qué factor podría ser la causa del patrón de distribución observado?",
+      "options": {
+        "a": "La disposición de los refugios al azar en el hábitat de la especie",
+        "b": "La cooperación entre los diferentes individuos de la especie",
+        "c": "La abundancia de los recursos alimentarios de la especie",
+        "d": "La competencia entre los individuos de la especie",
+        "e": "La acción de los depredadores de la especie"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    }
+  ]
+}

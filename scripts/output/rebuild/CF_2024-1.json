@@ -1,0 +1,1241 @@
+{
+  "meta": {
+    "subject": "CF",
+    "subject_nombre": "Ciencias - Física",
+    "origen": "PAES Ciencias - Física Admision 2024-1",
+    "anio": 2024,
+    "forma": 163,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [7, 19, 29, 70, 71],
+    "fuente_pdf": "pruebas/oficiales/C-fisica-2024-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-fisica-2024-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "Un actor debe maquillarse para representar su personaje. Para esto necesita ver su imagen derecha y de mayor tamaño. ¿Qué tipo de espejo debe usar y dónde debe ubicarse?",
+      "options": {
+        "a": "Espejo convexo, ubicándose a una distancia del espejo igual al doble de su distancia focal.",
+        "b": "Espejo cóncavo o convexo, ubicándose a una distancia del espejo igual a su distancia focal.",
+        "c": "Espejo cóncavo, ubicándose a una distancia del espejo igual a su distancia focal.",
+        "d": "Espejo cóncavo, ubicándose entre el espejo y el foco del espejo.",
+        "e": "Espejo plano, ubicándose cerca del espejo."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Un rayo de luz incide desde el aire sobre la superficie del agua quieta de un estanque, formando un ángulo de 60° con la superficie del agua. ¿Cuál de las siguientes figuras representa mejor el comportamiento del rayo de luz?",
+      "options": {
+        "a": "[Diagrama de figura] Rayo incidente a 60° con la superficie, con rayo reflejado y rayo refractado dibujados según la disposición mostrada en la opción A del folleto.",
+        "b": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción B del folleto.",
+        "c": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción C del folleto.",
+        "d": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción D del folleto.",
+        "e": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción E del folleto."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Un grupo de estudiantes dispone de una fuente luminosa que apunta en una posición fija hacia una pantalla a cierta distancia. A la mitad de la distancia entre la fuente luminosa y la pantalla, prueban barreras (una a una) de las mismas dimensiones y material, pero con dos ranuras de diferentes tamaños. Luego, observan que para cada barrera el patrón de interferencia reflejado en la pantalla es distinto.\nEn relación con lo anterior, ¿cuál de las siguientes opciones corresponde a la hipótesis que guio el experimento realizado por el grupo de estudiantes?",
+      "options": {
+        "a": "Las variaciones en el patrón de interferencia dependen de la distancia a la cual se posicionan las barreras con las dos ranuras.",
+        "b": "Las variaciones en el patrón de interferencia dependen de la posición de la fuente luminosa.",
+        "c": "Las variaciones en el patrón de interferencia dependen del tamaño de las ranuras en las barreras.",
+        "d": "Las variaciones en el patrón de interferencia dependen de las características de la pantalla donde este se refleja."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Una persona hace incidir un haz de luz láser verde con un determinado ángulo sobre la superficie del agua contenida en un vaso y mide el ángulo de refracción del haz. Luego, agrega una gota de colorante rojo al agua el cual se dispersa uniformemente y mide nuevamente el ángulo de refracción. A continuación, repite esta medición agregando una gota del mismo colorante cada vez, hasta completar 10 gotas.\nAl respecto, ¿cuál de las siguientes opciones corresponde a un objetivo de investigación pertinente a este procedimiento?",
+      "options": {
+        "a": "Determinar la relación entre el ángulo de incidencia y el ángulo de refracción en el medio.",
+        "b": "Determinar la relación entre el ángulo de incidencia y la cantidad de gotas de colorante.",
+        "c": "Determinar la relación entre el ángulo de refracción y la cantidad de gotas de colorante.",
+        "d": "Determinar la relación entre el ángulo de refracción y el índice de refracción de un medio."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Uno de los dos posibles enfoques para comprender, al menos en parte, la naturaleza de la luz, sostiene que esta corresponde a una onda. Por lo tanto, su comportamiento puede ser explicado por medio de las ondas, en ciertas circunstancias. Al respecto, ¿a qué componente de la investigación científica corresponde este enfoque acerca de la naturaleza de la luz?",
+      "options": {
+        "a": "A una ley",
+        "b": "A un modelo",
+        "c": "A un diseño experimental",
+        "d": "A un problema de investigación"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Al comparar la radiación infrarroja con la ultravioleta, propagándose en un mismo medio, es correcto concluir que",
+      "options": {
+        "a": "ambas poseen distinta frecuencia pero igual longitud de onda.",
+        "b": "ambas poseen la misma frecuencia, dado que son invisibles al ojo humano.",
+        "c": "una es una onda mecánica y la otra electromagnética, porque poseen distinta frecuencia.",
+        "d": "ambas son ondas electromagnéticas, y se mueven con la misma rapidez en el vacío.",
+        "e": "ambas son ondas electromagnéticas y los fotones asociados a cada una de ellas tienen la misma energía."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "La magnitud de la fuerza elástica ejercida por un resorte ideal sobre un objeto que cuelga de él, en equilibrio, se puede determinar por medio del producto entre",
+      "options": {
+        "a": "la longitud natural del resorte y la constante elástica de este.",
+        "b": "la constante elástica del resorte y el estiramiento de este.",
+        "c": "la constante elástica del resorte y la masa del objeto.",
+        "d": "la masa del objeto y la longitud natural del resorte.",
+        "e": "la masa del objeto y el estiramiento del resorte."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 8,
+      "content": "Una caja se coloca sobre una cinta transportadora de goma que la traslada con rapidez constante, como se representa en la siguiente figura:\n[Figura: cinta transportadora inclinada, con una caja gris apoyada sobre la parte inclinada de la cinta, avanzando hacia la parte superior]\nAl respecto, ¿cuál de las siguientes fuerzas es la principal causante de que la caja se mueva con la misma rapidez que la cinta transportadora?",
+      "options": {
+        "a": "La fuerza de roce estático",
+        "b": "La fuerza de tensión",
+        "c": "La fuerza elástica",
+        "d": "La fuerza normal"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "G. Galilei planteó que el tiempo que demoran dos cuerpos en caer desde una misma altura es independiente de su masa. Para comprobarlo, alrededor del año 1590, dejó caer dos esferas de diferente masa desde lo alto de la Torre de Pisa. Este experimento ha sido repetido en diferentes épocas y condiciones, siendo uno relevante el realizado por el astronauta D. Scott en la Luna durante la misión Apolo 15 dejando caer una pluma y un martillo. En la actualidad el experimento también se realiza dentro de una cámara de vacío.\nEn relación con lo anterior, ¿cuál ha sido el propósito de realizar el experimento en diversos contextos?",
+      "options": {
+        "a": "Comparar instrumentos de medida con diferente exactitud para medir el tiempo de caída de cuerpos.",
+        "b": "Controlar variables que influyen en el tiempo de caída de cuerpos y que Galileo no pudo manipular.",
+        "c": "Cambiar la forma en que se dejan caer los cuerpos, para garantizar que se suelten simultáneamente.",
+        "d": "Disponer de lugares de mayor altura para dejar caer los cuerpos y así medir con más precisión el tiempo de caída."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Una persona observa que una gota de agua cae en dirección vertical en un día lluvioso sin viento, estimando que se mueve con velocidad constante. Si P⃗ representa el peso de la gota y F⃗_R la fuerza de roce que experimenta esta con el aire, ¿cómo debe ser la fuerza neta que actúa sobre la gota para que la estimación de la persona sea correcta?",
+      "options": {
+        "a": "Debe ser nula.",
+        "b": "Debe ser negativa.",
+        "c": "Debe ser menor a P⃗.",
+        "d": "Debe ser mayor a −F⃗_R."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "Sobre un bloque de 10 kg, que se encuentra sobre un plano horizontal, actúan solo dos fuerzas, una de 15 N hacia la derecha y una de 5 N hacia la izquierda. ¿Cuál es la magnitud de la aceleración que adquiere el bloque?",
+      "options": {
+        "a": "1 m/s²",
+        "b": "2 m/s²",
+        "c": "10 m/s²",
+        "d": "20 m/s²",
+        "e": "100 m/s²"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Una masa de agua de 300 g aumenta su temperatura de 30 °C a 80 °C. Luego, la energía que absorbió en ese proceso se la entrega a una masa de agua de 600 g a 20 °C. Si la masa de agua de 600 g absorbe toda la energía, ¿cuál es su temperatura final?",
+      "options": {
+        "a": "25 °C",
+        "b": "40 °C",
+        "c": "45 °C",
+        "d": "50 °C",
+        "e": "70 °C"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "Se quiere comprobar que el cambio de longitud ΔL de un sólido es directamente proporcional al cambio de temperatura ΔT al que se somete y a la longitud inicial de referencia L₀. Para esto se propone lo siguiente: tomar cinco varillas, todas de la misma longitud y a una misma temperatura inicial, pero cada una de un material diferente, aumentar la temperatura de las cinco varillas en 20 °C y luego medir los cambios de longitud de cada una de las barras. Para el objetivo propuesto, el experimento es",
+      "options": {
+        "a": "correcto, porque se mide ΔL para varias barras.",
+        "b": "incorrecto, porque está mal elegida la variable independiente.",
+        "c": "correcto, porque todas las varillas tienen la misma longitud inicial.",
+        "d": "incorrecto, porque con el ΔT usado no se detectarán cambios de longitud.",
+        "e": "incorrecto, porque se necesitan más de cinco varillas de materiales diferentes."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Se ha descrito que en un cierto país existe una alta actividad sísmica en comparación con otros países. Según los antecedentes, este país presenta una gran cantidad de volcanes y se encuentra cercano al límite de dos placas tectónicas que convergen, produciéndose el hundimiento de una debajo de la otra. En base a lo anterior, ¿cuál de las siguientes opciones representa una inferencia pertinente a la información presentada?",
+      "options": {
+        "a": "La alta actividad sísmica en el país ocurre por la presencia de muchos volcanes.",
+        "b": "La alta actividad sísmica en el país ocurre por un deslizamiento paralelo de una placa sobre la otra.",
+        "c": "La alta actividad sísmica en el país ocurre por una separación de las placas tectónicas.",
+        "d": "La alta actividad sísmica en el país ocurre por los efectos de la subducción de las placas."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "Analizando algunas propiedades físicas del agua, una profesora le solicita a sus estudiantes determinar si el calor específico del agua cambia al disolver café instantáneo en ella. Al respecto, ¿cuál de las siguientes opciones corresponde al procedimiento adecuado para que los estudiantes puedan cumplir con el objetivo planteado?",
+      "options": {
+        "a": "Disolver café instantáneo en agua previamente calentada y medir el tiempo que la mezcla tarda en volver a la temperatura original.",
+        "b": "Calentar agua y agua con café instantáneo disuelto en recipientes separados a una tasa constante y verificar que la evaporación sea la misma en ambos casos.",
+        "c": "Calentar agua y agua con café instantáneo disuelto en recipientes separados a una tasa constante y verificar que ambos alcancen la misma temperatura al ebullir.",
+        "d": "Poner a calentar a una tasa constante, durante un mismo tiempo, iguales cantidades de agua y agua con café instantáneo disuelto, y luego medir el aumento de temperatura en cada caso."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Una estudiante propone que la corriente eléctrica que fluye a través de una resistencia tiene una intensidad que depende del valor de la resistencia y del voltaje al que esta se encuentra sometida. Sus compañeros de curso disponen de distintas resistencias, cuyos valores son todos diferentes entre sí. Si desean determinar experimentalmente de qué manera la intensidad de la corriente eléctrica depende del voltaje, ¿cuál de las siguientes opciones es un procedimiento experimental adecuado para lograr su objetivo?",
+      "options": {
+        "a": "Medir la intensidad de corriente eléctrica de distintas resistencias sometidas a igual voltaje.",
+        "b": "Medir el voltaje de una misma resistencia con distintas intensidades de corriente eléctrica.",
+        "c": "Medir la intensidad de corriente eléctrica de una misma resistencia sometida a distintos voltajes.",
+        "d": "Medir el voltaje de distintas resistencias con una misma intensidad de corriente eléctrica."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Una reciente investigación sobre accidentes incendiarios en estaciones de autoservicio reveló que en casi todos los casos el origen de estos incendios era producto de cargas eléctricas en las personas al estar en contacto con el vapor que sale de la gasolina justo en el punto donde la pistola carga combustible al vehículo. En un 70 % de los casos las personas, luego de iniciar la carga de combustible, habían entrado y salido nuevamente del vehículo, tocando la pistola de descarga de combustible.\nEn relación a los resultados de esta investigación, ¿cuál es la causa más probable de estos incendios?",
+      "options": {
+        "a": "Las personas, previamente cargadas con la pistola, se descargan al entrar al vehículo, luego al volver a tocar la pistola ocurre una descarga que origina los incendios.",
+        "b": "Las personas, al desplazarse mientras se llena el estanque de combustible, producen carga estática producto de la fricción con el aire.",
+        "c": "Las personas, al entrar y salir del vehículo previamente cargado, adquieren carga estática por contacto.",
+        "d": "Las personas, al entrar y salir del vehículo, friccionan sus ropas con el tapiz de los asientos, cargándose eléctricamente."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "La Ley de Ohm permite determinar la intensidad de corriente que se establece en un circuito a partir del voltaje y de la forma en que están conectadas las resistencias. Si bien en el momento en que se propuso, aún no existía la corriente alterna, al día de hoy se puede establecer una analogía entre circuitos de corriente continua y la conexión domiciliaria. ¿Cuál de las siguientes opciones describe de mejor forma al análogo del circuito hogareño en el cual están enchufados un televisor, una estufa y una ampolleta?",
+      "options": {
+        "a": "Un circuito en serie con resistencias distintas",
+        "b": "Un circuito en paralelo con tres resistencias idénticas",
+        "c": "Un circuito en paralelo con tres resistencias de distinto valor",
+        "d": "Un circuito simple, con una resistencia equivalente a la de los tres artefactos"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "¿Cuál de los siguientes eventos ocurre en la profase meiótica I, pero no en la profase mitótica?",
+      "options": {
+        "a": "Desaparición del nucléolo",
+        "b": "Formación del huso acromático",
+        "c": "Desorganización de la carioteca",
+        "d": "Condensación de los cromosomas",
+        "e": "Apareamiento de los cromosomas homólogos"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 20,
+      "content": "La difusión simple y la difusión mediada por transportadores corresponden a dos tipos de transporte pasivo a través de la membrana celular. El siguiente gráfico representa la cinética de difusión simple y aquella mediada por un transportador, a medida que aumenta el gradiente de concentración del soluto transportado:\n[Gráfico: eje Y 'Velocidad de difusión (u.a.)', eje X 'Gradiente de concentración (u.a.)'; línea punteada 'Difusión simple' que crece aproximadamente lineal; línea sólida 'Mediada por transportador' que crece rápido y luego se satura (meseta)]\n¿Cuál de las siguientes aseveraciones es coherente con los datos representados en el gráfico?",
+      "options": {
+        "a": "La velocidad de la difusión simple disminuye a medida que la concentración de soluto se incrementa.",
+        "b": "La velocidad de la difusión simple exhibe un comportamiento inversamente proporcional a la concentración del soluto.",
+        "c": "La velocidad de la difusión mediada por un transportador alcanza un máximo, sugiriendo que el transportador es saturable.",
+        "d": "La velocidad de la difusión mediada por un transportador es directamente proporcional al gradiente de concentración del soluto en todo el rango medido."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "En una investigación, un grupo de científicas quería estudiar la relación entre la velocidad de transporte a través de la membrana plasmática y la concentración de una molécula conocida en células del intestino. Al realizar muchos experimentos, las científicas determinaron que la velocidad de transporte de la molécula al interior de las células aumentaba proporcionalmente hasta una determinada concentración, alcanzando una velocidad máxima de 25 u.a. Sobre ese valor de concentración la velocidad de transporte se volvía independiente de la concentración de la molécula transportada. Al respecto, ¿cuál de las siguientes opciones señala la tabla cuyos datos son coherentes con la tendencia obtenida por el grupo de científicas?",
+      "options": {
+        "a": "Velocidad de transporte (u.a.) | Concentración de la molécula (u.a.): 5|2, 10|4, 15|6, 20|8, 25|10, 30|12",
+        "b": "Velocidad de transporte (u.a.) | Concentración de la molécula (u.a.): 5|2, 10|4, 15|6, 20|8, 25|10, 25|12",
+        "c": "Velocidad de transporte (u.a.) | Concentración de la molécula (u.a.): 5|2, 10|4, 15|6, 15|8, 15|10, 15|12",
+        "d": "Velocidad de transporte (u.a.) | Concentración de la molécula (u.a.): 5|2, 10|4, 15|6, 20|8, 25|10, 25|10"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Se investigó el efecto de la concentración del ion sodio (Na⁺) extracelular en el transporte de un aminoácido y un azúcar en un cultivo de células a 37 °C y pH fisiológico (7,2). Los resultados obtenidos se presentan en el siguiente gráfico:\n[Gráfico: eje Y 'Tasa relativa de transporte', eje X 'Concentración de Na⁺ (mM)' de 0 a 150; dos curvas crecientes, 'Aminoácido' (gris) y 'Azúcar' (negro)]\nEn relación con lo anterior, ¿cuál de las siguientes opciones corresponde a la variable dependiente en este experimento?",
+      "options": {
+        "a": "El pH fisiológico",
+        "b": "El tipo de células utilizadas",
+        "c": "La tasa relativa de transporte",
+        "d": "La concentración de Na⁺ extracelular"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Un investigador está evaluando el efecto de la adición de cuatro sustancias sobre el oxígeno consumido (O₂) y el ATP sintetizado en un cultivo de mitocondrias bajo condiciones ideales de temperatura y pH. Los resultados del estudio se presentan en el siguiente gráfico:\n[Gráfico: eje Y izquierdo 'O₂ consumido (u.a.)' (línea punteada), eje Y derecho 'ATP sintetizado (u.a.)' (línea sólida), eje X 'Tiempo (s)'; se indican momentos de adición de sustancias 1, 2, 3 y 4 con flechas. La línea sólida (ATP) sube en el momento 2 y luego se estabiliza; la línea punteada (O₂) sube en el momento 3 y vuelve a subir en el momento 4]\nConsiderando que no hay un efecto acumulativo ni interacciones entre las sustancias añadidas, ¿cuál de las siguientes opciones señala una conclusión correcta?",
+      "options": {
+        "a": "La adición de la sustancia 4 provoca un aumento de la síntesis de ATP.",
+        "b": "La adición de la sustancia 2 provoca un aumento de la síntesis de ATP.",
+        "c": "La adición de la sustancia 3 provoca una disminución del consumo de O₂.",
+        "d": "La adición de la sustancia 1 provoca una disminución del consumo de O₂."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "La vasectomía es un procedimiento quirúrgico que consiste en cortar los conductos deferentes, evitando que los espermatozoides lleguen desde el testículo (lugar donde ocurre la espermatogénesis) hasta la próstata. Teniendo en cuenta estos antecedentes, ¿cuál de las siguientes acciones confirmaría inequívocamente el efecto anticonceptivo de la vasectomía?",
+      "options": {
+        "a": "Establecer la reversibilidad de esta intervención quirúrgica.",
+        "b": "Verificar la ausencia de eyaculación después de la vasectomía.",
+        "c": "Complementar el efecto de la vasectomía con un método anticonceptivo hormonal.",
+        "d": "Determinar que posvasectomía hay ausencia de espermatozoides en el semen."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "El gráfico muestra las consultas por infecciones de transmisión sexual (ITS) en el sistema público de salud entre 1999 y 2003, separadas por sexo.\n[Gráfico de barras: eje Y 'Número de consultas' (0-1600), eje X categorías 'Candidiasis', 'Gonorrea', 'Herpes', 'Sífilis'; barras grises 'Hombres' y negras 'Mujeres'. Aproximadamente: Candidiasis Hombres ~100, Mujeres ~620; Gonorrea Hombres ~900, Mujeres ~1520; Herpes Hombres ~200, Mujeres ~190; Sífilis Hombres ~750, Mujeres ~680]\n¿Cuál de las siguientes afirmaciones es una conclusión correcta, respecto de los datos presentados en el gráfico?",
+      "options": {
+        "a": "Las ITS por hongos son más frecuentes en los hombres.",
+        "b": "En ambos sexos, las ITS bacterianas son las más consultadas.",
+        "c": "En ambos sexos, la menor cantidad de consultas es por ITS virales.",
+        "d": "Las ITS presentan la misma prevalencia tanto en hombres como en mujeres."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "En la siguiente tabla se presentan los datos de un estudio realizado sobre una muestra de niñas provenientes de un mismo colegio:\n| Variables | Con sobrepeso | Sin sobrepeso |\n| Cantidad de niñas participantes | 103 | 105 |\n| Nivel que cursan en el colegio | Séptimo | Séptimo |\n| Edad promedio (años) | 13,5 | 13,5 |\n| Edad promedio primera menstruación (años) | 11,9 | 13,0 |\n¿Cuál de las siguientes opciones señala correctamente la pregunta de investigación que pudo haber guiado este estudio?",
+      "options": {
+        "a": "¿Cuál es la relación que existe entre la edad promedio de las niñas y la edad de inicio de la menstruación?",
+        "b": "¿Cuál es la relación que existe entre el nivel que cursan las niñas en el colegio y la edad de inicio de la menstruación?",
+        "c": "¿Cuál es la relación que existe entre el sobrepeso y la edad en la que ocurre la primera menstruación?",
+        "d": "¿Cuál es la relación que existe entre la edad que tienen las niñas y el sobrepeso?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "Durante el período reproductivo en el ovario se forman cíclicamente folículos primarios. Algunos de ellos maduran y se liberan en el momento de la ovulación, pero la mayoría de ellos experimentan un proceso denominado atresia que consiste en la degeneración y reabsorción folicular. Esta atresia explica la notable disminución de folículos desde el nacimiento hasta la menopausia. Según lo anterior, ¿cuál de los siguientes gráficos muestra de manera más adecuada el cambio en el número de folículos primarios a lo largo de la vida de una mujer sana?",
+      "options": {
+        "a": "[Gráfico] Número de folículos (eje Y) vs Años (eje X): curva decreciente que parte alta y disminuye acercándose a cero.",
+        "b": "[Gráfico] Número de folículos vs Años: curva creciente (aumenta con los años).",
+        "c": "[Gráfico] Número de folículos vs Años: curva creciente que alcanza una meseta (aumenta y luego se estabiliza).",
+        "d": "[Gráfico] Número de folículos vs Años: curva que se mantiene estable y luego cae abruptamente al final."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Pablo quiere esclarecer el contenido nutricional de un alimento X. Le plantea esta inquietud a su profesora, quien le suministra los siguientes reactivos para reconocer nutrientes: reactivo de Biuret (que detecta la presencia de enlaces peptídicos) y lugol (que detecta la presencia de almidón).\nAl respecto, ¿cuál de las siguientes opciones podría ser una pregunta de investigación pertinente al propósito de Pablo?",
+      "options": {
+        "a": "¿Cómo se puede detectar la presencia de lípidos en el alimento X con los reactivos disponibles?",
+        "b": "¿Qué protocolo de uso de los reactivos requiere menor tiempo para identificar las biomoléculas presentes en el alimento X?",
+        "c": "¿En qué proporción están presentes los carbohidratos con respecto a las proteínas en el alimento X?",
+        "d": "¿Cuál es la contribución calórica del alimento X al ser digerido por un organismo?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "¿Cuál de los siguientes eventos ocurre en la profase meiótica I, pero no en la profase mitótica? [nota: enunciado repetido de la pregunta 19 en el folleto original]",
+      "options": {
+        "a": "Desaparición del nucléolo",
+        "b": "Formación del huso acromático",
+        "c": "Desorganización de la carioteca",
+        "d": "Condensación de los cromosomas",
+        "e": "Apareamiento de los cromosomas homólogos"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 30,
+      "content": "Un estudiante se encuentra investigando cómo varía la cantidad de ADN y la dotación cromosómica durante distintas etapas del proceso de división celular, que permite la formación de células reproductivas en los vertebrados, centrando su análisis en la siguiente tabla:\n| Etapa | Cantidad de ADN | Dotación cromosómica |\n| Profase I | 4c | 2n |\n| Metafase I | 4c | 2n |\n| Anafase I | 4c | 2n |\n| Telofase I | 4c–2c | 2n–n |\n| Profase II | 2c | n |\n| Metafase II | 2c | n |\n| Anafase II | 2c | 2n |\n| Telofase II | 2c–c | 2n–n |\nEn relación con lo anterior, ¿cuál de las siguientes opciones describe correctamente la información científica entregada por esta tabla?",
+      "options": {
+        "a": "Cambios en el material genético en dos divisiones mitóticas sucesivas.",
+        "b": "Cambios en la cantidad total de cromosomas durante la división celular meiótica.",
+        "c": "Variaciones en la cantidad de material genético en distintas etapas de la división celular meiótica.",
+        "d": "Sucesión de etapas características del ciclo celular proliferativo en dos divisiones celulares sucesivas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "En los años 70, un grupo de científicos logró crear la primera bacteria transgénica capaz de expresar un gen foráneo. Este logro permitió usar bacterias para la producción de proteínas de interés médico como la insulina. En una investigación relacionada con la generación de esta hormona, un grupo de investigadores \"detectó que las bacterias sintetizan el precursor de la insulina pero no lo procesan\", por lo que el producto obtenido era biológicamente inactivo. Al respecto, ¿a cuál de los siguientes componentes de la investigación científica corresponde la frase entre comillas?",
+      "options": {
+        "a": "A una hipótesis",
+        "b": "A una inferencia",
+        "c": "A un resultado",
+        "d": "A un objetivo"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Previo a la meiosis y durante esta, la cantidad de ADN (c) por célula varía entre cada etapa del ciclo celular. El siguiente gráfico representa, en términos generales, la variación en la cantidad de ADN en algunos periodos de la interfase (etapas G1, S-G2) y al término de la meiosis I (MI) y meiosis II (MII):\n[Gráfico de barras: eje Y 'ADN por célula (c)' de 0 a 4 (líneas de referencia en 2 y 4), eje X 'Etapas': G1=2, S-G2=4, MI=2, MII=1]\nUtilizando estos antecedentes, un equipo de investigación estudió la meiosis en células testiculares de conejo y contabilizó en la etapa de transición S-G2 un total de 60 picogramos (pg) de ADN nuclear. Al respecto, ¿qué cantidad de ADN debería contabilizar este equipo al término de MII?",
+      "options": {
+        "a": "120,0 pg",
+        "b": "30,0 pg",
+        "c": "15,0 pg",
+        "d": "7,5 pg"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "Utilizando técnicas biotecnológicas es posible modificar genéticamente las plantas de cultivo. Por ejemplo, se les pueden insertar nuevos genes de modo de incorporar rasgos productivos beneficiosos para la cosecha, tales como mayor valor nutricional, mayores rendimientos, mayor resistencia a enfermedades, entre otros. Estos genes insertados pueden ser foráneos (transgénicos) o de una especie relacionada (cisgénicos).\nEn relación con la información anterior, ¿cuál de las siguientes opciones corresponde al modelo biológico de estudio que los científicos utilizan para estas aplicaciones biotecnológicas?",
+      "options": {
+        "a": "El valor nutricional",
+        "b": "Las plantas de cultivo",
+        "c": "La resistencia a enfermedades",
+        "d": "El rendimiento de las cosechas"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "En un modelo de cadena trófica, los organismos que poseen la mayor cantidad de energía disponible para transferir a otros organismos son",
+      "options": {
+        "a": "los productores.",
+        "b": "los consumidores primarios.",
+        "c": "los consumidores secundarios.",
+        "d": "los consumidores terciarios.",
+        "e": "los carroñeros."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "El gráfico representa la relación entre la productividad primaria neta y la temperatura ambiente en el crecimiento de un bosque joven.\n[Gráfico: eje Y 'Productividad primaria neta (u.a.)' de 0 a 300, eje X 'Temperatura ambiente (°C)' de -10 a 50; curva que parte baja y plana entre -10 y 0, aumenta gradualmente hasta un máximo cercano a 275 alrededor de 40 °C, luego decae hasta ~160 en 50 °C]\nDe acuerdo a la información, ¿cuál de las siguientes opciones es una inferencia correcta?",
+      "options": {
+        "a": "A temperaturas inferiores a los 0 °C, la vegetación estudiada gasta más energía en su metabolismo, por lo que no hay productividad primaria neta.",
+        "b": "A temperaturas superiores a los 40 °C, la vegetación estudiada aumenta la transpiración, aumentando la productividad primaria neta.",
+        "c": "Entre 20 °C y 40 °C, la vegetación estudiada aumenta la tasa fotosintética, elevando la productividad primaria neta.",
+        "d": "A temperaturas superiores a los 40 °C, la productividad primaria neta aumenta, ya que la vegetación estudiada incrementa la tasa fotosintética."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "En un experimento con dos plantas (1 y 2) se mide la eficiencia fotosintética a diferentes concentraciones de CO₂. Al obtener los resultados, se evidencia que la planta 1 alcanza el máximo de eficiencia fotosintética con la mitad de la concentración de CO₂ que requiere la planta 2 para obtener este mismo valor. Además, en la planta 1 y 2 luego de alcanzar la máxima tasa fotosintética, no varía el valor de esta pese a aumentar la concentración del gas. Al respecto, ¿cuál de las siguientes opciones señala correctamente el gráfico que representa de mejor manera los datos obtenidos?",
+      "options": {
+        "a": "[Gráfico] Tasa fotosintética vs Concentración CO₂ (0-100): curva 1 alcanza su meseta (máximo) cerca de CO₂=25; curva 2 alcanza el mismo nivel máximo cerca de CO₂=50.",
+        "b": "[Gráfico] curva 1 alcanza una meseta más alta cerca de CO₂=25; curva 2 alcanza una meseta distinta (más alta) cerca de CO₂=100.",
+        "c": "[Gráfico] curva 1 se satura en un nivel más bajo; curva 2 (punteada) se satura en un nivel más alto.",
+        "d": "[Gráfico] curva 1 se satura en un nivel más alto cerca de CO₂=25; curva 2 (punteada) se satura en un nivel más bajo cerca de CO₂=50."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "A 25 °C y 1 atm, un estudiante mezcla, en un tubo de ensayo, 5 mL de agua destilada y 5 mL de aceite de maravilla. El estudiante se da cuenta que el aceite queda en la parte superior del tubo y el agua en la parte inferior. Luego, en un segundo intento agita el tubo manualmente por 1 minuto, lo deja reposar, y evidencia que las sustancias no se mezclan. En un tercer intento, en un instrumento de laboratorio pone a agitar el tubo por 10 minutos, posteriormente lo deja reposar y evidencia el mismo resultado. En un cuarto intento, en el mismo instrumento de laboratorio pone a agitar el tubo por 10 minutos pero esta vez aumenta la temperatura de la mezcla, sin embargo, obtiene el mismo resultado. Al respecto, ¿cuál de las siguientes opciones es una inferencia correcta respecto a los resultados obtenidos por el estudiante en las condiciones experimentales descritas?",
+      "options": {
+        "a": "El tiempo de agitación de las sustancias impide la formación de una mezcla homogénea.",
+        "b": "El volumen añadido de cada sustancia impide la formación de una mezcla homogénea.",
+        "c": "La temperatura a la que están sometidas las sustancias impide la formación de una mezcla homogénea.",
+        "d": "La diferencia de polaridad entre las sustancias impide la formación de una mezcla homogénea."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Un grupo de amigos está organizando una excursión a un cerro, y dentro de las cosas que deben llevar son botellas de vidrio de igual capacidad con el mismo volumen de agua. Uno de los amigos sugiere dejar las botellas en el congelador por la noche para que estén heladas a la mañana siguiente, sin embargo, al abrir el congelador todas las botellas explotaron. Uno de ellos menciona que las botellas explotaron porque el aire que quedó en las botellas las hizo explotar. En relación a lo anterior, ¿cuál de las siguientes preguntas permitiría iniciar una investigación que corrobore o refute la hipótesis planteada?",
+      "options": {
+        "a": "¿Cómo afecta el cambio de temperatura al volumen del agua y el aire contenidos en la botella?",
+        "b": "¿Cómo cambia la composición química del agua y del aire al bajar la temperatura?",
+        "c": "¿Cómo cambia el material de la botella que contiene el agua y el aire al disminuir la temperatura?",
+        "d": "¿Cómo cambia la presión del aire y la temperatura del agua al utilizar una botella de vidrio?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "Una empresa dedicada a la fabricación de tamices, producto para separar sólidos en razón de su tamaño, desea evaluar algunos de sus nuevos productos. Para ello, se utilizan ocho tamices de diferente número de poro y 80 g de arena de sílice para cada evaluación, determinando la cantidad de arena retenida en cada tamiz por un período de 2 minutos. Los datos obtenidos se presentan en la siguiente tabla:\n| Tamiz | Masa de arena retenida (g) |\n| X | 16,5 |\n| R | 22,1 |\n| W | 28,2 |\n| Q | 30,0 |\n| T | 38,7 |\n| Z | 44,5 |\n| P | 49,8 |\n| F | 69,8 |\nA partir de los resultados presentados en la tabla anterior, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "El diámetro de los poros del tamiz Z es mayor en comparación al tamiz de R.",
+        "b": "El diámetro de los poros del tamiz Q es menor en comparación al tamiz de T.",
+        "c": "El diámetro de los poros del tamiz W es mayor en comparación al tamiz de X.",
+        "d": "El diámetro de los poros del tamiz F es menor en comparación al tamiz de P."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Una estudiante se dio cuenta de que en el interior del hervidor de su casa se encuentra un sólido blanquecino. Al consultarle a su profesora de Ciencias, ella le responde que es sarro y que, para sacarlo, debe agregar vinagre con agua caliente, a fin de que no quede rastro del sarro en su interior. La estudiante supone que debe ocurrir un cambio químico en el interior del hervidor, al combinarse las dos sustancias. En relación a lo anterior, ¿cuál de las siguientes evidencias permitiría confirmar la suposición de la estudiante?",
+      "options": {
+        "a": "Presencia de burbujas al agregar el vinagre al hervidor.",
+        "b": "Aumento del volumen al agregar el vinagre al hervidor.",
+        "c": "Cambio de estado del sarro al agregar el vinagre al hervidor.",
+        "d": "Fragmentación del sarro en pequeños pedazos al agregar el vinagre al hervidor."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "El grupo funcional presente en el siguiente compuesto\n[Figura: estructura química — anillo bencénico unido a un grupo CH₂, seguido de C(=O)-NH-CH₃]\ncorresponde a",
+      "options": {
+        "a": "un ácido carboxílico.",
+        "b": "una cetona.",
+        "c": "una amida.",
+        "d": "una amina.",
+        "e": "un éster."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "Los hidrocarburos policíclicos aromáticos (HAP's) son un grupo de sustancias químicas que se forman durante la combustión incompleta de carbón, petróleo, madera, tabaco y carne asada, entre otros. Existen más de 100 tipos diferentes de HAP's, y se ha evidenciado, por medio de estudios realizados en humanos, que \"personas expuestas a través de la respiración o el contacto de la piel durante largos períodos de tiempo con mezclas que contienen HAP's pueden contraer cáncer\". En relación con lo anterior, ¿a qué componente de la investigación científica corresponde la oración entre comillas?",
+      "options": {
+        "a": "A la descripción de un procedimiento experimental",
+        "b": "A la presentación de una conclusión",
+        "c": "A la formulación de una hipótesis",
+        "d": "A la postulación de una teoría"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "Un investigador y su equipo realizaron un estudio a partir de una molécula orgánica, la boldina, obtenida del boldo, árbol endémico de Chile. En su estudio, utilizaron esta molécula orgánica para el tratamiento de una determinada afección inflamatoria. La estructura de la boldina se muestra a continuación:\n[Figura: estructura química de la boldina con grupos OH, OCH₃ y N-CH₃]\nEn este contexto, del uso farmacológico de la boldina y sus derivados, otros investigadores realizaron diversos ensayos, obteniendo los resultados que se muestran en la siguiente tabla:\n| Derivados de la boldina | Capacidad antiinflamatoria |\n| [Estructura derivado 1: grupos H₃CO y OH en posiciones intercambiadas respecto a la boldina original] | ++ |\n| [Estructura derivado 2: grupos HO y OCH₃ en otra posición] | +++ |\n| [Estructura derivado 3: con un OCH₃ adicional y el OH reposicionado] | + |\nA mayor cantidad de (+), mayor capacidad antiinflamatoria.\nA partir de lo anterior, ¿cuál de las siguientes opciones corresponde al objetivo que pudo guiar los ensayos realizados por los investigadores?",
+      "options": {
+        "a": "Indagar sobre la cantidad de grupos funcionales en la estructura de la boldina y su relación con la capacidad antiinflamatoria.",
+        "b": "Indagar sobre diversos compuestos que se pueden obtener de árboles endémicos de Chile y sus capacidades antiinflamatorias.",
+        "c": "Indagar sobre la relación entre el cambio de posición de un grupo funcional en la estructura de la boldina y su capacidad antiinflamatoria.",
+        "d": "Indagar sobre la incorporación de nuevos grupos funcionales a la molécula de boldina y su capacidad antiinflamatoria."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "Para definir el nombre de un compuesto orgánico, muchos científicos se reunieron para establecer las reglas de nomenclatura orgánica y la organización encargada de recopilar la información y estructurar las reglas fue la Unión Internacional de Química Pura y Aplicada (IUPAC, por sus siglas en inglés). En relación con lo anterior, ¿cuál de las siguientes opciones es una explicación correcta del porqué se establecen las reglas de la nomenclatura orgánica?",
+      "options": {
+        "a": "Se establecen las reglas de nomenclatura orgánica para que cualquier persona asociada al estudio de la química que lea o escuche el nombre no tenga dudas respecto al compuesto que se está haciendo referencia.",
+        "b": "Se establecen las reglas de nomenclatura orgánica para que existan variados nombres para cada compuesto orgánico, reconociéndose similitudes, sin importar su procedencia.",
+        "c": "Se establecen las reglas de nomenclatura orgánica para fijar similitudes estructurales de los compuestos con el fin de destacar su importancia.",
+        "d": "Se establecen las reglas de nomenclatura orgánica para abordar diferencias solo cuando existan compuestos que presentan la misma cantidad de átomos."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "Un grupo de investigadores está analizando algunos factores que influyen en el blanqueamiento de un tipo de coral de aguas australianas. Para aquello, basados en estudios relacionados con el tema, afirman que altos niveles de CO₂ acidifican el agua de mar debido a la formación de H₂CO₃ produciendo una disminución en la población de algas, lo que se relaciona con el blanqueamiento de los corales. Para comprobar lo afirmado, los investigadores montan 5 estanques de iguales dimensiones con 50 L de agua que contienen 10 corales de la misma especie de igual tamaño y dimensiones en condiciones naturales y luego, a cuatro de ellos, le adicionan cantidades crecientes de CO₂, dejando un estanque como control. En relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente la variable dependiente para el diseño experimental propuesto por el grupo de investigadores?",
+      "options": {
+        "a": "La variable dependiente es el volumen de agua del estanque con corales y del estanque del grupo control.",
+        "b": "La variable dependiente es la cantidad de CO₂ agregado a cada estanque que contiene los corales.",
+        "c": "La variable dependiente es el blanqueamiento producido en los corales por presencia de H₂CO₃.",
+        "d": "La variable dependiente es el tipo de coral utilizado en presencia de cantidades crecientes de CO₂."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "En la reacción de moléculas de fósforo (P₄) con moléculas de cloro (Cl₂) para formar como producto moléculas de tricloruro de fósforo (PCl₃) se cumple que",
+      "options": {
+        "a": "4 moléculas de fósforo producen 4 moléculas de tricloruro de fósforo.",
+        "b": "2 moléculas de cloro producen 2 moléculas de tricloruro de fósforo.",
+        "c": "1 molécula de cloro produce 3 moléculas de tricloruro de fósforo.",
+        "d": "1 átomo de fósforo produce 4 moléculas de tricloruro de fósforo.",
+        "e": "12 átomos de cloro producen 4 moléculas de tricloruro de fósforo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "La reacción de combustión de metano se representa a través de la siguiente ecuación química no balanceada:\nCH₄ + O₂ ⟶ CO₂ + H₂O\n¿Cuál de las siguientes relaciones en masa (g) es correcta para la combustión completa del metano? (columnas de la tabla: CH₄ | O₂ | CO₂ | H₂O)",
+      "options": {
+        "a": "4 | 16 | 9 | 11",
+        "b": "16 | 4 | 11 | 9",
+        "c": "4 | 16 | 11 | 9",
+        "d": "9 | 11 | 4 | 16",
+        "e": "11 | 9 | 16 | 4"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "A partir de la siguiente ecuación química:\n6 CO₂ + 6 H₂O ⟶ C₆H₁₂O₆ + 6 O₂\n¿Cuántas moléculas de agua se requieren para formar 4 mol de glucosa?",
+      "options": {
+        "a": "6,02 x 10²³",
+        "b": "1,5 x 6,02 x 10²³",
+        "c": "4 x 6,02 x 10²³",
+        "d": "6 x 6,02 x 10²³",
+        "e": "24 x 6,02 x 10²³"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "En una combustión completa se queman 48 g de C, considerando que el único producto es CO₂, ¿qué masa exacta de comburente se necesita?",
+      "options": {
+        "a": "16 g",
+        "b": "32 g",
+        "c": "44 g",
+        "d": "128 g",
+        "e": "176 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Un grupo de investigación realiza un análisis químico de una sustancia X para determinar la masa en gramos de cada elemento presente en ella. Considerando que la sustancia X contiene solo C, H y O, los investigadores combustionan una muestra de dicha sustancia en presencia de suficiente oxígeno, tal como se representa en la siguiente figura:\n[Figura: esquema de combustión — entrada de O₂ y calor hacia 'Sustancia X', seguido de tubos en U con 'Absorbente de H₂O' y 'Absorbente de CO₂', y salida de 'O₂ no consumido']\nSi las masas de H₂O y CO₂ absorbidas permiten determinar la cantidad de H y C, respectivamente, ¿qué información se debe conocer para determinar la masa de oxígeno presente en la muestra de la sustancia X?",
+      "options": {
+        "a": "La masa de O₂ no consumido",
+        "b": "La masa total de los absorbentes",
+        "c": "La masa de O₂ que ingresa",
+        "d": "La masa inicial de la muestra"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "Una estudiante de segundo año medio lee en Internet que al mezclar sal de mesa con agua, esta conduce la corriente eléctrica. Para comprobarlo, la estudiante determinó la conductividad eléctrica de soluciones de distinta concentración. Los datos los presentó en la siguiente tabla:\n| Número de mediciones | Masa de sal de mesa (g) | Conductividad eléctrica promedio (µS·cm⁻¹) |\n| 6 | 0,049 | 100 |\n| 6 | 0,490 | 1000 |\n| 6 | 5,370 | 10000 |\n| 6 | 10,240 | 18000 |\nPosteriormente, la estudiante presentó estos datos a su docente, quien cuestiona la forma en que estos están presentados. En relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente el motivo de dicho cuestionamiento?",
+      "options": {
+        "a": "El número de veces que la estudiante mide la conductividad de la solución es insuficiente para asegurar la confiabilidad del resultado.",
+        "b": "La masa de sal es insuficiente para realizar mediciones y a partir de ello establecer conclusiones.",
+        "c": "La estudiante ha omitido el volumen del agua empleado para preparar las soluciones salinas al momento de reportar sus datos.",
+        "d": "Los resultados presentados por la estudiante incluyen la medida correspondiente al agua pura en lugar de variaciones de mezclas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Un grupo de estudiantes investigaron experimentalmente, a 25 °C y 1 atm, la solubilidad en agua de tres compuestos y su relación con el tipo de enlace que los componen. Los estudiantes se percataron que la naftalina, a diferencia del amoníaco y del cloruro de sodio, no puede ser disuelta en agua. Los datos obtenidos fueron presentados en la siguiente tabla:\n| Compuestos | Enlace | Disolución en agua |\n| Naftalina | Covalente no polar | No |\n| Amoníaco | Covalente polar | Sí |\n| Cloruro de sodio | Iónico | Sí |\nLuego de interpretar los datos, el grupo de estudiantes quiere predecir la solubilidad de los compuestos anteriores en los siguientes solventes, bajo las mismas condiciones de temperatura y presión:\n| Solvente | Tipo de solvente |\n| Agua | Polar |\n| Benceno | No polar |\n| Metanol | Polar |\n| Tolueno | No polar |\n| Xileno | No polar |\nEn base al análisis de la información entregada, ¿cuál de las siguientes inferencias es correcta?",
+      "options": {
+        "a": "El tolueno puede disolver a la naftalina.",
+        "b": "El metanol puede disolver a la naftalina.",
+        "c": "El benceno puede disolver al amoníaco.",
+        "d": "El xileno puede disolver al cloruro de sodio."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Un estudiante encuentra en un libro de química, la siguiente tabla que muestra el tiempo necesario para que 0,5 g de magnesio reaccionen completamente con diferentes soluciones de ácido clorhídrico, bajo ciertas condiciones:\n| Concentración solución ácido clorhídrico (mol/L) | Temperatura (°C) | Tiempo de reacción (s) |\n| 0,1 | 20 | 80 |\n| 0,1 | 25 | 60 |\n| 0,2 | 30 | 20 |\n| 0,2 | 40 | 10 |\nA partir de la información descrita en la tabla, el estudiante quiere determinar el tiempo necesario para que 0,5 g de magnesio reaccionen completamente con una solución de ácido clorhídrico 0,2 mol/L a 25 °C. En relación con el análisis de la tabla, ¿cuál de las siguientes inferencias es correcta?",
+      "options": {
+        "a": "La reacción tardará menos de 10 s en ocurrir.",
+        "b": "La reacción tardará entre 10 s y 20 s en ocurrir.",
+        "c": "La reacción tardará entre 20 s y 60 s en ocurrir.",
+        "d": "La reacción tardará más de 80 s en ocurrir."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Dada la siguiente figura:\n[Figura: botella etiquetada 'Bebida X, 2,3 % m/v etanol, 1000 mL']\nAl respecto, ¿cuál es la concentración molar de etanol (masa molar = 46 g/mol) contenido en la botella?",
+      "options": {
+        "a": "1,050 mol/L",
+        "b": "0,500 mol/L",
+        "c": "0,250 mol/L",
+        "d": "0,046 mol/L",
+        "e": "0,020 mol/L"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "En el siglo XVII, los científicos C. Huygens e I. Newton desarrollaron diferentes teorías que describían los fenómenos de reflexión y refracción de la luz. En particular, Huygens proponía una teoría basada en ondas, mientras que Newton una fundamentada en partículas. Sin embargo, a comienzos del siglo XIX, T. Young demostró que solo la teoría de Huygens explicaba correctamente sus nuevos experimentos de interferencia de la luz. Al respecto, ¿cuál de las siguientes afirmaciones es correcta basándose solo en la información anteriormente presentada?",
+      "options": {
+        "a": "El experimento de Young explica los fenómenos de la luz de mejor forma que las teorías de Newton y Huygens.",
+        "b": "La teoría de Huygens contiene a la de Newton al predecir mejor los fenómenos de la luz.",
+        "c": "La teoría de Huygens se ajusta mejor a ciertos fenómenos de la luz que la teoría de Newton.",
+        "d": "Los resultados del experimento de Young son errados al desajustarse con la teoría de Newton."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "En 1638, Galileo propuso un método para medir la velocidad de la luz que consistía, fundamentalmente, en medir el tiempo que transcurría entre encender una lámpara de aquella época y recibir la luz de vuelta después de que esta viaja una distancia de unos tres kilómetros. Hecho el experimento, no se detectó el tiempo de viaje. Hoy se sabe que el tiempo que pretendía medir Galileo es aproximadamente de 10⁻⁵ s.\nAl respecto, ¿cuál de las siguientes afirmaciones es pertinente al experimento y su resultado?",
+      "options": {
+        "a": "La metodología experimental no era adecuada para el objetivo.",
+        "b": "La luz de una lámpara no es adecuada ya que emite luz en todas direcciones.",
+        "c": "En la época de Galileo era difícil medir correctamente las distancias.",
+        "d": "La velocidad de la luz en la época de Galileo era infinita."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Las figuras representan dos espejos planos perpendiculares entre sí. Sobre el espejo vertical incide un rayo de luz. ¿Cuál de las siguientes opciones representa correctamente la doble reflexión que experimenta este rayo?",
+      "options": {
+        "a": "[Diagrama de figura] Trayectoria del rayo con doble reflexión según la disposición mostrada en la opción A del folleto.",
+        "b": "[Diagrama de figura] Trayectoria del rayo con doble reflexión según la disposición mostrada en la opción B del folleto.",
+        "c": "[Diagrama de figura] Trayectoria del rayo con doble reflexión según la disposición mostrada en la opción C del folleto (rayo reflejado sale antiparalelo al incidente).",
+        "d": "[Diagrama de figura] Trayectoria del rayo con doble reflexión según la disposición mostrada en la opción D del folleto.",
+        "e": "[Diagrama de figura] Trayectoria del rayo con doble reflexión según la disposición mostrada en la opción E del folleto."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "La figura representa el paso de un rayo de luz a través de tres medios transparentes de diferentes índices de refracción.\n[Figura: Medio 1 de índice de refracción n₁ (arriba), Medio 2 de índice de refracción n₂ (medio), Medio 3 de índice de refracción n₃ (abajo); un rayo entra desde el medio 1, se acerca a la normal al pasar al medio 2, y se aleja de la normal al pasar al medio 3]\nRespecto de la información anterior, ¿cuál de las siguientes relaciones entre los índices de refracción es correcta?",
+      "options": {
+        "a": "n₁ > n₃ y n₂ > n₃",
+        "b": "n₁ > n₃ y n₂ < n₃",
+        "c": "n₃ > n₁ y n₂ > n₃",
+        "d": "n₃ > n₁ y n₂ < n₃",
+        "e": "n₃ > n₁ y n₂ > n₁"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "En un periódico nacional se publicó la siguiente noticia con respecto a un halo solar:\n\"Ha ocurrido varias veces, muchos toman fotos o las comparten en redes sociales. Hablamos de un círculo alrededor del Sol, un verdadero espectáculo que también se presta para muchos mitos.\nHay quienes dicen que la presencia de este fenómeno predice algún evento meteorológico, incluso hay quienes apuntan a un movimiento telúrico. Lo cierto es que esto es falso.\nUn halo solar es un fenómeno meteorológico y óptico que se produce por la refracción de cristales de hielo que están en suspensión en la tropósfera.\"\nAdaptado de CNN Chile (28 de diciembre de 2019). ¿Qué es un halo solar y por qué se produce? https://www.cnnchile.com/tendencias/que-es-un-halo-solar-y-por-que-se-produce_20191228/\nDespués de leer el extracto anterior, ¿qué error o imprecisión, desde la perspectiva de la Física, está presente en el texto?",
+      "options": {
+        "a": "Los cristales de hielo de los halos solares están, en realidad, en la mesósfera, porque es allí donde ocurren todos los fenómenos climáticos.",
+        "b": "Los halos solares al ser detectados sí pueden ser utilizados para predecir fenómenos telúricos, como los temblores o terremotos.",
+        "c": "Los halos solares ocurren por la refracción de las ondas de luz en los cristales de hielo, es decir, los cristales mismos no son ondas.",
+        "d": "Los halos solares se producen principalmente por el fenómeno óptico de la difracción, no el de la refracción."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Las abejas pueden captar radiación ultravioleta, pero no luz roja ni radiación infrarroja. Esto indica que el aparato visual de las abejas, comparado con el del ser humano,",
+      "options": {
+        "a": "es menos sensible.",
+        "b": "es capaz de percibir frecuencias mayores.",
+        "c": "es capaz de percibir intensidades más débiles.",
+        "d": "puede distinguir un mayor rango de frecuencias.",
+        "e": "es capaz de percibir longitudes de onda mayores."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "Un objeto se ubica delante de un espejo convexo, en cierto punto de su eje óptico. Es correcto afirmar que su imagen es",
+      "options": {
+        "a": "real, se ubica delante del espejo y es de mayor tamaño que el objeto.",
+        "b": "virtual, se ubica detrás del espejo y es de mayor tamaño que el objeto.",
+        "c": "virtual, se ubica detrás del espejo y es de menor tamaño que el objeto.",
+        "d": "virtual, se ubica delante del espejo y es de menor tamaño que el objeto.",
+        "e": "real, se ubica delante del espejo y es de menor tamaño que el objeto."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "La siguiente figura muestra un objeto, representado por una flecha negra, situado delante de una lente convergente de focos F.\n[Figura: eje óptico horizontal con una lente convergente al centro; puntos F marcados a igual distancia a cada lado de la lente; una flecha (objeto) ubicada a la izquierda de la lente, exactamente sobre el punto focal F izquierdo]\nSe afirma correctamente que la lente, en este caso,",
+      "options": {
+        "a": "forma una imagen real, de mayor tamaño que el objeto e invertida respecto a él.",
+        "b": "forma una imagen real, de menor tamaño que el objeto e invertida respecto a él.",
+        "c": "forma una imagen real, del mismo tamaño del objeto e invertida respecto a él.",
+        "d": "forma una imagen virtual, de mayor tamaño que el objeto y derecha respecto a él.",
+        "e": "no forma imagen."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Un patinador de 60 kg avanza cargando una barra de 20 kg a lo largo de un camino recto y horizontal hacia cuatro pilares de granito fijos al suelo, como se representa en la siguiente figura:\n[Figura: patinador con patines en línea avanzando y sosteniendo una barra larga en diagonal, dirigiéndose hacia cuatro pilares verticales de granito alineados adelante]\nSi al llegar a los pilares el patinador los empuja simultáneamente con la barra, ejerciendo fuerzas de magnitudes iguales sobre cada pilar, de forma que el patinador adquiere una aceleración de 3 m/s² en sentido opuesto al que tenía originalmente y en ausencia de roce, ¿cuál es la magnitud de la fuerza que ejerció la barra sobre cada pilar?",
+      "options": {
+        "a": "960,0 N",
+        "b": "80,0 N",
+        "c": "60,0 N",
+        "d": "26,6̄ N"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "Sobre un cuerpo de masa M actúan solamente dos fuerzas, de las cuales se conoce la magnitud de solo una de ellas, que es F. De la otra, solo se sabe que es constante. Entonces siempre se puede afirmar correctamente que",
+      "options": {
+        "a": "las direcciones de la aceleración y de la fuerza F son paralelas.",
+        "b": "si F aumenta, entonces el módulo de la aceleración aumenta.",
+        "c": "si F disminuye, entonces el módulo de la fuerza neta disminuye.",
+        "d": "si F se anula, la aceleración es constante.",
+        "e": "si F es constante, la aceleración es distinta de cero."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "En un experimento, un grupo de personas analiza el tiempo que emplea un bloque de madera en moverse a lo largo de un camino recto de vidrio y detenerse, luego que deja de actuar sobre el bloque una fuerza constante y paralela a la superficie horizontal del camino. Hacen esto mismo dos veces y miden este tiempo t, variando el área de la superficie del bloque de madera en contacto con el camino, obteniendo los registros en la siguiente tabla:\n| Superficie del bloque en roce con el camino recto (cm²) | Medición 1 t(s) | Medición 2 t(s) |\n| 25 | 10,55 | 9,45 |\n| 100 | 9,90 | 10,10 |\n| 75 | 10,03 | 9,97 |\nAl respecto, ¿cuál de las siguientes opciones es una inferencia consistente con la información proporcionada?",
+      "options": {
+        "a": "El tiempo promedio que emplea el bloque en moverse por el camino desde que deja de actuar la fuerza aplicada sobre él hasta que se detiene es proporcional a la masa del bloque.",
+        "b": "El tiempo promedio que emplea el bloque en moverse por el camino desde que deja de actuar la fuerza aplicada sobre él hasta que se detiene es proporcional al área del bloque sobre la que se aplicó la fuerza.",
+        "c": "El tiempo promedio que emplea el bloque en moverse por el camino desde que deja de actuar la fuerza aplicada sobre él hasta que se detiene es independiente del área de contacto del bloque con la superficie del camino.",
+        "d": "El tiempo promedio que emplea el bloque en moverse por el camino desde que deja de actuar la fuerza aplicada sobre él hasta que se detiene es independiente de la fuerza neta que actúa sobre el bloque en todo su movimiento."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Respecto de un cuerpo que experimenta roce debido a que se desplaza sobre una superficie plana, es siempre correcto afirmar que",
+      "options": {
+        "a": "la magnitud de la fuerza peso es menor que la magnitud de la fuerza de roce.",
+        "b": "la magnitud de la fuerza normal es igual a la magnitud de la fuerza peso.",
+        "c": "la fuerza peso es paralela y de sentido contrario a la fuerza normal.",
+        "d": "la fuerza de roce es perpendicular a la fuerza normal.",
+        "e": "la fuerza de roce es perpendicular a la fuerza peso."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Una persona observa un bloque apoyado en una mesa y plantea que la magnitud de la fuerza de roce estático máximo que actúa sobre el bloque es directamente proporcional a la magnitud de su peso.\nAl respecto, ¿cuál de los siguientes conjuntos de materiales permite comprobar su planteamiento?",
+      "options": {
+        "a": "Un bloque de masa conocida, mesas de distinto material conocido y un dinamómetro.",
+        "b": "Un bloque de volumen conocido, mesas de distinto material conocido y un dinamómetro.",
+        "c": "Bloques de distinto volumen e igual masa, una mesa de un material conocido y un dinamómetro.",
+        "d": "Bloques de distinta masa y del mismo material, una mesa de un material conocido y un dinamómetro."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "Un grupo de personas recolecta seis recipientes idénticos, los llenan completamente con líquidos de distintas densidades y determinan la presión hidrostática en el fondo de cada recipiente. Si el experimento se realiza en un lugar en que la magnitud de la aceleración de gravedad es constante y los recipientes están ubicados a la misma altura, ¿cuál de las siguientes interrogantes es una pregunta de investigación consistente con lo realizado por el grupo?",
+      "options": {
+        "a": "¿Cómo varía la presión hidrostática en función de la magnitud de la aceleración de gravedad?",
+        "b": "¿Cómo varía la presión hidrostática en función de la cantidad de líquido que contiene el recipiente?",
+        "c": "¿Cómo varía la presión hidrostática en función de la densidad del líquido?",
+        "d": "¿Cómo varía la presión hidrostática en función de la altura del recipiente?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Una escala lineal P de temperatura se relaciona con la escala celsius, tal como se representa en la siguiente figura:\n[Figura: dos termómetros comparados; el termómetro celsius marca 100 °C alineado con 350 °P en el termómetro P, y 0 °C alineado con 150 °P]\nAl respecto, ¿cuál de las siguientes expresiones permite transformar correctamente temperaturas desde grados celsius (T_C) a grados P (T_P)?",
+      "options": {
+        "a": "T_P = 2·T_C + 150",
+        "b": "T_P = 2·T_C − 150",
+        "c": "T_P = T_C/2 + 150",
+        "d": "T_P = T_C/2 − 150"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "¿Cuál de las siguientes afirmaciones acerca de los mecanismos de transmisión de calor es correcta?",
+      "options": {
+        "a": "La convección ocurre en el vacío.",
+        "b": "La conducción ocurre en líquidos.",
+        "c": "La radiación solo ocurre en sólidos.",
+        "d": "La radiación solo ocurre en el vacío.",
+        "e": "La convección solo ocurre en líquidos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 71,
+      "content": "Una persona descalza siente más frío en el pie que está sobre una baldosa que en su otro pie que se encuentra sobre una alfombra. Si se considera que ambas superficies están a la misma temperatura, ¿a qué se debe que la persona sienta que la baldosa está más fría que la alfombra?",
+      "options": {
+        "a": "A la diferencia entre los calores latentes",
+        "b": "A la diferencia entre los calores específicos",
+        "c": "A la diferencia entre los coeficientes de dilatación térmica",
+        "d": "A la diferencia entre los coeficientes de conductividad térmica"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 72,
+      "content": "¿Qué caracteriza a una zona de convergencia entre placas continentales?",
+      "options": {
+        "a": "La generación de fosas oceánicas en bordes continentales",
+        "b": "La presencia de cordones montañosos",
+        "c": "La generación de fallas transformantes",
+        "d": "La presencia de vulcanismo activo",
+        "e": "La nula sismicidad en la zona"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "El albedo se refiere al porcentaje de radiación solar que es reflejada por la superficie de un objeto, relacionándose con su color, ya que mientras más blanca es su superficie, mayor es el albedo. Si se considera que ha habido un aumento en la temperatura global de la Tierra, ¿qué debería suceder con el albedo terrestre debido exclusivamente a los glaciares y por qué?",
+      "options": {
+        "a": "Debería disminuir, porque está disminuyendo la superficie cubierta por los glaciares.",
+        "b": "Debería disminuir, porque está disminuyendo la temperatura superficial de los glaciares.",
+        "c": "Debería mantenerse, porque la variación promedio de la superficie de los glaciares es constante.",
+        "d": "Debería mantenerse, porque la temperatura de los glaciares sigue siendo igual o menor que cero grados celsius."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Durante las últimas décadas se ha mejorado considerablemente la precisión de los pronósticos de las condiciones atmosféricas que se informan en los distintos medios de comunicación. Una estudiante de ciencias desea mejorar las predicciones de las condiciones atmosféricas de ciertas ciudades, añadiendo al modelo existente un parámetro relacionado con el impacto de la densidad poblacional (habitantes por km²) en estas ciudades.\nEn relación con la inclusión del parámetro propuesto por la estudiante, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "Disminuye la precisión de los modelos existentes, pues la contribución de las actividades humanas son poco significativas respecto de las originadas por causas naturales.",
+        "b": "Requiere ser probado como parte del modelo actualmente empleado, pues su ajuste a los datos ya conocidos lo hará más preciso con ellos.",
+        "c": "Contradice los modelos existentes, pues propone la inclusión de un parámetro que depende del comportamiento de la actividad humana, pero esta no será conocida para el futuro.",
+        "d": "Corresponde a un nuevo modelo de análisis del comportamiento climático, pues desecha el modelo anteriormente empleado."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Una persona conecta tres resistencias en paralelo a una batería de diferencia de potencial constante. Luego con un voltímetro mide la diferencia de potencial en cada una de las resistencias. Repite lo mismo, intercambiando la posición de las resistencias. Al respecto, ¿cuál de las siguientes opciones es una hipótesis coherente con el experimento realizado por la persona?",
+      "options": {
+        "a": "La resistencia equivalente depende de la cantidad de resistencias del circuito.",
+        "b": "La resistencia equivalente depende de la posición de las resistencias en el circuito.",
+        "c": "La diferencia de potencial a la que está sometida una resistencia depende de su posición en el circuito.",
+        "d": "La diferencia de potencial a la que está sometida una resistencia depende de la cantidad de resistencias del circuito."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "En un circuito eléctrico, por una batería de 12 V, circulan de manera constante, 3 C de carga cada 2 s. La intensidad de la corriente que circula por la batería es",
+      "options": {
+        "a": "6 A.",
+        "b": "4 A.",
+        "c": "3 A.",
+        "d": "3/2 A.",
+        "e": "2/3 A."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "En un circuito eléctrico se encuentran conectados en serie una batería que provee una diferencia de potencial constante de 10 V, un amperímetro y una resistencia con una potencia de 6 W. Si el amperímetro funciona correctamente, ¿qué intensidad de corriente eléctrica debiera medir?",
+      "options": {
+        "a": "6/10 A",
+        "b": "1 A",
+        "c": "10 A",
+        "d": "100/6 A"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Si la configuración de los circuitos, representados en cada una de las siguientes opciones, se encuentra compuesta de 3 resistencias idénticas sometidas a una misma diferencia de potencial, ¿cuál de ellos disipa mayor energía por unidad de tiempo?",
+      "options": {
+        "a": "[Diagrama de circuito] Batería con una resistencia en paralelo directo y otra resistencia en serie con esa rama (configuración mixta serie-paralelo), según opción A del folleto.",
+        "b": "[Diagrama de circuito] Batería con 3 resistencias idénticas conectadas en paralelo entre sí, según opción B del folleto.",
+        "c": "[Diagrama de circuito] Batería con 2 resistencias conectadas en serie en una única rama, según opción C del folleto.",
+        "d": "[Diagrama de circuito] Batería con 2 resistencias en paralelo y una tercera resistencia en serie con esa combinación, según opción D del folleto."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Una persona realiza mediciones en un circuito domiciliario y constata que una parte de él se encuentra a una temperatura mayor que la del ambiente. Al respecto, ¿cuál de las siguientes afirmaciones acerca de la energía eléctrica del circuito es correcta?",
+      "options": {
+        "a": "Se conserva cuando los artefactos están conectados en serie.",
+        "b": "Se puede estar disipando exclusivamente en ondas sonoras.",
+        "c": "Se puede estar disipando en los alambres de conexión.",
+        "d": "Se transforma exclusivamente en energía mecánica."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Dos personas conversan sobre la interacción electrostática entre un par de partículas cargadas eléctricamente al estar separadas a cierta distancia. Una de ellas afirma que la magnitud de la fuerza electrostática entre ellas depende de la semisuma entre las cargas eléctricas de cada partícula, mientras que la otra afirma que depende del producto entre ellas.\nAl respecto, ¿cuál de las siguientes propuestas permite resolver mejor esta controversia?",
+      "options": {
+        "a": "Modelizar los datos registrados en un gráfico de fuerza electrostática entre partículas tanto en función de la semisuma como del producto de las distancias al origen del sistema de coordenadas.",
+        "b": "Comparar en un diagrama la magnitud de la fuerza electrostática entre partículas idénticas, a medida que disminuye su distancia de separación.",
+        "c": "Observar cómo cambia el sentido de la fuerza electrostática cuando el signo eléctrico de una de las partículas es cambiado.",
+        "d": "Modelizar los datos registrados en un gráfico de fuerza electrostática entre partículas tanto en función de la semisuma como del producto de sus cargas eléctricas."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

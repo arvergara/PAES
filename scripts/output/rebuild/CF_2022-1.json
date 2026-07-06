@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "subject": "CF",
+    "subject_nombre": "Ciencias - Física",
+    "origen": "PAES Ciencias - Física Admision 2022-1",
+    "anio": 2022,
+    "forma": 161,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [7, 20, 37, 61, 75],
+    "fuente_pdf": "pruebas/oficiales/C-fisica-2022-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-fisica-2022-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "¿Cuál de las siguientes afirmaciones acerca de las ondas sísmicas es correcta?",
+      "options": {
+        "a": "Solo se producen en sismos de gran magnitud.",
+        "b": "Tienen una intensidad que aumenta con su profundidad.",
+        "c": "Solo las ondas secundarias generan daños estructurales.",
+        "d": "Se propagan desde el epicentro hacia la superficie terrestre.",
+        "e": "Transmiten una energía que aumenta con la magnitud del sismo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Se decidió investigar si la curvatura de un espejo convexo afecta la imagen que se produce. Para ello, se fijó un objeto delante de un espejo convexo y con una regla se midió el tamaño de la imagen producida. Si en todas las mediciones se utilizó el mismo objeto, ¿cuál de las siguientes acciones experimentales debió haberse implementado para resolver esta investigación?",
+      "options": {
+        "a": "Utilizar espejos convexos de igual tamaño, pero situar el objeto a diferentes distancias del espejo.",
+        "b": "Utilizar espejos convexos de igual curvatura, pero situar el objeto a diferentes distancias del espejo.",
+        "c": "Utilizar espejos convexos con distinta curvatura, pero de igual tamaño.",
+        "d": "Utilizar espejos convexos de distinto tamaño, pero de igual curvatura."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Cierta onda mecánica se representa mediante el siguiente perfil temporal: [Gráfico y(m) en función de t(s): curva sinusoidal con amplitud 1, que parte en el origen (0,0), alcanza un máximo de y=1 en t=1 s, cruza el eje en t=3 s, alcanza un mínimo de y=-1 en t=5 s aproximadamente y vuelve a cruzar el eje en t=7 s, completando un patrón periódico con período de 4 s hasta t=8 s]. ¿Cuál es la frecuencia de la onda representada?",
+      "options": {
+        "a": "1/8 Hz",
+        "b": "1/4 Hz",
+        "c": "1/2 Hz",
+        "d": "2 Hz",
+        "e": "4 Hz"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Una persona está sentada junto a una fuente sonora que genera un sonido de 800 Hz, a 400 m de una superficie reflectora, percibiendo su correspondiente eco 2 s después de la emisión del sonido. Al respecto, ¿cuál es la longitud de onda asociada a la onda de este sonido?",
+      "options": {
+        "a": "4,00 m",
+        "b": "2,00 m",
+        "c": "1,00 m",
+        "d": "0,50 m",
+        "e": "0,25 m"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "La siguiente figura representa un objeto situado frente a una lente convergente cuyo eje óptico es w y que tiene dos focos identificados como F₁ y F₂. Los rayos s y q provienen desde el extremo superior del objeto. [Figura: un objeto (flecha vertical) a la izquierda de una lente convergente; el eje óptico w es horizontal; F₁ está entre el objeto y la lente, F₂ está al otro lado de la lente; el rayo q parte del extremo superior del objeto en dirección horizontal hacia la lente, el rayo s parte del mismo punto pasando por F₁ antes de llegar a la lente]. Al respecto, ¿cuáles son las características de los rayos s y q una vez que atraviesan la lente?\n\n| | Rayo s | Rayo q |\n|---|---|---|\n| A) | Cruza w entre la lente y F₂ | Mantiene la dirección que tenía antes de incidir en la lente |\n| B) | Cruza w entre la lente y F₂ | Cruza w entre la lente y F₂ |\n| C) | Pasa por F₂ | Pasa por F₂ |\n| D) | Sigue paralelo a w | Pasa por F₂ |\n| E) | Sigue paralelo a w | Mantiene la dirección que tenía antes de incidir en la lente |",
+      "options": {
+        "a": "Rayo s: Cruza w entre la lente y F₂ | Rayo q: Mantiene la dirección que tenía antes de incidir en la lente",
+        "b": "Rayo s: Cruza w entre la lente y F₂ | Rayo q: Cruza w entre la lente y F₂",
+        "c": "Rayo s: Pasa por F₂ | Rayo q: Pasa por F₂",
+        "d": "Rayo s: Sigue paralelo a w | Rayo q: Pasa por F₂",
+        "e": "Rayo s: Sigue paralelo a w | Rayo q: Mantiene la dirección que tenía antes de incidir en la lente"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "El siguiente gráfico permite comparar las longitudes de onda de las ondas electromagnéticas S, Q, W, R y T, que se propagan en el vacío. [Gráfico de dispersión: eje vertical \"longitud de onda\", eje horizontal con las ondas S, Q, W, R, T en ese orden; los puntos muestran, de menor a mayor longitud de onda: T (el más bajo), S, R, Q, W (el más alto), formando un patrón no monótono]. ¿Cuál de las siguientes afirmaciones es correcta respecto de la información proporcionada en el gráfico?",
+      "options": {
+        "a": "Si T está en el infrarrojo, entonces W está en el ultravioleta.",
+        "b": "Si W está en el espectro visible, entonces Q también lo está.",
+        "c": "Si W corresponde al color rojo, entonces S, Q, R y T están en el infrarrojo.",
+        "d": "Si S corresponde al color violeta, entonces Q, W, R y T están en el espectro visible.",
+        "e": "Si W corresponde al color rojo y T al violeta, entonces S, Q y R son parte del espectro visible."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Una persona aplica una determinada fuerza inicial sobre un bloque de cierta masa. Luego, mide la distancia que alcanza a recorrer el bloque hasta detenerse. Si repite lo anteriormente realizado en superficies de distintos materiales, aplicando siempre la misma fuerza inicial, ¿cuál de las siguientes preguntas de investigación se responde con este experimento?",
+      "options": {
+        "a": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y el material de la superficie en que se desliza?",
+        "b": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y la distancia que alcanza a recorrer?",
+        "c": "¿Cuál es la relación entre la distancia recorrida por el bloque y el material de la superficie en que se desliza?",
+        "d": "¿Cuál es la relación entre la distancia recorrida por el bloque y su masa?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 8,
+      "content": "Dos cuerpos se mueven rectilíneamente en el mismo sentido con rapidez constante, pero diferente entre sí. Considerando que al inicio del registro ambos cuerpos están en el mismo punto, ¿cuál de los siguientes gráficos de posición X en función del tiempo t representa mejor el movimiento de ambos cuerpos? [Los cinco gráficos muestran X en función de t. A) dos segmentos de recta paralelos (igual pendiente) que parten de distintos instantes sobre el eje t. B) dos rectas que parten de un mismo punto sobre el eje X en t=0, con pendientes distintas, divergiendo. C) una única recta que parte del origen y cambia de pendiente en un punto intermedio. D) dos rectas con distinta pendiente que parten de puntos distintos sobre el eje X. E) dos segmentos horizontales (rapidez nula) ubicados a distintas alturas del eje X]",
+      "options": {
+        "a": "Dos segmentos de recta paralelos (misma pendiente) que parten de distintos instantes sobre el eje t.",
+        "b": "Dos rectas que parten de un mismo punto sobre el eje X en t = 0, con pendientes distintas entre sí.",
+        "c": "Una única recta que parte del origen y cambia de pendiente en un punto intermedio.",
+        "d": "Dos rectas con distinta pendiente que parten de puntos distintos sobre el eje X.",
+        "e": "Dos segmentos horizontales (rapidez nula) ubicados a distintas alturas del eje X."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "Un niño y una niña suben una escalera mecánica, que se encuentra detenida, con rapideces de 0,5 m/s y 1 m/s, respectivamente. ¿Cuál es la rapidez relativa entre los niños si los escalones de la escalera comienzan a moverse con una rapidez de 1 m/s?",
+      "options": {
+        "a": "2,5 m/s",
+        "b": "2,0 m/s",
+        "c": "1,5 m/s",
+        "d": "1,0 m/s",
+        "e": "0,5 m/s"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Considerando que G corresponde a la constante de gravitación universal, M a la masa de la Tierra y R a su radio, ¿cuál de las siguientes opciones expresa correctamente la magnitud de la aceleración con la que cae un objeto de masa m, cerca de la superficie de la Tierra, según la Ley de Gravitación Universal?",
+      "options": {
+        "a": "GM/R²",
+        "b": "Gm²/R²",
+        "c": "Gm/R",
+        "d": "GM/R",
+        "e": "GMm/R"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "Un grupo de personas realizó un experimento para investigar cuáles son los factores que afectan el número de oscilaciones de un resorte. Para ello, desde un resorte suspendieron un objeto de cierto peso y lo hicieron oscilar verticalmente. Con esto, determinaron el número total de oscilaciones completadas por el resorte durante 10 s. Los datos se muestran en la siguiente tabla:\n\n| | Intento 1 | Intento 2 | Intento 3 |\n|---|---|---|---|\n| Longitud natural del resorte | 69 cm | 30 cm | 30 cm |\n| Estiramiento del resorte | 15 cm | 8 cm | 15 cm |\n| Masa del objeto | 72 g | 72 g | 72 g |\n| Cantidad de oscilaciones durante 10 s | 30 | 45 | 45 |\n\nSegún los resultados presentados anteriormente, ¿cuál de las siguientes variables incide en la cantidad de oscilaciones del resorte?",
+      "options": {
+        "a": "La longitud natural del resorte",
+        "b": "El estiramiento del resorte",
+        "c": "La masa del objeto",
+        "d": "El peso del objeto"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Sobre una caja que se desliza con velocidad constante, en una superficie plana y horizontal, además de las fuerzas peso y normal actúan la fuerza de roce y una fuerza F paralela a la superficie. En el instante t₁ la superficie cambia de rugosidad, pero la caja continúa con la misma velocidad constante. Con esta información, ¿cuál de los siguientes gráficos de la magnitud de la fuerza F en función del tiempo es compatible con la situación descrita? [Los cinco gráficos muestran F en función de t con una línea vertical punteada en t₁. A) F crece linealmente, con un pequeño salto hacia arriba en t₁ y continúa creciendo. B) F es constante antes de t₁ y cae a un valor constante menor después de t₁ (escalón descendente). C) F es constante en todo momento, sin cambio en t₁. D) F decrece linealmente de forma continua, sin cambio brusco en t₁. E) F es creciente en tramos, con un salto discontinuo hacia abajo justo en t₁ y luego sigue creciendo]",
+      "options": {
+        "a": "F aumenta linealmente en el tiempo, con un pequeño salto hacia arriba en t₁ y sigue aumentando.",
+        "b": "F es constante antes de t₁ y cae a un valor constante menor inmediatamente después de t₁ (escalón descendente).",
+        "c": "F es constante durante todo el intervalo de tiempo, sin cambio en t₁.",
+        "d": "F decrece linealmente de forma continua, sin cambio brusco en t₁.",
+        "e": "F aumenta en tramos, con un salto discontinuo hacia abajo justo en t₁ y luego continúa aumentando."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "¿A qué se denomina epicentro de un sismo?",
+      "options": {
+        "a": "Al punto donde se registra la mayor magnitud del sismo.",
+        "b": "Al punto donde se registra la mayor intensidad del sismo.",
+        "c": "Al punto en el interior de la Tierra, donde se produce el sismo.",
+        "d": "Al punto en la superficie de la Tierra, donde el sismo provoca los mayores daños.",
+        "e": "Al punto en la superficie de la Tierra, ubicado verticalmente sobre el hipocentro."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Una persona mide los volúmenes de golillas y tornillos de metal antes de modificar su temperatura. Luego de calentar dichos objetos por un breve tiempo y registrar su temperatura, obtiene los volúmenes después del cambio de temperatura. ¿A qué componente de la investigación científica corresponde lo descrito anteriormente?",
+      "options": {
+        "a": "A un procedimiento experimental",
+        "b": "A una hipótesis experimental",
+        "c": "A una conclusión del estudio",
+        "d": "A un modelo experimental",
+        "e": "A un problema del estudio"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "Un bloque que se desplaza sobre una superficie horizontal con una rapidez constante de 12 m/s inicia el ascenso de un plano inclinado. Despreciando los efectos del roce y considerando la magnitud de la aceleración de gravedad igual a 10 m/s², ¿cuál es la altura máxima que alcanza el bloque al subir por el plano inclinado con respecto a la superficie horizontal?",
+      "options": {
+        "a": "7,2 m",
+        "b": "36,0 m",
+        "c": "72,0 m",
+        "d": "120,0 m",
+        "e": "144,0 m"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Un bloque de 12 kg se desliza sobre una superficie horizontal. En cierto instante su energía cinética es 600 J y en un instante posterior es 384 J. Si la magnitud de la aceleración de gravedad es 10 m/s², el coeficiente de roce cinético entre el piso y el bloque es 0,2 y las únicas fuerzas que actúan sobre el bloque son la fuerza de roce, la fuerza peso y la fuerza normal, ¿qué distancia recorre el bloque entre estos dos instantes?",
+      "options": {
+        "a": "4,5 m",
+        "b": "9,0 m",
+        "c": "16,0 m",
+        "d": "25,0 m",
+        "e": "41,0 m"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "A continuación se proporcionan registros de eventos sísmicos en Chile, cuyas magnitudes se encuentran entre 7,1 y 8,4.\n\n| Fecha (UTC) | Latitud (°) | Longitud (°) | Profundidad (km) | Magnitud |\n|---|---|---|---|---|\n| 2014-04-03 02:43:15 | -20,52 | -70,44 | 28 | 7,6 |\n| 2014-04-01 23:46:45 | -19,57 | -70,91 | 39 | 8,2 |\n| 2015-09-16 23:18:35 | -31,59 | -71,79 | 16 | 7,6 |\n| 2015-09-16 22:54:28 | -31,55 | -71,86 | 11 | 8,4 |\n| 2015-09-16 22:59:15 | -31,62 | -71,75 | 27 | 7,1 |\n| 2016-12-25 14:22:23 | -43,52 | -74,39 | 30 | 7,6 |\n\n¿Cuál de las siguientes afirmaciones es correcta a partir de la información proporcionada?",
+      "options": {
+        "a": "La latitud de los sismos posteriores a 2016 sigue aumentando progresivamente.",
+        "b": "La magnitud está relacionada con la hora en que sucedió el sismo, entre 2014 y 2016.",
+        "c": "Debió ocurrir al menos un sismo de magnitud entre 7,1 a 8,4 durante 2013 en Chile.",
+        "d": "La magnitud de un sismo es independiente de la profundidad a la que se origina, entre 2014 y 2016.",
+        "e": "La profundidad en que ocurrió un sismo entre 2014 y 2016 es directamente proporcional a la coordenada de longitud."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Un cubo de hielo de 100 g a -5 °C se introduce en un recipiente térmicamente aislado, el que contiene 900 g de agua líquida a 25 °C. Si después de derretirse todo el hielo se alcanza una temperatura de equilibrio de 14 °C y el calor específico del agua líquida es 1 cal/(g·°C), ¿cuál es la cantidad de calor absorbido por los 100 g de agua que inicialmente eran hielo?",
+      "options": {
+        "a": "17100 cal",
+        "b": "9900 cal",
+        "c": "8800 cal",
+        "d": "1900 cal",
+        "e": "500 cal"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "Por error, un grupo de estudiantes mueve un tejido vegetal proveniente de una hoja desde un medio isotónico a un medio hipertónico. ¿Qué fenómeno experimentarán estas células?",
+      "options": {
+        "a": "Plasmólisis",
+        "b": "Turgencia",
+        "c": "Crenación",
+        "d": "Apoptosis",
+        "e": "Citólisis"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Si una célula posee gran cantidad de retículo endoplasmático liso, ¿cuál de las siguientes funciones se puede asociar directamente a esta célula?",
+      "options": {
+        "a": "Síntesis de proteínas",
+        "b": "Glicosilación de proteínas",
+        "c": "Síntesis de unidades ribosomales",
+        "d": "Detoxificación celular",
+        "e": "Absorción de sustancias"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 21,
+      "content": "El gráfico muestra los niveles plasmáticos de la hormona luteinizante (LH) en tres grupos de mujeres sanas de entre 18 y 22 años de edad, con ciclos ováricos de 28 días. [Gráfico de barras: eje vertical \"Nivel plasmático de LH (u.a.)\", eje horizontal con Grupo 1, Grupo 2 y Grupo 3; el Grupo 1 muestra un nivel bajo, el Grupo 2 muestra un nivel notablemente más alto (pico), y el Grupo 3 muestra un nivel bajo similar al Grupo 1]. Sabiendo que el grupo 1 corresponde a mujeres en el día 10 del ciclo, ¿cuál de las siguientes opciones es una inferencia correcta?",
+      "options": {
+        "a": "Las mujeres del grupo 1 están en sus días fértiles.",
+        "b": "Las mujeres del grupo 2 están ovulando.",
+        "c": "Las mujeres del grupo 1 están menstruando.",
+        "d": "Las mujeres del grupo 2 están menstruando.",
+        "e": "Las mujeres del grupo 3 están ovulando."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Un investigador está realizando un estudio sobre diabetes tipo 1, para lo cual plantea una serie de preguntas con el fin de confeccionar un cuestionario que aplicará a personas con esta condición. ¿Cuál de las siguientes preguntas generaría datos que pueden ser analizados solo de manera cualitativa?",
+      "options": {
+        "a": "¿Qué porcentaje de tus familiares presenta diabetes tipo 1?",
+        "b": "¿Cuántas veces al día te inyectas insulina?",
+        "c": "¿Cuáles son los valores de glicemia que registras en ayuno?",
+        "d": "¿Cómo afecta la diabetes a tu estado de ánimo?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Los gráficos muestran los efectos de una única inyección de un análogo de la hormona liberadora de gonadotrofinas (GnRH) sobre la liberación de gametos en machos y hembras, en cierta especie de pez. [Dos gráficos de barras comparando \"Análogo GnRH\" (barras oscuras) versus \"Control\" (barras claras) en función del \"Tiempo posinyección (horas)\" (0, 12, 24 y 48 h): el gráfico izquierdo \"Hembras que desovan (%)\" muestra 0% en 0 y 12 h, y aproximadamente 50% (Análogo) vs 5% (Control) en 24 y 48 h. El gráfico derecho \"Machos que eyaculan (%)\" muestra aproximadamente 40% (Análogo) vs 0% (Control) en 0 h, 80% vs 18% en 12 h, 75% vs 15% en 24 h y 78% vs 12% en 48 h]. Del análisis de los gráficos, ¿cuál de las siguientes afirmaciones es correcta con relación al análogo de la GnRH?",
+      "options": {
+        "a": "Triplica la liberación de gametos respecto de los controles en ambos sexos.",
+        "b": "Produce su máximo efecto 24 horas después de su inyección en ambos sexos.",
+        "c": "En machos, los efectos ocurren en menor tiempo que en hembras.",
+        "d": "En hembras presenta un efecto inhibitorio en las primeras 12 horas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "El siguiente esquema representa dos mecanismos de regulación del sistema endocrino humano: [Diagrama de flujo: \"Hipófisis\" se ramifica en dos vías. Vía 1: Hipófisis --Hormona 1(+)--> \"Glándula endocrina X\" --Hormona 2(+)--> \"Tejidos\" --> \"Efectos\". Vía 2: Hipófisis --Hormona 3(+)--> \"Glándula exocrina Z\" --> \"Efecto\"]. ¿Cuál de las siguientes hormonas se ajusta al mecanismo de regulación ejercido por la hormona 1?",
+      "options": {
+        "a": "Prolactina",
+        "b": "Estrógenos",
+        "c": "Progesterona",
+        "d": "Foliculoestimulante"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "A partir de la investigación del sistema endocrino se han desarrollado múltiples alternativas que permiten el control de la natalidad. Una de estas corresponde a los métodos hormonales combinados, que operan mediante retroalimentación negativa. Al respecto, ¿cuál es el mecanismo de acción de estos métodos?",
+      "options": {
+        "a": "Inhibir la movilidad de los espermatozoides.",
+        "b": "Impedir la liberación del ovocito.",
+        "c": "Favorecer la maduración de los gametos.",
+        "d": "Inducir la muerte de los gametos.",
+        "e": "Modificar el pH vaginal."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "El siguiente esquema representa una célula en división meiótica: [Figura ovalada representando una célula, con estructuras en forma de mariposa (grupos de cromátidas) ubicadas en dos polos opuestos de la célula, cada polo con dos pares de cromátidas separadas, unidas por fibras del huso que convergen en los extremos de la célula]. ¿Qué etapa de la meiosis está representada?",
+      "options": {
+        "a": "Anafase I",
+        "b": "Telofase I",
+        "c": "Metafase II",
+        "d": "Profase II",
+        "e": "Telofase II"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "En la piel de la especie humana (cariotipo de 46 cromosomas), las células poseen una alta tasa de recambio, la cual está mediada por la presencia de células troncales epidermales. Estas células residen en la lámina basal de la epidermis y son las únicas mitóticamente activas. Al respecto, ¿cuántas cromátidas presentaría una célula troncal epidermal en etapa de metafase mitótica?",
+      "options": {
+        "a": "22",
+        "b": "23",
+        "c": "44",
+        "d": "46",
+        "e": "92"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "En la siguiente figura se muestra el cariograma de un mamífero: [Cariograma con 18 pares de cromosomas homólogos numerados del 1 al 18 (cada par visualmente similar en tamaño y forma dentro del par), más un cromosoma X grande y un cromosoma Y pequeño, no apareados entre sí, indicando un organismo con sexo XY]. Basándose en el análisis de este cariograma, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "Los gametos producidos por este mamífero presentan 20 autosomas.",
+        "b": "Este mamífero tiene 19 pares de autosomas.",
+        "c": "Las células somáticas de este mamífero tienen 38 cromosomas.",
+        "d": "Ambos cromosomas sexuales fueron aportados por uno de los progenitores del mamífero.",
+        "e": "Este mamífero presenta mutaciones en los cromosomas 13, 14 y 15."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "En las poblaciones humanas, la estatura es un rasgo de variación continua, de tal manera que la mayor parte de la población tiene valores de estatura cercanos al promedio y las estaturas extremas (muy bajas o muy altas) son poco frecuentes. ¿Cuál de los siguientes gráficos representa de manera correcta la distribución de estaturas en las poblaciones humanas? [Cuatro gráficos de N° de individuos (eje vertical) en función de Estatura (eje horizontal). A) forma de meseta: nivel constante, luego sube a una meseta más alta, y desciende. B) forma bimodal, con dos picos separados. C) forma de \"U\" o valle: alto en los extremos y bajo en el centro. D) curva acampanada (forma de campana), simétrica, con un único pico central]",
+      "options": {
+        "a": "Distribución en forma de meseta escalonada: nivel constante, sube a una meseta más alta y luego desciende.",
+        "b": "Distribución bimodal, con dos picos separados por un valle.",
+        "c": "Distribución en forma de \"U\": valores altos en ambos extremos y un mínimo en el centro.",
+        "d": "Distribución en forma de campana simétrica, con un único pico central (curva normal)."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "La figura representa la herencia de un rasgo. [Árbol genealógico: Generación I: dos parejas, cada una formada por un círculo (mujer) no afectado y un cuadrado (hombre) afectado (relleno). Generación II: los hijos de la pareja 1 son un círculo no afectado, un cuadrado no afectado y un círculo no afectado (este último se une en matrimonio con un cuadrado no afectado, hijo de la pareja 2); los hijos de la pareja 2 son un cuadrado no afectado y un círculo afectado (relleno). Generación III: la unión entre el círculo y el cuadrado no afectados de la generación II tiene cuatro hijos: un círculo afectado (relleno), dos cuadrados no afectados y un cuadrado afectado (relleno)]. De acuerdo con la figura, ¿qué tipo de herencia presenta este rasgo?",
+      "options": {
+        "a": "Autosómica dominante",
+        "b": "Autosómica recesiva",
+        "c": "Dominante ligada al cromosoma X",
+        "d": "Ligada al cromosoma Y"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "En sistemas altamente productivos, como los arrecifes de coral del océano Pacífico, se han descubierto ecosistemas con pirámides de biomasa invertida. Estos contrastan con la visión clásica, donde los productores presentan los mayores valores de biomasa. Al respecto, ¿en cuál de las siguientes situaciones se produce una pirámide de biomasa invertida?",
+      "options": {
+        "a": "Cuando existe mayor abundancia relativa de presas que depredadores.",
+        "b": "Cuando los herbívoros presentan una baja eficiencia de consumo.",
+        "c": "Cuando los productores experimentan elevadas tasas de recambio.",
+        "d": "Cuando existe una alta tasa de extracción de productores.",
+        "e": "Cuando los productores son de gran tamaño."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Para escapar de sus depredadores, algunos crustáceos se refugian en el interior de las esponjas, las que no se ven perjudicadas ni beneficiadas con esta estrategia. De acuerdo con esta información, ¿qué tipo de interacción se establece entre estos crustáceos y las esponjas que los albergan?",
+      "options": {
+        "a": "Simbiosis",
+        "b": "Comensalismo",
+        "c": "Mutualismo",
+        "d": "Competencia",
+        "e": "Parasitismo"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "En el gráfico se representa la variación de la velocidad fotosintética de la especie vegetal Prosopis tamarugo en función de la intensidad de la luz, en dos condiciones de riego. [Gráfico de velocidad fotosintética (u.a.) en función de intensidad de la luz (u.a.): dos curvas que parten del origen y aumentan hasta estabilizarse en una meseta (saturación); la curva \"Riego habitual\" alcanza una meseta más alta que la curva \"Menor riego\" (línea segmentada), y ambas crecen de forma similar a bajas intensidades de luz]. De acuerdo con los datos del gráfico, ¿cuál de las siguientes opciones describe correctamente la relación entre la velocidad fotosintética del tamarugo, la intensidad de la luz y el riego?",
+      "options": {
+        "a": "Cuando hay menor riego, la velocidad fotosintética se reduce, aproximadamente, a la mitad a medida que aumenta la intensidad de la luz.",
+        "b": "Cuando hay menor riego, la velocidad fotosintética aumenta, aproximadamente, al doble a medida que disminuye la intensidad de la luz.",
+        "c": "Independiente del volumen de riego y de la intensidad de la luz, la velocidad fotosintética es constante.",
+        "d": "Cuando el riego es habitual, la velocidad fotosintética aumenta exponencialmente a medida que se incrementa la intensidad de la luz.",
+        "e": "Cuando hay menor riego, la velocidad fotosintética disminuye de manera constante a medida que aumenta la intensidad de la luz."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "El siguiente esquema representa una cadena trófica constituida por tres niveles y compuesta de especies que habitan un ecosistema terrestre: [Diagrama de flujo con flechas: V apunta hacia W, V apunta hacia X, V apunta hacia Y; X apunta hacia W; X apunta hacia Z. Es decir, V es la base del esquema (nivel 1), X se ubica en un nivel intermedio (nivel 2, alimentándose de V), W recibe flechas de V y de X, Y recibe flecha solo de V, y Z recibe flecha solo de X]. Al respecto, ¿a cuál de los siguientes tipos de organismos correspondería la especie Z?",
+      "options": {
+        "a": "Bacterias autótrofas",
+        "b": "Plantas",
+        "c": "Herbívoros",
+        "d": "Carnívoros",
+        "e": "Protista autótrofo"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "Con la finalidad de conocer el estado de conservación de una especie de ave costera, se propone evaluar su densidad poblacional en el área que comprende su rango de distribución en Chile. Al respecto, ¿qué variables se requieren conocer para determinar la densidad poblacional de esta especie?",
+      "options": {
+        "a": "El número de individuos y su tasa de natalidad.",
+        "b": "El tamaño poblacional y el número de especies de la comunidad.",
+        "c": "El área ocupada por la población y la tasa de mortalidad de esta.",
+        "d": "El número de individuos de una población y la superficie ocupada por esta.",
+        "e": "La superficie ocupada por la población y la biodiversidad existente en la zona."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Los gráficos muestran la localización de tres especies de aves (1, 2 y 3) en cuatro islas (W, X, Y y Z), cuando habitan las tres al mismo tiempo en una isla, solo dos de ellas (1 y 2) y cuando estas últimas habitan en solitario una isla. [Cuatro histogramas de \"Frecuencia de los individuos por tamaño\" en función del \"Ambiente\" (dividido en Área de la costa, Bosque abierto y Bosque cerrado lluvioso): Isla W muestra las tres especies coexistiendo, cada una ocupando una franja distinta del eje ambiente (Especie 1 en área de costa, Especie 2 en bosque abierto, Especie 3 en bosque cerrado lluvioso), sin solaparse. Isla X muestra las especies 1 y 2 coexistiendo, con la Especie 2 ocupando un rango más amplio de ambientes (desplazándose hacia el bosque cerrado). Isla Y muestra solo la Especie 2 en solitario, ocupando un rango amplio centrado en el área de costa/bosque abierto. Isla Z muestra solo la Especie 1 en solitario, ocupando un rango concentrado en el área de la costa]. A partir de los gráficos, ¿cuál de las siguientes opciones es una conclusión correcta acerca de estas aves?",
+      "options": {
+        "a": "Las tres especies pueden habitar en solitario una isla.",
+        "b": "Las tres especies mantienen su distribución espacial cuando compiten.",
+        "c": "Las especies no compiten por el recurso espacio en las distintas islas.",
+        "d": "Las especies presentes en las islas Z e Y son las mejores competidoras.",
+        "e": "Las especies cambian su distribución espacial al haber menos especies en la isla."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "Los electrones son entidades que forman parte del átomo. ¿Cuál de las siguientes características corresponde a los electrones?",
+      "options": {
+        "a": "Tienen una masa mayor que la del neutrón.",
+        "b": "Tienen carga eléctrica positiva.",
+        "c": "Giran alrededor del núcleo.",
+        "d": "Se encuentran en el centro del átomo.",
+        "e": "Tienen una masa mayor que la del protón."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 38,
+      "content": "En el año 1869, Dimitri Mendeleiev propuso una clasificación de los elementos basada en la repetición periódica de sus propiedades, cuando se ordenan de menor a mayor masa atómica. De acuerdo con la siguiente información para tres elementos hipotéticos,\n\n| Elementos | Cantidad de neutrones | Cantidad de protones |\n|---|---|---|\n| X | 76 | 52 |\n| Z | 74 | 53 |\n| T | 71 | 51 |\n\n¿cuál es el orden correcto de los elementos, según la clasificación de Mendeleiev?",
+      "options": {
+        "a": "X – Z – T",
+        "b": "T – X – Z",
+        "c": "T – Z – X",
+        "d": "X – T – Z",
+        "e": "Z – X – T"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "A continuación se muestran cuatro compuestos binarios hipotéticos y el tipo de compuesto al que corresponden:\n\nR₂Y: iónico\nXY₂: covalente apolar\nXZ₄: covalente apolar\nYZ₂: covalente polar\n\n¿Cuál de los siguientes esquemas representa adecuadamente la ubicación de los elementos, que forman los compuestos, en el sistema periódico? [Cinco esquemas de tabla periódica (A-E) mostrando distintas ubicaciones para R, X, Y, Z. En general R se ubica en el bloque de metales alcalinos (extremo izquierdo) y X, Y, Z se ubican contiguos en el bloque de no metales (extremo superior derecho), variando entre las opciones la fila/período exacto en que se ubican R y el grupo de X, Y, Z]",
+      "options": {
+        "a": "R en el grupo de metales alcalinos (período inferior); X, Y, Z contiguos en el bloque de no metales, en un período superior.",
+        "b": "R en el grupo de metales alcalinos (período inferior); X ubicado en un período distinto y superior a Y y Z, los cuales están contiguos.",
+        "c": "R en el grupo de metales alcalinos (período superior); X, Y, Z contiguos en el bloque de no metales, en el mismo período que R.",
+        "d": "R en la esquina superior derecha (gases nobles); X, Y, Z contiguos en un período inferior del bloque de no metales.",
+        "e": "R en el grupo de metales alcalinos (período superior); X, Y, Z contiguos en el bloque de no metales, en un período inferior."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Antes de realizar una práctica de laboratorio, dos estudiantes sostienen la siguiente conversación:\n\nEstudiante 1: Si se reemplaza un átomo de hidrógeno en el metano por un átomo de cloro, entonces la molécula debería ser polar.\n\nEstudiante 2: Sí, puede ser, ya que el cloro es más electronegativo que el hidrógeno.\n\nA partir de lo anterior, ¿a qué corresponde lo planteado por el Estudiante 1?",
+      "options": {
+        "a": "A un procedimiento",
+        "b": "A una hipótesis",
+        "c": "A una teoría",
+        "d": "A una observación"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "La siguiente estructura representa un compuesto orgánico: [Modelo de bolas y varillas: un átomo de carbono terminal (bola negra) unido a un átomo de oxígeno (bola con textura punteada) y a un átomo de hidrógeno, enlazado a una cadena de dos carbonos adicionales (cada uno con sus hidrógenos, bolas blancas), la cual se une a un anillo de seis carbonos (anillo bencénico) con hidrógenos en las posiciones restantes del anillo. Simbología: bola negra = Carbono, bola punteada = Oxígeno, bola blanca = Hidrógeno]. Al respecto, ¿cuál de las siguientes opciones corresponde a la clasificación del compuesto?",
+      "options": {
+        "a": "Aldehído",
+        "b": "Cetona",
+        "c": "Alcohol",
+        "d": "Éster",
+        "e": "Ácido carboxílico"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "En condiciones adecuadas, la propanona se transforma en 2-propanol. Al respecto, ¿cuál es el cambio de hibridación que experimenta el átomo de carbono unido al átomo de oxígeno?",
+      "options": {
+        "a": "Desde sp³ a sp²",
+        "b": "Desde sp² a sp³",
+        "c": "Desde sp a sp²",
+        "d": "Desde sp³ a sp",
+        "e": "Desde sp² a sp"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "El siguiente compuesto químico es utilizado como fungicida: [Estructura de un anillo bencénico con un grupo -OH en la posición superior (posición 1), y tres átomos de Br: uno en la posición izquierda adyacente al OH (posición orto/2), otro en la posición derecha adyacente al OH (posición orto/6), y otro en la posición inferior opuesta (posición para/4)]. Al respecto, ¿cuál de las siguientes opciones presenta el nombre correcto de este compuesto?",
+      "options": {
+        "a": "1,3,5-tribromobenzaldehído",
+        "b": "2,4,6-tribromociclohexanol",
+        "c": "1,3,5-tribromociclohexano",
+        "d": "2,4,6-tribromofenol",
+        "e": "Ácido bromobenzoico"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "El butanoato de etilo es utilizado para potenciar el aroma del jugo de naranja procesado. Al respecto, ¿cuál de las siguientes opciones corresponde a dicho compuesto? [Cinco estructuras esqueléticas (A-E). A) cadena de propilo unida a un grupo carbonilo (C=O) y a un átomo de oxígeno tipo éster conectado a un grupo etilo (estructura de un éster de cadena corta: butanoato de etilo). B) cadena más larga (pentanoílo) con grupo carbonilo y enlace a O-etilo tipo éster, con mayor número de carbonos en la cadena principal. C) cadena simétrica con un grupo carbonilo (C=O) en el centro, sin átomo de oxígeno adicional tipo éster (una cetona). D) cadena con un átomo de oxígeno tipo éter en medio de la cadena, sin grupo carbonilo (un éter). E) cadena ramificada con grupo carbonilo (C=O) desplazado hacia un extremo y una ramificación adicional (una cetona ramificada)]",
+      "options": {
+        "a": "Estructura de un éster de cadena corta (cadena propilo–C(=O)–O–etilo): butanoato de etilo.",
+        "b": "Estructura de un éster de cadena más larga (cadena pentanoílo–C(=O)–O–etilo).",
+        "c": "Estructura de una cetona simétrica, con el grupo carbonilo (C=O) en el centro de la cadena.",
+        "d": "Estructura de un éter, con un átomo de oxígeno en medio de la cadena y sin grupo carbonilo.",
+        "e": "Estructura de una cetona ramificada, con el grupo carbonilo (C=O) desplazado hacia un extremo."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "Los restaurantes de comida rápida sirven las bebidas gaseosas a una temperatura inferior a los 5 °C y adicionan hielo picado en los vasos con el fin de mantener baja la temperatura de las gaseosas por mayor tiempo, de esta forma se aseguran que el gas (CO₂) esté disuelto en el líquido por mayor tiempo. A partir de lo anterior, ¿cuál de las siguientes preguntas de investigación permite relacionar correctamente las variables descritas?",
+      "options": {
+        "a": "¿Cuál es el efecto del estado físico del hielo en el comportamiento de un gas en una solución?",
+        "b": "¿Cómo afecta el tiempo de disolución del gas a la temperatura de un líquido?",
+        "c": "¿Cuál es la relación entre la temperatura de un gas y la del hielo agregado a una solución?",
+        "d": "¿Cómo influye la temperatura en el comportamiento de un gas en solución?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Cuando masas conocidas de X e Y reaccionan completamente, originan dos productos (etapa I): un compuesto W en estado sólido y un compuesto Z en estado gaseoso. El compuesto W se aísla para determinar su masa y el compuesto Z se recupera a través de la etapa II, para determinar su masa. El proceso completo se muestra en el siguiente diagrama: [Diagrama: \"X + Y\" --Etapa I--> \"W (s)\" + \"Z (g)\"; luego \"Z (g)\" --Etapa II--> \"Z (s)\"]. De acuerdo con lo anterior, ¿cuál de las siguientes leyes se demuestra con el proceso completo?",
+      "options": {
+        "a": "La conservación de la masa",
+        "b": "Las proporciones definidas",
+        "c": "Las proporciones múltiples",
+        "d": "Las proporciones recíprocas",
+        "e": "Los volúmenes de combinación"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "En la molécula de agua (H₂O) siempre existe una relación en masa de un 11,2 % de hidrógeno y un 88,8 % de oxígeno. ¿A qué ley hace referencia lo anterior?",
+      "options": {
+        "a": "A la ley de las proporciones múltiples",
+        "b": "A la ley de las proporciones recíprocas",
+        "c": "A la ley de las proporciones definidas",
+        "d": "A la ley de la conservación de la masa",
+        "e": "A la ley de los volúmenes de combinación"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Cuando se calientan 168 g de bicarbonato de sodio (NaHCO₃) se obtienen 106 g de carbonato de sodio (Na₂CO₃) como producto. Por la ley de conservación de la masa se puede apreciar el desprendimiento, como gases, de 62 g de producto. Mediante un análisis, es posible determinar que están involucradas dos especies gaseosas, de las cuales una de ellas es agua (H₂O). Al respecto, es posible afirmar que la segunda especie corresponde a",
+      "options": {
+        "a": "CO",
+        "b": "CO₂",
+        "c": "H₂O₂",
+        "d": "H₂CO₃",
+        "e": "NaOH"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "¿Cuál de las siguientes opciones presenta los coeficientes estequiométricos que permiten equilibrar la ecuación?\n\nCH₃OH + O₂ → CO₂ + H₂O\n\n| | CH₃OH | O₂ | CO₂ | H₂O |\n|---|---|---|---|---|\n| A) | 2 | 3 | 2 | 4 |\n| B) | 2 | 1 | 2 | 1 |\n| C) | 1 | 2 | 1 | 2 |\n| D) | 1 | 3 | 1 | 4 |\n| E) | 1 | 1 | 1 | 2 |",
+      "options": {
+        "a": "CH₃OH = 2 | O₂ = 3 | CO₂ = 2 | H₂O = 4",
+        "b": "CH₃OH = 2 | O₂ = 1 | CO₂ = 2 | H₂O = 1",
+        "c": "CH₃OH = 1 | O₂ = 2 | CO₂ = 1 | H₂O = 2",
+        "d": "CH₃OH = 1 | O₂ = 3 | CO₂ = 1 | H₂O = 4",
+        "e": "CH₃OH = 1 | O₂ = 1 | CO₂ = 1 | H₂O = 2"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "En la figura se muestran las sustancias involucradas en una determinada reacción (no reversible) y la cantidad inicial de reactantes para formar un producto: [Recuadro \"Mezcla inicial de reactantes\" con varios círculos negros grandes (un tipo de reactante) y varios pares de círculos blancos pequeños unidos (otro tipo de reactante). Recuadro \"Simbología\": un par de círculos blancos pequeños unidos y un círculo negro grande, ambos agrupados bajo la llave \"Reactantes\"; y un círculo negro rodeado de varios círculos blancos pequeños (formación tipo flor), etiquetado \"Producto\"]. Al respecto, ¿cuál de los siguientes esquemas corresponde a la cantidad máxima de sustancias al término de la reacción? [Cinco recuadros (A-E) muestran distintas combinaciones de moléculas de \"Producto\" (círculo negro rodeado de círculos blancos) junto con reactantes sobrantes, variando la cantidad de cada uno]",
+      "options": {
+        "a": "Combinación con determinada cantidad de moléculas de producto y de reactantes sobrantes (opción A del esquema).",
+        "b": "Combinación con determinada cantidad de moléculas de producto y de reactantes sobrantes (opción B del esquema).",
+        "c": "Combinación con determinada cantidad de moléculas de producto y de reactantes sobrantes (opción C del esquema).",
+        "d": "Combinación con determinada cantidad de moléculas de producto y de reactantes sobrantes (opción D del esquema).",
+        "e": "Combinación con determinada cantidad de moléculas de producto y de reactantes sobrantes (opción E del esquema)."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "En un laboratorio, a 25 °C, se prepararon diferentes soluciones acuosas de concentración 1 mol/L, a partir de las siguientes sustancias: NaCl, C₆H₁₂O₆, CH₃COOH y HNO₃. Posteriormente, se introdujeron al interior de las soluciones los electrodos de un dispositivo para registrar conductividad, tal como se muestra en la siguiente figura: [Figura: un circuito con una batería, un amperímetro y dos electrodos de grafito sumergidos en un vaso de precipitado con la solución]. ¿Cuál es la pregunta de investigación que se desea resolver mediante el procedimiento experimental descrito anteriormente?",
+      "options": {
+        "a": "¿Cómo afecta la concentración a la conductividad eléctrica de las soluciones?",
+        "b": "¿Qué relación existe entre la conductividad eléctrica de una solución y el tipo de soluto disuelto en ella?",
+        "c": "¿Qué relación existe entre la conductividad eléctrica de las soluciones y la distancia entre los electrodos?",
+        "d": "¿Cómo afecta la temperatura de las soluciones a la conductividad eléctrica de las soluciones?",
+        "e": "¿Qué relación existe entre la temperatura, la concentración y la conductividad eléctrica de las soluciones?"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Para determinar experimentalmente la polaridad de dos líquidos incoloros (1 y 2) e inmiscibles entre ellos, en donde el líquido 1 está en el fondo del vaso y el líquido 2 se ubica sobre el líquido 1, se realizan, bajo las mismas condiciones y con iguales volúmenes de los líquidos, las siguientes experiencias:\n\nExperiencia 1: se agrega un sólido coloreado de naturaleza apolar y se observa que el líquido 2 se colorea y que el líquido 1 permanece incoloro. [Figura: vaso con líquido 2 arriba y líquido 1 abajo; tras agregar el sólido, el líquido 2 se tiñe de oscuro].\n\nExperiencia 2: se agrega un sólido coloreado de naturaleza polar y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro. [Figura similar: el líquido 1 se tiñe de oscuro].\n\nExperiencia 3: se agrega un sólido coloreado de naturaleza iónica y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro. [Figura similar: el líquido 1 se tiñe de oscuro].\n\nCon respecto a lo anterior, ¿cuál de las siguientes opciones de respuesta señala correctamente la clasificación de los líquidos 1 y 2 estudiados?\n\n| | Líquido 1 | Líquido 2 |\n|---|---|---|\n| A) | Polar | Iónico |\n| B) | Apolar | Polar |\n| C) | Polar | Apolar |\n| D) | Iónico | Polar |\n| E) | Apolar | Apolar |",
+      "options": {
+        "a": "Líquido 1: Polar | Líquido 2: Iónico",
+        "b": "Líquido 1: Apolar | Líquido 2: Polar",
+        "c": "Líquido 1: Polar | Líquido 2: Apolar",
+        "d": "Líquido 1: Iónico | Líquido 2: Polar",
+        "e": "Líquido 1: Apolar | Líquido 2: Apolar"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Un grupo de investigadores descubrió una enzima \"devora suciedad\" en el estómago del krill, un diminuto crustáceo que habita en los mares australes. Las enzimas empleadas en los detergentes convencionales comienzan a \"trabajar\" cuando el agua bordea los 50 °C; no obstante, la que hallaron estos investigadores lo hace a los 20 °C. Actualmente, se encuentran estudiando métodos biotecnológicos para producir esta enzima, denominada \"Juanasa\", fácilmente y a gran escala; de otra manera, sería imposible obtener un producto comercial. En relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente un impacto directo de la utilización de esta enzima en términos de protección medioambiental?",
+      "options": {
+        "a": "Reducción de la utilización de energía para calentar el agua a 50 °C y así promover el ahorro de la misma.",
+        "b": "Aumento de la fabricación de lavadoras automáticas que funcionen con detergentes más efectivos en la eliminación de la suciedad.",
+        "c": "Aumento en la explotación del krill como materia prima para la obtención de la Juanasa.",
+        "d": "Reducción de la utilización de agua debido a la elevada actividad de la Juanasa a bajas temperaturas, promoviendo así su ahorro."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Si a 50 mL de una solución de concentración X mol/L se agregan 150 mL de agua, considerando volúmenes aditivos, ¿cuál es la concentración de la solución resultante?",
+      "options": {
+        "a": "3X mol/L",
+        "b": "X mol/L",
+        "c": "X/2 mol/L",
+        "d": "X/3 mol/L",
+        "e": "X/4 mol/L"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "¿Cuál de los siguientes fenómenos permite que un radar determine la rapidez de un objeto?",
+      "options": {
+        "a": "Difracción",
+        "b": "Refracción",
+        "c": "Resonancia",
+        "d": "Interferencia",
+        "e": "Efecto Doppler"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "Un emisor de sonido se encuentra en la posición y = 0 m y un receptor de este sonido en y = 120 m, ambos en reposo con respecto al suelo. Estando fijo el emisor, el receptor comienza a moverse cambiando su rapidez y manteniendo su sentido de movimiento, en todo momento, hasta detenerse en y = 60 m. Mientras el receptor se mueve, ¿cuál de las siguientes afirmaciones respecto del tiempo que transcurre entre la captación de frentes de onda consecutivos por parte del receptor es correcta?",
+      "options": {
+        "a": "Es constante y menor que cuando está en reposo.",
+        "b": "Es constante y mayor que cuando está en reposo.",
+        "c": "Es variable y menor que cuando está en reposo.",
+        "d": "Es variable y mayor que cuando está en reposo.",
+        "e": "Se mantiene igual que cuando está en reposo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "La siguiente figura representa una placa de vidrio P rodeada de aire, sobre la que incide un rayo de luz monocromática R: [Figura: un rectángulo P (placa de vidrio) con un rayo R incidiendo desde arriba a la izquierda en ángulo hacia la cara superior de la placa]. Si R' es el rayo de luz que emerge por la cara opuesta de la placa y la línea segmentada corresponde a la prolongación del rayo incidente R, ¿cuál de las siguientes figuras representa mejor al rayo R'? [Cinco opciones (A-E) muestran el rayo R' emergiendo de la cara inferior de la placa con distintos grados de desplazamiento lateral respecto de la prolongación segmentada del rayo incidente: en las opciones el rayo R' emerge paralelo a la dirección original pero desplazado lateralmente en distinta magnitud, siendo E la que representa el desplazamiento paralelo correcto según la refracción en una lámina de caras paralelas]",
+      "options": {
+        "a": "R' emerge paralelo a la dirección original con un desplazamiento lateral menor al mostrado en las demás opciones.",
+        "b": "R' emerge con una dirección distinta a la del rayo incidente, sin mantener el paralelismo.",
+        "c": "R' emerge coincidiendo exactamente con la prolongación del rayo incidente, sin desplazamiento lateral.",
+        "d": "R' emerge paralelo a la dirección original con un desplazamiento lateral intermedio.",
+        "e": "R' emerge paralelo a la dirección original del rayo incidente, con el desplazamiento lateral característico de la refracción en una lámina de caras paralelas."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "En el espectro visible se considera que el rojo tiene un rango de longitud de onda entre 6,18×10⁻⁷ m y 7,80×10⁻⁷ m, mientras que el violeta tiene un rango de longitud de onda entre 3,80×10⁻⁷ m y 4,27×10⁻⁷ m. Si c es la rapidez de la luz en el vacío, ¿cuál de los siguientes pares de frecuencias está dentro del espectro visible?",
+      "options": {
+        "a": "c/(8,0×10⁻⁷) Hz y c/(4,3×10⁻⁷) Hz",
+        "b": "c/(7,9×10⁻⁷) Hz y c/(3,7×10⁻⁷) Hz",
+        "c": "c/(6,1×10⁻⁷) Hz y c/(4,3×10⁻⁷) Hz",
+        "d": "c/(5,1×10⁻⁷) Hz y c/(3,7×10⁻⁷) Hz",
+        "e": "c/(8,0×10⁻⁷) Hz y c/(3,9×10⁻⁷) Hz"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "Una onda sonora de 600 Hz se propaga por un medio X con una rapidez de 300 m/s y luego pasa a un medio Y donde su rapidez es 1500 m/s. Si λx y λy son las longitudes de onda de esta onda en los medios X e Y, respectivamente, ¿cuál es el valor de la razón λx/λy?",
+      "options": {
+        "a": "0,20",
+        "b": "0,40",
+        "c": "0,50",
+        "d": "1,25",
+        "e": "2,00"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Un objeto transparente de índice de refracción (3/2)n, se ilumina con un haz de luz monocromática que tiene una longitud de onda λ₀ en un medio con índice de refracción n. Al respecto, ¿cuál es la longitud de onda del haz de luz mientras se propaga en el objeto?",
+      "options": {
+        "a": "(5/3)λ₀",
+        "b": "λ₀",
+        "c": "(2/3)λ₀",
+        "d": "(1/2)λ₀",
+        "e": "(1/3)λ₀"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "Sobre una superficie inciden varios rayos de luz paralelos. Si los rayos reflejados son paralelos entre sí, ¿cómo es la superficie en la que se reflejan?",
+      "options": {
+        "a": "Convexa y especular",
+        "b": "Plana y especular",
+        "c": "Cóncava y difusa",
+        "d": "Convexa y difusa",
+        "e": "Plana y difusa"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 62,
+      "content": "Un objeto se ubica frente a un espejo cóncavo de distancia focal d. Si la imagen del objeto se forma detrás del espejo, ¿dónde se encuentra el objeto?",
+      "options": {
+        "a": "A una distancia igual a d",
+        "b": "A una distancia igual a 2d",
+        "c": "A una distancia entre d y 2d",
+        "d": "A una distancia menor que d",
+        "e": "A una distancia mayor que 2d"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "A un objeto de masa m que se encuentra en reposo sobre una superficie horizontal, se le aplica una fuerza de magnitud F verticalmente hacia abajo. Considerando que el objeto se mantiene en reposo, que g es la magnitud de la aceleración de gravedad y que el coeficiente de roce estático entre la superficie y el objeto es μ, ¿cuál es la magnitud de la fuerza de roce estático que actúa sobre el objeto?",
+      "options": {
+        "a": "nula",
+        "b": "μmg",
+        "c": "μF",
+        "d": "μ(mg−F)",
+        "e": "μ(F−mg)"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "Un automóvil se desplaza por una pista rectilínea y horizontal con aceleración constante durante un tiempo, luego mantiene su velocidad y finalmente frena con aceleración constante hasta detenerse. ¿Cuál de los siguientes gráficos de aceleración a en función del tiempo t representa mejor la situación descrita? [Cinco gráficos de a en función de t (A-E), cada uno mostrando de alguna forma un valor positivo de aceleración, un tramo con aceleración nula, y un valor negativo de aceleración, aunque difiriendo en la forma en que ocurren las transiciones (abruptas mediante escalones verticales punteados, o graduales mediante rampas)]",
+      "options": {
+        "a": "Aceleración que decrece gradualmente desde un valor positivo hasta un valor negativo, pasando por un tramo intermedio con pendiente suave.",
+        "b": "Aceleración que decrece gradualmente desde un valor positivo, se mantiene aproximadamente constante en un tramo, y luego decrece más hacia un valor negativo.",
+        "c": "Aceleración con un escalón vertical desde un valor positivo constante a un valor nulo, seguido de otro escalón vertical hasta un valor negativo constante.",
+        "d": "Aceleración con una rampa ascendente hasta un valor positivo (escalón vertical), luego constante en un valor bajo positivo y decreciendo gradualmente hasta un valor negativo.",
+        "e": "Aceleración con un escalón vertical desde un valor positivo constante hasta cero, seguido de un tramo nulo y luego una rampa gradual hasta un valor negativo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "Un estanque cilíndrico metálico sellado, de altura H, está completamente lleno de un líquido incompresible. En su cara superior está inserto un émbolo, que permite ejercer una presión adicional al líquido confinado en el estanque. Por el interior de las paredes del estanque, están adosados tres sensores de presión 1, 2 y 3, que inicialmente registran los respectivos valores P₁ = 100 hPa, P₂ = 200 hPa y P₃ = 300 hPa, en las posiciones que se presentan en la siguiente figura: [Figura: un cilindro vertical de altura H, con un émbolo en la parte superior; el sensor 1 está en la parte superior, el sensor 2 está a la mitad de la altura (H/2) y el sensor 3 está en el fondo]. Si mediante el émbolo se ejerce al líquido una presión adicional de 120 hPa, ¿cuáles serán las presiones P₁', P₂' y P₃', expresadas en hPa, que registrarán los sensores?\n\n| | P₁' | P₂' | P₃' |\n|---|---|---|---|\n| A) | 100 | 200 | 420 |\n| B) | 220 | 200 | 420 |\n| C) | 120 | 120 | 120 |\n| D) | 220 | 320 | 420 |\n| E) | 140 | 240 | 340 |",
+      "options": {
+        "a": "P₁' = 100 | P₂' = 200 | P₃' = 420",
+        "b": "P₁' = 220 | P₂' = 200 | P₃' = 420",
+        "c": "P₁' = 120 | P₂' = 120 | P₃' = 120",
+        "d": "P₁' = 220 | P₂' = 320 | P₃' = 420",
+        "e": "P₁' = 140 | P₂' = 240 | P₃' = 340"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Sobre un bloque de 10 kg, situado sobre una superficie horizontal, se aplica una fuerza horizontal F de magnitud 60 N. El coeficiente de roce cinético entre la superficie y el bloque es 0,3, mientras que la magnitud de la aceleración de gravedad es 10 m/s². Si F y la fuerza de roce son las únicas fuerzas horizontales que actúan sobre el bloque, ¿cuál es la magnitud de la aceleración con la que se desliza?",
+      "options": {
+        "a": "12,0 m/s²",
+        "b": "9,0 m/s²",
+        "c": "6,0 m/s²",
+        "d": "3,0 m/s²",
+        "e": "1,8 m/s²"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Una partícula de masa m se desplaza horizontalmente con rapidez 3v, aproximándose a otra partícula de masa 3m que se mueve con rapidez v en sentido opuesto a ella. Antes de la colisión, ¿cuál es la magnitud del momentum lineal del sistema compuesto por ambas partículas?",
+      "options": {
+        "a": "0mv",
+        "b": "2mv",
+        "c": "3mv",
+        "d": "4mv",
+        "e": "9mv"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "El siguiente gráfico representa la presión P que ejerce un líquido en reposo sobre una moneda delgada, en función de la profundidad h a la que se encuentra sumergida en el líquido. [Gráfico de P en función de h: una recta que parte de un valor positivo Py en h=0 (intercepto en el eje vertical) y aumenta linealmente con la profundidad h]. Si el líquido está contenido por un recipiente que se encuentra en reposo, abierto y expuesto al aire libre, ¿cuál de las siguientes opciones presenta correctamente a Py y a la pendiente de la recta?\n\n| | Py | Pendiente de la recta |\n|---|---|---|\n| A) | Presión en el fondo del recipiente | Densidad del líquido |\n| B) | Presión en el fondo del recipiente | Producto entre la densidad del líquido y la magnitud de la aceleración de gravedad |\n| C) | Presión atmosférica | Masa del líquido |\n| D) | Presión atmosférica | Producto entre la masa del líquido y la magnitud de la aceleración de gravedad |\n| E) | Presión atmosférica | Producto entre la densidad del líquido y la magnitud de la aceleración de gravedad |",
+      "options": {
+        "a": "Py: Presión en el fondo del recipiente | Pendiente: Densidad del líquido",
+        "b": "Py: Presión en el fondo del recipiente | Pendiente: Producto entre la densidad del líquido y la magnitud de la aceleración de gravedad",
+        "c": "Py: Presión atmosférica | Pendiente: Masa del líquido",
+        "d": "Py: Presión atmosférica | Pendiente: Producto entre la masa del líquido y la magnitud de la aceleración de gravedad",
+        "e": "Py: Presión atmosférica | Pendiente: Producto entre la densidad del líquido y la magnitud de la aceleración de gravedad"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Una nave espacial tiene cuatro motores idénticos 1, 2, 3 y 4, que cuando se encienden expulsan, con igual potencia, gases en las orientaciones P, Q, R y S, respectivamente, como se representa en la figura. [Figura: vista superior de una nave circular con cuatro motores dispuestos en cruz: el motor 1 expulsa gases hacia la derecha (dirección P, lo que impulsa la nave hacia la izquierda), el motor 2 expulsa gases hacia arriba (dirección Q, impulsando la nave hacia abajo), el motor 3 expulsa gases hacia la izquierda (dirección R, impulsando la nave hacia la derecha) y el motor 4 expulsa gases hacia abajo (dirección S, impulsando la nave hacia arriba)]. Si los gases expulsados por los motores 1 y 3 son perpendiculares a los que expulsan los motores 2 y 4, ¿cuál de las siguientes afirmaciones, respecto del movimiento que adquiere la nave cuando los motores se encienden, es siempre correcta?",
+      "options": {
+        "a": "La nave acelera en la orientación Q cuando se encienden, simultáneamente, los motores 1, 3 y 4.",
+        "b": "La nave acelera en la orientación R cuando se encienden, simultáneamente, los motores 2, 3 y 4.",
+        "c": "La nave acelera en la orientación diagonal entre P y S cuando se enciende el motor 1 y posteriormente el motor 4.",
+        "d": "La nave queda detenida cuando está funcionando el motor 2 y posteriormente se enciende el motor 4.",
+        "e": "La nave queda detenida cuando los motores 1, 2, 3 y 4 se encienden secuencialmente."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "La figura representa una persona ubicada en el punto Q, que se mueve hacia la pared con una rapidez de 1,5 m/s, en el momento en que lanza un dardo hacia un blanco ubicado en la pared a 3 m de él, con una rapidez de 5 m/s respecto a sí mismo. [Figura: dos personas en el suelo, una en el punto P (más alejada de la pared) y otra en el punto Q (más cerca de la pared), ambas moviéndose hacia la pared (flecha indicando el sentido de movimiento), donde hay un blanco de dardos]. Si otra persona ubicada en P se mueve hacia la pared con una rapidez de 3 m/s, ¿cuál de las siguientes proposiciones es correcta?",
+      "options": {
+        "a": "La persona en P observa que el dardo se mueve con una rapidez de 8 m/s.",
+        "b": "La persona en P observa que la persona en Q se mueve con una rapidez de 6,5 m/s.",
+        "c": "La persona en P observa que el dardo se mueve con una rapidez de 2 m/s.",
+        "d": "La persona en Q observa que la persona en P se mueve con una rapidez de 4,5 m/s.",
+        "e": "La persona en P observa que el dardo se mueve con una rapidez de 3,5 m/s."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "¿Cuál de las siguientes afirmaciones respecto de la troposfera es correcta?",
+      "options": {
+        "a": "Es en donde se encuentra la capa de ozono.",
+        "b": "Es la capa del planeta que tiene mayor espesor.",
+        "c": "Es la capa del planeta que tiene la menor densidad.",
+        "d": "Es en donde ocurren los fenómenos meteorológicos.",
+        "e": "Es la capa del planeta que tiene la mayor temperatura."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "¿Cuál de los siguientes pares de parámetros de un sismo permite anticipar un posible maremoto?",
+      "options": {
+        "a": "Magnitud e intensidad",
+        "b": "Magnitud e hipocentro",
+        "c": "Epicentro e hipocentro",
+        "d": "Magnitud y profundidad",
+        "e": "Intensidad y profundidad"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "¿Cuál de las siguientes opciones presenta datos suficientes para determinar la cantidad de calor que debe absorber un trozo de hielo que está a 0 °C a nivel del mar, para que se derrita completamente?",
+      "options": {
+        "a": "El calor específico del hielo y su masa",
+        "b": "La densidad del hielo y su temperatura final",
+        "c": "El calor latente de fusión del hielo y su masa",
+        "d": "El calor específico del hielo y su temperatura final",
+        "e": "El calor latente de fusión del hielo y su temperatura final"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Una pelota de masa m es lanzada verticalmente hacia arriba con una energía cinética K₀. Si en el proceso no se disipa energía y, en un momento del recorrido, su energía cinética es K₀/3 y su energía potencial gravitatoria ha experimentado un aumento de 60 J, ¿cuál es el valor de K₀?",
+      "options": {
+        "a": "180 J",
+        "b": "120 J",
+        "c": "90 J",
+        "d": "40 J",
+        "e": "20 J"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Un bloque de masa m se suelta a una altura (2/3)H con respecto a la base de un plano inclinado completamente liso. Luego, el bloque avanza una distancia d por una superficie horizontal rugosa y posteriormente sube por otro plano inclinado idéntico al anterior, alcanzando una altura (1/3)H. Considerando que g corresponde a la magnitud de la aceleración de gravedad, ¿cuál es el trabajo que realiza la fuerza de roce sobre el bloque en el recorrido descrito?",
+      "options": {
+        "a": "-(1/3)mgd",
+        "b": "-(1/3)mgH",
+        "c": "-mg(H+d)",
+        "d": "-mgd",
+        "e": "-mgH"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 76,
+      "content": "Una masa m₀ de agua aumenta su temperatura en T °C al absorber una cantidad de calor Q, en ausencia de cambios de fase. ¿Cuánto varía la temperatura de una masa 2m₀ de agua al absorber la misma cantidad de calor, si tampoco experimenta cambios de fase?",
+      "options": {
+        "a": "T/4 °C",
+        "b": "T/2 °C",
+        "c": "T °C",
+        "d": "2T °C",
+        "e": "4T °C"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "¿A qué equivale 1 coulomb si por un alambre circula una corriente eléctrica de 1 A de intensidad durante 1 s?",
+      "options": {
+        "a": "Al número de electrones y protones que pasan por una sección transversal del alambre.",
+        "b": "A la carga eléctrica de los protones que pasan por una longitud de 1 m del alambre.",
+        "c": "A la cantidad de protones que pasa por una sección transversal del alambre.",
+        "d": "A la carga eléctrica neta que pasa por una sección transversal del alambre.",
+        "e": "A la cantidad de electrones que pasa por una longitud de 1 m del alambre."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "En la siguiente figura se representa un circuito eléctrico en el que R₁ = 2 Ω. [Figura: circuito con una batería conectada a una resistencia R₁ en serie en la parte superior, y una resistencia R₂ en paralelo conectada en el lado derecho del circuito]. Considerando que la diferencia de potencial a la que se encuentra el circuito es 12 V y que la corriente eléctrica que circula por él tiene una intensidad de 4 A, ¿cuál es la resistencia eléctrica de R₂?",
+      "options": {
+        "a": "1 Ω",
+        "b": "2 Ω",
+        "c": "3 Ω",
+        "d": "4 Ω",
+        "e": "6 Ω"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "El siguiente circuito está compuesto por una resistencia R₀ conectada a una batería que establece una diferencia de potencial V₀ y suministra una potencia eléctrica P₀. [Figura: circuito simple con una resistencia R₀ en paralelo con una batería V₀]. ¿En cuál de los siguientes circuitos se desarrolla una potencia eléctrica 2P₀? [Cinco circuitos (A-E) con distintas combinaciones de resistencia y voltaje: A) R₀/2 y V₀/2. B) R₀/2 y V₀. C) R₀ y V₀/2. D) R₀/2 y 2V₀. E) 2R₀ y V₀]",
+      "options": {
+        "a": "Circuito con resistencia R₀/2 y diferencia de potencial V₀/2.",
+        "b": "Circuito con resistencia R₀/2 y diferencia de potencial V₀.",
+        "c": "Circuito con resistencia R₀ y diferencia de potencial V₀/2.",
+        "d": "Circuito con resistencia R₀/2 y diferencia de potencial 2V₀.",
+        "e": "Circuito con resistencia 2R₀ y diferencia de potencial V₀."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Considere dos partículas con cargas positivas de magnitud Q, separadas cierta distancia. Si una tercera partícula con carga q es ubicada en alguna parte de la recta que une a las partículas de carga Q y solo puede desplazarse por esta, ¿cuál de las siguientes afirmaciones respecto a la fuerza neta sobre la partícula con carga q es correcta?",
+      "options": {
+        "a": "Solo si la partícula con carga q es positiva, la fuerza neta sobre ella será nula en el punto medio entre ambas cargas.",
+        "b": "Solo si la partícula con carga q es negativa, la fuerza neta sobre ella apuntará hacia el punto medio entre ambas cargas.",
+        "c": "Independientemente del signo de la partícula con carga q, la fuerza neta sobre ella apuntará hacia el punto medio entre ambas cargas.",
+        "d": "Independientemente del signo de la partícula con carga q, la fuerza neta sobre ella será nula si se encuentra en el punto medio entre ambas cargas.",
+        "e": "Si la partícula con carga q es negativa, la fuerza neta sobre ella siempre será repulsiva independiente de la posición de q."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

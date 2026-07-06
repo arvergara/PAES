@@ -1,0 +1,1283 @@
+{
+  "meta": {
+    "subject": "CB",
+    "subject_nombre": "Ciencias - Biología",
+    "origen": "DEMRE - Modelo de Prueba de Transición Ciencias - Biología, Proceso de Admisión 2022 (Forma 151)",
+    "anio": 2022,
+    "forma": 151,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [
+      2,
+      25,
+      37,
+      61,
+      69
+    ],
+    "fuente_pdf": "pruebas/oficiales/C-biologia-2022-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-biologia-2022-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "Por error, un grupo de estudiantes mueve un tejido vegetal proveniente de una hoja desde un medio isotónico a un medio hipertónico. ¿Qué fenómeno experimentarán estas células?",
+      "options": {
+        "a": "Plasmólisis",
+        "b": "Turgencia",
+        "c": "Crenación",
+        "d": "Apoptosis",
+        "e": "Citólisis"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Si una célula posee gran cantidad de retículo endoplasmático liso, ¿cuál de las siguientes funciones se puede asociar directamente a esta célula?",
+      "options": {
+        "a": "Síntesis de proteínas",
+        "b": "Glicosilación de proteínas",
+        "c": "Síntesis de unidades ribosomales",
+        "d": "Detoxificación celular",
+        "e": "Absorción de sustancias"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 3,
+      "content": "El gráfico muestra los niveles plasmáticos de la hormona luteinizante (LH) en tres grupos de mujeres sanas de entre 18 y 22 años de edad, con ciclos ováricos de 28 días.\n\nSabiendo que el grupo 1 corresponde a mujeres en el día 10 del ciclo, ¿cuál de las siguientes opciones es una inferencia correcta?",
+      "options": {
+        "a": "Las mujeres del grupo 1 están en sus días fértiles.",
+        "b": "Las mujeres del grupo 2 están ovulando.",
+        "c": "Las mujeres del grupo 1 están menstruando.",
+        "d": "Las mujeres del grupo 2 están menstruando.",
+        "e": "Las mujeres del grupo 3 están ovulando."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Un investigador está realizando un estudio sobre diabetes tipo 1, para lo cual plantea una serie de preguntas con el fin de confeccionar un cuestionario que aplicará a personas con esta condición. ¿Cuál de las siguientes preguntas generaría datos que pueden ser analizados solo de manera cualitativa?",
+      "options": {
+        "a": "¿Qué porcentaje de tus familiares presenta diabetes tipo 1?",
+        "b": "¿Cuántas veces al día te inyectas insulina?",
+        "c": "¿Cuáles son los valores de glicemia que registras en ayuno?",
+        "d": "¿Cómo afecta la diabetes a tu estado de ánimo?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Los gráficos muestran los efectos de una única inyección de un análogo de la hormona liberadora de gonadotrofinas (GnRH) sobre la liberación de gametos en machos y hembras, en cierta especie de pez.\n\nDel análisis de los gráficos, ¿cuál de las siguientes afirmaciones es correcta con relación al análogo de la GnRH?",
+      "options": {
+        "a": "Triplica la liberación de gametos respecto de los controles en ambos sexos.",
+        "b": "Produce su máximo efecto 24 horas después de su inyección en ambos sexos.",
+        "c": "En machos, los efectos ocurren en menor tiempo que en hembras.",
+        "d": "En hembras presenta un efecto inhibitorio en las primeras 12 horas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "El siguiente esquema representa dos mecanismos de regulación del sistema endocrino humano:\n\n[Esquema: Hipófisis libera Hormona 1 (+) hacia Glándula endocrina X, que libera Hormona 2 (+) hacia Tejidos, generando Efectos; Hipófisis libera Hormona 3 (+) hacia Glándula exocrina Z, que genera un Efecto]\n\n¿Cuál de las siguientes hormonas se ajusta al mecanismo de regulación ejercido por la hormona 1?",
+      "options": {
+        "a": "Prolactina",
+        "b": "Estrógenos",
+        "c": "Progesterona",
+        "d": "Foliculoestimulante"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "A partir de la investigación del sistema endocrino se han desarrollado múltiples alternativas que permiten el control de la natalidad. Una de estas corresponde a los métodos hormonales combinados, que operan mediante retroalimentación negativa. Al respecto, ¿cuál es el mecanismo de acción de estos métodos?",
+      "options": {
+        "a": "Inhibir la movilidad de los espermatozoides.",
+        "b": "Impedir la liberación del ovocito.",
+        "c": "Favorecer la maduración de los gametos.",
+        "d": "Inducir la muerte de los gametos.",
+        "e": "Modificar el pH vaginal."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "El siguiente esquema representa una célula en división meiótica:\n\n¿Qué etapa de la meiosis está representada?",
+      "options": {
+        "a": "Anafase I",
+        "b": "Telofase I",
+        "c": "Metafase II",
+        "d": "Profase II",
+        "e": "Telofase II"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "En la piel de la especie humana (cariotipo de 46 cromosomas), las células poseen una alta tasa de recambio, la cual está mediada por la presencia de células troncales epidermales. Estas células residen en la lámina basal de la epidermis y son las únicas mitóticamente activas. Al respecto, ¿cuántas cromátidas presentaría una célula troncal epidermal en etapa de metafase mitótica?",
+      "options": {
+        "a": "22",
+        "b": "23",
+        "c": "44",
+        "d": "46",
+        "e": "92"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "En la siguiente figura se muestra el cariograma de un mamífero:\n\nBasándose en el análisis de este cariograma, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "Los gametos producidos por este mamífero presentan 20 autosomas.",
+        "b": "Este mamífero tiene 19 pares de autosomas.",
+        "c": "Las células somáticas de este mamífero tienen 38 cromosomas.",
+        "d": "Ambos cromosomas sexuales fueron aportados por uno de los progenitores del mamífero.",
+        "e": "Este mamífero presenta mutaciones en los cromosomas 13, 14 y 15."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "En las poblaciones humanas, la estatura es un rasgo de variación continua, de tal manera que la mayor parte de la población tiene valores de estatura cercanos al promedio y las estaturas extremas (muy bajas o muy altas) son poco frecuentes. ¿Cuál de los siguientes gráficos representa de manera correcta la distribución de estaturas en las poblaciones humanas?",
+      "options": {
+        "a": "Gráfico N° de individuos vs. Estatura con forma de meseta: nivel bajo constante, sube a una meseta alta, se mantiene y luego desciende.",
+        "b": "Gráfico N° de individuos vs. Estatura con dos picos separados por un valle (distribución bimodal).",
+        "c": "Gráfico N° de individuos vs. Estatura con forma de valle: alto en los extremos y bajo en el centro (bimodal invertida).",
+        "d": "Gráfico N° de individuos vs. Estatura con forma de campana simétrica, con un único máximo central (distribución normal)."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "La figura representa la herencia de un rasgo.\n\nDe acuerdo con la figura, ¿qué tipo de herencia presenta este rasgo?",
+      "options": {
+        "a": "Autosómica dominante",
+        "b": "Autosómica recesiva",
+        "c": "Dominante ligada al cromosoma X",
+        "d": "Ligada al cromosoma Y"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "En sistemas altamente productivos, como los arrecifes de coral del océano Pacífico, se han descubierto ecosistemas con pirámides de biomasa invertida. Estos contrastan con la visión clásica, donde los productores presentan los mayores valores de biomasa. Al respecto, ¿en cuál de las siguientes situaciones se produce una pirámide de biomasa invertida?",
+      "options": {
+        "a": "Cuando existe mayor abundancia relativa de presas que depredadores.",
+        "b": "Cuando los herbívoros presentan una baja eficiencia de consumo.",
+        "c": "Cuando los productores experimentan elevadas tasas de recambio.",
+        "d": "Cuando existe una alta tasa de extracción de productores.",
+        "e": "Cuando los productores son de gran tamaño."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Para escapar de sus depredadores, algunos crustáceos se refugian en el interior de las esponjas, las que no se ven perjudicadas ni beneficiadas con esta estrategia. De acuerdo con esta información, ¿qué tipo de interacción se establece entre estos crustáceos y las esponjas que los albergan?",
+      "options": {
+        "a": "Simbiosis",
+        "b": "Comensalismo",
+        "c": "Mutualismo",
+        "d": "Competencia",
+        "e": "Parasitismo"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "En el gráfico se representa la variación de la velocidad fotosintética de la especie vegetal Prosopis tamarugo en función de la intensidad de la luz, en dos condiciones de riego.\n\nDe acuerdo con los datos del gráfico, ¿cuál de las siguientes opciones describe correctamente la relación entre la velocidad fotosintética del tamarugo, la intensidad de la luz y el riego?",
+      "options": {
+        "a": "Cuando hay menor riego, la velocidad fotosintética se reduce, aproximadamente, a la mitad a medida que aumenta la intensidad de la luz.",
+        "b": "Cuando hay menor riego, la velocidad fotosintética aumenta, aproximadamente, al doble a medida que disminuye la intensidad de la luz.",
+        "c": "Independiente del volumen de riego y de la intensidad de la luz, la velocidad fotosintética es constante.",
+        "d": "Cuando el riego es habitual, la velocidad fotosintética aumenta exponencialmente a medida que se incrementa la intensidad de la luz.",
+        "e": "Cuando hay menor riego, la velocidad fotosintética disminuye de manera constante a medida que aumenta la intensidad de la luz."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "El siguiente esquema representa una cadena trófica constituida por tres niveles y compuesta de especies que habitan un ecosistema terrestre:\n\nAl respecto, ¿a cuál de los siguientes tipos de organismos correspondería la especie Z?",
+      "options": {
+        "a": "Bacterias autótrofas",
+        "b": "Plantas",
+        "c": "Herbívoros",
+        "d": "Carnívoros",
+        "e": "Protista autótrofo"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Con la finalidad de conocer el estado de conservación de una especie de ave costera, se propone evaluar su densidad poblacional en el área que comprende su rango de distribución en Chile. Al respecto, ¿qué variables se requieren conocer para determinar la densidad poblacional de esta especie?",
+      "options": {
+        "a": "El número de individuos y su tasa de natalidad.",
+        "b": "El tamaño poblacional y el número de especies de la comunidad.",
+        "c": "El área ocupada por la población y la tasa de mortalidad de esta.",
+        "d": "El número de individuos de una población y la superficie ocupada por esta.",
+        "e": "La superficie ocupada por la población y la biodiversidad existente en la zona."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Los gráficos muestran la localización de tres especies de aves (1, 2 y 3) en cuatro islas (W, X, Y y Z), cuando habitan las tres al mismo tiempo en una isla, solo dos de ellas (1 y 2) y cuando estas últimas habitan en solitario una isla.\n\nA partir de los gráficos, ¿cuál de las siguientes opciones es una conclusión correcta acerca de estas aves?",
+      "options": {
+        "a": "Las tres especies pueden habitar en solitario una isla.",
+        "b": "Las tres especies mantienen su distribución espacial cuando compiten.",
+        "c": "Las especies no compiten por el recurso espacio en las distintas islas.",
+        "d": "Las especies presentes en las islas Z e Y son las mejores competidoras.",
+        "e": "Las especies cambian su distribución espacial al haber menos especies en la isla."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "¿Cuál de las siguientes afirmaciones acerca de las ondas sísmicas es correcta?",
+      "options": {
+        "a": "Solo se producen en sismos de gran magnitud.",
+        "b": "Tienen una intensidad que aumenta con su profundidad.",
+        "c": "Solo las ondas secundarias generan daños estructurales.",
+        "d": "Se propagan desde el epicentro hacia la superficie terrestre.",
+        "e": "Transmiten una energía que aumenta con la magnitud del sismo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Se decidió investigar si la curvatura de un espejo convexo afecta la imagen que se produce. Para ello, se fijó un objeto delante de un espejo convexo y con una regla se midió el tamaño de la imagen producida. Si en todas las mediciones se utilizó el mismo objeto, ¿cuál de las siguientes acciones experimentales debió haberse implementado para resolver esta investigación?",
+      "options": {
+        "a": "Utilizar espejos convexos de igual tamaño, pero situar el objeto a diferentes distancias del espejo.",
+        "b": "Utilizar espejos convexos de igual curvatura, pero situar el objeto a diferentes distancias del espejo.",
+        "c": "Utilizar espejos convexos con distinta curvatura, pero de igual tamaño.",
+        "d": "Utilizar espejos convexos de distinto tamaño, pero de igual curvatura."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Cierta onda mecánica se representa mediante el siguiente perfil temporal:\n\n¿Cuál es la frecuencia de la onda representada?",
+      "options": {
+        "a": "1/8 Hz",
+        "b": "1/4 Hz",
+        "c": "1/2 Hz",
+        "d": "2 Hz",
+        "e": "4 Hz"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Una persona está sentada junto a una fuente sonora que genera un sonido de 800 Hz, a 400 m de una superficie reflectora, percibiendo su correspondiente eco 2 s después de la emisión del sonido. Al respecto, ¿cuál es la longitud de onda asociada a la onda de este sonido?",
+      "options": {
+        "a": "4,00 m",
+        "b": "2,00 m",
+        "c": "1,00 m",
+        "d": "0,50 m",
+        "e": "0,25 m"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "La siguiente figura representa un objeto situado frente a una lente convergente cuyo eje óptico es w y que tiene dos focos identificados como F₁ y F₂. Los rayos s y q provienen desde el extremo superior del objeto.\n\nAl respecto, ¿cuáles son las características de los rayos s y q una vez que atraviesan la lente?",
+      "options": {
+        "a": "Rayo s: Cruza w entre la lente y F₂ | Rayo q: Mantiene la dirección que tenía antes de incidir en la lente",
+        "b": "Rayo s: Cruza w entre la lente y F₂ | Rayo q: Cruza w entre la lente y F₂",
+        "c": "Rayo s: Pasa por F₂ | Rayo q: Pasa por F₂",
+        "d": "Rayo s: Sigue paralelo a w | Rayo q: Pasa por F₂",
+        "e": "Rayo s: Sigue paralelo a w | Rayo q: Mantiene la dirección que tenía antes de incidir en la lente"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "El siguiente gráfico permite comparar las longitudes de onda de las ondas electromagnéticas S, Q, W, R y T, que se propagan en el vacío.\n\n¿Cuál de las siguientes afirmaciones es correcta respecto de la información proporcionada en el gráfico?",
+      "options": {
+        "a": "Si T está en el infrarrojo, entonces W está en el ultravioleta.",
+        "b": "Si W está en el espectro visible, entonces Q también lo está.",
+        "c": "Si W corresponde al color rojo, entonces S, Q, R y T están en el infrarrojo.",
+        "d": "Si S corresponde al color violeta, entonces Q, W, R y T están en el espectro visible.",
+        "e": "Si W corresponde al color rojo y T al violeta, entonces S, Q y R son parte del espectro visible."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Una persona aplica una determinada fuerza inicial sobre un bloque de cierta masa. Luego, mide la distancia que alcanza a recorrer el bloque hasta detenerse. Si repite lo anteriormente realizado en superficies de distintos materiales, aplicando siempre la misma fuerza inicial, ¿cuál de las siguientes preguntas de investigación se responde con este experimento?",
+      "options": {
+        "a": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y el material de la superficie en que se desliza?",
+        "b": "¿Cuál es la relación entre la fuerza inicial aplicada sobre el bloque y la distancia que alcanza a recorrer?",
+        "c": "¿Cuál es la relación entre la distancia recorrida por el bloque y el material de la superficie en que se desliza?",
+        "d": "¿Cuál es la relación entre la distancia recorrida por el bloque y su masa?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 26,
+      "content": "Dos cuerpos se mueven rectilíneamente en el mismo sentido con rapidez constante, pero diferente entre sí. Considerando que al inicio del registro ambos cuerpos están en el mismo punto, ¿cuál de los siguientes gráficos de posición X en función del tiempo t representa mejor el movimiento de ambos cuerpos?",
+      "options": {
+        "a": "Gráfico X-t: dos rectas paralelas (igual pendiente) que comienzan en instantes distintos sobre el eje t.",
+        "b": "Gráfico X-t: dos rectas que parten del origen con distinta pendiente (una más inclinada que la otra).",
+        "c": "Gráfico X-t: una recta que asciende y termina en un tramo final mucho más inclinado (casi vertical).",
+        "d": "Gráfico X-t: dos rectas que parten del origen con distinta pendiente, donde la de mayor pendiente termina antes que la otra.",
+        "e": "Gráfico X-t: dos rectas horizontales (posición constante en el tiempo) a distinta altura."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "Un niño y una niña suben una escalera mecánica, que se encuentra detenida, con rapideces de 0,5 m/s y 1 m/s, respectivamente. ¿Cuál es la rapidez relativa entre los niños si los escalones de la escalera comienzan a moverse con una rapidez de 1 m/s?",
+      "options": {
+        "a": "2,5 m/s",
+        "b": "2,0 m/s",
+        "c": "1,5 m/s",
+        "d": "1,0 m/s",
+        "e": "0,5 m/s"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Considerando que G corresponde a la constante de gravitación universal, M a la masa de la Tierra y R a su radio, ¿cuál de las siguientes opciones expresa correctamente la magnitud de la aceleración con la que cae un objeto de masa m, cerca de la superficie de la Tierra, según la Ley de Gravitación Universal?",
+      "options": {
+        "a": "GM/R²",
+        "b": "Gm²/R²",
+        "c": "Gm/R",
+        "d": "GM/R",
+        "e": "GMm/R"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un grupo de personas realizó un experimento para investigar cuáles son los factores que afectan el número de oscilaciones de un resorte. Para ello, desde un resorte suspendieron un objeto de cierto peso y lo hicieron oscilar verticalmente. Con esto, determinaron el número total de oscilaciones completadas por el resorte durante 10 s. Los datos se muestran en la siguiente tabla:\n\n| | Intento 1 | Intento 2 | Intento 3 |\n|---|---|---|---|\n| Longitud natural del resorte | 69 cm | 30 cm | 30 cm |\n| Estiramiento del resorte | 15 cm | 8 cm | 15 cm |\n| Masa del objeto | 72 g | 72 g | 72 g |\n| Cantidad de oscilaciones durante 10 s | 30 | 45 | 45 |\n\nSegún los resultados presentados anteriormente, ¿cuál de las siguientes variables incide en la cantidad de oscilaciones del resorte?",
+      "options": {
+        "a": "La longitud natural del resorte",
+        "b": "El estiramiento del resorte",
+        "c": "La masa del objeto",
+        "d": "El peso del objeto"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Sobre una caja que se desliza con velocidad constante, en una superficie plana y horizontal, además de las fuerzas peso y normal actúan la fuerza de roce y una fuerza F paralela a la superficie. En el instante t₁ la superficie cambia de rugosidad, pero la caja continúa con la misma velocidad constante. Con esta información, ¿cuál de los siguientes gráficos de la magnitud de la fuerza F en función del tiempo es compatible con la situación descrita?",
+      "options": {
+        "a": "Gráfico F-t: F aumenta antes de t₁ y sigue aumentando después, con un leve cambio de pendiente en t₁ (ambos tramos crecientes).",
+        "b": "Gráfico F-t: F es constante en un valor antes de t₁ y disminuye a un valor constante menor después de t₁ (escalón hacia abajo).",
+        "c": "Gráfico F-t: F es constante durante todo el intervalo, sin cambios en t₁.",
+        "d": "Gráfico F-t: F disminuye linealmente de manera constante durante todo el intervalo, sin cambios en t₁.",
+        "e": "Gráfico F-t: F aumenta, presenta una caída abrupta en t₁ y luego continúa aumentando con una pendiente similar."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "¿A qué se denomina epicentro de un sismo?",
+      "options": {
+        "a": "Al punto donde se registra la mayor magnitud del sismo.",
+        "b": "Al punto donde se registra la mayor intensidad del sismo.",
+        "c": "Al punto en el interior de la Tierra, donde se produce el sismo.",
+        "d": "Al punto en la superficie de la Tierra, donde el sismo provoca los mayores daños.",
+        "e": "Al punto en la superficie de la Tierra, ubicado verticalmente sobre el hipocentro."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Una persona mide los volúmenes de golillas y tornillos de metal antes de modificar su temperatura. Luego de calentar dichos objetos por un breve tiempo y registrar su temperatura, obtiene los volúmenes después del cambio de temperatura. ¿A qué componente de la investigación científica corresponde lo descrito anteriormente?",
+      "options": {
+        "a": "A un procedimiento experimental",
+        "b": "A una hipótesis experimental",
+        "c": "A una conclusión del estudio",
+        "d": "A un modelo experimental",
+        "e": "A un problema del estudio"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "Un bloque que se desplaza sobre una superficie horizontal con una rapidez constante de 12 m/s inicia el ascenso de un plano inclinado. Despreciando los efectos del roce y considerando la magnitud de la aceleración de gravedad igual a 10 m/s², ¿cuál es la altura máxima que alcanza el bloque al subir por el plano inclinado con respecto a la superficie horizontal?",
+      "options": {
+        "a": "7,2 m",
+        "b": "36,0 m",
+        "c": "72,0 m",
+        "d": "120,0 m",
+        "e": "144,0 m"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Un bloque de 12 kg se desliza sobre una superficie horizontal. En cierto instante su energía cinética es 600 J y en un instante posterior es 384 J. Si la magnitud de la aceleración de gravedad es 10 m/s², el coeficiente de roce cinético entre el piso y el bloque es 0,2 y las únicas fuerzas que actúan sobre el bloque son la fuerza de roce, la fuerza peso y la fuerza normal, ¿qué distancia recorre el bloque entre estos dos instantes?",
+      "options": {
+        "a": "4,5 m",
+        "b": "9,0 m",
+        "c": "16,0 m",
+        "d": "25,0 m",
+        "e": "41,0 m"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "A continuación se proporcionan registros de eventos sísmicos en Chile, cuyas magnitudes se encuentran entre 7,1 y 8,4.\n\n| Fecha (UTC) | Latitud (°) | Longitud (°) | Profundidad (km) | Magnitud |\n|---|---|---|---|---|\n| 2014-04-03 02:43:15 | -20,52 | -70,44 | 28 | 7,6 |\n| 2014-04-01 23:46:45 | -19,57 | -70,91 | 39 | 8,2 |\n| 2015-09-16 23:18:35 | -31,59 | -71,79 | 16 | 7,6 |\n| 2015-09-16 22:54:28 | -31,55 | -71,86 | 11 | 8,4 |\n| 2015-09-16 22:59:15 | -31,62 | -71,75 | 27 | 7,1 |\n| 2016-12-25 14:22:23 | -43,52 | -74,39 | 30 | 7,6 |\n\n¿Cuál de las siguientes afirmaciones es correcta a partir de la información proporcionada?",
+      "options": {
+        "a": "La latitud de los sismos posteriores a 2016 sigue aumentando progresivamente.",
+        "b": "La magnitud está relacionada con la hora en que sucedió el sismo, entre 2014 y 2016.",
+        "c": "Debió ocurrir al menos un sismo de magnitud entre 7,1 a 8,4 durante 2013 en Chile.",
+        "d": "La magnitud de un sismo es independiente de la profundidad a la que se origina, entre 2014 y 2016.",
+        "e": "La profundidad en que ocurrió un sismo entre 2014 y 2016 es directamente proporcional a la coordenada de longitud."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Un cubo de hielo de 100 g a −5 °C se introduce en un recipiente térmicamente aislado, el que contiene 900 g de agua líquida a 25 °C. Si después de derretirse todo el hielo se alcanza una temperatura de equilibrio de 14 °C y el calor específico del agua líquida es 1 cal/(g °C), ¿cuál es la cantidad de calor absorbido por los 100 g de agua que inicialmente eran hielo?",
+      "options": {
+        "a": "17100 cal",
+        "b": "9900 cal",
+        "c": "8800 cal",
+        "d": "1900 cal",
+        "e": "500 cal"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "Los electrones son entidades que forman parte del átomo. ¿Cuál de las siguientes características corresponde a los electrones?",
+      "options": {
+        "a": "Tienen una masa mayor que la del neutrón.",
+        "b": "Tienen carga eléctrica positiva.",
+        "c": "Giran alrededor del núcleo.",
+        "d": "Se encuentran en el centro del átomo.",
+        "e": "Tienen una masa mayor que la del protón."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 38,
+      "content": "En el año 1869, Dimitri Mendeleiev propuso una clasificación de los elementos basada en la repetición periódica de sus propiedades, cuando se ordenan de menor a mayor masa atómica.\nDe acuerdo con la siguiente información para tres elementos hipotéticos,\n\n| Elementos | Cantidad de neutrones | Cantidad de protones |\n|---|---|---|\n| X | 76 | 52 |\n| Z | 74 | 53 |\n| T | 71 | 51 |\n\n¿cuál es el orden correcto de los elementos, según la clasificación de Mendeleiev?",
+      "options": {
+        "a": "X – Z – T",
+        "b": "T – X – Z",
+        "c": "T – Z – X",
+        "d": "X – T – Z",
+        "e": "Z – X – T"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "A continuación se muestran cuatro compuestos binarios hipotéticos y el tipo de compuesto al que corresponden:\n\nR₂Y: iónico\nXY₂: covalente apolar\nXZ₄: covalente apolar\nYZ₂: covalente polar\n\n¿Cuál de los siguientes esquemas representa adecuadamente la ubicación de los elementos, que forman los compuestos, en el sistema periódico?",
+      "options": {
+        "a": "Ver figura: esquema de tabla periódica, opción A (ubicación de R, X, Y, Z).",
+        "b": "Ver figura: esquema de tabla periódica, opción B (ubicación de R, X, Y, Z).",
+        "c": "Ver figura: esquema de tabla periódica, opción C (ubicación de R, X, Y, Z).",
+        "d": "Ver figura: esquema de tabla periódica, opción D (ubicación de R, X, Y, Z).",
+        "e": "Ver figura: esquema de tabla periódica, opción E (ubicación de R, X, Y, Z)."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Antes de realizar una práctica de laboratorio, dos estudiantes sostienen la siguiente conversación:\n\nEstudiante 1: Si se reemplaza un átomo de hidrógeno en el metano por un átomo de cloro, entonces la molécula debería ser polar.\n\nEstudiante 2: Sí, puede ser, ya que el cloro es más electronegativo que el hidrógeno.\n\nA partir de lo anterior, ¿a qué corresponde lo planteado por el Estudiante 1?",
+      "options": {
+        "a": "A un procedimiento",
+        "b": "A una hipótesis",
+        "c": "A una teoría",
+        "d": "A una observación"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "La siguiente estructura representa un compuesto orgánico:\n\n[Estructura molecular con átomos de Carbono, Oxígeno e Hidrógeno, incluyendo un anillo bencénico]\n\nAl respecto, ¿cuál de las siguientes opciones corresponde a la clasificación del compuesto?",
+      "options": {
+        "a": "Aldehído",
+        "b": "Cetona",
+        "c": "Alcohol",
+        "d": "Éster",
+        "e": "Ácido carboxílico"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "En condiciones adecuadas, la propanona se transforma en 2-propanol. Al respecto, ¿cuál es el cambio de hibridación que experimenta el átomo de carbono unido al átomo de oxígeno?",
+      "options": {
+        "a": "Desde sp³ a sp²",
+        "b": "Desde sp² a sp³",
+        "c": "Desde sp a sp²",
+        "d": "Desde sp³ a sp",
+        "e": "Desde sp² a sp"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "El siguiente compuesto químico es utilizado como fungicida:\n\n[Estructura: anillo bencénico con un grupo OH y tres átomos de Br en posiciones 2, 4 y 6]\n\nAl respecto, ¿cuál de las siguientes opciones presenta el nombre correcto de este compuesto?",
+      "options": {
+        "a": "1,3,5-tribromobenzaldehído",
+        "b": "2,4,6-tribromociclohexanol",
+        "c": "1,3,5-tribromociclohexano",
+        "d": "2,4,6-tribromofenol",
+        "e": "Ácido bromobenzoico"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "El butanoato de etilo es utilizado para potenciar el aroma del jugo de naranja procesado. Al respecto, ¿cuál de las siguientes opciones corresponde a dicho compuesto?",
+      "options": {
+        "a": "Estructura de un éster de cadena lineal, correspondiente al butanoato de etilo: CH₃-CH₂-CH₂-C(=O)-O-CH₂-CH₃.",
+        "b": "Estructura de un éster con la cadena carbonada ramificada (distinta conectividad a la del butanoato de etilo).",
+        "c": "Estructura de una cetona: grupo carbonilo entre dos cadenas carbonadas, sin oxígeno adicional.",
+        "d": "Estructura de un éter: un átomo de oxígeno uniendo dos cadenas carbonadas, sin grupo carbonilo.",
+        "e": "Estructura de una cetona con la cadena carbonada ramificada."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "Los restaurantes de comida rápida sirven las bebidas gaseosas a una temperatura inferior a los 5 °C y adicionan hielo picado en los vasos con el fin de mantener baja la temperatura de las gaseosas por mayor tiempo, de esta forma se aseguran que el gas (CO₂) esté disuelto en el líquido por mayor tiempo.\nA partir de lo anterior, ¿cuál de las siguientes preguntas de investigación permite relacionar correctamente las variables descritas?",
+      "options": {
+        "a": "¿Cuál es el efecto del estado físico del hielo en el comportamiento de un gas en una solución?",
+        "b": "¿Cómo afecta el tiempo de disolución del gas a la temperatura de un líquido?",
+        "c": "¿Cuál es la relación entre la temperatura de un gas y la del hielo agregado a una solución?",
+        "d": "¿Cómo influye la temperatura en el comportamiento de un gas en solución?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Cuando masas conocidas de X e Y reaccionan completamente, originan dos productos (etapa I): un compuesto W en estado sólido y un compuesto Z en estado gaseoso. El compuesto W se aísla para determinar su masa y el compuesto Z se recupera a través de la etapa II, para determinar su masa. El proceso completo se muestra en el siguiente diagrama:\n\n[Diagrama: X + Y --Etapa I--> W(s) + Z(g); Z(g) --Etapa II--> Z(s)]\n\nDe acuerdo con lo anterior, ¿cuál de las siguientes leyes se demuestra con el proceso completo?",
+      "options": {
+        "a": "La conservación de la masa",
+        "b": "Las proporciones definidas",
+        "c": "Las proporciones múltiples",
+        "d": "Las proporciones recíprocas",
+        "e": "Los volúmenes de combinación"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "En la molécula de agua (H₂O) siempre existe una relación en masa de un 11,2 % de hidrógeno y un 88,8 % de oxígeno. ¿A qué ley hace referencia lo anterior?",
+      "options": {
+        "a": "A la ley de las proporciones múltiples",
+        "b": "A la ley de las proporciones recíprocas",
+        "c": "A la ley de las proporciones definidas",
+        "d": "A la ley de la conservación de la masa",
+        "e": "A la ley de los volúmenes de combinación"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Cuando se calientan 168 g de bicarbonato de sodio (NaHCO₃) se obtienen 106 g de carbonato de sodio (Na₂CO₃) como producto. Por la ley de conservación de la masa se puede apreciar el desprendimiento, como gases, de 62 g de producto. Mediante un análisis, es posible determinar que están involucradas dos especies gaseosas, de las cuales una de ellas es agua (H₂O). Al respecto, es posible afirmar que la segunda especie corresponde a",
+      "options": {
+        "a": "CO",
+        "b": "CO₂",
+        "c": "H₂O₂",
+        "d": "H₂CO₃",
+        "e": "NaOH"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "¿Cuál de las siguientes opciones presenta los coeficientes estequiométricos que permiten equilibrar la ecuación?\n\nCH₃OH + O₂ → CO₂ + H₂O\n\n(Cada alternativa indica los coeficientes en el orden: CH₃OH | O₂ | CO₂ | H₂O)",
+      "options": {
+        "a": "2 | 3 | 2 | 4",
+        "b": "2 | 1 | 2 | 1",
+        "c": "1 | 2 | 1 | 2",
+        "d": "1 | 3 | 1 | 4",
+        "e": "1 | 1 | 1 | 2"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "En la figura se muestran las sustancias involucradas en una determinada reacción (no reversible) y la cantidad inicial de reactantes para formar un producto:\n\n[Figura: mezcla inicial de reactantes compuesta por partículas grandes y pares de partículas pequeñas; simbología: par de partículas pequeñas + partícula grande = reactantes; partícula grande rodeada de partículas pequeñas = producto]\n\nAl respecto, ¿cuál de los siguientes esquemas corresponde a la cantidad máxima de sustancias al término de la reacción?",
+      "options": {
+        "a": "Ver figura: esquema de partículas al término de la reacción, opción A.",
+        "b": "Ver figura: esquema de partículas al término de la reacción, opción B.",
+        "c": "Ver figura: esquema de partículas al término de la reacción, opción C.",
+        "d": "Ver figura: esquema de partículas al término de la reacción, opción D.",
+        "e": "Ver figura: esquema de partículas al término de la reacción, opción E."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "En un laboratorio, a 25 °C, se prepararon diferentes soluciones acuosas de concentración 1 mol/L, a partir de las siguientes sustancias: NaCl, C₆H₁₂O₆, CH₃COOH y HNO₃. Posteriormente, se introdujeron al interior de las soluciones los electrodos de un dispositivo para registrar conductividad, tal como se muestra en la siguiente figura:\n\n[Figura: batería, amperímetro y electrodos de grafito sumergidos en un vaso con solución]\n\n¿Cuál es la pregunta de investigación que se desea resolver mediante el procedimiento experimental descrito anteriormente?",
+      "options": {
+        "a": "¿Cómo afecta la concentración a la conductividad eléctrica de las soluciones?",
+        "b": "¿Qué relación existe entre la conductividad eléctrica de una solución y el tipo de soluto disuelto en ella?",
+        "c": "¿Qué relación existe entre la conductividad eléctrica de las soluciones y la distancia entre los electrodos?",
+        "d": "¿Cómo afecta la temperatura de las soluciones a la conductividad eléctrica de las soluciones?",
+        "e": "¿Qué relación existe entre la temperatura, la concentración y la conductividad eléctrica de las soluciones?"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Para determinar experimentalmente la polaridad de dos líquidos incoloros (1 y 2) e inmiscibles entre ellos, en donde el líquido 1 está en el fondo del vaso y el líquido 2 se ubica sobre el líquido 1, se realizan, bajo las mismas condiciones y con iguales volúmenes de los líquidos, las siguientes experiencias:\n\nExperiencia 1: se agrega un sólido coloreado de naturaleza apolar y se observa que el líquido 2 se colorea y que el líquido 1 permanece incoloro.\n\nExperiencia 2: se agrega un sólido coloreado de naturaleza polar y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro.\n\nExperiencia 3: se agrega un sólido coloreado de naturaleza iónica y se observa que el líquido 1 se colorea y que el líquido 2 permanece incoloro.\n\nCon respecto a lo anterior, ¿cuál de las siguientes opciones de respuesta señala correctamente la clasificación de los líquidos 1 y 2 estudiados?",
+      "options": {
+        "a": "Líquido 1: Polar | Líquido 2: Iónico",
+        "b": "Líquido 1: Apolar | Líquido 2: Polar",
+        "c": "Líquido 1: Polar | Líquido 2: Apolar",
+        "d": "Líquido 1: Iónico | Líquido 2: Polar",
+        "e": "Líquido 1: Apolar | Líquido 2: Apolar"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "Un grupo de investigadores descubrió una enzima \"devora suciedad\" en el estómago del krill, un diminuto crustáceo que habita en los mares australes. Las enzimas empleadas en los detergentes convencionales comienzan a \"trabajar\" cuando el agua bordea los 50 °C; no obstante, la que hallaron estos investigadores lo hace a los 20 °C. Actualmente, se encuentran estudiando métodos biotecnológicos para producir esta enzima, denominada \"Juanasa\", fácilmente y a gran escala; de otra manera, sería imposible obtener un producto comercial.\nEn relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente un impacto directo de la utilización de esta enzima en términos de protección medioambiental?",
+      "options": {
+        "a": "Reducción de la utilización de energía para calentar el agua a 50 °C y así promover el ahorro de la misma.",
+        "b": "Aumento de la fabricación de lavadoras automáticas que funcionen con detergentes más efectivos en la eliminación de la suciedad.",
+        "c": "Aumento en la explotación del krill como materia prima para la obtención de la Juanasa.",
+        "d": "Reducción de la utilización de agua debido a la elevada actividad de la Juanasa a bajas temperaturas, promoviendo así su ahorro."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Si a 50 mL de una solución de concentración X mol/L se agregan 150 mL de agua, considerando volúmenes aditivos, ¿cuál es la concentración de la solución resultante?",
+      "options": {
+        "a": "3X mol/L",
+        "b": "X mol/L",
+        "c": "X/2 mol/L",
+        "d": "X/3 mol/L",
+        "e": "X/4 mol/L"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "El síndrome de Zellweger se caracteriza por una disminución significativa de la cantidad de una estructura celular, cuya función se relaciona con procesos de depuración, detoxificación y con el metabolismo de algunos lípidos. Al respecto, ¿cuál de las siguientes estructuras celulares sería la afectada en este síndrome?",
+      "options": {
+        "a": "Peroxisomas",
+        "b": "Complejo de Golgi",
+        "c": "Nucléolo",
+        "d": "Ribosomas",
+        "e": "Retículo endoplasmático rugoso"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "El gráfico muestra la masa de cuatro higos, antes (masa inicial) y después (masa final) de ser puestos en soluciones de diferente concentración.\n\nEn relación con el análisis del gráfico, ¿cuál de las opciones presenta una inferencia coherente con los resultados?",
+      "options": {
+        "a": "3 fue puesto en una solución isotónica.",
+        "b": "4 fue puesto en una solución hipertónica.",
+        "c": "2 fue puesto en una solución hipotónica.",
+        "d": "3 fue puesto en una solución hipertónica.",
+        "e": "1 fue puesto en una solución hipertónica."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Se agregó hormona luteinizante a un cultivo de células extraídas de un testículo humano. Luego de un tiempo, se detectó la presencia de testosterona en el medio. De acuerdo con este resultado, ¿qué células conformaban el cultivo?",
+      "options": {
+        "a": "Espermatozoides",
+        "b": "Células germinales",
+        "c": "Células de Leydig",
+        "d": "Células del epidídimo"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Durante el ciclo ovárico de una mujer sana, ¿cuál de los siguientes estímulos provoca directamente la menstruación?",
+      "options": {
+        "a": "La disminución de los niveles plasmáticos de estrógenos y progesterona.",
+        "b": "La disminución de los niveles plasmáticos de la hormona foliculoestimulante.",
+        "c": "El aumento de los niveles plasmáticos de la hormona luteinizante.",
+        "d": "El aumento de los niveles plasmáticos de prolactina y oxitocina.",
+        "e": "El aumento de los niveles plasmáticos de hormonas liberadoras de gonadotrofinas."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "El esquema representa una parte de la regulación endocrina de la glicemia.\n\n[Esquema: Glucosa plasmática (Hiperglicemia) → Páncreas --X--> Células somáticas → Glucosa plasmática (Glicemia normal)]\n\nDel análisis del esquema, es correcto inferir que X",
+      "options": {
+        "a": "representa la liberación de glicógeno.",
+        "b": "representa la síntesis de glucosa.",
+        "c": "representa la liberación de insulina.",
+        "d": "representa la liberación de glucagón."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Una persona diabética tipo 1 está recibiendo una dosis intravenosa de glucagón. ¿Por qué razón se le administra este tratamiento?",
+      "options": {
+        "a": "Porque presenta una elevada ingesta de hidratos de carbono.",
+        "b": "Porque presenta un descenso de la insulina.",
+        "c": "Porque presenta una hiperglicemia aguda.",
+        "d": "Porque presenta una disminución del cortisol plasmático.",
+        "e": "Porque presenta un acelerado descenso de la glicemia."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "En una persona sana, ¿cómo serán la glicemia, la insulinemia y la concentración plasmática de glucagón luego de una absorción intestinal masiva de glucosa con respecto a la condición de ayuno?",
+      "options": {
+        "a": "Glicemia: Mayor | Insulinemia: Menor | Glucagón: Mayor",
+        "b": "Glicemia: Menor | Insulinemia: Menor | Glucagón: Menor",
+        "c": "Glicemia: Menor | Insulinemia: Mayor | Glucagón: Mayor",
+        "d": "Glicemia: Mayor | Insulinemia: Mayor | Glucagón: Menor",
+        "e": "Glicemia: Mayor | Insulinemia: Menor | Glucagón: Menor"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": true
+    },
+    {
+      "numero": 62,
+      "content": "¿Qué efecto directo provocará una droga que disminuye el número de astrocitos en la corteza cerebral?",
+      "options": {
+        "a": "Déficit de nutrientes requeridos en las neuronas.",
+        "b": "Disminución del grosor de la vaina de mielina de las neuronas.",
+        "c": "Aumento de la actividad fagocitaria.",
+        "d": "Aumento de la cantidad de líquido cefalorraquídeo.",
+        "e": "Aumento en la velocidad de propagación del impulso nervioso."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "El sistema mínimo que permite detectar y responder frente a un estímulo de presión en la piel, está constituido por varios componentes que participan en el siguiente orden:",
+      "options": {
+        "a": "centro elaborador → vía aferente → receptor → efector → vía eferente",
+        "b": "receptor → vía eferente → efector → vía aferente → centro elaborador",
+        "c": "centro elaborador → vía eferente → receptor → vía aferente → efector",
+        "d": "receptor → vía aferente → centro elaborador → vía eferente → efector",
+        "e": "vía eferente → centro elaborador → receptor → efector → vía aferente"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "Algunas vacunas basan su método de acción en la inoculación de un organismo completo debilitado o en una forma inactiva de este, de tal manera que el cuerpo reconoce estructuras moleculares llamadas antígenos, las cuales están conformadas por azúcares o proteínas. Al respecto, ¿qué objetivo tiene la incorporación de antígenos en la formulación de vacunas?",
+      "options": {
+        "a": "Provocar una respuesta inflamatoria rápida generalizada.",
+        "b": "Generar una respuesta inmunológica específica contra el patógeno.",
+        "c": "Proveer anticuerpos desde otro organismo previamente inmunizado.",
+        "d": "Eliminar el antígeno presente en los microorganismos que los poseen."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "En el sistema digestivo existen barreras contra patógenos que pueden ingresar con los alimentos. Los siguientes gráficos muestran el efecto de dos tratamientos que modifican la eficiencia de dos barreras en el control de una población de bacterias de la especie X en el tracto digestivo. Los gráficos están a la misma escala temporal.\n\n[Gráfico Barrera 1: efecto de la inhibición de la lisozima sobre el porcentaje de mortalidad de las bacterias X; Gráfico Barrera 2: efecto de la ingestión de antiácido sobre el porcentaje de mortalidad de las bacterias X]\n\nA partir de la información entregada por los gráficos, ¿cuál de las siguientes opciones corresponde a una inferencia correcta del experimento?",
+      "options": {
+        "a": "La barrera más importante que controla a la bacteria X se encuentra a nivel bucal.",
+        "b": "En ambas barreras los anticuerpos controlan la proliferación de la bacteria X.",
+        "c": "El pH ácido a nivel gástrico constituye una barrera importante contra la proliferación de la bacteria X.",
+        "d": "El pH salival levemente alcalino controla el crecimiento de la población bacteriana.",
+        "e": "Tanto la inhibición de la lisozima como el pH estomacal acidificado artificialmente favorecen el crecimiento bacteriano."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "El gráfico muestra el efecto de un compuesto X sobre la cantidad de células en cultivo, durante la interfase y la mitosis.\n\nA partir del análisis del gráfico, ¿cuál de las siguientes opciones corresponde a una inferencia correcta acerca del efecto del compuesto X sobre las células?",
+      "options": {
+        "a": "Favorece la separación de las células hijas.",
+        "b": "Inhibe la duplicación del material genético.",
+        "c": "Reduce la polimerización de las fibras del huso mitótico.",
+        "d": "Promueve la separación de cromátidas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "¿Cuál es la importancia de la selección natural en el contexto evolutivo?",
+      "options": {
+        "a": "Permite comprobar un hecho que ocurre en la naturaleza.",
+        "b": "Corresponde a un mecanismo que explica el proceso evolutivo.",
+        "c": "Permite predecir los cambios que sufrirán las especies actuales en la Tierra.",
+        "d": "Corresponde a la única explicación que ha dado cuenta del proceso evolutivo.",
+        "e": "Corresponde a un modelamiento que permite comprender el fenómeno evolutivo."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "En tiempos de sequía, los individuos de tamaño pequeño de la especie X son capaces de esconderse de sus depredadores. Si luego de muchas generaciones en condiciones de sequía, se observa un aumento en el número de individuos pequeños y considerando que el tamaño corporal es una característica heredable, ¿cuál de los siguientes procesos evolutivos podría explicar lo ocurrido en esta situación?",
+      "options": {
+        "a": "Especiación",
+        "b": "Selección disruptiva",
+        "c": "Selección estabilizadora",
+        "d": "Selección direccional"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Dos poblaciones de una especie de pez de agua dulce habitan en un lago del sur de Chile. Una población habita y se alimenta en la zona pelágica (columna de agua) del lago, mientras que la otra vive y se alimenta en la zona bentónica (fondo) del lago. Esto lleva, después de muchas generaciones, a la formación de dos especies. ¿Cuál de las siguientes opciones corresponde al mecanismo y tipo de especiación descritos?",
+      "options": {
+        "a": "Aislamiento mecánico, que origina una especiación alopátrica.",
+        "b": "Aislamiento mecánico, que origina una especiación simpátrica.",
+        "c": "Aislamiento temporal, que origina una especiación alopátrica.",
+        "d": "Aislamiento ecológico, que origina una especiación alopátrica.",
+        "e": "Aislamiento ecológico, que origina una especiación simpátrica."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 70,
+      "content": "Los machos de varias especies de matapiojos presentan un órgano copulador cuya parte anterior tiene forma de cuchara. Esta estructura le permite al macho remover los gametos de otro macho que se hubiese apareado previamente con la hembra. ¿Qué función tendrá la remoción de gametos en el apareamiento de los matapiojos?",
+      "options": {
+        "a": "Inhibir la fecundación",
+        "b": "Favorecer el aislamiento precopulatorio",
+        "c": "Aumentar la competencia poscopulatoria",
+        "d": "Disminuir la competencia espermática",
+        "e": "Aumentar el aislamiento poscigótico"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "Producto de la exposición a un tipo de radiación, los espermatozoides de un hombre presentan una mutación en la región no homóloga del cromosoma Y. ¿Qué proporción de su descendencia femenina podría presentar la mutación?",
+      "options": {
+        "a": "0 %",
+        "b": "25 %",
+        "c": "50 %",
+        "d": "75 %",
+        "e": "100 %"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "El daltonismo es causado por un alelo recesivo ubicado en los cromosomas sexuales. ¿Cuál de los siguientes genotipos corresponde a un individuo portador de esta condición?",
+      "options": {
+        "a": "X^D X^D",
+        "b": "X^D X^d",
+        "c": "X^d X^d",
+        "d": "X^D Y",
+        "e": "X^d Y"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "Si la dotación cromosómica humana es de 23 pares de cromosomas, entonces, es correcto afirmar que en metafase de la mitosis las células humanas normales tendrán",
+      "options": {
+        "a": "23 centrómeros.",
+        "b": "92 centrómeros.",
+        "c": "23 cromátidas.",
+        "d": "46 cromátidas.",
+        "e": "92 cromátidas."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "En algunas especies de mariposas, las hembras son el sexo heterogamético (ZW) y los machos son homogaméticos (ZZ). Si una característica es recesiva y está ligada al cromosoma Z, ¿qué porcentaje de las hembras de la progenie presentaría esta característica, considerando que el macho progenitor es heterocigoto para la característica y la hembra progenitora no la presenta?",
+      "options": {
+        "a": "0 %",
+        "b": "25 %",
+        "c": "50 %",
+        "d": "75 %",
+        "e": "100 %"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Cada cierto tiempo las viviendas ubicadas en sectores precordilleranos son afectadas por aluviones, generando graves consecuencias para la población. El origen de esta problemática ambiental está directamente relacionado con la erosión del suelo. ¿Cuál de las siguientes opciones corresponde a la principal causa inmediata de erosión en los suelos precordilleranos?",
+      "options": {
+        "a": "Cambio climático",
+        "b": "Tala indiscriminada de árboles",
+        "c": "Disminución de la biodiversidad animal y vegetal",
+        "d": "Contaminación de los suelos por el uso de pesticidas",
+        "e": "Reemplazo gradual de pastizal por bosque"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "En cierta zona geográfica se talaron los árboles nativos, siendo reemplazados por un tipo de árbol exótico de crecimiento rápido con el cual se reforestó la zona. Considerando el uso sustentable de los recursos y la biodiversidad, ¿cuál de las siguientes opciones corresponde a la consecuencia más probable de esta reforestación?",
+      "options": {
+        "a": "Aumentará la variedad de nutrientes en la zona.",
+        "b": "Disminuirá la riqueza de especies de la zona.",
+        "c": "Disminuirá la erosión en la zona.",
+        "d": "Aumentará la abundancia de especies de la zona.",
+        "e": "Aumentará la humedad del suelo."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "En una isla no habitada por seres humanos, cohabitaban distintas especies nativas. Posteriormente, esta isla fue colonizada por humanos que se establecieron allí. ¿Cuál de las siguientes actividades humanas podría ser una causa directa de la pérdida de biodiversidad nativa en esta isla?",
+      "options": {
+        "a": "El consumo sustentable de los frutos de los árboles de la isla.",
+        "b": "El ingreso de animales que no existían en la isla.",
+        "c": "El tratamiento del agua de mar para volverla potable.",
+        "d": "El tratamiento de los desechos para producir abono."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Algunos moluscos son capaces de vivir sobre la piel de las ballenas, consumiendo algas sin dañar ni favorecer a estos cetáceos. ¿Cuál es el tipo de interacción que se produce entre moluscos y ballenas?",
+      "options": {
+        "a": "Neutralismo",
+        "b": "Mutualismo",
+        "c": "Comensalismo",
+        "d": "Depredación",
+        "e": "Parasitismo"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "En una determinada zona intermareal de la costa chilena abundan dos especies de lapas que se alimentan de la misma alga. Estas coexisten con una especie de estrella de mar que depreda sobre ambas especies de lapas. Si una enfermedad reduce significativamente el tamaño poblacional de la estrella de mar, ¿cuál de las siguientes consecuencias ocurrirá en una primera etapa?",
+      "options": {
+        "a": "Un aumento de la población de algas.",
+        "b": "La extinción de ambas poblaciones de lapas.",
+        "c": "Un aumento en la densidad poblacional de ambas lapas.",
+        "d": "Un aumento de la población de una lapa y disminución de la otra.",
+        "e": "La migración de una de las poblaciones de lapas a otro ecosistema."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Una determinada especie de roedor migra de su ambiente natural debido a la deforestación de su hábitat. En ausencia de depredadores y con recursos disponibles ilimitados, ¿cuál de los siguientes gráficos representa la curva de crecimiento inicial de esta especie en su nuevo ambiente?",
+      "options": {
+        "a": "Gráfico N° de roedores vs. Tiempo: recta decreciente (disminuye linealmente en el tiempo).",
+        "b": "Gráfico N° de roedores vs. Tiempo: curva creciente cuya pendiente aumenta con el tiempo (crecimiento exponencial).",
+        "c": "Gráfico N° de roedores vs. Tiempo: curva que disminuye lentamente al inicio y luego cae abruptamente (cóncava hacia abajo, decreciente acelerada).",
+        "d": "Gráfico N° de roedores vs. Tiempo: recta creciente que luego se estabiliza en un valor constante (forma de meseta)."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

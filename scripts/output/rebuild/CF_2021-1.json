@@ -1,0 +1,1295 @@
+{
+  "meta": {
+    "subject": "CF",
+    "subject_nombre": "Ciencias - Física",
+    "origen": "PAES Ciencias - Física Admision 2021-1",
+    "anio": 2021,
+    "forma": 161,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [],
+    "fuente_pdf": "pruebas/oficiales/C-fisica-2021-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-fisica-2021-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "¿Cuál de las siguientes afirmaciones asociadas a características de capas de la Tierra en su modelo dinámico es correcta?",
+      "options": {
+        "a": "La mayor presión la poseen las capas líquidas.",
+        "b": "El núcleo interno posee la mayor dinámica convectiva.",
+        "c": "Las capas gaseosas poseen mayor temperatura que las capas sólidas.",
+        "d": "La astenosfera se encuentra a una mayor temperatura que la mesosfera.",
+        "e": "La convección en la astenosfera incide en el movimiento de las placas tectónicas."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Un haz de luz monocromática pasa de un medio a otro. Conociendo la rapidez de la luz en el vacío, ¿cuál de las siguientes opciones es suficiente para determinar la rapidez de este haz en el segundo medio?",
+      "options": {
+        "a": "El valor de la frecuencia del haz de luz",
+        "b": "El índice de refracción del segundo medio",
+        "c": "El ángulo con que incide el haz de luz en la interfaz",
+        "d": "El valor del período del haz de luz en el segundo medio",
+        "e": "El valor de la longitud de onda del haz de luz en el primer medio"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Una onda recorre 24 m en 2 s en cierto medio. Si su frecuencia es 3 Hz, ¿cuál es su longitud de onda?",
+      "options": {
+        "a": "4 m",
+        "b": "8 m",
+        "c": "12 m",
+        "d": "36 m",
+        "e": "72 m"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Un estudiante está investigando acerca de las ondas superficiales que se propagan en el agua contenida en una cubeta rectangular de fondo plano, cuyas dimensiones ha medido previamente. Para ello, deja caer varias gotas de agua en un extremo de la cubeta y mide el tiempo que tardan en llegar las ondas generadas al otro extremo de la cubeta. Repite el experimento variando la cantidad de agua en la cubeta y midiendo la profundidad del agua en cada caso. ¿Cuál de las siguientes opciones corresponde a una hipótesis consistente con el procedimiento experimental descrito?",
+      "options": {
+        "a": "El tiempo que tardan las ondas superficiales en recorrer cierta distancia es proporcional al número de gotas que las producen.",
+        "b": "El tipo de movimiento que describen las ondas superficiales en el agua depende del tamaño de las gotas.",
+        "c": "La rapidez de las ondas superficiales depende de la profundidad del agua en que se propagan.",
+        "d": "La cantidad de ondas superficiales depende de la profundidad del agua en que se propagan.",
+        "e": "La rapidez de las ondas superficiales depende de la frecuencia con que caen las gotas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "Por un medio se propagan dos ondas. Una de ellas hace que las partículas del medio oscilen en una determinada dirección; la otra hace que oscilen en una dirección perpendicular a la primera. ¿Cuál de las siguientes opciones permite determinar si dichas ondas son longitudinales o transversales?",
+      "options": {
+        "a": "Conocer la rapidez de una de ellas y la dirección de propagación de la otra.",
+        "b": "Conocer la longitud de onda y la frecuencia de cada una de ellas.",
+        "c": "Conocer la dirección de propagación de cada una de ellas.",
+        "d": "Conocer la frecuencia de cada una de ellas.",
+        "e": "Conocer la amplitud de cada una de ellas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Respecto de la Ley de Gravitación Universal, es correcto afirmar que",
+      "options": {
+        "a": "se puede aplicar solo a cuerpos celestes.",
+        "b": "se puede aplicar a cualquier tipo de partículas que posean masa.",
+        "c": "la fuerza entre dos cuerpos es independiente de cada una de sus masas.",
+        "d": "la fuerza entre dos cuerpos es directamente proporcional al cuadrado de la distancia entre ellos.",
+        "e": "la fuerza entre dos cuerpos es inversamente proporcional a la constante de gravitación universal."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "El siguiente gráfico representa la rapidez v en función del tiempo t de un cuerpo que se mueve en línea recta durante 16 s. [GRÁFICO: eje vertical v (m/s), eje horizontal t (s); la recta parte en v = 8 m/s en t = 0 s y disminuye linealmente hasta v = 0 m/s en t = 16 s]\n\n¿Cuál(es) de las siguientes magnitudes físicas del cuerpo se puede(n) determinar con la información proporcionada?\n\nI) La distancia recorrida por el cuerpo\nII) La posición inicial del cuerpo\nIII) La magnitud de la aceleración del cuerpo",
+      "options": {
+        "a": "Solo I",
+        "b": "Solo III",
+        "c": "Solo I y II",
+        "d": "Solo I y III",
+        "e": "Solo II y III"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "Un grupo de estudiantes analiza el comportamiento de una magnitud física P de un cuerpo que se mueve en el eje x, entre las posiciones x = 0 y x = 20 m. A partir de ello, establecen el siguiente modelo que relaciona la magnitud P en función de la posición x.\n\nP = 10 − x ; para x mayor que 0 y menor que 6 m.\nP = 16 − 2x ; para x mayor que 6 m y menor que 10 m.\nP = 2x − 24 ; para x mayor que 10 m y menor que 20 m.\n\nSi el modelo se expresa en unidades del Sistema Internacional, ¿en qué posición(es) x la magnitud P del cuerpo es nula?",
+      "options": {
+        "a": "Solo en x = 8 m y x = 12 m",
+        "b": "Solo en x = 6 m y x = 10 m",
+        "c": "Solo en x = 12 m",
+        "d": "Solo en x = 10 m",
+        "e": "Solo en x = 8 m"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "Un objeto cae desde 45 m de altura con respecto al suelo. Si se desprecian los efectos del roce y la magnitud de la aceleración de gravedad es 10 m/s², ¿con qué rapidez impacta el objeto al suelo?",
+      "options": {
+        "a": "900 m/s",
+        "b": "450 m/s",
+        "c": "30 m/s",
+        "d": "√450 m/s",
+        "e": "√90 m/s"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Un cuerpo de 4 kg describe un movimiento rectilíneo uniformemente acelerado a partir del reposo. ¿Cuál es la magnitud de la fuerza neta sobre el cuerpo si al cabo de 1 s adquiere una rapidez de 3 m/s?",
+      "options": {
+        "a": "12 N",
+        "b": "3 N",
+        "c": "4/3 N",
+        "d": "3/4 N",
+        "e": "1/12 N"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "Un cuerpo de masa m desliza sobre una superficie horizontal, en ausencia de roce, sin despegarse de ella. Sobre el cuerpo actúan únicamente el peso y las fuerzas F₁ de magnitud F₁ y F₂ de magnitud F₂ representadas en la figura. [FIGURA: bloque sobre superficie horizontal con F₂ apuntando verticalmente hacia arriba y F₁ apuntando horizontalmente hacia la derecha]\n\nConsiderando que F₁ es paralela a la superficie y perpendicular a F₂, ¿cuál es la magnitud de la aceleración del cuerpo?",
+      "options": {
+        "a": "F₂/m",
+        "b": "F₁/m",
+        "c": "(F₁ + F₂)/m",
+        "d": "(F₁ − F₂)/m",
+        "e": "m(F₁ + F₂)"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Un cuerpo, cuyo peso tiene magnitud P, se encuentra en reposo sobre una superficie horizontal mientras sobre él actúa una fuerza de roce de magnitud Fr. ¿Cuál de las siguientes afirmaciones es correcta en relación a las fuerzas que actúan sobre el cuerpo?",
+      "options": {
+        "a": "La magnitud de la fuerza normal actuando sobre el cuerpo es menor que la de Fr.",
+        "b": "La situación descrita representa el caso en que Fr toma su mayor valor.",
+        "c": "Sobre el cuerpo actúa al menos una fuerza en sentido contrario a Fr.",
+        "d": "La magnitud de la fuerza neta sobre el cuerpo es mayor que la de Fr.",
+        "e": "El cuerpo va a adquirir una aceleración en sentido contrario a Fr."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "Dos vehículos poseen rapideces distintas al momento de aplicar los frenos, recorriendo ambos una misma distancia recta horizontal mientras se detienen completamente, ¿qué se puede afirmar siempre acerca del trabajo mecánico realizado por los frenos de cada uno de los vehículos?",
+      "options": {
+        "a": "Su magnitud sería la misma si ambos vehículos tardan el mismo tiempo en detenerse.",
+        "b": "Su magnitud sería la misma si ambos vehículos tuviesen la misma masa.",
+        "c": "Su magnitud sería mayor para el vehículo que lleva una mayor rapidez.",
+        "d": "Su magnitud sería mayor para el vehículo que lleva una menor masa.",
+        "e": "Su magnitud sería mayor para el vehículo de mayor energía cinética."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "La figura representa seis placas tectónicas, P, Q, R, S, T y U, cuyos bordes se mueven en las direcciones indicadas mediante flechas. [FIGURA: mapa esquemático con seis placas P, Q, R, S, T, U y flechas indicando la dirección de movimiento de cada borde]\n\nEn base a la teoría de la tectónica de placas, ¿cuál de las siguientes opciones presenta pares de placas asociadas correctamente al tipo de borde que existe entre ellas? Cada alternativa entrega, en orden, el par de placas para: Borde convergente | Borde divergente | Borde transformante.",
+      "options": {
+        "a": "P – S | S – U | S – T",
+        "b": "R – U | S – T | P – S",
+        "c": "S – T | P – S | S – U",
+        "d": "R – U | S – U | S – T",
+        "e": "S – U | P – S | Q – R"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "Se registra la longitud que adquieren dos alambres P y Q, de longitudes iniciales respectivas L₀ y 2L₀, al aumentar de temperatura. A partir de los datos, se construye el siguiente gráfico de longitud L en función de la temperatura T: [GRÁFICO: eje vertical L (m), eje horizontal T (K); la curva Q parte en 2L₀ y crece con pendiente suave; la curva P parte en L₀ y crece con pendiente más pronunciada; ambas curvas convergen a un mismo valor de L en T₃, marcándose además los puntos T₁ y T₂ en el eje horizontal]\n\nAl respecto, es correcto afirmar que",
+      "options": {
+        "a": "a la temperatura T₃ ambos alambres experimentan la misma dilatación.",
+        "b": "el coeficiente de dilatación térmica de P en T₁ es menor que en T₂.",
+        "c": "el coeficiente de dilatación térmica de Q es el doble que el de P.",
+        "d": "el coeficiente de dilatación térmica de P es mayor que el de Q.",
+        "e": "a la temperatura T₂ el alambre Q se ha dilatado más que P."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Un pozo tiene una profundidad de 10 m desde la superficie hasta el nivel del agua que contiene. Si la magnitud de la aceleración de gravedad es 10 m/s², ¿cuál es el trabajo mínimo que se debe realizar para subir un balde de 1 kg que contiene 5 kg de agua, desde el nivel del agua dentro del pozo hasta la superficie?",
+      "options": {
+        "a": "50 J",
+        "b": "60 J",
+        "c": "100 J",
+        "d": "500 J",
+        "e": "600 J"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Se ponen en contacto térmico 2 kg de agua a 80 °C con 3 kg de agua a 50 °C. Si se encuentran aislados del ambiente, ¿cuál es la temperatura de equilibrio que alcanzan las porciones de agua?",
+      "options": {
+        "a": "15 °C",
+        "b": "26 °C",
+        "c": "30 °C",
+        "d": "62 °C",
+        "e": "65 °C"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "En la siguiente figura se presentan dos ciudades, L y M, que se encuentran a 200 km de distancia, y cinco cuadrados idénticos numerados, que corresponden a zonas bajo la superficie terrestre. [FIGURA: esquema con las ciudades L y M en la superficie terrestre y cinco zonas subterráneas numeradas del 1 al 5 en una cuadrícula de tres filas, con la fila inferior ubicada a 50 km de profundidad]\n\nSi un sismo se genera a 150 km y 100 km de las ciudades L y M, respectivamente, ¿en cuál de las zonas numeradas está el hipocentro de este sismo?",
+      "options": {
+        "a": "En la zona 1",
+        "b": "En la zona 2",
+        "c": "En la zona 3",
+        "d": "En la zona 4",
+        "e": "En la zona 5"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "La tabla describe tres tipos celulares en función de dos criterios de clasificación.\n\n| Criterio | Procarionte | Vegetal | Animal |\n|---|---|---|---|\n| Límite externo | Pared celular | S | Membrana plasmática |\n| Zona donde se encuentra el ADN | R | Núcleo | T |\n\nDe acuerdo con los datos anteriores, ¿a qué estructuras celulares corresponden R, S y T, respectivamente?",
+      "options": {
+        "a": "Núcleo – Pared celular – Núcleo",
+        "b": "Nucleoide – Pared celular – Núcleo",
+        "c": "Núcleo – Pared celular – Nucleoide",
+        "d": "Núcleo – Membrana celular – Núcleo",
+        "e": "Nucleoide – Membrana celular – Nucleoide"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "J. Gurdon realizó el siguiente experimento: perforó la membrana de una célula intestinal de una rana adulta albina y extrajo su núcleo (núcleo donante). Destruyó el núcleo de un ovocito de rana manchada e introdujo el núcleo donante en el ovocito receptor enucleado. Una vez incubado, \"ese huevo híbrido se desarrolló, originando un renacuajo y, tras el proceso de metamorfosis, se obtuvo una rana adulta normal y albina\".\n\nEn el párrafo anterior, ¿a cuál de las siguientes opciones se asocia la oración entre comillas?",
+      "options": {
+        "a": "Un procedimiento experimental",
+        "b": "Una hipótesis de trabajo",
+        "c": "Una conclusión",
+        "d": "Un resultado",
+        "e": "Una teoría"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Con respecto a la difusión simple y a la difusión facilitada, es correcto afirmar que en ambos tipos de transporte",
+      "options": {
+        "a": "las sustancias movilizadas presentan alta masa molecular.",
+        "b": "se requiere de la hidrólisis de ATP como fuente de energía.",
+        "c": "las sustancias movilizadas atraviesan por la bicapa de fosfolípidos.",
+        "d": "se requiere de proteínas transportadoras presentes en la membrana.",
+        "e": "el movimiento neto de sustancias ocurre a favor del gradiente de concentración."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "¿Cuál de las siguientes hormonas atraviesa la membrana plasmática, para unirse a receptores intracelulares?",
+      "options": {
+        "a": "LH",
+        "b": "Insulina",
+        "c": "Glucagón",
+        "d": "Adrenalina",
+        "e": "Testosterona"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "A diferencia de los hidratos de carbono, las proteínas",
+      "options": {
+        "a": "presentan C, H y O.",
+        "b": "forman parte de la membrana celular.",
+        "c": "poseen enlaces covalentes en su estructura.",
+        "d": "pueden catalizar reacciones químicas.",
+        "e": "proporcionan energía al ser metabolizadas."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Una mujer sana desea usar un método anticonceptivo que, además, contribuya a disminuir el sangrado menstrual. ¿Cuál de los siguientes métodos debiese elegir?",
+      "options": {
+        "a": "Diafragma",
+        "b": "T de cobre",
+        "c": "Progestina inyectable",
+        "d": "Ligadura de oviductos",
+        "e": "Jalea espermicida"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Los científicos aún no comprenden del todo por qué la obesidad está relacionada con un mayor riesgo de padecer diabetes tipo 2, aunque \"múltiples estudios experimentales realizados en ratones han demostrado que los adipocitos (células del tejido graso) secretan una hormona llamada resistina, y que los niveles de esta hormona se encuentran anormalmente elevados en los ratones obesos\".\n\n¿A cuál de las siguientes opciones se asocia la oración entre comillas?",
+      "options": {
+        "a": "A la postulación de una teoría.",
+        "b": "A la presentación de resultados.",
+        "c": "Al planteamiento de una hipótesis.",
+        "d": "A la formulación de una pregunta de investigación.",
+        "e": "A la descripción de un procedimiento experimental."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "Las siguientes representaciones corresponden a algunas de las fases (1, 2 y 3) en el desarrollo de un cáncer por mitosis descontrolada. [FIGURA: tres dibujos de grupos celulares rotulados 1, 2 y 3, que muestran distintos grados de proliferación y desprendimiento celular]\n\nAl respecto, ¿cuál de las siguientes opciones indica la secuencia correcta de las fases de desarrollo de un cáncer?",
+      "options": {
+        "a": "1 – 2 – 3",
+        "b": "3 – 2 – 1",
+        "c": "2 – 1 – 3",
+        "d": "3 – 1 – 2",
+        "e": "2 – 3 – 1"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "¿Cuál de las siguientes opciones corresponde a una utilidad de un cariotipo humano?",
+      "options": {
+        "a": "Establecer el parentesco entre dos individuos de una misma familia.",
+        "b": "Mostrar la secuencia de ADN de un organismo.",
+        "c": "Detectar anomalías en el número de cromosomas.",
+        "d": "Conocer el grado de condensación del material genético.",
+        "e": "Visualizar genes mutados."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Estudiando la proporción de machos y hembras en una población de abejas silvestres, se identifica un individuo ginandromorfo bilateral, esto quiere decir que una mitad de su cuerpo tiene el fenotipo hembra y la otra mitad el fenotipo macho. En las abejas la determinación sexual es haplodiploide, donde los machos se originan desde huevos no fecundados que resultan de la meiosis en las madres y las hembras por cigotos formados por la fecundación de los gametos. Al verificar el número cromosómico de células provenientes desde el lado derecho e izquierdo del ginandromorfo, resulta que las células del lado masculino presentan solo una copia de cromosomas y las del lado femenino presentan 3 copias de cromosomas.\n\nEn relación con los resultados presentados anteriormente, ¿cuál de las siguientes conclusiones es correcta?",
+      "options": {
+        "a": "El origen de esta alteración está en las cópulas múltiples, dada la inusual proporción de sexos en la población.",
+        "b": "Dado que los cromosomas del lado masculino están en número normal, entonces la alteración se originó en los gametos de la madre del ginandromorfo.",
+        "c": "Dada la constitución cromosómica de ambos lados, la alteración debió ocurrir al inicio del desarrollo, en la primera división del embrión.",
+        "d": "Dada la condición bilateral del ginandromorfo su origen estuvo en la fusión de dos huevos normales, uno fecundado y el otro no fecundado, originando las mitades haploide y diploide que determinan los sexos.",
+        "e": "El origen de esta condición está en las posibles mutaciones sobre una pequeña sección del ADN de los gametos de la madre del ginandromorfo."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "El siguiente diagrama muestra el cruzamiento que realizó el investigador Thomas Hunt Morgan en la mosca de la fruta (Drosophila melanogaster), respecto del carácter color de ojos.\n\nP: Macho ojos blancos x Hembra ojos rojos\nF1: 100% Machos y Hembras ojos rojos\nF2: 50% Machos y 100% Hembras ojos rojos; 50% Machos ojos blancos\n\nA partir del cruzamiento, es correcto inferir que",
+      "options": {
+        "a": "la hembra progenitora es heterocigota y el macho progenitor es homocigoto dominante.",
+        "b": "el gen para el color de los ojos está localizado en el cromosoma X.",
+        "c": "estos resultados contradicen la primera ley de Mendel.",
+        "d": "todas las hembras de la F1 son homocigotas.",
+        "e": "todas las hembras de la F2 presentan un alelo dominante y el otro recesivo."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "¿Cuál de los siguientes hechos corresponde a un factor biótico que puede afectar la distribución y el tamaño de una comunidad?",
+      "options": {
+        "a": "Un alud",
+        "b": "Un incendio",
+        "c": "Una erupción",
+        "d": "Una inundación",
+        "e": "Un sobrepastoreo"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "¿Qué tipo de molécula, generada a partir de un producto del ciclo de Calvin, permite a los organismos productores sintetizar moléculas más complejas como proteínas, polisacáridos, ADN y ARN?",
+      "options": {
+        "a": "Un aminoácido",
+        "b": "Un nucleótido",
+        "c": "La clorofila",
+        "d": "La glucosa",
+        "e": "El oxígeno"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "De manera general, ¿cuál de los siguientes gráficos representa correctamente la variación de la tasa fotosintética en función de la concentración de CO₂ ambiental? [FIGURA: cinco gráficos de Tasa fotosintética (u.a.) versus Concentración de CO₂ (u.a.), cada uno con una forma de curva distinta, presentados como alternativas A a E]",
+      "options": {
+        "a": "Curva decreciente, que parte con un valor alto y disminuye de forma cóncava hacia arriba hasta un valor bajo.",
+        "b": "Curva creciente que aumenta rápidamente al inicio y luego se estabiliza (satura) en un valor máximo constante.",
+        "c": "Línea horizontal constante, sin variación con la concentración de CO₂.",
+        "d": "Línea recta decreciente, con relación lineal inversa entre las variables.",
+        "e": "Curva en forma de S (sigmoidea) que aumenta lentamente al inicio, luego rápido, y finalmente se estabiliza."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "El gasto energético diario de un individuo de una especie X es de 100 u.a. Cuando dos individuos de esta especie interactúan, cada uno gasta 200 u.a. ¿Cuál de las siguientes interacciones biológicas explicaría esta diferencia de gasto energético?",
+      "options": {
+        "a": "Comensalismo",
+        "b": "Parasitismo",
+        "c": "Mutualismo",
+        "d": "Competencia",
+        "e": "Amensalismo"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "En un ecosistema marino, se investigó la relación establecida entre las especies Oculina arbuscula (un tipo de coral) y Mitras forceps (un cangrejo herbívoro). Los gráficos siguientes muestran los resultados de esta investigación: [GRÁFICO 1: Número de cangrejos depredados, comparando \"Cangrejos con acceso al coral\" (aprox. 10) versus \"Cangrejos sin acceso al coral\" (aprox. 18)] [GRÁFICO 2: Mortalidad del coral (%), comparando \"Coral sin cangrejos\" (aprox. 73%) versus \"Coral con cangrejos\" (aprox. 23%)]\n\nA partir de los datos anteriores, es correcto inferir que la relación estudiada es",
+      "options": {
+        "a": "indiferente para el coral y desfavorable para el cangrejo.",
+        "b": "indiferente para el cangrejo y desfavorable para el coral.",
+        "c": "beneficiosa para el cangrejo e indiferente para el coral.",
+        "d": "beneficiosa para el cangrejo y desfavorable para el coral.",
+        "e": "beneficiosa para ambas especies."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "La siguiente figura muestra las consecuencias de un plan de explotación forestal sobre un hábitat boscoso continuo. T1 y T2 corresponden al estado del área antes y después de la explotación, respectivamente. [FIGURA: T1 muestra un área boscosa continua y completa; T2 muestra la misma área fragmentada en varias secciones separadas de distinto tamaño]\n\nEn relación a la figura ¿cuál de las siguientes inferencias es correcta?",
+      "options": {
+        "a": "El plan de explotación aumenta la diversidad de especies en las secciones.",
+        "b": "La riqueza de las especies se verá favorecida por la disminución del hábitat.",
+        "c": "A mayor explotación forestal se obtendrá un paisaje mayormente homogéneo.",
+        "d": "La explotación del bosque se asocia a un proceso de fragmentación del hábitat.",
+        "e": "El tamaño de las secciones no guarda relación con el tamaño del territorio de las especies."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Dos ejemplares de una especie de planta, fueron extraídos desde un sitio y en el laboratorio se expusieron a dos condiciones: una en la cual se mantenía la disponibilidad de agua del sitio original (control) y otra en la que se aumentó dicha disponibilidad (tratamiento). En el gráfico se muestra la longitud de la hoja en relación a la exposición a ambas condiciones. [GRÁFICO: dispersión de puntos de Longitud de la hoja (mm) para Planta 1 y Planta 2, en las condiciones Control y Tratamiento; ambas plantas muestran mayor longitud de hoja en Tratamiento que en Control]\n\nRespecto a esta investigación, ¿cuál de las siguientes hipótesis se cumple?",
+      "options": {
+        "a": "La cantidad de agua influye en el tamaño de la hoja.",
+        "b": "Ambas plantas presentan la misma tasa de crecimiento de las hojas.",
+        "c": "La cantidad de agua consumida varía de acuerdo a la longitud de la hoja.",
+        "d": "La especie presenta diferentes tamaños de hoja según el sitio que habite.",
+        "e": "La longitud de la hoja depende solo del material genético que posee la planta."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "Respecto a la formación del enlace iónico, ¿cuál de las siguientes opciones corresponde a una ley?",
+      "options": {
+        "a": "El enlace de un compuesto iónico se representa mediante un guión utilizando la estructura de Lewis.",
+        "b": "En la formación del enlace iónico, las cargas opuestas se atraen con una fuerza inversamente proporcional al cuadrado de la distancia que las separa.",
+        "c": "En un enlace iónico se infiere adecuadamente que los electrones no compartidos en un compuesto generan mayor repulsión que los electrones enlazados.",
+        "d": "La formación del enlace iónico es adecuada para predecir qué especies tendrán alta densidad electrónica.",
+        "e": "Los electrones en un enlace iónico son representados por puntos o cruces."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "¿Cuál es el número total de electrones de valencia que presenta una molécula de ácido cloroso (HClO₂)?",
+      "options": {
+        "a": "8",
+        "b": "12",
+        "c": "14",
+        "d": "20",
+        "e": "24"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "¿Cuál de las siguientes opciones representa correctamente la estructura de Lewis, para el ion fluoruro? [FIGURA: cinco estructuras de Lewis del flúor con distinta cantidad y distribución de puntos representando electrones, algunas con corchetes y carga negativa]",
+      "options": {
+        "a": "Estructura de F sin corchetes ni carga indicada, con solo 1 par de electrones representado (incompleta).",
+        "b": "Estructura de F entre corchetes con carga negativa, pero con los 8 electrones distribuidos de forma incorrecta (agrupados en pares no equivalentes alrededor del átomo).",
+        "c": "Estructura de F sin corchetes ni carga, con 6 electrones representados de forma irregular.",
+        "d": "Estructura de F sin corchetes ni carga, con 7 electrones representados.",
+        "e": "Estructura de F entre corchetes con carga negativa (–), con 4 pares de electrones (8 electrones) distribuidos correctamente alrededor del átomo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "¿Cuál de los siguientes compuestos es una amina primaria?",
+      "options": {
+        "a": "CH₃NH₂",
+        "b": "HCONH₂",
+        "c": "CH₃CONH₂",
+        "d": "CH₃NHCH₃",
+        "e": "CH₃N(CH₃)₂"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "Con respecto a la siguiente molécula: [FIGURA: estructura química que muestra un átomo de Cl unido a un carbono con un grupo CH₃, ese carbono forma un doble enlace C=C con el siguiente carbono de la cadena; la cadena continúa con varios carbonos hasta terminar en un carbono unido a dos grupos CH₃]\n\n¿Cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "Presenta solo átomos de carbono con hibridación sp³",
+        "b": "La molécula presenta en total 17 enlaces sigma (σ)",
+        "c": "Es una molécula insaturada",
+        "d": "Corresponde a un alcano",
+        "e": "Presenta 3 enlaces pi (π)"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "Dos científicos propusieron independientemente lo siguiente: \"los cuatro enlaces del carbono no están orientados al azar, sino que están orientados en los vértices de un tetraedro regular y el carbono ocupa el centro de este\", en contraposición a la idea predominante de esa época que consideraba la estructura del carbono plana. Al respecto, ¿cuál de las siguientes afirmaciones explica la importancia de la propuesta de los científicos, para la Química Orgánica?",
+      "options": {
+        "a": "Establece las bases para formular la tridimensionalidad de las moléculas orgánicas.",
+        "b": "Establece la capacidad del átomo de carbono de formar cuatro enlaces consigo mismo.",
+        "c": "Determina los tipos de enlaces (sigma o pi) que puede formar el átomo de carbono.",
+        "d": "Determina la gran variedad de compuestos orgánicos formados por átomos de carbono.",
+        "e": "Establece la región bidimensional que ocupan los átomos de carbono en el tetraedro."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "En la siguiente figura se muestran dos proyecciones: [FIGURA: dos proyecciones de Newman (representación en \"caballete\" circular) mostrando conformaciones de una molécula con grupos CH₃ y H en distintas posiciones angulares]\n\nAl respecto, ¿a qué tipo de isómeros corresponden las moléculas representadas en las proyecciones?",
+      "options": {
+        "a": "A isómeros geométricos",
+        "b": "A isómeros de posición",
+        "c": "A isómeros conformacionales",
+        "d": "A isómeros estructurales",
+        "e": "A isómeros de función"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "¿Cuál de las siguientes estructuras representa al cis-2-buteno? [FIGURA: cinco opciones, una en fórmula condensada y cuatro con estructuras de doble enlace mostrando distintas disposiciones espaciales de los grupos CH₃ y H alrededor del doble enlace C=C]",
+      "options": {
+        "a": "H₃C–CH=CH–CH₃ (fórmula condensada, sin especificar geometría cis/trans)",
+        "b": "Estructura con H y H ubicados del mismo lado (arriba) del doble enlace, y H₃C y CH₃ del mismo lado (abajo) del doble enlace",
+        "c": "Estructura con H arriba a la izquierda y CH₃ arriba a la derecha, H₃C abajo a la izquierda y CH₃ abajo a la derecha (corresponde a 2,3-dimetil-2-buteno, no a 2-buteno)",
+        "d": "Estructura con H arriba a la izquierda y CH₃ arriba a la derecha, H₃C abajo a la izquierda y H abajo a la derecha (configuración trans)",
+        "e": "H₂C=C(CH₃)–CH₃ (isobutileno, no corresponde a 2-buteno)"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "El porcentaje en masa de cada elemento que forma parte de un compuesto, corresponde a la definición de",
+      "options": {
+        "a": "composición porcentual.",
+        "b": "porcentaje de pureza.",
+        "c": "fórmula molecular.",
+        "d": "fórmula empírica.",
+        "e": "rendimiento."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Se sabe que durante una transformación química, la masa no cambia. Al respecto, ¿cuál de los siguientes modelos representa correctamente esta idea? [FIGURA: cinco pares de recuadros (reactivos → productos) con círculos negros y blancos representando átomos antes y después de una reacción]",
+      "options": {
+        "a": "Modelo donde el conjunto de reactivos, al reagruparse en productos, muestra una cantidad total de átomos distinta a la de reactivos.",
+        "b": "Modelo donde los productos presentan más átomos en total que los reactivos.",
+        "c": "Modelo donde los productos presentan menos átomos en total que los reactivos.",
+        "d": "Modelo donde los productos ganan átomos respecto de los reactivos.",
+        "e": "Modelo donde reactivos y productos presentan igual número total de átomos, correctamente conservados y solo reorganizados."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "En la siguiente reacción química hipotética:\n\nz X₂T₅ → 4 X + 5 T₂\n\n¿Cuál es el valor del coeficiente z?",
+      "options": {
+        "a": "5",
+        "b": "4",
+        "c": "3",
+        "d": "2",
+        "e": "1"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Se estudia una reacción química en la cual se modifican las masas de los reactantes, tal como se muestra a continuación:\n\n| | R | S | T | Reactante en exceso |\n|---|---|---|---|---|\n| Ensayo 1 | 0,1 g | 0,8 g | 0,9 g | 0,0 g |\n| Ensayo 2 | 1,0 g | 10,0 g | X | Y |\n\nDe acuerdo a estos datos, ¿cuál es la masa que corresponde a Y?",
+      "options": {
+        "a": "0,0 g",
+        "b": "0,8 g",
+        "c": "1,2 g",
+        "d": "2,0 g",
+        "e": "3,0 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "A una temperatura dada, ¿cómo se denomina la solución que contiene la máxima cantidad de soluto que es capaz de disolver una determinada masa de solvente?",
+      "options": {
+        "a": "Densa",
+        "b": "Diluida",
+        "c": "Saturada",
+        "d": "Insaturada",
+        "e": "Concentrada"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Conociendo solo el volumen de una solución, ¿cuál de las siguientes concentraciones de la solución, permite determinar la masa de soluto?",
+      "options": {
+        "a": "Molalidad",
+        "b": "Porcentaje masa/masa",
+        "c": "Porcentaje masa/volumen",
+        "d": "Fracción molar",
+        "e": "Molaridad"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "Al aumentar 5 veces el volumen de una solución, agregando solvente, es correcto afirmar que",
+      "options": {
+        "a": "el volumen de soluto disminuye 5 veces.",
+        "b": "la masa, en g, de soluto disminuye 1/5 veces.",
+        "c": "la cantidad, en mol, de soluto disminuye 5 veces.",
+        "d": "la concentración de la solución inicial disminuye en 5 mol.",
+        "e": "la concentración de la solución final es 1/5 de la inicial."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Se tienen dos soluciones de igual volumen y diferente concentración, preparadas con el mismo soluto y separadas por una membrana semipermeable, tal como se muestra en la figura: [FIGURA: recipiente dividido en dos por una membrana semipermeable; el lado izquierdo tiene menos partículas de soluto y el lado derecho tiene más partículas de soluto, con niveles de líquido inicialmente iguales]\n\nPara esta experiencia, ¿cuál de los siguientes esquemas representa correctamente el resultado final del proceso de osmosis?",
+      "options": {
+        "a": "Esquema donde el nivel izquierdo baja levemente y el derecho sube levemente, sin cambio relevante de volumen de agua entre los lados.",
+        "b": "Esquema donde el nivel del lado derecho (más concentrado) sube y el nivel del lado izquierdo (menos concentrado) baja, es decir, el agua se desplaza desde la solución menos concentrada hacia la más concentrada.",
+        "c": "Esquema donde el nivel izquierdo sube considerablemente y el derecho baja, mostrando transferencia de agua desde el lado más concentrado al menos concentrado.",
+        "d": "Esquema donde ambos niveles permanecen exactamente iguales, sin cambio de volumen de agua.",
+        "e": "Esquema donde el nivel derecho sube al máximo y el izquierdo prácticamente desaparece."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "En el siguiente gráfico se muestra la variación de la presión de vapor a medida que aumenta la temperatura de dos soluciones (P y Q) formadas por la misma masa de un soluto X y los solventes puros W y Z, respectivamente. Además de las curvas de las dos soluciones, se muestran las curvas de los solventes puros W y Z. [GRÁFICO: Presión de vapor (mmHg) en el eje vertical versus Temperatura (°C) en el eje horizontal; se muestran cuatro curvas crecientes correspondientes a W, P, Z y Q, ordenadas de izquierda a derecha según la temperatura a la que alcanzan la presión atmosférica (línea horizontal punteada en aproximadamente 760 mmHg)]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es una conclusión correcta?",
+      "options": {
+        "a": "La temperatura de ebullición de ambas soluciones es mayor que la de sus solventes puros.",
+        "b": "A presión atmosférica, ambas soluciones logran su temperatura de ebullición sobre los 90 °C.",
+        "c": "La solución P tiene una temperatura de ebullición sobre los 80 °C.",
+        "d": "El mayor cambio en la temperatura de ebullición se produjo al adicionar el soluto X al solvente puro Z.",
+        "e": "A presión atmosférica, la solución Q tiene una temperatura de ebullición mayor a 100 °C."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "¿Cuál de los siguientes procesos industriales corresponde a una aplicación del proceso de osmosis?",
+      "options": {
+        "a": "Filtración de partículas gruesas durante la potabilización del agua.",
+        "b": "Extracción de impurezas del aceite con líquidos apropiados.",
+        "c": "Flotación de minerales a partir de concentrados de cobre.",
+        "d": "Cloración del agua para el consumo humano.",
+        "e": "Conservación de alimentos por deshidratación."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "La tabla a continuación presenta los rangos auditivos de distintas especies:\n\n| Especie | Rango auditivo (Hz) |\n|---|---|\n| Rana | 100 – 3000 |\n| Humano | 20 – 20000 |\n| Chimpancé | 100 – 20000 |\n| Conejo | 300 – 45000 |\n| Perro | 50 – 46000 |\n| Gato | 30 – 50000 |\n| Murciélago | 3000 – 120000 |\n| Delfín | 1000 – 130000 |\n\nUna estudiante describe el rango auditivo de una especie en particular, de la siguiente forma: \"A pesar de que la especie humana puede escuchar sonidos asociados a frecuencias menores que esta especie, esta supera las frecuencias mayores percibidas por los humanos. Sin embargo, tanto el murciélago como el perro pueden percibir frecuencias mayores que esta especie\". ¿A qué especie se refiere la estudiante?",
+      "options": {
+        "a": "Al gato",
+        "b": "Al delfín",
+        "c": "A la rana",
+        "d": "Al conejo",
+        "e": "Al chimpancé"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "Una onda electromagnética de 4×10¹¹ Hz se propaga a través de un medio M cuyo índice de refracción es 1,5. Si se considera que la rapidez de la luz en el vacío es 3×10⁸ m/s, ¿cuál es la longitud de onda de la onda electromagnética en el medio M?",
+      "options": {
+        "a": "1,25×10⁻⁵ m",
+        "b": "5,0×10⁻⁴ m",
+        "c": "7,5×10⁻¹ m",
+        "d": "1,3̄×10³ m",
+        "e": "2,0×10³ m"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Dos ondas sonoras, S₁ y S₂ se propagan por un mismo medio líquido. S₁ tiene una longitud de onda de 0,8 m y se propaga con una rapidez de 800 m/s. Si la frecuencia de S₂ es 500 Hz, ¿cuál de las siguientes comparaciones entre magnitudes físicas de las ondas S₁ y S₂ es correcta?",
+      "options": {
+        "a": "La frecuencia de S₂ es igual que la de S₁.",
+        "b": "La frecuencia de S₂ es mayor que la de S₁.",
+        "c": "La longitud de onda de S₂ es igual que la de S₁.",
+        "d": "La longitud de onda de S₂ es mayor que la de S₁.",
+        "e": "La rapidez de propagación de S₂ es mayor que la de S₁."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Una onda sonora se propaga desde un emisor R a un receptor S. Al observar las características de la onda en ambos dispositivos, se determina que la longitud de onda emitida es diferente a la recibida. ¿Cuál de las siguientes opciones es suficiente para explicar la situación descrita?",
+      "options": {
+        "a": "La onda aumentó su período entre R y S.",
+        "b": "La onda cambió de dirección entre R y S.",
+        "c": "La onda aumentó su intensidad entre R y S.",
+        "d": "La onda cambió de medio al menos una vez entre R y S.",
+        "e": "La onda se reflejó en más de una oportunidad entre R y S."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "¿Cuál de las siguientes proposiciones corresponde a una de las leyes de Kepler?",
+      "options": {
+        "a": "El radio vector que une a un planeta con el Sol barre áreas iguales en intervalos de tiempos iguales.",
+        "b": "El período de rotación de un planeta alrededor del Sol es directamente proporcional al radio de la órbita.",
+        "c": "Los planetas describen un movimiento circunferencial con rapidez constante alrededor del Sol.",
+        "d": "La masa de un planeta es proporcional al cubo de su radio.",
+        "e": "Los planetas son atraídos gravitatoriamente por el Sol."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Para un cuerpo que se encuentra en la cercanía de la superficie de un planeta X del Sistema Solar, se mide su masa, la fuerza gravitatoria que actúa sobre él y la aceleración de gravedad en la superficie del planeta X. Si el cuerpo se encontrara en la cercanía de la superficie de otro planeta del Sistema Solar, ¿cuál(es) de estas magnitudes físicas sería(n) igual(es) en ambos planetas?\n\nI) La aceleración de gravedad\nII) La masa\nIII) La fuerza gravitatoria",
+      "options": {
+        "a": "Solo I",
+        "b": "Solo II",
+        "c": "Solo III",
+        "d": "Solo I y II",
+        "e": "Solo II y III"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "¿Cuál es el sentido de la fuerza de empuje sobre un cuerpo que se encuentra parcialmente sumergido en el líquido de un recipiente?",
+      "options": {
+        "a": "Perpendicular a la superficie del recipiente.",
+        "b": "Perpendicular a la superficie del cuerpo.",
+        "c": "Perpendicular al peso aparente.",
+        "d": "Igual al del peso aparente.",
+        "e": "Opuesto al peso."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "Un planeta orbita en una trayectoria circunferencial en torno a una estrella. Si F es la fuerza gravitatoria que ejerce la estrella sobre el planeta, ¿cuál de las siguientes afirmaciones es siempre correcta respecto de la fuerza centrípeta sobre el planeta?",
+      "options": {
+        "a": "Que es de magnitud constante y mayor que la de F, pero en sentido opuesto a ella.",
+        "b": "Que es de magnitud constante, menor que la de F y en el mismo sentido de ella.",
+        "c": "Que es de magnitud constante y mayor que la de F, pero perpendicular a ella.",
+        "d": "Que es de magnitud igual a la de F, pero perpendicular a ella.",
+        "e": "Que es de magnitud y sentido iguales a los de F."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Un niño hace girar una piedra de 0,2 kg atada a una cuerda de masa despreciable que soporta una tensión máxima de 40 N. La piedra gira describiendo una trayectoria cuyo radio es 2 m en un plano horizontal. ¿Cuánta es la máxima rapidez con la que puede girar la piedra sin que se corte la cuerda?",
+      "options": {
+        "a": "16 m/s",
+        "b": "20 m/s",
+        "c": "100 m/s",
+        "d": "200 m/s",
+        "e": "400 m/s"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "La figura representa la vista superior de una puerta, sobre la cual se aplican tres fuerzas contenidas en el mismo plano. [FIGURA: puerta representada como una barra horizontal con eje de giro en el extremo izquierdo; a 0,5 m del eje se aplica una fuerza de 10 N perpendicular hacia arriba; en el extremo de la puerta (a 1,0 m del eje) se aplican una fuerza de 6 N horizontal hacia la derecha y una fuerza de 8 N vertical hacia abajo]\n\nConsiderando solo las tres fuerzas representadas, ¿cuál es la magnitud del torque neto, con respecto al eje de giro, que actúa sobre la puerta?",
+      "options": {
+        "a": "2 Nm",
+        "b": "3 Nm",
+        "c": "9 Nm",
+        "d": "13 Nm",
+        "e": "19 Nm"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "Un vehículo, con una masa total de 500 kg, se desplaza en línea recta y horizontalmente, con una rapidez de 20 m/s. En cierto momento el conductor acciona los frenos, actuando una fuerza de 1000 N en dirección contraria al movimiento del vehículo. ¿Cuánto tiempo demora el vehículo en detenerse desde el momento en que el conductor aplica los frenos?",
+      "options": {
+        "a": "0,1 s",
+        "b": "2,0 s",
+        "c": "10,0 s",
+        "d": "20,0 s",
+        "e": "40,0 s"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Un cuerpo de 3 kg se mueve en una trayectoria circunferencial de 2 m de radio, tal que realiza 4 vueltas en 2π s. ¿Cuál es la magnitud del momento angular del cuerpo, respecto al centro de su trayectoria?",
+      "options": {
+        "a": "96 kg·m²/s",
+        "b": "48 kg·m²/s",
+        "c": "16 kg·m²/s",
+        "d": "12 kg·m²/s",
+        "e": "4 kg·m²/s"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "Un cubo, cuyo peso es de magnitud P, se encuentra sumergido en agua, sostenido por un hilo que ejerce una fuerza de magnitud T, manteniendo dos caras horizontales. El agua ejerce fuerzas de magnitudes F₁ y F₂ sobre las caras horizontales, como representa la figura. [FIGURA: cubo sumergido en un recipiente con agua, sostenido desde arriba por un hilo con tensión T; sobre la cara superior del cubo actúa F₁ hacia abajo, sobre la cara inferior actúa F₂ hacia arriba, y P actúa hacia abajo desde el centro del cubo]\n\n¿Cuál de las siguientes expresiones equivale a la magnitud de la fuerza de empuje del agua sobre el cubo?",
+      "options": {
+        "a": "F₁ + F₂",
+        "b": "P − F₂",
+        "c": "T + F₂",
+        "d": "P − T",
+        "e": "P + F₁"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "Un par de estudiantes dispone de un bloque de madera, un tablón, una regla, un cronómetro, un transportador y una balanza, para realizar un experimento. Proceden a medir la masa del bloque y la longitud del tablón, empleando el tablón como un plano inclinado para medir el tiempo que tarda el bloque en recorrerlo completamente. Esta medición de tiempo la repiten para tres inclinaciones del plano, diferentes y conocidas. ¿Cuál de las siguientes preguntas de investigación es coherente con el procedimiento realizado por los estudiantes?",
+      "options": {
+        "a": "¿Depende del ángulo de inclinación de un plano inclinado el tiempo que tarda un bloque en recorrerlo?",
+        "b": "¿De qué manera afecta el roce a la velocidad con que desliza un bloque por un plano inclinado?",
+        "c": "¿De qué variables depende la velocidad con que desliza un bloque por un plano inclinado?",
+        "d": "¿Depende de la longitud de un plano inclinado el tiempo que tarda un bloque en recorrerlo?",
+        "e": "¿Depende del peso de un bloque el tiempo que tarda en recorrer un plano inclinado?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Dos móviles, M y N, se mueven por el mismo camino y en línea recta hacia el Norte. Durante el movimiento de ambos móviles, se elaboró el siguiente gráfico de sus rapideces v, con respecto al camino, en función del tiempo t. [GRÁFICO: rapidez v en el eje vertical y tiempo t en el eje horizontal; la rapidez de M es constante en v₃ desde 0 hasta t₂ y luego decrece linealmente hasta v₁ en t₄, manteniéndose constante hasta t₅; la rapidez de N inicia constante en v₁ hasta t₁, luego crece linealmente hasta v₃ en t₃, se mantiene constante hasta t₄ y luego decrece linealmente hasta 0 en t₅; ambas curvas se cruzan en t₂ en el valor v₂]\n\nBasándose en la información proporcionada, ¿cuál de las siguientes afirmaciones respecto de las rapideces de M y N es correcta?",
+      "options": {
+        "a": "Entre t₃ y t₄, N se mueve con rapidez v₁ con respecto a M.",
+        "b": "Entre 0 y t₁, N se mueve con rapidez v₃ con respecto a M.",
+        "c": "En t₂, M se mueve con rapidez v₂ con respecto a N.",
+        "d": "En t₅, M tiene rapidez nula con respecto a N.",
+        "e": "En t₂, N tiene rapidez nula con respecto a M."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "Cinco máquinas, M, P, Q, R y S, ejercen torques sobre un sistema. El siguiente gráfico representa la magnitud de la fuerza F que ejerce cada máquina en función de los respectivos brazos de palanca br. [GRÁFICO: F (N) en el eje vertical versus br (m) en el eje horizontal, con los puntos M(2, 9), S(4, 9), P(4, 5), Q(9, 5) y R(9, 2)]\n\nDe acuerdo con la información proporcionada, ¿cuál de las siguientes afirmaciones respecto del torque que ejercen las máquinas es correcta?",
+      "options": {
+        "a": "S realiza un torque de mayor magnitud que Q.",
+        "b": "P realiza un torque de mayor magnitud que Q.",
+        "c": "M y R realizan torques de igual magnitud.",
+        "d": "S y P realizan torques de igual magnitud.",
+        "e": "M realiza el torque de mayor magnitud."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "Respecto del efecto invernadero, es correcto afirmar que",
+      "options": {
+        "a": "se debe a la mayor superficie pavimentada en las ciudades.",
+        "b": "es más intenso durante el invierno que durante el verano.",
+        "c": "hace aumentar la temperatura superficial de la Tierra.",
+        "d": "se debe solo a la actividad industrial.",
+        "e": "se observa únicamente en la Tierra."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "En las ciudades P y Q, que se ubican en diferentes continentes, ocurren dos sismos que liberaron exactamente la misma cantidad de energía. Luego de utilizar las escalas Richter y Mercalli para determinar las características de estos sismos, es correcto afirmar que para las ciudades P y Q",
+      "options": {
+        "a": "las mediciones en la escala Richter son necesariamente iguales.",
+        "b": "las mediciones en la escala Richter son necesariamente distintas.",
+        "c": "las mediciones en la escala Mercalli son necesariamente iguales.",
+        "d": "las mediciones en la escala Mercalli son necesariamente distintas.",
+        "e": "las mediciones en las escalas Richter y Mercalli son necesariamente iguales."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "¿Cuál de las siguientes afirmaciones acerca de la hidrosfera es correcta?",
+      "options": {
+        "a": "Disminuye su masa progresivamente.",
+        "b": "Se encuentra únicamente en fase líquida.",
+        "c": "Es la única capa fluida de nuestro planeta.",
+        "d": "Corresponde a la parte exterior de la geosfera.",
+        "e": "Junto a la atmosfera es determinante para el clima."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Desde una ventana, ubicada a la mitad de la altura de un edificio, se lanza verticalmente hacia abajo un cuerpo de 2 kg con una energía cinética inicial de 50 J. Si la altura del edificio es 30 m y se considera la magnitud de la aceleración de gravedad igual a 10 m/s², ¿cuál es la energía cinética del cuerpo cuando se encuentra en la mitad de su camino hacia el suelo?",
+      "options": {
+        "a": "650 J",
+        "b": "600 J",
+        "c": "200 J",
+        "d": "150 J",
+        "e": "75 J"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Se tienen 3 cuerpos, P, Q y R, aislados térmicamente del entorno. Primero se ponen en contacto los cuerpos P y Q hasta que alcanzan el equilibrio térmico entre sí. Luego se ponen en contacto los cuerpos Q y R hasta que alcanzan el equilibrio térmico entre sí. Si en ambas situaciones el cuerpo Q cambió su temperatura, se puede concluir correctamente que, inicialmente,",
+      "options": {
+        "a": "P y R estaban a la misma temperatura.",
+        "b": "la temperatura de P era diferente a la de Q.",
+        "c": "la temperatura de P era mayor que la de Q.",
+        "d": "la temperatura de R era diferente a la de Q.",
+        "e": "la temperatura de R era mayor que la de Q."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "Dos objetos de distinta masa, calor específico y temperatura, se ponen en contacto térmico, de modo que solo intercambian calor entre sí. De las siguientes opciones, ¿cuál presenta condiciones que debe cumplir uno de los objetos para que pueda experimentar la mayor variación de temperatura?",
+      "options": {
+        "a": "Que tenga menor masa y menor calor específico, respecto al otro objeto.",
+        "b": "Que tenga menor masa y mayor calor específico, respecto al otro objeto.",
+        "c": "Que tenga mayor masa y menor temperatura inicial, respecto al otro objeto.",
+        "d": "Que tenga mayor masa y mayor temperatura inicial, respecto al otro objeto.",
+        "e": "Que tenga menor masa y mayor temperatura inicial, respecto al otro objeto."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "¿Cuál es el gráfico que mejor representa cómo cambia el módulo de la fuerza eléctrica F que una carga eléctrica puntual ejerce sobre otra cuando la distancia r entre ellas varía? [FIGURA: cinco gráficos de F versus r, cada uno con una forma de curva o recta distinta, presentados como alternativas A a E]",
+      "options": {
+        "a": "Curva decreciente convexa: F disminuye rápidamente al inicio y luego más lentamente a medida que r aumenta (comportamiento tipo 1/r²).",
+        "b": "Curva creciente convexa: F aumenta lentamente al inicio y luego rápidamente a medida que r aumenta.",
+        "c": "Línea recta creciente que pasa por el origen.",
+        "d": "Línea recta decreciente.",
+        "e": "Curva creciente cóncava: F aumenta rápidamente al inicio y luego se estabiliza."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Un fusible es un elemento de un circuito eléctrico que se quema, dejando de conducir corriente eléctrica cuando la intensidad de ésta supera cierto valor, protegiendo así al resto del circuito. Para cumplir esta función, el fusible debe estar conectado en",
+      "options": {
+        "a": "serie o en paralelo, ya que su resistencia será nula al quemarse.",
+        "b": "paralelo, ya que su resistencia será nula al quemarse.",
+        "c": "serie, ya que su resistencia será nula al quemarse.",
+        "d": "paralelo, ya que el voltaje en los elementos resistivos será nulo al quemarse este.",
+        "e": "serie, ya que el voltaje en los elementos resistivos será nulo al quemarse este."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "Tres resistencias se conectan a una fuente de poder, midiéndose la intensidad de corriente eléctrica en distintas secciones del circuito, mediante cuatro amperímetros idénticos, como se representa en la figura. [FIGURA: circuito con una fuente de poder conectada a un amperímetro que mide 6 A en la línea principal; el circuito se divide en tres ramas en paralelo, cada una con una resistencia; dos de las ramas tienen amperímetros que miden 3 A y 1 A respectivamente, y la tercera rama tiene un amperímetro identificado como S]\n\nSi tres de los amperímetros registran una corriente eléctrica de intensidad 6 A, 3 A y 1 A, respectivamente, ¿cuánta intensidad de corriente eléctrica registra el amperímetro S?",
+      "options": {
+        "a": "1 A",
+        "b": "2 A",
+        "c": "3 A",
+        "d": "4 A",
+        "e": "6 A"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "Un profesor afirma que los alambres conductores hechos de cobre tienen una resistencia eléctrica que depende de su longitud, de su grosor y de su temperatura. Si un grupo de estudiantes quiere determinar experimentalmente de qué manera la resistencia eléctrica depende de la temperatura, ¿cuál de los siguientes procedimientos experimentales se ajusta mejor a su propósito?",
+      "options": {
+        "a": "Medir la resistencia eléctrica de varios alambres de diferentes grosores e igual temperatura.",
+        "b": "Medir la temperatura de alambres de igual resistencia eléctrica y de diferentes longitudes.",
+        "c": "Medir la resistencia eléctrica de alambres de diferentes longitudes e igual temperatura.",
+        "d": "Medir la resistencia eléctrica de un mismo alambre a diferentes temperaturas.",
+        "e": "Medir la temperatura de varios alambres de diferente resistencia eléctrica."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "meta": {
+    "subject": "CQ",
+    "subject_nombre": "Ciencias - Química",
+    "origen": "PAES Ciencias - Química Admision 2023-1",
+    "anio": 2023,
+    "forma": 173,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [26, 32, 70, 78, 80],
+    "fuente_pdf": "pruebas/oficiales/C-quimica-2023-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-quimica-2023-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "En la vida diaria hay muchos hechos que se pueden clasificar en químicos o físicos. Al respecto, ¿cuál de los siguientes procesos corresponde a un cambio físico?",
+      "options": {
+        "a": "La oxidación de una reja metálica",
+        "b": "La evaporación de acetona",
+        "c": "La fermentación de una manzana",
+        "d": "La combustión de una hoja de papel"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Dada la siguiente simbología de un elemento químico:\n\n³⁰₁₆X\n\n¿Cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "X tiene 16 neutrones y 14 protones.",
+        "b": "X tiene 30 electrones y 14 protones.",
+        "c": "X tiene 30 neutrones y 16 electrones.",
+        "d": "X tiene 16 protones y 14 neutrones."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "En una empresa dedicada al desarrollo de nuevos materiales, un funcionario estudió una propiedad física realizando mediciones de densidad para metales del mismo grupo del sistema periódico y compuestos derivados de estos. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Metal/compuesto | Densidad (g/cm³) |\n|---|---|\n| Li | 0,53 |\n| Na | 0,97 |\n| Rb | 1,53 |\n| Li₂O | 2,01 |\n| Na₂O | 2,27 |\n| Rb₂O | 4,00 |\n| LiCl | 2,07 |\n| NaCl | 2,16 |\n| RbCl | 2,80 |\n\nDe acuerdo con lo anterior, ¿cuál de las siguientes opciones describe de mejor manera el propósito de esta investigación?",
+      "options": {
+        "a": "Determinar la densidad del oxígeno y cloro a partir de la diferencia de densidades entre el compuesto y el metal.",
+        "b": "Evaluar la relación entre la densidad de un elemento y la densidad de los compuestos que forma.",
+        "c": "Evaluar de manera sistemática las variaciones en las propiedades físicas de los elementos dentro de un grupo del sistema periódico.",
+        "d": "Determinar la relación entre la densidad de los compuestos y su estado físico."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Un grupo de estudiantes realiza un experimento en el cual diferentes sustancias, que presentan en su estructura enlaces iónicos y covalentes, son sometidas a distintas pruebas para identificar sus características y propiedades. A partir de la actividad se determinó que las sustancias que tienen enlace covalente y son solubles en agua no conducen la electricidad, pero las que poseen enlace iónico sí lo hacen. Con respecto a lo comprobado, ¿cuál de las siguientes opciones corresponde a una pregunta para seguir con la investigación?",
+      "options": {
+        "a": "¿Cuál es la diferencia entre una sustancia que presenta enlace iónico y una que presenta enlace covalente?",
+        "b": "¿Qué tipo de enlace presentan las sustancias que conducen la corriente eléctrica y las que no lo hacen?",
+        "c": "¿Qué sucede con una sustancia cuando se disuelve en agua?",
+        "d": "¿Por qué las sustancias con enlace iónico conducen la corriente eléctrica al disolverse y las con enlace covalente no?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "De los siguientes compuestos clorados, ¿cuál de ellos presenta el enlace con mayor carácter iónico?",
+      "options": {
+        "a": "LiCl",
+        "b": "KCl",
+        "c": "CaCl2",
+        "d": "MgCl2",
+        "e": "AlCl3"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "A un estudiante, en el laboratorio de química, se le entrega una muestra que contiene una solución de cuatro compuestos orgánicos, miscibles entre sí. Además, como dato anexo se le entregan las temperaturas de ebullición de los compuestos orgánicos. Estos datos se presentan en la siguiente tabla:\n\n| Compuesto | Temperatura de ebullición a 1 atm (°C) |\n|---|---|\n| 1 | 64 |\n| 2 | 82 |\n| 3 | 56 |\n| 4 | 78 |\n\nComo tarea se le solicita que separe los cuatro componentes de la mezcla. Para ello, implementa un método de separación por temperatura, recogiendo cada fracción de compuesto orgánico en un vaso de precipitados. Una vez terminado el experimento, ¿cuál de las siguientes opciones señala correctamente el orden en que los compuestos fueron separados de la mezcla?",
+      "options": {
+        "a": "1° lugar: Compuesto 1 | 2° lugar: Compuesto 2 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 3",
+        "b": "1° lugar: Compuesto 1 | 2° lugar: Compuesto 3 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 2",
+        "c": "1° lugar: Compuesto 3 | 2° lugar: Compuesto 1 | 3° lugar: Compuesto 4 | 4° lugar: Compuesto 2",
+        "d": "1° lugar: Compuesto 3 | 2° lugar: Compuesto 1 | 3° lugar: Compuesto 2 | 4° lugar: Compuesto 4"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Un estudiante, visitando un bosque de pinos, se interesó por investigar si existe una relación entre el aroma a pino que se percibe y las diferentes especies de pino. Al respecto, ¿cuál de las siguientes opciones es una variable que debe analizar el estudiante para obtener conclusiones respecto de su investigación?",
+      "options": {
+        "a": "La cantidad de extractos generados por cada especie de pino del bosque.",
+        "b": "La forma de cada especie de pino del bosque.",
+        "c": "La cantidad de pinos de cada especie en el bosque.",
+        "d": "La distancia entre los distintos tipos de pinos que existen en el bosque."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "En un laboratorio de investigación se está evaluando la capacidad antifúngica de tres compuestos orgánicos (X, Y y Z) contra un tipo de hongo patógeno. El tratamiento se realiza durante 7 días, utilizando la misma concentración de cada compuesto. Los datos obtenidos se presentan a continuación:\n\n[Figura: gráfico de líneas, eje Y \"Diámetro del hongo patógeno (cm)\" de 2,0 a 6,5, eje X \"Tiempo (días)\" de 1 a 7. Se muestran cuatro curvas (Control, X, Z, Y). De forma aproximada: todas parten cerca de 3,0 cm en los días 1-2; la curva Control aumenta de forma continua hasta cerca de 6,0 cm en el día 7; la curva X aumenta hasta cerca de 5,0 cm; la curva Z aumenta hasta cerca de 4,5 cm; la curva Y se mantiene prácticamente estable, cercana a 3,5 cm, desde el día 3 en adelante. Control presenta el mayor crecimiento del hongo y Y el menor.]\n\nSabiendo que el procedimiento experimental se llevó a cabo correctamente, ¿cuál de las siguientes opciones presenta la pregunta de investigación que pudo dar origen al estudio realizado?",
+      "options": {
+        "a": "¿Cuál es la mínima concentración a la cual los compuestos orgánicos inhiben el crecimiento del hongo patógeno?",
+        "b": "¿Cuál es el mecanismo de acción por el cual los compuestos inhiben el crecimiento del hongo patógeno?",
+        "c": "¿Qué compuesto orgánico presenta la mayor actividad sobre el hongo patógeno?",
+        "d": "¿Qué determina que un compuesto orgánico tenga una acción antifúngica?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "La fórmula molecular para el radical butil o butilo es",
+      "options": {
+        "a": "C4H10",
+        "b": "C4H9",
+        "c": "C4H8",
+        "d": "C4H7",
+        "e": "C4H6"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "En un recipiente cerrado se tienen 56 g de gas nitrógeno (N2). Al abrirlo se pierden 6,02 × 10²³ moléculas. ¿Qué cantidad de nitrógeno queda?",
+      "options": {
+        "a": "0,1 mol",
+        "b": "0,2 mol",
+        "c": "0,5 mol",
+        "d": "1,0 mol",
+        "e": "2,0 mol"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "Un grupo de estudiantes desea determinar la relación entre la masa (g) de carbonato de calcio (CaCO3) y el volumen (L) de dióxido de carbono (CO2) desprendido en la reacción de descomposición térmica del carbonato de calcio. La reacción química del proceso es:\n\nCaCO3 (s) →(Δ) CO2 (g) + CaO (s)\n\nCon este propósito, bajo las mismas condiciones de reacción, calientan distintas masas de carbonato de calcio y recogen el volumen de dióxido de carbono desprendido. En relación con el experimento anterior, ¿cuál de las siguientes opciones señala correctamente la variable independiente y la variable dependiente?",
+      "options": {
+        "a": "Variable independiente: Temperatura ambiente | Variable dependiente: Masa de CaCO3",
+        "b": "Variable independiente: Masa de CaCO3 | Variable dependiente: Temperatura ambiente",
+        "c": "Variable independiente: Volumen de CO2 | Variable dependiente: Masa de CaCO3",
+        "d": "Variable independiente: Masa de CaCO3 | Variable dependiente: Volumen de CO2"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "Una agricultora necesita comprar un fertilizante para 25 m² de un sembradío. Para ello, le ofrecen NH4NO3 y Ca(NO3)2 al mismo valor por cada mol de compuesto, los cuales poseen una masa molar de 80 g/mol y 164 g/mol, respectivamente, y le recomiendan utilizar 50 g por cada m². Al respecto, ¿cuál de los fertilizantes debería elegir la agricultora para abaratar sus costos?",
+      "options": {
+        "a": "Debería elegir Ca(NO3)2, ya que posee mayor masa por unidad de mol.",
+        "b": "Debería elegir Ca(NO3)2, ya que la masa a utilizar por m² es menor.",
+        "c": "Debería elegir NH4NO3, ya que posee mayor masa por unidad de mol.",
+        "d": "Debería elegir cualquiera de los compuestos, ya que el valor por cada mol varía según el m²."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "La siguiente ecuación no equilibrada representa la reacción del óxido de arsénico (III) (As4O6) con hidróxido de sodio (NaOH):\n\nAs4O6 (s) + NaOH (ac) → Na3AsO3 (ac) + H2O (l)\n\n¿Qué masa de As4O6 (masa molar = 396 g/mol) se necesita para formar 96,0 g de Na3AsO3 (masa molar = 192 g/mol)?",
+      "options": {
+        "a": "24,0 g",
+        "b": "25,5 g",
+        "c": "49,5 g",
+        "d": "198,0 g",
+        "e": "204,0 g"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "En el contexto de una investigación se planteó la pregunta acerca de cuántos compuestos diferentes se pueden llegar a formar a partir de la combinación de dos elementos, hasta ese momento desconocidos, denominados M y R. Para intentar dar respuesta a la pregunta planteada se propuso el siguiente procedimiento: Propiciar la reacción de masas conocidas de los elementos M y R, siempre en la misma proporción, y luego, medir la cantidad de producto obtenido. Luego de obtenidos los resultados, los investigadores propusieron mejoras en el procedimiento. En relación con lo anterior, ¿cuál de las siguientes opciones indica una propuesta pertinente que contribuye a mejorar directamente el procedimiento para dar respuesta a la pregunta planteada?",
+      "options": {
+        "a": "Efectuar la reacción de los elementos en proporciones variables y masas conocidas y estudiar la naturaleza de los productos obtenidos.",
+        "b": "Aumentar el volumen de los reactantes para incrementar la cantidad de producto y así disminuir los errores en las mediciones.",
+        "c": "Agregar un tercer elemento a la reacción, de tal manera que compita con uno de los reactantes.",
+        "d": "Agregar un catalizador de forma que la reacción ocurra con mayor rapidez."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "El acero es un material que puede clasificarse como una solución química, formada principalmente por hierro y carbono. En la zona costera de Chile, se identifica que el acero sufre alteraciones debido a procesos corrosivos provocados por otras soluciones. Una de ellas, el agua de mar. Un estudiante decide investigar el efecto del uso de dos pinturas anticorrosivas R y Q, evaluando su efecto, según criterios de clasificación sobre clavos de acero expuestos a ciertas condiciones de la zona costera. En relación con lo anterior, ¿cuál de las siguientes opciones representa un procedimiento adecuado para que el estudiante realice su investigación?",
+      "options": {
+        "a": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "b": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar a los clavos pintados y agua destilada al clavo usado como control, describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "c": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero pintarlo con las dos pinturas. Introducir los clavos en tres recipientes de vidrio, agregar agua de mar y describir su aspecto luego de 15, 30 y 45 días de exposición.",
+        "d": "Utilizar tres clavos de 5 cm, pintar uno con la pintura R, otro con la pintura Q y el tercero dejarlo como control. Introducir los clavos en tres recipientes de vidrio, agregar agua destilada y describir su aspecto luego de 15, 30 y 45 días de exposición."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "La tabla resume los resultados de un experimento, cuyo objetivo es estudiar aspectos de una reacción química que ocurre en solución.\n\n| Concentración inicial de reactante AgNO3 (mol/L) | Concentración inicial de reactante Cu²⁺ (mol/L) | Concentración final de producto Cu(NO3)2 (mol/L) |\n|---|---|---|\n| 0,1 | 0,05 | 0,015 |\n| 0,2 | 0,10 | 0,030 |\n| 0,4 | 0,20 | 0,060 |\n\n¿Cuál de las siguientes opciones describe correctamente la información científica entregada por esta tabla?",
+      "options": {
+        "a": "La relación que existe entre la concentración inicial de los reactantes con la concentración final del producto en la reacción estudiada.",
+        "b": "La relación que existe entre los volúmenes iniciales de reactantes requeridos para obtener determinadas concentraciones del producto final en la reacción estudiada.",
+        "c": "Las cantidades iniciales de los reactantes, que se necesitan para llegar a generar determinadas concentraciones del producto final en la reacción en estudio.",
+        "d": "La relación observada entre la concentración inicial de un reactante y la cantidad del producto de la reacción en estudio."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Se prepara una solución X masando 100 g de KOH y agregándolos a 1 L de agua. Por otra parte, se prepara una solución Y, masando 100 g de KOH y agregando el volumen de agua necesario para completar 1 L de solución. Entonces, a partir de lo descrito, se puede deducir que",
+      "options": {
+        "a": "la solución X tiene más soluto que la solución Y.",
+        "b": "ambas soluciones tienen la misma masa.",
+        "c": "el volumen de ambas soluciones es el mismo.",
+        "d": "ambas soluciones poseen igual concentración.",
+        "e": "la solución Y es más concentrada que la solución X."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Se preparan 1000 mL de una solución acuosa 2 mol/L de NaOH (masa molar = 40 g/mol). Al respecto, ¿cuál fue la masa del soluto utilizado?",
+      "options": {
+        "a": "80,00 g",
+        "b": "40,00 g",
+        "c": "0,80 g",
+        "d": "0,40 g",
+        "e": "0,04 g"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "Una onda periódica cuya frecuencia es 25 Hz, se propaga en un medio material completando 20 oscilaciones en una distancia de 8 m. ¿Cuál es la rapidez de propagación de la onda?",
+      "options": {
+        "a": "500 m/s",
+        "b": "200 m/s",
+        "c": "160/25 m/s",
+        "d": "10 m/s",
+        "e": "125/2 m/s"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Un estudiante quiere determinar si la intensidad del sonido decrece con la distancia. Para ello, instala un generador de sonido de frecuencia f y tres sensores que miden su intensidad, ubicados a 1 m, 2 m y 3 m del generador. En función del objetivo planteado, ¿cuál de las siguientes opciones presenta correctamente las variables del experimento?",
+      "options": {
+        "a": "Variable independiente: Frecuencia del sonido | Variable dependiente: Intensidad del sonido",
+        "b": "Variable independiente: Intensidad del sonido | Variable dependiente: Frecuencia del sonido",
+        "c": "Variable independiente: Intensidad del sonido | Variable dependiente: Ubicación de los sensores",
+        "d": "Variable independiente: Ubicación de los sensores | Variable dependiente: Frecuencia del sonido",
+        "e": "Variable independiente: Ubicación de los sensores | Variable dependiente: Intensidad del sonido"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "En una investigación acerca de las ondas sísmicas P y S, se simularon este tipo de ondas mediante una fuente generadora. En el experimento se ubicaron sismógrafos en distintos puntos de diferentes medios, para luego analizar los sismogramas obtenidos. A partir de estos registros, se estableció que las ondas P se detectaron en todos los sismógrafos, en cambio las ondas S se detectaron solo en algunos de ellos. Al respecto, ¿cuál de las siguientes preguntas es posible contestar a partir de la información entregada?",
+      "options": {
+        "a": "¿En cuáles medios se pueden propagar las ondas P y S?",
+        "b": "¿En cuál medio la onda P se propaga con la mayor rapidez?",
+        "c": "¿En cuál medio la onda S se propaga con la mayor intensidad?",
+        "d": "¿En cuáles medios las ondas P y S se pueden propagar con la misma amplitud?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "¿Cuál de los siguientes fenómenos está relacionado con la posible ruptura de un objeto, al ser sometido a una frecuencia similar a su frecuencia natural de oscilación?",
+      "options": {
+        "a": "Difracción",
+        "b": "Refracción",
+        "c": "Dispersión",
+        "d": "Resonancia",
+        "e": "Efecto Doppler"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Al estudiar la relación entre la frecuencia f, la longitud de onda λ y la energía E de algunos fotones, se obtuvieron los datos presentados en la siguiente tabla:\n\n| f (Hz) | λ (m) | E (J) |\n|---|---|---|\n| 3,00×10¹⁹ | 1,0×10⁻¹¹ | 2,00×10⁻¹² |\n| 1,50×10¹⁵ | 2,0×10⁻⁷ | 9,93×10⁻¹⁹ |\n| 3,84×10¹⁴ | 7,8×10⁻⁷ | 2,55×10⁻¹⁹ |\n| 3,00×10⁸ | 1,0×10⁻² | 2,00×10⁻²⁰ |\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta a partir de los datos proporcionados?",
+      "options": {
+        "a": "A medida que disminuye f, disminuye λ y aumenta E.",
+        "b": "A medida que aumenta f, disminuye λ y aumenta E.",
+        "c": "A medida que aumenta f, disminuyen λ y E.",
+        "d": "A medida que disminuye f, aumentan λ y E."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Un radar basa su funcionamiento en la emisión y recepción de ondas electromagnéticas. De acuerdo con esta información, si se construyera un dispositivo similar al radar, pero reemplazando las ondas electromagnéticas por ondas sonoras, ¿a cuál de los siguientes dispositivos se ajusta mejor este funcionamiento?",
+      "options": {
+        "a": "A la radioemisora",
+        "b": "Al micrófono",
+        "c": "Al ecógrafo",
+        "d": "Al parlante"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "Una persona está estudiando el tiempo que demora en caer un objeto al ser soltado desde diferentes alturas, en un mismo lugar, registrando datos experimentales y teóricos en la siguiente tabla:\n\n| Altura (m) | Tiempo experimental (s) | Tiempo teórico (s) |\n|---|---|---|\n| 3,0 | 0,8 | 0,7 |\n| 4,0 | 0,9 | 0,8 |\n| 5,0 | 1,2 | 1,0 |\n| 6,0 | 1,4 | 1,1 |\n\nBasándose en lo anterior, ¿a qué se deben estas diferencias entre el tiempo teórico y el experimental?",
+      "options": {
+        "a": "A la magnitud de la aceleración de gravedad sobre el objeto.",
+        "b": "A la fuerza de roce que actúa sobre el objeto mientras cae.",
+        "c": "A la magnitud de la velocidad que alcanza el objeto.",
+        "d": "A la fuerza peso sobre el objeto mientras cae."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "Una roca de 12 kg es puesta sobre una báscula de baño, luego es colgada de un dinamómetro. La respectiva medida que marca cada uno es 12 kg y 120 N. Considerando que la aceleración de gravedad en la superficie de la Luna es 1/6 de la aceleración de gravedad en la superficie de la Tierra, ¿cuál sería la medida que marcaría exactamente la misma báscula de baño y el mismo dinamómetro, si se realizara el mismo procedimiento en la Luna?",
+      "options": {
+        "a": "Báscula de baño: 12 kg | Dinamómetro: 120 N",
+        "b": "Báscula de baño: 2 kg | Dinamómetro: 120 N",
+        "c": "Báscula de baño: 12 kg | Dinamómetro: 20 N",
+        "d": "Báscula de baño: 2 kg | Dinamómetro: 20 N"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": true
+    },
+    {
+      "numero": 27,
+      "content": "Un grupo de estudiantes piensa que los resortes ejercen mayor fuerza mientras más estirados se encuentren. Para verificarlo, planifican colgar de diferentes resortes el mismo objeto de masa m conocida, como se representa en la figura, y luego medir la longitud del resorte antes y después de colgar el objeto, con una regla graduada en milímetros.\n\n[Figura: cuatro resortes distintos (de diferente grosor/tipo) colgados de una misma barra horizontal; de cada resorte cuelga un objeto idéntico de masa m; uno de los resortes, más grueso/robusto, tiene el objeto de masa m colgando visiblemente más abajo que en los otros.]\n\nLos estudiantes muestran la planificación a un profesor, quien les señala que no es adecuada para la verificación que desean realizar. Al respecto, ¿cuál de los siguientes aspectos de su planificación deben cambiar los estudiantes para que al realizar la actividad se logre adecuadamente el objetivo?",
+      "options": {
+        "a": "Las variables del procedimiento: de un mismo resorte colgar objetos de masa distinta y medir cuánto varía su longitud.",
+        "b": "Los instrumentos de medida: utilizar una regla graduada en una unidad de medida diferente para medir el estiramiento.",
+        "c": "Los instrumentos de medida: utilizar un instrumento que les permita medir la fuerza que ejercen los resortes en cada caso.",
+        "d": "Las variables del procedimiento: colgar en cada uno de los diferentes resortes el mismo objeto de masa m y medir la longitud final."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Una persona lanza dos objetos con la misma velocidad inicial, desde una misma altura y hacia abajo, midiendo el tiempo que demoran en llegar al suelo, en un lugar en donde la aceleración de gravedad es constante. Si estos objetos tienen distinta masa, pero los mismos volúmenes y formas, ¿cuál es el parámetro que la persona decidió modificar durante el experimento realizado?",
+      "options": {
+        "a": "El peso de los objetos",
+        "b": "La aceleración de los objetos",
+        "c": "La posición inicial de los objetos",
+        "d": "El tiempo de movimiento de los objetos"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un recipiente contiene 100 g de agua. Considerando que el calor específico del agua es 1 cal/(g·°C) y que no experimenta cambios de fase, ¿cuál de las siguientes afirmaciones es correcta para dicha masa de agua?",
+      "options": {
+        "a": "Al ceder 1 caloría su temperatura disminuye en 100 °C.",
+        "b": "Al absorber 100 calorías su temperatura aumenta en 1 °C.",
+        "c": "Al absorber 10 calorías su temperatura disminuye en 10 °C.",
+        "d": "Al absorber 100 calorías su temperatura aumenta en 100 °C."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Si dos cuerpos que están a diferente temperatura se ponen en contacto térmico entre sí, ¿cuál de las siguientes informaciones se puede determinar conociendo únicamente la temperatura inicial de cada cuerpo?",
+      "options": {
+        "a": "La cantidad de energía térmica que posee cada uno de los cuerpos.",
+        "b": "El sentido en que ocurre la transferencia de calor entre los cuerpos.",
+        "c": "El tipo de mecanismo de transferencia de calor entre los cuerpos.",
+        "d": "La cantidad de calor que se transfiere entre los cuerpos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "Un termómetro de 80 cm de longitud está graduado en una escala afín de temperaturas definida en °S. La distancia entre la marca de –20 °S y la marca que corresponde a 100 °S es 60 cm, como se representa en la siguiente figura:\n\n[Figura: termómetro horizontal de 80 cm de longitud total; sobre él se indican dos marcas, –20 °S y 100 °S, separadas entre sí por una distancia de 60 cm.]\n\nAl respecto, ¿qué distancia debe haber entre la marca que indica –20 °S y la marca que debe indicar 10 °S?",
+      "options": {
+        "a": "6 cm",
+        "b": "8 cm",
+        "c": "15 cm",
+        "d": "20 cm"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Considere un modelo simplificado de una cordillera en un límite convergente, en donde la altura H es directamente proporcional a la rapidez de convergencia V de las placas tectónicas, generándose alzamiento; e inversamente proporcional a la erosión fluvial F, producida por los ríos que degradan la cordillera. La erosión fluvial aumenta con las precipitaciones P, y disminuye en función de la resistencia de las rocas R. ¿Cuál de las siguientes relaciones de proporcionalidad es siempre correcta a partir de la información entregada?",
+      "options": {
+        "a": "A mayor rapidez de convergencia V, mayor será la erosión fluvial F.",
+        "b": "A menor resistencia de las rocas R, mayor será la rapidez de convergencia V.",
+        "c": "A mayor cantidad de precipitaciones P, menor será la rapidez de convergencia V.",
+        "d": "Si se mantienen constantes las precipitaciones, a mayor resistencia de las rocas R, mayor será la altura H.",
+        "e": "Si se mantiene constante la resistencia de las rocas R, a mayor cantidad de precipitaciones P, mayor será la altura H."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 33,
+      "content": "Una estudiante escuchó decir a su profesor de Física que una taza con agua fría aumenta más rápidamente su temperatura cuanto menor sea su temperatura inicial. Dudando de la veracidad de esta afirmación decide realizar un experimento para verificarla, procediendo del siguiente modo: introduce en el refrigerador dos tazas del mismo material y tamaño, con igual cantidad de agua. Después de un tiempo, retira una de las tazas, mide su temperatura inicial y el tiempo que tarda en alcanzar la temperatura ambiente. Posteriormente, retira la segunda taza, mide su temperatura inicial, que resulta menor que la de la otra taza y también mide el tiempo que tarda en alcanzar la temperatura ambiente. En relación con lo anterior, ¿cuál de las siguientes opciones presenta una acción que hace más confiable el procedimiento?",
+      "options": {
+        "a": "Emplear el congelador en vez del refrigerador.",
+        "b": "Retirar al mismo tiempo ambas tazas del refrigerador.",
+        "c": "Utilizar varios recipientes con aislación térmica en vez de tazas.",
+        "d": "Medir varias veces la temperatura de las tazas mientras esta aumenta."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Con el objeto de verificar la ley de Ohm, en el circuito de la figura se utilizan dos instrumentos eléctricos P y Q.\n\n[Figura: circuito eléctrico con una resistencia R en el tramo superior; el instrumento P está conectado en paralelo a la resistencia R; el instrumento Q está conectado en serie con una batería (con polos + y –) en el tramo inferior del circuito.]\n\n¿En qué unidades quedan expresadas las medidas que marcan los instrumentos P y Q?",
+      "options": {
+        "a": "P en ampere y Q en ohm",
+        "b": "P en volt y Q en ohm",
+        "c": "P en ampere y Q en volt",
+        "d": "P en volt y Q en ampere",
+        "e": "P en ohm y Q en ampere"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "Una persona pretende establecer el tiempo mínimo que se requiere frotar un globo para que este quede adherido al cielo de una habitación debido a la electrización que experimenta. Para ello, frota un globo con su cabello para luego ponerlo en contacto con el cielo de yeso de la habitación y repite esto para distintas duraciones del frotamiento. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Duración del frotamiento en segundos | Registro |\n|---|---|\n| 2 | Se cae del cielo |\n| 5 | Se cae del cielo |\n| 6 | Se mantiene en el cielo |\n| 9 | Se cae del cielo |\n| 11 | Se cae del cielo |\n| 13 | Se mantiene en el cielo |\n| 16 | Se mantiene en el cielo |\n| 20 | Se mantiene en el cielo |\n\nAl respecto, ¿cuál de las siguientes opciones asociadas al experimento es una inferencia correcta basándose en la información proporcionada?",
+      "options": {
+        "a": "Si el globo se frota más de 16 s, es probable que se mantenga adherido al cielo de madera de una habitación por más tiempo que en el cielo de yeso.",
+        "b": "Si el globo se frota más de 20 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 16 s.",
+        "c": "Si el globo se frota menos de 8 s, es probable que se caiga en lugar de mantenerse adherido al cielo de yeso de la habitación.",
+        "d": "Si el globo se frota 6 s, se mantiene adherido al cielo de madera de una habitación por más tiempo que al frotarlo por 13 s."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "Dos personas conectan el mismo aparato de medición Z en tres configuraciones de circuitos eléctricos, L, M y N, en las que se emplean dos ampolletas X conectadas a una batería. A continuación, se presentan las tres configuraciones realizadas con el aparato Z:\n\n[Figura: tres circuitos eléctricos (L, M, N), cada uno con dos ampolletas X y una batería. Circuito L: dos ampolletas X en serie entre sí, con el medidor Z conectado en paralelo a una de ellas. Circuito M: dos ampolletas X con el medidor Z conectado entre ambas, en un arreglo de tipo puente. Circuito N: dos ampolletas X en paralelo entre sí, con el medidor Z conectado en serie con el conjunto.]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es una hipótesis coherente con lo realizado por las personas?",
+      "options": {
+        "a": "La lectura de Z varía si se cambia el tipo de ampolletas utilizadas en el circuito.",
+        "b": "La lectura de Z varía si se cambia la manera en que se conecta en el circuito.",
+        "c": "La lectura de Z varía si se cambia la cantidad de ampolletas en el circuito.",
+        "d": "La lectura de Z varía si se cambia el tipo de batería de los circuitos."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "La concentración fisiológica de una sustancia X al interior de la célula es de 140 mM, mientras que en el medio extracelular es de 4 mM. Considerando que X se transporta pasivamente, ¿qué sucederá si se expone dicha célula a un medio con una concentración de 14 mM de X?",
+      "options": {
+        "a": "Ingresará a la célula más rápido que en la condición fisiológica.",
+        "b": "Ingresará a la célula más lento que en la condición fisiológica.",
+        "c": "Saldrá de la célula más rápido que en la condición fisiológica.",
+        "d": "Saldrá de la célula más lento que en la condición fisiológica."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "Si experimentalmente se inhibe la función del retículo endoplasmático rugoso en una célula pancreática, ¿cuál de los siguientes procesos se verá directa e inicialmente afectado?",
+      "options": {
+        "a": "Exocitosis",
+        "b": "División celular",
+        "c": "Respiración celular",
+        "d": "Síntesis de enzimas",
+        "e": "Transporte intracelular"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "Un grupo de investigación busca evaluar el efecto que tiene cierta molécula X en el transporte de glucosa en las células. Para esto, desarrollan un protocolo que aplican a células cultivadas en medios con glucosa, obteniendo que \"el transporte de glucosa, al agregar la molécula X, es de cinco moléculas transportadas por segundo\". La expresión entre comillas corresponde a",
+      "options": {
+        "a": "una hipótesis.",
+        "b": "una inferencia.",
+        "c": "un modelo.",
+        "d": "un procedimiento.",
+        "e": "un resultado."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Un grupo de investigación buscaba determinar qué estructura celular permite que ciertos organelos se mantengan sujetos y relativamente estables en el citoplasma de una célula eucarionte. Para esto, formaron tres grupos con el mismo tipo de células en cultivo, aplicando a cada grupo uno de los tratamientos siguientes:\n\n1) Reducción del complejo de Golgi.\n2) Reducción del citoesqueleto.\n3) Remoción de la envoltura nuclear.\n\nFinalmente, se midió el porcentaje de células que presentaban organelos sujetos y estables en cada grupo tratado y en un grupo control. El gráfico siguiente muestra los datos obtenidos:\n\n[Figura: gráfico de barras, eje Y \"Porcentaje de células con organelos sujetos y estables\" de 0 a 100. Cuatro barras: \"Normales (control)\" cercana a 100%; \"Con complejo de Golgi reducido\" cercana a 97%; \"Con citoesqueleto reducido\" muy baja, cercana a 2%; \"Sin envoltura nuclear\" cercana a 96%.]\n\n¿Cuál de las siguientes aseveraciones es coherente con la metodología y los datos expuestos?",
+      "options": {
+        "a": "El complejo de Golgi, el citoesqueleto y la envoltura nuclear, en conjunto, mantienen sujetos y estables los organelos en el citoplasma.",
+        "b": "El complejo de Golgi y la envoltura nuclear mantienen sujetos y estables a los organelos en el citoplasma.",
+        "c": "La envoltura nuclear mantiene sujetos y estables a los organelos en el citoplasma.",
+        "d": "El citoesqueleto mantiene sujetos y estables a los organelos en el citoplasma."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "Un estudio realizado in vitro demostró que tanto la ausencia de ATP como las mutaciones en la dineína (un tipo de proteína presente en flagelos), se relacionan con la pérdida de movilidad de los espermatozoides. Según lo anterior, ¿cuál de las siguientes preguntas de investigación se responde con los datos de este estudio?",
+      "options": {
+        "a": "¿Qué moléculas contribuyen al movimiento de los espermatozoides?",
+        "b": "¿Qué concentración mínima de ATP se requiere para generar el movimiento de los espermatozoides?",
+        "c": "¿Qué factores influyen en el tipo de movimiento de los espermatozoides?",
+        "d": "¿Qué factores determinan la velocidad de desplazamiento de los espermatozoides?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "Una pareja desea posponer durante dos años la posibilidad de tener un hijo. ¿Cuál de los siguientes métodos de control de la natalidad es el más efectivo para este propósito?",
+      "options": {
+        "a": "Un implante subcutáneo",
+        "b": "El método del ritmo",
+        "c": "Una vasectomía",
+        "d": "Un espermicida"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "Algunos métodos hormonales de control de la natalidad están constituidos por una combinación de progestágenos y estrógenos. ¿Cuál es el efecto principal de este tipo de métodos?",
+      "options": {
+        "a": "Mantener los niveles hormonales como si hubiera embarazo.",
+        "b": "Eliminar los espermatozoides en las vías genitales femeninas.",
+        "c": "Bloquear la formación del tapón mucoso en el cuello uterino.",
+        "d": "Impedir el tránsito del embrión desde el oviducto hacia el útero."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "El siguiente gráfico representa la incidencia de enfermedades cardiovasculares (porcentaje de la población estudiada) en función de la ingesta de grasa (porcentaje de las calorías ingeridas) en adultos:\n\n[Figura: gráfico de líneas, eje Y \"Incidencia de enfermedades cardiovasculares (%)\" de 0 a 45, eje X \"Ingesta de grasa (% de las calorías)\" de 10 a 60. Dos curvas: \"Baja actividad física\" (línea continua) que aumenta de forma pronunciada hasta cerca de 39% al 50% de ingesta de grasa; \"Alta actividad física\" (línea segmentada) que aumenta de forma más moderada, hasta cerca de 17% al 50% de ingesta de grasa. En ambos casos la incidencia aumenta con la ingesta de grasa, siendo menor en el grupo de alta actividad física.]\n\nDe los datos presentados, es correcto inferir que",
+      "options": {
+        "a": "la incidencia de enfermedades permanece constante en la población adulta.",
+        "b": "la actividad física es un factor de riesgo para las enfermedades cardiovasculares.",
+        "c": "un aumento de la actividad física no incide en la aparición de enfermedades cardiovasculares.",
+        "d": "existe una relación directamente proporcional entre la ingesta de grasa y la incidencia de enfermedades cardiovasculares.",
+        "e": "el ejercicio físico disminuye el efecto del consumo de grasa sobre la incidencia de enfermedades cardiovasculares."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "En un experimento se utilizaron dos grupos de diez ratas cada uno. A uno de los grupos se le administró una dieta proteica que carece de un aminoácido esencial (no puede ser sintetizado por el organismo). Al otro grupo se le administró una dieta proteica completa. Después del mismo período de tiempo, se midió la concentración de proteínas plasmáticas de las ratas de ambos grupos. Al respecto, ¿cuál de las siguientes opciones corresponde a la variable independiente en este experimento?",
+      "options": {
+        "a": "La cantidad de ratas en ambos grupos",
+        "b": "El tipo de dieta administrada a las ratas",
+        "c": "El tiempo de administración de la dieta a las ratas",
+        "d": "La concentración de proteínas plasmáticas de las ratas"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Con respecto a la mitosis es correcto afirmar que",
+      "options": {
+        "a": "al comenzar el proceso se duplica el material genético.",
+        "b": "es el mecanismo mediante el cual se logra variabilidad genética.",
+        "c": "al inicio de esta, cada cromosoma está compuesto por dos cromátidas hermanas.",
+        "d": "las dos células resultantes tienen la mitad de cromosomas que la célula original.",
+        "e": "los cromosomas se desplazan adheridos a filamentos de actina."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "El restablecimiento de la dotación cromosómica en la especie humana se realiza",
+      "options": {
+        "a": "en la fecundación.",
+        "b": "en la primera división celular del cigoto.",
+        "c": "en la segunda división celular del cigoto.",
+        "d": "durante la profase I.",
+        "e": "durante la anafase II."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "La pérdida parcial del hígado promueve que algunas células hepáticas en reposo proliferativo entren en mitosis, contribuyendo a la regeneración de este órgano. En una investigación, a animales se les removió experimentalmente el lóbulo izquierdo del hígado (lobectomía) y luego se evaluaron los posibles cambios en este órgano, a intervalos de 10 días. Considerando estos antecedentes, ¿cuál de las siguientes opciones es un resultado potencial para esta investigación?",
+      "options": {
+        "a": "Al final del estudio, la masa del hígado estaría disminuida, producto de la lobectomía.",
+        "b": "Habría un incremento progresivo del tamaño del hígado tras la lobectomía.",
+        "c": "Se iniciaría la muerte celular en el lóbulo izquierdo, propagándose luego a los otros lóbulos.",
+        "d": "Al final del estudio, la función hepática estaría disminuida en un 50 % en comparación al estado inicial."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "En la mitosis pueden ocurrir dificultades durante la migración de los cromosomas en anafase. En un estudio, se han identificado puentes cromosómicos (unión persistente de cromátidas hermanas) y se piensa que durante la anafase los puentes finalmente se rompen, generando cromosomas anormales en las dos células hijas, impidiendo su diferenciación. Así, las células forman tejidos vinculados al cáncer. El gráfico siguiente muestra el porcentaje de puentes cromosómicos observados en tres tipos de cultivos diferentes (P, Q y M) durante tres momentos del ciclo celular:\n\n[Figura: gráfico de barras, eje Y \"Porcentaje de puentes\" de 0 a 50, eje X con tres etapas del ciclo celular (Anafase, Telofase, G1 temprana), cada una con tres barras (tipos de cultivo P, Q, M). De forma aproximada: en Anafase, P≈18%, Q≈28%, M≈44%; en Telofase, P≈11%, Q≈21%, M≈33%; en G1 temprana, P≈28%, Q≈28%, M≈36%. En las tres etapas el cultivo M presenta el mayor porcentaje de puentes cromosómicos.]\n\nDe acuerdo con los antecedentes, ¿cuál pudo ser la pregunta de investigación que guió este estudio?",
+      "options": {
+        "a": "¿Cuál es el origen de los puentes cromosómicos?",
+        "b": "¿Pueden los puentes cromosómicos originar cáncer en tejidos humanos?",
+        "c": "¿Cuánto persisten los puentes cromosómicos en las células que los presentan?",
+        "d": "¿Qué tipo de cultivo celular se ve favorecido con la presencia de puentes cromosómicos?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Si una especie X limita el acceso a cierto recurso a la especie Y, ocurrirá",
+      "options": {
+        "a": "mutualismo.",
+        "b": "competencia.",
+        "c": "depredación.",
+        "d": "comensalismo.",
+        "e": "protocooperación."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "En un estudio se comparó la fauna asociada a tres tipos de cultivos diferentes. Los datos se muestran en la siguiente tabla:\n\n| Grupo taxonómico | Cultivo X | Cultivo Y | Cultivo Z | Categoría funcional |\n|---|---|---|---|---|\n| Formicidae | 505 | 25 | 0 | Depredadores |\n| Carabidae | 6 | 1 | 1 | Depredadores |\n| Coccinellidae | 1 | 1 | 1 | Depredadores |\n| Curculionidae | 1 | 0 | 1 | Fitófagos |\n| Staphylinidae | 3 | 7 | 3 | Depredadores |\n| Forficulidae | 2 | 1 | 1 | Detritívoros |\n| Blattidae | 16 | 2 | 0 | Detritívoros |\n| Lumbricidae | 48 | 45 | 2 | Detritívoros |\n| Hylidae | 1 | 0 | 0 | Depredadores |\n| Gastropoda | 429 | 536 | 308 | Fitófagos |\n| Riqueza | 10 | 8 | 7 | |\n| Abundancia | 1012 | 618 | 317 | |\n\nSi se quiere comparar estos cultivos mediante la construcción de pirámides ecológicas de número, ¿cuál de las siguientes opciones corresponde a un procedimiento correcto?",
+      "options": {
+        "a": "Deben agruparse las cifras de acuerdo a categoría funcional dentro de cada tipo de cultivo, con ello se podrá construir una pirámide para cada cultivo.",
+        "b": "Deben determinarse los valores de abundancia y riqueza para cada cultivo, con ello se podrá construir tres pirámides con tres niveles cada una.",
+        "c": "Deben sumarse las cifras para cada grupo de la columna grupo taxonómico, con ello se podrá construir tres pirámides para cada cultivo.",
+        "d": "Deben sumarse las cifras para cada grupo de las columnas de cultivo, con ello se podrá determinar el tamaño de los niveles tróficos."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "El gráfico representa la producción de glucosa con respecto a la variación de la concentración de CO2 ambiental en un organismo vegetal.\n\n[Figura: gráfico de líneas, eje Y \"Producción de glucosa (u.a.)\" de 0 a 80, eje X \"Concentración de CO2 ambiental (u.a.)\" con valores 150, 250, 350, 450, 550, 650. De forma aproximada, la producción de glucosa aumenta linealmente de 20 (en 150) a 40 (en 250), 60 (en 350) y cerca de 80 (en 450), y luego se mantiene aproximadamente constante en torno a 79-80 entre 450 y 650.]\n\nRespecto al análisis del gráfico, ¿cuál de las siguientes aseveraciones es correcta?",
+      "options": {
+        "a": "El incremento de la concentración de CO2 es inversamente proporcional al aumento de la producción de glucosa en todo el rango medido.",
+        "b": "El incremento de la producción de glucosa es directamente proporcional al aumento de la concentración de CO2 hasta los 450 u.a.",
+        "c": "La concentración de CO2 depende de la producción de glucosa en esta planta.",
+        "d": "La producción de glucosa en esta planta depende de la concentración de CO2 en todo el rango medido."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "El siguiente esquema presenta un experimento donde una planta acuática fue puesta en un vaso de precipitados, cubierta con un embudo y un tubo invertido. En el caso 1 el agua utilizada está a temperatura ambiente sin otro tratamiento. En el caso 2 el agua fue previamente hervida para eliminar los gases que contenía y luego enfriada a temperatura ambiente. Ambos sistemas fueron expuestos a la luz solar.\n\n[Figura: dos esquemas (caso 1 y caso 2), cada uno muestra un vaso de precipitados con una planta acuática, cubierta por un embudo invertido y un tubo de ensayo también invertido lleno de agua, expuesto al sol. En el caso 1, tras exponer el sistema al sol, aparecen burbujas de gas acumulándose en la parte superior del tubo invertido. En el caso 2 (agua previamente hervida) no se observa acumulación de burbujas de gas tras la exposición al sol.]\n\nDe acuerdo con estos antecedentes, ¿cuál de las siguientes opciones corresponde a la variable dependiente en este experimento?",
+      "options": {
+        "a": "La temperatura ambiental",
+        "b": "El dióxido de carbono producido",
+        "c": "El oxígeno producido",
+        "d": "La exposición al Sol"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "Se extrajeron ejemplares de una misma especie de planta desde distintos sitios, exponiéndolos a las siguientes condiciones de laboratorio:\n\n| Control | Tratamiento |\n|---|---|\n| Se mantiene la disponibilidad de agua del sitio original de cada ejemplar | Se aumenta la disponibilidad de agua con respecto al sitio original de cada ejemplar |\n\nEl gráfico representa la longitud promedio de las hojas en relación con la exposición de ambos ejemplares a estas condiciones.\n\n[Figura: gráfico de barras, eje Y \"Longitud promedio de las hojas (u.a.)\", eje X \"Grupos\" (Control, Tratamiento), con dos barras por grupo (Planta 1 y Planta 2). En el grupo Control, Planta 1 y Planta 2 presentan una longitud de hoja similar y baja. En el grupo Tratamiento, ambas plantas presentan una longitud de hoja mayor que en el control, siendo la de Planta 2 mayor que la de Planta 1.]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es coherente con los resultados obtenidos?",
+      "options": {
+        "a": "La cantidad de agua disponible influye en el tamaño de las hojas, en ambos ejemplares.",
+        "b": "La cantidad de agua disponible varía de acuerdo a la longitud de las hojas, en ambos ejemplares.",
+        "c": "La especie presenta diferentes tamaños de hojas según el sitio que habita originalmente cada ejemplar.",
+        "d": "El promedio de la longitud de las hojas de ambos ejemplares depende del material genético de la especie."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "Un estudiante desea separar una mezcla homogénea formada por acetona (temperatura de ebullición 56 °C), propilamina (temperatura de ebullición 48 °C) y propanol (temperatura de ebullición 97 °C). Para ello, realiza un proceso de destilación fraccionada y almacena cada líquido en matraces etiquetados según el orden en que cada componente fue separado de la mezcla. A partir de esta información, ¿cuál de las siguientes opciones describe correctamente el contenido de cada matraz?",
+      "options": {
+        "a": "Matraz 1: Propanol | Matraz 2: Acetona | Matraz 3: Propilamina",
+        "b": "Matraz 1: Propilamina | Matraz 2: Acetona | Matraz 3: Propanol",
+        "c": "Matraz 1: Acetona | Matraz 2: Propanol | Matraz 3: Propilamina",
+        "d": "Matraz 1: Propilamina | Matraz 2: Propanol | Matraz 3: Acetona"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "En la siguiente tabla se muestran los puntos de fusión y de ebullición de distintos elementos, a 1 atm, ubicados en un mismo grupo en el sistema periódico.\n\n| Elemento | Punto de Fusión (°C) | Punto de Ebullición (°C) |\n|---|---|---|\n| Q | –259 | –253 |\n| R | 180 | 1347 |\n| J | 98 | 883 |\n| T | 64 | 774 |\n| X | 39 | 688 |\n\nConsiderando los valores de la tabla anterior, ¿cuál de los elementos corresponde a un gas a 25 °C y 1 atm?",
+      "options": {
+        "a": "X",
+        "b": "R",
+        "c": "T",
+        "d": "J",
+        "e": "Q"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Un estudiante analiza los siguientes hechos:\n\n1. En un incendio forestal cuando se queman los árboles y pastizales se desprenden gases, cenizas, energía térmica y lumínica.\n2. Cuando un clavo de hierro se oxida por acción de la humedad, se forma una sustancia rojiza en su superficie.\n3. Cuando el vidrio se funde se pueden crear objetos con formas diferentes.\n\nCon respecto al análisis de los hechos 1, 2 y 3, ¿cuál de las siguientes opciones representa una conclusión correcta?",
+      "options": {
+        "a": "1 y 2 corresponden a transformaciones químicas.",
+        "b": "2 y 3 corresponden a transformaciones físicas.",
+        "c": "1, 2 y 3 corresponden a transformaciones químicas.",
+        "d": "1, 2 y 3 corresponden a transformaciones físicas."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Una docente presenta a sus estudiantes la siguiente información para cuatro elementos hipotéticos.\n\n| Elemento | Cantidad de protones | Masa atómica |\n|---|---|---|\n| J | 5 | 11 |\n| Q | 6 | 12 |\n| R | 11 | 23 |\n| Z | 12 | 24 |\n\nAl respecto, ¿cuál de las siguientes opciones contiene, correctamente, el número de neutrones de cada elemento?",
+      "options": {
+        "a": "J: 5 | Q: 5 | R: 11 | Z: 11",
+        "b": "J: 5 | Q: 6 | R: 12 | Z: 11",
+        "c": "J: 6 | Q: 5 | R: 11 | Z: 12",
+        "d": "J: 6 | Q: 6 | R: 12 | Z: 12"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "En el siguiente esquema del sistema periódico, se muestra la ubicación de diferentes elementos, representados por los números 1, 2, 3, 4 y 5.\n\n[Figura: esquema de tabla periódica (sin símbolos de elementos) con casillas numeradas: en la primera fila aparecen las casillas 1, 3 y 5 (3 y 5 ubicadas hacia el lado derecho de la tabla, con 5 más a la derecha que 3); en la segunda fila aparecen las casillas 2 (debajo de 1, en la misma columna/grupo) y 4 (ubicada una columna a la izquierda de la posición de 3).]\n\nSabiendo que el radio decrece al aumentar Z, en un período y crece al aumentar Z en un grupo. Es correcto concluir que el elemento cuyos átomos tienen mayor radio es",
+      "options": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Ciertas propiedades físicas de las sustancias están relacionadas con su estructura, por ejemplo, los compuestos polares se disuelven en solventes polares como el agua y los compuestos apolares, en solventes apolares como el n-hexano, entre otros. Asimismo, la temperatura de ebullición de una sustancia, en general, aumenta con su masa molar. En la siguiente tabla se muestran datos de polaridad y de masa molar de tres compuestos líquidos X, Y y Z.\n\n| Compuesto | Polaridad | Masa molar (g/mol) |\n|---|---|---|\n| X | no polar | 78 |\n| Y | polar | 94 |\n| Z | polar | 180 |\n\nConsiderando solo la información anterior, se puede afirmar correctamente que",
+      "options": {
+        "a": "el compuesto Z se distingue de X porque no se disuelve en agua.",
+        "b": "el compuesto Y tiene mayor temperatura de ebullición que Z.",
+        "c": "el compuesto Z al tener mayor masa molar se disuelve completamente en agua.",
+        "d": "el compuesto Y no se disuelve en n-hexano, mientras que X sí.",
+        "e": "el compuesto X se distingue de Y porque tiene mayor temperatura de ebullición."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "Un determinado compuesto químico, que está formado solo por carbono e hidrógeno, presenta estructura de anillo y tiene un doble enlace. Con estos datos se puede deducir que el compuesto es\n\nI) un alquino.\nII) un hidrocarburo.\nIII) un cicloalcano.\n\nEs (son) correcta(s)",
+      "options": {
+        "a": "solo I.",
+        "b": "solo II.",
+        "c": "solo III.",
+        "d": "solo I y III.",
+        "e": "solo II y III."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "De acuerdo con la IUPAC, ¿cuál es el nombre de la siguiente molécula?\n\nCH3(CH2)2CHCH=CHCH2CH3\n           CH2CH3\n\n(el grupo CH2CH3 está unido, como ramificación, al carbono CH de la cadena principal indicado en la línea superior)",
+      "options": {
+        "a": "4-etil-5-octeno",
+        "b": "3-etil-5-octeno",
+        "c": "5-etil-3-octeno",
+        "d": "3-propil-4-hepteno",
+        "e": "5-propil-3-hepteno"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "La siguiente estructura corresponde a un anestésico local.\n\n[Figura: estructura molecular con un anillo de benceno que tiene dos grupos metilo en posiciones adyacentes al punto de unión, este último unido a un grupo NH; el NH está unido a un grupo carbonilo (C=O); el carbonilo está unido a un grupo CH2, el cual está unido a un átomo de nitrógeno con dos sustituyentes etilo (grupo dietilamino).]\n\nAl respecto, ¿cuál es la función orgánica prioritaria, según la IUPAC?",
+      "options": {
+        "a": "Amina secundaria",
+        "b": "Amina terciaria",
+        "c": "Benceno",
+        "d": "Cetona",
+        "e": "Amida"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "¿Cuál de los siguientes compuestos orgánicos corresponde a una cetona?",
+      "options": {
+        "a": "CH3-CH2-CHO",
+        "b": "CH3-O-CH3",
+        "c": "CH3-CO-CH3",
+        "d": "CH3-CH2-COOH",
+        "e": "CH3-COOCH3"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "Considerando el siguiente compuesto:\n\n[Figura: estructura esquelética (representación en líneas) de un alcohol ramificado; muestra una cadena principal con un grupo etilo en un extremo, un grupo hidroxilo (OH) unido a un carbono central de la cadena, y ramificaciones de tipo metilo cerca del otro extremo de la cadena.]\n\n¿Cuál es su nombre, según la IUPAC?",
+      "options": {
+        "a": "2,5-dimetilheptan-3-ol",
+        "b": "3,6-dimetilheptan-5-ol",
+        "c": "5-etil-2-metilhexan-6-ol",
+        "d": "2-etil-5-metilhexan-4-ol"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "¿Cuál de los siguientes gráficos representa correctamente la variación de la presión respecto al volumen de un gas a temperatura constante?",
+      "options": {
+        "a": "Gráfico P vs. V: recta que pasa por el origen con pendiente positiva (P aumenta linealmente con V).",
+        "b": "Gráfico P vs. V: recta con pendiente positiva que no pasa por el origen, con un intercepto positivo en el eje V.",
+        "c": "Gráfico P vs. V: curva decreciente de tipo hipérbola, P disminuye a medida que aumenta V.",
+        "d": "Gráfico P vs. V: línea vertical, es decir, V se mantiene constante mientras P varía.",
+        "e": "Gráfico P vs. V: línea horizontal, es decir, P se mantiene constante independiente de V."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "La concentración de los gases invernadero, como CO2 y CH4, aumenta de modo constante repercutiendo en el equilibrio del medioambiente. Estos gases invernadero",
+      "options": {
+        "a": "retienen la radiación calórica reflejada por la Tierra.",
+        "b": "impiden el ingreso de las radiaciones solares a la Tierra.",
+        "c": "retienen la luz ultravioleta dejando pasar solo la infrarroja.",
+        "d": "eliminan la radiación infrarroja y absorben la ultravioleta.",
+        "e": "destruyen la capa de ozono permitiendo el ingreso de mayor radiación."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "Una de las sustancias que se puede encontrar en una chatarrería es el hierro oxidado (Fe2O3). Con el fin de venderlo a un valor más alto, este se hace reaccionar con monóxido de carbono (CO) de manera que se obtenga hierro metálico (Fe), según la siguiente ecuación:\n\nFe2O3 + 3 CO → 2 Fe + X\n\nRespecto de lo anterior, ¿a qué corresponde X?",
+      "options": {
+        "a": "A 1 CO2",
+        "b": "A 2 CO2",
+        "c": "A 3 CO2",
+        "d": "A 4 CO2"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Una estudiante después de realizar un experimento de electrólisis del agua, obtiene los siguientes datos de hidrógeno y de oxígeno:\n\n| Masa de agua (g) | Volumen de hidrógeno (L) | Volumen de oxígeno (L) |\n|---|---|---|\n| 1,8 | 2,24 | 1,12 |\n| 3,6 | 4,48 | 2,24 |\n| 36,0 | 44,80 | 22,40 |\n\nAl respecto, ¿cuál de las siguientes conclusiones es correcta al analizar los datos de la tabla?",
+      "options": {
+        "a": "El volumen de oxígeno obtenido es siempre igual al volumen de hidrógeno obtenido.",
+        "b": "Los volúmenes de hidrógeno y de oxígeno obtenidos, siempre están en la misma proporción.",
+        "c": "A medida que se duplica la masa de agua, se cuadruplica el volumen de oxígeno obtenido.",
+        "d": "El volumen de oxígeno obtenido es siempre el doble que el volumen de hidrógeno obtenido."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "Un estudiante encuentra en un libro las siguientes ecuaciones de combustión de diferentes gases:\n\nCH4 (g) + 2 O2 (g) → CO2 (g) + 2 H2O (g) + Energía\nC3H8 (g) + 5 O2 (g) → 3 CO2 (g) + 4 H2O (g) + Energía\n2 C4H10 (g) + 13 O2 (g) → 8 CO2 (g) + 10 H2O (g) + Energía\n\nSi el estudiante tiene balones de gases licuados del mismo peso de cada uno de los gases (CH4, C3H8 y C4H10), ¿cuál de las siguientes opciones presenta el gas o gases que se consume(n) primero?",
+      "options": {
+        "a": "El gas CH4 se consume primero.",
+        "b": "El gas C4H10 se consume primero.",
+        "c": "Los gases CH4 y C3H8 se consumen al mismo tiempo.",
+        "d": "Los gases C3H8 y C4H10 se consumen al mismo tiempo."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 71,
+      "content": "Considerando la siguiente reacción y la cantidad de reactantes asociados:\n\n2 HCl (ac) + Zn (s) → ZnCl2 (ac) + H2 (g)\n1,2 mol ............... 0,7 mol\n\nEs correcto afirmar que",
+      "options": {
+        "a": "se producen 0,7 mol de H2.",
+        "b": "se consumen 0,7 mol de Zn.",
+        "c": "se forman 0,6 mol de ZnCl2.",
+        "d": "se consumen la totalidad de los reactantes.",
+        "e": "por cada mol de HCl consumido se obtiene un mol de ZnCl2."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "Se tienen 100 g de una mezcla gaseosa de SO2 y SO3 en la cual el 20 % corresponde a SO2. ¿Cuál es el porcentaje total de oxígeno en la mezcla?",
+      "options": {
+        "a": "10 %",
+        "b": "25 %",
+        "c": "48 %",
+        "d": "50 %",
+        "e": "58 %"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "Considerando el siguiente esquema, respecto de la solución acuosa.\n\n[Figura: celda con una solución acuosa, dos electrodos (– y +) sumergidos en la solución, conectados a una batería y a una ampolleta; la ampolleta se muestra \"sin luz\" (no se enciende).]\n\n¿Cuál compuesto corresponde al soluto?",
+      "options": {
+        "a": "Amoníaco",
+        "b": "Glucosa",
+        "c": "Cloruro de sodio",
+        "d": "Ácido clorhídrico",
+        "e": "Hidróxido de sodio"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Un estudiante realiza el siguiente experimento en el laboratorio: en un balón disuelve completamente 0,5 g de un soluto no volátil R en 500 mL de solvente S, a 25 °C y 1 atm. Posteriormente, utilizando un equipo mide el valor de la propiedad P en la solución, la cual es específica para un solvente. En un segundo experimento disuelve completamente 0,7 g del mismo soluto R en 500 mL de solvente S, en las mismas condiciones y nuevamente mide la propiedad P, la cual ha aumentado un 2 % respecto de la primera medición. Considerando el procedimiento descrito, ¿cuál de las siguientes afirmaciones es coherente con los datos experimentales entregados?",
+      "options": {
+        "a": "Para cualquier solvente distinto de S, al aumentar la cantidad de soluto R, la propiedad P variará en un 2 %.",
+        "b": "Para cualquier solvente distinto de S, al aumentar una cantidad de soluto R, la propiedad P será constante.",
+        "c": "Para cualquier solvente distinto de S, al añadir una cantidad de soluto R, la propiedad P tendrá una variación.",
+        "d": "Para cualquier solvente distinto de S, al aumentar a 0,9 g la cantidad de soluto R, la propiedad P tendrá una variación del 4 %."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Un grupo de estudiantes preparó cuatro soluciones acuosas con diferentes masas de NaOH, en un mismo volumen de solvente. Luego, determinaron, bajo las mismas condiciones de trabajo, la conductividad eléctrica de cada una de estas soluciones por medio de la intensidad de la luz generada en la ampolleta de los siguientes sistemas:\n\n[Figura: cuatro sistemas, cada uno con un vaso de precipitados y una ampolleta encendida sobre él; los vasos están etiquetados como \"Solución 5 % m/v NaOH\", \"Solución 10 % m/v NaOH\", \"Solución 15 % m/v NaOH\" y \"Solución 20 % m/v NaOH\".]\n\nA partir de los resultados obtenidos, en cada sistema, ¿cuál de las siguientes opciones muestra la pregunta de investigación que dio origen al procedimiento descrito?",
+      "options": {
+        "a": "¿Cómo influye el solvente de las soluciones en la variación de la intensidad de la luz que se genera?",
+        "b": "¿Cómo influye el material conductor de electricidad en la intensidad de la luz que se genera?",
+        "c": "¿Cómo influyen diferentes solutos en la intensidad de la luz que se genera?",
+        "d": "¿Cómo influye la concentración del soluto en la intensidad de la luz que se genera?"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "El siguiente esquema:\n\n[Figura: se vierten 75 mL de H2O, a través de un embudo, dentro de un matraz aforado que contiene una solución 0,25 mol/L de HNO3.]\n\nRepresenta",
+      "options": {
+        "a": "una dilución.",
+        "b": "una neutralización.",
+        "c": "la preparación de una solución saturada.",
+        "d": "la preparación de una mezcla heterogénea.",
+        "e": "la preparación de una solución sobresaturada."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "En una clase se presenta la secuencia de pasos para la preparación de una mezcla Z de cuatro soluciones del soluto ▪: se combina un volumen (1V) de la solución 1 con un volumen (1V) de la solución 2, dando origen a la mezcla X. Por otra parte, se combina un volumen (1V) de la solución 3 con dos volúmenes (2V) de la solución 4, originando la mezcla Y, tal como se presenta en el siguiente esquema:\n\n[Figura: Solución 1 (1V, con 1 símbolo ▪) + Solución 2 (1V, con 1 símbolo ▪) → Mezcla X (2V, con 2 símbolos ▪); Solución 3 (1V, con 1 símbolo ▪) + Solución 4 (2V, con 1 símbolo ▪) → Mezcla Y (3V, con 2 símbolos ▪); Mezcla X + Mezcla Y = Mezcla Z.]\n\nEn relación con el análisis de la información anterior, ¿cuál de las siguientes opciones muestra, correctamente, la concentración de la mezcla Z, si la concentración de la mezcla X es 1,5 ▪/V y la concentración de la mezcla Y es 1,0 ▪/V?",
+      "options": {
+        "a": "C = 1,25 ▪/V",
+        "b": "C = 1,20 ▪/V",
+        "c": "C = 1,00 ▪/V",
+        "d": "C = 0,83 ▪/V"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "Si 100 mL de una solución de HCl es neutralizada con 50 mL de una solución de NaOH, de concentración 0,5 mol/L, ¿cuál es la concentración de HCl?",
+      "options": {
+        "a": "0,25 mol/L",
+        "b": "0,50 mol/L",
+        "c": "0,75 mol/L",
+        "d": "1,00 mol/L",
+        "e": "1,25 mol/L"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 79,
+      "content": "Un grupo de estudiantes cuenta con los siguientes datos para tres soluciones acuosas de hidróxido de sodio (NaOH, masa molar = 40 g/mol).\n\nSolución 1: 10 g de NaOH en 500 mL de solución\nSolución 2: 20 g de NaOH en 0,5 L de solución\nSolución 3: 500 mL de solución con una concentración igual a 0,25 mol/L\n\nCon respecto a la cantidad, en mol, de NaOH, ¿cuál de las siguientes opciones es una conclusión correcta, emitida por el grupo de estudiantes?",
+      "options": {
+        "a": "Las soluciones 2 y 3 tienen el mismo número de mol.",
+        "b": "La solución 1 tiene el mayor número de mol.",
+        "c": "La solución 2 tiene el mayor número de mol.",
+        "d": "La solución 3 tiene el mayor número de mol."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "La coloración café que se observa en las frutas luego de un tiempo se debe a la reacción del oxígeno con enzimas que contienen las frutas. Se realiza un estudio colocando manzanas, plátanos y paltas, a 20 °C, en diferentes medios: al vacío, en papel aluminio, en sal, en aceite, en limón y al natural, con el fin de estudiar la reacción con oxígeno. Luego, se definió una escala numérica de acuerdo a la coloración café que va adquiriendo la fruta, se dividió en 30 tramos de color, donde 0 es sin coloración y 30 café oscuro. En cada caso, se utilizaron frutas del mismo tipo, en cuanto a masas y tamaños, sin coloración café que indicara el comienzo de la reacción con oxígeno. Los datos del estudio sobre el cambio de coloración por efecto de la reacción con oxígeno en cada medio, se muestran en el siguiente gráfico:\n\n[Figura: gráfico de barras, eje Y \"Coloración\" de 0 a 30, eje X con seis medios (al vacío, papel de aluminio, sal, aceite, limón, al natural), cada uno con tres barras (Manzana, Plátano, Palta). De forma aproximada: al vacío (Manzana≈15, Plátano≈18, Palta≈19); papel de aluminio (Manzana≈19, Plátano≈19, Palta≈24); sal (Manzana≈17, Plátano≈18, Palta≈24); aceite (Manzana≈20, Plátano≈24, Palta≈26); limón (Manzana≈17, Plátano≈17, Palta≈23); al natural (Manzana≈22, Plátano≈22, Palta≈26). En todos los medios, la palta presenta la mayor coloración (mayor reacción con oxígeno) y el medio \"al vacío\" muestra, en general, los valores más bajos de coloración para las tres frutas.]\n\nAl analizar los datos presentados en el gráfico, ¿cuál de las siguientes opciones es una conclusión correcta?",
+      "options": {
+        "a": "Las paltas son las que menos reaccionan con oxígeno en cualquiera de los medios estudiados.",
+        "b": "Las frutas al natural resultan ser la mejor manera de evitar la reacción con oxígeno en las frutas estudiadas.",
+        "c": "La mejor manera de retrasar la reacción con oxígeno, en las frutas estudiadas, es al vacío.",
+        "d": "Los plátanos presentan la más baja reacción con oxígeno, en todos los medios estudiados."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    }
+  ]
+}

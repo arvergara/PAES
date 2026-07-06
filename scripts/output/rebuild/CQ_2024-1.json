@@ -1,0 +1,1236 @@
+{
+  "meta": {
+    "subject": "CQ",
+    "subject_nombre": "Ciencias - Química",
+    "origen": "PAES Ciencias - Química Admision 2024-1",
+    "anio": 2024,
+    "forma": 173,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [25, 37, 47, 63, 76],
+    "fuente_pdf": "pruebas/oficiales/C-quimica-2024-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-quimica-2024-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "A 25 °C y 1 atm, un estudiante mezcla, en un tubo de ensayo, 5 mL de agua destilada y 5 mL de aceite de maravilla. El estudiante se da cuenta que el aceite queda en la parte superior del tubo y el agua en la parte inferior. Luego, en un segundo intento agita el tubo manualmente por 1 minuto, lo deja reposar, y evidencia que las sustancias no se mezclan. En un tercer intento, en un instrumento de laboratorio pone a agitar el tubo por 10 minutos, posteriormente lo deja reposar y evidencia el mismo resultado. En un cuarto intento, en el mismo instrumento de laboratorio pone a agitar el tubo por 10 minutos pero esta vez aumenta la temperatura de la mezcla, sin embargo, obtiene el mismo resultado. Al respecto, ¿cuál de las siguientes opciones es una inferencia correcta respecto a los resultados obtenidos por el estudiante en las condiciones experimentales descritas?",
+      "options": {
+        "a": "El tiempo de agitación de las sustancias impide la formación de una mezcla homogénea.",
+        "b": "El volumen añadido de cada sustancia impide la formación de una mezcla homogénea.",
+        "c": "La temperatura a la que están sometidas las sustancias impide la formación de una mezcla homogénea.",
+        "d": "La diferencia de polaridad entre las sustancias impide la formación de una mezcla homogénea."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "Un grupo de amigos está organizando una excursión a un cerro, y dentro de las cosas que deben llevar son botellas de vidrio de igual capacidad con el mismo volumen de agua. Uno de los amigos sugiere dejar las botellas en el congelador por la noche para que estén heladas a la mañana siguiente, sin embargo, al abrir el congelador todas las botellas explotaron. Uno de ellos menciona que las botellas explotaron porque el aire que quedó en las botellas las hizo explotar. En relación a lo anterior, ¿cuál de las siguientes preguntas permitiría iniciar una investigación que corrobore o refute la hipótesis planteada?",
+      "options": {
+        "a": "¿Cómo afecta el cambio de temperatura al volumen del agua y el aire contenidos en la botella?",
+        "b": "¿Cómo cambia la composición química del agua y del aire al bajar la temperatura?",
+        "c": "¿Cómo cambia el material de la botella que contiene el agua y el aire al disminuir la temperatura?",
+        "d": "¿Cómo cambia la presión del aire y la temperatura del agua al utilizar una botella de vidrio?"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Una empresa dedicada a la fabricación de tamices, producto para separar sólidos en razón de su tamaño, desea evaluar algunos de sus nuevos productos. Para ello, se utilizan ocho tamices de diferente número de poro y 80 g de arena de sílice para cada evaluación, determinando la cantidad de arena retenida en cada tamiz por un período de 2 minutos. Los datos obtenidos se presentan en la siguiente tabla:\n\n| Tamiz | Masa de arena retenida (g) |\n|---|---|\n| X | 16,5 |\n| R | 22,1 |\n| W | 28,2 |\n| Q | 30,0 |\n| T | 38,7 |\n| Z | 44,5 |\n| P | 49,8 |\n| F | 69,8 |\n\nA partir de los resultados presentados en la tabla anterior, ¿cuál de las siguientes opciones es correcta?",
+      "options": {
+        "a": "El diámetro de los poros del tamiz Z es mayor en comparación al tamiz de R.",
+        "b": "El diámetro de los poros del tamiz Q es menor en comparación al tamiz de T.",
+        "c": "El diámetro de los poros del tamiz W es mayor en comparación al tamiz de X.",
+        "d": "El diámetro de los poros del tamiz F es menor en comparación al tamiz de P."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "Una estudiante se dio cuenta de que en el interior del hervidor de su casa se encuentra un sólido blanquecino. Al consultarle a su profesora de Ciencias, ella le responde que es sarro y que, para sacarlo, debe agregar vinagre con agua caliente, a fin de que no quede rastro del sarro en su interior. La estudiante supone que debe ocurrir un cambio químico en el interior del hervidor, al combinarse las dos sustancias. En relación a lo anterior, ¿cuál de las siguientes evidencias permitiría confirmar la suposición de la estudiante?",
+      "options": {
+        "a": "Presencia de burbujas al agregar el vinagre al hervidor.",
+        "b": "Aumento del volumen al agregar el vinagre al hervidor.",
+        "c": "Cambio de estado del sarro al agregar el vinagre al hervidor.",
+        "d": "Fragmentación del sarro en pequeños pedazos al agregar el vinagre al hervidor."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "El grupo funcional presente en el siguiente compuesto\n\n[Figura: estructura de un anillo bencénico con un doble enlace en el ciclo (representación tipo ciclohexadieno), unido mediante un grupo –CH2– a un carbono carbonílico C(=O) que a su vez está unido a –NH–CH3 (grupo amida N-metilada); es decir, la estructura corresponde a Ar–CH2–C(=O)–NH–CH3]\n\ncorresponde a",
+      "options": {
+        "a": "un ácido carboxílico.",
+        "b": "una cetona.",
+        "c": "una amida.",
+        "d": "una amina.",
+        "e": "un éster."
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Los hidrocarburos policíclicos aromáticos (HAP's) son un grupo de sustancias químicas que se forman durante la combustión incompleta de carbón, petróleo, madera, tabaco y carne asada, entre otros. Existen más de 100 tipos diferentes de HAP's, y se ha evidenciado, por medio de estudios realizados en humanos, que \"personas expuestas a través de la respiración o el contacto de la piel durante largos períodos de tiempo con mezclas que contienen HAP's pueden contraer cáncer\". En relación con lo anterior, ¿a qué componente de la investigación científica corresponde la oración entre comillas?",
+      "options": {
+        "a": "A la descripción de un procedimiento experimental",
+        "b": "A la presentación de una conclusión",
+        "c": "A la formulación de una hipótesis",
+        "d": "A la postulación de una teoría"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Un investigador y su equipo realizaron un estudio a partir de una molécula orgánica, la boldina, obtenida del boldo, árbol endémico de Chile. En su estudio, utilizaron esta molécula orgánica para el tratamiento de una determinada afección inflamatoria. La estructura de la boldina se muestra a continuación:\n\n[Figura: estructura química de la boldina, un alcaloide aporfínico con anillos fusionados, que presenta dos grupos –OCH3, un grupo –OH y un nitrógeno con sustituyente –CH3 (N–CH3)]\n\nEn este contexto, del uso farmacológico de la boldina y sus derivados, otros investigadores realizaron diversos ensayos, obteniendo los resultados que se muestran en la siguiente tabla:\n\n| Derivados de la boldina (estructura) | Capacidad antiinflamatoria |\n|---|---|\n| [Figura: derivado 1, con grupo –OCH3 en la posición donde la boldina original tiene –OH, y –OH en la posición donde la boldina original tiene un –OCH3] | ++ |\n| [Figura: derivado 2, con grupo –OH en la posición donde la boldina original tiene un –OCH3, manteniendo el otro –OCH3 y el –OH] | +++ |\n| [Figura: derivado 3, con las posiciones de los grupos –OH y –OCH3 intercambiadas respecto a la boldina original en el otro anillo] | + |\n\nA mayor cantidad de (+), mayor capacidad antiinflamatoria.\nA partir de lo anterior, ¿cuál de las siguientes opciones corresponde al objetivo que pudo guiar los ensayos realizados por los investigadores?",
+      "options": {
+        "a": "Indagar sobre la cantidad de grupos funcionales en la estructura de la boldina y su relación con la capacidad antiinflamatoria.",
+        "b": "Indagar sobre diversos compuestos que se pueden obtener de árboles endémicos de Chile y sus capacidades antiinflamatorias.",
+        "c": "Indagar sobre la relación entre el cambio de posición de un grupo funcional en la estructura de la boldina y su capacidad antiinflamatoria.",
+        "d": "Indagar sobre la incorporación de nuevos grupos funcionales a la molécula de boldina y su capacidad antiinflamatoria."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "Para definir el nombre de un compuesto orgánico, muchos científicos se reunieron para establecer las reglas de nomenclatura orgánica y la organización encargada de recopilar la información y estructurar las reglas fue la Unión Internacional de Química Pura y Aplicada (IUPAC, por sus siglas en inglés). En relación con lo anterior, ¿cuál de las siguientes opciones es una explicación correcta del porqué se establecen las reglas de la nomenclatura orgánica?",
+      "options": {
+        "a": "Se establecen las reglas de nomenclatura orgánica para que cualquier persona asociada al estudio de la química que lea o escuche el nombre no tenga dudas respecto al compuesto que se está haciendo referencia.",
+        "b": "Se establecen las reglas de nomenclatura orgánica para que existan variados nombres para cada compuesto orgánico, reconociéndose similitudes, sin importar su procedencia.",
+        "c": "Se establecen las reglas de nomenclatura orgánica para fijar similitudes estructurales de los compuestos con el fin de destacar su importancia.",
+        "d": "Se establecen las reglas de nomenclatura orgánica para abordar diferencias solo cuando existan compuestos que presentan la misma cantidad de átomos."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "Un grupo de investigadores está analizando algunos factores que influyen en el blanqueamiento de un tipo de coral de aguas australianas. Para aquello, basados en estudios relacionados con el tema, afirman que altos niveles de CO2 acidifican el agua de mar debido a la formación de H2CO3 produciendo una disminución en la población de algas, lo que se relaciona con el blanqueamiento de los corales. Para comprobar lo afirmado, los investigadores montan 5 estanques de iguales dimensiones con 50 L de agua que contienen 10 corales de la misma especie de igual tamaño y dimensiones en condiciones naturales y luego, a cuatro de ellos, le adicionan cantidades crecientes de CO2, dejando un estanque como control. En relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente la variable dependiente para el diseño experimental propuesto por el grupo de investigadores?",
+      "options": {
+        "a": "La variable dependiente es el volumen de agua del estanque con corales y del estanque del grupo control.",
+        "b": "La variable dependiente es la cantidad de CO2 agregado a cada estanque que contiene los corales.",
+        "c": "La variable dependiente es el blanqueamiento producido en los corales por presencia de H2CO3.",
+        "d": "La variable dependiente es el tipo de coral utilizado en presencia de cantidades crecientes de CO2."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "En la reacción de moléculas de fósforo (P4) con moléculas de cloro (Cl2) para formar como producto moléculas de tricloruro de fósforo (PCl3) se cumple que",
+      "options": {
+        "a": "4 moléculas de fósforo producen 4 moléculas de tricloruro de fósforo.",
+        "b": "2 moléculas de cloro producen 2 moléculas de tricloruro de fósforo.",
+        "c": "1 molécula de cloro produce 3 moléculas de tricloruro de fósforo.",
+        "d": "1 átomo de fósforo produce 4 moléculas de tricloruro de fósforo.",
+        "e": "12 átomos de cloro producen 4 moléculas de tricloruro de fósforo."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "La reacción de combustión de metano se representa a través de la siguiente ecuación química no balanceada:\n\nCH4 + O2 → CO2 + H2O\n\n¿Cuál de las siguientes relaciones en masa (g) es correcta para la combustión completa del metano? (valores en el orden CH4 | O2 | CO2 | H2O, en gramos)",
+      "options": {
+        "a": "4 | 16 | 9 | 11",
+        "b": "16 | 4 | 11 | 9",
+        "c": "4 | 16 | 11 | 9",
+        "d": "9 | 11 | 4 | 16",
+        "e": "11 | 9 | 16 | 4"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "A partir de la siguiente ecuación química:\n\n6 CO2 + 6 H2O → C6H12O6 + 6 O2\n\n¿Cuántas moléculas de agua se requieren para formar 4 mol de glucosa?",
+      "options": {
+        "a": "6,02 x 10²³",
+        "b": "1,5 x 6,02 x 10²³",
+        "c": "4 x 6,02 x 10²³",
+        "d": "6 x 6,02 x 10²³",
+        "e": "24 x 6,02 x 10²³"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "En una combustión completa se queman 48 g de C, considerando que el único producto es CO2, ¿qué masa exacta de comburente se necesita?",
+      "options": {
+        "a": "16 g",
+        "b": "32 g",
+        "c": "44 g",
+        "d": "128 g",
+        "e": "176 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "Un grupo de investigación realiza un análisis químico de una sustancia X para determinar la masa en gramos de cada elemento presente en ella. Considerando que la sustancia X contiene solo C, H y O, los investigadores combustionan una muestra de dicha sustancia en presencia de suficiente oxígeno, tal como se representa en la siguiente figura:\n\n[Figura: esquema de un tubo horizontal donde ingresa O2 por la izquierda hacia un compartimento con \"Sustancia X\" que recibe calor por debajo; a la salida del compartimento el gas pasa a través de dos tubos en U conectados en serie, el primero rotulado \"Absorbente de H2O\" y el segundo \"Absorbente de CO2\"; finalmente sale por la derecha el \"O2 no consumido\"]\n\nSi las masas de H2O y CO2 absorbidas permiten determinar la cantidad de H y C, respectivamente, ¿qué información se debe conocer para determinar la masa de oxígeno presente en la muestra de la sustancia X?",
+      "options": {
+        "a": "La masa de O2 no consumido",
+        "b": "La masa total de los absorbentes",
+        "c": "La masa de O2 que ingresa",
+        "d": "La masa inicial de la muestra"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "Una estudiante de segundo año medio lee en Internet que al mezclar sal de mesa con agua, esta conduce la corriente eléctrica. Para comprobarlo, la estudiante determinó la conductividad eléctrica de soluciones de distinta concentración. Los datos los presentó en la siguiente tabla:\n\n| Número de mediciones | Masa de sal de mesa (g) | Conductividad eléctrica promedio (µS·cm⁻¹) |\n|---|---|---|\n| 6 | 0,049 | 100 |\n| 6 | 0,490 | 1000 |\n| 6 | 5,370 | 10000 |\n| 6 | 10,240 | 18000 |\n\nPosteriormente, la estudiante presentó estos datos a su docente, quien cuestiona la forma en que estos están presentados. En relación con lo anterior, ¿cuál de las siguientes opciones señala correctamente el motivo de dicho cuestionamiento?",
+      "options": {
+        "a": "El número de veces que la estudiante mide la conductividad de la solución es insuficiente para asegurar la confiabilidad del resultado.",
+        "b": "La masa de sal es insuficiente para realizar mediciones y a partir de ello establecer conclusiones.",
+        "c": "La estudiante ha omitido el volumen del agua empleado para preparar las soluciones salinas al momento de reportar sus datos.",
+        "d": "Los resultados presentados por la estudiante incluyen la medida correspondiente al agua pura en lugar de variaciones de mezclas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "Un grupo de estudiantes investigaron experimentalmente, a 25 °C y 1 atm, la solubilidad en agua de tres compuestos y su relación con el tipo de enlace que los componen. Los estudiantes se percataron que la naftalina, a diferencia del amoníaco y del cloruro de sodio, no puede ser disuelta en agua. Los datos obtenidos fueron presentados en la siguiente tabla:\n\n| Compuestos | Enlace | Disolución en agua |\n|---|---|---|\n| Naftalina | Covalente no polar | No |\n| Amoníaco | Covalente polar | Sí |\n| Cloruro de sodio | Iónico | Sí |\n\nLuego de interpretar los datos, el grupo de estudiantes quiere predecir la solubilidad de los compuestos anteriores en los siguientes solventes, bajo las mismas condiciones de temperatura y presión:\n\n| Solvente | Tipo de solvente |\n|---|---|\n| Agua | Polar |\n| Benceno | No polar |\n| Metanol | Polar |\n| Tolueno | No polar |\n| Xileno | No polar |\n\nEn base al análisis de la información entregada, ¿cuál de las siguientes inferencias es correcta?",
+      "options": {
+        "a": "El tolueno puede disolver a la naftalina.",
+        "b": "El metanol puede disolver a la naftalina.",
+        "c": "El benceno puede disolver al amoníaco.",
+        "d": "El xileno puede disolver al cloruro de sodio."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "Un estudiante encuentra en un libro de química, la siguiente tabla que muestra el tiempo necesario para que 0,5 g de magnesio reaccionen completamente con diferentes soluciones de ácido clorhídrico, bajo ciertas condiciones:\n\n| Concentración solución ácido clorhídrico (mol/L) | Temperatura (°C) | Tiempo de reacción (s) |\n|---|---|---|\n| 0,1 | 20 | 80 |\n| 0,1 | 25 | 60 |\n| 0,2 | 30 | 20 |\n| 0,2 | 40 | 10 |\n\nA partir de la información descrita en la tabla, el estudiante quiere determinar el tiempo necesario para que 0,5 g de magnesio reaccionen completamente con una solución de ácido clorhídrico 0,2 mol/L a 25 °C. En relación con el análisis de la tabla, ¿cuál de las siguientes inferencias es correcta?",
+      "options": {
+        "a": "La reacción tardará menos de 10 s en ocurrir.",
+        "b": "La reacción tardará entre 10 s y 20 s en ocurrir.",
+        "c": "La reacción tardará entre 20 s y 60 s en ocurrir.",
+        "d": "La reacción tardará más de 80 s en ocurrir."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Dada la siguiente figura:\n\n[Figura: botella rotulada \"Bebida X\", con etiqueta \"2,3 % m/v etanol\" y \"1000 mL\"]\n\nAl respecto, ¿cuál es la concentración molar de etanol (masa molar = 46 g/mol) contenido en la botella?",
+      "options": {
+        "a": "1,050 mol/L",
+        "b": "0,500 mol/L",
+        "c": "0,250 mol/L",
+        "d": "0,046 mol/L",
+        "e": "0,020 mol/L"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "Un actor debe maquillarse para representar su personaje. Para esto necesita ver su imagen derecha y de mayor tamaño. ¿Qué tipo de espejo debe usar y dónde debe ubicarse?",
+      "options": {
+        "a": "Espejo convexo, ubicándose a una distancia del espejo igual al doble de su distancia focal.",
+        "b": "Espejo cóncavo o convexo, ubicándose a una distancia del espejo igual a su distancia focal.",
+        "c": "Espejo cóncavo, ubicándose a una distancia del espejo igual a su distancia focal.",
+        "d": "Espejo cóncavo, ubicándose entre el espejo y el foco del espejo.",
+        "e": "Espejo plano, ubicándose cerca del espejo."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Un rayo de luz incide desde el aire sobre la superficie del agua quieta de un estanque, formando un ángulo de 60° con la superficie del agua. ¿Cuál de las siguientes figuras representa mejor el comportamiento del rayo de luz?",
+      "options": {
+        "a": "[Diagrama de figura] Rayo incidente a 60° con la superficie, con rayo reflejado y rayo refractado dibujados según la disposición mostrada en la opción A del folleto.",
+        "b": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción B del folleto.",
+        "c": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción C del folleto.",
+        "d": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción D del folleto.",
+        "e": "[Diagrama de figura] Rayo incidente, reflejado y refractado según la disposición mostrada en la opción E del folleto."
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Un grupo de estudiantes dispone de una fuente luminosa que apunta en una posición fija hacia una pantalla a cierta distancia. A la mitad de la distancia entre la fuente luminosa y la pantalla, prueban barreras (una a una) de las mismas dimensiones y material, pero con dos ranuras de diferentes tamaños. Luego, observan que para cada barrera el patrón de interferencia reflejado en la pantalla es distinto.\nEn relación con lo anterior, ¿cuál de las siguientes opciones corresponde a la hipótesis que guio el experimento realizado por el grupo de estudiantes?",
+      "options": {
+        "a": "Las variaciones en el patrón de interferencia dependen de la distancia a la cual se posicionan las barreras con las dos ranuras.",
+        "b": "Las variaciones en el patrón de interferencia dependen de la posición de la fuente luminosa.",
+        "c": "Las variaciones en el patrón de interferencia dependen del tamaño de las ranuras en las barreras.",
+        "d": "Las variaciones en el patrón de interferencia dependen de las características de la pantalla donde este se refleja."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Una persona hace incidir un haz de luz láser verde con un determinado ángulo sobre la superficie del agua contenida en un vaso y mide el ángulo de refracción del haz. Luego, agrega una gota de colorante rojo al agua el cual se dispersa uniformemente y mide nuevamente el ángulo de refracción. A continuación, repite esta medición agregando una gota del mismo colorante cada vez, hasta completar 10 gotas.\nAl respecto, ¿cuál de las siguientes opciones corresponde a un objetivo de investigación pertinente a este procedimiento?",
+      "options": {
+        "a": "Determinar la relación entre el ángulo de incidencia y el ángulo de refracción en el medio.",
+        "b": "Determinar la relación entre el ángulo de incidencia y la cantidad de gotas de colorante.",
+        "c": "Determinar la relación entre el ángulo de refracción y la cantidad de gotas de colorante.",
+        "d": "Determinar la relación entre el ángulo de refracción y el índice de refracción de un medio."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Uno de los dos posibles enfoques para comprender, al menos en parte, la naturaleza de la luz, sostiene que esta corresponde a una onda. Por lo tanto, su comportamiento puede ser explicado por medio de las ondas, en ciertas circunstancias. Al respecto, ¿a qué componente de la investigación científica corresponde este enfoque acerca de la naturaleza de la luz?",
+      "options": {
+        "a": "A una ley",
+        "b": "A un modelo",
+        "c": "A un diseño experimental",
+        "d": "A un problema de investigación"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Al comparar la radiación infrarroja con la ultravioleta, propagándose en un mismo medio, es correcto concluir que",
+      "options": {
+        "a": "ambas poseen distinta frecuencia pero igual longitud de onda.",
+        "b": "ambas poseen la misma frecuencia, dado que son invisibles al ojo humano.",
+        "c": "una es una onda mecánica y la otra electromagnética, porque poseen distinta frecuencia.",
+        "d": "ambas son ondas electromagnéticas, y se mueven con la misma rapidez en el vacío.",
+        "e": "ambas son ondas electromagnéticas y los fotones asociados a cada una de ellas tienen la misma energía."
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "La magnitud de la fuerza elástica ejercida por un resorte ideal sobre un objeto que cuelga de él, en equilibrio, se puede determinar por medio del producto entre",
+      "options": {
+        "a": "la longitud natural del resorte y la constante elástica de este.",
+        "b": "la constante elástica del resorte y el estiramiento de este.",
+        "c": "la constante elástica del resorte y la masa del objeto.",
+        "d": "la masa del objeto y la longitud natural del resorte.",
+        "e": "la masa del objeto y el estiramiento del resorte."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 26,
+      "content": "Una caja se coloca sobre una cinta transportadora de goma que la traslada con rapidez constante, como se representa en la siguiente figura:\n\n[Figura: cinta transportadora inclinada, con dos rodillos, sobre la cual se desplaza una caja hacia arriba con rapidez constante]\n\nAl respecto, ¿cuál de las siguientes fuerzas es la principal causante de que la caja se mueva con la misma rapidez que la cinta transportadora?",
+      "options": {
+        "a": "La fuerza de roce estático",
+        "b": "La fuerza de tensión",
+        "c": "La fuerza elástica",
+        "d": "La fuerza normal"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "G. Galilei planteó que el tiempo que demoran dos cuerpos en caer desde una misma altura es independiente de su masa. Para comprobarlo, alrededor del año 1590, dejó caer dos esferas de diferente masa desde lo alto de la Torre de Pisa. Este experimento ha sido repetido en diferentes épocas y condiciones, siendo uno relevante el realizado por el astronauta D. Scott en la Luna durante la misión Apolo 15 dejando caer una pluma y un martillo. En la actualidad el experimento también se realiza dentro de una cámara de vacío. En relación con lo anterior, ¿cuál ha sido el propósito de realizar el experimento en diversos contextos?",
+      "options": {
+        "a": "Comparar instrumentos de medida con diferente exactitud para medir el tiempo de caída de cuerpos.",
+        "b": "Controlar variables que influyen en el tiempo de caída de cuerpos y que Galileo no pudo manipular.",
+        "c": "Cambiar la forma en que se dejan caer los cuerpos, para garantizar que se suelten simultáneamente.",
+        "d": "Disponer de lugares de mayor altura para dejar caer los cuerpos y así medir con más precisión el tiempo de caída."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Una persona observa que una gota de agua cae en dirección vertical en un día lluvioso sin viento, estimando que se mueve con velocidad constante. Si P⃗ representa el peso de la gota y F⃗R la fuerza de roce que experimenta esta con el aire, ¿cómo debe ser la fuerza neta que actúa sobre la gota para que la estimación de la persona sea correcta?",
+      "options": {
+        "a": "Debe ser nula.",
+        "b": "Debe ser negativa.",
+        "c": "Debe ser menor a P⃗.",
+        "d": "Debe ser mayor a −F⃗R."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Sobre un bloque de 10 kg, que se encuentra sobre un plano horizontal, actúan solo dos fuerzas, una de 15 N hacia la derecha y una de 5 N hacia la izquierda. ¿Cuál es la magnitud de la aceleración que adquiere el bloque?",
+      "options": {
+        "a": "1 m/s²",
+        "b": "2 m/s²",
+        "c": "10 m/s²",
+        "d": "20 m/s²",
+        "e": "100 m/s²"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Una masa de agua de 300 g aumenta su temperatura de 30 °C a 80 °C. Luego, la energía que absorbió en ese proceso se la entrega a una masa de agua de 600 g a 20 °C. Si la masa de agua de 600 g absorbe toda la energía, ¿cuál es su temperatura final?",
+      "options": {
+        "a": "25 °C",
+        "b": "40 °C",
+        "c": "45 °C",
+        "d": "50 °C",
+        "e": "70 °C"
+      },
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "Se quiere comprobar que el cambio de longitud ΔL de un sólido es directamente proporcional al cambio de temperatura ΔT al que se somete y a la longitud inicial de referencia L0. Para esto se propone lo siguiente: tomar cinco varillas, todas de la misma longitud y a una misma temperatura inicial, pero cada una de un material diferente, aumentar la temperatura de las cinco varillas en 20 °C y luego medir los cambios de longitud de cada una de las barras. Para el objetivo propuesto, el experimento es",
+      "options": {
+        "a": "correcto, porque se mide ΔL para varias barras.",
+        "b": "incorrecto, porque está mal elegida la variable independiente.",
+        "c": "correcto, porque todas las varillas tienen la misma longitud inicial.",
+        "d": "incorrecto, porque con el ΔT usado no se detectarán cambios de longitud.",
+        "e": "incorrecto, porque se necesitan más de cinco varillas de materiales diferentes."
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "Se ha descrito que en un cierto país existe una alta actividad sísmica en comparación con otros países. Según los antecedentes, este país presenta una gran cantidad de volcanes y se encuentra cercano al límite de dos placas tectónicas que convergen, produciéndose el hundimiento de una debajo de la otra. En base a lo anterior, ¿cuál de las siguientes opciones representa una inferencia pertinente a la información presentada?",
+      "options": {
+        "a": "La alta actividad sísmica en el país ocurre por la presencia de muchos volcanes.",
+        "b": "La alta actividad sísmica en el país ocurre por un deslizamiento paralelo de una placa sobre la otra.",
+        "c": "La alta actividad sísmica en el país ocurre por una separación de las placas tectónicas.",
+        "d": "La alta actividad sísmica en el país ocurre por los efectos de la subducción de las placas."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "Analizando algunas propiedades físicas del agua, una profesora le solicita a sus estudiantes determinar si el calor específico del agua cambia al disolver café instantáneo en ella. Al respecto, ¿cuál de las siguientes opciones corresponde al procedimiento adecuado para que los estudiantes puedan cumplir con el objetivo planteado?",
+      "options": {
+        "a": "Disolver café instantáneo en agua previamente calentada y medir el tiempo que la mezcla tarda en volver a la temperatura original.",
+        "b": "Calentar agua y agua con café instantáneo disuelto en recipientes separados a una tasa constante y verificar que la evaporación sea la misma en ambos casos.",
+        "c": "Calentar agua y agua con café instantáneo disuelto en recipientes separados a una tasa constante y verificar que ambos alcancen la misma temperatura al ebullir.",
+        "d": "Poner a calentar a una tasa constante, durante un mismo tiempo, iguales cantidades de agua y agua con café instantáneo disuelto, y luego medir el aumento de temperatura en cada caso."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Una estudiante propone que la corriente eléctrica que fluye a través de una resistencia tiene una intensidad que depende del valor de la resistencia y del voltaje al que esta se encuentra sometida. Sus compañeros de curso disponen de distintas resistencias, cuyos valores son todos diferentes entre sí. Si desean determinar experimentalmente de qué manera la intensidad de la corriente eléctrica depende del voltaje, ¿cuál de las siguientes opciones es un procedimiento experimental adecuado para lograr su objetivo?",
+      "options": {
+        "a": "Medir la intensidad de corriente eléctrica de distintas resistencias sometidas a igual voltaje.",
+        "b": "Medir el voltaje de una misma resistencia con distintas intensidades de corriente eléctrica.",
+        "c": "Medir la intensidad de corriente eléctrica de una misma resistencia sometida a distintos voltajes.",
+        "d": "Medir el voltaje de distintas resistencias con una misma intensidad de corriente eléctrica."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "Una reciente investigación sobre accidentes incendiarios en estaciones de autoservicio reveló que en casi todos los casos el origen de estos incendios era producto de cargas eléctricas en las personas al estar en contacto con el vapor que sale de la gasolina justo en el punto donde la pistola carga combustible al vehículo. En un 70 % de los casos las personas, luego de iniciar la carga de combustible, habían entrado y salido nuevamente del vehículo, tocando la pistola de descarga de combustible. En relación a los resultados de esta investigación, ¿cuál es la causa más probable de estos incendios?",
+      "options": {
+        "a": "Las personas, previamente cargadas con la pistola, se descargan al entrar al vehículo, luego al volver a tocar la pistola ocurre una descarga que origina los incendios.",
+        "b": "Las personas, al desplazarse mientras se llena el estanque de combustible, producen carga estática producto de la fricción con el aire.",
+        "c": "Las personas, al entrar y salir del vehículo previamente cargado, adquieren carga estática por contacto.",
+        "d": "Las personas, al entrar y salir del vehículo, friccionan sus ropas con el tapiz de los asientos, cargándose eléctricamente."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "La Ley de Ohm permite determinar la intensidad de corriente que se establece en un circuito a partir del voltaje y de la forma en que están conectadas las resistencias. Si bien en el momento en que se propuso, aún no existía la corriente alterna, al día de hoy se puede establecer una analogía entre circuitos de corriente continua y la conexión domiciliaria. ¿Cuál de las siguientes opciones describe de mejor forma al análogo del circuito hogareño en el cual están enchufados un televisor, una estufa y una ampolleta?",
+      "options": {
+        "a": "Un circuito en serie con resistencias distintas",
+        "b": "Un circuito en paralelo con tres resistencias idénticas",
+        "c": "Un circuito en paralelo con tres resistencias de distinto valor",
+        "d": "Un circuito simple, con una resistencia equivalente a la de los tres artefactos"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "¿Cuál de las siguientes opciones corresponde a una característica común entre las mitocondrias, los cloroplastos y el núcleo de una célula vegetal?",
+      "options": {
+        "a": "Los tres organelos presentan compartimientos membranosos en su interior.",
+        "b": "Los tres organelos presentan estructuras con una monocapa de fosfolípidos.",
+        "c": "Los tres organelos presentan material genético.",
+        "d": "Los tres organelos presentan cadena de transporte de electrones."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 38,
+      "content": "La difusión simple y la difusión mediada por transportadores corresponden a dos tipos de transporte pasivo a través de la membrana celular. El siguiente gráfico representa la cinética de difusión simple y aquella mediada por un transportador, a medida que aumenta el gradiente de concentración del soluto transportado:\n\n[Gráfico: eje X 'Gradiente de concentración (u.a.)', eje Y 'Velocidad de difusión (u.a.)'. Se muestran dos curvas desde el origen: 'Difusión simple' (línea discontinua), una recta que aumenta linealmente sin límite aparente; y 'Mediada por transportador' (línea continua), que aumenta rápidamente al inicio y luego se estabiliza en una meseta (comportamiento saturable) a partir de un cierto gradiente de concentración, donde es superada por la difusión simple]\n\n¿Cuál de las siguientes aseveraciones es coherente con los datos representados en el gráfico?",
+      "options": {
+        "a": "La velocidad de la difusión simple disminuye a medida que la concentración de soluto se incrementa.",
+        "b": "La velocidad de la difusión simple exhibe un comportamiento inversamente proporcional a la concentración del soluto.",
+        "c": "La velocidad de la difusión mediada por un transportador alcanza un máximo, sugiriendo que el transportador es saturable.",
+        "d": "La velocidad de la difusión mediada por un transportador es directamente proporcional al gradiente de concentración del soluto en todo el rango medido."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "En una investigación, un grupo de científicas quería estudiar la relación entre la velocidad de transporte a través de la membrana plasmática y la concentración de una molécula conocida en células del intestino. Al realizar muchos experimentos, las científicas determinaron que la velocidad de transporte de la molécula al interior de las células aumentaba proporcionalmente hasta una determinada concentración, alcanzando una velocidad máxima de 25 u.a. Sobre ese valor de concentración la velocidad de transporte se volvía independiente de la concentración de la molécula transportada. Al respecto, ¿cuál de las siguientes opciones señala la tabla cuyos datos son coherentes con la tendencia obtenida por el grupo de científicas?\n\nCada opción presenta una tabla con columnas 'Velocidad de transporte (u.a.)' y 'Concentración de la molécula (u.a.)':\nA) Velocidad: 5, 10, 15, 20, 25, 30 | Concentración: 2, 4, 6, 8, 10, 12\nB) Velocidad: 5, 10, 15, 20, 25, 25 | Concentración: 2, 4, 6, 8, 10, 12\nC) Velocidad: 5, 10, 15, 15, 15, 15 | Concentración: 2, 4, 6, 8, 10, 12\nD) Velocidad: 5, 10, 15, 20, 25, 25 | Concentración: 2, 4, 6, 8, 10, 10",
+      "options": {
+        "a": "Velocidad de transporte (u.a.): 5, 10, 15, 20, 25, 30 | Concentración de la molécula (u.a.): 2, 4, 6, 8, 10, 12",
+        "b": "Velocidad de transporte (u.a.): 5, 10, 15, 20, 25, 25 | Concentración de la molécula (u.a.): 2, 4, 6, 8, 10, 12",
+        "c": "Velocidad de transporte (u.a.): 5, 10, 15, 15, 15, 15 | Concentración de la molécula (u.a.): 2, 4, 6, 8, 10, 12",
+        "d": "Velocidad de transporte (u.a.): 5, 10, 15, 20, 25, 25 | Concentración de la molécula (u.a.): 2, 4, 6, 8, 10, 10"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "Se investigó el efecto de la concentración del ion sodio (Na+) extracelular en el transporte de un aminoácido y un azúcar en un cultivo de células a 37 °C y pH fisiológico (7,2). Los resultados obtenidos se presentan en el siguiente gráfico:\n\n[Gráfico: eje X 'Concentración de Na+ (mM)' de 0 a 150, eje Y 'Tasa relativa de transporte'. Se muestran dos curvas ascendentes desde el origen: 'Aminoácido' (línea gris, aumenta más rápidamente alcanzando valores altos a menor concentración de Na+) y 'Azúcar' (línea negra, aumenta de forma más gradual, siguiendo un comportamiento similar pero desfasado respecto al aminoácido)]\n\nEn relación con lo anterior, ¿cuál de las siguientes opciones corresponde a la variable dependiente en este experimento?",
+      "options": {
+        "a": "El pH fisiológico",
+        "b": "El tipo de células utilizadas",
+        "c": "La tasa relativa de transporte",
+        "d": "La concentración de Na+ extracelular"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "Un investigador está evaluando el efecto de la adición de cuatro sustancias sobre el oxígeno consumido (O2) y el ATP sintetizado en un cultivo de mitocondrias bajo condiciones ideales de temperatura y pH. Los resultados del estudio se presentan en el siguiente gráfico:\n\n(u.a.): Unidades arbitrarias\n[Gráfico: eje X 'Tiempo (s)'; eje Y izquierdo 'O2 consumido (u.a.)' representado con línea discontinua; eje Y derecho 'ATP sintetizado (u.a.)' representado con línea continua. En el eje temporal se marcan, con flechas, cuatro momentos de adición de sustancias, numerados 1, 2, 3 y 4, en los cuales ambas curvas muestran cambios de pendiente hasta alcanzar mesetas]\n\nConsiderando que no hay un efecto acumulativo ni interacciones entre las sustancias añadidas, ¿cuál de las siguientes opciones señala una conclusión correcta?",
+      "options": {
+        "a": "La adición de la sustancia 4 provoca un aumento de la síntesis de ATP.",
+        "b": "La adición de la sustancia 2 provoca un aumento de la síntesis de ATP.",
+        "c": "La adición de la sustancia 3 provoca una disminución del consumo de O2.",
+        "d": "La adición de la sustancia 1 provoca una disminución del consumo de O2."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "La vasectomía es un procedimiento quirúrgico que consiste en cortar los conductos deferentes, evitando que los espermatozoides lleguen desde el testículo (lugar donde ocurre la espermatogénesis) hasta la próstata. Teniendo en cuenta estos antecedentes, ¿cuál de las siguientes acciones confirmaría inequívocamente el efecto anticonceptivo de la vasectomía?",
+      "options": {
+        "a": "Establecer la reversibilidad de esta intervención quirúrgica.",
+        "b": "Verificar la ausencia de eyaculación después de la vasectomía.",
+        "c": "Complementar el efecto de la vasectomía con un método anticonceptivo hormonal.",
+        "d": "Determinar que posvasectomía hay ausencia de espermatozoides en el semen."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "El gráfico muestra las consultas por infecciones de transmisión sexual (ITS) en el sistema público de salud entre 1999 y 2003, separadas por sexo.\n\n[Gráfico de barras: eje Y 'Número de consultas' (0 a 1600), eje X con categorías 'Candidiasis', 'Gonorrea', 'Herpes', 'Sífilis'; para cada categoría se muestran dos barras, una para 'Hombres' (gris claro) y otra para 'Mujeres' (negro). Valores aproximados leídos del gráfico: Candidiasis: Hombres ≈100, Mujeres ≈625; Gonorrea: Hombres ≈900, Mujeres ≈1525; Herpes: Hombres ≈200, Mujeres ≈190; Sífilis: Hombres ≈750, Mujeres ≈680]\n\n¿Cuál de las siguientes afirmaciones es una conclusión correcta, respecto de los datos presentados en el gráfico?",
+      "options": {
+        "a": "Las ITS por hongos son más frecuentes en los hombres.",
+        "b": "En ambos sexos, las ITS bacterianas son las más consultadas.",
+        "c": "En ambos sexos, la menor cantidad de consultas es por ITS virales.",
+        "d": "Las ITS presentan la misma prevalencia tanto en hombres como en mujeres."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "En la siguiente tabla se presentan los datos de un estudio realizado sobre una muestra de niñas provenientes de un mismo colegio:\n\n| Variables | Con sobrepeso | Sin sobrepeso |\n|---|---|---|\n| Cantidad de niñas participantes | 103 | 105 |\n| Nivel que cursan en el colegio | Séptimo | Séptimo |\n| Edad promedio (años) | 13,5 | 13,5 |\n| Edad promedio primera menstruación (años) | 11,9 | 13,0 |\n\n¿Cuál de las siguientes opciones señala correctamente la pregunta de investigación que pudo haber guiado este estudio?",
+      "options": {
+        "a": "¿Cuál es la relación que existe entre la edad promedio de las niñas y la edad de inicio de la menstruación?",
+        "b": "¿Cuál es la relación que existe entre el nivel que cursan las niñas en el colegio y la edad de inicio de la menstruación?",
+        "c": "¿Cuál es la relación que existe entre el sobrepeso y la edad en la que ocurre la primera menstruación?",
+        "d": "¿Cuál es la relación que existe entre la edad que tienen las niñas y el sobrepeso?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "Durante el período reproductivo en el ovario se forman cíclicamente folículos primarios. Algunos de ellos maduran y se liberan en el momento de la ovulación, pero la mayoría de ellos experimentan un proceso denominado atresia que consiste en la degeneración y reabsorción folicular. Esta atresia explica la notable disminución de folículos desde el nacimiento hasta la menopausia. Según lo anterior, ¿cuál de los siguientes gráficos muestra de manera más adecuada el cambio en el número de folículos primarios a lo largo de la vida de una mujer sana?\n\nCada opción es un gráfico con eje Y 'Número de folículos' y eje X 'Años':",
+      "options": {
+        "a": "Curva decreciente: parte con un número alto de folículos y disminuye continuamente hasta un valor bajo a medida que pasan los años (forma de decaimiento).",
+        "b": "Curva creciente: parte con un número bajo de folículos y aumenta continuamente hasta un valor alto a medida que pasan los años.",
+        "c": "Curva creciente que se estabiliza: el número de folículos aumenta y luego se mantiene constante (meseta) a medida que pasan los años.",
+        "d": "Curva que se mantiene relativamente estable y luego decae abruptamente: el número de folículos permanece casi constante durante un tiempo y luego disminuye bruscamente."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Pablo quiere esclarecer el contenido nutricional de un alimento X. Le plantea esta inquietud a su profesora, quien le suministra los siguientes reactivos para reconocer nutrientes: reactivo de Biuret (que detecta la presencia de enlaces peptídicos) y lugol (que detecta la presencia de almidón).\nAl respecto, ¿cuál de las siguientes opciones podría ser una pregunta de investigación pertinente al propósito de Pablo?",
+      "options": {
+        "a": "¿Cómo se puede detectar la presencia de lípidos en el alimento X con los reactivos disponibles?",
+        "b": "¿Qué protocolo de uso de los reactivos requiere menor tiempo para identificar las biomoléculas presentes en el alimento X?",
+        "c": "¿En qué proporción están presentes los carbohidratos con respecto a las proteínas en el alimento X?",
+        "d": "¿Cuál es la contribución calórica del alimento X al ser digerido por un organismo?"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "¿Cuál de los siguientes eventos ocurre en la profase meiótica I, pero no en la profase mitótica?",
+      "options": {
+        "a": "Desaparición del nucléolo",
+        "b": "Formación del huso acromático",
+        "c": "Desorganización de la carioteca",
+        "d": "Condensación de los cromosomas",
+        "e": "Apareamiento de los cromosomas homólogos"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 48,
+      "content": "Un estudiante se encuentra investigando cómo varía la cantidad de ADN y la dotación cromosómica durante distintas etapas del proceso de división celular, que permite la formación de células reproductivas en los vertebrados, centrando su análisis en la siguiente tabla:\n\n| Etapa | Cantidad de ADN | Dotación cromosómica |\n|---|---|---|\n| Profase I | 4c | 2n |\n| Metafase I | 4c | 2n |\n| Anafase I | 4c | 2n |\n| Telofase I | 4c–2c | 2n–n |\n| Profase II | 2c | n |\n| Metafase II | 2c | n |\n| Anafase II | 2c | 2n |\n| Telofase II | 2c–c | 2n–n |\n\nEn relación con lo anterior, ¿cuál de las siguientes opciones describe correctamente la información científica entregada por esta tabla?",
+      "options": {
+        "a": "Cambios en el material genético en dos divisiones mitóticas sucesivas.",
+        "b": "Cambios en la cantidad total de cromosomas durante la división celular meiótica.",
+        "c": "Variaciones en la cantidad de material genético en distintas etapas de la división celular meiótica.",
+        "d": "Sucesión de etapas características del ciclo celular proliferativo en dos divisiones celulares sucesivas."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "En los años 70, un grupo de científicos logró crear la primera bacteria transgénica capaz de expresar un gen foráneo. Este logro permitió usar bacterias para la producción de proteínas de interés médico como la insulina. En una investigación relacionada con la generación de esta hormona, un grupo de investigadores \"detectó que las bacterias sintetizan el precursor de la insulina pero no lo procesan\", por lo que el producto obtenido era biológicamente inactivo. Al respecto, ¿a cuál de los siguientes componentes de la investigación científica corresponde la frase entre comillas?",
+      "options": {
+        "a": "A una hipótesis",
+        "b": "A una inferencia",
+        "c": "A un resultado",
+        "d": "A un objetivo"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Previo a la meiosis y durante esta, la cantidad de ADN (c) por célula varía entre cada etapa del ciclo celular. El siguiente gráfico representa, en términos generales, la variación en la cantidad de ADN en algunos periodos de la interfase (etapas G1, S-G2) y al término de la meiosis I (MI) y meiosis II (MII):\n\n[Gráfico de barras: eje Y 'ADN por célula (c)' con marcas en 2 y 4; eje X 'Etapas' con barras para G1 (altura 2), S-G2 (altura 4), MI (altura 2), MII (altura 1)]\n\nUtilizando estos antecedentes, un equipo de investigación estudió la meiosis en células testiculares de conejo y contabilizó en la etapa de transición S-G2 un total de 60 picogramos (pg) de ADN nuclear. Al respecto, ¿qué cantidad de ADN debería contabilizar este equipo al término de MII?",
+      "options": {
+        "a": "120,0 pg",
+        "b": "30,0 pg",
+        "c": "15,0 pg",
+        "d": "7,5 pg"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "Utilizando técnicas biotecnológicas es posible modificar genéticamente las plantas de cultivo. Por ejemplo, se les pueden insertar nuevos genes de modo de incorporar rasgos productivos beneficiosos para la cosecha, tales como mayor valor nutricional, mayores rendimientos, mayor resistencia a enfermedades, entre otros. Estos genes insertados pueden ser foráneos (transgénicos) o de una especie relacionada (cisgénicos).\nEn relación con la información anterior, ¿cuál de las siguientes opciones corresponde al modelo biológico de estudio que los científicos utilizan para estas aplicaciones biotecnológicas?",
+      "options": {
+        "a": "El valor nutricional",
+        "b": "Las plantas de cultivo",
+        "c": "La resistencia a enfermedades",
+        "d": "El rendimiento de las cosechas"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "En un modelo de cadena trófica, los organismos que poseen la mayor cantidad de energía disponible para transferir a otros organismos son",
+      "options": {
+        "a": "los productores.",
+        "b": "los consumidores primarios.",
+        "c": "los consumidores secundarios.",
+        "d": "los consumidores terciarios.",
+        "e": "los carroñeros."
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "El gráfico representa la relación entre la productividad primaria neta y la temperatura ambiente en el crecimiento de un bosque joven.\n\n[Gráfico: eje X 'Temperatura ambiente (°C)' de -10 a 50; eje Y 'Productividad primaria neta (u.a.)' de 0 a 300. La curva parte baja en valores negativos de temperatura, se mantiene baja hasta cerca de 0 °C, luego aumenta progresivamente hasta un máximo cercano a 275 alrededor de los 40-42 °C, y después disminuye hacia los 50 °C]\n\nDe acuerdo a la información, ¿cuál de las siguientes opciones es una inferencia correcta?",
+      "options": {
+        "a": "A temperaturas inferiores a los 0 °C, la vegetación estudiada gasta más energía en su metabolismo, por lo que no hay productividad primaria neta.",
+        "b": "A temperaturas superiores a los 40 °C, la vegetación estudiada aumenta la transpiración, aumentando la productividad primaria neta.",
+        "c": "Entre 20 °C y 40 °C, la vegetación estudiada aumenta la tasa fotosintética, elevando la productividad primaria neta.",
+        "d": "A temperaturas superiores a 40 °C, la productividad primaria neta aumenta, ya que la vegetación estudiada incrementa la tasa fotosintética."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "En un experimento con dos plantas (1 y 2) se mide la eficiencia fotosintética a diferentes concentraciones de CO2. Al obtener los resultados, se evidencia que la planta 1 alcanza el máximo de eficiencia fotosintética con la mitad de la concentración de CO2 que requiere la planta 2 para obtener este mismo valor. Además, en la planta 1 y 2 luego de alcanzar la máxima tasa fotosintética, no varía el valor de esta pese a aumentar la concentración del gas. Al respecto, ¿cuál de las siguientes opciones señala correctamente el gráfico que representa de mejor manera los datos obtenidos?\n\nCada opción es un gráfico con eje X 'Concentración de CO2 (u.a.)' (0-100) y eje Y 'Tasa fotosintética (u.a.)', con dos curvas (1 sólida, 2 discontinua):",
+      "options": {
+        "a": "Ambas curvas (1 y 2) alcanzan la misma meseta (misma tasa fotosintética máxima); la curva 1 (sólida) llega a su meseta a una concentración de CO2 menor (cercana a 25) que la curva 2 (discontinua), que llega a la misma meseta a una concentración mayor (cercana a 50).",
+        "b": "Ambas curvas alcanzan la misma meseta; la curva 1 (sólida) llega a su meseta rápidamente (cerca de 25), mientras que la curva 2 (discontinua) llega a la misma meseta mucho más tarde (cerca de 100).",
+        "c": "Las curvas alcanzan mesetas distintas: la curva 2 (discontinua) se estabiliza en un valor más alto que la curva 1 (sólida).",
+        "d": "Las curvas alcanzan mesetas distintas: la curva 1 (sólida) se estabiliza en un valor más alto que la curva 2 (discontinua)."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "Una estudiante investiga el contenido de tres recipientes representados en los siguientes esquemas:\n\n[Figura: tres recipientes representados con esferas unidas en pares (moléculas diatómicas), con esferas de dos colores (gris y blanco) representando distintos tipos de átomos. Recipiente 1: contiene moléculas formadas por combinaciones distintas de esferas grises y blancas (varios tipos de moléculas diferentes, es decir, una mezcla). Recipiente 2: contiene únicamente moléculas de un mismo tipo, formadas por una esfera gris grande y una blanca pequeña, repetidas de manera idéntica (sustancia pura). Recipiente 3: contiene únicamente moléculas de un mismo tipo, formadas por dos esferas grises, repetidas de manera idéntica (sustancia pura)]\n\nAl comparar los recipientes presentados, ¿cuál de las siguientes afirmaciones explica correctamente que solo en el recipiente 1 hay una mezcla?",
+      "options": {
+        "a": "La cantidad de moléculas presentes en el recipiente.",
+        "b": "Los diferentes tipos de átomos presentes en cada molécula.",
+        "c": "La cantidad de uniones por cada molécula presente.",
+        "d": "Los diferentes tipos de moléculas presentes en el recipiente."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "Se prepara una mezcla homogénea con dos compuestos, en estado líquido, para separar sus componentes se propone usar la destilación. Al respecto, ¿cuál de los compuestos destila primero?",
+      "options": {
+        "a": "El que tiene una temperatura de fusión menor.",
+        "b": "El que tiene una mayor densidad.",
+        "c": "El que tiene una temperatura de ebullición menor.",
+        "d": "El que tiene una menor masa."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "En el laboratorio del curso de química general, el profesor entrega a los estudiantes tres pequeños bloques metálicos: uno de berilio, uno de calcio y uno de magnesio, todos metales pertenecientes al grupo 2 (II A) de la tabla periódica. A continuación, los estudiantes miden la longitud de cada lado de los bloques y registran los siguientes datos:\n\n| Metal | Largo (cm) | Alto (cm) | Ancho (cm) |\n|---|---|---|---|\n| Berilio | 1,0 | 2,0 | 2,5 |\n| Magnesio | 2,5 | 1,0 | 2,0 |\n| Calcio | 2,5 | 2,0 | 1,0 |\n\nPosteriormente, el profesor solicita a los estudiantes, que determinen el volumen de cada bloque y midan la masa de cada uno de ellos. Los resultados de las masas se presentan a continuación:\n\n| Metal | Masa (g) |\n|---|---|\n| Berilio | 9,0 |\n| Magnesio | 7,8 |\n| Calcio | 14,0 |\n\nCon respecto al procedimiento descrito, ¿cuál de las siguientes opciones corresponde a un objetivo coherente con esta investigación?",
+      "options": {
+        "a": "Determinar si existe una relación entre la densidad de los elementos estudiados y su posición en la tabla periódica.",
+        "b": "Determinar si existe una relación entre las propiedades de los elementos estudiados y su posición en la tabla periódica.",
+        "c": "Determinar si existe una relación entre el volumen atómico de los elementos estudiados y su posición en la tabla periódica.",
+        "d": "Determinar si existe una relación entre la masa atómica de los elementos estudiados y su posición en la tabla periódica."
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "Un estudiante realiza un estudio sobre el proceso de sublimación del hielo seco que corresponde a dióxido de carbono en estado sólido. Él observa que a temperatura ambiente, alrededor del bloque de hielo seco se forma una nube densa que tiende a bajar y esparcirse. Si se sabe que el dióxido de carbono gaseoso es incoloro y que la temperatura de sublimación del hielo seco es de –78,5 °C, a 1 atm de presión, ¿qué explicación podría dar el estudiante a la formación de esta nube?",
+      "options": {
+        "a": "Se debe a que el vapor de agua del ambiente está pasando a estado líquido debido al intenso frío.",
+        "b": "Se debe a que el dióxido de carbono está pasando desde el estado sólido al estado líquido.",
+        "c": "Se debe a que el agua del ambiente está pasando a estado gaseoso debido al intenso frío.",
+        "d": "Se debe a que el dióxido de carbono está pasando desde el estado sólido al estado gaseoso."
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "¿Cuál de las siguientes relaciones entre Z y número de electrones (e), corresponde a un anión? (Z = número atómico, e = número de electrones)",
+      "options": {
+        "a": "Z = 7 | e = 4",
+        "b": "Z = 9 | e = 10",
+        "c": "Z = 8 | e = 8",
+        "d": "Z = 11 | e = 10"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Los elementos químicos, según su ubicación en la tabla periódica, presentan características que los identifican. ¿Qué opción contiene la correspondencia correcta entre grupo y característica?",
+      "options": {
+        "a": "Grupo 16 (VI A) | No metal",
+        "b": "Grupo 18 (VIII A) | Metal",
+        "c": "Grupo 17 (VII A) | Metal",
+        "d": "Grupo 2 (II A) | No metal"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "Una profesora presenta a un curso los siguientes esquemas que representan a dos átomos neutros X e Y.\n\n[Figura: esquema de átomo X con núcleo de 3 protones y 4 neutrones (3 p, 4 n) y electrones distribuidos en dos niveles de energía (2 electrones en el primer nivel y 1 electrón en el segundo nivel); esquema de átomo Y con núcleo de 9 protones y 10 neutrones (9 p, 10 n) y electrones distribuidos en dos niveles de energía (2 electrones en el primer nivel y 7 electrones en el segundo nivel)]\n\nLuego, pregunta cuál es la fórmula que tendrá el compuesto formado producto de la unión entre estos dos átomos.\nAl respecto, ¿cuál de las siguientes opciones muestra la respuesta correcta, esperada por la profesora?",
+      "options": {
+        "a": "XY",
+        "b": "XY3",
+        "c": "X2Y",
+        "d": "X3Y"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "De acuerdo con el siguiente esquema basado en la tabla periódica:\n\n[Figura: esquema simplificado de la tabla periódica, sin nombres de elementos, donde se marcan cuatro posiciones: X se ubica en el extremo superior izquierdo (primera columna); Z y R se ubican en una fila más abajo hacia el extremo derecho del esquema (Z antes que R, ambas en las últimas columnas de la derecha); Q se ubica en una fila inferior, en una columna cercana al centro-izquierda del esquema]\n\n¿Cuál de los elementos representados en el esquema es el más electronegativo?",
+      "options": {
+        "a": "X",
+        "b": "Q",
+        "c": "Z",
+        "d": "R"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "En la siguiente figura se muestra la fórmula estructural del mirceno:\n\n[Figura: fórmula estructural (esqueleto) del mirceno, correspondiente a 7-metil-3-metilen-1,6-octadieno: CH2=C(CH3)–CH=CH–CH2–CH2–C(=CH2)–CH=CH2, representado en notación de líneas con dos grupos metilo y tres dobles enlaces carbono-carbono]\n\nAl respecto, ¿cuántos enlaces carbono-carbono con hibridación sp³–sp² presenta la molécula de mirceno?",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6",
+        "e": "8"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 64,
+      "content": "En una clase de química se presenta la siguiente molécula, correspondiente a un medicamento antiinflamatorio:\n\n[Figura: estructura del naproxeno, un sistema de anillos naftalénico con un grupo metoxi (H3C–O–) en un extremo del anillo y, en el otro extremo, un carbono unido a un grupo metilo (H3C–) y a un grupo ácido carboxílico (–C(=O)–OH), es decir CH(CH3)–COOH]\n\nAl respecto, ¿cuál es la fórmula molecular del medicamento?",
+      "options": {
+        "a": "C12H8O3",
+        "b": "C12H14O3",
+        "c": "C14H10O3",
+        "d": "C14H14O3"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "Computacionalmente se ha generado el siguiente modelo tridimensional de una molécula orgánica.\n\n[Figura: modelo tridimensional de esferas y varillas (space-filling) de una molécula orgánica, con átomos de carbono (gris), oxígeno (negro) e hidrógeno, formando un anillo unido a un grupo funcional con dos átomos de oxígeno]\n\n¿Cuál de las siguientes estructuras corresponde a la molécula del modelo?",
+      "options": {
+        "a": "Estructura de un ácido carboxílico: anillo de ciclohexano (saturado, sin dobles enlaces en el anillo) unido a un grupo –C(=O)–O–H.",
+        "b": "Estructura de un ácido carboxílico aromático (ácido benzoico): anillo bencénico (aromático, con dobles enlaces alternados) unido a un grupo –C(=O)–O–H.",
+        "c": "Estructura de un aldehído: anillo con un doble enlace (tipo ciclohexadieno) unido a un grupo –CHO, con el oxígeno hacia arriba a la izquierda y el H a la derecha.",
+        "d": "Estructura de un aldehído: anillo con un doble enlace (tipo ciclohexadieno) unido a un grupo –CHO, con el H hacia la izquierda y el oxígeno hacia arriba a la derecha (misma fórmula que la opción C, orientación distinta)."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Una docente de química presenta a sus estudiantes la siguiente estructura de una molécula orgánica:\n\n[Figura: fórmula estructural (esqueleto) de HO–CH2–CH2–CH2–C(=O)–OH, correspondiente al ácido 4-hidroxibutanoico, representada en notación de líneas con un grupo hidroxilo en un extremo y un grupo ácido carboxílico en el otro]\n\nPosteriormente, les pide que escriban en sus cuadernos esta estructura con otra fórmula química. Al respecto, ¿cuál de las siguientes opciones corresponde a la representación de la fórmula semidesarrollada de dicha molécula?",
+      "options": {
+        "a": "CH2OH–CH2–CH2–COOH",
+        "b": "CH3O–CH2–CH2–O–CHO",
+        "c": "CH2OH–CH2–CH2O–CH2OH",
+        "d": "CH3O–CH2–CH2–CH2OH"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "De acuerdo con su estructura, los alcoholes se pueden clasificar como primarios, secundarios o terciarios. Al respecto, ¿cuál opción clasifica correctamente los siguientes alcoholes?\n\n(clasificación para CH3CH2CH2OH y para CH3CHOHCH3, respectivamente)",
+      "options": {
+        "a": "CH3CH2CH2OH: Primario | CH3CHOHCH3: Primario",
+        "b": "CH3CH2CH2OH: Primario | CH3CHOHCH3: Secundario",
+        "c": "CH3CH2CH2OH: Primario | CH3CHOHCH3: Terciario",
+        "d": "CH3CH2CH2OH: Secundario | CH3CHOHCH3: Secundario",
+        "e": "CH3CH2CH2OH: Secundario | CH3CHOHCH3: Terciario"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "En la siguiente tabla se muestran las temperaturas de ebullición, a 1 atm de presión, de diferentes compuestos orgánicos monohalogenados en donde Y puede corresponder a F, Cl, Br o I:\n\n| Compuesto | F | Cl | Br | I |\n|---|---|---|---|---|\n| CH3–Y | –78,4 °C | –24,2 °C | 3,6 °C | 42,4 °C |\n| CH3–CH2–Y | –37,7 °C | 12,3 °C | 38,4 °C | 72,3 °C |\n| CH3–CH2–CH2–Y | –2,5 °C | 46,6 °C | 71,0 °C | 102,5 °C |\n| CH3–CH2–CH2–CH2–Y | 32,5 °C | 78,4 °C | 101,6 °C | 130,5 °C |\n\nEn base a estos datos, si se tienen dos compuestos orgánicos monohalogenados, los cuales presentan una temperatura de ebullición de 107,8 °C y 129,6 °C, ¿cuál de las siguientes opciones corresponde a la probable fórmula estructural para estos compuestos respectivamente?",
+      "options": {
+        "a": "CH3–CH2–CH2–CH2–CH2F y CH3–CH2–CH2–CH2–CH2Cl",
+        "b": "CH3–CH2–CH2–CH2–CH2F y CH3–CH2–CH2–CH2–CH2Br",
+        "c": "CH3–CH2–CH2–CH2–CH2F y CH3–CH2–CH2–CH2–CH2I",
+        "d": "CH3–CH2–CH2–CH2–CH2Cl y CH3–CH2–CH2–CH2–CH2Br",
+        "e": "CH3–CH2–CH2–CH2–CH2Cl y CH3–CH2–CH2–CH2–CH2I"
+      },
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Un docente dibuja la siguiente estructura en la pizarra para ser nombrada por los estudiantes del curso:\n\n[Figura: fórmula estructural (esqueleto/semidesarrollada) CH3–CH2–C(=CH2)–CH2–CH(CH3)–CH3, es decir una cadena principal con un doble enlace exocíclico (=CH2) en el tercer carbono y un grupo metilo ramificado en el quinto carbono]\n\nSiguiendo las reglas de nomenclatura para nombrar un compuesto orgánico, ¿cuál es el nombre correcto que deberían dar los estudiantes?",
+      "options": {
+        "a": "5-metil-3-hexeno",
+        "b": "2-metil-4-hexeno",
+        "c": "2-etil-4-metil-1-penteno",
+        "d": "2-metil-4-etil-4-penteno"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "El etanol es degradado, secuencialmente, en el cuerpo humano a etanal y luego a ácido etanoico por acción de dos enzimas. ¿Cuál es la representación de este proceso utilizando las respectivas fórmulas?",
+      "options": {
+        "a": "CH3CH2OH → CH3CHO → CH3COOH",
+        "b": "CH3COOH → CH3CHO → CH3CH2OH",
+        "c": "CH3CHO → CH3CH2OH → CH3COOH",
+        "d": "CH3CH2OH → CH3COOH → CH3CH2OH"
+      },
+      "correct_answer": "a",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "Un grupo de estudiantes recolecta seis frascos de vidrio graduados, de diferentes volúmenes y seis velas del mismo tamaño, formando seis sistemas de experimentación. En cada uno de ellos, de manera simultánea, encienden la vela e inmediatamente cubren con el frasco invertido. Posteriormente, se mide el tiempo que tarda en apagarse la vela en cada sistema.\n¿Cuál de las siguientes opciones identifica el objetivo del experimento?",
+      "options": {
+        "a": "Determinar el calor liberado mientras la vela está encendida.",
+        "b": "Determinar la relación entre el tiempo que dura la combustión de la vela y el volumen del frasco.",
+        "c": "Determinar la relación entre el tipo de vidrio del frasco utilizado y el tiempo que dura la vela encendida.",
+        "d": "Determinar la relación entre el tamaño máximo de la llama y el tiempo que demora en apagarse."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "¿Cuántos átomos de carbono hay en 52 g de C2H2?",
+      "options": {
+        "a": "6,02×10²³ átomos",
+        "b": "12,04×10²³ átomos",
+        "c": "18,06×10²³ átomos",
+        "d": "20,80×10²³ átomos",
+        "e": "24,08×10²³ átomos"
+      },
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "Entre los componentes de la atmósfera de Marte, se sabe que está constituida principalmente por CO2 (masa molar = 44 g/mol), y que existe menos de 1 % de O2. En este contexto, los científicos han diseñado un dispositivo para sintetizar O2 directamente a partir del CO2 en dicho planeta. El dispositivo consiste en un tubo de tungsteno que en su interior contiene superóxido de potasio (KO2, masa molar = 71 g/mol), el cual reacciona con el CO2 de acuerdo a la siguiente ecuación:\n\n4 KO2 (s) + 2 CO2 (g) → 2 K2CO3 (s) + 3 O2 (g)\n\nEl dispositivo está diseñado de manera que a través de este pase un flujo de 44 g de CO2 por cada hora y será utilizado en un período de 5 horas. ¿Qué masa de O2 se obtendrá, transcurridas 5 horas, si en el interior del tubo se han agregado 8 mol de superóxido de potasio?",
+      "options": {
+        "a": "68 g",
+        "b": "372 g",
+        "c": "120 g",
+        "d": "192 g"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "Un estudiante, en la clase de química, desea determinar el porcentaje de silicio (Si) presente en una muestra de óxido de silicio (SiO2). ¿Cuál de las siguientes opciones corresponde al porcentaje de silicio que el estudiante debiese obtener tras sus cálculos?",
+      "options": {
+        "a": "60,0 %",
+        "b": "21,4 %",
+        "c": "16,8 %",
+        "d": "46,6 %"
+      },
+      "correct_answer": "d",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "Una muestra de 6 g de un hidrocarburo contiene un 80 % de carbono y un 20 % de hidrógeno. Si se sabe que tiene una masa molar de 30 g/mol. ¿Cuál es su fórmula empírica y su fórmula molecular?",
+      "options": {
+        "a": "Fórmula empírica: CH4 | Fórmula molecular: C2H8",
+        "b": "Fórmula empírica: C2H8 | Fórmula molecular: CH4",
+        "c": "Fórmula empírica: CH3 | Fórmula molecular: C2H6",
+        "d": "Fórmula empírica: C2H6 | Fórmula molecular: CH3"
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "Se tiene 100 mL de una solución acuosa que contiene 2,0 g de NaOH (1). A continuación, se ejecutan los procedimientos descritos en el esquema, originando las soluciones (2), (3) y (4), respectivamente:\n\n[Figura: esquema de procedimiento. La solución (1) de 100 mL se separa en dos partes iguales de 50 mL cada una (una de ellas queda como remanente, la otra continúa el proceso). A la parte de 50 mL restante, llamada (2), se le realiza una adición de 1,0 g de NaOH, obteniendo la solución (3) de 50 mL. Luego, a la solución (3) se le completa con agua hasta 100 mL de solución, obteniendo la solución (4) de 100 mL]\n\nDe acuerdo a la información entregada, ¿cuál de las opciones contiene información correcta acerca de la concentración, en mol/L, de las soluciones?",
+      "options": {
+        "a": "La solución (2) tiene la mitad de la concentración que tiene la solución (1).",
+        "b": "La solución (4) tiene la misma concentración que la solución (1).",
+        "c": "La solución (3) tiene la misma concentración que la solución (1).",
+        "d": "La solución (2) tiene la mitad de la concentración que tiene la solución (4)."
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": true
+    },
+    {
+      "numero": 77,
+      "content": "La concentración de sacarosa presente en una solución puede determinarse al medir el cambio de dirección que experimenta un rayo láser al pasar a través de ella. Al hacer incidir el rayo sobre soluciones con diferentes cantidades de sacarosa se observan distintos desplazamientos de este, que pueden ser proyectados sobre una pizarra, tal como se muestra en la figura. En la tabla se presentan los valores de desplazamiento, relativos al agua destilada, en función de la concentración de sacarosa.\n\n[Figura: esquema de un experimento con un matraz que contiene la solución, un láser que atraviesa el matraz y proyecta el rayo sobre una pizarra, mostrando desplazamientos crecientes para 'Agua destilada', 'Solución 1', 'Solución 2', 'Solución 3' y 'Solución 4']\n\n| Concentración sacarosa (% m/v) | Desplazamiento (cm) |\n|---|---|\n| 0,0 | 0,0 |\n| 10,0 | 4,0 |\n| 20,0 | 8,0 |\n| 30,0 | 12,0 |\n| 40,0 | 16,0 |\n\nUtilizando el diseño experimental descrito anteriormente, se analiza la concentración de sacarosa, en solución acuosa, presente en dos muestras (1 y 2) desconocidas, registrando desplazamientos de 6,0 y 14,0 cm, respectivamente. A partir de esta información, ¿cuál es la concentración de sacarosa presente en cada muestra desconocida?",
+      "options": {
+        "a": "Concentración muestra 1: 6,0 % m/v | Concentración muestra 2: 14,0 % m/v",
+        "b": "Concentración muestra 1: 15,0 % m/v | Concentración muestra 2: 35,0 % m/v",
+        "c": "Concentración muestra 1: 12,0 % m/v | Concentración muestra 2: 28,0 % m/v",
+        "d": "Concentración muestra 1: 33,3 % m/v | Concentración muestra 2: 66,6 % m/v"
+      },
+      "correct_answer": "b",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "¿Cuál es la masa de soluto que se encuentra disuelto en 30,00 g de una solución al 5 % m/m?",
+      "options": {
+        "a": "1,25 g",
+        "b": "1,50 g",
+        "c": "2,50 g",
+        "d": "15,00 g",
+        "e": "25,00 g"
+      },
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "¿Cuál es la concentración masa/volumen de una solución que se forma al disolver 20 mL de soluto (densidad = 0,75 g/mL) en suficiente agua pura hasta completar 200 mL de solución?",
+      "options": {
+        "a": "7,5 %",
+        "b": "10,0 %",
+        "c": "15,0 %",
+        "d": "20,0 %",
+        "e": "30,0 %"
+      },
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "En el siguiente gráfico se compara la solubilidad de un sólido X con un gas Z en un determinado rango de temperatura.\n\n[Gráfico: eje X 'Temperatura (°C)', eje Y 'Solubilidad (g/100 g de H2O)'. Se muestran dos curvas que se cruzan: 'Sólido X', que parte con solubilidad baja a bajas temperaturas y aumenta progresivamente con la temperatura; y 'Gas Z', que parte con solubilidad alta a bajas temperaturas y disminuye progresivamente al aumentar la temperatura. Ambas curvas se cruzan en un punto intermedio del rango de temperatura]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta al relacionar ambas curvas?",
+      "options": {
+        "a": "A altas temperaturas, el gas Z es más soluble que el sólido X.",
+        "b": "A cualquier temperatura, el sólido X presenta mayor solubilidad que el gas Z.",
+        "c": "A altas temperaturas, el sólido X presenta mayor solubilidad que el gas Z.",
+        "d": "La solubilidad del gas Z disminuye en forma directamente proporcional con el incremento de la temperatura."
+      },
+      "correct_answer": "c",
+      "n_opciones": 4,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}

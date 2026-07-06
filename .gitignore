@@ -39,3 +39,8 @@ pruebas/*.json
 .temp
 .vercel
 .mcp.json
+
+# rebuild ciencias (local, no commitear)
+.env.rebuild
+.venv-rebuild/
+scripts/output/rebuild/images/

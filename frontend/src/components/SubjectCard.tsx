@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BookOpen, Calculator, Clock, FlaskConical } from 'lucide-react';
+import { BookOpen, Calculator, Clock, FlaskConical, Atom, Leaf } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import type { Subject } from '../types';
@@ -89,6 +89,54 @@ const subjectConfig: Record<Subject, {
     textColor: 'text-emerald-900 dark:text-emerald-100',
     descColor: 'text-emerald-700 dark:text-emerald-300',
   },
+  CF: {
+    name: 'Física',
+    description: 'Mecánica, ondas y electricidad',
+    icon: Atom,
+    bgColor: 'bg-cyan-100 dark:bg-cyan-600/30',
+    bgHover: 'hover:bg-cyan-200 dark:hover:bg-cyan-600/40',
+    borderColor: 'border-cyan-300 dark:border-cyan-500/50 hover:border-cyan-400 dark:hover:border-cyan-400/70',
+    iconBg: 'bg-cyan-200 group-hover:bg-cyan-300 dark:bg-cyan-500/40 dark:group-hover:bg-cyan-500/40',
+    iconColor: 'text-cyan-700 dark:text-cyan-300',
+    badgeBg: 'bg-cyan-200/80 group-hover:bg-cyan-300/80 dark:bg-cyan-500/40 dark:group-hover:bg-cyan-500/40',
+    badgeText: 'text-cyan-800 dark:text-cyan-200',
+    progressBg: 'bg-cyan-200 group-hover:bg-cyan-300 dark:bg-cyan-500/30 dark:group-hover:bg-cyan-500/30',
+    progressBar: 'bg-cyan-600 dark:bg-cyan-400',
+    textColor: 'text-cyan-900 dark:text-cyan-100',
+    descColor: 'text-cyan-700 dark:text-cyan-300',
+  },
+  CQ: {
+    name: 'Química',
+    description: 'Reacciones, estequiometría y orgánica',
+    icon: FlaskConical,
+    bgColor: 'bg-purple-100 dark:bg-purple-600/30',
+    bgHover: 'hover:bg-purple-200 dark:hover:bg-purple-600/40',
+    borderColor: 'border-purple-300 dark:border-purple-500/50 hover:border-purple-400 dark:hover:border-purple-400/70',
+    iconBg: 'bg-purple-200 group-hover:bg-purple-300 dark:bg-purple-500/40 dark:group-hover:bg-purple-500/40',
+    iconColor: 'text-purple-700 dark:text-purple-300',
+    badgeBg: 'bg-purple-200/80 group-hover:bg-purple-300/80 dark:bg-purple-500/40 dark:group-hover:bg-purple-500/40',
+    badgeText: 'text-purple-800 dark:text-purple-200',
+    progressBg: 'bg-purple-200 group-hover:bg-purple-300 dark:bg-purple-500/30 dark:group-hover:bg-purple-500/30',
+    progressBar: 'bg-purple-600 dark:bg-purple-400',
+    textColor: 'text-purple-900 dark:text-purple-100',
+    descColor: 'text-purple-700 dark:text-purple-300',
+  },
+  CB: {
+    name: 'Biología',
+    description: 'Célula, genética, evolución y ecología',
+    icon: Leaf,
+    bgColor: 'bg-green-100 dark:bg-green-600/30',
+    bgHover: 'hover:bg-green-200 dark:hover:bg-green-600/40',
+    borderColor: 'border-green-300 dark:border-green-500/50 hover:border-green-400 dark:hover:border-green-400/70',
+    iconBg: 'bg-green-200 group-hover:bg-green-300 dark:bg-green-500/40 dark:group-hover:bg-green-500/40',
+    iconColor: 'text-green-700 dark:text-green-300',
+    badgeBg: 'bg-green-200/80 group-hover:bg-green-300/80 dark:bg-green-500/40 dark:group-hover:bg-green-500/40',
+    badgeText: 'text-green-800 dark:text-green-200',
+    progressBg: 'bg-green-200 group-hover:bg-green-300 dark:bg-green-500/30 dark:group-hover:bg-green-500/30',
+    progressBar: 'bg-green-600 dark:bg-green-400',
+    textColor: 'text-green-900 dark:text-green-100',
+    descColor: 'text-green-700 dark:text-green-300',
+  },
   H: {
     name: 'Historia',
     description: 'Historia y ciencias sociales',
@@ -118,7 +166,8 @@ export function SubjectCard({ subject, onSelect }: SubjectCardProps) {
     const fetchQuestionCount = async () => {
       let query = supabase
         .from('questions')
-        .select('*', { count: 'exact', head: true });
+        .select('*', { count: 'exact', head: true })
+        .eq('active', true);
 
       if (subject === 'C') {
         query = query.in('subject', ['C', 'CF', 'CQ', 'CB']);

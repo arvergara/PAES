@@ -1,0 +1,815 @@
+{
+  "meta": {
+    "subject": "CB",
+    "subject_nombre": "Ciencias - Biología",
+    "origen": "PAES Ciencias - Biología Admision 2021-1",
+    "anio": 2021,
+    "forma": 151,
+    "total_preguntas": 80,
+    "preguntas_piloto_no_puntuan": [],
+    "fuente_pdf": "pruebas/oficiales/C-biologia-2021-1.pdf",
+    "fuente_clave": "pruebas/clavijeros/clavijero-C-biologia-2021-1.pdf"
+  },
+  "preguntas": [
+    {
+      "numero": 1,
+      "content": "La tabla describe tres tipos celulares en función de dos criterios de clasificación.\n\n| Criterio | Procarionte | Vegetal | Animal |\n|---|---|---|---|\n| Límite externo | Pared celular | S | Membrana plasmática |\n| Zona donde se encuentra el ADN | R | Núcleo | T |\n\nDe acuerdo con los datos anteriores, ¿a qué estructuras celulares corresponden R, S y T, respectivamente?",
+      "options": {"a": "Núcleo – Pared celular – Núcleo", "b": "Nucleoide – Pared celular – Núcleo", "c": "Núcleo – Pared celular – Nucleoide", "d": "Núcleo – Membrana celular – Núcleo", "e": "Nucleoide – Membrana celular – Nucleoide"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 2,
+      "content": "J. Gurdon realizó el siguiente experimento: perforó la membrana de una célula intestinal de una rana adulta albina y extrajo su núcleo (núcleo donante). Destruyó el núcleo de un ovocito de rana manchada e introdujo el núcleo donante en el ovocito receptor enucleado. Una vez incubado, \"ese huevo híbrido se desarrolló, originando un renacuajo y, tras el proceso de metamorfosis, se obtuvo una rana adulta normal y albina\".\n\nEn el párrafo anterior, ¿a cuál de las siguientes opciones se asocia la oración entre comillas?",
+      "options": {"a": "Un procedimiento experimental", "b": "Una hipótesis de trabajo", "c": "Una conclusión", "d": "Un resultado", "e": "Una teoría"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 3,
+      "content": "Con respecto a la difusión simple y a la difusión facilitada, es correcto afirmar que en ambos tipos de transporte",
+      "options": {"a": "las sustancias movilizadas presentan alta masa molecular.", "b": "se requiere de la hidrólisis de ATP como fuente de energía.", "c": "las sustancias movilizadas atraviesan por la bicapa de fosfolípidos.", "d": "se requiere de proteínas transportadoras presentes en la membrana.", "e": "el movimiento neto de sustancias ocurre a favor del gradiente de concentración."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 4,
+      "content": "¿Cuál de las siguientes hormonas atraviesa la membrana plasmática, para unirse a receptores intracelulares?",
+      "options": {"a": "LH", "b": "Insulina", "c": "Glucagón", "d": "Adrenalina", "e": "Testosterona"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 5,
+      "content": "A diferencia de los hidratos de carbono, las proteínas",
+      "options": {"a": "presentan C, H y O.", "b": "forman parte de la membrana celular.", "c": "poseen enlaces covalentes en su estructura.", "d": "pueden catalizar reacciones químicas.", "e": "proporcionan energía al ser metabolizadas."},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 6,
+      "content": "Una mujer sana desea usar un método anticonceptivo que, además, contribuya a disminuir el sangrado menstrual. ¿Cuál de los siguientes métodos debiese elegir?",
+      "options": {"a": "Diafragma", "b": "T de cobre", "c": "Progestina inyectable", "d": "Ligadura de oviductos", "e": "Jalea espermicida"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 7,
+      "content": "Los científicos aún no comprenden del todo por qué la obesidad está relacionada con un mayor riesgo de padecer diabetes tipo 2, aunque \"múltiples estudios experimentales realizados en ratones han demostrado que los adipocitos (células del tejido graso) secretan una hormona llamada resistina, y que los niveles de esta hormona se encuentran anormalmente elevados en los ratones obesos\".\n\n¿A cuál de las siguientes opciones se asocia la oración entre comillas?",
+      "options": {"a": "A la postulación de una teoría.", "b": "A la presentación de resultados.", "c": "Al planteamiento de una hipótesis.", "d": "A la formulación de una pregunta de investigación.", "e": "A la descripción de un procedimiento experimental."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 8,
+      "content": "Las siguientes representaciones corresponden a algunas de las fases (1, 2 y 3) en el desarrollo de un cáncer por mitosis descontrolada.\n\n[Figura: tres diagramas de racimos de células etiquetados 1, 2 y 3, que muestran distintos grados de proliferación celular y separación de células]\n\nAl respecto, ¿cuál de las siguientes opciones indica la secuencia correcta de las fases de desarrollo de un cáncer?",
+      "options": {"a": "1 – 2 – 3", "b": "3 – 2 – 1", "c": "2 – 1 – 3", "d": "3 – 1 – 2", "e": "2 – 3 – 1"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 9,
+      "content": "¿Cuál de las siguientes opciones corresponde a una utilidad de un cariotipo humano?",
+      "options": {"a": "Establecer el parentesco entre dos individuos de una misma familia.", "b": "Mostrar la secuencia de ADN de un organismo.", "c": "Detectar anomalías en el número de cromosomas.", "d": "Conocer el grado de condensación del material genético.", "e": "Visualizar genes mutados."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 10,
+      "content": "Estudiando la proporción de machos y hembras en una población de abejas silvestres, se identifica un individuo ginandromorfo bilateral, esto quiere decir que una mitad de su cuerpo tiene el fenotipo hembra y la otra mitad el fenotipo macho. En las abejas la determinación sexual es haplodiploide, donde los machos se originan desde huevos no fecundados que resultan de la meiosis en las madres y las hembras por cigotos formados por la fecundación de los gametos. Al verificar el número cromosómico de células provenientes desde el lado derecho e izquierdo del ginandromorfo, resulta que las células del lado masculino presentan solo una copia de cromosomas y las del lado femenino presentan 3 copias de cromosomas.\n\nEn relación con los resultados presentados anteriormente, ¿cuál de las siguientes conclusiones es correcta?",
+      "options": {"a": "El origen de esta alteración está en las cópulas múltiples, dada la inusual proporción de sexos en la población.", "b": "Dado que los cromosomas del lado masculino están en número normal, entonces la alteración se originó en los gametos de la madre del ginandromorfo.", "c": "Dada la constitución cromosómica de ambos lados, la alteración debió ocurrir al inicio del desarrollo, en la primera división del embrión.", "d": "Dada la condición bilateral del ginandromorfo su origen estuvo en la fusión de dos huevos normales, uno fecundado y el otro no fecundado, originando las mitades haploide y diploide que determinan los sexos.", "e": "El origen de esta condición está en las posibles mutaciones sobre una pequeña sección del ADN de los gametos de la madre del ginandromorfo."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 11,
+      "content": "El siguiente diagrama muestra el cruzamiento que realizó el investigador Thomas Hunt Morgan en la mosca de la fruta (Drosophila melanogaster), respecto del carácter color de ojos.\n\nP: Macho ojos blancos x Hembra ojos rojos\nF1: 100% Machos y Hembras ojos rojos\nF2: 50% Machos y 100% Hembras ojos rojos; 50% Machos ojos blancos\n\nA partir del cruzamiento, es correcto inferir que",
+      "options": {"a": "la hembra progenitora es heterocigota y el macho progenitor es homocigoto dominante.", "b": "el gen para el color de los ojos está localizado en el cromosoma X.", "c": "estos resultados contradicen la primera ley de Mendel.", "d": "todas las hembras de la F1 son homocigotas.", "e": "todas las hembras de la F2 presentan un alelo dominante y el otro recesivo."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 12,
+      "content": "¿Cuál de los siguientes hechos corresponde a un factor biótico que puede afectar la distribución y el tamaño de una comunidad?",
+      "options": {"a": "Un alud", "b": "Un incendio", "c": "Una erupción", "d": "Una inundación", "e": "Un sobrepastoreo"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 13,
+      "content": "¿Qué tipo de molécula, generada a partir de un producto del ciclo de Calvin, permite a los organismos productores sintetizar moléculas más complejas como proteínas, polisacáridos, ADN y ARN?",
+      "options": {"a": "Un aminoácido", "b": "Un nucleótido", "c": "La clorofila", "d": "La glucosa", "e": "El oxígeno"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 14,
+      "content": "De manera general, ¿cuál de los siguientes gráficos representa correctamente la variación de la tasa fotosintética en función de la concentración de CO₂ ambiental?\n\n[Figura: cinco gráficos (A-E) de Tasa fotosintética (u.a.) en el eje Y versus Concentración de CO₂ (u.a.) en el eje X, cada uno con una curva de forma distinta: A) decreciente cóncava hacia arriba; B) creciente que se satura (curva de saturación); C) constante (línea horizontal); D) decreciente lineal; E) sigmoidea creciente]",
+      "options": {"a": "Curva A: decreciente, cóncava hacia arriba", "b": "Curva B: creciente que se satura", "c": "Curva C: constante (línea horizontal)", "d": "Curva D: decreciente lineal", "e": "Curva E: sigmoidea creciente"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 15,
+      "content": "El gasto energético diario de un individuo de una especie X es de 100 u.a. Cuando dos individuos de esta especie interactúan, cada uno gasta 200 u.a. ¿Cuál de las siguientes interacciones biológicas explicaría esta diferencia de gasto energético?",
+      "options": {"a": "Comensalismo", "b": "Parasitismo", "c": "Mutualismo", "d": "Competencia", "e": "Amensalismo"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 16,
+      "content": "En un ecosistema marino, se investigó la relación establecida entre las especies Oculina arbuscula (un tipo de coral) y Mitras forceps (un cangrejo herbívoro). Los gráficos siguientes muestran los resultados de esta investigación:\n\n[Figura: gráfico de barras 1 - Número de cangrejos depredados (eje Y, 0 a 20) para dos grupos: Cangrejos con acceso al coral (~10) y Cangrejos sin acceso al coral (~18). Gráfico de barras 2 - Mortalidad del coral (%) (eje Y, 0 a 80) para dos grupos: Coral sin cangrejos (~72%) y Coral con cangrejos (~22%)]\n\nA partir de los datos anteriores, es correcto inferir que la relación estudiada es",
+      "options": {"a": "indiferente para el coral y desfavorable para el cangrejo.", "b": "indiferente para el cangrejo y desfavorable para el coral.", "c": "beneficiosa para el cangrejo e indiferente para el coral.", "d": "beneficiosa para el cangrejo y desfavorable para el coral.", "e": "beneficiosa para ambas especies."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 17,
+      "content": "La siguiente figura muestra las consecuencias de un plan de explotación forestal sobre un hábitat boscoso continuo. T1 y T2 corresponden al estado del área antes y después de la explotación, respectivamente.\n\n[Figura: T1 muestra un área rectangular completamente cubierta de bosque (achurada). T2 muestra la misma área dividida en secciones separadas de bosque, con espacios vacíos (deforestados) entre ellas, ilustrando fragmentación del hábitat]\n\nEn relación a la figura ¿cuál de las siguientes inferencias es correcta?",
+      "options": {"a": "El plan de explotación aumenta la diversidad de especies en las secciones.", "b": "La riqueza de las especies se verá favorecida por la disminución del hábitat.", "c": "A mayor explotación forestal se obtendrá un paisaje mayormente homogéneo.", "d": "La explotación del bosque se asocia a un proceso de fragmentación del hábitat.", "e": "El tamaño de las secciones no guarda relación con el tamaño del territorio de las especies."},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 18,
+      "content": "Dos ejemplares de una especie de planta, fueron extraídos desde un sitio y en el laboratorio se expusieron a dos condiciones: una en la cual se mantenía la disponibilidad de agua del sitio original (control) y otra en la que se aumentó dicha disponibilidad (tratamiento). En el gráfico se muestra la longitud de la hoja en relación a la exposición a ambas condiciones.\n\n[Figura: gráfico de dispersión de Longitud de la hoja (mm) en eje Y versus Control y Tratamiento en eje X (Cantidad de agua, mL). Planta 1 (cuadrado negro) y Planta 2 (cuadrado blanco) muestran mayor longitud de hoja en Tratamiento que en Control, para ambas plantas]\n\nRespecto a esta investigación, ¿cuál de las siguientes hipótesis se cumple?",
+      "options": {"a": "La cantidad de agua influye en el tamaño de la hoja.", "b": "Ambas plantas presentan la misma tasa de crecimiento de las hojas.", "c": "La cantidad de agua consumida varía de acuerdo a la longitud de la hoja.", "d": "La especie presenta diferentes tamaños de hoja según el sitio que habite.", "e": "La longitud de la hoja depende solo del material genético que posee la planta."},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 19,
+      "content": "¿Cuál de las siguientes afirmaciones asociadas a características de capas de la Tierra en su modelo dinámico es correcta?",
+      "options": {"a": "La mayor presión la poseen las capas líquidas.", "b": "El núcleo interno posee la mayor dinámica convectiva.", "c": "Las capas gaseosas poseen mayor temperatura que las capas sólidas.", "d": "La astenosfera se encuentra a una mayor temperatura que la mesosfera.", "e": "La convección en la astenosfera incide en el movimiento de las placas tectónicas."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 20,
+      "content": "Un haz de luz monocromática pasa de un medio a otro. Conociendo la rapidez de la luz en el vacío, ¿cuál de las siguientes opciones es suficiente para determinar la rapidez de este haz en el segundo medio?",
+      "options": {"a": "El valor de la frecuencia del haz de luz", "b": "El índice de refracción del segundo medio", "c": "El ángulo con que incide el haz de luz en la interfaz", "d": "El valor del período del haz de luz en el segundo medio", "e": "El valor de la longitud de onda del haz de luz en el primer medio"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 21,
+      "content": "Una onda recorre 24 m en 2 s en cierto medio. Si su frecuencia es 3 Hz, ¿cuál es su longitud de onda?",
+      "options": {"a": "4 m", "b": "8 m", "c": "12 m", "d": "36 m", "e": "72 m"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 22,
+      "content": "Un estudiante está investigando acerca de las ondas superficiales que se propagan en el agua contenida en una cubeta rectangular de fondo plano, cuyas dimensiones ha medido previamente. Para ello, deja caer varias gotas de agua en un extremo de la cubeta y mide el tiempo que tardan en llegar las ondas generadas al otro extremo de la cubeta. Repite el experimento variando la cantidad de agua en la cubeta y midiendo la profundidad del agua en cada caso. ¿Cuál de las siguientes opciones corresponde a una hipótesis consistente con el procedimiento experimental descrito?",
+      "options": {"a": "El tiempo que tardan las ondas superficiales en recorrer cierta distancia es proporcional al número de gotas que las producen.", "b": "El tipo de movimiento que describen las ondas superficiales en el agua depende del tamaño de las gotas.", "c": "La rapidez de las ondas superficiales depende de la profundidad del agua en que se propagan.", "d": "La cantidad de ondas superficiales depende de la profundidad del agua en que se propagan.", "e": "La rapidez de las ondas superficiales depende de la frecuencia con que caen las gotas."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 23,
+      "content": "Por un medio se propagan dos ondas. Una de ellas hace que las partículas del medio oscilen en una determinada dirección; la otra hace que oscilen en una dirección perpendicular a la primera. ¿Cuál de las siguientes opciones permite determinar si dichas ondas son longitudinales o transversales?",
+      "options": {"a": "Conocer la rapidez de una de ellas y la dirección de propagación de la otra.", "b": "Conocer la longitud de onda y la frecuencia de cada una de ellas.", "c": "Conocer la dirección de propagación de cada una de ellas.", "d": "Conocer la frecuencia de cada una de ellas.", "e": "Conocer la amplitud de cada una de ellas."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 24,
+      "content": "Respecto de la Ley de Gravitación Universal, es correcto afirmar que",
+      "options": {"a": "se puede aplicar solo a cuerpos celestes.", "b": "se puede aplicar a cualquier tipo de partículas que posean masa.", "c": "la fuerza entre dos cuerpos es independiente de cada una de sus masas.", "d": "la fuerza entre dos cuerpos es directamente proporcional al cuadrado de la distancia entre ellos.", "e": "la fuerza entre dos cuerpos es inversamente proporcional a la constante de gravitación universal."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 25,
+      "content": "El siguiente gráfico representa la rapidez v en función del tiempo t de un cuerpo que se mueve en línea recta durante 16 s.\n\n[Figura: gráfico v (m/s) en eje Y versus t (s) en eje X. La curva es una línea recta que parte en v=8 m/s cuando t=0 y decrece linealmente hasta v=0 cuando t=16 s]\n\n¿Cuál(es) de las siguientes magnitudes físicas del cuerpo se puede(n) determinar con la información proporcionada?\n\nI) La distancia recorrida por el cuerpo\nII) La posición inicial del cuerpo\nIII) La magnitud de la aceleración del cuerpo",
+      "options": {"a": "Solo I", "b": "Solo III", "c": "Solo I y II", "d": "Solo I y III", "e": "Solo II y III"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 26,
+      "content": "Un grupo de estudiantes analiza el comportamiento de una magnitud física P de un cuerpo que se mueve en el eje x, entre las posiciones x = 0 y x = 20 m. A partir de ello, establecen el siguiente modelo que relaciona la magnitud P en función de la posición x.\n\nP = 10 − x ; para x mayor que 0 y menor que 6 m.\nP = 16 − 2x ; para x mayor que 6 m y menor que 10 m.\nP = 2x − 24 ; para x mayor que 10 m y menor que 20 m.\n\nSi el modelo se expresa en unidades del Sistema Internacional, ¿en qué posición(es) x la magnitud P del cuerpo es nula?",
+      "options": {"a": "Solo en x = 8 m y x = 12 m", "b": "Solo en x = 6 m y x = 10 m", "c": "Solo en x = 12 m", "d": "Solo en x = 10 m", "e": "Solo en x = 8 m"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 27,
+      "content": "Un objeto cae desde 45 m de altura con respecto al suelo. Si se desprecian los efectos del roce y la magnitud de la aceleración de gravedad es 10 m/s², ¿con qué rapidez impacta el objeto al suelo?",
+      "options": {"a": "900 m/s", "b": "450 m/s", "c": "30 m/s", "d": "√450 m/s", "e": "√90 m/s"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 28,
+      "content": "Un cuerpo de 4 kg describe un movimiento rectilíneo uniformemente acelerado a partir del reposo. ¿Cuál es la magnitud de la fuerza neta sobre el cuerpo si al cabo de 1 s adquiere una rapidez de 3 m/s?",
+      "options": {"a": "12 N", "b": "3 N", "c": "4/3 N", "d": "3/4 N", "e": "1/12 N"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 29,
+      "content": "Un cuerpo de masa m desliza sobre una superficie horizontal, en ausencia de roce, sin despegarse de ella. Sobre el cuerpo actúan únicamente el peso y las fuerzas F⃗₁ de magnitud F₁ y F⃗₂ de magnitud F₂, representadas en la figura.\n\n[Figura: bloque sobre superficie horizontal, con F⃗₂ apuntando verticalmente hacia arriba desde el bloque y F⃗₁ apuntando horizontalmente hacia la derecha desde el bloque]\n\nConsiderando que F⃗₁ es paralela a la superficie y perpendicular a F⃗₂, ¿cuál es la magnitud de la aceleración del cuerpo?",
+      "options": {"a": "F₂/m", "b": "F₁/m", "c": "(F₁ + F₂)/m", "d": "(F₁ − F₂)/m", "e": "m(F₁ + F₂)"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 30,
+      "content": "Un cuerpo, cuyo peso tiene magnitud P, se encuentra en reposo sobre una superficie horizontal mientras sobre él actúa una fuerza de roce de magnitud Fr. ¿Cuál de las siguientes afirmaciones es correcta en relación a las fuerzas que actúan sobre el cuerpo?",
+      "options": {"a": "La magnitud de la fuerza normal actuando sobre el cuerpo es menor que la de Fr.", "b": "La situación descrita representa el caso en que Fr toma su mayor valor.", "c": "Sobre el cuerpo actúa al menos una fuerza en sentido contrario a Fr.", "d": "La magnitud de la fuerza neta sobre el cuerpo es mayor que la de Fr.", "e": "El cuerpo va a adquirir una aceleración en sentido contrario a Fr."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 31,
+      "content": "Dos vehículos poseen rapideces distintas al momento de aplicar los frenos, recorriendo ambos una misma distancia recta horizontal mientras se detienen completamente, ¿qué se puede afirmar siempre acerca del trabajo mecánico realizado por los frenos de cada uno de los vehículos?",
+      "options": {"a": "Su magnitud sería la misma si ambos vehículos tardan el mismo tiempo en detenerse.", "b": "Su magnitud sería la misma si ambos vehículos tuviesen la misma masa.", "c": "Su magnitud sería mayor para el vehículo que lleva una mayor rapidez.", "d": "Su magnitud sería mayor para el vehículo que lleva una menor masa.", "e": "Su magnitud sería mayor para el vehículo de mayor energía cinética."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 32,
+      "content": "La figura representa seis placas tectónicas, P, Q, R, S, T y U, cuyos bordes se mueven en las direcciones indicadas mediante flechas.\n\n[Figura: mapa esquemático con seis placas tectónicas P, Q, R, S, T, U y flechas indicando la dirección de movimiento de cada borde]\n\nEn base a la teoría de la tectónica de placas, ¿cuál de las siguientes opciones presenta pares de placas asociadas correctamente al tipo de borde que existe entre ellas?\n\n| | Borde convergente | Borde divergente | Borde transformante |\n|---|---|---|---|\n| A) | P – S | S – U | S – T |\n| B) | R – U | S – T | P – S |\n| C) | S – T | P – S | S – U |\n| D) | R – U | S – U | S – T |\n| E) | S – U | P – S | Q – R |",
+      "options": {"a": "P – S | S – U | S – T", "b": "R – U | S – T | P – S", "c": "S – T | P – S | S – U", "d": "R – U | S – U | S – T", "e": "S – U | P – S | Q – R"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 33,
+      "content": "Se registra la longitud que adquieren dos alambres P y Q, de longitudes iniciales respectivas L₀ y 2L₀, al aumentar de temperatura. A partir de los datos, se construye el siguiente gráfico de longitud L en función de la temperatura T:\n\n[Figura: gráfico L (m) en eje Y versus T (K) en eje X. Dos rectas: Q parte en 2L₀ con pendiente pequeña positiva; P parte en L₀ con pendiente mayor positiva. Ambas rectas se cruzan/convergen en T₃, alcanzando el mismo valor de L. Se marcan T₁, T₂ y T₃ en el eje X]\n\nAl respecto, es correcto afirmar que",
+      "options": {"a": "a la temperatura T₃ ambos alambres experimentan la misma dilatación.", "b": "el coeficiente de dilatación térmica de P en T₁ es menor que en T₂.", "c": "el coeficiente de dilatación térmica de Q es el doble que el de P.", "d": "el coeficiente de dilatación térmica de P es mayor que el de Q.", "e": "a la temperatura T₂ el alambre Q se ha dilatado más que P."},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 34,
+      "content": "Un pozo tiene una profundidad de 10 m desde la superficie hasta el nivel del agua que contiene. Si la magnitud de la aceleración de gravedad es 10 m/s², ¿cuál es el trabajo mínimo que se debe realizar para subir un balde de 1 kg que contiene 5 kg de agua, desde el nivel del agua dentro del pozo hasta la superficie?",
+      "options": {"a": "50 J", "b": "60 J", "c": "100 J", "d": "500 J", "e": "600 J"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 35,
+      "content": "Se ponen en contacto térmico 2 kg de agua a 80 °C con 3 kg de agua a 50 °C. Si se encuentran aislados del ambiente, ¿cuál es la temperatura de equilibrio que alcanzan las porciones de agua?",
+      "options": {"a": "15 °C", "b": "26 °C", "c": "30 °C", "d": "62 °C", "e": "65 °C"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 36,
+      "content": "En la siguiente figura se presentan dos ciudades, L y M, que se encuentran a 200 km de distancia, y cinco cuadrados idénticos numerados, que corresponden a zonas bajo la superficie terrestre.\n\n[Figura: esquema con ciudades L y M en la superficie terrestre, y una grilla de 5 cuadrados numerados 1 a 5 bajo la superficie, dispuestos en dos filas: fila superior con cuadrados 1 y 2 (en los extremos) y fila del medio con cuadrados 3 y 4, y fila inferior con cuadrado 5, con una indicación de 50 km de profundidad para cada cuadrado]\n\nSi un sismo se genera a 150 km y 100 km de las ciudades L y M, respectivamente, ¿en cuál de las zonas numeradas está el hipocentro de este sismo?",
+      "options": {"a": "En la zona 1", "b": "En la zona 2", "c": "En la zona 3", "d": "En la zona 4", "e": "En la zona 5"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 37,
+      "content": "Respecto a la formación del enlace iónico, ¿cuál de las siguientes opciones corresponde a una ley?",
+      "options": {"a": "El enlace de un compuesto iónico se representa mediante un guión utilizando la estructura de Lewis.", "b": "En la formación del enlace iónico, las cargas opuestas se atraen con una fuerza inversamente proporcional al cuadrado de la distancia que las separa.", "c": "En un enlace iónico se infiere adecuadamente que los electrones no compartidos en un compuesto generan mayor repulsión que los electrones enlazados.", "d": "La formación del enlace iónico es adecuada para predecir qué especies tendrán alta densidad electrónica.", "e": "Los electrones en un enlace iónico son representados por puntos o cruces."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 38,
+      "content": "¿Cuál es el número total de electrones de valencia que presenta una molécula de ácido cloroso (HClO₂)?",
+      "options": {"a": "8", "b": "12", "c": "14", "d": "20", "e": "24"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 39,
+      "content": "¿Cuál de las siguientes opciones representa correctamente la estructura de Lewis, para el ion fluoruro?\n\n[Figura: cinco estructuras de Lewis (A-E) del átomo/ion F, cada una con distinta cantidad y disposición de puntos representando electrones, y algunas encerradas entre corchetes con carga negativa (-)]",
+      "options": {"a": "Estructura A: F con 1 par de electrones no compartido representado, entre corchetes con carga -1", "b": "Estructura B: F con 4 pares de electrones (8 puntos) entre corchetes con carga -1", "c": "Estructura C: F con electrones sin corchetes ni carga", "d": "Estructura D: F con electrones sin corchetes ni carga", "e": "Estructura E: F con 4 pares de electrones (8 puntos) entre corchetes con carga -1, distribución distinta a B"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 40,
+      "content": "¿Cuál de los siguientes compuestos es una amina primaria?",
+      "options": {"a": "CH₃NH₂", "b": "HCONH₂", "c": "CH₃CONH₂", "d": "CH₃NHCH₃", "e": "CH₃N(CH₃)₂"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 41,
+      "content": "Con respecto a la siguiente molécula:\n\n[Figura: estructura de una cadena carbonada con un doble enlace C=CH, un sustituyente Cl y CH₃ en el carbono del doble enlace, una cadena principal, y un grupo isopropilo (dos CH₃ ramificados) en el otro extremo de la cadena]\n\n¿Cuál de las siguientes opciones es correcta?",
+      "options": {"a": "Presenta solo átomos de carbono con hibridación sp³", "b": "La molécula presenta en total 17 enlaces sigma (σ)", "c": "Es una molécula insaturada", "d": "Corresponde a un alcano", "e": "Presenta 3 enlaces pi (π)"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 42,
+      "content": "Dos científicos propusieron independientemente lo siguiente: \"los cuatro enlaces del carbono no están orientados al azar, sino que están orientados en los vértices de un tetraedro regular y el carbono ocupa el centro de este\", en contraposición a la idea predominante de esa época que consideraba la estructura del carbono plana. Al respecto, ¿cuál de las siguientes afirmaciones explica la importancia de la propuesta de los científicos, para la Química Orgánica?",
+      "options": {"a": "Establece las bases para formular la tridimensionalidad de las moléculas orgánicas.", "b": "Establece la capacidad del átomo de carbono de formar cuatro enlaces consigo mismo.", "c": "Determina los tipos de enlaces (sigma o pi) que puede formar el átomo de carbono.", "d": "Determina la gran variedad de compuestos orgánicos formados por átomos de carbono.", "e": "Establece la región bidimensional que ocupan los átomos de carbono en el tetraedro."},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 43,
+      "content": "En la siguiente figura se muestran dos proyecciones:\n\n[Figura: dos proyecciones de Newman (círculos), la primera con CH₃ arriba, H y H en las posiciones traseras superiores, H y CH₃ en las posiciones traseras inferiores, H abajo (proyección delantera); la segunda con H arriba, H y H en las posiciones traseras superiores, H y CH₃ en las posiciones traseras inferiores, CH₃ abajo]\n\nAl respecto, ¿a qué tipo de isómeros corresponden las moléculas representadas en las proyecciones?",
+      "options": {"a": "A isómeros geométricos", "b": "A isómeros de posición", "c": "A isómeros conformacionales", "d": "A isómeros estructurales", "e": "A isómeros de función"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 44,
+      "content": "¿Cuál de las siguientes estructuras representa al cis-2-buteno?\n\n[Figura: opción A es la fórmula H₃C–CH=CH–CH₃ en texto; opciones B, C, D, E son estructuras con doble enlace C=C y sustituyentes H, CH₃ dispuestos en distintas configuraciones geométricas (cis/trans) alrededor del doble enlace]",
+      "options": {"a": "H₃C–CH=CH–CH₃", "b": "Estructura B: H y H del mismo lado (arriba), CH₃ y CH₃ del mismo lado (abajo)", "c": "Estructura C: H arriba-izquierda y CH₃ arriba-derecha, CH₃ abajo-izquierda y CH₃ abajo-derecha (con metilo adicional, trisustituido)", "d": "Estructura D: H arriba-izquierda y CH₃ arriba-derecha, CH₃ abajo-izquierda y H abajo-derecha (trans)", "e": "H₂C=C(CH₃)(CH₃)"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 45,
+      "content": "El porcentaje en masa de cada elemento que forma parte de un compuesto, corresponde a la definición de",
+      "options": {"a": "composición porcentual.", "b": "porcentaje de pureza.", "c": "fórmula molecular.", "d": "fórmula empírica.", "e": "rendimiento."},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 46,
+      "content": "Se sabe que durante una transformación química, la masa no cambia. Al respecto, ¿cuál de los siguientes modelos representa correctamente esta idea?\n\n[Figura: cinco pares de recuadros (A-E), cada uno mostrando un conjunto de círculos negros y blancos (representando átomos/moléculas) antes (izquierda) y después (derecha) de una transformación química, con distinta cantidad y agrupación de círculos en cada caso]",
+      "options": {"a": "Modelo A: mismo número total de círculos antes y después, pero reagrupados incorrectamente", "b": "Modelo B: número de círculos aumenta después de la transformación", "c": "Modelo C: número de círculos aumenta después de la transformación", "d": "Modelo D: número de círculos disminuye después de la transformación", "e": "Modelo E: mismo número y tipo de átomos (círculos negros y blancos) antes y después, correctamente conservados"},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 47,
+      "content": "En la siguiente reacción química hipotética:\n\nz X₂T₅ ⟶ 4 X + 5 T₂\n\n¿Cuál es el valor del coeficiente z?",
+      "options": {"a": "5", "b": "4", "c": "3", "d": "2", "e": "1"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 48,
+      "content": "Se estudia una reacción química en la cual se modifican las masas de los reactantes, tal como se muestra a continuación:\n\n| | R | S | T | Reactante en exceso |\n|---|---|---|---|---|\n| Caso 1 | 0,1 g | 0,8 g | 0,9 g | 0,0 g |\n| Caso 2 | 1,0 g | 10,0 g | X | Y |\n\nDe acuerdo a estos datos, ¿cuál es la masa que corresponde a Y?",
+      "options": {"a": "0,0 g", "b": "0,8 g", "c": "1,2 g", "d": "2,0 g", "e": "3,0 g"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 49,
+      "content": "A una temperatura dada, ¿cómo se denomina la solución que contiene la máxima cantidad de soluto que es capaz de disolver una determinada masa de solvente?",
+      "options": {"a": "Densa", "b": "Diluida", "c": "Saturada", "d": "Insaturada", "e": "Concentrada"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 50,
+      "content": "Conociendo solo el volumen de una solución, ¿cuál de las siguientes concentraciones de la solución, permite determinar la masa de soluto?",
+      "options": {"a": "Molalidad", "b": "Porcentaje masa/masa", "c": "Porcentaje masa/volumen", "d": "Fracción molar", "e": "Molaridad"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 51,
+      "content": "Al aumentar 5 veces el volumen de una solución, agregando solvente, es correcto afirmar que",
+      "options": {"a": "el volumen de soluto disminuye 5 veces.", "b": "la masa, en g, de soluto disminuye 1/5 veces.", "c": "la cantidad, en mol, de soluto disminuye 5 veces.", "d": "la concentración de la solución inicial disminuye en 5 mol.", "e": "la concentración de la solución final es 1/5 de la inicial."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 52,
+      "content": "Se tienen dos soluciones de igual volumen y diferente concentración, preparadas con el mismo soluto y separadas por una membrana semipermeable, tal como se muestra en la figura:\n\n[Figura: recipiente dividido en dos por una membrana semipermeable vertical; el lado izquierdo tiene menor concentración de soluto (menos círculos) y el lado derecho mayor concentración de soluto (más círculos), ambos con igual nivel de líquido inicial]\n\nPara esta experiencia, ¿cuál de los siguientes esquemas representa correctamente el resultado final del proceso de osmosis?\n\n[Figura: cinco esquemas (A-E) mostrando distintos niveles de líquido a cada lado de la membrana tras la ósmosis]",
+      "options": {"a": "Esquema A: nivel más alto en el lado de menor concentración inicial, nivel más bajo en el lado de mayor concentración", "b": "Esquema B: nivel más bajo en el lado de menor concentración inicial, nivel más alto en el lado de mayor concentración (agua migra hacia el lado más concentrado)", "c": "Esquema C: niveles similares en ambos lados", "d": "Esquema D: nivel más alto en el lado de menor concentración, ligeramente distinto a A", "e": "Esquema E: todo el líquido migró a un solo lado"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 53,
+      "content": "En el siguiente gráfico se muestra la variación de la presión de vapor a medida que aumenta la temperatura de dos soluciones (P y Q) formadas por la misma masa de un soluto X y los solventes puros W y Z, respectivamente. Además de las curvas de las dos soluciones, se muestran las curvas de los solventes puros W y Z.\n\n[Figura: gráfico de Presión de vapor (mmHg) en eje Y (hasta 1000) versus Temperatura (°C) en eje X (10 a 100), con línea horizontal punteada de Presión atmosférica (~760 mmHg), y cuatro curvas etiquetadas W, P, Z, Q de izquierda a derecha, cada una cruzando la línea de presión atmosférica a distinta temperatura]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es una conclusión correcta?",
+      "options": {"a": "La temperatura de ebullición de ambas soluciones es mayor que la de sus solventes puros.", "b": "A presión atmosférica, ambas soluciones logran su temperatura de ebullición sobre los 90 °C.", "c": "La solución P tiene una temperatura de ebullición sobre los 80 °C.", "d": "El mayor cambio en la temperatura de ebullición se produjo al adicionar el soluto X al solvente puro Z.", "e": "A presión atmosférica, la solución Q tiene una temperatura de ebullición mayor a 100 °C."},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 54,
+      "content": "¿Cuál de los siguientes procesos industriales corresponde a una aplicación del proceso de osmosis?",
+      "options": {"a": "Filtración de partículas gruesas durante la potabilización del agua.", "b": "Extracción de impurezas del aceite con líquidos apropiados.", "c": "Flotación de minerales a partir de concentrados de cobre.", "d": "Cloración del agua para el consumo humano.", "e": "Conservación de alimentos por deshidratación."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 55,
+      "content": "¿Cuál de las siguientes estructuras es exclusiva de las células procariontes?",
+      "options": {"a": "Cromosoma asociado a histonas", "b": "Subunidades ribosómicas", "c": "Pared de peptidoglicano", "d": "Citoesqueleto", "e": "Flagelo"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 56,
+      "content": "Un estudiante realiza un corte de tejido pancreático proveniente de un mamífero y a partir de este prepara una muestra para analizar bajo el microscopio electrónico. Considerando que el páncreas presenta una elevada actividad secretora, ¿cuál de los siguientes organelos será muy abundante en esta muestra de tejido?",
+      "options": {"a": "El retículo endoplasmático rugoso", "b": "El retículo endoplasmático liso", "c": "Las mitocondrias", "d": "Los peroxisomas", "e": "Los lisosomas"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 57,
+      "content": "Una célula extraída del pétalo de una flor color fucsia claro se sumerge en un medio hipertónico, el que contiene enzimas que desintegran la pared de esta célula. ¿Qué se esperaría observar en la célula después de algún tiempo?",
+      "options": {"a": "Que estalle junto con la vacuola.", "b": "Que disminuya su volumen y la vacuola lo aumente.", "c": "Que mantenga su volumen y la vacuola luzca el mismo color fucsia claro.", "d": "Que aumente su volumen y la vacuola luzca incolora.", "e": "Que disminuya su volumen y la vacuola luzca de color fucsia más intenso."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 58,
+      "content": "¿Cuál de las siguientes opciones es correcta respecto de los métodos anticonceptivos?",
+      "options": {"a": "Todos los métodos de barrera mecánica protegen del contagio de ITS.", "b": "Todos los métodos hormonales tienen el mismo mecanismo de acción.", "c": "Los métodos de barrera química tienen una mayor eficacia que los dispositivos intrauterinos.", "d": "Los métodos naturales tienen una mayor eficacia cuando se usan combinados entre ellos.", "e": "La ligadura y corte de oviductos en la mujer es equivalente a la extirpación de los testículos en el hombre."},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 59,
+      "content": "En un humano sano, luego de la ingesta de sacarosa, ¿qué efectos se observarán en las concentraciones plasmáticas de glucosa, insulina y glucagón, respectivamente?\n\n| | Glucosa | Insulina | Glucagón |\n|---|---|---|---|\n| A) | Aumento | Aumento | Aumento |\n| B) | Disminución | Disminución | Disminución |\n| C) | Disminución | Aumento | Aumento |\n| D) | Aumento | Aumento | Disminución |\n| E) | Aumento | Disminución | Disminución |",
+      "options": {"a": "Aumento | Aumento | Aumento", "b": "Disminución | Disminución | Disminución", "c": "Disminución | Aumento | Aumento", "d": "Aumento | Aumento | Disminución", "e": "Aumento | Disminución | Disminución"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 60,
+      "content": "Cuando las paredes de las arterias carótidas y aorta se distienden, se envían señales al sistema nervioso central, generándose un descenso en la frecuencia cardiaca que provoca el retorno a la presión arterial normal. ¿Cómo se llaman los receptores que captan esta distensión?",
+      "options": {"a": "Quimiorreceptores", "b": "Fotorreceptores", "c": "Nociceptores", "d": "Barorreceptores", "e": "Termorreceptores"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 61,
+      "content": "¿Cuál será el efecto directo de la extirpación de la neurohipófisis en una rata?",
+      "options": {"a": "El aumento de la diuresis", "b": "El aumento de la presión arterial", "c": "La disminución de la producción de testosterona", "d": "La disminución de la producción de insulina", "e": "El aumento de las hormonas liberadoras hipotalámicas"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 62,
+      "content": "¿Qué efecto producirá el aumento de la duración de la corriente de entrada de sodio durante el potencial de acción?",
+      "options": {"a": "Una despolarización permanente de la neurona", "b": "Una disminución del período refractario absoluto", "c": "Un aumento de la duración del potencial de acción", "d": "Una disminución de la amplitud del potencial de acción", "e": "Un aumento de la duración de la fase de hiperpolarización del potencial de acción"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 63,
+      "content": "Si experimentalmente se modifica la concentración de algunos iones involucrados en la sinapsis, ¿cuál será el efecto de la disminución a la mitad del Ca²⁺ extracelular en un terminal sináptico?",
+      "options": {"a": "El aumento de la recaptación de los neurotransmisores", "b": "La reducción de la cantidad de los neurotransmisores liberados", "c": "La reducción de la síntesis de los neurotransmisores", "d": "La reducción de la cantidad de enzimas que degradan neurotransmisores", "e": "El aumento de la formación de vesículas sinápticas"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 64,
+      "content": "El reactivo de Biuret es un compuesto de color azul, que en presencia de enlaces peptídicos, cambia a color violeta. Si se agrega reactivo de Biuret a tres tubos de ensayo con las sustancias indicadas en la tabla, bajo las mismas condiciones experimentales, ¿en cuál de los tubos se observará cambio de color?\n\n| Tubo | Sustancia |\n|---|---|\n| 1 | Almidón |\n| 2 | Metionina |\n| 3 | Ovoalbúmina |",
+      "options": {"a": "Solo en 1", "b": "Solo en 2", "c": "Solo en 3", "d": "Solo en 2 y 3", "e": "En 1, 2 y 3"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 65,
+      "content": "El siguiente esquema resume parte de la respuesta del eje hipotálamo-hipófisis-adrenal ante un agente estresor, incluyendo su regulación por retroalimentación. Los círculos numerados (1, 2, 3 y 4) representan la regulación ejercida por cada una de las sustancias sobre este eje.\n\n[Figura: diagrama de flujo con recuadros \"Secreción de CRH\" → (círculo 1) → \"Secreción de ACTH\" → (círculo 2) → \"Secreción de cortisol\"; el círculo 4 conecta desde después de \"Secreción de cortisol\" de vuelta hacia \"Secreción de CRH\"; el círculo 3 conecta desde después de \"Secreción de cortisol\" de vuelta hacia \"Secreción de ACTH\"]\n\n¿Cuál de las siguientes opciones representa el tipo de regulación ejercida en 1, 2, 3 y 4 respectivamente?",
+      "options": {"a": "Estimulación – Estimulación – Inhibición – Inhibición", "b": "Estimulación – Estimulación – Estimulación – Estimulación", "c": "Inhibición – Inhibición – Estimulación – Estimulación", "d": "Inhibición – Inhibición – Inhibición – Inhibición", "e": "Estimulación – Inhibición – Estimulación – Inhibición"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 66,
+      "content": "Los gráficos muestran las variaciones en la glicemia (1) y la insulinemia (2) en ratones, luego de ser sometidos durante nueve semanas a una dieta baja en grasas (BG) y una dieta alta en grasas (AG).\n\n[Figura: gráfico de barras 1 - Glicemia (mg/dL) eje Y (hasta 400) para grupos BG (~100) y AG (~360); gráfico de barras 2 - Insulinemia (mg/dL) eje Y (10 a 50) para grupos BG (~18) y AG (~40)]\n\nDel análisis del gráfico, ¿cuál de las siguientes inferencias es correcta?",
+      "options": {"a": "La dieta baja en grasas producen hipoglicemia.", "b": "La hiperglicemia eleva los niveles plasmáticos de lípidos.", "c": "Tanto la dieta baja en grasas como la alta en grasas producen hiperglicemia.", "d": "La secreción de insulina es inversamente proporcional a los niveles de glicemia.", "e": "La dieta alta en grasas puede inducir el desarrollo de diabetes tipo 2."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 67,
+      "content": "El esquema representa un cromosoma metafásico con sus estructuras indicadas con números del 1 al 5.\n\n[Figura: esquema de un cromosoma metafásico en forma de X, con dos cromátidas hermanas, flechas numeradas 1 a 5 apuntando a distintas estructuras: brazos, centrómero (constricción central marcada con una barra oscura), telómero, etc.]\n\nCon respecto al esquema, ¿cuál de las siguientes opciones corresponde a la estructura que cumple un rol fundamental en la separación de las cromátidas hermanas?",
+      "options": {"a": "1", "b": "2", "c": "3", "d": "4", "e": "5"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 68,
+      "content": "Una enfermedad genética se debe a la presencia de un alelo alterado que es dominante respecto al alelo normal. ¿Cuál de las siguientes afirmaciones es correcta respecto a los gametos producidos por una persona que presenta el alelo alterado y el alelo normal?",
+      "options": {"a": "Todos sus gametos tendrán solo copias del alelo normal.", "b": "Todos sus gametos tendrán solo copias del alelo alterado.", "c": "La mitad de los gametos tendrá el alelo normal y la otra mitad el alelo alterado.", "d": "Todos los gametos tendrán una copia del alelo normal y del alelo alterado.", "e": "La mitad de los gametos tendrá copias de ambos alelos y la otra mitad no tendrá copias de este gen."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 69,
+      "content": "Se calcula que los chimpancés aparecieron en la Tierra hace unos cinco millones de años y los humanos aparecieron hace unos doscientos mil años. La variación genética entre los humanos es 0,1%, mientras que la variación genética entre los chimpancés es tres a cuatro veces mayor. De acuerdo con estos antecedentes, ¿cuál de las siguientes hipótesis es coherente con la mayor diversidad genética que existe entre los chimpancés?",
+      "options": {"a": "Los humanos son más evolucionados que los chimpancés.", "b": "Las variaciones genéticas van en aumento a través del tiempo.", "c": "Los chimpancés han habitado en ambientes de mayor diversidad que los humanos.", "d": "El ambiente de los humanos ha seleccionado solo las variantes más adaptadas.", "e": "Muchos chimpancés han desaparecido a través del tiempo, perdiéndose sus variaciones genéticas."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 70,
+      "content": "Un cromosoma en la etapa G1 del ciclo celular y una cromátida del mismo durante la división celular mitótica, difieren en",
+      "options": {"a": "la cantidad de ADN.", "b": "el grado de compactación.", "c": "el número de genes.", "d": "la secuencia de bases nitrogenadas.", "e": "la posición de sus genes."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 71,
+      "content": "En el sur de Chile existía una gran población de guanacos que repentinamente se vio separada en dos poblaciones, debido a la formación del Estrecho de Magallanes, lo que ha impedido por miles de años la interacción entre ambos grupos. Esto podría llevar después de muchas generaciones a la formación de dos especies. ¿Cuál de las siguientes opciones corresponde al proceso que explicaría la formación de las dos especies?",
+      "options": {"a": "Deriva génica", "b": "Especiación simpátrica", "c": "Especiación alopátrica", "d": "Cuello de botella", "e": "Efecto fundador"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 72,
+      "content": "Un científico clonó un ternero utilizando el núcleo de una célula somática de vaca wagyu, el cual reemplazó al núcleo de un óvulo de vaca angus. Finalmente, este óvulo fue implantado en una vaca overa. ¿Cuál de las siguientes opciones es correcta con respecto al ternero clon?",
+      "options": {"a": "Su fenotipo es overo.", "b": "Su genotipo es wagyu.", "c": "Su genotipo es angus.", "d": "Su fenotipo es una combinación entre overo y angus.", "e": "Su genotipo es una combinación entre angus y wagyu."},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 73,
+      "content": "¿Cuál de las siguientes opciones corresponde a un ejemplo de selección natural Darwiniana aplicado a la medicina?",
+      "options": {"a": "La utilización de técnicas de fertilización in vitro", "b": "El uso de nuevos antibióticos contra bacterias ya resistentes a otros antibióticos", "c": "El aumento en el número de pacientes con cáncer de mama", "d": "La fijación de variantes alélicas resistentes al efecto del tabaco", "e": "El uso de vacunas contra la influenza en poblaciones más vulnerables"},
+      "correct_answer": "b",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 74,
+      "content": "En una especie de ave, el largo del penacho es un carácter heredable que determina el éxito reproductivo de los individuos, ya que la hembra elige al macho de acuerdo al largo del penacho que posea. La tabla siguiente muestra el número de individuos en distintas generaciones, de acuerdo al largo del penacho.\n\n| Largo del penacho | Generación 1 | Generación 15 | Generación 30 |\n|---|---|---|---|\n| 5 cm | 300 | 300 | 250 |\n| 10 cm | 600 | 400 | 350 |\n| 20 cm | 250 | 350 | 550 |\n\nEn base a los datos anteriores, ¿qué fenómeno habría ocurrido en esta especie?",
+      "options": {"a": "Deriva génica", "b": "Selección disruptiva", "c": "Selección direccional", "d": "Selección estabilizadora", "e": "Efecto cuello de botella"},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 75,
+      "content": "El modelo representa el ciclo reproductivo en humanos.\n\n[Figura: esquema con dos recuadros \"Individuo adulto diploide\" (uno arriba, uno abajo), cada uno conectado por flechas de \"Meiosis\" hacia círculos que representan \"Gametos haploides\"; ambos gametos convergen mediante flechas hacia un círculo grande de \"Fecundación\" que produce el \"Cigoto diploide\"; una línea punteada horizontal separa la \"FASE HAPLOIDE\" (arriba) de la \"FASE DIPLOIDE\" (abajo)]\n\nLa importancia de este modelo es que permite comprender",
+      "options": {"a": "el mecanismo de formación de gametos.", "b": "el rol del sistema reproductor en la perpetuación de la especie.", "c": "que la determinación del sexo queda definida en la fecundación.", "d": "el rol de la meiosis en la variabilidad genética de los organismos con reproducción sexual.", "e": "la existencia de dos fases en el ciclo reproductivo, considerando la dotación cromosómica celular."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 76,
+      "content": "El esquema representa los cromosomas homólogos de una célula somática perteneciente a un organismo hipotético X.\n\n[Figura: célula con un par de cromosomas homólogos largos (uno blanco, uno negro) y un par de cromosomas homólogos cortos (uno blanco, uno negro)]\n\nBasándose en la información anterior, ¿cuál(es) de las siguientes alternativas podría(n) representar las células somáticas de los progenitores de X?\n\n[Figura: tres opciones (I, II, III), cada una mostrando un par de células con distintas combinaciones de cromosomas homólogos largos y cortos, blancos y negros]",
+      "options": {"a": "Solo I", "b": "Solo II", "c": "Solo III", "d": "Solo I y II", "e": "Solo II y III"},
+      "correct_answer": "d",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 77,
+      "content": "En el esquema se representan tres cadenas tróficas hipotéticas.\n\n[Figura: cadena 1: Productores → Omnívoros; cadena 2: Productores → Herbívoros → Omnívoros; cadena 3: Productores → Herbívoros → Carnívoros → Omnívoros]\n\nConsiderando que el nivel correspondiente a los productores es equivalente en biomasa y energía en las tres cadenas, ¿cuál(es) de las cadenas presenta(n) la mayor disponibilidad de energía para los omnívoros?",
+      "options": {"a": "Solo 1", "b": "Solo 2", "c": "Solo 3", "d": "Solo 1 y 3", "e": "Solo 2 y 3"},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 78,
+      "content": "El gráfico muestra la curva de crecimiento proyectada de una población, dividida en tres etapas.\n\n[Figura: gráfico de Número de Individuos (miles de millones) en eje Y versus Tiempo (años d.C.) en eje X (desde 1650 hasta 2100), con una curva sigmoidea (forma de S) dividida en tres etapas marcadas 1, 2 y 3 mediante líneas punteadas verticales: etapa 1 con crecimiento lento inicial, etapa 2 con crecimiento acelerado, etapa 3 con estabilización/meseta]\n\nAl respecto, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {"a": "En la etapa 3, la población disminuye su tasa de crecimiento en relación a la etapa 2.", "b": "Durante las tres etapas, la población se encuentra en crecimiento exponencial.", "c": "En las etapas 2 y 3, la población presenta la misma tasa de crecimiento.", "d": "En la etapa 3, se presenta la mayor tasa de crecimiento poblacional.", "e": "En las etapas 1 y 2, la población presenta un crecimiento logístico."},
+      "correct_answer": "a",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    },
+    {
+      "numero": 79,
+      "content": "La tabla muestra el número de especies introducidas en las islas Galápagos y el incremento de tamaño de la población humana en estas islas a través del tiempo. (? indica que no existen datos al respecto).\n\n| Año | Población humana | Plantas | Aves | Mamíferos | Anfibios | Invertebrados | Peces |\n|---|---|---|---|---|---|---|---|\n| 1500 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |\n| 1700 | >100 | ? | 0 | 2 | 0 | ? | 0 |\n| 1832 | >200 | >10 | 0 | 5 | 0 | ? | 0 |\n| 1900 | 800 | ? | 1 | 7 | 0 | ? | 0 |\n| 1970 | 3000 | ±100 | 5 | 7 | 0 | ? | 0 |\n| 1990 | 9000 | ±400 | 6 | 7 | 0 | ? | 1 |\n| 2006 | 19200 | ±800 | 5 | 7 | 1 | 53 | 2 |\n\nDel análisis de los datos presentados, es correcto concluir que",
+      "options": {"a": "del total de especies introducidas, las plantas han producido el mayor impacto en el ecosistema de las islas.", "b": "la introducción más reciente de especies en las islas es la de plantas y peces.", "c": "del total de especies introducidas en las islas, el porcentaje de mamíferos es mayor que el de aves.", "d": "el año 2006, la introducción de anfibios facilitó el ingreso de invertebrados a las islas.", "e": "los peces han evidenciado el menor impacto al aumentar el tamaño de la población humana en las islas."},
+      "correct_answer": "c",
+      "n_opciones": 5,
+      "tiene_figura": false,
+      "tiene_tabla": true,
+      "es_piloto": false
+    },
+    {
+      "numero": 80,
+      "content": "El gráfico muestra los resultados de un estudio que analizó el porcentaje de depredación de nidos de aves por distintos tipos de depredadores en la Región de Los Ríos.\n\n[Figura: gráfico de barras de Promedio de la depredación (%) en eje Y (0 a 50) para cuatro categorías de depredadores en eje X: Aves (~38%), Carnívoros (~25%), Roedores (~20%), Desconocidos (~12%)]\n\nA partir del análisis del gráfico, ¿cuál de las siguientes opciones es correcta?",
+      "options": {"a": "Deducir que los nidos observados fueron artificiales.", "b": "Inferir que los insectos no fueron considerados en este estudio.", "c": "Concluir que los ratones son los depredadores que más atacan los nidos.", "d": "Postular como hipótesis que las aves son las principales depredadoras.", "e": "Plantear como problema de investigación la identificación de los principales tipos de aves depredadoras."},
+      "correct_answer": "e",
+      "n_opciones": 5,
+      "tiene_figura": true,
+      "tiene_tabla": false,
+      "es_piloto": false
+    }
+  ]
+}
