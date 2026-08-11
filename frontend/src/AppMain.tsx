@@ -2,7 +2,7 @@ import { useState, useEffect, FormEvent } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { supabase } from './lib/supabase';
-import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle } from 'lucide-react';
+import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle, TrendingUp } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
 import { ModeSelector } from './components/ModeSelector';
@@ -11,6 +11,7 @@ import { ReadingTestMode } from './components/ReadingTestMode';
 import { PAESMode } from './components/PAESMode';
 import { ReviewMode } from './components/ReviewMode';
 import { StrengthsModal } from './components/StrengthsModal';
+import { RecuperablesModal } from './components/RecuperablesModal';
 import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
 import { LandingPage } from './components/LandingPage';
@@ -160,6 +161,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   const [selectedMode, setSelectedMode] = useState<PracticeMode | null>(null);
   const [resumeData, setResumeData] = useState<SavedSession | null>(null);
   const [showStrengthsModal, setShowStrengthsModal] = useState(false);
+  const [showRecuperablesModal, setShowRecuperablesModal] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [pendingSubject, setPendingSubject] = useState<Subject | null>(null);
   const { theme } = useTheme();
@@ -500,13 +502,20 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         {renderContent()}
         
         {state === 'subject' && (
-          <div className="max-w-5xl mx-auto mt-8">
-            <button 
-              onClick={() => setShowStrengthsModal(true)} 
+          <div className="max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <button
+              onClick={() => setShowStrengthsModal(true)}
               className="w-full flex items-center justify-center gap-3 p-4 bg-rose-50 dark:bg-rose-500/10 rounded-xl border border-rose-200 dark:border-rose-500/30 hover:border-rose-400 dark:hover:border-rose-500/50 hover:bg-rose-100 dark:hover:bg-rose-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
             >
               <Target className="w-5 h-5 text-rose-600 dark:text-rose-400" />
               <span className="font-semibold text-rose-700 dark:text-rose-300 group-hover:text-rose-800 dark:group-hover:text-rose-200 transition-colors">¿Qué materias debo reforzar?</span>
+            </button>
+            <button
+              onClick={() => setShowRecuperablesModal(true)}
+              className="w-full flex items-center justify-center gap-3 p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-xl border border-emerald-200 dark:border-emerald-500/30 hover:border-emerald-400 dark:hover:border-emerald-500/50 hover:bg-emerald-100 dark:hover:bg-emerald-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
+            >
+              <TrendingUp className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+              <span className="font-semibold text-emerald-700 dark:text-emerald-300 group-hover:text-emerald-800 dark:group-hover:text-emerald-200 transition-colors">Mis puntos recuperables</span>
             </button>
           </div>
         )}
@@ -525,10 +534,15 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       )}
 
       {/* Modal de análisis de fortalezas */}
-      <StrengthsModal 
+      <StrengthsModal
         isOpen={showStrengthsModal}
         onClose={() => setShowStrengthsModal(false)}
         onSelectSubject={handleSubjectSelect}
+      />
+
+      <RecuperablesModal
+        isOpen={showRecuperablesModal}
+        onClose={() => setShowRecuperablesModal(false)}
       />
 
       {/* Modal de confirmación para cambiar de materia */}

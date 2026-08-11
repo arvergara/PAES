@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Timer } from './Timer';
 import { QuestionView } from './QuestionView';
+import { ErrorTagPrompt, type ErrorTag } from './ErrorTagPrompt';
 import { PdfViewer } from './PdfViewer';
 import { ResultsView } from './ResultsView';
 import { AlertCircle, CheckCircle2, Home, FileText, HelpCircle, Send, Loader2, BookOpen, SkipForward, ArrowLeft } from 'lucide-react';
@@ -77,6 +78,7 @@ export function TestMode({
     answer: string;
     is_correct: boolean;
     time_spent: number;
+    error_tag: string | null;
   }>>([]);
   
   // Estados para textos de lectura
@@ -355,8 +357,20 @@ export function TestMode({
       subtema: question.subtema || '',
       answer,
       is_correct: isCorrect,
-      time_spent: timeSpent
+      time_spent: timeSpent,
+      error_tag: null,
     });
+  };
+
+  // Registrar el tipo de error auto-reportado para la última pregunta respondida
+  const handleErrorTag = (tag: ErrorTag) => {
+    const qid = questions[currentQuestionIndex]?.id;
+    for (let i = questionAttemptsRef.current.length - 1; i >= 0; i--) {
+      if (questionAttemptsRef.current[i].question_id === qid) {
+        questionAttemptsRef.current[i].error_tag = tag;
+        break;
+      }
+    }
   };
 
   // Guardar sesión completa al final (como PAESMode)
@@ -408,7 +422,8 @@ export function TestMode({
           subtema: attempt.subtema,
           answer: attempt.answer,
           is_correct: attempt.is_correct,
-          time_spent: attempt.time_spent
+          time_spent: attempt.time_spent,
+          error_tag: attempt.error_tag ?? null,
         }));
 
         const { error: attemptsError } = await supabase
@@ -865,6 +880,12 @@ export function TestMode({
                 </>
               )}
             </div>
+
+            {currentAnswer !== currentQuestion.correctAnswer && (
+              <div className="mb-4 flex justify-center">
+                <ErrorTagPrompt key={currentQuestionIndex} onTag={handleErrorTag} />
+              </div>
+            )}
 
             <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
               <div className="flex items-center space-x-2 mb-2">
