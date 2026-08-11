@@ -162,6 +162,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   const [resumeData, setResumeData] = useState<SavedSession | null>(null);
   const [showStrengthsModal, setShowStrengthsModal] = useState(false);
   const [showRecuperablesModal, setShowRecuperablesModal] = useState(false);
+  const [retestIds, setRetestIds] = useState<string[] | null>(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [pendingSubject, setPendingSubject] = useState<Subject | null>(null);
   const { theme } = useTheme();
@@ -219,6 +220,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   };
 
   const handleSubjectSelect = (subject: Subject) => {
+    setRetestIds(null);
     const savedSession = getSavedSession();
     
     if (savedSession) {
@@ -282,6 +284,18 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     setSelectedSubject(null);
     setSelectedMode(null);
     setResumeData(null);
+    setRetestIds(null);
+  };
+
+  // Lanzar un re-test de errores evitables (Matemática) con preguntas específicas
+  const handleStartRetest = (ids: string[]) => {
+    if (ids.length === 0) return;
+    setShowRecuperablesModal(false);
+    setResumeData(null);
+    setRetestIds(ids);
+    setSelectedSubject('M1');
+    setSelectedMode('TEST');
+    setState('practice');
   };
 
   const handleBackToSubjects = () => {
@@ -408,12 +422,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       } : undefined;
       
       return (
-        <TestMode 
-          subject={selectedSubject} 
-          onExit={handleExit} 
+        <TestMode
+          subject={selectedSubject}
+          onExit={handleExit}
           timePerQuestion={testTime}
           resumeSession={resumeSession}
           onSessionChange={handleSessionChange}
+          presetQuestionIds={retestIds ?? undefined}
         />
       );
     }
@@ -543,6 +558,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       <RecuperablesModal
         isOpen={showRecuperablesModal}
         onClose={() => setShowRecuperablesModal(false)}
+        onRetest={handleStartRetest}
       />
 
       {/* Modal de confirmación para cambiar de materia */}

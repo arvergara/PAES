@@ -1,11 +1,15 @@
 import { useEffect, useState } from 'react';
-import { X, TrendingUp, Sparkles, Loader2, Target } from 'lucide-react';
+import { X, TrendingUp, Sparkles, Loader2, Target, Dumbbell } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
-import { getErrorAnalysis, type ErrorAnalysis, type AvoidableType } from '../lib/errorAnalysis';
+import {
+  getErrorAnalysis, getAvoidableProfile,
+  type ErrorAnalysis, type AvoidableType,
+} from '../lib/errorAnalysis';
 
 interface RecuperablesModalProps {
   isOpen: boolean;
   onClose: () => void;
+  onRetest?: (ids: string[]) => void;
 }
 
 const TYPE_LABEL: Record<AvoidableType, string> = {
@@ -21,17 +25,19 @@ const SUBJECT_LABEL: Record<string, string> = {
   C: 'Ciencias', CF: 'Física', CQ: 'Química', CB: 'Biología',
 };
 
-export function RecuperablesModal({ isOpen, onClose }: RecuperablesModalProps) {
+export function RecuperablesModal({ isOpen, onClose, onRetest }: RecuperablesModalProps) {
   const { user } = useAuth();
   const [data, setData] = useState<ErrorAnalysis | null>(null);
+  const [mathRetest, setMathRetest] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!isOpen || !user) return;
     setLoading(true);
-    getErrorAnalysis(user.id)
-      .then(setData)
-      .finally(() => setLoading(false));
+    Promise.all([
+      getErrorAnalysis(user.id).then(setData),
+      getAvoidableProfile(user.id, ['M1', 'M2']).then((p) => setMathRetest(p.retestIds)),
+    ]).finally(() => setLoading(false));
   }, [isOpen, user]);
 
   if (!isOpen) return null;
@@ -130,6 +136,16 @@ export function RecuperablesModal({ isOpen, onClose }: RecuperablesModalProps) {
                     ))}
                   </div>
                 </div>
+              )}
+
+              {onRetest && mathRetest.length > 0 && (
+                <button
+                  onClick={() => onRetest(mathRetest)}
+                  className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition-colors"
+                >
+                  <Dumbbell className="w-5 h-5" />
+                  Repasar mis {mathRetest.length} {mathRetest.length === 1 ? 'error' : 'errores'} de Matemática
+                </button>
               )}
 
               <p className="text-xs text-gray-400 text-center pt-2">

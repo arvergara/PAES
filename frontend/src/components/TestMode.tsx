@@ -2,6 +2,8 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Timer } from './Timer';
 import { QuestionView } from './QuestionView';
 import { ErrorTagPrompt, type ErrorTag } from './ErrorTagPrompt';
+import { PreSubmitChecklist } from './PreSubmitChecklist';
+import { getAvoidableProfile, type AvoidableType } from '../lib/errorAnalysis';
 import { PdfViewer } from './PdfViewer';
 import { ResultsView } from './ResultsView';
 import { AlertCircle, CheckCircle2, Home, FileText, HelpCircle, Send, Loader2, BookOpen, SkipForward, ArrowLeft } from 'lucide-react';
@@ -29,14 +31,17 @@ interface TestModeProps {
   // Props para restaurar sesión
   resumeSession?: PausedSession | null;
   onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
+  // Re-test: preguntas específicas a practicar (errores evitables)
+  presetQuestionIds?: string[];
 }
 
-export function TestMode({ 
-  subject, 
-  onExit, 
+export function TestMode({
+  subject,
+  onExit,
   timePerQuestion = 2.5,
   resumeSession,
-  onSessionChange 
+  onSessionChange,
+  presetQuestionIds,
 }: TestModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
@@ -302,6 +307,8 @@ export function TestMode({
           }
           
           toast.success('Sesión restaurada', { duration: 2000 });
+        } else if (presetQuestionIds && presetQuestionIds.length > 0) {
+          selectedQuestions = await loadQuestionsByIds(presetQuestionIds);
         } else {
           selectedQuestions = await loadQuestions();
         }
@@ -334,7 +341,16 @@ export function TestMode({
     return () => {
       mounted = false;
     };
-  }, [subject, loadQuestions, loadQuestionsByIds, resumeSession]);
+  }, [subject, loadQuestions, loadQuestionsByIds, resumeSession, presetQuestionIds]);
+
+  // Cargar el tipo de error evitable más común en Matemática (para el checklist)
+  const [mathTopType, setMathTopType] = useState<AvoidableType | null>(null);
+  useEffect(() => {
+    if (!user) return;
+    getAvoidableProfile(user.id, ['M1', 'M2'])
+      .then((p) => setMathTopType(p.topType))
+      .catch(() => {});
+  }, [user]);
 
   // Cambiar a tab de texto cuando cambia el texto de lectura
   useEffect(() => {
@@ -836,7 +852,11 @@ export function TestMode({
             <span className="text-orange-600 font-semibold">¡Tiempo agotado! Pasando a la siguiente...</span>
           </div>
         ) : !isCurrentAnswerSubmitted ? (
-          <div className="flex gap-3">
+          <>
+            {(currentQuestion?.subject === 'M1' || currentQuestion?.subject === 'M2') && (
+              <PreSubmitChecklist topType={mathTopType} />
+            )}
+            <div className="flex gap-3">
             <button
               onClick={handlePrevious}
               disabled={currentQuestionIndex === 0}
@@ -862,7 +882,8 @@ export function TestMode({
             >
               <SkipForward className="w-5 h-5" />
             </button>
-          </div>
+            </div>
+          </>
         ) : (
           <>
             <div className="flex items-center justify-center space-x-2 mb-4">

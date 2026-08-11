@@ -61,6 +61,87 @@ function classifyWrong(
   return { avoidable: false, type: null };
 }
 
+export interface AvoidableProfile {
+  /** Tipo de error evitable más frecuente (para personalizar el checklist). */
+  topType: AvoidableType | null;
+  /** IDs de preguntas con error evitable no resuelto, listas para re-test (espaciado). */
+  retestIds: string[];
+  /** Total de preguntas pendientes de re-test. */
+  count: number;
+}
+
+/**
+ * Perfil de errores evitables para un conjunto de materias (ej. M1/M2).
+ * Devuelve el tipo dominante y las preguntas a re-testear, aplicando espaciado
+ * (se excluye lo visto en las últimas 12 h y lo ya corregido).
+ */
+export async function getAvoidableProfile(
+  userId: string,
+  subjects: string[]
+): Promise<AvoidableProfile> {
+  const { data, error } = await supabase
+    .from('question_attempts')
+    .select('question_id, is_correct, time_spent, error_tag, subject, tema, created_at')
+    .eq('user_id', userId)
+    .in('subject', subjects)
+    .order('created_at', { ascending: true });
+
+  const empty: AvoidableProfile = { topType: null, retestIds: [], count: 0 };
+  if (error || !data || data.length === 0) return empty;
+  const rows = data as (AttemptRow & { question_id: string })[];
+
+  // Medianas de tiempo y dominio por tema (para la inferencia)
+  const timesBySubject = new Map<string, number[]>();
+  const temaStats = new Map<string, { correct: number; total: number }>();
+  for (const r of rows) {
+    if (r.time_spent != null && r.is_correct) {
+      if (!timesBySubject.has(r.subject)) timesBySubject.set(r.subject, []);
+      timesBySubject.get(r.subject)!.push(r.time_spent);
+    }
+    if (r.tema) {
+      const t = temaStats.get(r.tema) ?? { correct: 0, total: 0 };
+      t.total++; if (r.is_correct) t.correct++;
+      temaStats.set(r.tema, t);
+    }
+  }
+  const subjectMedianTime = new Map<string, number>();
+  timesBySubject.forEach((v, k) => subjectMedianTime.set(k, median(v)));
+  const temaMastery = new Map<string, number>();
+  temaStats.forEach((v, k) => temaMastery.set(k, v.total >= 3 ? v.correct / v.total : 0));
+
+  const byType: Record<AvoidableType, number> = { lectura: 0, calculo: 0, marcado: 0, apuro: 0, inferido: 0 };
+  const latest = new Map<string, AttemptRow & { question_id: string }>();
+  for (const r of rows) {
+    latest.set(r.question_id, r); // orden ascendente => el último gana
+    if (!r.is_correct) {
+      const cls = classifyWrong(r, subjectMedianTime, temaMastery);
+      if (cls.avoidable && cls.type) byType[cls.type]++;
+    }
+  }
+
+  const twelveHoursAgo = Date.now() - 12 * 60 * 60 * 1000;
+  const candidates: { id: string; ts: number }[] = [];
+  latest.forEach((r, qid) => {
+    if (r.is_correct) return; // ya corregida => resuelta
+    const cls = classifyWrong(r, subjectMedianTime, temaMastery);
+    if (!cls.avoidable) return;
+    const ts = new Date(r.created_at).getTime();
+    if (ts > twelveHoursAgo) return; // espaciado: aún muy reciente
+    candidates.push({ id: qid, ts });
+  });
+  candidates.sort((a, b) => a.ts - b.ts); // más antiguas primero (más "vencidas")
+
+  const topEntry = (Object.entries(byType) as [AvoidableType, number][])
+    .filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1])[0];
+
+  return {
+    topType: topEntry ? topEntry[0] : null,
+    retestIds: candidates.slice(0, 20).map((c) => c.id),
+    count: candidates.length,
+  };
+}
+
 export async function getErrorAnalysis(userId: string): Promise<ErrorAnalysis | null> {
   const { data, error } = await supabase
     .from('question_attempts')
