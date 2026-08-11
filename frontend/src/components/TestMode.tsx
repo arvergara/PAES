@@ -2,8 +2,6 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Timer } from './Timer';
 import { QuestionView } from './QuestionView';
 import { ErrorTagPrompt, type ErrorTag } from './ErrorTagPrompt';
-import { PreSubmitChecklist } from './PreSubmitChecklist';
-import { getAvoidableProfile, type AvoidableType } from '../lib/errorAnalysis';
 import { PdfViewer } from './PdfViewer';
 import { ResultsView } from './ResultsView';
 import { AlertCircle, CheckCircle2, Home, FileText, HelpCircle, Send, Loader2, BookOpen, SkipForward, ArrowLeft } from 'lucide-react';
@@ -342,15 +340,6 @@ export function TestMode({
       mounted = false;
     };
   }, [subject, loadQuestions, loadQuestionsByIds, resumeSession, presetQuestionIds]);
-
-  // Cargar el tipo de error evitable más común en Matemática (para el checklist)
-  const [mathTopType, setMathTopType] = useState<AvoidableType | null>(null);
-  useEffect(() => {
-    if (!user) return;
-    getAvoidableProfile(user.id, ['M1', 'M2'])
-      .then((p) => setMathTopType(p.topType))
-      .catch(() => {});
-  }, [user]);
 
   // Cambiar a tab de texto cuando cambia el texto de lectura
   useEffect(() => {
@@ -852,11 +841,7 @@ export function TestMode({
             <span className="text-orange-600 font-semibold">¡Tiempo agotado! Pasando a la siguiente...</span>
           </div>
         ) : !isCurrentAnswerSubmitted ? (
-          <>
-            {(currentQuestion?.subject === 'M1' || currentQuestion?.subject === 'M2') && (
-              <PreSubmitChecklist topType={mathTopType} />
-            )}
-            <div className="flex gap-3">
+          <div className="flex gap-3">
             <button
               onClick={handlePrevious}
               disabled={currentQuestionIndex === 0}
@@ -882,8 +867,7 @@ export function TestMode({
             >
               <SkipForward className="w-5 h-5" />
             </button>
-            </div>
-          </>
+          </div>
         ) : (
           <>
             <div className="flex items-center justify-center space-x-2 mb-4">
