@@ -2,7 +2,7 @@ import { useState, useEffect, FormEvent } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { supabase } from './lib/supabase';
-import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle, TrendingUp, Compass } from 'lucide-react';
+import { BookOpen, FlaskConical, Atom, Leaf, AlertTriangle } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
 import { ModeSelector } from './components/ModeSelector';
@@ -13,6 +13,7 @@ import { ReviewMode } from './components/ReviewMode';
 import { StrengthsModal } from './components/StrengthsModal';
 import { RecuperablesModal } from './components/RecuperablesModal';
 import { MasteryMapModal } from './components/MasteryMapModal';
+import { NextStepPanel } from './components/NextStepPanel';
 import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
 import { LandingPage } from './components/LandingPage';
@@ -486,7 +487,14 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
 
     return (
       <div>
-        <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 text-center">Selecciona una materia</h2>
+        <NextStepPanel
+          onPractice={handleStartRetest}
+          onSelectSubject={handleSubjectSelect}
+          onOpenMastery={() => setShowMasteryModal(true)}
+          onOpenRecuperables={() => setShowRecuperablesModal(true)}
+          onOpenStrengths={() => setShowStrengthsModal(true)}
+        />
+        <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 text-center">O practica libre por materia</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
           {subjects.map((subject) => (
             <SubjectCard key={subject} subject={subject} onSelect={handleSubjectSelect} />
@@ -519,31 +527,6 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         )}
         {renderContent()}
         
-        {state === 'subject' && (
-          <div className="max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <button
-              onClick={() => setShowMasteryModal(true)}
-              className="w-full flex items-center justify-center gap-3 p-4 bg-indigo-50 dark:bg-indigo-500/10 rounded-xl border border-indigo-200 dark:border-indigo-500/30 hover:border-indigo-400 dark:hover:border-indigo-500/50 hover:bg-indigo-100 dark:hover:bg-indigo-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
-            >
-              <Compass className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
-              <span className="font-semibold text-indigo-700 dark:text-indigo-300 group-hover:text-indigo-800 dark:group-hover:text-indigo-200 transition-colors">¿Qué estudiar hoy?</span>
-            </button>
-            <button
-              onClick={() => setShowStrengthsModal(true)}
-              className="w-full flex items-center justify-center gap-3 p-4 bg-rose-50 dark:bg-rose-500/10 rounded-xl border border-rose-200 dark:border-rose-500/30 hover:border-rose-400 dark:hover:border-rose-500/50 hover:bg-rose-100 dark:hover:bg-rose-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
-            >
-              <Target className="w-5 h-5 text-rose-600 dark:text-rose-400" />
-              <span className="font-semibold text-rose-700 dark:text-rose-300 group-hover:text-rose-800 dark:group-hover:text-rose-200 transition-colors">¿Qué materias debo reforzar?</span>
-            </button>
-            <button
-              onClick={() => setShowRecuperablesModal(true)}
-              className="w-full flex items-center justify-center gap-3 p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-xl border border-emerald-200 dark:border-emerald-500/30 hover:border-emerald-400 dark:hover:border-emerald-500/50 hover:bg-emerald-100 dark:hover:bg-emerald-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
-            >
-              <TrendingUp className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
-              <span className="font-semibold text-emerald-700 dark:text-emerald-300 group-hover:text-emerald-800 dark:group-hover:text-emerald-200 transition-colors">Mis puntos recuperables</span>
-            </button>
-          </div>
-        )}
       </main>
 
       {state !== 'practice' && (
