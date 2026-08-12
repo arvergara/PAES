@@ -2,7 +2,7 @@ import { useState, useEffect, FormEvent } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { supabase } from './lib/supabase';
-import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle, TrendingUp } from 'lucide-react';
+import { BookOpen, FlaskConical, Atom, Leaf, Target, AlertTriangle, TrendingUp, Compass } from 'lucide-react';
 import { Header } from './components/Header';
 import { SubjectCard } from './components/SubjectCard';
 import { ModeSelector } from './components/ModeSelector';
@@ -12,6 +12,7 @@ import { PAESMode } from './components/PAESMode';
 import { ReviewMode } from './components/ReviewMode';
 import { StrengthsModal } from './components/StrengthsModal';
 import { RecuperablesModal } from './components/RecuperablesModal';
+import { MasteryMapModal } from './components/MasteryMapModal';
 import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
 import { LandingPage } from './components/LandingPage';
@@ -162,6 +163,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   const [resumeData, setResumeData] = useState<SavedSession | null>(null);
   const [showStrengthsModal, setShowStrengthsModal] = useState(false);
   const [showRecuperablesModal, setShowRecuperablesModal] = useState(false);
+  const [showMasteryModal, setShowMasteryModal] = useState(false);
   const [retestIds, setRetestIds] = useState<string[] | null>(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [pendingSubject, setPendingSubject] = useState<Subject | null>(null);
@@ -287,13 +289,14 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     setRetestIds(null);
   };
 
-  // Lanzar un re-test de errores evitables (Matemática) con preguntas específicas
-  const handleStartRetest = (ids: string[]) => {
+  // Lanzar un test con preguntas específicas (re-test de errores o práctica por eje)
+  const handleStartRetest = (ids: string[], subject: Subject = 'M1') => {
     if (ids.length === 0) return;
     setShowRecuperablesModal(false);
+    setShowMasteryModal(false);
     setResumeData(null);
     setRetestIds(ids);
-    setSelectedSubject('M1');
+    setSelectedSubject(subject);
     setSelectedMode('TEST');
     setState('practice');
   };
@@ -517,7 +520,14 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         {renderContent()}
         
         {state === 'subject' && (
-          <div className="max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="max-w-5xl mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <button
+              onClick={() => setShowMasteryModal(true)}
+              className="w-full flex items-center justify-center gap-3 p-4 bg-indigo-50 dark:bg-indigo-500/10 rounded-xl border border-indigo-200 dark:border-indigo-500/30 hover:border-indigo-400 dark:hover:border-indigo-500/50 hover:bg-indigo-100 dark:hover:bg-indigo-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
+            >
+              <Compass className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
+              <span className="font-semibold text-indigo-700 dark:text-indigo-300 group-hover:text-indigo-800 dark:group-hover:text-indigo-200 transition-colors">¿Qué estudiar hoy?</span>
+            </button>
             <button
               onClick={() => setShowStrengthsModal(true)}
               className="w-full flex items-center justify-center gap-3 p-4 bg-rose-50 dark:bg-rose-500/10 rounded-xl border border-rose-200 dark:border-rose-500/30 hover:border-rose-400 dark:hover:border-rose-500/50 hover:bg-rose-100 dark:hover:bg-rose-500/20 shadow-sm hover:shadow-md transition-all duration-300 group"
@@ -559,6 +569,12 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         isOpen={showRecuperablesModal}
         onClose={() => setShowRecuperablesModal(false)}
         onRetest={handleStartRetest}
+      />
+
+      <MasteryMapModal
+        isOpen={showMasteryModal}
+        onClose={() => setShowMasteryModal(false)}
+        onPractice={handleStartRetest}
       />
 
       {/* Modal de confirmación para cambiar de materia */}
