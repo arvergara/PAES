@@ -1,0 +1,579 @@
+[
+ {
+  "id": "003a572f-4e9f-43d8-8f0c-0ace27866711",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "P(TikTok ∩ Instagram) corresponde a los 150 jóvenes que usan ambas. P(Instagram) es 300 de los 500 encuestados. La probabilidad condicional es P(TikTok | Instagram) = 150/300 = 1/2.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad conjunta sobre el total de encuestados (150/500), no la condicional.",
+   "c": "Invertiste la condición y dividiste por el total de usuarios de TikTok en vez de Instagram.",
+   "d": "Usaste el total de quienes usan alguna red (300+250-150=400) como denominador."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "006581a7-2e99-44c7-b6fb-d0098c359723",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Usando log(a·b) = log(a) + log(b): log₁₀(100x) = log₁₀(100) + log₁₀(x) = 2 + 3 = 5.",
+  "distractor_diagnosis": {
+   "a": "Sumaste solo 1 por log₁₀(100), como si fuera log₁₀(10).",
+   "c": "Sumaste 3 en vez de 2 por log₁₀(100), confundiéndolo con log₁₀(1000).",
+   "d": "Multiplicaste 100 por x en vez de aplicar la propiedad del logaritmo de un producto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "009c93bc-441a-461e-9eb7-91e1bbce3e63",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando el acumulado de 5 semanas con la semana 6: P1=120+80=200, P2=200+80=280, P3=200+100=300, P4=250+40=290. Como todos se dividen por las mismas 6 semanas, el mayor total define el mayor promedio: Producto 3 con 300 (promedio 50).",
+  "distractor_diagnosis": {
+   "a": "Producto 1 tiene el total más bajo (200), no el más alto.",
+   "b": "Producto 2 (280) queda por debajo del total de Producto 3 (300).",
+   "d": "Producto 4 (290) es cercano pero menor que el total de Producto 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "00e57720-e43e-4504-b1d6-de46426e119e",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "\"A lo menos 40 puntos\" incluye los puntajes 40, 50, 60 y 70, con frecuencias 8+14+4+3=29. El total de estudiantes es 2+4+10+8+14+4+3=45. La probabilidad es 29/45.",
+  "distractor_diagnosis": {
+   "a": "Solo contaste la frecuencia del puntaje 40, ignorando 50, 60 y 70.",
+   "b": "Sumaste solo una parte de los puntajes válidos (por ejemplo 40 y 60), olvidando 50 y 70.",
+   "c": "Excluiste el puntaje 70 al sumar las frecuencias de 'a lo menos 40'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "00f71f04-1bf4-4ce7-981c-6ec4495d8aab",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "010cc3dc-e5ea-4a4a-88e0-43ce0d2c5397",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "0127587d-d357-42f2-8bca-9f20a71b9203",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para escribir 0.00045 en notación científica movemos la coma 4 lugares a la derecha hasta dejar un solo dígito antes del punto: 0.00045 = 4.5 × 10⁻⁴.",
+  "distractor_diagnosis": {
+   "b": "Contaste solo 3 lugares decimales en vez de 4.",
+   "c": "No normalizaste la mantisa a un solo dígito antes del punto decimal.",
+   "d": "Invertiste el signo del exponente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0139b5aa-72ea-4738-8bee-bca8365c4d0a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea x el número mayor e y el menor. La suma x+y=42 equivale a x=42−y. La segunda condición, tercera parte del mayor más la mitad del menor igual al menor, se escribe x/3 + y/2 = y. El sistema b) reúne exactamente estas dos ecuaciones.",
+  "distractor_diagnosis": {
+   "a": "La segunda ecuación multiplica por 3 (3x) en vez de dividir (x/3).",
+   "c": "Invertiste cuál variable es la mayor, usando y=42+x en vez de x=42−y.",
+   "d": "Usaste x=42+y en lugar de x=42−y, sumando cuando debías restar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "01ae0e80-9557-4097-b33b-d9b5933e106a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con escala 1:100, una unidad en el plano representa 100 unidades reales. Para pasar de la realidad al plano se divide por 100: medida en el plano = medida real / 100.",
+  "distractor_diagnosis": {
+   "a": "La expresión queda ambigua o invertida respecto a cuál medida se divide entre 100.",
+   "b": "Multiplicaste por 100 en vez de dividir, lo que ampliaría la medida en vez de reducirla.",
+   "c": "Elevaste al cuadrado el factor 100, como si fuera una escala de área."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "01bb98b6-2b12-49be-968b-782037a56874",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área de un círculo es πr². Con π≈22/7 y r=7: (22/7)×7² = (22/7)×49 = 22×7 = 154 cm².",
+  "distractor_diagnosis": {
+   "a": "Calculaste el perímetro (2πr) en vez del área.",
+   "b": "Duplicaste por error el resultado del perímetro.",
+   "d": "Multiplicaste por 2 el área correcta (154×2).",
+   "e": "Dejaste solo el valor de π (22/7≈22) sin multiplicar por r²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "020b5b6b-3bba-4d15-8275-acfb8fc14112",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La fórmula del combustible restante es L = c − 0,1x. Con c=50 y L=30: 30 = 50 − 0,1x → 0,1x = 20 → x = 200 km.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la operación (multiplicaste en vez de dividir 20 entre 0,1 correctamente en el sentido opuesto).",
+   "b": "Usaste 25 como constante de consumo en vez de 0,1.",
+   "d": "Dejaste el resultado sin escalar por la constante 0,1 litros/km."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "02314f8f-3b84-4d68-8734-a6f44d46f9c6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con un lado apoyado en el muro, el perímetro de reja usado es 2x+y=60, de donde y=60−2x. El área es A(x)=x(60−2x)=60x−2x², que es una parábola con máximo en x=15 (vértice), dando y=30. Las dimensiones óptimas son 15 m × 30 m.",
+  "distractor_diagnosis": {
+   "a": "Repartiste la reja en tres lados iguales en vez de solo dos perpendiculares al muro.",
+   "c": "Asumiste un cuadrado sin considerar que un lado no necesita reja.",
+   "d": "Invertiste la relación entre lados, dejando el paralelo al muro más corto de lo óptimo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0246ca18-f49a-42d1-bc50-65287fdbbfce",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Es una proporcionalidad directa entre estiramiento y masa: 2/3 = x/9. Despejando, x = (2×9)/3 = 6 cm.",
+  "distractor_diagnosis": {
+   "a": "Sumaste en vez de aplicar la razón de proporcionalidad.",
+   "c": "Usaste una razón incorrecta, como si la masa se triplicara dos veces.",
+   "d": "Multiplicaste 3×9 en vez de resolver la proporción 2/3 = x/9."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "02ed6734-79ef-4428-90c1-10b422a4640b",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Miguel toma una sola taza de leche (280 mg fijos) y N vasos de jugo (50 mg cada uno). Para cumplir la ingesta mínima de 1000 mg, la inecuación es 280 + 50N ≥ 1000.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 280 por N, tratando la leche como si también variara con N.",
+   "b": "Usaste el signo ≤ en vez de ≥, invirtiendo la condición de mínimo requerido.",
+   "c": "Multiplicaste 280 por N en lugar de dejarlo fijo, ya que solo toma una taza de leche."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "03ba2060-0aa0-44f7-982c-09abdb9169d0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área de la base trapezoidal es (1/2)(b1+b2)(h) = (1/2)(6+4)(3) = 15 m². El volumen es área de base por largo del prisma: 15×8 = 120 m³.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste el factor 1/2 del área del trapecio.",
+   "c": "Calculaste (6×4)/2×8, tratando las bases como si formaran un rectángulo simple.",
+   "d": "Dividiste el resultado correcto entre 2 una vez más de lo necesario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "03f7fc12-7cc4-487f-89db-06c011a76b32",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El volumen original es V = πr²(20) = 20πr². Al aumentar la capacidad un 20% manteniendo la altura, el nuevo volumen es 1,2×20πr² = 24πr².",
+  "distractor_diagnosis": {
+   "a": "Aplicaste una reducción del 20% en vez de un aumento.",
+   "c": "Aplicaste un aumento del 44% (1,2×1,2) en vez de 20%.",
+   "d": "Escalaste el coeficiente con un factor mucho mayor al 1,2 requerido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "04733a2f-9e3d-46ab-bed6-d13ec959cdea",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Cuando dos rectas paralelas son cortadas por una transversal, los ángulos alternos internos son congruentes entre sí, es decir, iguales.",
+  "distractor_diagnosis": {
+   "a": "Confundiste alternos internos con ángulos colaterales internos, que sí son suplementarios.",
+   "b": "Los ángulos alternos internos no son complementarios; ese concepto no aplica en este contexto.",
+   "d": "Opuestos por el vértice es una relación distinta entre ángulos que comparten vértice, no entre paralelas.",
+   "e": "Sí existe una relación identificable (son iguales), por lo que esta opción no aplica."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "04a4d3c6-5c6f-4ab5-a217-e319985f4ab2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La suma total de las 25 notas es 25×5,2=130. Al retirar la nota más alta (7,0), la nueva suma es 130−7=123, y el nuevo promedio sobre 24 alumnos es 123/24=5,125.",
+  "distractor_diagnosis": {
+   "b": "Redondeaste 123/24 hacia abajo en vez de calcular el valor exacto.",
+   "c": "Usaste una aproximación del promedio sin dividir exactamente por 24.",
+   "d": "Restaste directamente 0,2 del promedio original sin recalcular sobre 24 alumnos.",
+   "e": "Dividiste por 25 en vez de 24, olvidando que un alumno fue retirado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "04a9cbb7-acd6-4e77-80e4-37d421bbc21b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los puntajes son: Pedro 4×10+2×5=50; Sandra 3×10+5×5=55; Roberta 2×10+8×5=60. El mayor puntaje corresponde a Roberta (60) y el menor a Pedro (50).",
+  "distractor_diagnosis": {
+   "a": "Sandra no tiene el menor puntaje (55); el menor es de Pedro.",
+   "c": "Invertiste el orden: Roberta tiene el mayor puntaje, no Sandra.",
+   "d": "Pedro no tiene el mayor puntaje (50 es el más bajo de los tres)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "04f18add-914a-4029-8444-4d92b0d59d30",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "051ae9dc-43f0-43a2-be9b-82fe38b7daa3",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Primero resolvemos el paréntesis: (−1−5)=−6. Luego (−1)×(−6)=6. Finalmente 3−6=−3.",
+  "distractor_diagnosis": {
+   "b": "Sumaste 3+6 en vez de restar el producto del paréntesis.",
+   "c": "Calculaste (−1)×(−6) con signo incorrecto y luego sumaste en vez de restar.",
+   "d": "Multiplicaste 3 por el resultado del paréntesis en vez de restarlo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "05575b80-0dbd-49b5-9a4e-0b15230576f9",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La longitud de arco es (ángulo/360°)×2πr = (60/360)×2π(12) = (1/6)×24π = 4π cm.",
+  "distractor_diagnosis": {
+   "b": "Calculaste la mitad del arco correcto por un error de fracción.",
+   "c": "Usaste 90° en vez de 60° como ángulo central.",
+   "d": "Calculaste la circunferencia completa (2πr) en vez de la fracción del arco.",
+   "e": "Usaste 120° en vez de 60° para la fracción del ángulo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "060bf843-10fc-409d-b0c5-d41d4298eb8f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El costo de la tela es ¾×2.400=$1.800. El costo del otro material es ⅔×1.800=$1.200. El total pagado es 1.800+1.200=$3.000.",
+  "distractor_diagnosis": {
+   "a": "Sumaste incorrectamente los productos parciales.",
+   "c": "Solo consideraste el costo de la tela, olvidando el segundo material.",
+   "d": "Sumaste los precios por metro (2.400+1.800) sin aplicar las fracciones de cantidad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0709f045-aca7-4133-9222-416107f0bf7e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "07176360-68ff-4eb9-bdb0-80b447ef1b4f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las habitaciones disponibles son 200−140=60. El porcentaje disponible es (60/200)×100=30%.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el porcentaje sobre las habitaciones reservadas (140) en vez del total.",
+   "c": "Confundiste el número de habitaciones disponibles (60) con un porcentaje directo.",
+   "d": "Calculaste el porcentaje de habitaciones ocupadas en vez de las disponibles."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0724155f-0ba7-450c-a809-86aab4f4cf64",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área de un rectángulo es largo × ancho = 10 × 5 = 50 m².",
+  "distractor_diagnosis": {
+   "a": "Sumaste los lados (10+5) en vez de multiplicarlos.",
+   "b": "Calculaste el semiperímetro (largo+ancho) en vez del área.",
+   "d": "Usaste 10² en vez de multiplicar 10×5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "073b01d9-d727-4248-8081-a25353eddc89",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Simplificando cada radical: √18=3√2 y √8=2√2. Entonces √18−√8+√2 = 3√2−2√2+√2 = 2√2.",
+  "distractor_diagnosis": {
+   "a": "Cancelaste incorrectamente los términos con radical, dejando un resultado sin simplificar bien.",
+   "c": "Sumaste los números bajo la raíz (18-8+2=12) en vez de simplificar cada radical por separado.",
+   "d": "Combinaste mal los radicales, arrastrando un error adicional al simplificar.",
+   "e": "Sumaste los coeficientes en vez de operarlos correctamente (3-2+1=2, no 6)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "073ffc68-dcba-4c06-aab6-a9e5bbabb97e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "07504690-732c-44a5-8c3e-ec9d1d018378",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "0759e13c-c607-40f3-b2ef-d503ee394ec6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los estudiantes que estudian más de 10 horas son los de los intervalos 11-15 (60) y 16-20 (20), sumando 80 estudiantes. El porcentaje es (80/200)×100=40%.",
+  "distractor_diagnosis": {
+   "a": "Consideraste solo uno de los dos intervalos (por ejemplo, 16-20) en vez de sumar ambos.",
+   "c": "Incluiste el intervalo 6-10 horas, que no cumple la condición 'más de 10 horas'.",
+   "d": "Sumaste un intervalo adicional que no corresponde a 'más de 10 horas'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "076e8097-e7c5-4cd6-9608-a4c205e2e460",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para dividir fracciones se multiplica por el recíproco: 4/7 ÷ 2/3 = 4/7 × 3/2 = 12/14, que simplificado es 6/7.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los numeradores y denominadores de forma cruzada incorrecta.",
+   "c": "Dejaste el resultado sin simplificar (12/14 se reduce a 6/7), pero con un numerador equivocado.",
+   "d": "Dejaste el resultado sin simplificar (12/14), sin reducirlo a su forma mínima.",
+   "e": "Dividiste en vez de multiplicar por el recíproco, invirtiendo la operación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "07d1241a-2c72-4c35-a968-495ce1714263",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "f(1)=10+25−5=30, f(2)=10+50−20=40, f(3)=10+75−45=40, f(4)=10+100−80=30. La suma es 30+40+40+30=140.",
+  "distractor_diagnosis": {
+   "a": "Omitiste uno de los cuatro términos al sumar.",
+   "c": "Sumaste un término adicional (como f(5)) o calculaste mal uno de los valores.",
+   "d": "Sumaste solo la parte positiva de la función (10+25n), ignorando el término −5n²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "088ea5dd-0abc-4422-a9fd-bde93023f43b",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "−2³ significa −(2³) = −8, no 8, por lo que la afirmación d) es la falsa. Las demás son correctas: (−2)²=4, −2²=−4, (−2)³=−8 y (−1)⁴=1.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que (−2)²=4 era la falsa, pero el cuadrado de un número negativo sí es positivo.",
+   "b": "Creíste que −2²=−4 era falsa, pero el signo menos no está elevado al cuadrado, así que sí da −4.",
+   "c": "Creíste que (−2)³=−8 era falsa, pero el cubo de un negativo es negativo.",
+   "e": "Creíste que (−1)⁴=1 era falsa, pero toda potencia par de −1 da 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "08a97891-39ab-43b3-a0e0-91d1e49a0bc3",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "08c83b30-d18b-45da-b39d-2cf7ade1ced3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El total de pacientes con enfermedad respiratoria es 60 (fumadores) + 30 (no fumadores) = 90. La probabilidad condicional P(fumador | enfermedad) = 60/90 = 2/3.",
+  "distractor_diagnosis": {
+   "a": "Usaste el número de no fumadores enfermos (30/90) en vez de los fumadores.",
+   "c": "Usaste un denominador incorrecto (por ejemplo 60/80) en vez del total de 90 enfermos.",
+   "d": "Usaste el total de fumadores (80) como denominador en vez del total de enfermos (90)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "09064c38-7677-4b01-9ecb-a5f66f49dd9a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El área total con el borde es (4+2x)(10+2x)=112. Expandiendo: 4x²+28x+40=112, y dividiendo por 4 se obtiene x²+7x−18=0.",
+  "distractor_diagnosis": {
+   "a": "Sumaste las áreas de piscina y borde por separado en vez de expandir el producto (4+2x)(10+2x).",
+   "b": "No dividiste correctamente la ecuación expandida por 4 antes de simplificar.",
+   "c": "Aplicaste el ancho del borde solo a un lado en vez de a ambos.",
+   "e": "Multiplicaste el lado derecho por un factor extra (4x) en vez de expandir el binomio correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "090a1ac2-af05-4254-b535-ee84e5f35f49",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cateto en la repisa es (2/3)×30=20 cm. La hipotenusa es el doble: 40 cm. Por Pitágoras, el cateto en la pared es √(40²−20²)=√1200=20√3 cm.",
+  "distractor_diagnosis": {
+   "a": "Usaste 3/2 en vez de 2/3 para el cateto de la repisa, aumentando el valor en vez de reducirlo.",
+   "b": "Calculaste bien los catetos base pero restaste mal los cuadrados (1600−400).",
+   "d": "Usaste la razón 3/2 en vez de 2/3 para calcular el cateto horizontal."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0934c93e-07d8-4408-8828-5cfb2208f127",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El lado más largo, 2x+15, es la hipotenusa. Por Pitágoras: x²+(2x+10)²=(2x+15)². Expandiendo: x²+4x²+40x+100=4x²+60x+225, que se simplifica a x²−20x−125=0.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el signo al pasar términos, quedando +20x+125 en vez de −20x−125.",
+   "b": "No cancelaste correctamente los términos 4x² de ambos lados.",
+   "c": "Cometiste un error al expandir (2x+10)², dejando coeficientes erróneos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "09b25cbf-ca36-4496-8c29-03a38cc10853",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área original es 40×25=1.000 m². El nuevo largo es 40×1,2=48 m y el nuevo ancho es 25×0,8=20 m, dando una nueva área de 960 m². La variación es (960−1000)/1000=−4%, es decir, disminuye un 4%.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que un aumento y una disminución del mismo porcentaje se cancelan, pero el efecto neto no es cero.",
+   "b": "Invertiste el signo del cambio porcentual: el área disminuye, no aumenta.",
+   "d": "Confundiste el porcentaje de cambio de un solo lado (20%) con el cambio neto del área."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a1fbabb-0b88-42d9-88ef-d2025595ce2f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Las variaciones mensuales son +2, −4, +3, +1 toneladas, que sumadas dan un cambio neto de +2. Si al final hay 70 toneladas, la cantidad inicial era 70−2=68 toneladas.",
+  "distractor_diagnosis": {
+   "a": "Sumaste mal las variaciones y obtuviste un cambio neto distinto de +2.",
+   "c": "Asumiste que el cambio neto fue cero, ignorando las variaciones dadas.",
+   "d": "Sumaste el cambio neto al total final en vez de restarlo para volver al valor inicial."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a287b3b-a651-4f6d-8357-c632cc771b10",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El gráfico muestra 47%, 72% y 90% para 2018, 2019 y 2020 respectivamente, lo que evidencia un aumento sostenido en el consumo de legumbres durante esos años.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que las barras deben sumar 100%, pero representan porcentajes de años distintos, no partes de un mismo total.",
+   "b": "Interpretaste el 90% como preferencia alimentaria absoluta, cuando solo indica frecuencia de consumo semanal.",
+   "c": "Extrapolaste una tendencia futura (2021) que no puede deducirse directamente de los datos históricos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a64d36d-e1a8-49c0-91f5-86f9195941a4",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El 15% de 300 es 0,15×300=45. Luego el 40% de 45 es 0,40×45=18.",
+  "distractor_diagnosis": {
+   "b": "Calculaste un porcentaje distinto (como 25%) de 300 en vez de aplicar los dos porcentajes en secuencia.",
+   "c": "Sumaste 15% y 40% de 300 por separado en vez de aplicarlos en cadena.",
+   "d": "Multiplicaste 0,6×300 en vez de aplicar el 40% sobre el 15% ya calculado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0ac0c0eb-64b4-4783-bd6b-ad4f6d711466",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El décimo término es a₁₀=5+9×3=32. La suma de los 10 primeros términos es S₁₀=10×(5+32)/2=185.",
+  "distractor_diagnosis": {
+   "a": "Usaste 8 términos de diferencia en vez de 9 al calcular a₁₀.",
+   "c": "Calculaste mal a₁₀, usando un múltiplo distinto de 3.",
+   "d": "No multiplicaste correctamente el promedio de extremos por el número de términos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0ac59dfb-64e4-4805-917a-a5ece7d98fbe",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Igualando 3x−2=2x+5, restamos 2x de ambos lados: x−2=5. Sumando 2 a ambos lados: x=7.",
+  "distractor_diagnosis": {
+   "a": "Restaste en vez de sumar el 2 al despejar la ecuación final.",
+   "b": "Olvidaste el término −2 al despejar, dejando solo x=5.",
+   "d": "Sumaste 2 y 5 sin restar correctamente el término 2x en el primer paso."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0adb01b6-71fd-4f36-a9e1-9926780841c6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cateto horizontal es (3/2)×30=45 cm. La hipotenusa es el doble: 90 cm. Por Pitágoras, el cateto vertical es √(90²−45²)=√6075=45√3 cm.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal los cuadrados (90² y 45²), obteniendo un valor distinto bajo la raíz.",
+   "b": "Confundiste esta escuadra con otra de proporción 2/3, usando 20 en vez de 45.",
+   "d": "Usaste 2/3 en vez de 3/2 para calcular el cateto horizontal."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0b9514ce-ab8c-49f5-8aac-f1028ac12814",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "0be60ae0-fcb7-469d-8800-c626c7b17ea3",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con 9 instrucciones, el tiempo es M=3⁹ segundos. Si el programa calculó durante 3M segundos, eso es 3×3⁹=3¹⁰. Como el tiempo para n instrucciones es 3ⁿ, se cumple 3ⁿ=3¹⁰, por lo tanto n=10.",
+  "distractor_diagnosis": {
+   "b": "Calculaste 3³=27 en vez de resolver la ecuación de exponentes 3ⁿ=3¹⁰.",
+   "c": "Confundiste la variable simbólica n de la fórmula general con la respuesta numérica pedida.",
+   "d": "Dividiste la variable simbólica n entre 3 en vez de resolver la ecuación de exponentes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0bf20413-8ada-47be-8690-0c6a56844c76",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El 10% de $45.000 es $4.500. Restando el descuento: $45.000−$4.500=$40.500.",
+  "distractor_diagnosis": {
+   "b": "Redondeaste el descuento a un valor aproximado en vez de calcular exactamente el 10%.",
+   "c": "Aplicaste un descuento menor al 10% real (cercano a 5,5%).",
+   "d": "Aplicaste un descuento mucho menor al 10% (cercano a solo 2%)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0d1afc17-5461-4ecd-89c2-040474977dd8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El barril llena 96 vasos completos. Para verter la misma cantidad de líquido en vasos llenados solo hasta ¾ de su capacidad, se necesitan 96÷(3/4)=96×(4/3)=128 vasos. La diferencia es 128−96=32 vasos adicionales.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 96×3 en vez de dividir por 3/4.",
+   "b": "Aplicaste una fracción incorrecta de 96 en vez del factor 4/3.",
+   "c": "Calculaste la mitad de la diferencia correcta en vez de los 32 vasos completos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0d2c308d-4bcf-40dc-9650-58490eaccebc",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "12 km equivalen a 1.200.000 cm. Dividiendo por la escala 1:50.000: 1.200.000/50.000=24 cm.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste convertir los km a cm antes de dividir por la escala.",
+   "c": "Dividiste por 100.000 en vez de 50.000 al aplicar la escala.",
+   "d": "Usaste la escala como 1:500.000 en vez de 1:50.000, dividiendo un factor de 10 de más.",
+   "e": "Multiplicaste en vez de dividir por la escala, o convertiste mal km a cm."
+  },
+  "skip_reason": null
+ }
+]

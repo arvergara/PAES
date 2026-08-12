@@ -1,0 +1,560 @@
+[
+ {
+  "id": "54c58373-dd46-4f6d-a312-997d3a68c8ee",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para que la raíz cuadrada esté definida, el radicando debe ser mayor o igual a cero: 6 − 2x ≥ 0. Despejando, −2x ≥ −6, y al dividir por −2 se invierte la desigualdad, obteniendo x ≤ 3. El dominio es (−∞, 3].",
+  "distractor_diagnosis": {
+   "b": "Olvidaste invertir la desigualdad al dividir por un número negativo.",
+   "c": "Despejaste sin multiplicar el coeficiente 2 y usaste una desigualdad estricta.",
+   "d": "No dividiste por el coeficiente 2 al despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "55168e95-3138-46bb-a348-525cf587af95",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La primera encuesta tuvo 25% de omisión y la segunda 35%. La diferencia entre ambos porcentajes es 35% − 25% = 10 puntos porcentuales, por lo que Angélica tiene la razón al describir un aumento de 10 puntos porcentuales.",
+  "distractor_diagnosis": {
+   "a": "Sumaste o combinaste mal los porcentajes en vez de compararlos correctamente.",
+   "c": "Calculaste mal la cantidad de personas que omitieron; no corresponde a 60.",
+   "d": "No hay información que permita comparar cuál pregunta se omitió más dentro de una misma encuesta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "551cfc8a-baf3-4b02-b08a-dd2dd9e1250d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "20% del 20% del 20% de P equivale a multiplicar 0,20 × 0,20 × 0,20 = 0,008, que corresponde a 0,8% de P.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste por 100 en vez de dividir, invirtiendo la escala porcentual.",
+   "c": "Operaste los porcentajes con una combinación de suma y multiplicación en vez de multiplicar los tres directamente.",
+   "d": "Sumaste los tres 20% (20+20+20=60%) en vez de multiplicarlos sucesivamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "553157e3-f9a7-4d98-a0ee-ab464f23a19b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen del cilindro es V = π·r²·h = 3,14 · 2² · 5 = 62,8 m³. Como el depósito está lleno a ¾ de su capacidad, el agua contenida es 62,8 × 0,75 = 47,1 m³.",
+  "distractor_diagnosis": {
+   "b": "Usaste el volumen total sin aplicar la fracción ¾.",
+   "c": "Aplicaste ¼ de la capacidad en vez de ¾.",
+   "d": "Usaste el diámetro (4) como si fuera el radio al calcular el volumen."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "554e73a1-4e9b-4172-ba1d-8e99e7f5aa67",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para asegurar que a Pedro le alcanza se necesita n + 200 ≥ m. La condición n + 200 ≠ m no permite saber si el monto entregado es mayor o menor que el precio, por lo que es la única que no asegura si le alcanza o no.",
+  "distractor_diagnosis": {
+   "a": "Esta condición sí permite asegurar con certeza que NO le alcanza (200+n<m), por lo que sí resuelve la pregunta.",
+   "b": "Si n=m, entonces n+200 > m, por lo que sí se puede asegurar que le alcanza.",
+   "c": "Si n+200=m, le alcanza exactamente, por lo que sí se puede asegurar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "558313fd-84e5-4281-a5bd-7c956f1b4677",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La función P(x) = 1,5x + 2500 se lee como el precio de compra x más un 50% de recargo sobre ese precio (0,5x), más un cargo fijo de $2500 aparte. Esto corresponde a un recargo del 50% del precio importado, que no está incluido en el cargo fijo.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la expresión y no identificaste el cargo fijo real de $2500.",
+   "c": "Interpretaste el cargo fijo como una multiplicación en vez de una suma independiente.",
+   "d": "Olvidaste el cargo fijo de $2500 al describir el recargo del 50%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "55ac8074-7ccb-41c8-bcac-dadbd4e9691a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "55b31df4-4f7f-4fdb-83fe-894e8b816cec",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se despeja x en y = 4x − 7: sumando 7 a ambos lados, y + 7 = 4x, luego x = (y+7)/4. Intercambiando x por y se obtiene f⁻¹(x) = (x+7)/4.",
+  "distractor_diagnosis": {
+   "a": "Restaste 7 en vez de sumarlo al despejar.",
+   "c": "Solo cambiaste el signo del término constante, sin despejar x correctamente.",
+   "d": "Invertiste el orden de los términos en vez de despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "55bba7c4-e9ed-4c30-8efc-beef7baecc69",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "x² − 9 es una diferencia de cuadrados (a²−b² con a=x, b=3), que se factoriza como (a−b)(a+b) = (x−3)(x+3).",
+  "distractor_diagnosis": {
+   "a": "Confundiste diferencia de cuadrados con cuadrado de binomio.",
+   "b": "Mismo error: aplicaste cuadrado de binomio en vez de diferencia de cuadrados.",
+   "d": "Buscaste dos números que den -9 al multiplicarse sin que correspondan a raíces cuadradas correctas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "55df6c50-e5ee-4ba2-b3fb-6ba4fa853182",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5609d15a-b23f-4eab-8979-c96824ab5116",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "56116f97-f83e-4f31-9e7b-1bf29cf00849",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "56694857-6c3c-4ec1-ab32-fd04447a6b5f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se aplica el cuadrado de un binomio: (a+b)² = a²+2ab+b², con a=2x y b=3. Entonces (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el término central 2ab por completo.",
+   "b": "Calculaste el término central sin el factor 2 (2ab).",
+   "d": "No elevaste al cuadrado correctamente el coeficiente de x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "569132ee-064c-4a33-924d-198ad18d9e49",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La escala 1:50.000 indica que cada cm en el mapa representa 50.000 cm reales. Multiplicando: 7,4 × 50.000 = 370.000 cm, que equivale a 3,7 km.",
+  "distractor_diagnosis": {
+   "b": "Te faltó un factor de 10 al convertir de cm a km.",
+   "c": "Te faltaron dos factores de 10 al convertir de cm a km.",
+   "d": "Dividiste en vez de multiplicar por la escala."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "56e0d057-5522-4855-9123-c166604ded27",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Toda base negativa elevada a un exponente par da un resultado positivo. Como 100 es par, (−1)¹⁰⁰ = 1.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste la base por el exponente en vez de elevarla.",
+   "b": "Mismo error, sin conservar además el signo correcto.",
+   "c": "Confundiste con un exponente impar, donde el resultado conservaría el signo negativo.",
+   "e": "Ninguna potencia de una base distinta de cero puede dar 0."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5752f6f1-7976-4eea-8879-68e792ac4456",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El doble del cubo de x es 2x³. Un tercio del mismo número es x/3. 'Disminuido en' indica una resta, por lo que la expresión es 2x³ − x/3.",
+  "distractor_diagnosis": {
+   "a": "Elevaste al cubo el doble de x en vez de duplicar el cubo de x.",
+   "b": "Olvidaste multiplicar el tercio por la variable x.",
+   "c": "Factorizaste el 2 de forma incorrecta e ignoraste la variable en el segundo término."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "576f283c-1a56-4509-9f58-8cd309bfc3d4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el cateto menor es a, el mayor es a+3. El área es (a(a+3))/2 = 54, lo que da a² + 3a − 108 = 0. Factorizando, (a−9)(a+12)=0, por lo que a=9. El cateto mayor mide 9+3 = 12 cm.",
+  "distractor_diagnosis": {
+   "a": "Resolviste la ecuación cuadrática con un signo o factor equivocado.",
+   "b": "Diste el valor del cateto menor en vez del mayor.",
+   "d": "Planteaste el área sin dividir por 2, obteniendo un valor mayor al correcto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5856f4db-47b9-46fb-9767-4285e248aad5",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5887a801-d778-472e-a25e-813ddedb362a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el 20% de un número es 15, entonces 0,20 · x = 15. Despejando, x = 15/0,20 = 75.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 15 por 0,20 en vez de dividir.",
+   "b": "Dividiste 15 entre 0,5 en vez de entre 0,20.",
+   "d": "Confundiste con calcular el 15% de un número que da 20.",
+   "e": "Multiplicaste por un factor incorrecto en vez de dividir por 0,20."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "58e3e6cd-cf48-4dbd-bcd3-b792399ba7d4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "593b3880-d479-4257-b87b-07c433f7e354",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Como P(pintura al óleo) = 0,25 = 20/total, el total de personas es 20/0,25 = 80. Sumando los talleres conocidos: 20+18+26 = 64. La cantidad en repostería es 80 − 64 = 16.",
+  "distractor_diagnosis": {
+   "a": "Sumaste mal los talleres conocidos o calculaste el total incorrectamente.",
+   "b": "Multiplicaste 20 por un factor equivocado para hallar el total.",
+   "d": "Restaste mal, obteniendo un valor demasiado pequeño."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "59a49480-57f3-4e35-a712-70fc373c0ae5",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Al dividir potencias de igual base se restan los exponentes: 5⁶ ÷ 5⁴ = 5^(6−4) = 5².",
+  "distractor_diagnosis": {
+   "b": "Sumaste los exponentes en vez de restarlos.",
+   "c": "Restaste las bases en vez de los exponentes.",
+   "d": "Multiplicaste los exponentes en vez de restarlos.",
+   "e": "Aunque 5²=25 tiene el mismo valor numérico, la forma solicitada es la potencia simplificada 5², no su valor decimal."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "59abbc12-59a9-4e92-8540-0c72dd8b977c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5a4b6cec-5ed4-4d57-9eb5-6258a8ba57f6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "1 terabyte = 10¹² bytes y 1 megabyte = 10⁶ bytes. El cociente 10¹²/10⁶ = 10⁶ indica cuántas veces cabe el almacenamiento antiguo en el dispositivo actual.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal los exponentes al dividir las potencias de 10.",
+   "b": "Te faltó una unidad en la resta de exponentes (12−6).",
+   "d": "Usaste directamente la capacidad del terabyte sin dividirla por la capacidad del megabyte."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5a4d0359-143e-415a-943e-fbb56658edc7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se traduce el enunciado a la ecuación 2x + 5 = 21. Despejando: 2x = 16, por lo que x = 8.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal al despejar 2x.",
+   "b": "Dividiste 16 por un número distinto de 2.",
+   "d": "Sumaste en vez de restar 5 al plantear la ecuación.",
+   "e": "Olvidaste restar el 5 antes de dividir por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5af70ca3-389d-4514-a5ca-fd72dcac09c5",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si x es el largo, el ancho es x−10 y la altura es 60. El volumen es V(x) = x(x−10)(60) = 60x² − 600x, que corresponde a la función h(x).",
+  "distractor_diagnosis": {
+   "a": "Usaste una constante (600) en vez de un término lineal en x; no consideraste que el ancho depende de x.",
+   "b": "Sumaste en vez de restar, además de usar una constante en vez de un término dependiente de x.",
+   "d": "Usaste 10 en vez de 60 como coeficiente del término lineal, confundiendo la diferencia de medidas con la altura.",
+   "e": "Ignoraste que el ancho depende de x (x−10), tratando el volumen como un cuadrado simple escalado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5b60ee37-3d7d-4931-ba57-94b9718048bb",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El total original de personas es h + 200 + t + 50 = h + t + 250. Si cada frecuencia aumenta un 20%, el nuevo total es 1,2(h+t+250) = 1,2h + 1,2t + 300.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste incluir el término constante 300 que proviene de las frecuencias conocidas (200 y 50).",
+   "c": "Consideraste solo las frecuencias fijas, ignorando h y t.",
+   "d": "Calculaste solo el porcentaje de aumento sin aplicarlo a las cantidades reales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5be57277-7d0c-4338-ae61-2b85c88aaa71",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La primera sesión mantiene su precio de $30.000. Las siguientes (x−1) sesiones cuestan 20% menos, es decir $24.000 cada una. El total es 30.000 + 24.000(x−1) = 24.000x + 6.000.",
+  "distractor_diagnosis": {
+   "a": "Aplicaste el descuento a todas las sesiones, incluida la primera.",
+   "c": "Calculaste mal el porcentaje de descuento sobre el precio base.",
+   "d": "Invertiste los roles de la sesión con descuento y la sesión sin descuento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5c12c357-a3bf-4fd6-9306-1f95687c27bb",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En un trapecio isósceles con bases paralelas al eje x, ambas bases tienen pendiente cero (I verdadera). Los lados no paralelos son simétricos respecto al eje de simetría, por lo que sus pendientes son opuestas y suman cero (II verdadera). Las diagonales no son necesariamente perpendiculares, por lo que su producto de pendientes no siempre es −1 (III falsa). La respuesta correcta es 'Solo I y II'.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que las pendientes de los lados no paralelos también son opuestas y suman cero.",
+   "b": "Descartaste incorrectamente que ambas bases tienen la misma pendiente (cero).",
+   "c": "Asumiste que las diagonales de un trapecio isósceles siempre son perpendiculares, lo cual no está garantizado.",
+   "e": "Incluiste la afirmación III como verdadera sin verificar que la perpendicularidad de las diagonales no siempre se cumple."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5c6753c0-e9dd-4904-9e1a-e7ac50db3f78",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el 15% de un número es 45, el número completo es 45/0,15 = 300. El 30% de 300 es 90; también puede notarse que 30% es el doble de 15%, así que 45×2=90.",
+  "distractor_diagnosis": {
+   "a": "Sumaste 45+15 en vez de duplicar correctamente el valor.",
+   "b": "Sumaste 45+30 sin relacionar los porcentajes correctamente.",
+   "d": "Sumaste un múltiplo incorrecto de 45.",
+   "e": "Multiplicaste 45 por un factor mayor a 2 sin justificación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5c733e1e-63f5-47c4-9bf4-384268abb45c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sustituyendo a=3 y b=−2: a² − b² = 9 − 4 = 5. También puede verificarse con la factorización (a+b)(a−b) = (1)(5) = 5.",
+  "distractor_diagnosis": {
+   "b": "Sumaste los cuadrados (9+4) en vez de restarlos.",
+   "c": "Calculaste (a−b)² en vez de a²−b².",
+   "d": "Invertiste el orden de la resta (b²−a²) en vez de a²−b²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5c762a55-85c2-418d-a416-3a85834f6131",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "(x+2)² se desarrolla como x² + 2(x)(2) + 2² = x² + 4x + 4, aplicando el cuadrado de un binomio.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el término central 2ab del cuadrado de binomio.",
+   "b": "Calculaste el término central sin el factor 2 (usaste 'x' en vez de '2ab').",
+   "d": "Olvidaste elevar al cuadrado el segundo término (2²=4) y usaste 2 en su lugar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5cb4f6c5-2b42-4454-945b-e9e93de297ca",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5cf18da9-58bd-4603-b053-1233a622317d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El porcentaje se calcula como (25/125)×100 = 0,2×100 = 20%.",
+  "distractor_diagnosis": {
+   "a": "Dividiste mal la fracción, obteniendo un valor diez veces menor.",
+   "c": "Confundiste 25 de 125 con 25 de 100.",
+   "d": "Invertiste la fracción (125/25) en vez de calcular 25/125."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5cfa548a-eeb8-4e34-8da9-1c0b49e58430",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5dc6b3e5-eeee-4f84-91b5-fbdae4e44fd8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5dce1c6e-8423-4c22-8c67-069b622c46c4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La balanza izquierda (2 regalos + 500 g) pesa menos que la derecha (3 regalos): 2r + 500 < 3r, es decir, 500 < r. Por lo tanto, cada regalo tiene una masa mayor que 500 gramos.",
+  "distractor_diagnosis": {
+   "a": "No usaste la desigualdad de la balanza; asumiste una igualdad arbitraria.",
+   "b": "Trataste la desigualdad como si fuera una igualdad, ignorando que la balanza izquierda pesa menos.",
+   "d": "Invertiste el sentido de la desigualdad al despejar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5eac00a6-c87f-41f9-9de7-0a146ab2a721",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para un peso P se necesitan P/35 litros, es decir (P/35)×1000 cm³. El volumen de la botella cilíndrica es π·(3)²·20 (radio 3 cm, mitad del diámetro 6 cm). El número de veces que debe beber la botella llena es ((P/35)×1000) / (π·9·20).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste convertir el peso a litros necesarios (P/35) y usaste P directamente.",
+   "b": "Usaste el diámetro (6) en vez del radio (3) al calcular el área de la base, elevándolo al cuadrado como 36.",
+   "d": "No convertiste correctamente de litros a cm³ y usaste el diámetro en vez del radio."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5edd6d12-5f2e-426d-86a3-03d4c36e8893",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Ordenando los datos: 2, 3, 5, 7, 9. Como hay 5 valores (impar), la mediana es el valor central, que es 5.",
+  "distractor_diagnosis": {
+   "b": "Elegiste el segundo valor desde el final en vez del valor central.",
+   "c": "Elegiste el valor mínimo en vez de la mediana.",
+   "d": "Elegiste el valor máximo en vez de la mediana."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5f852e5e-08b7-4a93-a747-f71072c5a078",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La pendiente es m = (5−(−3))/(2−0) = 8/2 = 4. Como la recta pasa por (0,−3), el intercepto en y es −3. La ecuación de la recta es y = 4x − 3.",
+  "distractor_diagnosis": {
+   "b": "Cambiaste el signo del intercepto en y.",
+   "c": "Calculaste mal la pendiente, dividiendo por un valor incorrecto.",
+   "d": "Invertiste el signo de la pendiente al calcular la diferencia de coordenadas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5fa2a9ef-eb84-4167-b24b-307556dcb122",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "601277aa-663f-4f04-9b5f-b23481368884",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "f(x) = mx + n. Con la condición (1), el punto de intersección con el eje y es (0, n), lo que entrega n directamente. Con la condición (2), conociendo la pendiente m y un punto (x₀,y₀), se despeja n = y₀ − m·x₀. Cada condición por separado es suficiente, por lo que la respuesta es 'cada una por sí sola'.",
+  "distractor_diagnosis": {
+   "a": "Descartaste que la condición (2) también permite hallar n de forma independiente.",
+   "b": "Descartaste que la condición (1) por sí sola ya entrega el valor de n directamente.",
+   "c": "No es necesario usar ambas condiciones juntas, ya que cada una es suficiente por separado.",
+   "e": "Ambas condiciones individualmente ya son suficientes, por lo que no se requiere información adicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "60660fcc-c799-470b-a587-342c248652e3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Usando el teorema de Bayes: P(≥6) = 0,6·0,7 + 0,4·0,3 = 0,42+0,12 = 0,54. Luego, P(deporte|≥6) = 0,42/0,54 ≈ 0,78.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el denominador P(≥6), usando un valor distinto de 0,54.",
+   "c": "Usaste una probabilidad condicional incorrecta en el numerador o denominador.",
+   "d": "Invertiste alguna de las probabilidades condicionales (deporte vs no deporte)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "61042dd7-a73e-4d40-8e68-f6ba92e055c3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al elevar una potencia a otra potencia se multiplican los exponentes: (3²)³ = 3^(2×3) = 3⁶.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los exponentes en vez de multiplicarlos.",
+   "c": "Calculaste 3² primero pero no aplicaste correctamente la propiedad de potencia de potencia.",
+   "d": "Multiplicaste mal los exponentes, obteniendo 8 en vez de 6.",
+   "e": "Cambiaste la base a 9 sin ajustar correctamente el exponente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6115b5cc-fa71-4c1e-8498-49b26604f760",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El 15% de 60.000 se calcula como 0,15 × 60.000 = 9.000.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error de magnitud, dividiendo por un factor demasiado grande.",
+   "b": "Te faltó un factor de 10 en el resultado.",
+   "c": "Calculaste un porcentaje distinto al 15%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "61446779-630f-479d-bf32-c20ac798ef6f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sea R las bolsas de Raúl y T las de Teresa. R+T=300 y 3R+5T=1000. Sustituyendo T=300−R: 3R+5(300−R)=1000 → −2R=−500 → R=250. Raúl armó 250 bolsas.",
+  "distractor_diagnosis": {
+   "b": null,
+   "c": null,
+   "d": "Calculaste las bolsas de Teresa (300−250=50) en vez de las de Raúl."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "62378e58-b58f-4039-aeb1-3a268816e690",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "625bf9ca-8bc2-488c-8313-7d7d85a4c36a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área del rectángulo es 15×8=120 m². El semicírculo tiene diámetro 8 m, por lo que su radio es 4 m, y su área es (π·4²)/2 = 25,12 m². El área total es 120+25,12 = 145,12 m².",
+  "distractor_diagnosis": {
+   "b": "Usaste el área del círculo completo en vez de solo el semicírculo.",
+   "c": "Olvidaste sumar el área del semicírculo.",
+   "d": "Calculaste el área del semicírculo usando el diámetro como si fuera el radio."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "62c00404-5b58-4d68-b108-591478d5dc52",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sea C la capacidad total. 2C/5 + 30 = 3C/4. Multiplicando por 20: 8C + 600 = 15C, por lo que 7C = 600 y C ≈ 85,7 litros.",
+  "distractor_diagnosis": {
+   "b": "Resolviste la ecuación con un múltiplo común incorrecto.",
+   "c": "Asumiste una relación proporcional simple sin plantear la ecuación correcta.",
+   "d": "Multiplicaste las fracciones en vez de plantear la ecuación de igualdad correspondiente.",
+   "e": "Redondeaste antes de resolver correctamente la ecuación, obteniendo un valor cercano pero incorrecto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "62ed1630-f600-418d-a222-70340fbc9fdf",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

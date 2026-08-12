@@ -1,0 +1,558 @@
+[
+ {
+  "id": "dc716fd0-0243-4ee7-8f84-1fec8038208b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dc8269a4-075a-472f-9763-09bcd516bbcf",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dca9e441-6064-4a2a-ae27-ac7ace6298e5",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "10¹²/10⁶ = 10^(12-6) = 10⁶. Por lo tanto, un megabyte cabe 10⁶ veces en un terabyte.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal los exponentes o confundiste las unidades.",
+   "b": "Restaste 12-6 mal, obteniendo 5 en vez de 6.",
+   "d": "Usaste el exponente del terabyte sin dividir por el del megabyte."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dcaff2e7-c7ef-4e0f-a3cd-4cc232868fc0",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Comprueba que 7² + 24² = 625 = 25², por lo que el triángulo es rectángulo con catetos 7 y 24. El área es (7 × 24) / 2 = 84 m².",
+  "distractor_diagnosis": {
+   "a": "Usaste una fórmula incorrecta, dividiendo por 3 en vez de 2.",
+   "c": "Calculaste 7×24 pero olvidaste dividir por 2.",
+   "d": "Multiplicaste el cateto 7 por la hipotenusa 25 en vez de por el otro cateto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dcd98a8e-9f98-420e-a9a0-7e1a41f5a439",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por semejanza de triángulos, la razón altura/sombra debe mantenerse: 6/9 = x/18. Despejando, x = (6×18)/9 = 12 m.",
+  "distractor_diagnosis": {
+   "a": "Invertiste o calculaste mal la proporción.",
+   "c": "Confundiste la altura del árbol con la longitud de su sombra.",
+   "d": "Sumaste valores del enunciado en vez de aplicar la proporción."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dd636329-6cc6-4871-a1c4-b88424cff993",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dd71d868-8f7d-4798-a554-27813a6cb853",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "(½)⁻² = 2² = 4. (¼)⁰ = 1, porque todo número distinto de cero elevado a 0 es 1. (⅓)² = 1/9. Sumando: 4 + 1 − 1/9 = 5 − 1/9 = 44/9.",
+  "distractor_diagnosis": {
+   "b": "Calculaste (½)⁻² de forma incorrecta, sin invertir bien la base.",
+   "c": "Olvidaste restar 1/9 al final.",
+   "d": "Ignoraste el término (¼)⁰ o lo tomaste como 0."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "de2918ef-8811-499c-b8c0-a54beca0dfcb",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Sea n el número de trabajadores de la Sucursal 1; la Sucursal 2 tiene 2n. La suma de salarios en Sucursal 2 es 450.000×2n = 900.000n, y el doble de la suma en Sucursal 1 es 2×550.000n = 1.100.000n. Como 900.000n siempre es menor que 1.100.000n, la afirmación (d) es siempre verdadera.",
+  "distractor_diagnosis": {
+   "a": "Comparaste las sumas sin considerar que Sucursal 2 tiene el doble de trabajadores.",
+   "b": "Supusiste una relación entre trabajadores individuales que no se puede garantizar solo con promedios.",
+   "c": "Promediaste los dos promedios como si las sucursales tuvieran igual cantidad de trabajadores, ignorando la ponderación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "de8f3396-c2d4-4d0f-a37c-75f3da8f5822",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dea35b1f-67f2-4dcf-9084-eb6e0702a392",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El gasto total en 8 días es $(a+1600), por lo que el gasto diario es $(a+1600)/8 = $(a/8+200). En dos días se gasta el doble de eso: 2×(a/8+200) = $(a/4+400).",
+  "distractor_diagnosis": {
+   "b": "Usaste el gasto total (1600) en vez del gasto diario al multiplicar.",
+   "c": "Calculaste la parte constante de forma incorrecta.",
+   "d": "Dividiste el gasto diario a la mitad en vez de multiplicarlo por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "def838db-e1f3-4efe-b782-ca950493223b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "150.000.000 se escribe como 1,5 × 10⁸, ya que la notación científica requiere un coeficiente entre 1 y 10 (aquí 1,5) multiplicado por la potencia de 10 correspondiente.",
+  "distractor_diagnosis": {
+   "a": "Contaste mal los ceros, usando un exponente menor al correcto.",
+   "b": "El coeficiente 15 no está entre 1 y 10, no es notación científica válida.",
+   "d": "El coeficiente 0,15 no está entre 1 y 10, no es notación científica válida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "df0f59f3-b377-4ae5-8918-b7246e58d1c2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dfd44d34-5492-4267-954f-690b25ec80a5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los cuartiles dividen los datos ordenados en cuatro partes iguales del 25% cada una. Entre Q1 (75 kg) y Q3 (90 kg) siempre se encuentra al menos el 50% central de los datos, por lo que la afirmación II es verdadera. Los cuartiles no indican concentración de datos (I es falsa) ni permiten calcular la media (III es falsa, requiere todos los datos).",
+  "distractor_diagnosis": {
+   "a": "Creíste que los cuartiles indican mayor concentración de datos entre Q2 y Q3, pero cada cuartil contiene el mismo 25%.",
+   "c": "Intentaste calcular una media aritmética usando solo los cuartiles, lo cual no es posible.",
+   "d": "Aceptaste incorrectamente que I también es verdadera.",
+   "e": "Aceptaste las tres afirmaciones sin verificar que I y III no se pueden deducir de los cuartiles."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e0013e04-ea6a-45d3-941e-9eaf0bdff93c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e01078de-ae64-4b07-b43d-ddcb9c7baa92",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con n=9, M=3⁹. Si el programa tarda 3M segundos, entonces 3M = 3×3⁹ = 3¹⁰, por lo que el nuevo exponente (cantidad de instrucciones) es 10.",
+  "distractor_diagnosis": {
+   "b": "Calculaste 3³ en vez de identificar el nuevo exponente.",
+   "c": "Confundiste el exponente original n=9 con el nuevo valor buscado.",
+   "d": "Multiplicaste el exponente por 3 en vez de sumarle 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e097122b-9fd9-457c-974c-a5117e121491",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sea x las bolsas de Raúl e y las de Teresa: x+y=300 (total de bolsas) y 3x+5y=1000 (total de dulces). Despejando y=300−x y sustituyendo: 3x+5(300−x)=1000 → −2x=−500 → x=250.",
+  "distractor_diagnosis": {
+   "b": "Resolviste el sistema con un error de signo al despejar.",
+   "c": "Dividiste 250 a la mitad por error de cálculo.",
+   "d": "Confundiste la cantidad de bolsas de Raúl con la diferencia entre ambos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e11234ec-15fb-4482-aeae-0ef35c948bee",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Almíbar (12) más Quitased (8) suman 20 de 25 encuestados: (20/25)×100 = 80%, por lo que la afirmación (a) es verdadera.",
+  "distractor_diagnosis": {
+   "b": "Calculaste 4/25=16%, pero expresaste mal la magnitud como 0,16%.",
+   "c": "Calculaste 1/8=12,5%, no 1%, al comparar Frutirico con Quitased.",
+   "d": "Sumaste 12+1=13 de 25 (52%), que es mayor y no menor al 50%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e1c6b643-0ad4-4960-b719-e5b0943a6cb2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El radio de la pizza es 20 cm (mitad del diámetro). El área total es π×20²=400π cm². Al dividir en 8 porciones iguales, cada una mide 400π/8 = 50π cm².",
+  "distractor_diagnosis": {
+   "b": "Usaste el diámetro como si fuera el radio al calcular el área total.",
+   "c": "Dividiste el área total en 4 porciones en vez de 8.",
+   "d": "No dividiste el área total entre las 8 porciones.",
+   "e": "Confundiste el área con el diámetro o el perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e1d5569b-e271-47a9-9002-e6be6069647f",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El límite de velocidad en zona rural de una pista es 100 km/h, por lo que un vehículo puede circular exactamente a esa velocidad sin infringir la norma, haciendo verdadera la afirmación (d).",
+  "distractor_diagnosis": {
+   "a": "Sumaste el exceso al límite en vez de restarlo para encontrar la velocidad real (30+10=40, no 20).",
+   "b": "No respetaste que el límite rural de una pista es 100 km/h, no 110.",
+   "c": "Calculaste mal la velocidad original (50-20=30, no 70)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e1f22f6a-99de-4612-acb5-07040e5d24fe",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e2862d0a-4f40-4d1b-bcec-bea6829d2fed",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para despejar x en x/4=6, se multiplican ambos lados por 4: x = 6×4 = 24.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 6×3 en vez de 6×4.",
+   "b": "Usaste un factor incorrecto al multiplicar.",
+   "c": "Cometiste un error aritmético al multiplicar 6×4.",
+   "e": "Sumaste de más por error de cálculo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e2a339d5-84d7-4a83-9d3d-025a23b219ba",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Cuando la base es -1 y el exponente es impar, el resultado siempre es -1, pues un número impar de factores negativos da un producto negativo.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la regla de exponente impar con la de exponente par, donde (-1)ⁿ=1.",
+   "c": "Pensaste que una base negativa puede dar 0, lo cual solo ocurre si la base es 0.",
+   "d": "Confundiste el resultado de la potencia con el valor del propio exponente.",
+   "e": "Multiplicaste el signo negativo por el exponente en vez de evaluar la potencia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e2c3c0a3-760e-4e73-82ff-67d5032654e9",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e2ccbc05-cda7-4213-8a82-db95b6bf7f19",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se buscan dos números que multiplicados den 35 y sumados den 12: son 7 y 5. Factorizando: (x-7)(x-5)=0, por lo que x=7 o x=5.",
+  "distractor_diagnosis": {
+   "a": "Cambiaste el signo de ambas soluciones sin justificación.",
+   "b": "Olvidaste que al factorizar (x-7)(x-5) las raíces son positivas, no negativas.",
+   "d": "Duplicaste por error los valores correctos de las raíces."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e2e31566-b871-4f24-bba6-38d480b7a08a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al multiplicar 3x² por 2x³ se multiplican los coeficientes (3×2=6) y se suman los exponentes de la misma base (x²·x³=x⁵), dando 6x⁵.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los coeficientes (3+2=5) en vez de multiplicarlos.",
+   "c": "Sumaste los coeficientes y además sumaste mal los exponentes.",
+   "d": "Multiplicaste bien los coeficientes pero calculaste mal el exponente.",
+   "e": "Multiplicaste los exponentes en vez de sumarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e3400147-bcf6-4dac-a5c7-199f7271ca52",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El vértice está en x=(-1+5)/2=2, y como la función tiene máximo, se abre hacia abajo: f(x)=a(x+1)(x-5). En el vértice, f(2)=a(3)(-3)=-9a=18, entonces a=-2. Evaluando en x=0: f(0)=-2(1)(-5)=10.",
+  "distractor_diagnosis": {
+   "b": "Cometiste un error al calcular el valor de a o al evaluar f(0).",
+   "c": "Usaste el valor del vértice x=2 en vez de x=0 para evaluar la función.",
+   "d": "Confundiste f(0) con el valor máximo de la función."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e4372410-74a5-4fb7-9812-ad6982462c81",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como no hay reposición, la primera extracción tiene probabilidad 13/52 de ser trébol. Al extraer la segunda carta quedan 51 cartas, de las cuales 12 son trébol, por lo que su probabilidad es 12/51. La probabilidad conjunta es el producto: (13/52)×(12/51).",
+  "distractor_diagnosis": {
+   "b": "Usaste 52 cartas para la segunda extracción, como si hubiera reposición.",
+   "c": "Usaste 13/52 en ambas extracciones, ignorando que ya se sacó una carta de trébol.",
+   "d": "Sumaste las probabilidades en vez de multiplicarlas.",
+   "e": "Sumaste en vez de multiplicar y además ignoraste la falta de reposición."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e4a2e00c-4f58-4c71-839b-a2a03f2d6032",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En la primera encuesta omitieron 25 personas (25% de 100) y en la segunda, 35 personas (35% de 100). Sumando ambas encuestas, 25+35=60 personas omitieron la última pregunta, lo que hace correcta la afirmación de Luisa.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los porcentajes (25%+35%=60%) en vez de calcular el porcentaje sobre el total de 200 personas (30%).",
+   "b": "Comparaste la tasa individual de la segunda encuesta con la tasa acumulada de la primera, en vez de comparar tasas equivalentes.",
+   "d": "Asumiste que la última pregunta fue la más omitida sin tener datos sobre las demás preguntas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e4ecee1d-2f1f-4a7e-9680-0dc193624bfc",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "|x-3|<2 significa que la distancia entre x y 3 es menor que 2, es decir, -2<x-3<2. Sumando 3 a toda la desigualdad se obtiene 1<x<5.",
+  "distractor_diagnosis": {
+   "a": "Solo consideraste el límite superior y olvidaste el inferior.",
+   "c": "Solo consideraste el límite inferior y olvidaste el superior.",
+   "d": "Invertiste el signo al sumar 3, restando en vez de sumar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e4f3d492-680f-48c9-91d6-d82560c57a17",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En la relación entre jabones y cajas, el número 20 corresponde a la cantidad fija de jabones que caben en cada caja. Como el total de jabones varía de forma directa con el número de cajas (jabones = 20 × cajas), el 20 es la constante de proporcionalidad directa.",
+  "distractor_diagnosis": {
+   "b": "Confundiste la relación con una proporción inversa, cuando en realidad jabones y cajas varían de forma directa.",
+   "c": "Interpretaste el 20 como una cantidad total fija de jabones, en vez de jabones por caja.",
+   "d": "Interpretaste el 20 como el total de cajas, cuando en realidad es la cantidad de jabones por caja."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e51e80ae-edec-4b76-b975-14ce2d6b9827",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando las componentes conocidas: F1+F2+F4 = (2-3+4, -1+2+3) = (3,4). Como la suma total debe ser (6,5), F3 = (6-3, 5-4) = (3,1). Por lo tanto a=3 y b=1.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el resultado parcial (3,4) con el valor de F3, sin restarlo de (6,5).",
+   "b": "Sumaste en vez de restar al despejar b.",
+   "d": "Cometiste un error de suma al calcular las componentes de F1+F2+F4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e53353de-b029-4015-b33e-659bbd1b54e5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El descuento es el 35% de $15.600: 0,35×15.600=$5.460. El precio final es 15.600−5.460=$10.140 (equivalente a 15.600×0,65).",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el monto del descuento, no el precio final.",
+   "c": "Aplicaste un porcentaje de descuento distinto al 35% indicado.",
+   "d": "Calculaste el 60% del precio en vez del 65% (100%-35%)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e5688e0d-3188-4337-a7f9-d10a345e567a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e61302c8-2866-4e07-9966-43afb8bc5348",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e666bc10-2c8b-4fa5-a4d4-2ee0097a1d64",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Si se cargan x cajas de M kg y x cajas de P kg (misma cantidad de cada tipo), el peso total es Mx+Px=(M+P)x, el cual no puede superar el máximo del camión: (M+P)·x ≤ 2100.",
+  "distractor_diagnosis": {
+   "b": "Sumaste las masas y la cantidad x como términos independientes, en vez de multiplicar.",
+   "c": "Usaste una desigualdad estricta (<) en vez de permitir alcanzar exactamente el máximo (≤).",
+   "d": "Duplicaste x sin justificación, cuando la cantidad de cada tipo ya es x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e668d760-ed10-4d85-9447-c2a5f231cfb1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En una escala 1:1.000.000, cada cm del mapa representa 1.000.000 cm reales. Para 30 cm: 30×1.000.000=30.000.000 cm = 300.000 m = 300 km.",
+  "distractor_diagnosis": {
+   "a": "Convertiste mal las unidades, dividiendo en vez de aplicar correctamente la escala.",
+   "b": "Cometiste un error de conversión entre centímetros y kilómetros.",
+   "d": "Multiplicaste por un factor 10 veces mayor al correcto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e6854be5-d925-48a6-9d40-f6b680b3ab22",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El total de bolas es 5+3+2=10. Los casos favorables para roja o verde son 5+2=7. La probabilidad es 7/10.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de un solo color, no la unión de rojo y verde.",
+   "c": "Cometiste un error al combinar los casos favorables.",
+   "d": "Sumaste mal los casos favorables o incluiste las bolas azules por error."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e6c01b7b-de2f-44bf-be19-7cee3abc592e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "g(3)=(3)²-2(3)=9-6=3.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal 9-6, o invertiste el orden de la resta.",
+   "b": "Cometiste un error aritmético al restar 9 menos 6.",
+   "d": "Sumaste 2×3 en vez de restarlo.",
+   "e": "Calculaste 3²-2×2 en vez de 3²-2×3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e6cac03e-cffa-4d50-93e4-05123216d569",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e7064320-73ef-4e91-9ea9-27bb92a73fcd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si la balanza marca menos en el lado con 2 regalos y 500 g de miel comparado con 3 regalos, entonces 2R+500<3R. Despejando: 500<R, es decir, cada regalo pesa más de 500 gramos.",
+  "distractor_diagnosis": {
+   "a": "No planteaste correctamente la inecuación a partir de la balanza.",
+   "b": "Interpretaste la desigualdad como una igualdad, en vez de una relación estricta de 'mayor que'.",
+   "d": "Invertiste el sentido de la desigualdad al despejar R."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e7235fc9-9127-46b6-905b-f6a97f38975e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La razón ancho/altura del modelo es 2/7,5. Con una altura de 15 cm en el dibujo, el ancho es 15×(2/7,5)=4 cm.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por una razón incorrecta, quizás invirtiendo la proporción.",
+   "b": "Cometiste un error al simplificar la fracción 2/7,5.",
+   "d": "Dividiste en vez de multiplicar por la razón de proporcionalidad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e7328e4f-cb73-4cd5-b71c-274293b958a0",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El porcentaje se calcula como (4.740/15.800)×100 = 0,30×100 = 30%.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 100 tras la división, dejando el resultado como decimal.",
+   "b": "Corriste el punto decimal un lugar de más al convertir a porcentaje.",
+   "c": "Calculaste una división aproximada incorrecta en vez de la exacta 0,30."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e85612a3-63d9-437f-a3b2-a586cf351b8b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En 2 horas hay 120 minutos, es decir, 3 períodos de 40 minutos. La cantidad final es 250×1,2³=250×1,728=432. El aumento respecto al valor inicial es 432-250=182.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error grave de cálculo, confundiendo porcentaje con cantidad absoluta.",
+   "b": "Calculaste el aumento de un solo período en vez de los tres períodos compuestos.",
+   "d": "Confundiste el aumento con la cantidad inicial de bacterias."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e8a2f455-f144-4374-bd82-766ec7687c3d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Multiplicando toda la ecuación por 6 (mínimo común múltiplo de 3 y 6): 2x+x=30, entonces 3x=30, x=10.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al despejar x, dividiendo de más.",
+   "b": "Error aritmético al resolver la ecuación.",
+   "d": "Multiplicaste por un factor incorrecto al despejar.",
+   "e": "Confundiste el resultado con 30/2 en vez de 30/3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e9a57381-d6fe-4ce4-8ac8-8338bf3a2b64",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Al lanzar tres monedas hay 8 resultados igualmente probables, cada uno con probabilidad 1/8. En el Paso 3 se calculó erróneamente P(c,c,c)=3/8 y P(s,s,s)=3/8, cuando cada resultado individual tiene probabilidad 1/8, no 3/8. Por eso el error está en el Paso 3.",
+  "distractor_diagnosis": {
+   "a": "El listado de los 8 resultados posibles en el Paso 1 está completo y correcto.",
+   "b": "Identificar (c,c,c) y (s,s,s) como resultados favorables en el Paso 2 es correcto.",
+   "d": "Sumar probabilidades de eventos mutuamente excluyentes en el Paso 4 es válido; el error viene de antes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "e9d8f74e-6730-4ebc-8139-a695955720fb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El ángulo central de una circunferencia es igual, en medida, al arco que subtiende. Como el arco mide 60°, el ángulo central también mide 60°.",
+  "distractor_diagnosis": {
+   "a": "Dividiste el arco a la mitad, como si fuera un ángulo inscrito.",
+   "c": "Duplicaste el arco por error.",
+   "d": "Asumiste un ángulo recto sin relación con el dato entregado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eab8f38e-5ebb-4dca-ac5c-826b523c90fb",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "eac6c1d0-04c1-47cd-a99d-db5c8ae54854",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sea x la edad de Juan; la de Pedro es 3x. Como la suma es 40: x+3x=40, entonces 4x=40, x=10. La edad de Pedro es 3×10=30 años.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la edad de Pedro con la de Juan (x en vez de 3x).",
+   "b": "Cometiste un error al resolver la ecuación 4x=40.",
+   "d": "No resolviste correctamente la relación 'el triple'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eace3a24-bbfb-40a9-8a82-0f03166a06d2",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con 12 datos ordenados, el percentil 40 corresponde a la posición 0,40×12=4,8, que se redondea al 5º dato: 101 g, el primer valor que supera los 100 g. Los percentiles menores (10, 20, 30) corresponden a posiciones cuyos valores (por ejemplo 77, 84 o 98) todavía no superan los 100 g.",
+  "distractor_diagnosis": {
+   "a": "Ubicaste una posición demasiado baja en los datos ordenados.",
+   "b": "La posición correspondiente al percentil 20 aún da un valor menor a 100 g.",
+   "c": "La posición correspondiente al percentil 30 (aprox. 98 g) todavía no supera los 100 g."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eadcbc7f-faee-4444-b13c-f9b7e45f8df0",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

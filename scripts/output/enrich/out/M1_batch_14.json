@@ -1,0 +1,402 @@
+[
+ {
+  "id": "bf345662-55b8-431f-8b41-991410298509",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El volumen de la botella cilíndrica es V = π·r²·h = π·3²·20 = 180π cm³ (radio = diámetro/2 = 3 cm). La persona de P kg necesita P/35 litros, que en cm³ equivalen a (P/35)×1000. El número de veces que debe llenar la botella es ese volumen necesario dividido por el volumen de la botella: (P×1000)/(35×π×9×20), que corresponde a la opción c.",
+  "distractor_diagnosis": {"a": "Olvidaste el factor de conversión 1000 (litros a cm³) y el 35 kg por litro.", "b": "Invertiste la fracción: pusiste el volumen de la botella en el numerador en vez del denominador.", "d": "Olvidaste convertir los litros necesarios a cm³ (falta el factor 1000)."},
+  "skip_reason": null
+ },
+ {
+  "id": "bf5d073b-67e6-4aa8-98a0-796c17efd387",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero resuelves el paréntesis: −2 − 7 = −9. Luego multiplicas (−2)×(−9) = 18, porque el producto de dos números negativos es positivo. Finalmente 5 − 18 = −13, que es la opción b.",
+  "distractor_diagnosis": {"a": "Multiplicaste (5+2) por (−9) en vez de restar el producto (−2)(−9).", "c": "Calculaste −2−7 como −5 en lugar de −9, perdiendo un signo.", "d": "Multiplicaste −2 solo por el primer término del paréntesis, ignorando el −7."},
+  "skip_reason": null
+ },
+ {
+  "id": "c08c89d7-f0d1-441c-a199-e1d20013681f",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Necesitas encontrar el menor n tal que 1,1ⁿ sea mayor que 2 (el capital se duplica). Revisando los valores dados: 1,1⁷ = 1,9487, que todavía es menor que 2. En cambio, 1,1⁸ = 2,1436, que ya supera el doble. Por eso se necesitan 8 años.",
+  "distractor_diagnosis": {"a": "Con 1,1⁵=1,6105 el capital ni siquiera llega al doble.", "b": "Con 1,1⁶=1,7716 el capital todavía no se duplica.", "c": "1,1⁷=1,9487 es menor que 2; aún no se duplica el capital."},
+  "skip_reason": null
+ },
+ {
+  "id": "c13b20b9-12ad-489c-a6ed-60b92855af28",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El Paso 1 es correcto: al invertir los exponentes negativos, (3/2)⁻²÷(2/3)⁻² se transforma en (2/3)²÷(3/2)². El error aparece en el Paso 2: dividir por (3/2)² equivale a multiplicar por su recíproco, es decir por (2/3)², no por (3/2)² como se escribió.",
+  "distractor_diagnosis": {"a": "El Paso 1 sí aplica correctamente la propiedad de exponentes negativos.", "c": "El error ya existe desde el Paso 2; el Paso 3 solo continúa arrastrándolo.", "d": "El error se originó antes, en el Paso 2, no en el resultado final."},
+  "skip_reason": null
+ },
+ {
+  "id": "c16cced5-84e9-402d-9779-9edd6d51970f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "De la tabla: lunes estudió Matemática 1 h, martes Física 1 h y miércoles Lenguaje 2 h, sumando 4 horas entre esos tres días. El sábado debe repartir 3 horas en la misma proporción, y Matemática corresponde a 1/4 del total. Entonces Matemática el sábado = (1/4)×3 h = 0,75 h = 45 minutos.",
+  "distractor_diagnosis": {"a": "Calculaste una proporción menor, como si Matemática fuera 1/9 del tiempo del sábado.", "b": "Usaste una proporción de 1/6 en vez de 1/4 para Matemática.", "d": "Confundiste la hora total del sábado (3h) con el tiempo asignado a Matemática."},
+  "skip_reason": null
+ },
+ {
+  "id": "c1c9380f-44bd-4c58-b1c8-49e6b5a2b130",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El segundo medio B tiene 180/6 = 30 estudiantes. Faltó la décima parte de ese curso: 30/10 = 3 estudiantes ausentes, por lo que asistieron 27. Josefina obtuvo 1/3 de esos votos: 27/3 = 9 votos, y Fernando obtuvo los restantes: 27 − 9 = 18 votos.",
+  "distractor_diagnosis": {"a": "No restaste a los 3 ausentes; usaste el curso completo (30) en vez de los 27 presentes.", "c": "Interpretaste que solo asistieron 3 alumnos (confundiste ausentes con presentes).", "d": "Calculaste los votos de Josefina bajo el mismo error de asistencia, no los de Fernando."},
+  "skip_reason": null
+ },
+ {
+  "id": "c203fded-1071-4761-93f2-82a49bdbc73f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "c27e36db-1716-4765-aff5-3ee28d4003e8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En una función de costo lineal C(x) = 500 + 12x, el término constante (500) representa el costo fijo, que se paga aunque no se produzca ninguna unidad. El coeficiente que acompaña a x (12) es el costo variable por unidad producida.",
+  "distractor_diagnosis": {"a": "Confundiste el costo fijo (500) con el costo variable por unidad (12).", "b": "Invertiste los roles: 12 es el costo por unidad, no 500.", "c": "C(100) = 500 + 12×100 = $1.700, no $1.100; probablemente usaste x=50 en vez de x=100."},
+  "skip_reason": null
+ },
+ {
+  "id": "c2ca5629-0e97-4b39-af17-8b3e8b7ca89d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si la altura de 7,5 cabezas mide 15 cm en el dibujo, entonces una cabeza equivale a 15/7,5 = 2 cm. El ancho máximo corresponde a 2 cabezas, por lo que mide 2 × 2 = 4 cm.",
+  "distractor_diagnosis": {"a": "Probablemente calculaste 1 cabeza = 3 cm en lugar de 2 cm.", "b": "Obtuviste un valor no entero para la cabeza (2,5 cm) en vez de 2 cm.", "d": "Invertiste la proporción, dividiendo en vez de multiplicar."},
+  "skip_reason": null
+ },
+ {
+  "id": "c30a1beb-3d40-4dce-b12a-dba65357a851",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al multiplicar 3x por (x²−6x+5), el primer término debe ser 3x×x² = 3x³, no 3x² como aparece en el Paso 2. Los demás términos de esa distribución están correctos, igual que la distribución de 4×(x²−6x+5). Por eso el error puntual está en el exponente del primer término del Paso 2.",
+  "distractor_diagnosis": {"a": "El Paso 1 (plantear la distribución) está bien hecho.", "c": "El error ya viene del Paso 2; el Paso 3 solo continúa el cálculo con ese error.", "d": "El resultado final arrastra el error del Paso 2, pero no lo origina."},
+  "skip_reason": null
+ },
+ {
+  "id": "c3124fd0-9681-4923-91ec-582426978b7f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al lanzar una moneda dos veces hay 4 resultados igualmente posibles: CC, CS, SC, SS. Solo uno de ellos (CC) corresponde a dos caras. Por lo tanto, la probabilidad es 1/4.",
+  "distractor_diagnosis": {"a": "1/8 = (1/2)³ corresponde a tres lanzamientos, no a dos.", "c": "Consideraste 3 resultados (0,1,2 caras) como si fueran igualmente probables.", "d": "Ese es el resultado de un solo lanzamiento, no de los dos combinados.", "e": "3/4 es el complemento; corresponde a 'no obtener dos caras', no a obtenerlas."},
+  "skip_reason": null
+ },
+ {
+  "id": "c331ed7e-344d-4086-9229-215e2abd0551",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El primer cuadrado se puede pintar de 12 formas distintas, ya que no tiene restricción todavía. Cada uno de los 7 cuadrados siguientes no puede repetir el color del cuadrado anterior, por lo que cada uno tiene 11 opciones disponibles. Multiplicando: 12 × 11⁷, que es la expresión de la opción d.",
+  "distractor_diagnosis": {"a": "12⁸ ignora la restricción de que no puede repetirse el color del cuadrado anterior.", "b": "8¹¹ invierte la base y el exponente correctos (12·11⁷).", "c": "8¹² también invierte base y exponente respecto a la expresión correcta."},
+  "skip_reason": null
+ },
+ {
+  "id": "c33b3e43-d750-4b3e-9d68-2829e36a7b99",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Cada movimiento aporta a una sola coordenada: este suma +3 en x, oeste resta 4 en x, dando x = 3−4 = −1. Norte suma +2 en y, sur resta 5 en y, dando y = 2−5 = −3. El vector de desplazamiento total es (−1, −3).",
+  "distractor_diagnosis": {"a": "Parece que solo consideraste los últimos movimientos (oeste y sur), olvidando este y norte.", "c": "Invertiste el orden de la resta en x: calculaste oeste−este en vez de este−oeste.", "d": "Olvidaste incluir el movimiento hacia el oeste al calcular la coordenada x."},
+  "skip_reason": null
+ },
+ {
+  "id": "c379de21-2894-4204-bee6-09333966f216",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "√144 = 12 y √49 = 7, porque 12² = 144 y 7² = 49. La suma de ambas raíces es 12 + 7 = 19. Ten cuidado: √144 + √49 no es lo mismo que √(144+49).",
+  "distractor_diagnosis": {"a": "Probablemente calculaste √49 como 5 en vez de 7.", "c": "Probablemente calculaste √49 como 9 en vez de 7 (confusión con √81).", "d": "Sumaste dentro de una sola raíz, √(144+49)=√193, en vez de sumar las raíces por separado."},
+  "skip_reason": null
+ },
+ {
+  "id": "c419b7b2-0d68-4c73-bc39-ef9d1b4ca43f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El subsidio es para el 60% de menores ingresos, es decir, hasta el percentil 60 (P60) del país. Si el ingreso de la vecina es menor que el percentil 40 del país, automáticamente está por debajo del percentil 60, así que su elegibilidad queda garantizada. Los datos referidos a la comuna no permiten esa garantía, porque los percentiles de la comuna no equivalen a los del país.",
+  "distractor_diagnosis": {"a": "Ser mayor que P20 no impide estar sobre P60; no garantiza elegibilidad.", "c": "Usaste un percentil de la comuna, que no equivale al percentil del país.", "d": "Además de usar el percentil de la comuna, P60 es justo el límite, no una garantía de estar dentro."},
+  "skip_reason": null
+ },
+ {
+  "id": "c427b926-962a-4450-8027-ff630f555c80",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El promedio ponderado de sueldos se calcula multiplicando cada sueldo por la cantidad de trabajadores que lo reciben, sumando esos productos, y dividiendo por el total de trabajadores: X = (800.000n + 500.000m + 1.100.000w) / (n+m+w).",
+  "distractor_diagnosis": {"a": "Sumaste los sueldos directamente sin multiplicarlos por la cantidad de trabajadores de cada tipo.", "b": "Dividiste por 3 en vez de dividir por el total de trabajadores (n+m+w).", "c": "Multiplicaste el resultado por 3 en vez de dividir por (n+m+w)."},
+  "skip_reason": null
+ },
+ {
+  "id": "c428a179-ae83-4bb0-bb29-dd61f480b946",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La moda es el valor que aparece con mayor frecuencia. En 2, 3, 3, 4, 3, 5, 4, el número 3 aparece tres veces, más que cualquier otro valor. Por eso la moda es 3.",
+  "distractor_diagnosis": {"a": "El 4 aparece solo 2 veces; el 3 aparece 3 veces, más frecuentemente.", "c": "El 2 aparece solo una vez; no es el valor más frecuente.", "d": "El 5 aparece solo una vez; no es el valor más frecuente."},
+  "skip_reason": null
+ },
+ {
+  "id": "c47bbaea-010e-4d7b-90df-577b69959b00",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como R = Q + v, despejas Q = R − v = (5,4) − (−2,3) = (7,1). Como Q es la reflexión de P respecto al origen, se cumple Q = −P, por lo que P = −Q = (−7,−1).",
+  "distractor_diagnosis": {"a": "Sumaste v en vez de restarlo para hallar Q, y no aplicaste la reflexión final.", "c": "Calculaste Q correctamente, pero solo invertiste el signo de la coordenada y, no de la x.", "d": "Sumaste v en vez de restarlo para obtener Q, aunque sí reflejaste al final."},
+  "skip_reason": null
+ },
+ {
+  "id": "c4817479-5ef5-410c-ad00-040543057e38",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por el teorema de Pitágoras, h² = 6² + 8² = 36 + 64 = 100. Entonces h = √100 = 10 cm.",
+  "distractor_diagnosis": {"a": "9 no corresponde a √100; revisa el cálculo de la raíz.", "c": "6²+8²=121 sería un error de suma; en realidad da 100.", "d": "Duplicar un cateto (2×6=12) no es el método correcto; se debe aplicar Pitágoras.", "e": "Sumar directamente los catetos (6+8=14) no reemplaza el teorema de Pitágoras."},
+  "skip_reason": null
+ },
+ {
+  "id": "c4a447f9-6b58-43b9-b867-376dda0fc1b0",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se calcula el puntaje de cada jugador multiplicando lanzamientos por valor de sector y sumando: Pedro = 4×10+2×5+4×0 = 50; Sandra = 3×10+5×5+2×0 = 55; Roberta = 2×10+8×5+0×0 = 60. El mayor puntaje es el de Roberta (60) y el menor es el de Pedro (50).",
+  "distractor_diagnosis": {"a": "Sandra obtuvo 55, no el menor puntaje; el menor es el de Pedro (50).", "c": "Sandra no tiene el mayor puntaje (55); Roberta obtuvo más (60).", "d": "Pedro no tiene el mayor puntaje; Roberta (60) superó a Pedro (50) y a Sandra (55)."},
+  "skip_reason": null
+ },
+ {
+  "id": "c4eac007-842e-4900-8dcc-021e73d9a855",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En un triángulo rectángulo isósceles con catetos de 1 cm, la hipotenusa se calcula con Pitágoras: h² = 1² + 1² = 2. Por lo tanto, h = √2 cm.",
+  "distractor_diagnosis": {"a": "Pensar que la hipotenusa es igual a un cateto ignora el teorema de Pitágoras.", "c": "Sumar los catetos directamente (1+1=2) no es lo mismo que aplicar Pitágoras.", "d": "√3 agregaría un término extra que no corresponde a este triángulo.", "e": "Sumar 1+1+1=3 no tiene relación con el cálculo correcto de la hipotenusa."},
+  "skip_reason": null
+ },
+ {
+  "id": "c51804e6-3592-4422-af7b-1fea1c895017",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las 3 personas ya en el ascensor pesan 3×75 = 225 kg, dejando 600−225 = 375 kg disponibles. Cada persona adicional pesa 60 kg, así que el número máximo es 375/60 = 6,25, lo que significa que solo pueden subir 6 personas completas.",
+  "distractor_diagnosis": {"b": "375/60 = 6,25 permite 6 personas completas, no 5.", "c": "7 personas de 60 kg pesarían 420 kg, más de los 375 kg disponibles.", "d": "8 personas superarían ampliamente el peso disponible de 375 kg.", "e": "4 subestima el espacio disponible; en realidad hay margen para 6 personas."},
+  "skip_reason": null
+ },
+ {
+  "id": "c54f5ca5-5171-4277-a411-99f4a18b8f41",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Multiplicar por 1,25 equivale a aumentar un 25%, porque 1,25 = 1 + 0,25. Multiplicar por 0,75 equivale a disminuir un 25%, porque 0,75 = 1 − 0,25. Por eso las cuatro multiplicaciones representan dos aumentos del 25% seguidos de dos disminuciones del 25%.",
+  "distractor_diagnosis": {"b": "Un aumento y una disminución del mismo porcentaje no se cancelan, porque se aplican sobre bases distintas.", "c": "0,75 y 1,25 representan cambios porcentuales (25%), no cambios de 0,75 o 0,25 unidades.", "d": "Multiplicar por 0,75 es una baja del 25%, no del 75%."},
+  "skip_reason": null
+ },
+ {
+  "id": "c58918fc-3276-4644-a523-b31e9d133c7c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "c59051b5-6bd1-4c97-b59a-b324a0a3ea47",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "(−3)² significa (−3)×(−3). El producto de dos números negativos es positivo, así que (−3)×(−3) = 9.",
+  "distractor_diagnosis": {"a": "Olvidaste que un negativo elevado a exponente par da un resultado positivo.", "b": "Este valor no corresponde a multiplicar −3 por sí mismo dos veces.", "c": "Multiplicar la base por el exponente (−3×2) no es lo mismo que elevar al cuadrado.", "e": "81 correspondería a (−3)⁴, no a (−3)²."},
+  "skip_reason": null
+ },
+ {
+  "id": "c6017873-15ce-49d8-8b3f-6c5ef4e82230",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Según la ley de Hooke, el estiramiento es proporcional a la masa colgada. Con 3 kg el resorte se estira 2 cm, así que la constante de proporcionalidad es 2/3. Con 9 kg, el estiramiento es x = (2/3)×9 = 6 cm.",
+  "distractor_diagnosis": {"a": "Invertir la proporción (2×3/9 en vez de 2×9/3) da un valor menor al correcto.", "c": "Sumar en vez de multiplicar proporcionalmente sobreestima el resultado.", "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "c6124bcb-60c1-4399-befd-cee35a93c2f8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Después de aumentar 20%, las ventas quedan en 500.000 × 1,20 = $600.000. Luego, al disminuir 20% sobre ese nuevo valor, quedan en 600.000 × 0,80 = $480.000. El aumento y la disminución no se cancelan porque el 20% de la baja se calcula sobre una base mayor (600.000), no sobre la original.",
+  "distractor_diagnosis": {"a": "Un aumento y una disminución del mismo porcentaje no se cancelan; se aplican sobre bases distintas.", "c": "Revisa el orden de las operaciones: primero se aplica el aumento y luego la baja sobre el nuevo valor.", "d": "Este resultado subestima el valor final; verifica que aplicaste la baja del 20% sobre 600.000, no sobre 500.000."},
+  "skip_reason": null
+ },
+ {
+  "id": "c68dbafa-29b2-47a2-b85c-51e9f1658968",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cateto en contacto con la repisa mide (2/3)×30 = 20 cm. La hipotenusa mide el doble de ese cateto: 2×20 = 40 cm. El cateto que va en la pared se obtiene con Pitágoras: √(40²−20²) = √1200 = 20√3 cm.",
+  "distractor_diagnosis": {"a": "Usaste 3/2 en vez de 2/3 para el cateto de contacto, y además sumaste en vez de restar en Pitágoras.", "b": "Sumaste los cuadrados (20²+40²) en vez de restarlos en el teorema de Pitágoras.", "d": "Usaste 3/2 en vez de 2/3 para calcular el cateto de contacto (45 cm en vez de 20 cm)."},
+  "skip_reason": null
+ },
+ {
+  "id": "c6ba8d37-870a-40f3-8f52-5dcf59ce04ad",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El volumen del cilindro es π×r²×h ≈ 3×2²×4 = 48 m³. Como el consumo diario es el 50% de esa capacidad, se calcula 48×0,5 = 24 m³.",
+  "distractor_diagnosis": {"a": "Parece que olvidaste elevar el radio al cuadrado y además aplicaste el 50% dos veces.", "b": "Olvidaste elevar el radio al cuadrado (usaste r en vez de r²) antes de aplicar el 50%.", "d": "Calculaste el volumen total (48 m³) y lo duplicaste en vez de aplicar el 50%."},
+  "skip_reason": null
+ },
+ {
+  "id": "c7327485-1634-4ea7-a8e0-774d8215fd0f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "c735bbe3-3454-41d3-951d-581c36a91c0b",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "En una baraja española de 40 cartas hay 4 reyes. La probabilidad de obtener un rey es 4/40, que se simplifica a 1/10. Como las opciones c (1/10) y d (4/40) representan el mismo valor, ambas son correctas y la respuesta es e.",
+  "distractor_diagnosis": {"a": "Consideraste solo un rey en la baraja, en vez de los 4 que realmente hay.", "b": "Este valor no corresponde a 4/40; probablemente dividiste por 20 en vez de por 40."},
+  "skip_reason": null
+ },
+ {
+  "id": "c74e64b2-900c-4723-b138-a042cdc9eb46",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Nueva Zelanda está 16 horas adelantada respecto a Chile, y México está 1 hora atrasado respecto a Chile. Para pasar del huso de México al de Nueva Zelanda hay que sumar ambos desfases: 16 + 1 = 17 horas adelantada.",
+  "distractor_diagnosis": {"a": "El signo negativo invierte la dirección de la diferencia; desde México, Nueva Zelanda está adelantada, no atrasada.", "b": "Además del signo invertido, restaste (16−1=15) en vez de sumar los desfases.", "c": "Restaste los desfases (16−1=15) en vez de sumarlos."},
+  "skip_reason": null
+ },
+ {
+  "id": "c7b4e65d-32df-416c-82cb-a4507d03dd2a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sumando los 12 valores de la tabla (4+1+1+0+3+2+2+3+0+1+1+6) se obtiene un total de 24 familiares. El promedio se calcula dividiendo esa suma por la cantidad de familias: 24/12 = 2.",
+  "distractor_diagnosis": {"a": "Dividir la suma (24) por un número de familias distinto de 12 da un resultado incorrecto.", "c": "Este valor no corresponde a dividir 24 entre 12; revisa la suma o la división.", "d": "3 podría confundirse con la moda o algún valor individual, no con el promedio real."},
+  "skip_reason": null
+ },
+ {
+  "id": "c7ee85e3-0212-41c5-9a2f-f02c3708c967",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con los 9 datos ordenados, la mediana es el valor central (5to de 9): 5,5. Al agregar un décimo dato (6,5), los 10 valores ordenados tienen dos valores centrales (5to y 6to): 5,5 y 6,0, cuyo promedio es 5,75. La mediana aumentó de 5,5 a 5,75, es decir, en 0,25.",
+  "distractor_diagnosis": {"a": "Con 10 datos la mediana se recalcula como el promedio de los dos valores centrales; sí cambia.", "c": "El cambio real es de 0,25 (de 5,5 a 5,75), no de 0,50.", "d": "La mediana aumenta, no disminuye, al agregar un dato mayor que ella."},
+  "skip_reason": null
+ },
+ {
+  "id": "c84d1007-b0c2-4240-972c-bd0e309503f9",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para calcular f(4) se reemplaza x por 4 en f(x)=2x+3: f(4) = 2×4 + 3 = 8 + 3 = 11.",
+  "distractor_diagnosis": {"a": "Calculaste 2×4=8 pero olvidaste sumar el 3.", "b": "Este valor no corresponde a 2×4+3; revisa qué valor de x usaste.", "c": "10 no corresponde a evaluar f(4); revisa la suma final.", "e": "12 sobreestima el resultado; el coeficiente correcto es 2, no otro mayor."},
+  "skip_reason": null
+ },
+ {
+  "id": "c85c309c-3248-4f37-964d-cfec2c3bd32a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En P(x) = 1,5x + 2500, el factor 1,5 multiplica el precio de compra x, lo que equivale a un recargo del 50% sobre el valor original. El término 2500 se suma siempre, independiente del precio, por lo que es un cargo fijo.",
+  "distractor_diagnosis": {"a": "1,5×2500 no tiene sentido como costo fijo; el cargo fijo es simplemente 2500.", "c": "1,5 y 2500 no se suman entre sí; 1,5 multiplica a x y 2500 se suma aparte.", "d": "1,5 no representa un 1,5%, sino un recargo del 50% sobre el precio."},
+  "skip_reason": null
+ },
+ {
+  "id": "c88d3674-4130-4b5a-8a6e-853138e5e2c6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La media de estos sueldos es (400.000+420.000+430.000+450.000+1.200.000)/5 = $580.000, un valor distorsionado por el sueldo atípico de $1.200.000. La mediana, en cambio, es $430.000 y no se ve afectada por ese valor extremo, por lo que representa mejor el sueldo típico.",
+  "distractor_diagnosis": {"a": "La media se ve fuertemente afectada por el valor atípico de $1.200.000.", "c": "Todos los valores del conjunto son distintos; no existe una moda clara.", "d": "La media está distorsionada por el valor extremo, por lo que no es tan representativa como la mediana."},
+  "skip_reason": null
+ },
+ {
+  "id": "c98916b0-ea09-454b-bf2c-839a997801b2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(−2)³ significa (−2)×(−2)×(−2). Primero (−2)×(−2) = 4, y luego 4×(−2) = −8. El resultado es negativo porque el exponente 3 es impar.",
+  "distractor_diagnosis": {"a": "Un negativo elevado a un exponente impar da un resultado negativo, no positivo.", "c": "Multiplicar la base por el exponente (2×3=6) ignorando el signo no reemplaza elevar al cubo.", "d": "Aunque el signo es correcto, el valor −6 no corresponde a (−2)×(−2)×(−2)."},
+  "skip_reason": null
+ },
+ {
+  "id": "c996f4a9-1c74-4d42-b28b-c5e907a2aa1c",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para que el promedio de las 3 pruebas sea al menos 5,9, se necesita (5,3+5,9+x)/3 ≥ 5,9. Sumando las notas conocidas: 11,2 + x ≥ 17,7. Despejando x: x ≥ 6,5, por lo que la nota mínima es 6,5.",
+  "distractor_diagnosis": {"a": "Este valor no considera la tercera prueba; solo repite una nota existente.", "b": "Revisa la suma 5,3+5,9=11,2; un error ahí puede dar 6,1 en vez de 6,5.", "c": "Revisa la multiplicación 5,9×3=17,7; un error ahí puede dar 6,2 en vez de 6,5."},
+  "skip_reason": null
+ },
+ {
+  "id": "c9b75615-26ac-4ace-b1c5-2783add5660c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para que las dos bolas sean de distinto color hay dos órdenes posibles: roja luego azul, o azul luego roja. P(roja,azul) = (4/10)(6/9) = 24/90, y P(azul,roja) = (6/10)(4/9) = 24/90. Sumando ambos casos: 48/90 = 8/15.",
+  "distractor_diagnosis": {"b": "2/5=4/10 corresponde solo a la probabilidad de la primera extracción, sin considerar la segunda.", "c": "12/25 se obtiene si calculas con reposición (usando 6/10 en la segunda extracción en vez de 6/9).", "d": "7/15 corresponde a la probabilidad de que ambas bolas sean del mismo color, no de distinto color."},
+  "skip_reason": null
+ },
+ {
+  "id": "c9d18d83-fcb9-4dbe-a1f8-7cb221fc6ee6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Es más fácil calcular el complemento: la probabilidad de no obtener ningún sello (las tres caras) es (1/2)³ = 1/8. Entonces, la probabilidad de obtener al menos un sello es 1 − 1/8 = 7/8.",
+  "distractor_diagnosis": {"a": "Esto supone solo 3 resultados igualmente probables (0,1,2 sellos), lo cual no es correcto.", "c": "1/8 es la probabilidad de NO obtener ningún sello, no la de obtener al menos uno.", "d": "1/2 corresponde a un solo lanzamiento, no a los tres combinados."},
+  "skip_reason": null
+ },
+ {
+  "id": "ca386bd5-a953-4edb-8a9e-1971084f13cd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se busca la probabilidad condicional P(2°B | entrada Q). El total de entradas tipo Q es 25 (2°A) + 30 (2°B) = 55. De esas 55, 30 corresponden al 2°B. Entonces P(2°B | Q) = 30/55 = 6/11.",
+  "distractor_diagnosis": {"a": "3/8 = 30/80 corresponde a la probabilidad conjunta P(2°B y Q), no a la condicional P(2°B | Q).", "c": "3/4 = 30/40 corresponde a P(Q | 2°B), la probabilidad invertida.", "d": "8/11 = 40/55 usa el total de entradas del 2°B (P+Q) en vez de solo las entradas Q."},
+  "skip_reason": null
+ },
+ {
+  "id": "ca526dae-3a1a-4c2c-bdc4-cc2fffbaad85",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El $1.000 adicional por entrada equivale al 20% del precio normal, por lo que el precio normal de una entrada sin plan es $1.000/0,20 = $5.000. Sin plan, 18 entradas costarían 18×$5.000 = $90.000. Con el plan, en 6 meses se paga 6×$9.000 = $54.000 de cuota fija más 18×$1.000 = $18.000 por entradas, sumando $72.000. El ahorro es $90.000 − $72.000 = $18.000.",
+  "distractor_diagnosis": {"a": "Revisa si olvidaste incluir la cuota fija mensual (6×$9.000) en el costo total con plan.", "b": "Revisa el cálculo del precio normal de la entrada: $1.000 corresponde al 20%, no a otro porcentaje.", "d": "Revisa si usaste solo un mes de cuota fija ($9.000) en vez de multiplicarla por los 6 meses."},
+  "skip_reason": null
+ },
+ {
+  "id": "ca948ad2-e17a-4f69-938f-0b0b507b55fb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Las primeras 4 horas cuestan $120.000, dejando $240.000 − $120.000 = $120.000 disponibles para horas adicionales. Cada hora adicional cuesta $25.000, así que $120.000/$25.000 = 4,8, lo que permite pagar solo 4 horas adicionales completas. En total: 4 + 4 = 8 horas.",
+  "distractor_diagnosis": {"a": "Olvidaste que el presupuesto sobrante permite contratar horas adicionales.", "c": "4,8 horas adicionales se redondea hacia abajo (4), no hacia arriba (5), porque no se puede pagar una hora incompleta.", "d": "Revisa si dividiste el presupuesto total sin restar primero el costo fijo de las 4 horas base."},
+  "skip_reason": null
+ },
+ {
+  "id": "cb2c9444-7b89-4265-96b7-4cd3ee58d4b3",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "cc780fed-4e27-4deb-bcb0-b40f6ba9c020",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En el modelo actual, la primera sesión cuesta $30.000. En el nuevo modelo, la primera sesión debe seguir costando $30.000, pero el resto de las sesiones tiene un 20% de descuento: 30.000×0,8 = $24.000 cada una. El nuevo cobro total es 30.000 + 24.000×(x−1) = 24.000x + 6.000, que corresponde a h(x) en la opción b.",
+  "distractor_diagnosis": {"a": "g(x)=24.000x olvida el cargo fijo de $6.000 que compensa el valor de la primera sesión.", "c": "Los valores 18.000 y 12.000 no corresponden a los cálculos de la tarifa con 20% de descuento.", "d": "Los valores de la tarifa fija y la tarifa por sesión están invertidos respecto al cálculo correcto."},
+  "skip_reason": null
+ },
+ {
+  "id": "cc7d4738-4cb0-4bb2-8756-03ffbcfb6ecf",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el perímetro del cuadrado es 20 cm, cada lado mide 20/4 = 5 cm. El área de un cuadrado es lado al cuadrado: 5² = 25 cm².",
+  "distractor_diagnosis": {"a": "16 correspondería a un lado de 4 cm, no de 5 cm.", "b": "20 confunde el área con el valor del perímetro.", "d": "36 correspondería a un lado de 6 cm, no de 5 cm.", "e": "100 corresponde a multiplicar el perímetro por sí mismo (20×20), no a calcular el área real."},
+  "skip_reason": null
+ },
+ {
+  "id": "ccf749cf-67ba-4326-a7d4-7d3e011b8a9c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área de un trapecio es [(base mayor + base menor) × altura]/2. Reemplazando: [(10+6)×4]/2 = [16×4]/2 = 32 cm².",
+  "distractor_diagnosis": {"a": "24 se obtiene si usas solo la base menor (6) en vez de la suma de ambas bases.", "b": "28 no corresponde a la fórmula del trapecio con estos datos; revisa la suma de las bases.", "d": "40 se obtiene si calculas como si fuera un rectángulo usando solo la base mayor (10×4=40).", "e": "64 es el resultado de olvidar dividir por 2 al final: (10+6)×4=64."},
+  "skip_reason": null
+ },
+ {
+  "id": "cd0d7dd5-e2f9-416f-907a-74e1c694a74e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el promedio de 4 pruebas es 5,5, la suma de esas 4 notas es 4×5,5 = 22. Al agregar la quinta prueba con nota 7, la nueva suma es 22+7 = 29. El nuevo promedio es 29/5 = 5,8.",
+  "distractor_diagnosis": {"a": "5,6 correspondería a una suma total de 28, no de 29.", "b": "5,7 correspondería a una suma total de 28,5, no de 29.", "d": "5,9 no corresponde a dividir 29 por 5; revisa esa división.", "e": "6,0 redondea hacia arriba el resultado real de 5,8."},
+  "skip_reason": null
+ },
+ {
+  "id": "cd76d6ce-943e-45aa-a6f3-5f96bc32ae35",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

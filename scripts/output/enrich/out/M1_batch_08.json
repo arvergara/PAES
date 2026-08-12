@@ -1,0 +1,592 @@
+[
+ {
+  "id": "6379e313-ce39-4e6a-af7c-35bb637511a4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "P(no llueva) es el complemento de P(llueva): 1 − 0,3 = 0,7.",
+  "distractor_diagnosis": {
+   "a": "Repetiste la probabilidad de que llueva en vez de complementarla.",
+   "b": "Asumiste que ambos sucesos son igualmente probables (50-50).",
+   "d": "Sumaste las probabilidades en lugar de restar.",
+   "e": "Asumiste que la probabilidad de no llover es nula."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "642f5edc-571f-4ca1-808d-ef79f76b2787",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En triángulos semejantes los ángulos son iguales, pero los lados correspondientes solo son proporcionales, no necesariamente iguales.",
+  "distractor_diagnosis": {
+   "a": "Confundiste semejanza con congruencia (lados iguales).",
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "64f17e79-ac93-4299-868a-1b9798ec1152",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Factorizando x² − 2x − 15 = (x−5)(x+3), el volumen es x(x−5)(x+3). Como dos aristas son x y (x−5), la tercera arista p es x+3.",
+  "distractor_diagnosis": {
+   "a": "Usaste el signo opuesto del factor correcto (x−3 en vez de x+3).",
+   "b": "Confundiste con el factor (x+5), que no aparece en esta factorización.",
+   "c": "No terminaste de factorizar, dejando un factor cuadrático."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6570d5d8-25c2-4eb3-ae80-a87cecb72bd0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Ambos tienen el mismo dinero D. Para Valentina: D = 7x + 350. Para Ricardo: D = 5x + 600. Igualando ambas expresiones se obtiene la ecuación de la opción a.",
+  "distractor_diagnosis": {
+   "b": "Sumaste las expresiones con x y con los restos en vez de igualarlas.",
+   "c": "Invertiste el signo de los restos al plantear la igualdad.",
+   "d": "Multiplicaste el resto y el precio juntos en vez de dejar el precio solo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "660e0946-2f71-4a33-9322-ccdd5c83943d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como T = k·t, con 100°C en 8 min se obtiene k = 100/8 = 12,5 = 25/2.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la razón, dividiendo el tiempo entre la temperatura.",
+   "c": "Usaste solo el valor de la temperatura sin dividir por el tiempo.",
+   "d": "Multiplicaste en vez de dividir la temperatura por el tiempo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6611b2a8-9df3-497c-8973-dd7684e8fd67",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La razón altura/longitud de escalera es constante a lo largo de toda la escalera: 1,5/2. Para el largo total de 15 m, la altura es (15 × 1,5)/2 = 11,25 m.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Usaste el tramo restante de escalera (13 m) en vez del largo total (15 m).",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "66492919-8b7a-459e-bf1a-67b7d2d26272",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Total de estudiantes = 15 + 10 = 25. La probabilidad de elegir mujer es 10/25 = 2/5.",
+  "distractor_diagnosis": {
+   "b": "Calculaste la probabilidad de que sea hombre, no mujer.",
+   "c": "Asumiste que hay igual cantidad de hombres y mujeres.",
+   "d": "Comparaste mujeres con hombres en vez de con el total del curso.",
+   "e": "Usaste el total de hombres como denominador en vez del total de estudiantes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6664324e-17bb-497b-9209-749d04b4aedd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea x los lápices de Ariel. Carmen tiene x+13. La condición es x + (x+13) ≤ 49, es decir 2x ≤ 36, por lo que x ≤ 18.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal 49 − 13, obteniendo 35 en vez de 36.",
+   "c": null,
+   "d": "Calculaste el máximo de lápices de Carmen, no de Ariel."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "66b7fe4f-559b-4a1f-a54d-d86afb5eee26",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "24 = 2³×3 y 36 = 2²×3². El MCD toma los factores comunes con el menor exponente: 2²×3 = 12.",
+  "distractor_diagnosis": {
+   "a": "Tomaste solo un factor común, no el máximo.",
+   "b": "Usaste un divisor común pero no el mayor posible.",
+   "c": "Elegiste un divisor de 24 que no divide a 36.",
+   "e": "Calculaste el MCM en vez del MCD."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "66e9f5d7-8fbe-44d7-b9d1-0a1d425a3d3d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "8,4 cm × 50.000 = 420.000 cm = 4.200 m = 4,2 km.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": "Olvidaste aplicar la escala, dejando la medida tal como aparece en el mapa."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "673dc1bb-f32a-48d6-8892-4ded6064cd23",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Por Pitágoras: c² = 13² − 5² = 169 − 25 = 144, por lo que c = 12 cm.",
+  "distractor_diagnosis": {
+   "a": "Restaste directamente los catetos en vez de aplicar Pitágoras.",
+   "b": "Confundiste con el triple pitagórico 6-8-10.",
+   "c": "Cometiste un error al calcular la raíz cuadrada de 144.",
+   "e": "Cometiste un error de cálculo al aplicar el teorema de Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6760e7ee-0f92-48f8-a97e-61ea594d9692",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "(2×3)⁴ = 2⁴×3⁴ por la propiedad de potencia de un producto, y también (2×3)⁴ = 6⁴ al multiplicar primero las bases. Ambas expresiones (b y c) son correctas.",
+  "distractor_diagnosis": {
+   "a": "Sumaste las potencias de las bases en vez de multiplicarlas.",
+   "b": "Es correcta pero incompleta; no consideraste que c también lo es.",
+   "c": "Es correcta pero incompleta; no consideraste que b también lo es.",
+   "d": "Multiplicaste 2×3×4 en vez de aplicar el exponente correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "676c7ce9-72e8-40be-85c0-4618dc73a782",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "l² = 49, entonces l = 7 cm. El perímetro es 4×7 = 28 cm.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el lado del cuadrado con su perímetro.",
+   "b": "Calculaste el doble del lado en vez de multiplicarlo por 4.",
+   "d": "Confundiste el área con el perímetro.",
+   "e": "Multiplicaste el área por 4 en vez del lado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "67c7ef8e-7a8f-4e77-84cc-9bc3b3a37eff",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "g(1) = 1+3 = 4. Luego f(g(1)) = f(4) = 2×4 = 8.",
+  "distractor_diagnosis": {
+   "a": "Sumaste en vez de multiplicar al evaluar f(4) (2+4 en vez de 2×4).",
+   "b": null,
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "682090eb-59be-4dbe-b03c-941f614cadf1",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El ángulo exterior es 180° − 140° = 40°. El número de lados es 360°/40° = 9.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el ángulo exterior como 45° en vez de 40°.",
+   "c": "Calculaste el ángulo exterior como 36° en vez de 40°.",
+   "d": null,
+   "e": "Calculaste el ángulo exterior como 30° en vez de 40°."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "68f48214-6fa5-4cf8-b9de-ae68c65bf17e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "20% del 20% del 20% de P es 0,2×0,2×0,2×P = 0,008P, lo que equivale a 0,8% de P.",
+  "distractor_diagnosis": {
+   "b": "Convertiste el decimal a porcentaje multiplicando por un factor mucho mayor de lo debido.",
+   "c": "Dividiste la suma de los porcentajes entre 100 en vez de multiplicarlos sucesivamente.",
+   "d": "Sumaste los tres porcentajes (20%+20%+20%) en vez de multiplicarlos sucesivamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "68fc519c-09c6-4953-a8ce-9320eb3aff3c",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "10³ × 10⁻¹ = 10^(3−1) = 10² = 100. Las opciones a y d representan el mismo valor.",
+  "distractor_diagnosis": {
+   "a": "Es correcta pero incompleta; no consideraste que d también lo es.",
+   "b": "Ignoraste el signo negativo del exponente y sumaste 3+1.",
+   "c": "Multiplicaste los exponentes en vez de sumarlos.",
+   "d": "Es correcta pero incompleta; no consideraste que a también lo es."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "695218ed-397c-4eb9-8e36-1e4686b9e540",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "695cde88-3353-4838-86bf-997fd21e3991",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La altura en el rebote n es A·(2/3)ⁿ. Con (1) se conoce A y se calcula directamente el décimo rebote. Con (2) se conoce el tercer rebote, del cual se puede despejar A (o expresar el décimo rebote como el tercero por (2/3)⁷). Por lo tanto, cada dato por separado es suficiente.",
+  "distractor_diagnosis": {
+   "a": "Correcta parcialmente, pero (2) también es suficiente por sí sola.",
+   "b": "Correcta parcialmente, pero (1) también es suficiente por sí sola.",
+   "c": "No es necesario usar ambas condiciones; cada una basta por separado.",
+   "e": "Existe información suficiente; no se requiere ningún dato adicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "69873c0f-5f4d-4538-8de2-2c685df07fd8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Al reflejar A=(x,y) respecto al eje Y se obtiene B=(−x,y). La distancia entre A y B es 2x, pues solo cambia la coordenada horizontal.",
+  "distractor_diagnosis": {
+   "a": "Elevaste la distancia al cuadrado por error.",
+   "b": "Calculaste solo la distancia de A al eje, no entre A y B.",
+   "d": "Multiplicaste por un factor incorrecto en vez de duplicar la distancia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6a829a6c-e03d-40bb-a421-b645de3f1289",
+  "verified_answer": "d",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "6a94273f-6fc5-42a4-8f9e-273cd85de5eb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea b los litros de tipo B. 1.500(10−b) + 2.500b = 19.000 → 15.000 + 1.000b = 19.000 → b = 4.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error aritmético al despejar 1.000b = 4.000.",
+   "c": "Asumiste que se compró la misma cantidad de cada tipo (5 y 5).",
+   "d": "Calculaste los litros de tipo A en vez de tipo B."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6aba4220-158a-4611-82ea-9f98d7e12b9f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Total de bolas = 3+2+5 = 10. La probabilidad de bola azul es 2/10 = 1/5.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo una bola azul en vez de las dos.",
+   "c": null,
+   "d": "Calculaste la probabilidad de bola roja en vez de azul.",
+   "e": "Asumiste proporciones iguales entre bolas azules y no azules."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6ad1117a-0dce-4b82-bf20-1777f49dcd63",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea a = billetes de $2.000 y b = billetes de $10.000. De a+b=30 y 2.000a+10.000b=100.000 se obtiene a+5b=50. Restando: 4b=20 → b=5, a=25. La diferencia es 25−5=20.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Confundiste el total de billetes con la diferencia buscada.",
+   "d": "Duplicaste por error la diferencia correcta (2×20)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6b197865-05a8-4a37-b3a4-a5a8dd65a3c4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "f(x) = 3x² − 2x + 5. f(−2) = 3(4) − 2(−2) + 5 = 12+4+5 = 21. Luego (1/3)·f(−2) = 21/3 = 7.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Calculaste mal el signo de −2x, usando −4 en vez de +4.",
+   "d": "Cometiste el mismo error de signo y además olvidaste multiplicar por 1/3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6b2f6a77-3c1a-4a68-9bf0-3680a3535a7e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Se forma un triángulo rectángulo con cateto 12 m e hipotenusa 15 m. La altura es √(15²−12²) = √81 = 9 m.",
+  "distractor_diagnosis": {
+   "b": "Promediaste 12 y 15 en vez de aplicar Pitágoras.",
+   "c": "Confundiste la altura con la distancia medida por el láser (hipotenusa).",
+   "d": "Sumaste los cuadrados en vez de restarlos y no calculaste la raíz."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6b3c040b-e2cf-4fe2-bdac-e5ffb6a8c10e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6b3ec707-208c-4a7e-b1b5-9aaacfff172c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con interés simple, el interés anual es 8% de 200.000 = $16.000. En 3 años: 3×16.000 = $48.000. Total = 200.000+48.000 = $248.000.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el interés de solo un año en vez de tres.",
+   "c": null,
+   "d": "Calculaste con interés compuesto en vez de interés simple."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6b98faa0-8633-450c-85ff-378516031383",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En la posición inicial, la altura es √(5²−4²)=3 m. Al bajar 1 m, la nueva altura es 2 m, y el nuevo pie está a √(5²−2²)=√21 de la pared. El desplazamiento del pie es √21−4 m.",
+  "distractor_diagnosis": {
+   "b": "Confundiste el desplazamiento del pie con el desplazamiento vertical dado (1 m).",
+   "c": "Olvidaste restar la distancia inicial del pie (4 m).",
+   "d": "Confundiste el desplazamiento con la longitud total del madero."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6c02f3cd-b01f-4bd7-882f-f0145162ebd8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "(−2)⁴ = 16, pues el signo queda dentro del paréntesis. −2⁴ = −(2⁴) = −16. La diferencia es 16 − (−16) = 32.",
+  "distractor_diagnosis": {
+   "a": "Asumiste que ambas expresiones son iguales.",
+   "b": "Cometiste un error aritmético al calcular las potencias.",
+   "c": "Calculaste solo (−2)⁴ sin restar −2⁴.",
+   "e": "Invertiste el orden de la resta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6c6468e2-6765-4c11-adc4-934a46d45526",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Factorizando x³+2x²−15x = x(x+5)(x−3). Las tres dimensiones del paralelepípedo son x, (x+5) y (x−3), por lo que la tercera dimensión p es x−3.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el signo del factor correcto (x+3 en vez de x−3).",
+   "b": "Corresponde a una de las dimensiones ya dadas, no a la buscada.",
+   "c": "Dividiste incorrectamente uno de los factores por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6c8adc5a-82f8-42b3-8eea-d60f12ffd2b8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6c98e58f-9e38-4bc3-a567-80f08e94c399",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si n es la cantidad de números comprados, n/250 = 1/50, por lo que n = 250/50 = 5.",
+  "distractor_diagnosis": {
+   "a": "Interpretaste 1/50 como comprar directamente 1 número.",
+   "c": "Confundiste el denominador de la probabilidad (50) con la cantidad comprada.",
+   "d": "Sumaste 1 al denominador de la probabilidad por error."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6cd01206-2df4-4a91-8893-ed147303b2ab",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6d4b197a-44f7-46c5-b270-939b99af4441",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La suscripción mensual por n meses cuesta 10.000n. Para que sea más conveniente que $96.000: 10.000n < 96.000 → n < 9,6. El máximo entero es 9.",
+  "distractor_diagnosis": {
+   "b": "Redondeaste hacia arriba en vez de tomar el entero menor a 9,6.",
+   "c": "Confundiste con el número de meses restantes tras el mes gratis.",
+   "d": "Sumaste el mes gratis a los 12 meses de la suscripción anual."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6d75d0f8-5aff-420f-8462-c0b4fcc8f362",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El rectángulo mayor mide (9+2x) por (3+2x). Su perímetro es 2×[(9+2x)+(3+2x)] = 2(12+4x).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 2 para obtener el perímetro completo.",
+   "b": "Calculaste el área en vez del perímetro.",
+   "d": "Calculaste una diferencia de áreas en vez del perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6d83bd79-8e32-4dfd-82b2-3509d77ee7c4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "√144 = 12, porque 12² = 144.",
+  "distractor_diagnosis": {
+   "a": "12² no es 144; cometiste un error de cálculo.",
+   "c": "11² no es 144; cometiste un error de cálculo.",
+   "d": "13² no es 144; cometiste un error de cálculo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6d84cab5-81c5-47b5-9e72-be3dbc3b6a80",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "IMC = masa/estatura² → 24 = 54/estatura² → estatura² = 54/24 = 2,25 → estatura = √2,25 = 1,5 m.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al calcular la raíz cuadrada de 2,25.",
+   "b": "Dividiste mal 54/24, obteniendo un cociente incorrecto.",
+   "d": "Olvidaste calcular la raíz cuadrada, dejando el valor de estatura² sin resolver."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6dab9cb1-6e4c-4c24-a248-a99369b21b54",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "2/3 + 1/4 = 8/12 + 3/12 = 11/12.",
+  "distractor_diagnosis": {
+   "a": "Sumaste numeradores y denominadores directamente, sin buscar común denominador.",
+   "c": "Sumaste numeradores y denominadores directamente, con otro error de cálculo.",
+   "d": "Olvidaste sumar la segunda fracción convertida (3/12)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6dc92ce6-a1f6-4ebd-a07c-e2bc6b4d53fa",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los comerciales actuales son 15% de 24 h = 3,6 h. Al agregar 2 h se obtienen 5,6 h. El nuevo porcentaje es 5,6/24 × 100 = 23,3%.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Sumaste las 2 horas directamente como si fueran 2 puntos porcentuales.",
+   "d": "Confundiste con el porcentaje de otra categoría de la tabla."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6dd39ee0-d25a-48f1-882b-17e7d5c55425",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "$255.000 ÷ $850 = 300 dólares.",
+  "distractor_diagnosis": {
+   "a": "Redondeaste mal la división.",
+   "b": "Cometiste un error aritmético al dividir.",
+   "d": "Multiplicaste en vez de dividir, o cometiste un error de cálculo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6deee7a8-9007-4647-9a7c-f14fa0089c1f",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "6e925dea-a726-4dd7-a7df-c303f22b7af2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La diferencia de edades actual es p−h=30. En 2 años, ambos suman 2 a su edad y la del padre será el triple de la del hijo: p+2=3(h+2).",
+  "distractor_diagnosis": {
+   "b": "Invertiste la diferencia de edades y dividiste por 3 en vez de multiplicar.",
+   "c": "La primera ecuación es correcta, pero dividiste la edad del padre en vez de triplicar la del hijo.",
+   "d": "Invertiste la diferencia de edades y no sumaste 2 al hijo antes de triplicar.",
+   "e": "La primera ecuación es correcta, pero aplicaste el triple a la edad del padre en vez de la del hijo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6eb504cd-f6dc-4d21-9a76-92839b2d5a56",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "\"Mi auto\" ofrece 5×3×3=45 posibilidades. \"Viaje feliz\" ofrece 4×3×4=48. La diferencia es 48−45=3 posibilidades más.",
+  "distractor_diagnosis": {
+   "b": "Cometiste un error en una de las multiplicaciones (45 no es igual a 48).",
+   "c": "Invertiste la comparación; en realidad ofrece más \"Viaje feliz\".",
+   "d": "Sumaste marcas, modelos y colores en vez de multiplicarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6ec6deab-072d-4380-85db-9cf1fa7db3af",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La longitud de arco es (90/360)×2π(4) = (1/4)×8π = 2π cm.",
+  "distractor_diagnosis": {
+   "a": "Usaste un ángulo de 45° en vez de 90°.",
+   "c": "Calculaste la mitad de la circunferencia en vez de un cuarto.",
+   "d": "Calculaste la circunferencia completa en vez del arco de 90°.",
+   "e": "Confundiste la longitud de arco con el área del círculo completo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6ef1e947-1e5f-428d-9f1a-ea99dce41630",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "C = 160.934×2 = 321.868 cm. Como 1 km = 100.000 cm, se divide: 321.868/100.000 = 3,21868 km.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por 100.000 en vez de dividir.",
+   "b": "Cometiste un error de conversión y obtuviste un valor varias veces menor.",
+   "d": "Cometiste el mismo error que en b, y además dividiste de más por 100.000."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6f63f6c8-6ed0-4d60-9dac-fdb59f2c9b80",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El rombo tiene dos ejes de simetría, que corresponden exactamente a sus diagonales.",
+  "distractor_diagnosis": {
+   "a": "El deltoide tiene solo un eje de simetría, no dos.",
+   "b": "El romboide no tiene ejes de simetría.",
+   "c": "Los ejes del rectángulo son paralelos a los lados, no a las diagonales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6fe56e2b-ae7c-41e2-995d-f7ad44bfa137",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las disponibles son 200−140=60. El porcentaje es (60/200)×100=30%.",
+  "distractor_diagnosis": {
+   "b": "Dividiste las disponibles entre las reservadas en vez del total.",
+   "c": "Confundiste la cantidad de habitaciones disponibles (60) con el porcentaje.",
+   "d": "Calculaste el porcentaje de reservadas en vez de disponibles."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6feac513-00eb-42b4-8443-3dd0863b8dc4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con AO=2·BP y 2·AO+2·BP=12, se obtiene AO=4 y BP=2. La suma de áreas de los semicírculos es (π·4²)/2 + (π·2²)/2 = 8π+2π = 10π cm².",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": "Calculaste las áreas como círculos completos en vez de semicírculos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "70a1567f-eaff-4be7-aa32-2f7e972a3f1d",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Por semejanza de triángulos: 15/20 = (h−75)/200 → h−75=150 → h=225 cm.",
+  "distractor_diagnosis": {
+   "a": "Usaste una distancia incorrecta en la proporción.",
+   "b": "Olvidaste sumar la altura de la mesa (75 cm) al resultado de la proporción (150 cm).",
+   "c": "Sumaste incorrectamente los valores intermedios de la proporción."
+  },
+  "skip_reason": null
+ }
+]

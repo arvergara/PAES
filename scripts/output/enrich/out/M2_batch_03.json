@@ -1,0 +1,582 @@
+[
+ {
+  "id": "377084fd-4454-4b24-8a3f-9269e8d37e8c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3880811c-644c-4922-a818-f4c9d69fb0e8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El enunciado pide el producto p × b, no la suma. Como p ∈ [−4, 3) y b ∈ (−1/2, 3/2), el producto es una función bilineal, así que sus valores extremos se alcanzan combinando los bordes de cada intervalo: el mínimo se acerca a (−4)(3/2) = −6 y el máximo se acerca a 3·(3/2) = 9/2. Como esos extremos provienen de bordes abiertos, no se alcanzan exactamente, por lo que el conjunto de valores posibles es el intervalo abierto (−6, 9/2).",
+  "distractor_diagnosis": {
+   "a": "Calculaste la suma p + b en vez del producto p × b.",
+   "b": "Igual que la opción a: corresponde a la suma, no al producto.",
+   "d": "Usaste extremos cerrados en vez de abiertos para el producto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "38bdf77e-a4bd-4ae6-adb4-87d58a04efb6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Ambos atletas tienen la misma media (11,2 s), así que hay que comparar la dispersión. Para el Atleta 1, usando desviación estándar muestral, la varianza es 0,10/4 = 0,025, con DE ≈ 0,158, lo que da CV = 0,158/11,2 × 100% ≈ 1,4%. Para el Atleta 2 la varianza es 1,18/4 = 0,295, con CV mucho mayor (≈ 4,8%). Como menor CV indica mayor consistencia, el atleta más consistente es el Atleta 1, con CV ≈ 1,4%.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a un cálculo con la desviación poblacional, no la muestral.",
+   "c": "Se acerca al CV del Atleta 2, que es el menos consistente.",
+   "d": "Es un valor intermedio que no corresponde al atleta más consistente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3a2f85c4-01c5-4dce-8fad-35205920ec3f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La relación I = k·O modela una homotecia donde k es el cociente entre la distancia al punto donde se forma la imagen (24 mm) y la distancia al objeto (1 m = 1000 mm). Así, el tamaño de la imagen es I = O × 24/1000 = 0,5 × 24/1000 metros. Esta expresión corresponde a la opción c.",
+  "distractor_diagnosis": {
+   "a": "No usa correctamente la razón 24/1000 entre las distancias.",
+   "b": "Invierte el orden de los factores de la proporción.",
+   "d": "Omite dividir por la distancia al objeto (1000 mm)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3b182730-35bf-4c0f-bde0-ea0c633d9023",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El rango intercuartílico es Q₃ − Q₁. Para la Ciudad X: 22 − 12 = 10. Para la Ciudad Y: 21 − 16 = 5. Por lo tanto, la Ciudad X tiene mayor dispersión central que la Ciudad Y, lo que confirma la opción b.",
+  "distractor_diagnosis": {
+   "a": "Invertiste las ciudades: X tiene mayor IQR, no Y.",
+   "c": "No calculaste los IQR; en realidad son distintos (10 y 5).",
+   "d": "Y tiene menor IQR y menor rango, no mayor variabilidad.",
+   "e": "El rango real es 20 en X y 10 en Y, no 14 y 8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3b39daf1-c602-4bb8-b7b4-d0fd71200eba",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Las pelotas se encuentran cuando h₁(t) = h₂(t): −5t² + 15t + 20 = 15t. Simplificando, −5t² + 20 = 0, de donde t² = 4 y t = 2 (se descarta t = −2 por no tener sentido físico). La altura de encuentro es h₂(2) = 15 · 2 = 30 m, lo que se verifica con h₁(2) = −20 + 30 + 20 = 30 m.",
+  "distractor_diagnosis": {
+   "a": "t = 1 no resuelve la ecuación −5t² + 20 = 0.",
+   "c": "t = 4 no satisface la igualdad de alturas; en t = 4 las alturas no coinciden.",
+   "d": "t = 3 no cumple −5t² + 20 = 0; las alturas en t = 3 son distintas.",
+   "e": "Usaste el t correcto pero calculaste mal la altura (debe ser 30, no 20)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3c064d3c-75b3-4044-8bf3-8b7373926147",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para completar el cuadrado en x² + 10x + 21, se suma y resta (10/2)² = 25: x² + 10x + 25 − 25 + 21 = (x + 5)² − 4. Así, a = 5 y b = −4.",
+  "distractor_diagnosis": {
+   "b": "Te olvidaste del signo negativo al calcular −25 + 21.",
+   "c": "Restaste 25 pero olvidaste sumar el 21 original.",
+   "d": "Sumaste 25 y 21 en lugar de restar 25 y sumar 21."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3cb8b7b2-105e-4dc3-a490-e0e15457643b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El cuadrado A de lado p tiene diagonal p√2, y el cuadrado B tiene lado igual a esa diagonal, por lo que su diagonal es (p√2)·√2 = 2p. La suma de diagonales es p√2 + 2p = p(√2 + 2). Con p = 2 − √2, el producto (2−√2)(√2+2) = 2, que es racional, y además p > 0 es una longitud válida.",
+  "distractor_diagnosis": {
+   "a": "Con p = 2 la suma resulta 2√2 + 4, que es irracional.",
+   "c": "Con p = 2 + √2 la suma resulta 6 + 4√2, irracional.",
+   "d": "Con p = √2 − 2 obtienes un lado negativo, inválido como longitud."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3d1f9ae6-d7ff-4e2b-9c15-740e9d67a80e",
+  "matches_key": true,
+  "verified_answer": "c",
+  "explanation": "Si el área original es L·A, el nuevo largo es 1,3L y el nuevo ancho es 0,8A, por lo que el nuevo área es 1,3 × 0,8 × L·A = 1,04·L·A. La variación es (1,04 − 1) × 100% = 4%.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los porcentajes (30% + 20%) en vez de multiplicar los factores.",
+   "b": "Restaste los porcentajes (30% − 20%) en vez de multiplicar 1,3 × 0,8.",
+   "d": "Cometiste un error aritmético al multiplicar los factores 1,3 y 0,8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3d525f89-43ec-462d-8a96-8684d229fd43",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Del 1 al 17 hay 9 números impares. Como la extracción es sin reposición, la probabilidad se calcula con combinatoria: C(9,4)/C(17,4) = 126/2380, que se simplifica a 9/170.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a la fracción de combinaciones C(9,4)/C(17,4) simplificada.",
+   "b": "Usaste un número de impares distinto de 9, o mal las combinaciones.",
+   "c": "Multiplicaste en vez de dividir las combinaciones.",
+   "d": "Confundiste el planteamiento con una multiplicación en vez de un cociente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3dde8367-afdc-4a66-8d40-9cb189426a87",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3ed7e84e-4a9b-4d6a-8dfd-cb78a29cb240",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para que un sistema 2×2 tenga infinitas soluciones, ambas ecuaciones deben ser múltiplos una de la otra, incluyendo el término independiente. La segunda ecuación tiene coeficientes que son el doble de la primera (4 = 2·2, 6 = 2·3), así que se necesita k = 2 · 9 = 18.",
+  "distractor_diagnosis": {
+   "a": "Usaste el valor original de 9 sin multiplicarlo por el factor 2.",
+   "b": "No calculaste correctamente el múltiplo de 9 que hace el sistema proporcional.",
+   "c": "Error aritmético al calcular el múltiplo correcto de 9.",
+   "e": "Sí existe tal valor: basta que k sea proporcional al resto del sistema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3f17b99c-59fa-493f-a5a6-aeb4afdb0425",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En la ecuación qx² + (q²−2)x + (1−2q) = 0, el producto de las raíces es c/a = (1−2q)/q. Igualando a −4: 1 − 2q = −4q, de donde 1 = −2q y q = −1/2.",
+  "distractor_diagnosis": {
+   "a": "Aplicaste la fórmula de la suma de raíces, no del producto.",
+   "b": "Cometiste un error de signo al despejar q.",
+   "c": "Invertiste la fracción usando a/c en vez de c/a."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4144eaf2-6c84-4318-9f6a-dcb74a8fa877",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En el triángulo ABC, rectángulo en C, AC = √(15² − 9²) = √144 = 12. Como los triángulos ABC y PQR son semejantes en ese orden (A↔P, C↔R), el lado AC corresponde a PR: la razón de semejanza es PR/AC = 3/12 = 1/4. La hipotenusa de PQR, que corresponde a AB, mide 15 × 1/4 = 3,75 cm.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a aplicar correctamente la razón lineal de semejanza.",
+   "c": "Confundiste el cálculo, usando AC/PR en vez de la hipotenusa.",
+   "d": "Asumiste que PR corresponde a BC en vez de a AC."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "429ca962-458e-4a74-b9cd-9b726ab394f3",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Expandiendo I(x) = (8000+500x)(200−10x) = −5000x² + 20000x + 1600000, que es una parábola con máximo en x = −b/(2a) = −20000/(−10000) = 2. Se deben hacer 2 aumentos de $500 para maximizar el ingreso.",
+  "distractor_diagnosis": {
+   "b": "Dividiste solo por a en la fórmula del vértice, sin el factor 2.",
+   "c": "Confundiste los coeficientes a y b al aplicar −b/(2a).",
+   "d": "Multiplicaste en lugar de dividir en la fórmula del vértice."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "42f7eaa6-08c5-46dd-a272-ca66c7a08f21",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En el sistema x+y=q, kx+ky=q, la segunda ecuación equivale a k(x+y)=q, y como x+y=q, se obtiene kq=q, es decir q(k−1)=0. Como k ≠ 1 y q ≠ 0 por hipótesis, esta igualdad es imposible, por lo que el sistema no tiene solución. Los demás sistemas (a, c, d) sí tienen solución (infinitas o única).",
+  "distractor_diagnosis": {
+   "a": "Es un sistema con infinitas soluciones (dependiente), no sin solución.",
+   "c": "Tiene solución única (x=k, y=0); no es un sistema sin solución.",
+   "d": "Tiene solución única (x=0, y=k); no corresponde al caso sin solución."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "448f988e-c910-452d-a6c1-17a3719cd140",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para rectángulos semejantes, el largo de uno debe ser proporcional al largo del otro, y el ancho al ancho: (4x+1)/(x+2) debe igualar 10/8 (largo/ancho de referencia), no 8/10. El Paso 1 invierte esta razón, por lo que el error se comete ahí, antes de cualquier cálculo posterior.",
+  "distractor_diagnosis": {
+   "b": "El Paso 2 solo resuelve correctamente la ecuación (mal planteada) del Paso 1.",
+   "c": "El Paso 3 solo reemplaza el valor de x ya heredado del error del Paso 1.",
+   "d": "El Paso 4 calcula el perímetro de forma consistente con los pasos previos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "44904e44-b714-4c47-8aaf-aefc8722ef7b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4532b27b-3753-4a85-aea5-d814aad915c5",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Por el teorema de Bayes, P(A | sin falla) = P(sin falla | A)·P(A) / P(sin falla). Las probabilidades de no tener fallas son 0,7 (A), 0,5 (B) y 0,4 (C), así que el denominador es 0,2×0,7 + 0,3×0,5 + 0,5×0,4, y el numerador es 0,2×0,7. Esta expresión completa corresponde a la opción d.",
+  "distractor_diagnosis": {
+   "a": "Falta dividir por la probabilidad total de no tener fallas.",
+   "b": "Usaste la probabilidad de falla (0,3) en vez de la de no tener falla (0,7).",
+   "c": "El denominador usa las probabilidades de falla, no las de no tener falla."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4710e61d-34b5-44b7-b610-a6ae27914e62",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La trayectoria del avión es la hipotenusa del triángulo rectángulo formado con la altura y la distancia horizontal. La altura es el cateto opuesto al ángulo de 30°: h = 6 · sen(30°) = 6 · 0,5 = 3 km.",
+  "distractor_diagnosis": {
+   "a": "Error aritmético al aplicar sen 30° = 0,5 sobre los 6 km.",
+   "c": "Usaste el coseno (distancia horizontal) en vez del seno para la altura.",
+   "d": "No corresponde a ninguna razón trigonométrica válida con 30° y 6 km.",
+   "e": "Multiplicaste por √3 sin aplicar correctamente sen 30°."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "47921050-bbac-4e85-9fe4-19202fc7d5c2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En el triángulo rectángulo formado por la altura del acantilado y la distancia horizontal de 150 m, tan(45°) = h/150. Como tan(45°) = 1, la altura h = 150 m.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la mitad de la distancia en vez de aplicar tan 45° = 1.",
+   "b": "No corresponde a ningún cálculo trigonométrico válido con estos datos.",
+   "d": "Confundiste la altura con la hipotenusa entre el bote y la cima.",
+   "e": "Mezclaste un factor de √2 sin justificación trigonométrica."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "47e13d1c-5d4c-4198-81d8-ce9cb07b2689",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como los datos de B se obtienen sumando 1000 a cada valor de A, la media de B también sube en 1000, pero las diferencias entre cada dato y su media (las desviaciones) no cambian. Por eso Var(A) = Var(B). Las opciones a, c y d llegan a conclusiones que pueden ser ciertas (medias distintas, mismo rango), pero con una justificación incorrecta.",
+  "distractor_diagnosis": {
+   "a": "La conclusión es cierta, pero la igualdad de varianzas no explica que las medias sean distintas.",
+   "c": "El rango es igual, pero no por tener 5 datos, sino por el desplazamiento constante de 1000.",
+   "d": "La igualdad de rangos no se deduce de la igualdad de varianzas; son propiedades distintas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "49582817-f91b-41e1-bbf1-52a730b8c589",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Partiendo de C(−1, 7) y trasladando con el vector (−2, −3), se obtiene (−1−2, 7−3) = (−3, 4). Luego, al rotar 90° en sentido antihorario con centro en el origen, se aplica (x,y) → (−y,x): (−3,4) → (−4,−3).",
+  "distractor_diagnosis": {
+   "a": "Corresponde solo al punto trasladado, sin aplicar la rotación.",
+   "b": "Intercambiaste x e y sin invertir el signo correcto de la rotación.",
+   "c": "Es el punto trasladado; falta aplicar la rotación de 90°.",
+   "e": "Aplicaste la fórmula de rotación horaria en vez de la antihoraria."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4afede76-0833-4720-bdce-bf6efdeaeefb",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4c507a55-7654-468f-ac89-3f7d274ab7db",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4e187076-5e8e-4d88-9780-8f52e23b042b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Usando log₂((x+3)(x−1)) = 5, se obtiene (x+3)(x−1) = 32, es decir x² + 2x − 35 = 0, que factoriza como (x+7)(x−5) = 0. Como el argumento de ambos logaritmos debe ser positivo (x > 1), la única solución válida es x = 5.",
+  "distractor_diagnosis": {
+   "b": "Es raíz algebraica de la ecuación, pero no cumple el dominio (x > 1).",
+   "c": "No verificaste la solución; x = 4 no cumple la igualdad original.",
+   "d": "No resolviste correctamente la ecuación cuadrática resultante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4ec2c624-d221-4b47-8adf-8d6c4a2e6796",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Al trasladar (x,y) con el vector (p,q) se obtiene (x+p, y+q). Para que este punto esté en el segundo cuadrante, se necesita x+p < 0 e y+q > 0, es decir, p < −x y q > −y.",
+  "distractor_diagnosis": {
+   "a": "Invertiste ambas desigualdades del segundo cuadrante.",
+   "b": "La segunda condición está mal planteada; debe ser q > −y.",
+   "c": "Invertiste la primera desigualdad y no usaste correctamente −x.",
+   "d": "Usaste el signo incorrecto en la condición de q; debe ser mayor, no menor."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5054e8c9-7533-4bb3-82b2-7837bc3ddb23",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La recta original va de (0, I/q) a (I/p, 0). Con el nuevo ingreso M < I y el nuevo precio s > p, los interceptos disminuyen: M/q < I/q y M/s < I/p. Además, la pendiente de la nueva recta es −s/q, cuya magnitud es mayor que la original −p/q (porque s > p), por lo que la nueva recta es más inclinada.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que el alza del precio de P inclina la recta, no solo la desplaza.",
+   "c": "Con ambos interceptos menores, las rectas no deberían cruzarse en el primer cuadrante.",
+   "d": "No corresponde a una reflexión; los cambios solo desplazan e inclinan la recta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "51029a5a-f502-44e3-8932-f3003cff44c1",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con AB = BC = 12 y AC = x − 3, la altura desde B cae en el punto medio de AC, dividiéndolo en dos segmentos de (x−3)/2. Por Pitágoras: ((x−3)/2)² + x² = 144. Multiplicando por 4 y expandiendo: (x−3)² + 4x² = 576 → 5x² − 6x − 567 = 0.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 4 al despejar (x−3)²/4 y usaste un valor erróneo.",
+   "b": "Cometiste un error de signo al expandir (x−3)², usando +6x en vez de −6x.",
+   "c": "Combinaste el error de signo con la falta del factor 5.",
+   "e": "Calculaste mal el término constante al multiplicar por 4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5301d97d-2d49-44a1-8bc3-b92a18c18d4f",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Al sumar una constante a todos los datos, la media también aumenta en esa constante, pero las desviaciones respecto a la media no cambian: (xᵢ+15) − (x̄+15) = xᵢ − x̄. Por eso la desviación estándar permanece igual.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la media (que sí aumenta en 15) con la desviación estándar.",
+   "b": "Esa regla aplica al multiplicar los datos por una constante, no al sumar.",
+   "c": "No hay razón para que la dispersión disminuya al sumar una constante positiva.",
+   "e": "Confundiste la operación; dividir aplicaría si los datos se dividieran por 15."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "54cba905-550b-46f1-8789-1be52293fa72",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para n ≥ 2, los últimos dos dígitos de 5ⁿ son siempre 25 (5²=25, y multiplicar por 5 mantiene ese patrón). Así, 5¹²¹ termina en 25: el dígito de las unidades es 5 y el de las decenas es 2, cuya suma es 7.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a la suma correcta de los últimos dos dígitos (2+5).",
+   "b": "Solo consideraste el dígito de las unidades, sin sumar el de las decenas.",
+   "d": "Escribiste los dos últimos dígitos como número (25) en vez de sumarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "551bf255-ad3c-4d0b-bada-fd8388159161",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se resuelve 500 · 2ᵗ = 16.000, dividiendo por 500: 2ᵗ = 32 = 2⁵, por lo que t = 5.",
+  "distractor_diagnosis": {
+   "a": "Con t=3, 2³=8 da solo 4.000 bacterias, no 16.000.",
+   "b": "Con t=4, 2⁴=16 da solo 8.000 bacterias, no 16.000.",
+   "d": "Confundiste el valor de 2ᵗ (32) con el tiempo t mismo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "55b9c2c3-ff41-42ad-bdc2-8c8d7b96cb24",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las razones se componen multiplicando en el orden correcto: razón R:Q = (R:P) × (P:Q) = (3/7) × (5/3) = 15/21 = 5/7.",
+  "distractor_diagnosis": {
+   "b": "Sumaste las razones en lugar de multiplicarlas.",
+   "c": "Invertiste la razón R:P (usaste P:R) al multiplicar.",
+   "d": "Cometiste un error aritmético al combinar las fracciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "564203d2-2e3b-47c4-abe7-ac8d56cda07d",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La función f(x) = kx + 4 corta el eje y en (0,4) y el eje x en x = −4/k. Para que este intercepto sea positivo (y así se forme el triángulo con los semiejes positivos), k debe ser negativo. El área del triángulo es (1/2)(4)(−4/k) = −8/k; igualando a 12 se obtiene k = −8/12 = −2/3.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la fracción al despejar k.",
+   "b": "Olvidaste que k debe ser negativo para formar el triángulo con ambos semiejes positivos.",
+   "c": "Cometiste un error al simplificar la fracción 8/12.",
+   "e": "Calculaste solo un valor auxiliar sin despejar correctamente k del área."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5662f188-8959-4e6f-b0fc-666cc50da01c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "57004e18-baa4-4e29-9ade-997813338ebe",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con f(x) = −2x + 7 (cero en x = 3,5) y g(x) = x + 4 (cero en x = −4), su intersección se obtiene igualando: −2x+7 = x+4 → x = 1, con y = 5. El triángulo formado con el eje X tiene vértices en (−4,0), (3,5;0) y (1,5). Su base mide 7,5 y su altura 5, por lo que el área es (1/2)(7,5)(5) = 75/4.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a la mitad de la base sin considerar la altura completa.",
+   "b": "Calculaste la base del triángulo (7,5) pero olvidaste multiplicar por la altura y dividir por 2.",
+   "c": "Olvidaste dividir por 2 en la fórmula del área del triángulo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "574346ed-0b20-48b7-9146-de41e0e53618",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "577161a3-6019-472f-92cc-5b25f2af4eab",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Si originalmente x + y = q y 3 niños no asisten, quedan x adultos y (y−3) niños, con un total de personas x + (y−3) = q − 3. El precio del adulto con 30% de descuento corresponde a pagar el 70% (0,70m), mientras los niños pagan n cada uno, dando 0,70mx + n(y−3) = k.",
+  "distractor_diagnosis": {
+   "b": "Usaste el porcentaje de descuento (30%) en vez de lo que efectivamente se paga (70%).",
+   "c": "No restaste las 3 personas del total q, y comparaste con p−k en vez de k.",
+   "d": "El primer término es correcto, pero igualaste el pago a p−k en lugar de a k."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "58900af8-41c6-4bd2-abc5-56e3c954261f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Usando la fórmula general: x = (3 ± √(9+40))/4 = (3 ± 7)/4. Esto da x = 10/4 = 5/2 y x = −4/4 = −1.",
+  "distractor_diagnosis": {
+   "b": "Invertiste los signos de ambas raíces.",
+   "c": "Intercambiaste los coeficientes a y c al resolver.",
+   "d": "Cometiste un error de signo en una de las raíces.",
+   "e": "Escalaste incorrectamente las raíces por un factor de 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "58de42d4-a7ce-4592-920a-b80a1d63447c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El estanque tiene 25% de su capacidad y falta un 75% de la capacidad total para llenarlo. El porcentaje de aumento se calcula respecto a la cantidad actual (25%), no respecto a la capacidad total: (75/25) × 100 = 300%.",
+  "distractor_diagnosis": {
+   "a": "No estableciste correctamente la razón entre lo que falta y la cantidad actual.",
+   "b": "Calculaste el porcentaje respecto a la capacidad total, no a la cantidad actual.",
+   "d": "Calculaste la razón entre la capacidad total y la actual, no solo el incremento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "58fc17b8-2d8d-4e5a-9752-3a514397067b",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Restando las dos ecuaciones, ax+by−(bx+ay)=0 se reduce a (a−b)(x−y)=0, y como a ≠ b, se concluye x = y. Reemplazando en la primera ecuación: x(a+b) = −1, por lo que x = y = −1/(a+b).",
+  "distractor_diagnosis": {
+   "a": "Contiene un error de signo respecto a la solución correcta.",
+   "b": "Usaste (a−b) en el denominador en lugar de (a+b).",
+   "c": "Igual que la opción a, tiene un error de signo en el resultado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "59fad118-8204-4235-b397-24bd7409d73f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La habitación real mide 5 m = 500 cm de largo, y en el plano mide 5 cm. La razón de homotecia es 500/5 = 100, lo que se confirma con el ancho: 400/4 = 100.",
+  "distractor_diagnosis": {
+   "a": "No convertiste correctamente metros a centímetros antes de dividir.",
+   "b": "Usaste un factor de conversión de 10 en lugar de 100.",
+   "d": "Sobre-convertiste las unidades, como si fueran milímetros."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5a9eae76-98ee-4cb1-865f-44a96cc2fcee",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De los 40 fumadores, el 20% no tiene enfermedad: 8 personas. Como el total con enfermedad es 35 (0,35×100) y los fumadores con enfermedad son 32 (80% de 40), los no fumadores con enfermedad son 35−32=3, y sin enfermedad son 60−3=57. El total sin enfermedad es 65, así que P(no fuma | sin enfermedad) = 57/65.",
+  "distractor_diagnosis": {
+   "b": "Usaste 60 (total de no fumadores) en vez de 65 (total sin enfermedad) como denominador.",
+   "c": "Usaste un numerador distinto de 57 (no fumadores sin enfermedad).",
+   "d": "Falta el numerador correcto (57) junto con el denominador."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5b01c733-4607-47c8-a4dc-ca086774ba6f",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Hay m/4 cartas de tipo B. Al extraer sin reposición, la probabilidad de que ambas sean tipo B es (1/4) × ((m/4−1)/(m−1)), ya que la segunda extracción depende de la primera.",
+  "distractor_diagnosis": {
+   "a": "Calculaste como si la extracción fuera con reposición: (1/4)² = 1/16.",
+   "b": "Sumaste las probabilidades de cada extracción en vez de multiplicarlas.",
+   "c": "No corresponde a ningún cálculo válido de probabilidad para este problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5cfeadf0-aa36-4e1d-816e-519b69514bfe",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5d0d0fe0-7e9f-4baf-ab4e-4ef3848ccfea",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para que x² + kx + 9 = 0 tenga una única solución, el discriminante debe ser cero: k² − 36 = 0, de donde k = 6 o k = −6.",
+  "distractor_diagnosis": {
+   "b": "Calculaste √9 en lugar de √36 para el discriminante.",
+   "c": "Confundiste el valor del discriminante (36) con el valor de k.",
+   "d": "Olvidaste que k = −6 también satisface la condición."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5d33b3e7-da65-4476-b990-7b0004216458",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sean A y B los litros de cada mezcla. Se necesita A + B = 10 (volumen total) y 0,10A + 0,02B = 0,07×10 = 0,7 (balance de endulzante), ya que la primera mezcla tiene 10% de endulzante y la segunda 2%.",
+  "distractor_diagnosis": {
+   "a": "Probablemente intercambia los porcentajes de endulzante entre las mezclas.",
+   "b": "Combina los términos de forma no lineal, sin representar el balance real de la mezcla."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5d63a260-6cb1-4fb5-b98b-f21048a27ce1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área original es 4×6=24 cm². En una homotecia de razón k, el área se multiplica por k². Con k=3, el área ampliada es 24 × 9 = 216 cm².",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste el área por k (3) en lugar de k² (9).",
+   "c": "Hiciste un cálculo parcial, como si solo un lado se escalara.",
+   "d": "Multiplicaste por k³ en lugar de k²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5d781f2c-fb12-4b6c-95b0-1b9e742fef00",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La suma 1+...+99 es 99×100/2 = 4950, y la suma 1+...+50 es 50×51/2 = 1275. El cociente es 4950/1275, que simplificado da 66/17.",
+  "distractor_diagnosis": {
+   "b": "Dejaste el producto sin simplificar en la forma correcta.",
+   "c": "Usaste N y N−1 en vez de N y N+1 en la fórmula de suma.",
+   "d": "Simplificaste incorrectamente la fracción, perdiendo el valor 66/17."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5e626c45-dbec-4cab-b961-47ea58187932",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Al multiplicar todos los datos por una constante k, la desviación estándar se multiplica por |k|. Aquí k=3, así que la nueva desviación estándar es 3σ. Esto se confirma calculando: σ original = 5√5, y con los datos triplicados la nueva desviación es 15√5 = 3·(5√5).",
+  "distractor_diagnosis": {
+   "a": "Confundiste con la regla de sumar una constante, que no cambia la SD; aquí se multiplica.",
+   "b": "Aplicaste una suma en lugar de una multiplicación por el factor de escala.",
+   "d": "Multiplicaste por k² (9), regla que aplica a la varianza, no a la SD.",
+   "e": "Aplicaste una raíz cuadrada del factor sin justificación; la SD se escala por k."
+  },
+  "skip_reason": null
+ }
+]

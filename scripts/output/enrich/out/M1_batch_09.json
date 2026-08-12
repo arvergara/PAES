@@ -1,0 +1,556 @@
+[
+ {
+  "id": "70dcbd44-4fae-4fd3-b1af-5952f57e0c4e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Aplicando el teorema de Pitágoras con la escalera como hipotenusa: h² + 5² = 13². Despejando, h² = 169 − 25 = 144, por lo tanto h = 12 m.",
+  "distractor_diagnosis": {
+   "a": "Restaste 13−5 directamente en vez de aplicar Pitágoras.",
+   "b": "Sumaste los cuadrados en vez de restarlos (√(13²+5²)).",
+   "d": "Sumaste 13+5 directamente en vez de aplicar Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "712aed90-ad6e-484b-a0b1-c0d243049d09",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "CUADERNO tiene 8 letras distintas. Como el orden importa (son palabras) y no se repiten letras, se usan permutaciones: P(8,4) = 8×7×6×5 = 1.680.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a un método válido de conteo.",
+   "b": "Calculaste 8! usando las 8 letras en vez de solo 4.",
+   "c": "Calculaste 4! olvidando elegir cuáles 4 letras usar.",
+   "d": "Usaste combinaciones C(8,4)=70, ignorando que el orden importa."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "71d76dbb-a6e4-4917-a17d-b967142b16e4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El punto A está a distancia x del eje Y. Al reflejarlo respecto al eje Y, B tiene la misma ordenada pero abscisa opuesta, quedando a la misma distancia x del eje pero al otro lado. La distancia entre A y B es la suma de ambas distancias: 2x.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Olvidaste duplicar la distancia; x es solo la mitad del segmento.",
+   "d": "Multiplicaste por un factor arbitrario sin justificación geométrica."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "71e5c62c-9739-4d0e-89c8-a6e7f19066be",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7209c1bf-1aa2-48cb-8a3a-10af2bd758cd",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área del rectángulo completo es 10×6 = 60 cm². Al recortar un cuadrado de 2 cm de lado se le resta su área, 2² = 4 cm². El área resultante es 60 − 4 = 56 cm².",
+  "distractor_diagnosis": {
+   "b": "Olvidaste restar el área del cuadrado recortado (60 cm² sin ajustar).",
+   "c": "Sumaste el área del cuadrado en vez de restarla (60+4).",
+   "d": "Restaste un valor incorrecto (2×4=8) en lugar del área real (4)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "721f0950-b424-4cba-ae3f-4555fd74eb3b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "72afafc6-5859-4d60-a262-e4d8e490c3b4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La secuencia comienza en 3 y suma 7 en cada paso: 3, 10, 17, 24, 31. El quinto término es 3 + 7×4 = 31.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo 7×4=28, olvidando sumar el primer término 3.",
+   "c": "Usaste 5 pasos en vez de 4, sin sumar el primero.",
+   "d": "Usaste n=5 en la fórmula en lugar de n−1=4 (3+7×5=38)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "72dc46e7-8292-4640-bce2-e17695b12f63",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La razón 3:5 tiene 8 partes en total. Cada parte equivale a 480÷8 = 60 g. El café colombiano corresponde a 3 partes: 3×60 = 180 g.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el valor de una sola parte (60 g) y la dejaste como final.",
+   "b": null,
+   "d": "Calculaste la cantidad de café brasileño (5×60) en vez del colombiano.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7366b00e-a2d4-462f-83ca-ed881de3e1cc",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "73ede5f8-b47c-4d73-b22a-6f19f4851ea7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los números mayores que 4 en un dado son el 5 y el 6, es decir, 2 resultados favorables de 6 posibles. La probabilidad es 2/6 = 1/3.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo un resultado favorable en vez de dos (5 y 6).",
+   "c": "Confundiste con la probabilidad de obtener más de 3 (3/6).",
+   "d": "Calculaste el complemento de la probabilidad correcta (1−1/3).",
+   "e": "Calculaste el complemento de contar solo un caso favorable."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "74084204-5979-4bab-afde-7094310339df",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Despejando x: 3 − 2x = 7 → −2x = 7 − 3 = 4 → x = 4/(−2) = −2.",
+  "distractor_diagnosis": {
+   "a": "Sumaste en vez de restar el 3 al despejar.",
+   "b": "Cambiaste el signo del 3 incorrectamente al traspasarlo (−2x=10).",
+   "c": "Dividiste por un valor incorrecto al despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "740c8c2a-7a34-4bc0-ad40-ab931f3924a1",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "74472d07-8d43-4560-b251-96afce79e861",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "747e8af2-2044-4f92-9c53-82b38c78b639",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Al multiplicar potencias de igual base se suman los exponentes: 2³·2⁵ = 2⁸. Al dividir por 2⁴ se restan los exponentes: 2⁸÷2⁴ = 2⁴.",
+  "distractor_diagnosis": {
+   "b": "Dividiste los exponentes (8÷4=2) en vez de restarlos.",
+   "c": "Sumaste los tres exponentes (3+5+4=12) en vez de restar el del denominador.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "749cc8e8-16fb-4e64-aeb0-de4ea6648f43",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El lado AB está sobre el eje x y mide 8 (base). La altura es la coordenada y de C, que es 6. El área es ½×8×6 = 24.",
+  "distractor_diagnosis": {
+   "a": "Usaste una base incorrecta en el cálculo, por ejemplo 6 en vez de 8.",
+   "c": "Usaste una base o altura equivocada, obteniendo un valor mayor al correcto.",
+   "d": "Olvidaste multiplicar por 1/2 (calculaste base×altura completa, 8×6=48)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "74be49c3-5599-4811-9c15-ed36f43a7e66",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El 25% de 8 puntos es 2 puntos. Sumando al puntaje inicial: 8 + 2 = 10 puntos finales.",
+  "distractor_diagnosis": {
+   "a": "Calculaste una bonificación menor a la correcta (1 punto en vez de 2).",
+   "b": null,
+   "d": "Calculaste una bonificación mayor a la correcta (3 puntos en vez de 2)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "752d3ca5-caa3-448b-8a15-c70116857fc6",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7549d878-79c4-438a-bd10-327608f66166",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área de un rectángulo es base × altura. Con área 48 cm² y base 8 cm, la altura es 48÷8 = 6 cm.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null,
+   "e": "Asumiste que el rectángulo es un cuadrado (base = altura = 8)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7589b7e1-d57f-4ba3-9ee3-44ef0d6d28b4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se plantea la ecuación 2.000 + 500n = 7.000, donde n es el número de artículos adicionales. Despejando: 500n = 5.000, por lo tanto n = 10.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": "Olvidaste restar el precio base de 2.000 antes de dividir (7.000÷500=14)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "75d2c825-3abc-4d2e-95b4-557899bcce40",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El total de familias se obtiene sumando todas las frecuencias de la tabla: 6+3+2+3+1 = 15 familias.",
+  "distractor_diagnosis": {
+   "a": "El valor 5 no corresponde a la suma de las frecuencias.",
+   "b": "El valor 10 no corresponde a la suma total de las frecuencias.",
+   "d": "Sumaste incorrectamente, obteniendo un total mayor al real (20)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "766c851d-21a3-48e3-add3-46748866a60b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "76b514ce-2a7d-4a64-bf0c-48ea5300e977",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Multiplicando la primera ecuación por 3 se obtiene 6x+3y=18. Restando la segunda ecuación (4x+3y=12), queda 2x=6, entonces x=3. Sustituyendo en la primera: 6+y=6, por lo tanto y=0.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": "Usaste y=2x+6 en vez de y=6−2x, dando y=12."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7727ea18-2099-4fab-a8f8-766a6e475865",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Definiendo este como +x y sur como −y, el vector de Juan a Diego es (2,−5) y de Diego a Pedro es (1,−1). El vector de Juan a Pedro es la suma: (3,−6).",
+  "distractor_diagnosis": {
+   "a": "Usaste oeste en vez de este (signo horizontal invertido).",
+   "b": "Invertiste ambos signos (oeste y norte en vez de este y sur).",
+   "d": "Usaste norte en vez de sur (signo vertical invertido)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "77d9e0d9-81d8-4ef0-92d4-16580d14baca",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por el teorema de Pitágoras, la hipotenusa al cuadrado es la suma de los cuadrados de los catetos: h² = 6²+8² = 100. Entonces h = 10 cm.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": "Sumaste los catetos directamente (6+8=14) en vez de aplicar Pitágoras.",
+   "e": "Multiplicaste los catetos (6×8=48) en vez de aplicar Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "77f2fdba-ce02-40f9-bc62-2366f4146b82",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Despejando x: 2x+5>11 → 2x>11−5=6 → x>3.",
+  "distractor_diagnosis": {
+   "b": "Invertiste el sentido de la desigualdad sin dividir por un negativo.",
+   "c": "Sumaste 5 en vez de restarlo (11+5=16), obteniendo x>8.",
+   "d": "Sumaste 5 en vez de restarlo y además invertiste la desigualdad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "78989ce8-8790-4885-a0ca-782823811db0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La probabilidad de que la primera sea roja es 5/10. Dado que no hay reposición, la probabilidad de que la segunda también sea roja es 4/9. Multiplicando: (5/10)×(4/9) = 20/90 = 2/9.",
+  "distractor_diagnosis": {
+   "b": "Asumiste reposición, usando 5/10 en ambas extracciones (5/10×5/10=1/4).",
+   "c": null,
+   "d": "No redujiste el total de bolitas en la segunda extracción.",
+   "e": "Igual error que la opción con 1/4, sin simplificar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "78d7a181-d200-46a3-9fcc-2d41b8cef949",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7922ea8c-64d7-4a70-ba78-7acb3b14646b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "79281e79-adc1-4df7-8948-a6524bd6b52e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sea x el ancho. El largo es 2x+5. El perímetro es 2(x + 2x+5) = 70, es decir, 6x+10=70, por lo tanto 6x=60 y x=10 metros.",
+  "distractor_diagnosis": {
+   "b": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "793258f5-a3e8-4e31-91ac-2002d54a5e4b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El perímetro de un rectángulo es 2×(largo+ancho) = 2×(30+20) = 2×50 = 100 metros.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo la mitad del perímetro, sin multiplicar por 2.",
+   "c": "Calculaste el área (30×20=600) en vez del perímetro.",
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7aa4d7e2-067d-440c-82f2-4e5a2df809db",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "7ab87d34-399a-4545-895a-4957f73e182c",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El porcentaje se calcula como (4740/15800)×100 = 0,3×100 = 30%.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 100 la razón decimal obtenida (0,3).",
+   "b": "Corriste la coma decimal un lugar de más al expresar el porcentaje.",
+   "c": "Ubicaste mal la coma decimal en el resultado final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7ae5f413-74df-4ae9-8817-8bc1f4266723",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si 3 partes corresponden a 18, entonces 1 parte equivale a 6. El número mayor corresponde a 5 partes: 5×6 = 30.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null,
+   "e": "Dividiste 18 entre 2 en vez de entre 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7afaa96e-6783-48e7-a995-5ef01a147f44",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7afd4fb8-3c0c-4145-92b5-04ca5164c9f9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La ecuación x²−12x+35=0 se factoriza buscando dos números que multiplicados den 35 y sumados den 12: esos números son 7 y 5. Por lo tanto (x−7)(x−5)=0, con soluciones x=7 y x=5.",
+  "distractor_diagnosis": {
+   "a": "Duplicaste las soluciones correctas por error de cálculo (14 y 10).",
+   "b": "Invertiste el signo de las soluciones, que deberían ser positivas.",
+   "d": "Duplicaste las soluciones correctas por error de cálculo (14 y 10)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7b41af5a-9001-4e79-a98b-029e4663e3cd",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7be1d0e3-0324-4b8c-9396-6c4025cd19d2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Al multiplicar potencias de igual base se suman los exponentes: 2³×2⁴ = 2^(3+4) = 2⁷.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste los exponentes (3×4=12) en vez de sumarlos.",
+   "c": "Cambiaste la base a 4 mientras sumabas los exponentes, mezclando reglas.",
+   "d": "Restaste los exponentes (4−3=1) en vez de sumarlos.",
+   "e": "Cambiaste la base a 4 y además multiplicaste los exponentes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7c1b409c-10d5-4e6c-85b7-c968078d8cc8",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las preguntas correctas son el 72% de 75: 0,72×75 = 54. Las incorrectas son las restantes: 75−54 = 21.",
+  "distractor_diagnosis": {
+   "b": "Diste el número de preguntas correctas en vez de las incorrectas.",
+   "c": "Usaste un porcentaje complementario incorrecto (24% en vez de 28%).",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7c47cc21-c484-41d0-801c-65877a572b86",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El perímetro de un cuadrado es 4 veces el lado: 4×7 = 28 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el área (7²=49) en vez del perímetro.",
+   "c": "Calculaste el doble del lado (2×7) en vez del perímetro.",
+   "d": "Calculaste el triple del lado (3×7) en vez del perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7d1c382c-dcdf-4763-a4e5-436c28eda65f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Planteando el sistema A+B=36 y 100A+150B=3.750, se sustituye A=36−B: 100(36−B)+150B=3.750 → 3.600+50B=3.750 → 50B=150 → B=3.",
+  "distractor_diagnosis": {
+   "b": null,
+   "c": null,
+   "d": "Asumiste que las bolitas se dividen en partes iguales (36÷2).",
+   "e": "Calculaste la cantidad de bolitas tipo A, no tipo B."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7d1ced08-e881-468a-8205-587a7d4fb9a6",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Se requiere c(x) ≤ 50.000, es decir 5.000+100x ≤ 50.000 → 100x ≤ 45.000 → x ≤ 450. Como además x≥0 y el límite de 450 sí se puede alcanzar (la desigualdad es ≤), el conjunto es el intervalo cerrado [0, 450].",
+  "distractor_diagnosis": {
+   "b": "Excluiste 450, tratando la desigualdad como estricta (<).",
+   "c": "Calculaste mal el valor máximo de x.",
+   "d": "No dividiste por 100 al despejar x, dejando el valor sin escalar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7e3a8d69-daf6-4034-8f46-f1c773c4b059",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El líquido total equivale a 96 vasos llenos. Si cada vaso se llena solo a 3/4, se necesitan 96÷(3/4) = 128 vasos para contener el mismo líquido. Los vasos adicionales son 128−96 = 32.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 96 por 3 en vez de usar la razón 4/3.",
+   "b": "Sumaste solo un cuarto de 96 (24), no un tercio.",
+   "c": "Usaste la mitad de 96 en lugar de la fracción correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7e5dc813-8880-4af9-8536-d2be9e36be81",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como la cantidad se cuadruplica cada hora, después de n horas se multiplica por 4 elevado a n. La cantidad final es 320×4^n.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por n en vez de elevar 4 a la potencia n.",
+   "c": "Elevaste el producto 320×4 a la n, no solo el factor.",
+   "d": "Elevaste la cantidad inicial a la n, no el factor."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7f50d6c0-6b57-4d9d-960d-791bb9b270cf",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Después de cada rebote la altura se multiplica por 4/5. Tras 3 rebotes: 100×(4/5)³ = 100×64/125 = 51,2 ≈ 51 cm.",
+  "distractor_diagnosis": {
+   "b": "Calculaste solo 4³=64, olvidando dividir por 5³=125.",
+   "c": "Aplicaste el factor 4/5 una sola vez en lugar de tres veces.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7f5c6314-f991-4fb3-b3ab-65afc71de9cc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "x²−9 es una diferencia de cuadrados: x²−3² = (x+3)(x−3).",
+  "distractor_diagnosis": {
+   "a": "Trataste la expresión como cuadrado perfecto, no diferencia de cuadrados.",
+   "b": "Trataste la expresión como un cuadrado perfecto con signo incorrecto.",
+   "d": "Elegiste 9 y −1, que no suman 0 correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7f892d62-b53d-4239-8a84-0cec040cefb9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La diferencia entre 8 y 6 es (8−6). Su tercera parte es (1/3)(8−6), y el doble de eso es 2·(1/3)·(8−6).",
+  "distractor_diagnosis": {
+   "a": "No agrupaste la diferencia entre 8 y 6 con paréntesis.",
+   "c": "Usaste 3 en lugar de 1/3, sin agrupar la diferencia.",
+   "d": "Usaste 3 en vez de 1/3 para representar la tercera parte."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7f9a9889-3e56-4e27-8100-3637e325d635",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los catetos son 8 y 6, por lo que la hipotenusa es √(8²+6²)=10 cm (triple pitagórico 6-8-10). Por la fórmula de Poncelet, d = a+b−c = 8+6−10 = 4 cm. El perímetro del círculo inscrito es π×d = 4π cm.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Usaste el radio (2 cm) en vez del diámetro.",
+   "d": "Tomaste el diámetro igual a un cateto, sin aplicar Poncelet."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7ff33b57-fec7-4afb-b712-80f7bd0bdcac",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "80297c1e-4222-4be6-8618-060b8cca4233",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "80314e3e-4fdd-4b37-af40-024513f3fbb7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El paquete de 6 botellas cuesta $2.700÷6 = $450 por botella. El paquete de 10 botellas cuesta $4.200÷10 = $420 por botella. El de 10 botellas tiene el menor precio por unidad.",
+  "distractor_diagnosis": {
+   "a": "Asignaste el precio del paquete de 10 al de 6.",
+   "b": "Calculaste bien el precio de 6, pero elegiste el más caro.",
+   "d": "Asumiste que ambos precios por botella son iguales sin calcularlos."
+  },
+  "skip_reason": null
+ }
+]

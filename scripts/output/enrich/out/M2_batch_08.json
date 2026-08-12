@@ -1,0 +1,347 @@
+[
+ {
+  "id": "e90fad48-4656-4cc1-b7c0-a2463c2c7138",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero calculamos la altura del edificio usando el ángulo de 60°: tan(60°) = h/20, por lo que h = 20√3 m. Luego, con el ángulo de 30°, tan(30°) = h/s, así que la nueva sombra mide s = 20√3/(√3/3) = 60 m. El aumento de la sombra es 60 − 20 = 40 m.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que el aumento es igual a la sombra original, sin calcular la nueva",
+   "c": "Confundiste la altura del edificio (20√3) con el aumento de la sombra",
+   "d": "Calculaste la nueva sombra completa pero olvidaste restar la original",
+   "e": "Usaste seno en vez de tangente para hallar la nueva sombra"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ea87ab8a-9588-441c-9e00-203d57fa64b0",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Solo importa el orden relativo entre las cartas 1 y 5; las otras tres cartas no afectan esa comparación. Por simetría, la carta 1 tiene exactamente la misma probabilidad de aparecer antes que la carta 5 que al revés, así que P(1 antes que 5) = 1/2.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de un orden específico de las 5 cartas, no el relativo",
+   "b": null,
+   "c": "Usaste 1 sobre las 5! permutaciones totales en vez de la simetría 1 y 5",
+   "e": "Pensaste que la probabilidad depende de las 5 cartas y no solo de la simetría"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ebe27a6a-c37e-44e7-863c-9395d9b28601",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sea R el precio de un reloj y N el de una novela. La condición (1) da 2R + 3N = 75.000, una ecuación con dos incógnitas. La condición (2) da otra ecuación al igualar los pagos con descuento de ambas tiendas. Cada una por separado tiene infinitas soluciones, pero juntas forman un sistema 2×2 con solución única, por lo que se necesitan ambas.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que el total sin descuento ya fija ambos precios por separado",
+   "b": "Pensaste que la relación entre descuentos ya determina los precios sin el total",
+   "d": "Supusiste que cualquiera de las dos condiciones alcanza por sí sola",
+   "e": "Creíste que faltan más datos aunque ambas condiciones juntas resuelven el sistema"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec21aea8-1db7-49f1-a7ee-1f7f0ea8de5a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En una homotecia de centro en el origen, la imagen se obtiene multiplicando cada coordenada por la razón k: P' = k·(x, y). Con k = −2 y P(2, 3), resulta P' = (−2·2, −2·3) = (−4, −6). El signo negativo invierte la posición del punto respecto al centro.",
+  "distractor_diagnosis": {
+   "a": "Ignoraste el signo negativo de la razón de homotecia",
+   "c": "Usaste razón −1 en vez de −2 al multiplicar el punto",
+   "d": "Aplicaste el signo negativo solo a la coordenada x, no a la y"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ed06fbcf-879d-4b13-83b4-37a4eaa1ee29",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El capital inicial es k. En el primer período la tasa es 0,3%, así que el capital crece a k·1,003. Como la tasa aumenta 100% en el segundo período, pasa a 0,6%, y el capital final es k·1,003·1,006. La ganancia es ese monto menos el capital inicial: k(1,006)(1,003) − k.",
+  "distractor_diagnosis": {
+   "a": "Sumaste las tasas (0,9%) y no restaste el capital inicial",
+   "b": "Sumaste las tasas en vez de componerlas periodo a periodo",
+   "c": "Calculaste el monto final correcto pero olvidaste restar el capital inicial"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ed23d150-bfd7-4b68-89ee-64f6865fba88",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "ee86a2ef-fd29-4e8e-9e36-3dc141ac66a4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con interés simple, el monto final es M = C(1 + r·t). Aquí C = 200.000, r = 0,06 y t = 2, entonces M = 200.000·(1 + 0,12) = 200.000·1,12 = $224.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el interés de un solo año en vez de los dos años",
+   "c": "Usaste interés compuesto en lugar de interés simple",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eeeb7bac-e127-4eba-9276-019fe20da9b1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Ubicando la lámpara en (0, 6) y la punta del poste en (3, 4), la recta que las une tiene pendiente (4−6)/3 = −2/3, con ecuación y = 6 − (2/3)x. La sombra toca el suelo cuando y = 0, es decir x = 9. Como la base del poste está en x = 3, el largo de la sombra es 9 − 3 = 6 m.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la altura del poste con el largo de la sombra",
+   "c": null,
+   "d": "Calculaste la distancia total hasta donde cae la sombra, sin restar la base del poste"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f028fa0f-7f18-49c9-a07f-b47bf1fe5cda",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Partiendo de q = (1/2)·A·V², multiplicamos ambos lados por 2: 2q = A·V². Dividiendo por A: V² = 2q/A, y aplicando raíz cuadrada: V = √(2q/A).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el factor 2 al despejar, dejando V = √(q/A)",
+   "b": "Colocaste el factor 2 en el denominador en vez del numerador",
+   "d": "No aplicaste la raíz cuadrada a toda la expresión 2q/A"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f048bb2c-8bd7-40fe-bc5f-3424a5d38cf8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f1175e41-a99c-4ad0-ab43-4f0c2242a7ef",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La fórmula necesita A (área basal), b (área del agujero), h y g. Con el volumen conocido (5 L) y h (dato 1), se obtiene A = Volumen/h. Con el diámetro del agujero (dato 2), se calcula b = π(d/2)². Solo con ambos datos juntos se tienen A y b para aplicar la fórmula, por lo que se requieren las dos condiciones.",
+  "distractor_diagnosis": {
+   "a": "Sabes h pero no el área del agujero (b); falta un dato",
+   "b": "Sabes el área del agujero pero no h, así que no obtienes A",
+   "d": "Supusiste que cualquiera de los dos datos basta por sí solo",
+   "e": "Creíste que faltan más datos aunque (1) y (2) juntas ya bastan"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f151dae3-6408-47bb-b8c2-64d997f47f56",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f1aae1fa-0e72-42ad-b124-ab9bc1656250",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Dos variables son inversamente proporcionales cuando su producto es constante. En la tabla de la opción a), los pares (5,8), (10,4) y (20,2) dan siempre el mismo producto: 5·8=40, 10·4=40, 20·2=40, lo que confirma la proporcionalidad inversa.",
+  "distractor_diagnosis": {
+   "b": null,
+   "d": "La tabla no mantiene ni producto ni razón constante entre las variables"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f1af91d3-7334-49b9-8b87-e5c30a15cef4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando ambas ecuaciones se elimina y: (x+2y)+(3x−2y) = 10+6, es decir 4x = 16, por lo que x = 4. Sustituyendo en la primera ecuación: 4 + 2y = 10, entonces y = 3. Así, x + y = 4 + 3 = 7.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Reportaste el valor intermedio 2y = 6 en vez de sumar x + y",
+   "d": "Calculaste 2x en lugar de terminar de resolver y sumar x + y"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f25fcd04-4c83-43a7-850e-9e089395321d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f2dac4c7-a8cb-469f-9c84-1d442632ad02",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f2e91912-36f6-465e-a6f8-9418151e351f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f3f50f34-ebe9-4446-8840-aff21b7653e9",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f42edf16-bbce-480a-9afd-96c8e7890603",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "De la fórmula, la magnitud es M = (log E − 11,8)/1,5. La diferencia de magnitud es ΔM = (log 10²⁵ − log 10¹⁹)/1,5 = (25−19)/1,5 = 6/1,5 = 4 grados Richter.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Restaste los exponentes (6) pero olvidaste dividir por 1,5",
+   "d": null,
+   "e": "Multiplicaste por 1,5 en lugar de dividir por 1,5"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f52c82d6-e341-49dc-96cb-63a90d0bfcf6",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f53c2616-7a1e-4778-a099-a683fa12f1a2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f58f84f9-bcc7-439a-8ff5-3c5a9da83c2d",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En una homotecia de razón k, las áreas se escalan por k² (el signo de k no afecta el área, que siempre es positiva). Con k = −3 y área original b cm², el área de la imagen es (−3)²·b = 9b cm².",
+  "distractor_diagnosis": {
+   "a": "Dividiste el área en vez de multiplicarla por el cuadrado de la razón",
+   "b": "Multiplicaste por la razón (3) en vez de su cuadrado (9)",
+   "c": "Elevaste también el área b al cuadrado, no solo la razón"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f6751363-8cb4-4771-9ea5-e386289794f4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f6d0dfb9-965f-4114-8920-6c223848fe93",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f7584bbf-460c-4af1-8eb0-460537df03e1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La función Tₙ(x) trunca x hasta el n-ésimo decimal. Se tiene T₅(π) = 3,14159 y T₆(π) = 3,141592; su diferencia es 0,000002 = 2×10⁻⁶. Al multiplicar esa diferencia por 10⁶ se obtiene exactamente 2, que es lo que expresa la opción c: (T₆(π) − T₅(π))×10⁶.",
+  "distractor_diagnosis": {
+   "a": "Usaste el séptimo decimal (T7−T6) en lugar del sexto",
+   "b": "Usaste el primer decimal (T1−T0) en lugar del sexto",
+   "d": "Usaste el quinto decimal (T5−T4) en lugar del sexto"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f96714ef-d93d-47fa-8485-b448fac5d004",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_ilegible"
+ },
+ {
+  "id": "f9ea62b3-7e78-46f6-9d67-b3f3fdf0cc13",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cultivo se acaba cuando f(t) = 0: −t² + 2t + 120 = 0, o bien t² − 2t − 120 = 0. Factorizando: (t − 12)(t + 10) = 0, con raíces t = 12 y t = −10. Solo t = 12 horas tiene sentido físico, ya que el tiempo no puede ser negativo.",
+  "distractor_diagnosis": {
+   "a": "Factorizaste mal la ecuación cuadrática y obtuviste una raíz incorrecta",
+   "b": "Tomaste el valor absoluto de la raíz negativa (−10) en vez de la positiva",
+   "d": "Confundiste el término constante (120) con el tiempo buscado"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fa12d77e-dd4a-4370-a220-4812eb3f6b63",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Usando diferencia de cuadrados, p² − b² se factoriza como (p−b)(p+b). Aplicando la propiedad del logaritmo de un producto: log(p²−b²) = log[(p−b)(p+b)] = log(p−b) + log(p+b), que es la opción e. Como 0<b<p, tanto p−b como p+b son positivos, así que ambos logaritmos están bien definidos.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el orden de la resta dentro del logaritmo (signo incorrecto)",
+   "b": "Confundiste log(p²−b²) con el cociente log(p/b)",
+   "c": "Aplicaste la propiedad de cociente en vez de la diferencia de cuadrados",
+   "d": "Calculaste log(p²/b²) en lugar de log(p²−b²)"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fbf95743-86a3-4197-b9bc-1f63668f3862",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El seno de un ángulo en un triángulo rectángulo es el cateto opuesto sobre la hipotenusa. Aquí sen α = 5/10 = 1/2.",
+  "distractor_diagnosis": {
+   "a": "Elevaste al cuadrado la razón (5/10)² en vez de dejarla simple",
+   "c": "Confundiste con sen 60° en lugar de sen 30°",
+   "d": "Confundiste con sen 45° en lugar de sen 30°",
+   "e": "Invertiste la razón y calculaste hipotenusa sobre cateto (cosecante)"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fcd2c3bc-d1a5-40ca-a1d6-b4f674a8a3b2",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Las áreas son: círculo = πR², cuadrado = P², triángulo = PH/2. Al igualar cuadrado y triángulo, P² = PH/2, se obtiene H = 2P, por lo que H > P. Al igualar círculo y cuadrado, πR² = P², se obtiene R = P/√π ≈ 0,56P, por lo que R < P. En conjunto: R < P < H.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fd9ff71d-f32f-4122-82b7-65bd58978cd3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sin saber cuántas tarjetas rojas hay (afirmación 1) ni el total (afirmación 2) por separado, no se puede calcular la probabilidad. Con ambas juntas: 3 rojas de 10 totales, P(1ª roja)=3/10 y P(2ª roja|1ª roja)=2/9, entonces P(2 rojas)=(3/10)(2/9)=1/15. Se necesitan las dos afirmaciones.",
+  "distractor_diagnosis": {
+   "a": "Sabes cuántas rojas hay pero no el total de tarjetas",
+   "b": "Sabes el total de tarjetas pero no cuántas son rojas",
+   "d": "Supusiste que un solo dato basta, ignorando que faltan ambos",
+   "e": "Pensaste que faltan más datos aunque (1) y (2) juntas ya bastan"
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fe4154e3-696f-42f2-ab4a-03c404824ebc",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Se usa probabilidad total, ponderando cada caja por la probabilidad de elegirla con el dado (1/2 cada una). P(roja) = (1/2)(3/5) + (1/2)(1/4) = 3/10 + 1/8 = 12/40 + 5/40 = 17/40.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo la contribución de la caja N, olvidando sumar la de M",
+   "b": "Olvidaste ponderar por 1/2 la probabilidad de elegir cada caja",
+   "c": null,
+   "d": "Usaste solo la probabilidad de la caja N, ignorando la caja M"
+  },
+  "skip_reason": null
+ }
+]

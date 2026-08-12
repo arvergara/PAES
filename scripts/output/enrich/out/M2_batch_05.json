@@ -1,0 +1,573 @@
+[
+ {
+  "id": "887668db-fe11-41ec-950b-a2307a53e909",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La función es f(x) = b·x² − 4 (b es el coeficiente principal). Para que existan dos puntos de intersección con el eje X se necesita b > 0 (si b ≤ 0 no hay dos raíces reales). Las raíces son x = ±√(4/b), y la distancia entre ellas es 2√(4/b) = 4/√b. Exigir que esta distancia sea mayor que 4 da 4/√b > 4, es decir √b < 1, o sea b < 1. Combinando con b > 0, el intervalo buscado es ]0, 1[.",
+  "distractor_diagnosis": {
+   "a": "Incluiste valores de b negativos o nulos, donde la parábola no llega a cortar dos veces al eje X.",
+   "c": "Probablemente invertiste la desigualdad al despejar √b, obteniendo un límite distinto de 1.",
+   "d": "Tomaste un intervalo con b negativo hacia -∞, ignorando que se necesita b > 0 para que existan raíces reales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "88994ca9-e30f-4ad7-ae9b-134855cfa37a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "f(x) = ax² + bx + c tiene tres incógnitas. La afirmación (1) (el vértice) entrega dos relaciones (posición en x y valor en y), pero no fija la apertura a, por lo que a, b y c quedan indeterminados. La afirmación (2) (f(7) = f(14) = 15) entrega que el eje de simetría es x = 10,5 y que f(7) = 15, es decir, otras dos relaciones, pero tampoco alcanza sola. Juntando (1) y (2) se obtienen ecuaciones suficientes e independientes para determinar a, b y c de forma única.",
+  "distractor_diagnosis": {
+   "a": "Creíste que el vértice por sí solo ya determina los tres coeficientes, sin notar que deja libre la apertura a.",
+   "b": "Creíste que f(7)=f(14)=15 por sí sola alcanza para fijar a, b y c, cuando deja una incógnita libre.",
+   "d": "No es cierto que cada afirmación por separado alcance; ambas aportan ecuaciones distintas y complementarias.",
+   "e": "Sí hay información suficiente: usando ambas afirmaciones juntas se determinan a, b y c."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "88d094c3-7a01-452f-91a6-f50d05df43a8",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El computador A demora p segundos por ejecución. El computador B hace 3 ejecuciones en p/2 segundos, es decir p/6 segundos por ejecución, siendo más rápido. Al repetir n veces, A demora np y B demora np/6; la diferencia es np − np/6 = 5np/6 = 60, de donde np = 72 y p = 72/n. El computador más lento (A) demora, por cada ejecución del algoritmo, p = 72/n segundos.",
+  "distractor_diagnosis": {
+   "b": "Usaste un múltiplo incorrecto (120 en vez de 72) al despejar la diferencia de tiempos.",
+   "c": null,
+   "d": "Multiplicaste en vez de dividir por n, invirtiendo la relación entre p y n."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "88e6ffd8-04ac-48b7-8893-e4828f457f04",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En una homotecia de centro en el origen y razón k, cada coordenada del punto original se multiplica por k. Para C(2, 5) con k = 2, la imagen es C' = (2·2, 5·2) = (4, 10).",
+  "distractor_diagnosis": {
+   "b": "Solo escalaste una coordenada por k y dejaste la otra casi sin cambios.",
+   "c": "Escalaste solo la coordenada y y dejaste la x sin multiplicar por 2.",
+   "d": "Dividiste en vez de multiplicar por la razón de homotecia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "88fe8a04-d683-41db-a445-0428dcd60545",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Si dos figuras son semejantes con razón k, todas las longitudes se multiplican por k y, por lo tanto, todas las áreas (producto de dos longitudes) se multiplican por k². Como el área total original es A, el área de la caja nueva es k²·A.",
+  "distractor_diagnosis": {
+   "a": "Escalaste el área linealmente por k en vez de por k², olvidando que el área depende de dos dimensiones.",
+   "b": "Escalaste el área linealmente por k en vez de por k², el mismo error de confundir razón lineal con razón de áreas.",
+   "c": "Sumaste un término adicional (6k²) en vez de multiplicar toda el área original por k²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "89961f85-2f39-46bd-911c-af94cb5e826a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Sumar una constante (5 puntos) a cada dato desplaza todos los valores por igual, por lo que las diferencias entre ellos —y por tanto el rango— no cambian: 24−12=12 antes y 29−17=12 después. La desviación estándar depende de las distancias de los datos respecto a su propio promedio, que tampoco cambian al sumar una constante. Por eso ni el rango ni la desviación estándar cambian.",
+  "distractor_diagnosis": {
+   "a": "Creíste que sumar una constante a los datos también aumenta su dispersión.",
+   "b": "Aceptaste correctamente que el rango no cambia, pero creíste erróneamente que la desviación estándar sí cambia con un desplazamiento constante.",
+   "c": "Confundiste el efecto sobre rango y desviación estándar: ninguno de los dos cambia, no solo uno.",
+   "e": "Multiplicaste en vez de sumar el valor 5, lo que sí alteraría ambas medidas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8c0c90eb-44e1-4e0e-b08e-ad025b96bb42",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La desviación estándar mide cuán dispersos están los datos respecto a su promedio. Como el curso A tiene desviación estándar 2,0 y el curso B tiene 4,0, y esta comparación es válida sin importar los datos exactos, el curso A siempre presenta menor dispersión que el curso B.",
+  "distractor_diagnosis": {
+   "a": "Que los promedios sean iguales no implica que las notas individuales de ambos cursos sean iguales.",
+   "b": "Un promedio de 8,5 no garantiza que la mayoría de las notas sea exactamente 8,5.",
+   "c": "Afirmar valores puntuales específicos (0,6 y 2,6) no se sigue solo del promedio y la desviación estándar dados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8cb69026-b051-4502-9294-9589fa706c8e",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Para que las soluciones de mx² + mx + 2 = 0 no sean reales, la ecuación debe ser cuadrática (m ≠ 0) y su discriminante negativo: Δ = m² − 8m < 0, es decir m(m−8) < 0, lo que ocurre exactamente cuando 0 < m < 8.",
+  "distractor_diagnosis": {
+   "a": "Con m < 0, m(m−8) es positivo (ambos factores negativos), lo que da soluciones reales, no complejas.",
+   "b": "Incluye valores donde m ≤ 0, casos en que la ecuación no es cuadrática o tiene discriminante positivo (soluciones reales).",
+   "c": "Incluye valores donde m ≤ 0, casos en que la ecuación no es cuadrática o tiene discriminante positivo (soluciones reales).",
+   "d": "Con -8 < m < 0, m(m−8) sigue siendo positivo (ambos factores negativos), dando soluciones reales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8dfb2fb8-ea61-4931-a515-251118cf7e08",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Se buscan pares enteros (a,b), ambos distintos de cero, con a²+b²=25. Las únicas descomposiciones son 3²+4² y 4²+3², y cada una admite 4 combinaciones de signos, dando 4+4=8 vectores en total.",
+  "distractor_diagnosis": {
+   "a": "Concluiste erróneamente que no existen soluciones enteras no triviales para a²+b²=25.",
+   "b": "Contaste solo una combinación de signos de (3,4) o (4,3), olvidando las demás variantes de signo.",
+   "c": "Contaste solo los vectores sobre los ejes coordenados, olvidando los vectores (±3,±4) y (±4,±3)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8e402a41-3370-447f-af01-75d90afa867b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cuadrado original tiene lado 9, por lo que su perímetro es 36. Con homotecia de razón k=1/3, cada lado de la imagen mide 9·(1/3)=3, y el perímetro de la imagen es 4·3=12.",
+  "distractor_diagnosis": {
+   "a": "Ese es el perímetro original, sin aplicar la razón de homotecia.",
+   "b": "Calculaste solo el lado de la imagen (3) pero no lo multiplicaste por los 4 lados del cuadrado.",
+   "d": "Confundiste el lado original con el resultado final, sin multiplicar por 4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8e4a9bd4-ee29-4917-9522-be267b159ade",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La altura máxima se alcanza en el vértice de la parábola. El tiempo del vértice es t = −b/(2a) = −30/(2·(−5)) = 3 s. Evaluando: h(3) = −5(9)+30(3)+10 = −45+90+10 = 55 m.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar el término independiente (+10) al calcular h(3).",
+   "c": "Cometiste un error aritmético al evaluar el término −5t².",
+   "d": "Confundiste la altura máxima con otro valor del problema, como la altura inicial."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8f2caace-97d3-4188-9558-fff5237bcbd4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "8f4db40e-a0f4-46ba-b338-0951bb2999dd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con P=5.000.000, r=0,02 y (1,02)¹⁵≈1,3459: el numerador es P·r·(1,02)¹⁵ = 5.000.000·0,02·1,3459 = 134.590, y el denominador es (1,3459−1)=0,3459. La cuota es 134.590/0,3459 ≈ $389.100, cuyo valor más cercano entre las opciones es $388.500.",
+  "distractor_diagnosis": {
+   "a": "Dividiste el monto total entre los 15 años sin considerar los intereses (5.000.000/15).",
+   "b": "Usaste un factor incorrecto al aplicar la fórmula, subestimando el efecto del interés compuesto.",
+   "d": "Usaste una aproximación distinta de (1,02)¹⁵, alejándote del valor correcto.",
+   "e": "Sobreestimaste la cuota, probablemente por un error al aplicar el factor (1+r)ⁿ."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8f54e8b6-3f51-468b-9f23-ad6129b6662e",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Como S(t)=5t², al duplicar el tiempo (de t a 2t) la superficie es S(2t)=5(2t)²=20t²=4·S(t): se cuadruplica. Comprobando las otras opciones con números se descartan: por ejemplo S(1)=5 y S(2)=20 (no es la mitad), y el tiempo para cubrir 800 unidades es el doble del que toma cubrir 200, no al revés.",
+  "distractor_diagnosis": {
+   "a": "S(1)=5 no es la mitad de S(2)=20, sino la cuarta parte; confundiste la relación cuadrática con una lineal.",
+   "b": "Invertiste la relación: el tiempo para 800 unidades es el doble del de 200, no al revés.",
+   "c": "Agregar 1 segundo no siempre cuadruplica el área; eso solo ocurre si ese segundo duplica exactamente el tiempo transcurrido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8f583637-81a7-494f-841f-d049b60c3c38",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "90ce0dcb-4efa-4677-a91a-da46e8e2aa6f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La UF se reajusta con la inflación: en un año valdrá aproximadamente 37.500 × 1,045 = 39.187,5. El arriendo mensual de 15 UF equivaldrá a 15 × 39.187,5 = $587.812,5 ≈ $587.813.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el arriendo actual (15×37.500) sin aplicar el reajuste por inflación.",
+   "b": "Aplicaste un porcentaje de reajuste distinto al 4,5% indicado.",
+   "d": "Redondeaste de forma incorrecta, sobreestimando el valor final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "90d51346-8ebe-48b5-959d-f3037a207748",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con a=2, b=−5, c=3, el discriminante es Δ=(−5)²−4·2·3=25−24=1. Como Δ>0, la ecuación tiene exactamente dos soluciones reales distintas.",
+  "distractor_diagnosis": {
+   "a": "Ese resultado correspondería a Δ<0, pero aquí Δ=1>0.",
+   "b": "Una solución única ocurre solo cuando Δ=0, no es el caso aquí.",
+   "d": "Una ecuación cuadrática con coeficientes no nulos nunca tiene infinitas soluciones reales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9173c407-4e01-4e7c-ba76-93ffae75f1d6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "De (1): p(1)=0 da a+b=11. De (2): p(−2)=0 da 2a−b=10. Cada una por separado deja una incógnita libre, por lo que p(2) no queda determinado. Usando ambas juntas: a=7, b=4, y p(2)=8+28+8−12=32≠0, lo que permite responder con certeza que x=2 no es raíz. Por eso se necesitan ambas afirmaciones.",
+  "distractor_diagnosis": {
+   "a": "La afirmación (1) sola deja libre el valor de a, por lo que no determina si x=2 es raíz.",
+   "b": "La afirmación (2) sola también deja una incógnita libre, insuficiente para decidir sobre x=2.",
+   "d": "No es cierto que cada afirmación por sí sola alcance; cada una deja una incógnita indeterminada.",
+   "e": "Sí hay información suficiente, usando ambas afirmaciones juntas se puede determinar si x=2 es raíz."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "92b56e43-7859-4aef-adaa-b18ff6b33359",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Ser divisible por 6 (afirmación 1) no garantiza divisibilidad por 4 (ej. n=6). Ser divisible por 4 (afirmación 2) no garantiza divisibilidad por 3 (ej. n=8). Pero si n es divisible por 6 (por 2 y 3) y además por 4, entonces es divisible por 4 y por 3 a la vez, y como mcd(4,3)=1, es divisible por 12. Por eso se necesitan ambas afirmaciones juntas.",
+  "distractor_diagnosis": {
+   "a": "Ser divisible por 6 no garantiza divisibilidad por 4 (ej. n=6), por lo que (1) sola no es suficiente.",
+   "b": "Ser divisible por 4 no garantiza divisibilidad por 3 (ej. n=8), por lo que (2) sola no es suficiente.",
+   "d": "Ninguna afirmación por separado es suficiente, así que no es cierto que cada una alcance por sí sola.",
+   "e": "Sí son suficientes juntas: divisibilidad por 6 y por 4 implica divisibilidad por 12."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "95a7b387-12ce-4ce1-97f9-2736c361c7b0",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "96738ed1-479f-47b8-b037-4bfdc70b3d05",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La expresión equivale a √2·a + √8·b + √50·c = √2·a + 2√2·b + 5√2·c = √2·(a+2b+5c). Para que este valor sea siempre racional, sin importar los valores individuales de a, b y c, el factor entre paréntesis debe anular la parte irracional, es decir a+2b+5c debe valer 0, con lo cual toda la expresión vale 0 y es racional.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Esa relación no aísla el factor (a+2b+5c) que multiplica a √2, por lo que no garantiza racionalidad.",
+   "d": "Esa igualdad numérica coincidente no dice nada sobre la combinación a+2b+5c que multiplica a √2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9701dfd8-d1f7-43d0-ab51-bb3db2d99528",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como la parábola corta al eje x en −1 y 5, su ecuación tiene la forma y=a(x+1)(x−5). Usando el punto (0,−10): −10=a(1)(−5)=−5a, de donde a=2. La ecuación es y=2(x+1)(x−5).",
+  "distractor_diagnosis": {
+   "b": "Obtuviste el signo de a incorrecto (−2 en vez de 2) al despejar.",
+   "c": "Olvidaste calcular el valor de a y dejaste el coeficiente en 1.",
+   "d": "Invertiste el orden de las raíces al escribir los factores, cambiando (x+1)(x−5) por (x−1)(x+5)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9803ec21-90e2-4cad-b743-911bef6bf954",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El espejo forma triángulos semejantes: el de Camilo (altura 1,22 m, distancia al espejo 3 m) y el del poste (altura H, distancia al espejo 9−3=6 m). Por semejanza, H/1,22 = 6/3, de donde H = 1,22×2 = 2,44 m.",
+  "distractor_diagnosis": {
+   "b": "Usaste la distancia total (9 m) en vez de la distancia entre el espejo y el poste (6 m).",
+   "c": "Invertiste la proporción, usando 3/6 en vez de 6/3.",
+   "d": "Multiplicaste por un factor mucho mayor a 2, sobreestimando la altura del poste."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "98217e88-3e55-4e52-803c-a753b6b20e93",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El valor pedido depende únicamente del valor numérico de 2^a; conociendo ese dato (afirmación 1) se puede calcular directamente la expresión solicitada, sin importar si a es positivo o negativo. Saber solo que a>0 (afirmación 2) no entrega el valor numérico de 2^a, por lo que no permite calcular la expresión. Por eso (1) por sí sola es suficiente y (2) no lo es.",
+  "distractor_diagnosis": {
+   "b": "Solo saber que a es positivo no fija el valor numérico de 2^a; hay infinitos valores posibles con a>0.",
+   "c": "No es necesario usar ambas; (1) por sí sola ya es suficiente para calcular la expresión.",
+   "d": "No es cierto que cada afirmación alcance por separado, ya que (2) sola no entrega el dato numérico necesario.",
+   "e": "Sí hay información suficiente: la afirmación (1) por sí sola resuelve el problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9967c38d-57fa-46b2-8637-c311fab0e20c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Por el teorema de Bayes, P(defectuosa) = 0,6·0,05 + 0,4·0,08 = 0,03+0,032 = 0,062. La probabilidad de que sea de Y dado que es defectuosa es P(Y)·P(def|Y)/P(def) = 0,032/0,062 = 32/62 = 16/31.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Invertiste el numerador, usando la contribución de X en vez de la de Y.",
+   "d": "Calculaste solo la proporción de piezas producidas por Y (2/5), ignorando la tasa de defectos.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "99a45352-2ce9-4d07-9d45-5ff50d63f6ca",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9a2788f6-19f7-4083-974a-087a7d7452cd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Una ecuación cuadrática tiene exactamente una solución real cuando su discriminante es cero. Aquí Δ=6²−4(1)(k)=36−4k. Igualando a cero: 36−4k=0, de donde k=9. Verificación: x²+6x+9=(x+3)², con raíz única x=−3.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error de signo, obteniendo k negativo en vez de positivo.",
+   "c": "Confundiste el discriminante con el término b² sin restar 4ac.",
+   "d": "Con k=0 la ecuación tiene dos raíces reales distintas (x=0 y x=−6), no una sola."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9b3de9e3-1410-4524-8f38-6dc6244ced60",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Sea el ancho w y el largo w+2. El área es M=w(w+2), es decir w²+2w−M=0, cuya solución positiva es w=−1+√(1+M). El perímetro es 2(w+(w+2))=4w+4=4(√(1+M)−1)+4=4√(M+1).",
+  "distractor_diagnosis": {
+   "a": "Sumaste un término extra que no corresponde a la fórmula correcta del perímetro.",
+   "b": "Asumiste que el perímetro depende linealmente de M, sin resolver primero la ecuación cuadrática para el ancho.",
+   "c": "Alteraste el signo del término independiente dentro de la raíz.",
+   "d": "No despejaste correctamente el ancho desde la ecuación cuadrática antes de calcular el perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9c0470af-166f-4b66-ad8e-483aa8ae7e85",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La distancia entre dos números en la recta real es el valor absoluto de su diferencia. Como √50≈7,07 es mayor que π≈3,14, la distancia es √50−π (positiva); escribirla como π−√50 daría un valor negativo, que no corresponde a una distancia.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los valores en vez de restarlos; eso no representa una distancia.",
+   "c": "Invertiste el orden de la resta, lo que da un resultado negativo (no válido como distancia).",
+   "d": "Sumaste los valores en vez de calcular su diferencia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9c8446fd-66c7-4092-9871-1063932815d6",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En una homotecia de razón k, todas las longitudes (y por tanto los perímetros) se multiplican por |k|. Perímetro original = 2(10+15)=50 cm; perímetro ampliado = 2(30+45)=150 cm. La razón 150/50=3, igual a k.",
+  "distractor_diagnosis": {
+   "b": "Duplicaste el factor de escala en vez de usar directamente k=3.",
+   "c": "Confundiste la razón de perímetros (que escala como k) con la razón de áreas (que escala como k²).",
+   "d": "Invertiste la razón, calculando perímetro original sobre ampliado en vez de al revés."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9c911cc3-3582-4f84-978c-36bd760a287e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9e2f8f5f-f409-453e-b38d-e7f1ddfc4211",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En Horario 1 hay x+2y estudiantes con promedio p, y en Horario 2 hay 2x+y estudiantes con promedio q. El promedio general pondera por la cantidad de estudiantes: [p(x+2y)+q(2x+y)] / [(x+2y)+(2x+y)], y el denominador se simplifica a 3(x+y)=3x+3y.",
+  "distractor_diagnosis": {
+   "b": "Intercambiaste los pesos de p y q entre los horarios.",
+   "c": "No ponderaste por la cantidad de estudiantes de cada horario, promediando de forma simple.",
+   "d": "Intercambiaste los coeficientes p y q en el numerador."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ea27df9-aab5-4e37-aba1-b836479f9b01",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9f1e4063-b563-409e-ac38-7cbf749eb597",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9f51c808-47b3-4ff2-bbd9-f6a2d80bcee9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El cuadrado ABCD está formado por 4 cuadrados de lado x, por lo que su lado mide 2x y su perímetro es 8x. Igualando numéricamente ese perímetro con el área del cuadrado de lado x (x²): 8x=x², de donde x=8 (se descarta x=0). La región achurada corresponde a uno de los cuadrados pequeños, cuya área es x²=64 cm².",
+  "distractor_diagnosis": {
+   "a": "Ese valor corresponde a x, no al área x² de la región achurada.",
+   "b": "Confundiste la mitad de x con el área de la región achurada.",
+   "d": "Calculaste el área de dos cuadrados pequeños en vez del área de uno solo.",
+   "e": "Calculaste la mitad de x² en vez del área completa de un cuadrado pequeño."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9f651e59-4ca6-4e56-857f-0179987c24dd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El ángulo de depresión de 30° equivale al ángulo de elevación desde la persona hacia el helicóptero. En el triángulo rectángulo, tan(30°)=200/d, por lo que d=200/tan(30°)=200/(√3/3)=200√3 m.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el factor √3, usando solo la mitad de la altura.",
+   "b": "Confundiste la distancia horizontal con la distancia inclinada (hipotenusa).",
+   "d": "Multiplicaste la altura por 2 en vez de aplicar la razón trigonométrica correcta.",
+   "e": "Invertiste la razón trigonométrica, dividiendo por √3 en vez de multiplicar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a0fd2f7a-e8f1-40bf-8fd0-ccf1bbfeabba",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con EV = a·log(PIB)+b, si el país A tiene EV=x y PIB_A, y el país B tiene PIB_B=PIB_A/10, entonces EV_B = a·log(PIB_A/10)+b = a·(log PIB_A − 1)+b = (a·log PIB_A+b) − a = x−a.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste x por 10 en vez de restar la constante a, que es el efecto real de dividir el PIB por 10 dentro de un logaritmo.",
+   "b": "Invertiste el signo: dividir el PIB por 10 resta a, no lo suma.",
+   "d": "Introdujiste un factor multiplicativo que no corresponde a la relación logarítmica dada."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a1b4ea5e-9284-45e5-84b0-4268ace9650a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "P=(n+1)/(n−1)=1+2/(n−1). Para que P sea entero, (n−1) debe ser divisor entero de 2, es decir n−1 ∈ {−2,−1,1,2}, lo que da n ∈ {−1,0,2,3}: exactamente 4 valores.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Olvidaste considerar los divisores negativos de 2 (−1 y −2), contando solo la mitad de los casos.",
+   "d": "Incluiste un valor de n que anula el denominador o que no es divisor válido de 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a3276066-ee37-42cd-8b00-43d6c2224dc3",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Por el teorema de Bayes, P(A|sin fallas) = P(A)·P(sin fallas|A) / [P(A)·P(sf|A)+P(B)·P(sf|B)+P(C)·P(sf|C)]. Con P(sin fallas|A)=1−0,3=0,7, P(sin fallas|B)=1−0,5=0,5 y P(sin fallas|C)=1−0,6=0,4, el cociente correcto es (0,2·0,7)/(0,2·0,7+0,3·0,5+0,5·0,4).",
+  "distractor_diagnosis": {
+   "a": "Esa expresión no incluye el denominador de Bayes; solo tiene el numerador.",
+   "b": "Usaste la probabilidad de falla en vez de la probabilidad de no tener falla.",
+   "c": "Usaste las probabilidades de tener fallas en el denominador en vez de las de no tener fallas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a356238a-766a-493e-8f7d-ddb204831ed1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como 60²+80²=3600+6400=10000=100², las trayectorias de A y B forman un ángulo recto en P (triple pitagórico 60-80-100). La distancia entre los autos en el tiempo t es la hipotenusa del triángulo formado por sus recorridos: √((60t)²+(80t)²)=t·√(3600+6400)=t·100=100t.",
+  "distractor_diagnosis": {
+   "a": "Ese valor no corresponde a la magnitud real; parece un error de escala en el cálculo de la hipotenusa.",
+   "c": "Multiplicaste innecesariamente por un factor extra dentro de la raíz.",
+   "d": "Multiplicaste por 1000 en vez de por 100, un error de escala.",
+   "e": "Sumaste las velocidades (60+80=140) en vez de aplicar el teorema de Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a3a147c0-1be8-420f-9c9d-4cd6b4d820ad",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La ecuación r=px+qx se reescribe como r=x(p+q), de donde x=r/(p+q). Para que x sea real y positivo se necesita que r y (p+q) tengan el mismo signo, lo que equivale a que su producto sea positivo: r(p+q)>0, es decir pr+qr>0.",
+  "distractor_diagnosis": {
+   "a": "Esa condición fija los signos de p y q, pero no dice nada sobre el signo de r, que también es determinante.",
+   "b": "Exigir solo r>0 no garantiza que x sea positivo, pues eso depende también del signo de (p+q).",
+   "c": "Esa relación no es equivalente a que x=r/(p+q) sea positivo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a3abea4c-e3b9-4aa5-a02a-f4bfdaa33551",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Un sistema lineal no tiene solución cuando las rectas son paralelas y distintas: los coeficientes de x e y deben ser proporcionales, pero no los términos independientes. Igualando 2/4=k/6 se obtiene k=3. Verificando, con k=3 las rectas 2x+3y=5 y 4x+6y=3 no son la misma recta, por lo que son paralelas distintas: no hay solución.",
+  "distractor_diagnosis": {
+   "a": "Con k=2 los coeficientes no son proporcionales, por lo que sí hay solución única.",
+   "c": "Ese valor no cumple la proporción 2/4=k/6 requerida para el paralelismo.",
+   "d": "Un valor negativo de k no satisface la condición de paralelismo obtenida de la proporción de coeficientes.",
+   "e": "Ese valor no corresponde a k, sino a una razón de términos independientes mal aplicada."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a3de03ed-7897-4cfd-a597-49115dc4f210",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "A escala 1:500, las dimensiones reales son: largo=12×500=6.000 cm=60 m; ancho=8×500=4.000 cm=40 m. El área real es 60×40=2.400 m².",
+  "distractor_diagnosis": {
+   "b": "Duplicaste el área real sin motivo, quizás al confundir el factor de escala.",
+   "c": "Escalaste el área por 500 en vez de por 500² (250.000), olvidando que el área escala al cuadrado de la razón lineal.",
+   "d": "Dividiste en vez de multiplicar por la escala, obteniendo un área menor a la real."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a503ea26-1d06-42c5-b9c0-3e5d61f26a8c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El tramo 1 agrupa al 40% de menores ingresos, es decir a todos los hogares bajo el percentil 40. El cuartil 1 (Q1) es exactamente el percentil 25; si el ingreso de un hogar está bajo Q1, necesariamente está bajo el percentil 40, por lo que queda determinado que pertenece al tramo 1. En cambio, estar sobre el percentil 10 (afirmación 1) no distingue si el hogar está en el tramo 1 o en tramos superiores.",
+  "distractor_diagnosis": {
+   "a": "Estar sobre el percentil 10 no distingue entre el tramo 1 (hasta el percentil 40) y tramos superiores.",
+   "c": "No es necesario usar ambas juntas; la afirmación (2) por sí sola ya determina el tramo.",
+   "d": "No es cierto que cada una por separado sea suficiente; solo la afirmación (2) lo es.",
+   "e": "Sí hay información suficiente: la afirmación (2) por sí sola resuelve el problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a5ab6130-27d3-493e-8b83-a5f39e1b68fc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a5e4a288-f543-43c7-8056-909a8d7b2a8f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "A∩B contiene los números que cumplen ambas condiciones a la vez: x≤√3 (de A) y x≥1 (de B), es decir 1≤x≤√3. Ambos extremos están incluidos porque los intervalos originales son cerrados en esos puntos.",
+  "distractor_diagnosis": {
+   "b": "Excluiste ambos extremos, pero A y B son intervalos cerrados en √3 y en 1 respectivamente.",
+   "c": "Excluiste el extremo √3, que sí pertenece a A por ser un intervalo cerrado.",
+   "d": "Confundiste la intersección con la unión de los conjuntos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a5f72c5a-7f94-4053-b37f-4cb19e36796f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a63e313c-9873-45c0-8cbb-a2b2c12db96a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con p=log2, se tiene log5=log(10/2)=1−p. Además, log20=log(4·5)=log4+log5=2p+(1−p)=1+p. Por lo tanto, log20/log5=(1+p)/(1−p).",
+  "distractor_diagnosis": {
+   "a": "Calculaste una expresión lineal simple que no corresponde al cociente de logaritmos.",
+   "c": "Ese valor constante no depende de p, pero el cociente log20/log5 sí depende de p.",
+   "d": null,
+   "e": "Olvidaste dividir por (1−p) en el denominador, dejando solo el numerador simplificado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a649d48d-7f97-4861-8e2d-7e14b93e4059",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a6601c21-1ec7-40d7-91f9-8970e68fd1e0",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

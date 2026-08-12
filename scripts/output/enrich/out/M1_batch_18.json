@@ -1,0 +1,314 @@
+[
+ {
+  "id": "f7c42b76-d0a1-416d-bfc6-cafd5a1a1219",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f7d7c886-5b23-4204-80bf-9ee4ef9072ed",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para hallar el área del piso, reemplaza l = 4 en la fórmula A = (3√3/2)·l². Esto da A = (3√3/2)·16 = 24√3 m². Por lo tanto, el área del piso hexagonal es 24√3 m².",
+  "distractor_diagnosis": {
+   "b": "Olvidaste dividir por 2 en la fórmula del área.",
+   "c": "Dividiste el resultado entre 2 de más (usaste 12√3 en vez de 24√3).",
+   "d": "Usaste el cubo del lado (l³) en vez del cuadrado (l²)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f836caf2-b33e-4dc6-8969-09848b3b388b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para saber si el triángulo es rectángulo se aplica el teorema de Pitágoras, comparando la suma de los cuadrados de los catetos con el cuadrado de la hipotenusa. 3² + 4² = 9 + 16 = 25, y 5² = 25. Como ambos valores coinciden, el triángulo es rectángulo.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la desigualdad triangular con el teorema de Pitágoras.",
+   "b": "Calculaste mal: 3²+4² sí es igual a 5² (25=25).",
+   "d": "La condición de isósceles no determina si es rectángulo.",
+   "e": "Con los tres lados dados sí se puede determinar si es rectángulo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f83b87a2-0849-4e4a-bf72-f50da368c15b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La probabilidad de sacar una palabra con menos de 3 vocales es 2/3, es decir, 4 de las 6 tarjetas deben cumplir esa condición. De las 4 palabras conocidas, CLASE, SOL y LEON tienen menos de 3 vocales, pero TEMPRANO tiene exactamente 3 (no cumple). Por lo tanto, entre las dos tarjetas nuevas debe haber exactamente una que cumpla. En la opción C, CANTO tiene 2 vocales (cumple) y CUADRILATERO tiene 6 vocales (no cumple), completando las 4 tarjetas favorables sobre 6.",
+  "distractor_diagnosis": {
+   "a": "VASO y RED cumplen ambas; darían 5/6, no 2/3.",
+   "b": "CINCO y SEIS cumplen ambas; darían 5/6, no 2/3.",
+   "d": "Ninguna de las dos palabras cumple; darían 3/6, no 2/3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f84576de-707a-4b59-bbd6-52b1382f54e5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero calcula el 200% de 200: 2 × 200 = 400. Luego calcula el 1% de ese resultado: 0,01 × 400 = 4. La respuesta es 4.",
+  "distractor_diagnosis": {
+   "a": "Es el mismo valor que la opción correcta, solo escrito distinto.",
+   "c": "Calculaste el 10% de 400 en vez del 1%.",
+   "d": "Te quedaste en el 200% de 200; olvidaste calcular el 1%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f89b28d2-d42f-4ca5-bb39-8963bdad8780",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La probabilidad de menos de 3 vocales es 2/3, o sea 4 de las 6 tarjetas deben cumplir. Entre las conocidas, CLASE, SOL y LEON tienen menos de 3 vocales, mientras TEMPRANO tiene 3 vocales exactas (no cumple). Entonces, de las dos palabras nuevas solo una debe cumplir la condición. En la opción C, CANTO (2 vocales) cumple y CUADRILATERO (6 vocales) no, completando 4 de 6 favorables.",
+  "distractor_diagnosis": {
+   "a": "VASO y RED cumplen ambas; darían 5/6, no 2/3.",
+   "b": "CINCO y SEIS cumplen ambas; darían 5/6, no 2/3.",
+   "d": "Ninguna de las dos palabras cumple; darían 3/6, no 2/3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f8d699b1-f350-43cc-ac62-6868e67efcde",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para el percentil 20 se calcula la posición: 0,20 × 150 = 30. La frecuencia acumulada es 12 hasta el final de [25,30) y 36 hasta el final de [30,35). Como 30 queda entre esos dos acumulados, el percentil 20 está en el intervalo [30,35).",
+  "distractor_diagnosis": {
+   "b": "Buscaste el intervalo cuya frecuencia (no acumulada) vale 30.",
+   "c": "Usaste el 20% del número de intervalos, no de los datos.",
+   "d": "Elegiste el intervalo siguiente al que contiene la posición 30."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f8dd26ba-2170-4311-836e-6bc20027cb4d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como la receta es una proporcionalidad directa, la harina por galleta es 325/20 gramos. Para n galletas, la cantidad total es (325/20) × n, que corresponde a la expresión de la opción A.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste solo por 325 sin dividir por las 20 galletas base.",
+   "c": "Sumaste en vez de multiplicar; la relación no es aditiva.",
+   "d": "Invertiste la razón, usando 20/325 en vez de 325/20."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f91071fc-a8c3-41a3-a7c6-0c258bd08242",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "f965dee8-387b-4559-a634-fe94157c267a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "fa0e0ba9-8677-465a-bc9b-af99a60e8168",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como 81 = 3⁴, la ecuación queda 3^(2x−1) = 3⁴, por lo que los exponentes deben ser iguales: 2x − 1 = 4. Despejando, 2x = 5, entonces x = 2,5.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el −1 al despejar; usaste 2x=4 en vez de 2x=5.",
+   "c": "Dividiste mal al despejar: obtuviste x−1=2 en vez de resolver 2x=5.",
+   "d": "Confundiste el valor del exponente (4) con el valor de x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fab593b1-e078-49bf-9b68-4edddd5356c5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La razón de mujeres a hombres es 12:18. Para simplificarla, divide ambos números por su máximo común divisor, que es 6: 12÷6 = 2 y 18÷6 = 3. La razón simplificada es 2:3.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el orden: pusiste hombres:mujeres en vez de mujeres:hombres.",
+   "c": "No simplificaste la razón a su mínima expresión.",
+   "d": "Simplificaste incorrectamente; no dividiste ambos términos por 6.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fac7554d-e93f-438d-b535-cee62faf787f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "fadd5d96-fff2-47d4-80a1-3431060741d9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Escribe √2 como 2^(1/2) y √(2⁶) como 2³. Al multiplicar se suman los exponentes: 2^(1/2) × 2³ = 2^(7/2). Luego, al dividir por 2 (es decir 2¹), se restan los exponentes: 2^(7/2 − 1) = 2^(5/2).",
+  "distractor_diagnosis": {
+   "a": "Restaste mal los exponentes al dividir; signo y valor erróneos.",
+   "b": "Sumaste el exponente en vez de restar al dividir por 2.",
+   "d": "Simplificaste el exponente perdiendo la fracción 1/2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "faf738b8-cc88-4f07-8c71-cfa15f076374",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el punto A está a distancia x del eje Y, su reflejo B queda a la misma distancia x pero al otro lado del eje. La distancia total entre A y B es la suma de ambas distancias: x + x = 2x.",
+  "distractor_diagnosis": {
+   "a": "Calculaste una diagonal en vez de la distancia horizontal directa.",
+   "b": "Olvidaste que la distancia se duplica al reflejar sobre el eje.",
+   "d": "Usaste un factor sin relación con la reflexión (3x)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fbaecd4f-04a2-4fce-aa85-df426e1675a5",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En un dado hay 6 resultados posibles, y los números pares son 2, 4 y 6, es decir, 3 casos favorables. La probabilidad es 3/6, que simplificada es 1/2.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo un número par en vez de los tres (2,4,6).",
+   "b": "Contaste solo dos números pares en vez de tres.",
+   "d": "Contaste cuatro casos favorables en vez de tres.",
+   "e": "Calculaste la probabilidad de no obtener un número específico, no de par."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fbbbc7ef-7f41-491e-a1ec-1c26513c9312",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "fbe6d66a-0fa5-4446-b51f-4d7f7e2c31a1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para un promedio de 6,0 en 4 pruebas, la suma total debe ser 4 × 6 = 24. La suma de las tres notas dadas es 5 + 7 + 5 = 17. La nota que falta debe ser 24 − 17 = 7.",
+  "distractor_diagnosis": {
+   "a": "Promediaste solo las tres notas dadas sin plantear la ecuación.",
+   "b": "Asumiste que la nota faltante es igual al promedio pedido (6).",
+   "d": "Calculaste la suma total necesaria como 25 en vez de 24.",
+   "e": "Calculaste la suma total necesaria como 26 en vez de 24."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fc4f7f9c-54fb-4cc3-9f33-43478ab52925",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Distribuye el 2: 2x − 6 = 10. Suma 6 a ambos lados: 2x = 16. Divide por 2: x = 8.",
+  "distractor_diagnosis": {
+   "a": "Restaste 6 en vez de sumarlo y olvidaste dividir por 2 al final.",
+   "b": "Ignoraste el −6; resolviste 2x=10 en vez de 2x=16.",
+   "c": "Olvidaste multiplicar el 3 por 2 al distribuir.",
+   "d": "Sumaste 2 en vez de 3 al despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fcb0f20c-b9bb-46d5-86c4-116883c19bfc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Evalúa ambas funciones en x = 60 minutos, ya que allí cobran lo mismo. f(60) = 1000 + 25×60 = 2500. Luego iguala g(60) = p + 15×60 = p + 900 a ese valor: p + 900 = 2500, por lo tanto p = 1600.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Olvidaste sumar el cargo fijo de $1000 en f(60).",
+   "d": "Confundiste p con el cobro total a los 60 minutos (2500)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fcec0949-4a5a-4746-8e61-2c053bbe3aef",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Los ángulos alternos internos entre paralelas son iguales, así que 3x + 10 = 5x − 20. Resolviendo: 30 = 2x, entonces x = 15. Cada ángulo mide 3(15) + 10 = 55°.",
+  "distractor_diagnosis": {
+   "b": null,
+   "c": null,
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fd4c0d30-27e8-43af-9806-9c323ca83102",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al reflejar una imagen en un espejo vertical, las letras se invierten horizontalmente. La letra M tiene simetría respecto a un eje vertical, por lo que se ve igual al reflejarse. Las letras S, b y Q no tienen esa simetría y cambian de forma.",
+  "distractor_diagnosis": {
+   "a": "La S no tiene simetría vertical; se ve invertida en el espejo.",
+   "c": "La b no es simétrica; al reflejarse parece una d.",
+   "d": "La Q no tiene simetría vertical; se distorsiona con el reflejo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fd70c1d6-f222-43f0-8764-269495c2cce5",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Descompone 888 = 8 × 111 = 2³ × 111. Al elevar al cuadrado: 888² = (2³ × 111)² = 2⁶ × 111², usando que el cuadrado de un producto es el producto de los cuadrados.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste elevar al cuadrado el factor 111.",
+   "c": "Calculaste mal la potencia de 8; usaste 2⁵ en vez de 2⁶.",
+   "d": "Cometiste ambos errores: exponente incorrecto y 111 sin elevar al cuadrado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fd7367e4-0380-4167-af7a-e9db232b1869",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Descompone en factores primos: 18 = 2 × 3² y 27 = 3³. El máximo común divisor toma la menor potencia de los factores comunes, que es 3² = 9.",
+  "distractor_diagnosis": {
+   "a": "Encontraste un divisor común, pero no el mayor (MCD).",
+   "b": "6 no divide exactamente a 27; no es divisor común.",
+   "d": "18 no divide exactamente a 27.",
+   "e": "27 no divide exactamente a 18."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fe99263e-7518-4fd3-8c81-4cd95c677d8c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma es par si ambos números son pares o ambos son impares. En la caja 1-5 hay 2 pares y 3 impares; en la caja 6-10 hay 3 pares y 2 impares. P(ambos pares) = (2/5)(3/5) = 6/25, y P(ambos impares) = (3/5)(2/5) = 6/25. Sumando ambos casos: 6/25 + 6/25 = 12/25.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal, usando un denominador incorrecto (12 en vez de 25).",
+   "b": "Aproximaste la probabilidad de suma par sin calcular las fracciones.",
+   "d": "Calculaste la probabilidad de un caso de suma impar, no de par."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fea04efd-9cd1-434a-aa7f-ba166a30fadc",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para calcular qué porcentaje es 4740 de 15800, se divide 4740 entre 15800 y se multiplica por 100: (4740/15800) × 100 = 30%.",
+  "distractor_diagnosis": {
+   "a": "Corriste la coma decimal dos lugares de más.",
+   "b": "Corriste la coma decimal un lugar de más.",
+   "c": "Invertiste la razón (15800/4740) en vez de 4740/15800."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "fef85082-1440-4052-aafd-884fba440516",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Primero calcula el consumo para 350 km: (8/100) × 350 = 28 litros. Luego multiplica por el precio del litro: 28 × 1200 = $33.600.",
+  "distractor_diagnosis": {
+   "b": "Confundiste los litros consumidos (28) con el costo total.",
+   "c": "Calculaste 35 litros en vez de 28 (error en la proporción).",
+   "d": "Usaste 250 km en vez de 350 km para el consumo.",
+   "e": "Redondeaste el consumo a 30 litros en vez de 28."
+  },
+  "skip_reason": null
+ }
+]

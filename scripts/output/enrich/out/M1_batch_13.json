@@ -1,0 +1,579 @@
+[
+ {
+  "id": "b1fda089-7eca-4512-b15a-d4c6aac197e7",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "b214ca6d-9076-4aa7-9769-71c4bfebf0ef",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Un número de tres cifras mtp se descompone según el valor posicional: la centena m aporta m×100, la decena t aporta t×10 y la unidad p aporta p×1. Por lo tanto la expresión correcta es m·10² + t·10¹ + p·10⁰.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los términos en vez de sumarlos.",
+   "b": "Multiplicaste los términos y además corriste los exponentes.",
+   "c": "Sumaste bien pero corriste los exponentes una posición de más."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b2bf0adb-15ea-4476-b953-57beceb2d690",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El total del grupo es 50 personas (8/50=16%, dato coherente con la tabla). La frecuencia faltante del intervalo [24,30) se obtiene por diferencia: 50−8−14−18−3=7. El porcentaje de personas con menos de 30 años es (8+14+7)/50=29/50=58%, no 38% como afirma la alternativa d, por lo que esa afirmación es FALSA.",
+  "distractor_diagnosis": {
+   "a": "Confundiste cuál intervalo tiene la mayor frecuencia real.",
+   "b": "Dudaste de un cálculo que sí es correcto (44%).",
+   "c": "Dudaste del total de 50 personas, que sí es correcto.",
+   "e": "Dudaste de un cálculo que sí es correcto (28 personas)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b2c821dd-48d0-4074-ad1a-9486aa8efe05",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "b2c8f02f-6f17-4ca3-a95f-3e6c939beed1",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La cara superior de una caja cúbica es un cuadrado de lado h. Por el teorema de Pitágoras, la diagonal de ese cuadrado mide h√2, por lo tanto el largo de la cinta es h√2.",
+  "distractor_diagnosis": {
+   "b": "Aplicaste la raíz solo a la altura, sin elevarla al cuadrado.",
+   "c": "Solo duplicaste la altura, sin usar el teorema de Pitágoras.",
+   "d": "Elevaste al cuadrado y duplicaste, mezclando área con longitud."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b2d56519-9425-42e0-b58e-bdb6acba5d75",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Escribiendo la ecuación x + by = c en forma pendiente-intercepto: by = c − x, luego y = (c/b) − (1/b)x. El coeficiente que acompaña a x, es decir la pendiente, es −1/b.",
+  "distractor_diagnosis": {
+   "a": "Asumiste la ecuación ya despejada sin dividir por b.",
+   "c": "Olvidaste cambiar el signo al despejar y.",
+   "d": "Ignoraste el coeficiente b al despejar la pendiente.",
+   "e": "Confundiste el coeficiente de y con la pendiente directamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b2ec54a9-794d-4b4f-8980-e681171449df",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El arco tiene la forma de la parábola y = h_máx − x², cuyo vértice (altura máxima) está en x=0. Las bases del arco están donde la curva toca el suelo, es decir donde x²=h_máx. Con h_máx=2, x=±√2, por lo que la distancia entre las bases es 2√2 m.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la distancia entre bases con la altura máxima.",
+   "c": "Olvidaste duplicar la raíz al considerar ambos lados del vértice.",
+   "d": "Duplicaste el resultado asumiendo x=2 en vez de √2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b32af073-1290-40fa-be3b-03d216c2ea82",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El 5% de 1.200 se calcula como 1.200 × 0,05 = 60.",
+  "distractor_diagnosis": {
+   "a": "Usaste un porcentaje menor al 5% por error.",
+   "b": "Cometiste un error de cálculo intermedio.",
+   "d": "Sumaste un valor extra en vez de multiplicar por 0,05.",
+   "e": "Usaste un porcentaje mayor al 5% por error."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b3478c53-e9ef-4423-9b25-b9b9268f2bed",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Multiplicando los factores del numerador: (2×3)×10^(5−2)=6×10³. Dividiendo por 6×10⁴: (6×10³)/(6×10⁴)=1×10^(3−4)=1×10⁻¹.",
+  "distractor_diagnosis": {
+   "b": "Te quedaste en el numerador y olvidaste restar el exponente del divisor.",
+   "c": "Sumaste el exponente del divisor en vez de restarlo.",
+   "d": "Restaste un exponente de más al dividir."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b35f955b-6a94-4438-a440-f261055044be",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para saber qué porcentaje de 80 es 20, se calcula (20/80)×100 = 25%.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 20 por 100 en vez de por 80.",
+   "b": "Confundiste la base de la razón, usando 50 en vez de 80.",
+   "d": "El resultado no corresponde a la división correcta.",
+   "e": "El resultado no corresponde a la división correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b380281a-9b23-4162-a4bb-b5a3e08ebb82",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "b3c43cc0-4033-43e9-95b2-dfc999fd034d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "b49497cc-0d3a-40b5-98e0-d53de0431331",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Usando la identidad pitagórica sen²θ+cos²θ=1: cos²θ=1−(3/5)²=1−9/25=16/25. Como θ está en el primer cuadrante, cos θ es positivo, por lo que cos θ=4/5.",
+  "distractor_diagnosis": {
+   "b": "Confundiste cos(θ) con la razón tangente.",
+   "c": "Invertiste numerador y denominador de la razón.",
+   "d": "Usaste la hipotenusa dividida por el cateto opuesto, no el adyacente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b4f08087-ed06-47ca-9b03-ee956370fc6f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El tiempo y el número de grifos son inversamente proporcionales: 1 grifo × 6 horas = 3 grifos × x horas. Despejando, x = 6/3 = 2 horas.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste en vez de dividir el tiempo por 3.",
+   "b": "Dividiste solo por 2 en vez de por los 3 grifos.",
+   "d": "Sumaste en vez de aplicar la proporción inversa."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b4f236c3-ab86-4df3-b45d-ff484d511c2a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Ordenando los datos: 6,12,12,14,16. El promedio es la suma dividida por 5: (6+12+12+14+16)/5=60/5=12, lo que hace verdadera la alternativa b. El rango real es 16−6=10 (no 4), la mediana es 12 (no 14) y la moda es 12 (no 16).",
+  "distractor_diagnosis": {
+   "a": "Calculaste la diferencia entre dos valores repetidos, no el máximo menos el mínimo.",
+   "c": "No ordenaste los datos antes de ubicar el valor central.",
+   "d": "Confundiste el valor más repetido; en realidad es 12, no 16."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b5233283-158a-4e2c-8d53-11d188034ecd",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El punto de observación, el borde de la regla y la línea hasta el punto de la pared forman triángulos semejantes. La relación es 15/20 = (h−75)/200, de donde h−75=150 y h=225 cm, sumando la altura de la mesa a la altura obtenida por semejanza.",
+  "distractor_diagnosis": {
+   "a": "No sumaste la altura de la mesa a la altura calculada por semejanza.",
+   "b": "Olvidaste sumar la altura de la mesa (75 cm) al resultado.",
+   "c": "Cometiste un error al aplicar la proporción entre distancias."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b57f8122-5987-4e0a-b7f7-d673f5bb97ba",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "b593f5de-3be9-4587-bd1f-2d578cb0a780",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con ángulo de elevación 45° y tan45°=1, se cumple tan45°=altura/distancia, es decir 1=h/30, por lo tanto h=30 m.",
+  "distractor_diagnosis": {
+   "a": "Dividiste la distancia entre 2 sin ningún motivo matemático.",
+   "b": "Confundiste tangente con seno de 45°.",
+   "d": "Duplicaste la distancia horizontal sin motivo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b5f4a5f6-b203-43f6-b7eb-c290fc5caaf4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se resuelve por orden de operaciones: primero 3²=9, luego 15−9=6, después 2×6=12, y finalmente 12+4=16.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar el +4 final tras las operaciones anteriores.",
+   "b": "Cometiste un error al restar o multiplicar en un paso intermedio.",
+   "d": "Sumaste en vez de calcular 3² correctamente antes de restar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b6723653-df60-4b7a-b8b1-d89419c35e7c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Ambas fechas son antes de Cristo, así que los años transcurridos se calculan restando: 2570−69=2501 años, sin sumar las cifras porque ambas están en la misma era (a.C.).",
+  "distractor_diagnosis": {
+   "a": "Sumaste ambos años en vez de restarlos.",
+   "b": "Restaste con un error de un año.",
+   "d": "Restaste con un error de un año en sentido contrario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b67ac8f3-bdbd-4226-8bd9-4773c3cada0d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La suma de dos giros es par si ambos resultados son pares o ambos son impares. En cada giro hay 4 números pares y 4 impares de 8, entonces P(ambos pares)=1/4 y P(ambos impares)=1/4, dando P(suma par)=1/4+1/4=1/2.",
+  "distractor_diagnosis": {
+   "b": "Calculaste solo la probabilidad de que ambos sean pares.",
+   "c": "El cálculo quedó incompleto, sin considerar ambos casos.",
+   "d": "Calculaste mal el complemento de la probabilidad de suma impar.",
+   "e": "El resultado no corresponde a ningún cálculo válido con estos datos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b6aaf76e-a852-4523-b567-7d3cfb7899d5",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "|2x−3|≤7 equivale a −7≤2x−3≤7. Sumando 3 a toda la desigualdad: −4≤2x≤10, y dividiendo por 2: −2≤x≤5.",
+  "distractor_diagnosis": {
+   "b": "Resolviste como si la desigualdad fuera ≥ en vez de ≤.",
+   "c": "Invertiste el signo al despejar 2x−3.",
+   "d": "Usaste desigualdad estricta en vez de ≤."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b6c58081-1c63-4519-8311-42e96225b51f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con 750 g para 6 personas, cada persona necesita 750/6=125 g. Con 1.000 g disponibles, el número máximo de personas es 1.000/125=8.",
+  "distractor_diagnosis": {
+   "b": "Usaste el número de personas deseado sin ajustar por la harina disponible.",
+   "c": "Redondeaste hacia abajo sin verificar la proporción exacta.",
+   "d": "Sobreestimaste el número de personas que se pueden alimentar.",
+   "e": "Confundiste con el número original de personas de la receta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b6c8558e-f75f-46db-b3da-79687ae90519",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Los porcentajes sucesivos se multiplican como decimales: 0,2×0,2×0,2=0,008, que equivale a 0,8% de P.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste los porcentajes sin convertirlos a decimales.",
+   "c": "Sumaste los porcentajes en vez de multiplicarlos.",
+   "d": "Sumaste 20+20+20 en vez de multiplicar 0,2×0,2×0,2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b6f6022b-343c-4d0e-9371-c7e0d3854a63",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando las 5 primeras semanas con la sexta: P1=200, P2=280, P3=300, P4=290. Dividiendo por 6 semanas: P1≈33,3; P2≈46,7; P3=50; P4≈48,3. El mayor promedio corresponde al Producto 3.",
+  "distractor_diagnosis": {
+   "a": "Tiene el promedio más bajo, no el mayor.",
+   "b": "Su promedio es menor al del Producto 3.",
+   "d": "Su promedio es ligeramente menor al del Producto 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b713a5e1-076c-4ae7-97cb-6ee5de481527",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Nueva Zelanda está 16 horas adelantada respecto a Chile, y México está 1 hora atrasado respecto a Chile. Por lo tanto, desde México hasta Nueva Zelanda hay que sumar ambas diferencias: 16+1=17 horas.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el signo de la diferencia horaria final.",
+   "b": "Restaste en vez de sumar las diferencias horarias.",
+   "c": "Restaste las diferencias horarias en vez de sumarlas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b8b2de06-d652-4e4f-8b72-438260b4b494",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Al elevar un producto al cuadrado se elevan ambos factores: (2x³)² = 2²·(x³)² = 4·x⁶ = 4x⁶.",
+  "distractor_diagnosis": {
+   "a": "No elevaste el coeficiente 2 al cuadrado.",
+   "b": "Sumaste los exponentes en vez de multiplicarlos.",
+   "d": "Ni elevaste el coeficiente ni multiplicaste bien el exponente.",
+   "e": "Multiplicaste el exponente por 3 en vez de por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b90033eb-376f-48e8-b9dc-0b631e0ed981",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Las frecuencias 7, 12, 14 y 15 del histograma son acumuladas. Para obtener la frecuencia real de cada intervalo se restan valores consecutivos: 7, 12−7=5, 14−12=2 y 15−14=1. La tabla que muestra estas frecuencias reales (7, 5, 2 y 1) usando la misma notación de marca de clase del enunciado es la opción c.",
+  "distractor_diagnosis": {
+   "a": "Usaste las frecuencias acumuladas sin descomponerlas en frecuencias reales.",
+   "b": "Las frecuencias son correctas pero con notación de intervalo en vez de marca de clase.",
+   "d": "Corresponde a una opción con formato incompleto, sin frecuencias claras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b98e52a6-ce5e-4585-bea2-a14f4ca38343",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Usando la fórmula de unión de conjuntos: |A∪B|=|A|+|B|−|A∩B|=25+18−8=35 personas con al menos un vehículo. Las personas sin ninguno son 40−35=5.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al restar el total con la unión de conjuntos.",
+   "c": "Olvidaste restar la intersección al calcular la unión.",
+   "d": "No consideraste la intersección en el cálculo de la unión."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b9d050d0-e82a-422c-8008-659a9b344c07",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Después del aumento de enero: 40.000×1,15=46.000. Después de la baja de febrero: 46.000×0,90=41.400.",
+  "distractor_diagnosis": {
+   "b": "Sumaste los porcentajes (15%−10%=5%) en vez de aplicarlos en cadena.",
+   "c": "Aplicaste los porcentajes en un orden o magnitud incorrecta.",
+   "d": "Redondeaste mal el resultado final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ba29d318-225b-4007-9a58-bb6178a0a680",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los ángulos suplementarios suman 180°. Si uno mide 65°, el otro mide 180°−65°=115°.",
+  "distractor_diagnosis": {
+   "a": "Confundiste suplementario con complementario (90−65).",
+   "b": "Restaste de 90° en vez de 180° con un error adicional de signo.",
+   "d": "Sumaste 60° en vez de restar 65° de 180°.",
+   "e": "Sumaste en vez de restar, obteniendo el ángulo reflejo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ba33c996-9e77-4ea5-a108-a4b6926003e2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En un gráfico de barras de frecuencia, la respuesta mayoritaria es la que tiene mayor frecuencia, representada por la barra más alta. Como la barra correspondiente a 3 plantas es la más alta, esa es la respuesta mayoritaria.",
+  "distractor_diagnosis": {
+   "a": "Confundiste coincidencia entre barras con tener la frecuencia máxima.",
+   "c": "Confundiste un cálculo de rango entre barras con identificar la moda.",
+   "d": "Confundiste la posición central de la barra con tener la mayor frecuencia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bab8e6d6-d4bf-4f80-968e-04b8e1ae8e81",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Un proyectil lanzado desde el suelo cumple s(0)=0, lo que descarta funciones con un término constante distinto de cero. La función s(t)=30t−3t² cumple s(0)=0, tiene su vértice (máxima altura) en t=−30/(2·(−3))=5 segundos, y en t=1 da s(1)=30−3=27 m, cumpliendo ambas condiciones del problema.",
+  "distractor_diagnosis": {
+   "a": "No verifica correctamente ni la condición inicial ni el vértice en t=5.",
+   "b": "No corresponde a una función cuadrática con las condiciones dadas.",
+   "d": "Agrega una constante que invalida el punto de partida en el suelo.",
+   "e": "Agrega constantes que no corresponden al lanzamiento desde el suelo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bae42d78-b2e9-4acf-9021-247b143a8c20",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La pendiente entre dos puntos se calcula como (y₂−y₁)/(x₂−x₁) = (8−2)/(3−1) = 6/2 = 3.",
+  "distractor_diagnosis": {
+   "a": "Invertiste numerador y denominador de la pendiente.",
+   "c": "Calculaste mal la diferencia en el eje y.",
+   "d": "Sumaste en vez de dividir las diferencias."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bae56988-eb1c-4257-87e9-a9466a0cc7f3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La frecuencia relativa se obtiene dividiendo la frecuencia absoluta por el total de datos: 12/30 = 0,40.",
+  "distractor_diagnosis": {
+   "a": "Dividiste por un total distinto de 30 o cometiste un error de cálculo.",
+   "b": "Confundiste con la frecuencia relativa de otra nota.",
+   "d": "Dividiste por un total distinto de 30."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bb602d14-58e8-428a-b0e9-de448d674a7d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Primero se evalúa f(2)=5−2=3. Luego se aplica f de nuevo al resultado: f(3)=5−3=2. Por lo tanto f(f(2))=2.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al evaluar la segunda composición.",
+   "b": "Cometiste un error aritmético al aplicar f la segunda vez.",
+   "d": "Te detuviste en el primer paso, f(2)=3, sin aplicar f de nuevo.",
+   "e": "Cometiste un error de cálculo al aplicar f dos veces."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bb855e19-a03e-42c6-9ca9-a984167b7113",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con base 2x×2x y altura 8x (2³x), el techo mide 2x×2x=4x². El área lateral (perímetro de la base por la altura) es (4×2x)×8x=64x². Sumando techo y laterales: 4x²+64x²=68x².",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el área lateral, con un factor incorrecto.",
+   "b": "Confundiste las dimensiones de las caras laterales.",
+   "d": "Multiplicaste todas las dimensiones como si fuera volumen, no área."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bbc032a7-b77c-4c9a-81b3-1fea441a8dca",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "bc63526a-0e15-4c5e-9a92-06d086bd3aca",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al lanzar una moneda dos veces, la probabilidad de obtener cara en cada lanzamiento es 1/2, y como son eventos independientes: P(cara,cara)=1/2×1/2=1/4.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de obtener una sola cara, no dos.",
+   "c": "Asumiste incorrectamente equiprobabilidad de 3 resultados.",
+   "d": "Calculaste el complemento (al menos una cara) en vez de dos caras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bc77905b-2da5-4010-9616-c07e07c08c95",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La condición (1) M=N solo entrega una relación entre dos incógnitas, sin fijar un valor numérico. La condición (2) entrega el valor numérico de la frecuencia máxima, pero sin (1) no se sabe cómo se relaciona esa frecuencia con M. Usando ambas en conjunto sí se puede determinar M de forma exacta.",
+  "distractor_diagnosis": {
+   "a": "Creíste que M=N basta sin conocer un valor numérico.",
+   "b": "Obtuviste N pero olvidaste que falta relacionarlo con M.",
+   "d": "No notaste que ninguna condición basta por sí sola.",
+   "e": "No combinaste correctamente ambas condiciones dadas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bd2770ac-a85a-4159-9022-258b8cade254",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Ordenados los 12 datos, la posición para el percentil P es 12×(P/100), redondeando hacia arriba al dato siguiente. Para P=30 la posición es 3,6→4° dato (98 g, no supera 100). Para P=40 la posición es 4,8→5° dato (101 g, sí supera 100 g), por lo que el percentil 40 es el primero en superar los 100 g.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a una posición demasiado baja, sin llegar al valor que supera 100 g.",
+   "b": "El percentil es insuficiente, el valor en esa posición aún es menor a 100 g.",
+   "c": "El valor en esa posición (98 g) todavía no supera los 100 g."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bd57b906-8767-441c-aacf-a91c5e07b6b5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El interés simple mensual es 500.000×0,005=2.500. En 6 meses el interés total es 2.500×6=15.000, por lo que el monto final es 500.000+15.000=515.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el interés de un solo mes en vez de multiplicarlo por 6.",
+   "c": "Duplicaste el interés mensual antes de multiplicarlo por los meses.",
+   "d": "Calculaste solo el interés de un mes sin multiplicar por los 6 meses."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bd95fae4-f1ae-4cd7-afd1-2c476324e5b2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El volumen del cilindro es π·r²·h=π·3²·20=180π cm³. El agua diaria necesaria es (P/35) litros = (1.000P/35) cm³. El número de botellas necesarias es (1.000P)/(35×180π), que al descomponer 180=9×20 corresponde a (1.000·P)/(35×9×20×π).",
+  "distractor_diagnosis": {
+   "a": "Usaste el diámetro² en vez del radio² y omitiste la razón de 35 kg.",
+   "b": "Usaste el diámetro al cuadrado (36) en vez del radio al cuadrado (9).",
+   "d": "Olvidaste el factor 1000 para convertir litros a cm³."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bdbf041b-9074-4ab8-bfae-ddacd007c669",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El segmento de escalera de 2 m que toca la pandereta de 1,5 m forma un triángulo semejante al triángulo completo formado por toda la escalera (15 m) y la altura en la pared. La razón entre hipotenusas es 15/2, así que la altura en la pared es 1,5×(15/2)=11,25 m.",
+  "distractor_diagnosis": {
+   "a": "Sumaste la altura de la pandereta al largo de la escalera sin usar semejanza.",
+   "c": "Aplicaste mal la relación de semejanza entre los triángulos.",
+   "d": "Calculaste solo una fracción parcial de la altura real."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bdf37f3b-e7d1-4789-92b3-25ad38d73bfc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "be28f886-e36a-4327-bac0-e1ad345f8b46",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "be2e87db-c7de-47fb-9593-fa8ecb7e8910",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Cada dado tiene 6 resultados posibles, y al lanzar dos dados los resultados se combinan de forma independiente: 6×6=36 resultados posibles en total.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo las caras de un dado, olvidando el segundo.",
+   "b": "Sumaste las caras de ambos dados en vez de multiplicarlas.",
+   "c": "Multiplicaste por un número de caras incorrecto (4 en vez de 6).",
+   "e": "Multiplicaste por el doble de las caras reales de cada dado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "beb5bd88-b7b3-499a-83f4-f56629c1818d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como las frecuencias relativas deben sumar 1: 0,08+0,16+f₃+0,36+0,12=1, entonces f₃=1−0,72=0,28. El número de estudiantes es 0,28×25=7.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la frecuencia con la relativa de otro día.",
+   "c": "Calculaste mal la frecuencia relativa faltante.",
+   "d": "No restaste correctamente la suma de las frecuencias relativas conocidas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bed6ab5d-f111-496a-bdbf-37d4c077d423",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Rodrigo: notas 5,2; 4,8; 5,0; 6,0; 4,0, promedio P=25/5=5,0, y ordenadas (4,0; 4,8; 5,0; 5,2; 6,0) la mediana R=5,0. Mariel: notas 5,8; 5,2; 4,0; 4,5; 5,5, promedio Q=25/5=5,0, y ordenadas (4,0; 4,5; 5,2; 5,5; 5,8) la mediana S=5,2. Así P=Q=5,0 y R=5,0 es menor que S=5,2.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la comparación entre las medianas.",
+   "b": "Calculaste mal uno de los promedios; en realidad son iguales.",
+   "d": "Calculaste mal ambos promedios y ambas medianas.",
+   "e": "Confundiste el orden de los promedios e igualaste erróneamente las medianas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bef1d5cc-0bcb-4583-8728-ceb16f94b102",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

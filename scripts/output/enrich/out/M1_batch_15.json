@@ -1,0 +1,589 @@
+[
+ {
+  "id": "cda5c639-f899-433e-a27e-9e16ddf71034",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Una potencia con exponente negativo es el recíproco de la potencia positiva: 2⁻³ = 1/2³ = 1/8. El signo negativo del exponente no hace negativo el resultado, solo indica invertir la base.",
+  "distractor_diagnosis": {
+   "a": "Calculaste -(2³)=-8, tratando el signo del exponente como signo del resultado.",
+   "b": "Multiplicaste 2×(-3)=-6 en vez de aplicar la regla de exponente negativo.",
+   "d": "Interpretaste el exponente como multiplicación (1/(2×3)) en vez de potencia.",
+   "e": "Calculaste 2³=8 e ignoraste el signo negativo del exponente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cdbf92da-9e36-48e7-936f-9e8d5263e77a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La razón de semejanza lineal entre las camisetas es 15/60 = 1/4. Como las áreas escalan con el cuadrado de esa razón, el área del hijo es 64 × (1/4)² = 64/16 = 4 cm².",
+  "distractor_diagnosis": {
+   "b": "Aplicaste la raíz de la razón de área en vez del cuadrado de la razón lineal.",
+   "c": "No corresponde a un método de cálculo identificable con los datos dados.",
+   "d": "Dividiste 64 entre 4 (razón lineal) en vez de entre 4²=16.",
+   "e": "No corresponde a un método de cálculo identificable con los datos dados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cdc0f0a6-2ff0-4fce-b4cd-936135085fc9",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "I es verdadera porque R>r implica k=r/R≠1. II es verdadera porque la razón de homotecia puede ser negativa si el centro está entre las figuras, invirtiendo la orientación. III es verdadera porque k determina directamente r/R. Las tres afirmaciones son correctas.",
+  "distractor_diagnosis": {
+   "a": "Descartaste II y III sin notar que k puede ser negativa y que determina r/R.",
+   "b": "Descartaste III, sin ver que conocer k determina directamente la razón de radios.",
+   "c": "Descartaste II, asumiendo que la razón de homotecia siempre es positiva.",
+   "d": "Descartaste I, sin notar que R>r obliga a que k sea distinta de 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ce022f7f-87c8-4abe-bf4c-749320af6dbc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "ce52df02-f083-4766-96c2-5da6ac4a8e68",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con 12 datos ordenados, la posición del percentil k es (k/100)×12. Para P40: 0,4×12=4,8, que se redondea a la 5ª posición, correspondiente a 101 g, el primer valor que supera 100 g. Los percentiles menores (10, 20, 30) caen en posiciones cuyo valor todavía no supera 100 g.",
+  "distractor_diagnosis": {
+   "a": "En el percentil 10 la masa es 77 g, no supera 100 g.",
+   "b": "En el percentil 20 la masa es 84 g, no supera 100 g.",
+   "c": "En el percentil 30 la masa es 98 g, aún no supera 100 g."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ce88f45b-bad0-4618-afda-8397d74e4840",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "2x−5>3x+1. Restando 2x de ambos lados: −5>x+1. Restando 1: −6>x, es decir, x<−6. No se invierte la desigualdad porque solo se están restando términos, no multiplicando por un negativo.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la desigualdad sin necesidad, sin haber multiplicado por un negativo.",
+   "c": "Cambiaste el signo de -6 a 6 y además invertiste la desigualdad.",
+   "d": "Obtuviste 6 en vez de -6 al operar mal los términos constantes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cf4b9f24-7ce5-4868-a569-c64c1c83d2f8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El quíntuplo de −10 es 5×(−10)=−50. El triple de −12 es 3×(−12)=−36. Restar el triple: −50−(−36)=−50+36=−14.",
+  "distractor_diagnosis": {
+   "a": "Restaste -36 como si fuera positivo (-50-36), sin cancelar el doble signo negativo.",
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cf55da29-9e9a-490d-843f-b26c2a0ef74e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sea p la probabilidad de cada cara impar y 2p la de cada cara par. Hay 3 caras impares y 3 pares, entonces 3p+3(2p)=9p=1, así p=1/9. La probabilidad total de impar es 3p=3/9=1/3.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de una sola cara impar (1/9), no el total.",
+   "b": "Diste la probabilidad de sacar par (el complemento), no de impar.",
+   "d": "No corresponde a un método de cálculo identificable con los datos dados.",
+   "e": "Calculaste 2p (probabilidad de una cara par) en vez de 3p impar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d009074c-2334-4132-8b93-71ead3b55d80",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El área de un triángulo es (1/2)×AB×BC solo cuando el ángulo entre esos dos lados es de 90°. Por lo tanto, si el área del triángulo ABC es igual a esa expresión, se garantiza que AB⊥BC y el triángulo es rectángulo en B.",
+  "distractor_diagnosis": {
+   "a": "Que w=u+v es una identidad vectorial siempre cierta, no depende del ángulo.",
+   "b": "Un valor numérico de perímetro no garantiza por sí solo un ángulo recto.",
+   "c": "Que los módulos de u y v sean iguales indica lados iguales, no ángulo recto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d03f5331-9d9c-4b2d-9a01-7feae8eaa89e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El total es 200 estudiantes. La posición del percentil 40 es 0,4×200=80, que cae en el grupo de puntaje 30 (frecuencia acumulada entre 76 y 105). Los estudiantes bajo ese percentil son los acumulados hasta el puntaje anterior (20), es decir, 75.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Restaste 1 a la posición del percentil (80) en vez de usar la acumulada correcta.",
+   "d": "Confundiste la posición del percentil (80) con la cantidad de estudiantes bajo él."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d044f9f8-46ec-4d38-acec-4a1f52bc4f30",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El depósito se duplica cada día desde $20, formando una sucesión geométrica: día n = 20×2^(n−1). Al décimo día: 20×2⁹ = 20×512 = $10.240.",
+  "distractor_diagnosis": {
+   "a": "Calculaste 20×9 como progresión aritmética, no geométrica.",
+   "b": "Multiplicaste 20×10 como si el crecimiento fuera lineal, no geométrico.",
+   "d": "Usaste el exponente 10 en vez de 9 (el día 10 usa 2⁹, no 2¹⁰)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d07bdbf7-3d23-4989-87b2-565c0b5b74e1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Pertenecer al 60% de menores ingresos del país significa tener un ingreso menor al percentil 60 nacional. Tener un ingreso menor al percentil 40 (que es más bajo que el 60) garantiza automáticamente estar por debajo del percentil 60, asegurando el subsidio. Estar sobre el percentil 20, o comparar con percentiles de la comuna (no del país), no asegura nada respecto del criterio nacional.",
+  "distractor_diagnosis": {
+   "a": "Estar sobre el percentil 20 no garantiza estar bajo el percentil 60 nacional.",
+   "c": "Usaste el percentil de ingresos de la comuna, no del país, que es el criterio real.",
+   "d": "Igual que c: la comuna no es el universo relevante para este subsidio."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d0fc8f83-f69c-4d71-bd49-94187ee8c0ff",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d12f53d3-ddc1-46ef-b812-1ee80025f2ff",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Elegir 2 libros de cada disciplina son sucesos independientes y simultáneos: C(8,2) formas para matemática, C(7,2) para literatura y C(10,2) para biología. Como ocurren todos a la vez, se multiplican: C(8,2)·C(7,2)·C(10,2).",
+  "distractor_diagnosis": {
+   "a": "Sumaste las combinaciones en vez de multiplicarlas; elecciones independientes se multiplican.",
+   "c": "Sumaste todos los libros (25) y calculaste combinaciones sobre ese total conjunto.",
+   "d": "Usaste una fórmula de permutación sin sentido combinatorio para este problema.",
+   "e": "Olvidaste dividir por (n-2)! en cada combinación, dejando solo n!/2!."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d141ce6f-bc71-4eb9-886b-eb20d47cf20c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por semejanza de triángulos, la razón altura/longitud se mantiene constante: 1,5/2 (a los 2 m alcanza 1,5 m). Aplicando esa razón a los 15 m totales de escalera: altura = 1,5×15/2 = 11,25 m.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Usaste solo el tramo restante (13 m) en vez de la longitud total de la escalera.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d16ad20e-ecff-47af-ad01-2155eb14df35",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La moda de A es 10 (con 5 personas, la mayor frecuencia). La moda de B es 25 (con 4 personas). La diferencia es 25−10=15, por lo que la moda de A es 15 años menor que la de B.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el rango: el de B (17) es mayor que el de A (15).",
+   "c": "La mediana de A (14) es menor que la de B (17), no mayor.",
+   "d": "Confundiste el valor máximo (25) con el rango; ninguno de los rangos es 25."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d211c624-edfd-43da-ad42-0d864648b953",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El espejo cuadrado de lado p tiene área p². Cada esquina tiene un triángulo rectángulo de catetos m y n, de área mn/2; con 4 esquinas el área total de triángulos es 4×(mn/2)=2mn. El área visible del vidrio es S=p²−2mn.",
+  "distractor_diagnosis": {
+   "a": "Sumaste el área de los triángulos en vez de restarla, y usaste 4mn en vez de 2mn.",
+   "b": "Olvidaste dividir entre 2 el área de cada triángulo (usaste 4mn en vez de 2mn).",
+   "c": "Sumaste el área de los triángulos al cuadrado en vez de restarla."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d253d7c6-255c-423a-b0c8-aff97e9d443e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Buscamos el exponente que satisface 2ˣ=32. Como 2⁵=32 (2×2×2×2×2=32), x=5.",
+  "distractor_diagnosis": {
+   "a": "2³=8, no 32; subestimaste bastante el exponente necesario.",
+   "b": "2⁴=16, la mitad de 32; te quedaste un exponente corto.",
+   "d": "2⁶=64, el doble de 32; te pasaste un exponente.",
+   "e": "Calculaste 32/2=16 en vez de resolver el exponente de la ecuación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d30f9821-8dad-4429-b7ea-defd002cf127",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "5x−3=2x+9. Agrupando términos con x: 5x−2x=9+3, es decir 3x=12, por lo tanto x=4.",
+  "distractor_diagnosis": {
+   "a": "Cambiaste mal el signo del -3, obteniendo 3x=6 en vez de 3x=12.",
+   "b": "Olvidaste el término -3 al despejar, quedando 3x=9 en vez de 3x=12.",
+   "d": null,
+   "e": "Dividiste 12 por 2 en vez de por 3, obteniendo x=6."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d3af238f-a45a-4539-ad22-e4c077337d26",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "d3cc2a08-cfe4-4e08-91f1-fc8496b96a6f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d41b57b6-b159-4b06-b048-f9243a536236",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La razón de la sucesión geométrica es r=6/2=3, con primer término a₁=2. La suma de los primeros 8 términos es S₈=a₁(r⁸−1)/(r−1)=2(6561−1)/2=6560.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por el primer término (a₁=2), obteniendo la mitad del resultado.",
+   "b": null,
+   "d": "Usaste a₁=3 en lugar de 2, el primer término real de la sucesión."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d4408067-4f8a-4b24-a118-e43f50f76232",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La ecuación es 0,5=10x+0,3. Despejando: 10x=0,5−0,3=0,2, por lo tanto x=0,2÷10=0,02.",
+  "distractor_diagnosis": {
+   "a": "Sumaste 0,5+0,3=0,8 en lugar de restar, y olvidaste dividir por 10.",
+   "b": "Calculaste 10x=0,2 correctamente pero olvidaste dividir por 10.",
+   "c": "Restaste mal los decimales, obteniendo 0,08 en vez de 0,02."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d45a06f5-bd9e-4734-b343-7fb87b6ff4cb",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sean los números x, x+1, x+2. La suma es x+(x+1)+(x+2)=45, es decir 3x+3=45, por lo tanto 3x=42 y x=14, el número menor.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": "Definiste los números como x-1, x, x+1 y diste el del medio (15) como el menor.",
+   "e": "Sumaste 3 en lugar de restarlo, obteniendo 3x=48 y x=16."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d48dcfef-99f3-4810-97a3-bc7ec71164db",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d5594a2a-63a4-4078-9dab-59b6ed03100a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El total de números en la rifa es 100 listas × 20 números = 2000. Francisca compró 8 números de una sola lista, entonces su probabilidad de ganar es 8/2000.",
+  "distractor_diagnosis": {
+   "a": "Sumaste listas y números (100+20=120) en vez de multiplicarlos.",
+   "b": "Multiplicaste 100×8 en vez de 100×20 para obtener el total de números.",
+   "c": "Usaste solo los 20 números de una lista como total, ignorando las 100 listas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d571a7ba-f011-4fb5-8d89-3312d3d9b1ae",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La bacteria se cuadruplica cada hora, lo que es crecimiento exponencial. Partiendo de 320, después de n horas hay 320×4ⁿ bacterias (elevando 4 a la potencia n, no multiplicando por n).",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Multiplicaste (320×4) por n en vez de elevar 4 a la potencia n.",
+   "d": "Multiplicaste 320 por n de forma lineal, sin considerar el crecimiento exponencial."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d599fdaa-e71d-4586-8c91-128ad19bdc7b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La probabilidad es números comprados dividido por el total (250). Si la probabilidad es 1/50, entonces números comprados = 250/50 = 5.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el numerador de la probabilidad (1) con la cantidad de números comprados.",
+   "c": "Confundiste el denominador de la probabilidad (50) con la cantidad de números comprados.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d5f489d7-5fb6-4429-84fc-73b610f2fbf7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para que media, mediana y moda coincidan con moda única, la distribución debe ser simétrica con la mayor frecuencia en el valor central. Esto se cumple cuando la barra de 2 horas (Q) es la más alta y las barras de 1 y 3 horas (P y R) son iguales entre sí, dando simetría alrededor de 2.",
+  "distractor_diagnosis": {
+   "a": "Si P=Q=R no hay una moda única; las tres frecuencias serían modas.",
+   "c": "Si P=R>Q hay dos modas iguales (1 y 3 horas), no una moda única en 2.",
+   "d": "Con frecuencias crecientes la media se desplaza hacia 3 y no coincide con el centro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d61274ef-c349-4058-8d6f-aa16cb3f6717",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea a los lápices de Ariel; Carmen tiene a+13. Entre ambos suman a lo más 49: a+(a+13)≤49 → 2a≤36 → a≤18. La máxima cantidad para Ariel es 18.",
+  "distractor_diagnosis": {
+   "a": "Interpretaste 'a lo más 49' como estrictamente menor que 49, dando 17 en vez de 18.",
+   "c": null,
+   "d": "Calculaste la cantidad de Carmen (31), no la de Ariel."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d64c32f1-2179-48a1-b422-72f04e6afe67",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los números pares en un dado de 6 caras son 2, 4 y 6: 3 casos favorables de 6 posibles. La probabilidad es 3/6=1/2.",
+  "distractor_diagnosis": {
+   "a": "Diste la probabilidad de un solo número (1/6), no la de todos los pares.",
+   "b": "Contaste solo 2 caras pares en vez de las 3 correctas (2, 4 y 6).",
+   "d": "Contaste 4 caras como pares en vez de las 3 correctas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d6758ee1-e890-4f9e-a3ef-07778c104ff8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d802aa7d-4b43-441a-adfc-4ea9c1264d89",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El total de personas es 6 (solo francés) + 10 (solo inglés) + 3 (trilingües) + x (solo español) = x+19. Las personas que hablan español son las que solo hablan español más las trilingües: x+3. La probabilidad es (x+3)/(x+19).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar a los 3 trilingües en el numerador de favorables.",
+   "b": null,
+   "c": "Invertiste la fracción: pusiste el total dividido por los favorables."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d821c9f3-10bb-48bf-9b48-0e547e8762aa",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Área de P=π(3)²=9π. Área de Q=9π/4. Igualando πr²=9π/4, se obtiene r²=9/4, por lo que r=3/2 cm.",
+  "distractor_diagnosis": {
+   "a": "Dividiste el radio directamente por 4 en vez de por √4=2.",
+   "b": "Multiplicaste el radio por 2 en vez de dividirlo.",
+   "d": "Multiplicaste el radio por 4 en vez de dividirlo por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d86f1308-56de-45f7-9e06-a46c1e694006",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El porcentaje que representa 25 de 125 es (25/125)×100=20%.",
+  "distractor_diagnosis": {
+   "a": "Calculaste 125÷25=5 y lo diste directo, sin multiplicar por 100 correctamente.",
+   "c": "Confundiste el valor 25 mismo con el porcentaje buscado.",
+   "d": "Invertiste la razón (125/25 en vez de 25/125) antes de multiplicar por 100."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d91c14f9-ea1a-4985-8068-6678bbe709e9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Llevamos las fracciones a denominador común 6: 1/3=2/6. Entonces 5/6−2/6=3/6=1/2.",
+  "distractor_diagnosis": {
+   "a": "Restaste numeradores y denominadores por separado (5-1)/(6-3) en vez de usar denominador común.",
+   "c": "Convertiste mal 1/3 a sextos, usando 1/6 en vez de 2/6.",
+   "d": "Simplificaste mal 3/6, obteniendo 2/3 en vez de 1/2.",
+   "e": "Calculaste 5-2=1 en vez de 3 al restar los numeradores."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d93fc9dd-4980-40a9-a26a-6d9c49feaae0",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Reducir el costo en 25% equivale a quedarse con el 75% del costo original: nuevo costo = 0,75×(300x+500)=225x+375.",
+  "distractor_diagnosis": {
+   "a": "Restaste 25 (no 25%) del costo fijo, dejando la parte variable intacta.",
+   "b": "Aplicaste el descuento solo a la parte variable (300x→225x), no al cargo fijo.",
+   "d": "Calculaste el 25% de descuento en la parte variable en vez del 75% restante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d975f0db-fc70-4786-acab-6b0778d3db96",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Tres enteros consecutivos se escriben como n−1, n, n+1. Su suma es 3n, que siempre es múltiplo de 3, sin importar si n es par, impar, positivo, negativo o cero.",
+  "distractor_diagnosis": {
+   "a": "Creíste que la suma siempre es impar; en realidad depende de si n es par o impar.",
+   "c": "Supusiste que la suma es siempre positiva; podría ser negativa si los enteros lo son.",
+   "d": "Creíste que nunca puede ser cero; ocurre si los enteros son -1, 0 y 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "d99e259a-23b7-4cd8-8871-86b8c228ef6b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Verificamos el teorema de Pitágoras: 5²+12²=25+144=169=13². Es una terna pitagórica válida.",
+  "distractor_diagnosis": {
+   "a": "No verificaste el teorema de Pitágoras: 2²+3²=13≠4²=16.",
+   "b": "No verificaste el teorema de Pitágoras: 5²+6²=61≠7²=49.",
+   "d": "No verificaste el teorema de Pitágoras: 4²+5²=41≠6²=36.",
+   "e": "No verificaste el teorema de Pitágoras: 6²+7²=85≠8²=64."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "da25bd04-e2ef-44dc-aa52-8dc95525ddab",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Desarrollando −y−2(y−2)²: primero (y−2)²=y²−4y+4, luego −2(y²−4y+4)=−2y²+8y−8. Sumando el −y: −y−2y²+8y−8=−2y²+7y−8.",
+  "distractor_diagnosis": {
+   "a": "No elevaste (y-2) al cuadrado; lo trataste como un término lineal.",
+   "b": "Olvidaste sumar el término 8y que viene de -2×(-4y), y alteraste el signo de la constante.",
+   "c": "Expandiste (y-2)² como diferencia de cuadrados (y²-4), olvidando el término medio -4y."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "da475bc3-8da1-4413-b7b1-c936e2b87ff9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La media aritmética es la suma de los valores dividida por la cantidad de ellos: (4+7+9+12+8)/5=40/5=8.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste incluir el 12 en la suma, promediando 28 entre 4 datos.",
+   "c": "Olvidaste incluir el 4 en la suma, promediando 36 entre 4 datos.",
+   "d": "Sumaste correctamente los 5 valores (40) pero dividiste entre 4 en vez de 5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "da561848-edf6-47d1-8290-dc00ac6590f4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea n el número de invitados. El segundo centro es más caro cuando 5000n+310000 > 2000n+520000, es decir 3000n>210000, o n>70. El mínimo entero que cumple es n=71.",
+  "distractor_diagnosis": {
+   "a": "En n=70 ambos cobros son iguales, no el segundo mayor; falta llegar a 71.",
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dae9f889-ca1a-4354-b98f-4f9113e42eee",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El total de partes es 2+3+4=9. Cada parte vale $36.000/9=$4.000. El hermano con mayor parte (4 partes) recibe 4×$4.000=$16.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la parte menor (2 partes = $8.000) en vez de la mayor.",
+   "b": "Calculaste la parte intermedia (3 partes = $12.000) en vez de la mayor.",
+   "d": "Probablemente dividiste $36.000 entre 2 en vez de usar las 9 partes correctas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "db56fb6a-2030-408f-9093-78908c98ac72",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Por proporcionalidad directa: 90 km/15 L = x km/25 L. Despejando: x=90×25/15=150 km.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la proporción (multiplicaste por 15 y dividiste por 25).",
+   "b": "Calculaste el km adicional (6×10=60) en vez del total con 25 litros.",
+   "c": "Aproximaste la razón 25/15 a 1,5 y calculaste 90×1,5=135."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "db69decf-267e-4743-99c3-e20b68644113",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "I es verdadera por simetría entre diferencias positivas y negativas. II es verdadera: hay 14 de 36 pares donde el cociente es entero, más que 6/36. III es verdadera porque la suma mínima posible es 2, siempre mayor que 1. Las tres afirmaciones son correctas.",
+  "distractor_diagnosis": {
+   "a": "Descartaste I y II sin verificar que también son ciertas.",
+   "b": "Descartaste III, cuando la suma mínima (2) siempre supera 1.",
+   "c": "Descartaste II, sin contar que 14/36 cocientes enteros superan 6/36.",
+   "d": "Descartaste I, sin notar la simetría entre diferencias positivas y negativas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "db858fb4-6cc2-49f6-9d65-d1e8bf3df314",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Desarrollando −y−2(y−2)²: (y−2)²=y²−4y+4, luego −2(y²−4y+4)=−2y²+8y−8. Sumando −y: −y−2y²+8y−8=−2y²+7y−8.",
+  "distractor_diagnosis": {
+   "a": "No elevaste (y-2) al cuadrado; lo trataste como un término lineal.",
+   "b": "Olvidaste sumar el término 8y que viene de -2×(-4y), y alteraste el signo de la constante.",
+   "c": "Expandiste (y-2)² como diferencia de cuadrados (y²-4), olvidando el término medio -4y."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dbad9282-f7c0-4593-8fec-5574d9ecccc8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Una rueda con 5 rayos igualmente espaciados tiene 5 ejes de simetría, más de 2. El balón y la caja rectangular tienen solo 2, y la libélula solo 1 (bilateral).",
+  "distractor_diagnosis": {
+   "a": "Un balón de fútbol americano solo tiene 2 ejes de simetría, no más.",
+   "b": "Una caja rectangular tiene a lo más 2 ejes visibles, no más que la rueda.",
+   "d": "Una libélula solo tiene 1 eje de simetría, el mínimo entre las opciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dbb3eae3-c7d1-47e7-a604-d5dac18ab4e8",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El ángulo interior de un polígono regular de n lados es (n−2)×180°/n. Para un hexágono (n=6): (6−2)×180°/6=720°/6=120°.",
+  "distractor_diagnosis": {
+   "b": "108° es el ángulo interior de un pentágono regular, no de un hexágono.",
+   "c": "135° corresponde a un octógono regular, no a un hexágono.",
+   "d": "150° corresponde a un dodecágono regular, no a un hexágono."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dbc8049a-ba10-45e4-bafb-eaebb9ef64e7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área del espejo es 8²=64 cm². Los 4 triángulos isósceles rectángulos de cateto x aportan un área total de 4×(x²/2)=2x². El área libre es 64−2x²=56, por lo que x²=4 y x=2 cm.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Calculaste la hipotenusa del triángulo (2√2) en vez del cateto x.",
+   "d": "Olvidaste sacar la raíz cuadrada; obtuviste x²=4 pero diste x=4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "dbe1a3c9-d0f9-476e-a1fc-1260a54591a5",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sea x el aporte de María. Claudia aportó 2x y Yasna 2×(2x)=4x. Sumando: x+2x+4x=7x=210.000, entonces x=30.000. Claudia aportó 60.000 y Yasna 120.000. El promedio entre Claudia y Yasna es (60.000+120.000)/2=90.000.",
+  "distractor_diagnosis": {
+   "b": "Promediaste el dinero de las tres amigas (210.000/3) en vez de solo Claudia y Yasna.",
+   "c": "Promediaste el aporte de María y Claudia en vez de Claudia y Yasna.",
+   "d": "Calculaste el aporte de Yasna como el triple de María en vez del cuádruple."
+  },
+  "skip_reason": null
+ }
+]

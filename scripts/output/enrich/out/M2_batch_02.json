@@ -1,0 +1,585 @@
+[
+ {
+  "id": "1bf13296-6507-485c-bdcb-8e705002bf10",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Aplicando dB = 10·log(I/I₀) con I = 10⁻⁷ y I₀ = 10⁻¹²: dB = 10·log(10⁻⁷/10⁻¹²) = 10·log(10⁵) = 10·5 = 50 dB.",
+  "distractor_diagnosis": {
+   "a": "No simplificaste la resta de exponentes, dejaste log(7) sin reducir a una potencia de 10.",
+   "c": "Invertiste el orden de la resta de exponentes (I₀ menos I en vez de I menos I₀).",
+   "d": "Mezclaste el exponente 12 con el logaritmo en lugar de restar los exponentes correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1c0c918d-9a32-4e27-8050-b1e946d195e6",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Como v = c·u con c > 1, para despejar u dividimos ambos lados por c: u = v/c = (p/c, q/c). Esa es la única forma correcta de aislar u, ya que c multiplica a todo el vector, no solo a una coordenada.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por c en lugar de dividir, e invertiste el orden de p y q.",
+   "b": "Dividiste correctamente una coordenada pero cambiaste el signo o la constante en la otra.",
+   "c": "Restaste un múltiplo de c en lugar de dividir cada coordenada por c.",
+   "d": "Dividiste por c pero invertiste el signo de una de las coordenadas al despejar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1c5e976d-c19e-4870-98ff-9ec15dd2be5a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Las medias de ambos grupos son iguales (el −1 y el +1 se cancelan), pero el grupo 2 tiene mayor varianza que el grupo 1 porque separar los extremos siempre aumenta la dispersión. Como p<q<r estrictamente, los tres valores de cada grupo son distintos entre sí, así que la varianza (y la desviación estándar) de ambos grupos es siempre mayor que cero: esa es la única afirmación siempre verdadera.",
+  "distractor_diagnosis": {
+   "a": "Invertiste cuál grupo tiene mayor desviación estándar: en realidad el grupo 2 la tiene mayor.",
+   "b": "Asumiste que separar los extremos en ±1 no cambia la dispersión, cuando en realidad siempre la aumenta.",
+   "c": "Calculaste el rango con los valores originales sin notar que el grupo 2 lo aumenta en 2 unidades."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1d443f25-5e30-443a-af48-dbd75d97d072",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "12,5% = 1/8 = (1/2)³. Como C(t) = C₀·(1/2)^(t/6), se necesita t/6 = 3, es decir t = 18 horas. Verificación: a las 6h queda 50%, a las 12h 25%, a las 18h 12,5%.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo dos vidas medias (25%) en lugar de las tres necesarias para llegar a 12,5%.",
+   "b": "Interpolaste de forma lineal entre 12h y 18h en vez de usar la reducción exponencial por mitades.",
+   "d": "Calculaste una vida media de más, llegando a 6,25% (cuatro vidas medias) en lugar de 12,5%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1e7652a7-1da9-4e0f-bb38-1d4a713b74f3",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1eca5b86-30a8-4d80-8bfb-af5dbaff2791",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Interpretando la expresión como p = 7⁴⁶ − 7⁴⁴, se factoriza p = 7⁴⁴(7² − 1) = 7⁴⁴·48 = 7⁴⁴·16·3. Esta factorización muestra que p tiene como factores 7, 2 y 3, por lo que p es múltiplo de 21 = 3×7.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que el factor 48 = 16×3 hace que p sea par, no impar.",
+   "b": "No verificaste que p tiene múltiples factores primos (7, 2 y 3), por lo que no puede ser un número primo.",
+   "c": "Buscaste un factor 13 que no aparece en ninguna parte de la factorización de p."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1f06c511-4d86-4fd2-87ca-670ec47d84e6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para a=0, el sistema queda 2x+y=1 y 0=0, lo que da infinitas soluciones (todo par que cumpla 2x+y=1). Para a≠0, dividiendo la segunda ecuación por a queda x+2y=0, que junto con 2x+y=1 tiene determinante 2·2−1·1=3≠0, dando solución única. Solo el sistema de la opción c cumple ambas condiciones simultáneamente.",
+  "distractor_diagnosis": {
+   "a": "No revisaste que ese sistema queda dependiente (misma recta) para todo valor de a, no solo cuando a=0.",
+   "b": "No comprobaste que en a=0 ese sistema da una solución única en vez de infinitas soluciones.",
+   "d": "No notaste que en a=0 la primera ecuación se vuelve una contradicción (0=1), es decir, sin solución."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1fcf8027-1d6e-4723-93c7-dac2c7b40200",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "201b07d6-33b2-4a87-a745-b9fccf077f14",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Multiplicando la segunda ecuación por −3 se obtiene 3x−6y=9, idéntica a la primera. Ambas representan la misma recta (x−2y=3), por lo que el sistema tiene infinitas soluciones: cualquier par (x,y) que cumpla x=2y+3 es solución.",
+  "distractor_diagnosis": {
+   "a": "Resolviste el sistema como si las dos ecuaciones fueran independientes, sin notar que son la misma recta.",
+   "b": "Concluiste 'sin solución' al ver coeficientes proporcionales, sin comprobar que los términos constantes también lo son.",
+   "d": "Un sistema lineal de dos variables nunca tiene 'exactamente dos' soluciones; eso ocurre solo en sistemas no lineales.",
+   "e": "Verificaste un punto que en realidad no satisface ambas ecuaciones a la vez."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "20346e10-4918-4d1f-805b-ec78b9fa9aea",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si Diego usa M monedas de $a y N monedas de $b, el total de monedas da M+N=35, y el total pagado da aM+bN=c. Ese sistema de dos ecuaciones corresponde a la opción c.",
+  "distractor_diagnosis": {
+   "a": "Invertiste cuál cantidad va con 35 y cuál con c, intercambiando las ecuaciones.",
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "22a29439-88a5-4908-bb36-8741f3d0dbca",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "230ef502-476b-46bb-a05b-7590f398f218",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "25x²−y² es una diferencia de cuadrados: 25x²−y² = (5x−y)(5x+y). Por tanto √(25x²−y²) = √(5x+y)·√(5x−y), que es exactamente la opción d.",
+  "distractor_diagnosis": {
+   "a": "Simplificaste la raíz de la diferencia como si fuera la diferencia de las raíces (√(25x²)−√(y²)=5x−y), lo que no es válido.",
+   "b": "Factorizaste con el signo incorrecto en uno de los binomios, quedando 25x en vez de 5x.",
+   "c": "Invertiste el orden de los términos dentro de uno de los binomios, cambiando su signo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "23cb172e-92e5-40e3-98a4-3c16eb18c611",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para que el sistema tenga infinitas soluciones, las ecuaciones deben ser proporcionales: 30/p = q/(−3) = 12/2. De 12/2=6 se obtiene p = 30/6 = 5 y q = −3·6 = −18.",
+  "distractor_diagnosis": {
+   "a": "Usaste solo una de las tres razones de proporcionalidad, obteniendo un valor de q incorrecto.",
+   "b": "Calculaste correctamente p pero te equivocaste en el signo de q.",
+   "d": "Invertiste los valores de p y q entre sí."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "23e58f27-12c5-443a-941b-dbf8a0e43dc6",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área del triángulo equilátero de lado q es (√3/4)q², y la del cuadrado de lado p es p². Igualando (√3/4)q² = (1/4)p² se obtiene p²/q² = √3, y de ahí la razón pedida es la raíz cuarta de 3, correspondiente a la opción a.",
+  "distractor_diagnosis": {
+   "b": "Confundiste el orden de la razón (calculaste q/p en vez de p/q) sin invertir el exponente correspondiente.",
+   "c": "Olvidaste elevar a la potencia 1/4 y dejaste solo √3 sin la raíz cuarta.",
+   "d": "Olvidaste el factor √3/4 del área del triángulo equilátero al plantear la igualdad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2547f9dd-4a3b-48b7-95ca-18a361d7696c",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "El perímetro es P = 2x + 2·(largo), así que despejando el largo se obtiene f(x) = P/2 − x, que corresponde a la opción e.",
+  "distractor_diagnosis": {
+   "a": "Restaste x de P en vez de dividir primero P por 2 y luego restar x.",
+   "b": "Sumaste x en lugar de restarlo al despejar el largo.",
+   "c": "Olvidaste dividir el perímetro por 2 antes de restar 2x.",
+   "d": "Multiplicaste x por 2 en lugar de despejar directamente el largo desde el perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "26408462-db75-43d9-bb47-f7589db23f58",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como los rectángulos son semejantes, la proporción correcta debe comparar lado con lado correspondiente: (4x+1)/(x+2) = 10/8. El Paso 1 planteó esa proporción con los lados cruzados de forma incorrecta, y ese error se propaga a todos los pasos siguientes.",
+  "distractor_diagnosis": {
+   "b": "Asumiste que el error estaba en el álgebra del Paso 2, sin revisar que la proporción de partida ya estaba mal planteada.",
+   "c": "Aceptaste como correcto el valor de x del Paso 2 y solo revisaste el reemplazo numérico del Paso 3.",
+   "d": "Diste por válido el perímetro final sin cuestionar los pasos previos que lo originaron."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "267cebaf-9413-400c-aa17-25f11d903e18",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si x = 0,999..., entonces 10x = 9,999... Al restar: 10x − x = 9,999... − 0,999... = 9. Esto implica 9x = 9, es decir x = 1, demostrando que 0,999... = 1.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal las cifras decimales periódicas, dejando el resultado con un 9 de menos.",
+   "c": "No realizaste la resta correctamente, dejando el valor de 10x sin restar x.",
+   "d": "Multiplicaste por 9 en lugar de por 10 al formar 10x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "272186ef-6781-43cf-b206-019ab0ede840",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Sea y los litros al 60%: los litros al 25% son (10−y). El total de soluto debe ser 40% de 10 L = 4 L: 0,25(10−y) + 0,60y = 4. Resolviendo: 2,5 + 0,35y = 4, entonces y = 1,5/0,35 = 30/7 litros.",
+  "distractor_diagnosis": {
+   "a": "Usaste un promedio simple de concentraciones en lugar de ponderar por los litros de cada solución.",
+   "b": "Redondeaste el resultado exacto 30/7 ≈ 4,29 a un número entero cercano.",
+   "c": "Calculaste la cantidad de la solución al 25% en lugar de la del 60%.",
+   "e": "Asumiste una mezcla en partes iguales sin resolver realmente el sistema de ecuaciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2752bf65-ae93-467d-ac92-34585170c095",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El área del triángulo es (500×700)/2 = 175.000 cm² = 17,5 m². Con 3 manos se necesitan 3×17,5 = 52,5 m² de pintura. Un galón (40 m²) no alcanza, pero sumando un tarro de medio galón (20 m²) se cubren 60 m², lo mínimo suficiente: 1 tarro de un galón y 1 de medio galón.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el área en m² pero olvidaste multiplicar por las 3 manos de pintura requeridas.",
+   "b": "Usaste solo el rendimiento de un tarro de un galón sin comprobar que no alcanza para las 3 manos (40 < 52,5).",
+   "c": "Sobrestimaste la cantidad necesaria comprando más pintura que la mínima requerida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "282127e6-4e2e-467f-a38c-71b8fad2c3f7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Buscamos t tal que 1,08^t = 2. Aplicando logaritmo: t = log(2)/log(1,08) ≈ 0,301/0,033 ≈ 9,1 años, consistente con la regla del 72 (72/8=9).",
+  "distractor_diagnosis": {
+   "a": "Invertiste la fórmula, usando log(1,08) en el numerador y log(2) en el denominador.",
+   "c": "Redondeaste hacia arriba sin calcular realmente el cociente log(2)/log(1,08).",
+   "d": "Confundiste el tiempo de duplicación con un tiempo mayor, quizás de triplicación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "287ffc9e-0691-4033-aa88-254160c8061f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La distancia entre el espejo y la base del poste es 9−3=6 m. Por semejanza de triángulos (mismo ángulo de reflexión), altura_poste/6 = 1,22/3, de donde altura_poste = 1,22×2 = 2,44 m.",
+  "distractor_diagnosis": {
+   "b": "Usaste la distancia total al poste (9 m) en lugar de la distancia entre el espejo y el poste (6 m).",
+   "c": "Multiplicaste las distancias en vez de usar la proporción correcta entre ellas.",
+   "d": "Invertiste la razón de semejanza, multiplicando por el recíproco de la proporción correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "289979f2-c1cd-4aba-97c7-475c55bae783",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "28aec793-bdb6-40d4-a945-977a0df7142a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "28f4cf8b-fe73-4f54-8a40-34592ac24c03",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De 100 personas, 40 fuman y 60 no fuman. El 20% de los fumadores (8 personas) no tiene enfermedad respiratoria. Como 35 personas tienen la enfermedad, 65 no la tienen; de esas 65, 8 son fumadoras sanas, por lo que 65−8=57 son no fumadores sanos. La probabilidad pedida es 57/65.",
+  "distractor_diagnosis": {
+   "b": "Usaste el total de personas sin enfermedad de forma incorrecta al descontar los fumadores sanos.",
+   "c": "Calculaste el complemento usando el total de fumadores en vez del total de personas sin enfermedad.",
+   "d": "Invertiste el numerador y el denominador de la probabilidad condicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "293f41cc-8124-44c8-9557-c837347241b5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Cámara A: media=4, varianza=(1+1+0+4+4)/5=2, SD≈1,41. Cámara B: media=4, varianza=(0+0+1+0+1)/5=0,4, SD≈0,63. La cámara A tiene mayor desviación estándar que la cámara B.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el rango de alguna cámara: A tiene rango 4 y B tiene rango 2, no son iguales.",
+   "c": "Invertiste cuál cámara tiene mayor varianza: en realidad A la tiene mayor (2 > 0,4).",
+   "d": "Calculaste solo las medias (ambas 4) sin calcular las varianzas, que sí son distintas.",
+   "e": "Invertiste cuál cámara tiene mayor rango: A tiene rango 4 y B tiene rango 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2954d16a-bc4f-43e7-82d4-19f6105b3e84",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "298b6753-d94f-4016-a743-ed91c1f7ae58",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con x los dos lados perpendiculares al muro, el lado paralelo mide 60−2x, y el área es A(x)=x(60−2x)=−2x²+60x. El máximo se alcanza en x=−60/(2·(−2))=15, dando A(15)=15×30=450 m².",
+  "distractor_diagnosis": {
+   "a": "Calculaste el área con los tres lados iguales a 20 m en lugar de plantear la función cuadrática correcta.",
+   "c": "Asumiste un cuadrado de 15×15 en lugar de calcular el lado paralelo al muro como 60−2x.",
+   "d": "Usaste un valor de x fuera del óptimo, sobrestimando el área máxima."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2994dd07-4b84-47e9-8905-ecea25762d5b",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Para que el punto trasladado (x+p, y+q) quede en el segundo cuadrante se necesita x+p<0 e y+q>0, lo que equivale a x<−p e y>−q.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la desigualdad de y, dejando 'y menor que −q' en vez de 'mayor que'.",
+   "b": "Olvidaste el signo negativo en la condición de y, dejando 'y>q' en vez de 'y>−q'.",
+   "c": "No invertiste el signo de p al despejar, dejando 'x<p' en vez de 'x<−p'.",
+   "d": "Invertiste el signo en la condición de y, usando 'menor que −q' en lugar de 'mayor que'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2a12291c-bc52-44c1-9c48-66a0882571d3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Costo total del Crédito A: 36×$165.000=$5.940.000, con intereses de $940.000. Costo total del Crédito B: 48×$132.000=$6.336.000, con intereses de $1.336.000. La diferencia de intereses es $1.336.000−$940.000=$396.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo la diferencia entre las cuotas mensuales, sin multiplicar por el número de cuotas.",
+   "b": "Omitiste alguna cuota al calcular el costo total de uno de los créditos.",
+   "d": "Redondeaste el costo total de uno de los créditos antes de restar el capital inicial.",
+   "e": "Confundiste un cálculo intermedio (como los intereses de un solo crédito) con la diferencia pedida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2a286d24-27fb-4b7c-b73e-03cd24fb17e2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los puntajes 6, 8, 9, 12, 15 tienen promedio x̄=10 y desviación estándar σ=√10≈3,16, por lo que el intervalo válido es [6,84; 13,16]. Se eliminan 6 y 15 por quedar fuera de ese intervalo, y el promedio final con {8, 9, 12} es 29/3.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el promedio simple de los 5 puntajes sin eliminar los que quedan fuera del intervalo.",
+   "b": "No eliminaste el puntaje 15, dejándolo dentro del cálculo del promedio final.",
+   "d": "Eliminaste un puntaje adicional que en realidad sí estaba dentro del intervalo [x̄−σ, x̄+σ]."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2af62680-de30-4198-a387-5187b60acd6e",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "La distancia entre los ciclistas disminuye a razón de la velocidad relativa v+w (se acercan simultáneamente), por lo que distancia(t) = d − (v+w)t, correspondiente a la función de la opción e.",
+  "distractor_diagnosis": {
+   "a": "Sumaste el término de tiempo con signo positivo, aumentando la distancia en lugar de disminuirla.",
+   "b": "Invertiste los signos de la distancia inicial y del término de tiempo.",
+   "c": "Restaste solo una de las velocidades en lugar de sumar ambas rapideces para obtener la velocidad relativa.",
+   "d": "Usaste la resta de rapideces (v−w) en lugar de la suma (v+w) para la velocidad de acercamiento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2b6d312f-dfc7-4e90-9526-c751d38e3575",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El recorrido norte-este forma un triángulo rectángulo isósceles con catetos de 80 km cada uno. El ángulo de regreso respecto al sur cumple tan θ = 80/80 = 1, por lo que θ = 45°.",
+  "distractor_diagnosis": {
+   "a": "Asumiste un triángulo no isósceles, obteniendo un ángulo de 30° sin usar tan θ=1.",
+   "c": "Confundiste el triángulo con uno de 30°-60°-90° en lugar del triángulo rectángulo isósceles real.",
+   "d": "Asumiste que el camino de regreso es perpendicular a la dirección sur.",
+   "e": "Calculaste el ángulo suplementario (135°) en lugar del ángulo con respecto al sur."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2c12cb2a-5ff6-4932-9e08-4fc6ce5855f7",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sumar una constante (los 3 años) a todos los datos desplaza el promedio pero no cambia la distancia de cada dato respecto a su promedio, así que la varianza no cambia: la condición (1) sola es suficiente. El promedio y el rango (condición 2) no determinan la varianza, por lo que (2) sola es insuficiente.",
+  "distractor_diagnosis": {
+   "b": "Creíste que el rango determina la varianza, lo cual no es cierto en general.",
+   "c": "Pensaste que se necesitaban ambas condiciones juntas, sin notar que (1) sola ya es suficiente.",
+   "d": "Pensaste que (2) también era suficiente por sí sola, sin notar que rango y promedio no determinan la varianza.",
+   "e": "No reconociste que sumar una constante a todos los datos no cambia su varianza."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2d26f620-aa71-492b-aa1d-dfe7827ef228",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La escala Newton aumenta con la temperatura, mientras que la escala Delisle disminuye (el agua hierve a 0°D y se congela a 150°D), por lo que la pendiente a es negativa. El intercepto b corresponde al valor de Delisle cuando Newton es 0 (agua congelada, 150°D), que es positivo.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el signo de a, asumiendo que Newton y Delisle aumentan juntos.",
+   "b": "Solo invertiste el signo de b, sin corregir el signo negativo de la pendiente a.",
+   "d": "Invertiste ambos signos, asumiendo además que el intercepto es negativo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2d5d620d-80aa-4864-834e-1b247516ce8c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con n(t)=at+b, el nivel inicial es b=4a (cuádruple del aumento por hora). A las 3 horas: 3a+b=3a+4a=7a=273, entonces a=39 y b=156. A las 5 horas: n(5)=5(39)+156=195+156=351 cm.",
+  "distractor_diagnosis": {
+   "a": "Usaste el nivel inicial sin volver a despejar correctamente la relación 4a=b.",
+   "c": "Calculaste el aumento por hora sin aplicar la relación entre el nivel inicial y el aumento horario.",
+   "d": "Extrapolaste linealmente desde n(3)=273 sin recalcular los valores correctos de a y b."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2e28fe16-a0e1-4f66-830d-d2b6531bbe56",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2e4c9d8d-e48f-48c6-abb6-967240a2c5c6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El vértice está en (2,3), por lo que −b/(2a)=2, es decir b=−4a. Evaluando en el vértice: 4a+2b=3 → 4a−8a=3 → a=−3/4, y entonces b=3. Así, a+b=−3/4+3=9/4.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el valor de a sin sumar el de b.",
+   "b": "Confundiste el vértice con el valor de b directamente, sin resolver el sistema completo.",
+   "d": "Te equivocaste al despejar b=−4a, obteniendo a+b=0 en lugar de 9/4.",
+   "e": "Invertiste el signo final del resultado a+b."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2f9f179d-8d9e-4e94-8f43-b28395042574",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El representante debe ser mujer (6 opciones) y el secretario hombre (8 opciones); el tesorero puede ser cualquiera de las 14−2=12 personas restantes. Como los cargos son distintos, se multiplican directamente: 6×8×12.",
+  "distractor_diagnosis": {
+   "b": "Ignoraste la restricción de sexo por cargo y usaste 14×13×12, como si cualquiera pudiera ocupar cada puesto.",
+   "c": "Aplicaste combinaciones (dividiendo por 2!) cuando los cargos son distinguibles y no deben dividirse.",
+   "d": "Combinaste el error de no restringir por sexo con el de dividir por combinaciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "30aa22b1-9646-4012-b79d-542d81792135",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Al poner n huevos por bandeja sobran m huevos, así que el total de huevos es y=nx+m. Al poner p huevos por bandeja sobran q bandejas vacías, entonces y=p(x−q). Ese sistema corresponde a la opción a.",
+  "distractor_diagnosis": {
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "318ac470-4c75-4918-b859-7e59a38b0726",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con sen(θ)=3/5 en el primer cuadrante, cos(θ)=√(1−9/25)=4/5. Entonces 2·sen(θ)·cos(θ)=2·(3/5)·(4/5)=24/25.",
+  "distractor_diagnosis": {
+   "a": "Sumaste en lugar de multiplicar el doble del producto seno-coseno.",
+   "b": "Calculaste sen²(θ) en vez de 2·sen(θ)·cos(θ).",
+   "d": "Calculaste cos²(θ)−sen²(θ) en lugar de 2·sen(θ)·cos(θ).",
+   "e": "Asumiste que la expresión siempre vale 1, confundiéndola con sen²(θ)+cos²(θ)=1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "31eb6b6c-8ef5-47f5-8166-96add1bff5c8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La razón de homotecia es k = distancia_imagen/distancia_objeto = 24 mm/(1 m×1000 mm/m) = 24/1000. El tamaño de la imagen es I=k×O=(24/1000)×0,5 m, que corresponde a la opción c.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la razón de homotecia, usando la distancia al objeto dividida por la de la imagen.",
+   "b": "Multiplicaste por un factor de conversión de unidades adicional e innecesario.",
+   "d": "Multiplicaste 24×500 sin aplicar correctamente la conversión de mm a m."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3218756d-ab26-4ee2-93b5-eed80f9b0661",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Ambos cursos tienen promedio 65. La varianza del curso A es 50 y la del curso B es 290 (mayor dispersión en B por las notas más extremas: 40 y 90), por lo que el curso B tiene mayor desviación estándar aunque el promedio sea el mismo.",
+  "distractor_diagnosis": {
+   "a": "Invertiste cuál curso tiene mayor desviación estándar: en realidad B la tiene mayor.",
+   "b": "Calculaste solo el promedio (igual en ambos) y asumiste que las varianzas también eran iguales.",
+   "d": "Los promedios son iguales, no distintos; además invertiste cuál curso tiene mayor varianza.",
+   "e": "Invertiste cuál curso tiene mayor rango: B tiene rango 50 y A tiene rango 20."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "329cd6b5-270d-4eb3-8935-554eb62ae05d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con dos lados y el ángulo comprendido (AB=10, BC=8, ángulo B=60°), el área se calcula directamente como (1/2)·AB·BC·sen(B) = (1/2)·10·8·sen(60°) = 20√3 cm². La afirmación (1) sola es suficiente; saber que el triángulo es isósceles (2) no aporta medidas para calcular el área.",
+  "distractor_diagnosis": {
+   "b": "Pensaste que ser isósceles basta para determinar el área sin conocer ninguna medida concreta.",
+   "c": "Creíste que se necesitan ambas afirmaciones juntas, cuando (1) sola ya es suficiente.",
+   "d": "Pensaste que ninguna afirmación por sí sola alcanza para calcular el área.",
+   "e": "No reconociste que la fórmula de área con dos lados y el ángulo comprendido (SAS) ya resuelve el problema con la afirmación (1)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "32a95f18-9e3e-47a8-a65c-d9207689a43a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Al dividir 7÷11 se obtiene 0,636363..., donde el bloque que se repite indefinidamente es '63'. Por lo tanto, el período de la expansión decimal es 63.",
+  "distractor_diagnosis": {
+   "b": "Repetiste el bloque dos veces en lugar de identificar el período mínimo que se repite.",
+   "c": "Tomaste tres cifras (636) en lugar de las dos que realmente conforman el período.",
+   "d": "Confundiste el numerador de la fracción original (7) con el período decimal."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "330a0985-5e2e-4f0d-98ab-0ed6abd6dbe4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con (1) sola sabemos sobre los hombres, pero no qué fracción de las mujeres lleva agua. Con (2) sola sabemos que 1/3 de las mujeres lleva agua, pero no qué porcentaje del total son mujeres. Juntas: (1) da que 40% son mujeres y (2) da que 1/3 de ellas lleva agua, entonces P(mujer y agua)=0,4×1/3=2/15.",
+  "distractor_diagnosis": {
+   "a": "Con (1) sola no conoces qué fracción de las mujeres lleva agua, solo información sobre los hombres.",
+   "b": "Con (2) sola no conoces qué proporción de los estudiantes totales son mujeres.",
+   "d": "Pensaste que faltaba información adicional, sin notar que (1) y (2) juntas ya bastan.",
+   "e": "No reconociste que (1) y (2) combinadas sí permiten calcular la probabilidad pedida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "33542cc4-7911-40ca-b5b7-d58f5a9517c8",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para f(x)=−x²+4x−1, el vértice tiene h=−b/(2a)=−4/(2·(−1))=2, y k=f(2)=−4+8−1=3. El vértice es (2,3).",
+  "distractor_diagnosis": {
+   "b": "Calculaste −b/(2a) con el signo de a incorrecto, obteniendo un valor negativo de h.",
+   "c": "Confundiste el vértice con una raíz de la función.",
+   "d": "Calculaste correctamente h=2 pero evaluaste mal f(2), obteniendo un valor de k negativo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "347b2a15-c3a1-4fa8-9175-8c443058870d",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "En la primera tienda el precio queda en 0,98p (rebaja del 2%). En la segunda, con precio p/2, el nuevo precio es 1,01×(p/2)=0,505p (aumento del 1%). La diferencia entre ambos precios finales es 0,98p−0,505p=0,475p=19p/40, expresión equivalente a la opción e.",
+  "distractor_diagnosis": {
+   "a": "No consideraste ambos porcentajes (2% y 1%) de forma conjunta, dejando el cálculo incompleto.",
+   "b": "Invertiste el efecto del descuento y el aumento al plantear la diferencia.",
+   "c": "Calculaste la diferencia como si ambos cambios de precio fueran aumentos.",
+   "d": "Usaste el precio p en lugar de p/2 para la segunda tienda."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "34dc275b-20d9-471b-9044-e1b469782506",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con Q1=20 y Q3=40, el rango intercuartílico es R=20. El límite superior según el criterio dado es Q3+(3/2)R=40+30=70. Solo 72 y 78 superan ese límite, por lo que hay 2 datos atípicos.",
+  "distractor_diagnosis": {
+   "a": "Solo contaste uno de los dos datos que superan el límite superior calculado.",
+   "c": "Contaste tres datos como atípicos, incluyendo uno (60 o 65) que no supera el límite de 70.",
+   "d": "Consideraste los cuatro datos como atípicos sin aplicar realmente el límite calculado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "34f2577b-422c-48d7-8b2b-1b083cbcc090",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La ecuación dada equivale a y=−2x+7 (pendiente −2, intercepto 7). La opción b, 8=2(x−1)+y, equivale a y=−2x+10: misma pendiente pero distinto intercepto, es decir, rectas paralelas y distintas, por lo que el sistema no tiene solución.",
+  "distractor_diagnosis": {
+   "a": "Esa es la misma ecuación original, por lo que forma un sistema con infinitas soluciones, no sin solución.",
+   "c": "Calculaste mal la pendiente de esta recta, creyéndola paralela cuando en realidad no lo es.",
+   "d": "Esta recta tiene distinta pendiente a la original, por lo que el sistema sí tiene solución única, no queda sin solución."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3696f2f5-47f1-4ec4-adeb-b6837809832b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "38606315-afc9-46b5-bdf5-d7d1a1346f4a",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "38d7d2e4-bc0e-499d-9faa-3d15cf32655a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Aplicando la propiedad log₂(x)+log₂(x−2)=log₂[x(x−2)], la ecuación se transforma en x(x−2)=2³=8. Resolviendo x²−2x−8=0 se obtiene (x−4)(x+2)=0, con soluciones x=4 y x=−2. Como el argumento del logaritmo exige x>2, la única solución válida es x=4.",
+  "distractor_diagnosis": {"a": "Factorizaste con los signos invertidos y obtuviste la raíz extraña x=2 en lugar de 4.", "c": "Confundiste la raíz del discriminante (√36=6) con la solución final de x.", "d": "Olvidaste dividir por 2 en la fórmula cuadrática, obteniendo x=8 en lugar de 4."},
+  "skip_reason": null
+ },
+ {
+  "id": "391d4618-bd48-4532-a1e7-851c06201501",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3968f3a2-c259-45c6-9c49-ff880d323fb2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Desde la casa de Juan hasta la de Pedro, el desplazamiento total hacia el este es 2+1=3 cuadras, y hacia el sur es 5+1=6 cuadras. En el plano cartesiano el este corresponde al eje X positivo y el sur al eje Y negativo, por lo que el vector de traslación es (3, −6).",
+  "distractor_diagnosis": {"a": "Invertiste el signo del eje X, tratando el desplazamiento al este como negativo.", "b": "Invertiste ambos signos: tomaste el este como negativo y el sur como positivo.", "d": "Tomaste el sur como dirección positiva en el eje Y en lugar de negativa."},
+  "skip_reason": null
+ },
+ {
+  "id": "397e5ac4-f545-4c7d-b6d2-15ed45d9142e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como R = Q + v, despejamos Q = R − v = (5−2, 4−3) = (3, 1). Como P se refleja respecto al origen para obtener Q, se cumple Q = −P, por lo que P = −Q = (−3, −1).",
+  "distractor_diagnosis": {"a": "Olvidaste reflejar Q respecto al origen y además invertiste el signo al restar v en el eje Y, dejando (3,7).", "c": null, "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "3a57160b-3083-4365-96e5-7300b66cee50",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área lateral de un cilindro se calcula como 2πrh. Con r=3 cm y h=10 cm: 2π(3)(10) = 60π cm².",
+  "distractor_diagnosis": {"a": "Olvidaste multiplicar por 2 en la fórmula del área lateral, usando πrh en vez de 2πrh.", "c": "Usaste la fórmula de volumen (πr²h) en lugar del área lateral.", "d": "Usaste r² en lugar de r en la fórmula 2πrh."},
+  "skip_reason": null
+ },
+ {
+  "id": "3a6b6bc4-579f-4403-8ea9-dd42653b6d9c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen de la esfera es M=(4/3)πR³. Para el cono con radio basal y altura iguales a R, su volumen es (1/3)πR²·R=(1/3)πR³. Comparando ambas expresiones, (1/3)πR³ equivale a M/4, por lo que el volumen del cono es M/4.",
+  "distractor_diagnosis": {"b": "Multiplicaste M por 4/3 confundiendo el coeficiente propio de la fórmula de la esfera.", "c": "Aplicaste la fórmula de la esfera al cono y obtuviste el mismo volumen M.", "d": "Invertiste la relación: multiplicaste por 4 en lugar de dividir."},
+  "skip_reason": null
+ },
+ {
+  "id": "3a7ee1b4-94c9-4b4f-a89d-abd779a006d9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(f∘g)(2) significa evaluar primero g(2) y luego aplicar f al resultado. g(2)=2+1=3, y f(3)=3²=9.",
+  "distractor_diagnosis": {"a": "Invertiste el orden de composición y calculaste g(f(2))=f(2)+1=5 en lugar de f(g(2)).", "c": "Calculaste f(2)=4 directamente, ignorando la función g.", "d": "Multiplicaste x por g(x) (2×3=6) en lugar de componer las funciones."},
+  "skip_reason": null
+ },
+ {
+  "id": "3abaaa3e-05b5-420a-af3c-43b3f528ef5b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "(2x−3)² se desarrolla como (2x)² − 2(2x)(3) + 3² = 4x² − 12x + 9, aplicando el cuadrado de un binomio.",
+  "distractor_diagnosis": {"a": "Cambiaste el signo del término lineal, sumando en vez de restar el doble producto.", "b": "Olvidaste multiplicar por 2 el término cruzado, usando 6x en lugar de 12x.", "d": "Aplicaste la fórmula de diferencia de cuadrados y omitiste el término lineal central."},
+  "skip_reason": null
+ },
+ {
+  "id": "3b1220d0-3ae0-44e5-ba89-48e7be04e020",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "En el caso I, las razones AC/EC=6/3=2 y BC/DC=10/5=2 son iguales y comparten el ángulo en C, lo que garantiza semejanza por criterio LAL. En el caso III, AB/DB=21/7=3 y BC/BE=15/5=3 también son iguales con ángulo común en B, cumpliendo LAL. En el caso II, que los rayos sean bisectrices no garantiza por sí solo que los triángulos sean semejantes, por lo que solo se verifica en I y III.",
+  "distractor_diagnosis": {"a": "Verificaste solo el caso I y no confirmaste que el caso III también cumple la semejanza.", "b": "Creíste que ser bisectrices garantiza semejanza por sí sola, sin verificar razones de lados.", "c": "Verificaste solo el caso III y dejaste de comprobar el caso I.", "d": "Incluiste el caso de las bisectrices (II) sin comprobar que no cumple la proporcionalidad necesaria."},
+  "skip_reason": null
+ },
+ {
+  "id": "3b5de3ad-661a-451c-a095-815ba9fb070d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La dosis total se obtiene multiplicando la dosis por kilogramo por la masa del paciente: 0,05 g/kg × 83 kg = 4,15 g.",
+  "distractor_diagnosis": {"a": "Usaste una dosis incorrecta (0,02 en lugar de 0,05 g/kg).", "c": "Corriste el punto decimal, multiplicando el resultado por un factor 40 mayor al correcto.", "d": "Leíste la dosis como 5 g/kg en lugar de 0,05 g/kg, corriendo el punto decimal dos lugares."},
+  "skip_reason": null
+ },
+ {
+  "id": "3bdc2e26-7105-4481-9f5d-b3eb2adcdab5",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El precio de compra es $600/3kg=$200/kg y el de venta es $1000/4kg=$250/kg, dando una ganancia de $50 por kilogramo. Para obtener una ganancia total de $3000 se necesitan $3000/$50=60 kilogramos comprados.",
+  "distractor_diagnosis": {"a": null, "b": "Dividiste la ganancia total por el precio de venta por kilo en lugar de por la ganancia por kilo.", "c": null},
+  "skip_reason": null
+ },
+ {
+  "id": "3c1d25d9-6751-45e8-91b8-31518dec5f9e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero se calcula m=0,017/p=0,017/3,4=0,005. Luego t=m·h=0,005×2=0,01 metros.",
+  "distractor_diagnosis": {"a": "Dividiste por 34 en lugar de 3,4, corriendo el punto decimal.", "c": "Usaste p=0,34 en lugar de 3,4, corriendo el punto decimal en la dirección contraria.", "d": "Corriste el punto decimal de p dos lugares, multiplicando el resultado por 100."},
+  "skip_reason": null
+ },
+ {
+  "id": "3c1e09e3-3987-49c8-9d22-725d1efd114b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De 3x−y=0 se obtiene y=3x. Sustituyendo en 2y−3x=4: 2(3x)−3x=4 → 3x=4 → x=4/3, y=4. El punto (4/3, 4) tiene ambas coordenadas positivas, por lo que está en el primer cuadrante.",
+  "distractor_diagnosis": {"b": "Te equivocaste de signo al despejar x, obteniendo un valor negativo.", "c": "Invertiste los signos de ambas coordenadas al resolver el sistema.", "d": "Calculaste y con signo negativo, ubicando el punto en el cuadrante incorrecto."},
+  "skip_reason": null
+ },
+ {
+  "id": "3c4df5b6-a9c3-4f24-af5f-ea446e0bef3e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3c5ad684-5083-4311-9ca1-d10b6600152d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3cc88e65-24ee-48ac-a822-eba9d5c51b89",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(√5+1)(√5−1) corresponde a una diferencia de cuadrados: (√5)²−1²=5−1=4.",
+  "distractor_diagnosis": {"a": "Restaste los factores en lugar de multiplicarlos, obteniendo un valor incorrecto de 2.", "c": "Elevaste (√5+1) al cuadrado en lugar de multiplicar por (√5−1), y omitiste el término irracional.", "d": "Sumaste los dos factores en lugar de multiplicarlos, obteniendo 2√5."},
+  "skip_reason": null
+ },
+ {
+  "id": "3d0cd0d7-cd39-4eea-996f-1840306bf7a9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El volumen original es V=πr²(20). Al aumentar la capacidad en un 20% manteniendo la altura, el nuevo volumen es 1,2×20πr²=24πr², correspondiente a la función g(r)=24πr².",
+  "distractor_diagnosis": {"a": "Restaste el 20% en lugar de sumarlo, disminuyendo el volumen a 16πr².", "c": "Aumentaste el radio en un 20% en lugar del volumen, multiplicando r² por 1,44.", "d": "Elevaste al cuadrado el factor de la altura aumentada en lugar de usarlo linealmente."},
+  "skip_reason": null
+ },
+ {
+  "id": "3d23e05a-9944-4d95-82a8-31a94208a016",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Usando sen(30°)=cateto opuesto/hipotenusa: ½ = x/20, por lo que x = 20×½ = 10 cm.",
+  "distractor_diagnosis": {"a": "Invertiste la razón trigonométrica, dividiendo la hipotenusa por el seno en lugar de multiplicarla.", "c": "Calculaste el cateto adyacente (cos 30°×20) en lugar del opuesto.", "d": "Multiplicaste la hipotenusa por √3 en lugar de usar el seno de 30°."},
+  "skip_reason": null
+ },
+ {
+  "id": "3d357113-1b42-4ed4-ab45-21e0c97ea651",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3da71ac5-62ba-4c69-93e1-581de3383cad",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El volumen de un prisma rectangular es largo×ancho×altura: 5×3×4=60 m³.",
+  "distractor_diagnosis": {"a": "Calculaste la mitad del área superficial total, en lugar del volumen.", "c": "Multiplicaste solo dos de las tres dimensiones, olvidando la tercera.", "d": "Calculaste el área de superficie total (2×(15+20+12)=94) en lugar del volumen."},
+  "skip_reason": null
+ },
+ {
+  "id": "3de64553-db06-43c6-a7ec-9d21d4ffcd22",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La N requiere dos trazos verticales de 4 m y una diagonal que, por Pitágoras con catetos 3 y 4, mide 5 m, dando 4+4+5=13 m. La X requiere dos diagonales de 4 m cada una, es decir 2×4=8 m. Cada logo completo necesita 13+8=21 m de acero, y con 50 m se pueden armar 50÷21≈2,38, es decir 2 logos completos.",
+  "distractor_diagnosis": {"a": "Subestimaste drásticamente el largo de acero por logo, permitiendo armar demasiados logos.", "b": "Omitiste algunos segmentos (como una diagonal) al calcular el largo total por logo.", "d": "Sobreestimaste el largo de acero necesario por logo, permitiendo armar solo 1."},
+  "skip_reason": null
+ },
+ {
+  "id": "3f50c547-ce75-4bad-bd3f-9877075575ce",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Comparando goles a favor y en contra por partido: P1 2−1 (gana), P2 2−2 (empata), P3 3−2 (gana), P4 0−2 (pierde). El equipo ganó 2 partidos y perdió solo 1, por lo que ganó más de los que perdió.",
+  "distractor_diagnosis": {"a": "Contaste solo los goles a favor (7) y olvidaste sumar los goles en contra para el total de goles anotados.", "c": "Olvidaste que en el partido 4 el equipo no anotó ningún gol.", "d": "La mayor diferencia de goles en valor absoluto ocurrió en el partido 4 (0−2), no en el 3."},
+  "skip_reason": null
+ },
+ {
+  "id": "3f5cc1c9-8d39-4ed0-9e4a-55f45b078a51",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Las desviaciones (dato−promedio) son: 0,016; 0,016; −0,014; −0,024; 0,006. Ordenadas de menor a mayor: −0,024; −0,014; 0,006; 0,016; 0,016. El valor central (mediana) es 0,006.",
+  "distractor_diagnosis": {"a": "Calculaste (promedio−dato) en lugar de (dato−promedio), invirtiendo el signo del resultado.", "b": "Calculaste el promedio de las desviaciones en lugar de su mediana.", "c": "Igual que la opción b, pero además invertiste el signo del resultado."},
+  "skip_reason": null
+ },
+ {
+  "id": "3fb3b1b6-377d-4968-8831-985c634bd351",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El descuento en pesos es $320.000−$272.000=$48.000. El porcentaje de descuento es $48.000÷$320.000=0,15=15%.",
+  "distractor_diagnosis": {"a": "Cometiste un error aritmético al dividir la diferencia por el precio original.", "c": "Calculaste el porcentaje usando el precio final ($272.000) como base en lugar del precio original.", "d": "Usaste una base incorrecta para el cálculo, sobreestimando el porcentaje de descuento."},
+  "skip_reason": null
+ },
+ {
+  "id": "400a8c9a-65f2-4146-ba9b-616854beb6ff",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "40cde53f-5157-4583-bafe-6164b37e0bac",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La fórmula de Euler es C+V=A+2. Con V=8 y A=18: C=18+2−8=12.",
+  "distractor_diagnosis": {"b": "Sumaste 4 en lugar de 2 en la fórmula, obteniendo 14 en vez de 12.", "c": "Sumaste V en lugar de restarla, usando C=A+V−2.", "d": "Sumaste tanto A como V sin restar, usando C=A+V+2."},
+  "skip_reason": null
+ },
+ {
+  "id": "41c60122-ebd5-4c5e-bccc-160037dedbc5",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El total de personas es 6 (solo francés) + 10 (solo inglés) + x (solo español) + 3 (los tres idiomas) = 19+x. Las personas que hablan español son las que hablan solo español (x) más las trilingües (3), es decir x+3. Por lo tanto P(habla español)=(x+3)/(19+x).",
+  "distractor_diagnosis": {"a": "Olvidaste incluir a las 3 personas trilingües en el conteo de quienes hablan español.", "b": "Invertiste la estructura de la fracción de forma incorrecta.", "c": "Calculaste bien el numerador pero olvidaste sumar x en el denominador (total)."},
+  "skip_reason": null
+ },
+ {
+  "id": "42a11866-517c-4be9-82f0-fd556c765579",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "42b3cace-21a6-406b-bbbd-38f7f1f0026b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El sueldo semanal es $12.000×45=$540.000. El sueldo mensual, considerando 4 semanas, es $540.000×4=$2.160.000.",
+  "distractor_diagnosis": {"a": "Usaste 40 horas semanales en lugar de 45.", "c": "Usaste 50 horas semanales en lugar de 45.", "d": "Calculaste solo el sueldo semanal y olvidaste multiplicarlo por las 4 semanas."},
+  "skip_reason": null
+ },
+ {
+  "id": "431eeb8b-98a1-4fe8-b8c5-5904693db7c5",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Cada nivel de la tabla equivale a 1024=2¹⁰ veces el anterior. De Zettabyte a Gigabyte hay 4 niveles (ZB→EB→PB→TB→GB), por lo que 1 ZB=1024⁴ GB=(2¹⁰)⁴=2⁴⁰ GB.",
+  "distractor_diagnosis": {"a": "Convertiste solo un nivel (de ZB a EB) y no continuaste hasta llegar a GB.", "b": "Contaste mal el número de niveles de conversión entre ZB y GB.", "d": "Agregaste un nivel de conversión de más, usando 5 saltos en lugar de 4."},
+  "skip_reason": null
+ },
+ {
+  "id": "4352c926-23dd-4d76-84aa-89b034b46941",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "20% del 20% del 20% de P equivale a multiplicar sucesivamente: 0,2×0,2×0,2=0,008, es decir 0,8% de P.",
+  "distractor_diagnosis": {"b": "Multiplicaste 20×20×20 sin convertir los porcentajes a decimales, obteniendo un valor absurdamente alto.", "c": "Sumaste los porcentajes en lugar de multiplicarlos y dividiste mal el resultado.", "d": "Sumaste los tres porcentajes (20%+20%+20%=60%) en lugar de multiplicarlos."},
+  "skip_reason": null
+ },
+ {
+  "id": "4380e888-a928-4f9e-a881-9afa5656bac8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "43aac4cf-f743-41b4-9f06-ffdb75da0804",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "2³=8 y también 4×2=8, por lo que ambas expresiones (a y d) son equivalentes a 8. En cambio 4²=16 y 2⁴=16, que no equivalen a 8.",
+  "distractor_diagnosis": {"a": "Identificaste que 2³=8 pero no verificaste que 4×2 también es igual a 8.", "b": "Calculaste 4²=16, confundiéndolo con un valor igual a 8.", "c": "Calculaste 2⁴=16, confundiéndolo con 2³=8.", "d": "Identificaste que 4×2=8 pero no verificaste que 2³ también es igual a 8."},
+  "skip_reason": null
+ },
+ {
+  "id": "43cbb666-4778-4fbd-a8fe-42d45a5b7d0a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Si a/b=4/7 y a=20, despejamos b=20×7/4=140/4=35.",
+  "distractor_diagnosis": {"a": "Usaste 5 en el denominador de la razón en lugar de 4, obteniendo 28 en vez de 35.", "b": "Cometiste un error aritmético al despejar b de la proporción.", "c": "Cometiste un error aritmético al resolver la proporción cruzada.", "e": "Duplicaste el valor de a en lugar de aplicar correctamente la razón 4:7."},
+  "skip_reason": null
+ },
+ {
+  "id": "43df0539-e226-424a-94fd-b0159f25b24f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea x la cantidad de lápices de Ariel; Carmen tiene x+13. Como entre ambos tienen a lo más 49 lápices: x+(x+13)≤49 → 2x≤36 → x≤18. La máxima cantidad de lápices que puede tener Ariel es 18.",
+  "distractor_diagnosis": {"a": "Trataste la desigualdad como estricta (menor que 49) en lugar de ≤49, obteniendo 17 en vez de 18.", "c": "Cometiste un error al despejar la desigualdad.", "d": "Invertiste la relación (Carmen=Ariel−13 en lugar de Ariel+13), obteniendo 31."},
+  "skip_reason": null
+ },
+ {
+  "id": "44614fb3-63ca-4755-8047-44fc8d648804",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El taller de patinaje tiene el 10% de 1000 estudiantes, es decir 100 estudiantes. De ese taller, el 10% compite: 10% de 100 = 10 estudiantes. Esta es la única afirmación con una justificación numérica correcta y coherente.",
+  "distractor_diagnosis": {"a": "El resultado numérico (90) puede ser correcto pero la justificación sobre el curso de Helena no es válida ni relevante.", "b": "Confundiste el porcentaje que no practica patinaje (90%) con el que no compite, mezclando conceptos distintos.", "d": "Confundiste 'no competir' con 'no practicar patinaje'; son conjuntos distintos."},
+  "skip_reason": null
+ },
+ {
+  "id": "4480c757-edf0-4cae-818d-1b1f03b795de",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por el teorema de Pitágoras, la hipotenusa es √(3²+4²)=√(9+16)=√25=5.",
+  "distractor_diagnosis": {"a": "Sumaste los catetos directamente (3+4=7) en lugar de aplicar Pitágoras.", "c": "Multiplicaste un cateto por 2 en lugar de aplicar el teorema de Pitágoras.", "d": "Multiplicaste los catetos entre sí (3×4=12) en lugar de sumar sus cuadrados y sacar raíz."},
+  "skip_reason": null
+ },
+ {
+  "id": "44d29cd5-ccf1-44db-83fe-8eb1bd43178c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En una función de la forma f(x)=kx, la constante k representa la razón fija entre las dos cantidades, es decir, la constante de proporcionalidad directa. En este caso, k=20 jabones por caja.",
+  "distractor_diagnosis": {"b": "Confundiste proporcionalidad directa con inversa; en f(x)=kx la relación es directa, no inversa.", "c": "Interpretaste la constante como una cantidad total de jabones en lugar de una tasa.", "d": "Confundiste la constante de proporcionalidad con la variable independiente (cantidad de cajas)."},
+  "skip_reason": null
+ },
+ {
+  "id": "45538d36-e8b1-40aa-b3f1-fb56448d51c3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La tasa de inflación es la variación porcentual respecto al valor inicial: ((121−110)/110)×100=(11/110)×100=10%.",
+  "distractor_diagnosis": {"a": "Reportaste la diferencia absoluta (11) directamente como porcentaje, sin dividir por el valor base.", "c": "Dividiste la diferencia por el valor final (121) en lugar del valor inicial (110).", "d": "Cometiste un error de cálculo, probablemente de punto decimal, subestimando la tasa."},
+  "skip_reason": null
+ },
+ {
+  "id": "455781cf-ebeb-4185-9794-516c2a9b150b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(−2)³=(−2)×(−2)×(−2)=4×(−2)=−8. Las potencias impares de un número negativo son negativas.",
+  "distractor_diagnosis": {"a": "Olvidaste que una potencia impar de un número negativo es negativa, perdiendo el signo.", "c": "Multiplicaste la base por el exponente (−2×3) en lugar de elevar a la potencia.", "d": "Multiplicaste la base por el exponente (−2×3=−6) en lugar de calcular la potencia correctamente.", "e": "Calculaste (−2)² en lugar de (−2)³, usando el exponente equivocado."},
+  "skip_reason": null
+ },
+ {
+  "id": "45737c9b-4bfd-4ed4-a99d-0ccace866732",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La pendiente es m=(y₂−y₁)/(x₂−x₁)=(−2−4)/(5−1)=−6/4=−3/2.",
+  "distractor_diagnosis": {"b": "Olvidaste el signo negativo al calcular la diferencia de las coordenadas y.", "c": "Invertiste la fracción, calculando Δx/Δy en lugar de Δy/Δx.", "d": "Invertiste la fracción y además olvidaste el signo negativo."},
+  "skip_reason": null
+ },
+ {
+  "id": "45b3a5aa-007a-410e-87a6-0cd1f45fb945",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "(a+1)²+(a+1)(a−3) tiene a (a+1) como factor común: (a+1)[(a+1)+(a−3)]=(a+1)(2a−2).",
+  "distractor_diagnosis": {"a": "Expandiste incorrectamente la expresión en lugar de factorizar (a+1) como término común.", "b": "Simplificaste 2a−2 dividiendo por 2 de forma incorrecta, obteniendo a−2.", "c": "Factorizaste el polinomio como si fuera una ecuación cuadrática distinta, ignorando el factor común dado."},
+  "skip_reason": null
+ },
+ {
+  "id": "45ba5e70-2f33-468a-8157-5a6ac245934e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El rectángulo gris mide 3×9 cm. Al agregar x cm de margen en cada lado, las dimensiones del rectángulo mayor son (3+2x) y (9+2x). El perímetro es 2[(3+2x)+(9+2x)]=2(12+4x).",
+  "distractor_diagnosis": {"a": "Calculaste solo la mitad del perímetro, olvidando multiplicar por 2 la suma de los lados.", "b": "Multiplicaste los lados en lugar de sumarlos, calculando un área en vez de un perímetro.", "d": "Restaste el margen x en lugar de sumarlo a las dimensiones del rectángulo."},
+  "skip_reason": null
+ },
+ {
+  "id": "461143ca-8ea7-426f-b6ec-d29ce5b68331",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En notación científica, un número se escribe como coeficiente × 10^exponente, con el coeficiente entre 1 y 10. Con solo (1) (x>y) no se puede concluir cuál radio es mayor porque los exponentes podrían ser distintos; con solo (2) (m>n) tampoco, porque el coeficiente podría compensar la diferencia de exponente. Juntas, ambas condiciones sí permiten determinar con certeza cuál radio es mayor.",
+  "distractor_diagnosis": {"a": "No consideraste que sin comparar los exponentes, un coeficiente mayor no garantiza el número mayor.", "b": "No consideraste que sin comparar los coeficientes, un exponente mayor no garantiza el número mayor.", "d": "Asumiste que cualquiera de los dos datos por separado basta, sin notar que se necesitan ambos juntos.", "e": "Subestimaste la información disponible: (1) y (2) juntas sí son suficientes."},
+  "skip_reason": null
+ },
+ {
+  "id": "469f381a-edd8-427e-b3b0-32c512864ee4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Como ambas fechas son antes de Cristo, los años transcurridos se calculan restando: 2570−69=2501 años.",
+  "distractor_diagnosis": {"a": "Sumaste ambas fechas a.C. en lugar de restarlas, y añadiste un año de más.", "b": "Sumaste las dos fechas a.C. (2570+69=2639) en lugar de restarlas.", "d": "Cometiste un error de conteo de 2 años, obteniendo 2499 en lugar de 2501."},
+  "skip_reason": null
+ },
+ {
+  "id": "46b99551-b82c-4121-a20d-3152d914eedc",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los múltiplos de 8 entre 1 y 50 son 8, 16, 24, 32, 40 y 48, es decir 6 números. El porcentaje es (6/50)×100=12%.",
+  "distractor_diagnosis": {"a": "Contaste solo 5 múltiplos de 8 en lugar de los 6 que hay hasta 50.", "c": "Calculaste 1/8=12,5% de forma teórica, sin contar los múltiplos reales hasta 50.", "d": "Contaste múltiplos de un número distinto de 8, obteniendo un porcentaje mayor al correcto."},
+  "skip_reason": null
+ },
+ {
+  "id": "46d93c72-00a9-45de-ba0c-80f81e926661",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sean x y 2x los ángulos complementarios. Como x+2x=90°, entonces 3x=90° y x=30°. El ángulo mayor es 2x=60°.",
+  "distractor_diagnosis": {"a": "Calculaste el ángulo menor (30°) en lugar del mayor.", "b": "Asumiste que ambos ángulos son iguales (45° y 45°), ignorando que uno es el doble del otro.", "d": "Confundiste la suma total de los ángulos complementarios (90°) con la medida del ángulo mayor.", "e": "Usaste la relación de ángulos suplementarios (180°) en lugar de complementarios (90°)."},
+  "skip_reason": null
+ },
+ {
+  "id": "46dd36dc-fe7d-4f99-9953-618c13be3a4e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La moda es el valor que se repite con mayor frecuencia. En el conjunto {28,31,27,29,32,30,31}, el 31 aparece dos veces mientras los demás aparecen una sola vez, por lo que la moda es 31°C.",
+  "distractor_diagnosis": {"a": "Calculaste el promedio (≈29,7°C) y lo confundiste con la moda.", "b": "Calculaste la mediana (30°C) en lugar de la moda.", "d": "Identificaste el valor máximo (32°C) en lugar del valor que más se repite."},
+  "skip_reason": null
+ },
+ {
+  "id": "474ab47f-7233-4b8c-96f3-ca9dc1398458",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

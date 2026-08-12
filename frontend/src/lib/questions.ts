@@ -24,7 +24,8 @@ const VIEW_SELECT = `
   metadata,
   reading_text_id,
   question_number,
-  image_url
+  image_url,
+  distractor_diagnosis
 `;
 
 const TABLE_SELECT = `
@@ -44,7 +45,8 @@ const TABLE_SELECT = `
   metadata,
   reading_text_id,
   question_number,
-  image_url
+  image_url,
+  distractor_diagnosis
 `;
 
 const OPTION_LABELS = ['a', 'b', 'c', 'd', 'e'];
@@ -232,6 +234,7 @@ function mapQuestion(row: any): Question {
     options,
     correctAnswer: pickCorrectAnswer(options, row.correct_answer),
     explanation: row.explanation,
+    distractor_diagnosis: row.distractor_diagnosis ?? null,
     areaTematica: row.area_tematica || undefined,
     area_tematica: row.area_tematica || undefined,
     tema: row.tema || undefined,

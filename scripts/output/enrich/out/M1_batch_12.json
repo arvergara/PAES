@@ -1,0 +1,558 @@
+[
+ {
+  "id": "a1003b8c-14e6-4500-81e1-0149aa3da367",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a11a6202-d632-4b39-b994-a0ba7e160bdf",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El dron baja a velocidad constante de 5 m/s desde 80 m, por lo que su altura sigue la función lineal h(t) = 80 − 5t. Llega al suelo cuando h(t) = 0, es decir t = 80 ÷ 5 = 16 segundos. Como la velocidad es constante, el gráfico debe ser una recta (no una curva) con pendiente negativa, que llega a 0 en t = 16 s.",
+  "distractor_diagnosis": {
+   "a": "Supusiste que el dron se mantiene a 80 m y recién baja de golpe en t=16 s.",
+   "b": "Usaste una curva en vez de recta y calculaste mal el tiempo final (5 s).",
+   "d": "Supusiste que el dron permanece a 80 m hasta t=5 s antes de descender."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a12fcb83-e8c6-4650-9610-0d3598d4af04",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para dividir, se dividen los coeficientes y se restan los exponentes de la misma base: 12÷4 = 3 y x⁴÷x² = x⁴⁻² = x². El resultado es 3x².",
+  "distractor_diagnosis": {
+   "b": "Sumaste los exponentes (4+2=6) en vez de restarlos.",
+   "c": "Restaste los coeficientes (12−4=8) en vez de dividirlos.",
+   "d": "Combinaste ambos errores: restaste coeficientes y sumaste exponentes.",
+   "e": "Multiplicaste los exponentes (4×2=8) en vez de restarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a15420e0-d60f-4cde-b544-d88599837efb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La utilidad sigue una fórmula del tipo U(x) = 1.000.000 − ½(x−12)², cuyo valor máximo (1.000.000) se alcanza cuando el término al cuadrado se anula. Para que U(x) = 1.000.000 se necesita ½(x−12)² = 0, es decir x − 12 = 0, por lo que x = 12 artículos.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 12 entre 2 en vez de igualar el paréntesis a cero.",
+   "c": "Sumaste 1 al valor correcto de x en lugar de dejarlo en 12.",
+   "d": "Sumaste 2 al valor correcto de x en lugar de dejarlo en 12."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a24bb23b-622c-40b4-a6ac-7e2f7254fe97",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La tabla da frecuencias 1→h, 2→200, 3→t, 4→50, con total h+200+t+50. Si cada frecuencia aumenta un 20%, el nuevo total es 1,2·(h+200+t+50) = 1,2h+1,2t+1,2·250 = 1,2h+1,2t+300, que corresponde a la opción A.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste sumar el aumento de las frecuencias fijas (200 y 50), es decir el +300.",
+   "c": "Calculaste solo el aumento de las frecuencias fijas, olvidando 1,2h y 1,2t.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a2953e90-5b4a-4ed0-83bc-70918e741a91",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El radio es la mitad del diámetro: r = 10 ÷ 2 = 5 cm.",
+  "distractor_diagnosis": {
+   "a": "Duplicaste el diámetro en vez de dividirlo por 2.",
+   "c": "Confundiste el radio con el diámetro (los dejaste iguales).",
+   "d": "Sumaste 5 al diámetro en lugar de dividirlo por 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a29e5d68-aee2-4195-bd3c-7cee5ffd4421",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si x es el número, x + 0,30x = 910, es decir 1,30x = 910. Despejando, x = 910 ÷ 1,30 = 700.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el 30% de 910 en vez de resolver la ecuación completa.",
+   "b": "Calculaste el 70% de 910 en vez de despejar x correctamente.",
+   "d": "Multiplicaste 910×1,3 en vez de dividir."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a2f2b0bf-30d6-46a3-bc34-6b082a8c1e60",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El MCM de 3 y 4 es 12. Convirtiendo: 2/3 = 8/12 y 1/4 = 3/12. Sumando: 8/12 + 3/12 = 11/12.",
+  "distractor_diagnosis": {
+   "a": "Sumaste numeradores y denominadores por separado: (2+1)/(3+4).",
+   "c": "Sumaste los numeradores originales (2+1) sobre el denominador común, sin convertirlos.",
+   "d": "Simplificaste o promediaste las fracciones en vez de sumarlas.",
+   "e": "Aproximaste el resultado en vez de calcular la suma exacta con denominador 12."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a3199b23-39af-497a-afed-943d946370f4",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La dispersión se puede medir por el rango (máximo menos mínimo). El conjunto {1,5,5,9} tiene rango 8, el mayor de todos, por lo que es el más disperso.",
+  "distractor_diagnosis": {
+   "a": "Elegiste el conjunto sin dispersión (todos iguales, rango 0).",
+   "b": "Elegiste el conjunto con menor dispersión (rango 2).",
+   "c": "Elegiste un conjunto con dispersión intermedia (rango 4), no la máxima.",
+   "e": "Asumiste que todos tienen igual dispersión sin calcular el rango de cada uno."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a32e599c-ac35-415d-a47b-484ed40550c4",
+  "verified_answer": "ninguna (x+y=11,5)",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "a32ef35e-ee8c-47ab-9935-34c6007346d4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma es par si ambas fichas son pares o ambas son impares. En la caja 1-5 hay 2 pares y 3 impares; en la caja 6-10 hay 3 pares y 2 impares. P(par-par)+P(impar-impar) = (2/5)(3/5) + (3/5)(2/5) = 6/25 + 6/25 = 12/25.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste mal las probabilidades sin considerar ambos casos favorables.",
+   "b": "Usaste una probabilidad aproximada sin contar los pares e impares reales.",
+   "d": "Calculaste solo el caso ambos pares asumiendo 2 pares en la segunda caja (2/5×2/5) y olvidaste sumar el caso ambos impares."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a395baea-5bfa-4764-be87-ef6e914c82c3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Desarrollando: −3x−6 < 2x−4. Pasando términos: −5x < 2. Al dividir por −5 se invierte la desigualdad: x > −2/5.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste invertir la desigualdad al dividir por un número negativo.",
+   "b": "Cometiste un error de signo al despejar, obteniendo 2/5 en vez de −2/5.",
+   "d": "Combinaste ambos errores de signo anteriores."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a39f9771-cd56-49b0-aac0-f9485802eca7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el precio es 100, sube 10% a 110. Luego baja 10% de 110: 110 × 0,90 = 99. El precio final es menor al original en 1%.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que subir y bajar el mismo porcentaje deja el precio igual.",
+   "b": "Cometiste un error de signo: el resultado neto es una disminución, no un aumento.",
+   "d": "Duplicaste el efecto neto y además invertiste el signo.",
+   "e": "Calculaste el doble de la diferencia porcentual con el signo equivocado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a416fd0a-bec2-47b3-a379-9878b550c81d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Aprobaron al menos una asignatura: 18 + 20 − 12 = 26 (usando inclusión-exclusión). Reprobaron ambas: 30 − 26 = 4. La probabilidad es 4/30 = 2/15.",
+  "distractor_diagnosis": {
+   "b": "Calculaste mal el total que aprobó al menos una asignatura, obteniendo 6 en el numerador.",
+   "c": null,
+   "d": "Obtuviste 5 en el numerador por un error al calcular la unión de aprobados.",
+   "e": "Obtuviste 3 en el numerador por un error al calcular la unión o intersección."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a49a4283-f68d-41a4-80b7-693dfb57585e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a4f16832-33d8-4cbb-95c8-f152c8666b0e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Primero se simplifica √48 = √(16·3) = 4√3. El perímetro de un cuadrado es 4 veces el lado: 4 × 4√3 = 16√3 cm.",
+  "distractor_diagnosis": {
+   "b": "No simplificaste √48 antes de multiplicar por 4.",
+   "c": "Simplificaste solo parcialmente, dejando 8√12 en vez de reducir a 16√3.",
+   "d": "Tratatse el lado como 48 cm (ignorando la raíz) en vez de √48 cm."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a552dc71-1d2a-49d3-848d-1f05d67b7128",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El curso 2ºB tiene 180 ÷ 6 = 30 estudiantes. Faltó la décima parte (3 estudiantes), asistiendo 27. Si un tercio de los asistentes votó por Josefina: 27 ÷ 3 = 9 votos. Los que votaron por Fernando son 27 − 9 = 18.",
+  "distractor_diagnosis": {
+   "a": "Usaste el total de 30 estudiantes del curso sin restar a los ausentes.",
+   "c": "Confundiste la cantidad de ausentes con los votos de Fernando.",
+   "d": "Cometiste un error aritmético al calcular la fracción de votantes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a554ea59-4bbf-493e-bab3-1ea9bbfe78d0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De 200 habitaciones, 140 están reservadas, por lo que 60 están disponibles. El porcentaje disponible es 60/200 = 30%.",
+  "distractor_diagnosis": {
+   "b": "Calculaste 60/140 en vez de 60/200.",
+   "c": "Usaste 120 habitaciones reservadas en vez de 140.",
+   "d": "Calculaste el porcentaje de habitaciones reservadas (70%) en vez de las disponibles."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a5b43bec-3b40-46bb-9d14-829e27431716",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Precio original $1500. Primer descuento 20%: 1500 × 0,80 = $1200. Segundo descuento 30% sobre el precio ya rebajado: 1200 × 0,70 = $840.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los porcentajes de descuento entre sí (20%×30%) en vez de aplicarlos secuencialmente.",
+   "c": "Sumaste los descuentos (20%+30%=50%) y los aplicaste de una vez sobre el precio original.",
+   "d": "Aplicaste un segundo descuento del 50% en lugar del 30% sobre el precio ya rebajado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a5b64b69-4cb4-464d-9efb-746b4c7f2765",
+  "verified_answer": "ninguna (x-2p=17/7)",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "a5bb7b63-0b6a-46df-9059-5b833beafe0b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para que √(x−3) esté definida en los reales, el radicando debe ser mayor o igual a cero: x − 3 ≥ 0, por lo tanto x ≥ 3.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste considerar el desplazamiento (−3) dentro de la raíz.",
+   "c": "Usaste desigualdad estricta en vez de incluir el punto donde el radicando es cero.",
+   "d": "Invertiste el sentido de la desigualdad al despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a60b2826-28d3-4131-8e39-8835145b1e26",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El volumen original es 5×5×8 = 200 cm³. Al duplicar todas las aristas, el volumen se multiplica por 2³=8: 200×8 = 1600 cm³ (equivalente a calcular 10×10×16).",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste el volumen original por 2 en lugar de por 8 (2³).",
+   "b": "Multiplicaste el volumen por 4 (2²), como si solo dos aristas se duplicaran.",
+   "d": "Elevaste el volumen original al cuadrado en vez de multiplicarlo por 8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a63567b4-fe2e-434a-9d79-5ab4519926e1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si 0,60·x = 36, entonces x = 36 ÷ 0,60 = 60. El 100% del número es 60.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 36 por un valor mayor a 0,60, obteniendo un resultado menor a 60.",
+   "b": "Cometiste un error de cálculo al dividir 36 por 0,60.",
+   "d": "Cometiste un error de cálculo, obteniendo un valor mayor al correcto.",
+   "e": "Usaste un porcentaje menor a 60% al despejar el número original."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a688398f-2432-4380-8180-74ed5937709a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La temperatura pasa de 12°C a −36°C, una diferencia total de 48°C. Como desciende 3°C cada 5 minutos, se necesitan 48÷3 = 16 períodos de 5 minutos, es decir 16×5 = 80 minutos.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error aritmético al calcular el número de períodos de 5 minutos.",
+   "c": "Consideraste que la temperatura inicial era 0°C en vez de 12°C, usando una diferencia de 36°C.",
+   "d": "Confundiste el número de períodos (16) con minutos y los multiplicaste por 3 en vez de 5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a77a65a2-2097-4216-9156-4f13fcd28752",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "a7f8a84e-5597-46b2-8bb7-2793bd49cc85",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La moda actual es 'verde' con frecuencia 12, mientras el resto tiene frecuencia 7. La diferencia (12−7=5) es mayor que los 4 estudiantes pendientes, por lo que ningún otro color puede alcanzar o superar a verde aunque todos ellos elijan la misma opción.",
+  "distractor_diagnosis": {
+   "a": "Es una condición suficiente pero no explica por qué no cambiaría en cualquier escenario posible.",
+   "c": "No explica por qué la diferencia de frecuencias es relevante frente a los 4 votos pendientes.",
+   "d": "Solo compara cantidades sin relacionar si alcanzan para cambiar la moda."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a87b22ec-3d4b-474c-8962-043750b18e00",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "h(−2) = (−2)² + 1 = 4 + 1 = 5.",
+  "distractor_diagnosis": {
+   "a": "Trataste (−2)² como −4 en lugar de 4, sin eliminar el signo negativo al elevar al cuadrado.",
+   "b": "Usaste x²−1 en lugar de x²+1 y además invertiste el signo del resultado.",
+   "c": "Calculaste x²−1 en vez de x²+1 (resta en lugar de suma).",
+   "e": "Calculaste (−2)² con signo invertido y olvidaste sumar 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a9ee428f-3454-4a1d-b631-1cbf62aa0810",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "aa6f9fd7-0d8e-4d49-9918-7c47cad4a29a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Distancia = velocidad × tiempo = 80 km/h × 2,5 h = 200 km.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por 2 horas en lugar de 2,5.",
+   "c": "Sumaste 80+100 en vez de multiplicar velocidad por tiempo.",
+   "d": "Multiplicaste por 3 horas en lugar de 2,5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ab3b808d-c03b-4b4f-8437-f4ca8f9f9a83",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El perímetro de un rectángulo es 2(base+altura) = 2(8+5) = 2(13) = 26 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo la suma de un largo y un ancho, sin multiplicar por 2.",
+   "c": "Calculaste el área (8×5=40) en lugar del perímetro.",
+   "d": "Sumaste incorrectamente los lados, obteniendo un total mayor al correcto.",
+   "e": "Sumaste solo tres lados (8+5+8), olvidando el cuarto lado de 5 cm."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "abfb011e-7f7c-4085-a0b2-c52d00fe40af",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El hermano de razón 5 (mayor) recibió $15.000.000, por lo que cada parte de la razón vale 15.000.000÷5 = $3.000.000. El hermano de razón 2 (menor) recibió 2×3.000.000 = $6.000.000.",
+  "distractor_diagnosis": {
+   "b": "Confundiste el valor de una parte con el monto del hermano menor, sin multiplicar por 2.",
+   "c": "Dividiste 15.000.000 por 3 en lugar de 5 para hallar el valor de una parte.",
+   "d": "Calculaste el monto del hermano de razón 3 (medio) en vez del de razón 2 (menor).",
+   "e": "Calculaste 2/3 de 15.000.000 en lugar de usar la razón 2:5 correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "acaee48c-28f6-430d-95ee-8b73df909b4c",
+  "verified_answer": "d",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "acd3cad4-142a-44e2-9936-ed290b15792d",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "ad631b1d-bb46-40c8-9193-537622824a79",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "adbbc94b-b154-441a-bcc4-f06a9df26ac9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El movimiento neto es: Este 3−4=−1 (1 cm al oeste) y Norte 2−5=−3 (3 cm al sur). El vector resultante del desplazamiento total es (−1,−3), correspondiente a la opción B.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal las componentes, sumando en vez de restar los desplazamientos opuestos.",
+   "c": "Invertiste el signo de una de las componentes del vector resultante.",
+   "d": "Invertiste el orden o el signo de ambas componentes del vector."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "add553f3-0aff-4380-a897-dc9336150af5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "cos(60°) = 1/2 es un valor notable de la trigonometría.",
+  "distractor_diagnosis": {
+   "a": "Confundiste cos(60°) con sen(60°) o con cos(30°).",
+   "c": "Confundiste cos(60°) con cos(45°).",
+   "d": "Confundiste cos(60°) con cos(90°)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ae64704f-e6c1-422f-b26d-6c6e4b938197",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_incompleto"
+ },
+ {
+  "id": "ae9c1323-dabd-4d32-bc99-d88a3291de0e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Si se colocan x cajas de cada tipo, el peso total es x·M + x·P = x(M+P), que no puede superar los 2100 kg. La inecuación correcta es (M+P)·x ≤ 2100, opción A.",
+  "distractor_diagnosis": {
+   "b": "Sumaste 2100 directamente en vez de plantear la multiplicación x(M+P).",
+   "c": "Usaste desigualdad estricta (<) en vez de ≤, sin incluir el caso límite de 2100 kg.",
+   "d": "Multiplicaste por 2x en lugar de x y usaste '<' en vez de '≤'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "aeaf856c-ea6b-4c4d-a7f2-1ca1ad5574c1",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "aed65dd7-5bac-4893-9c5a-ec1780cc31a7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por semejanza de triángulos, la razón altura/sombra es la misma para ambos objetos: 7/(x+2) = (x−10)/4. Cruzando: 28 = (x−10)(x+2) = x²−8x−20, es decir x²−8x−48=0, que factoriza como (x−12)(x+4)=0. Como x−10 debe ser positivo (x>10), la única solución válida es x=12.",
+  "distractor_diagnosis": {
+   "a": "Tomaste x−10=4 directamente, sin resolver la ecuación de semejanza completa.",
+   "c": "Cometiste un error al expandir (x−10)(x+2), obteniendo una ecuación cuadrática distinta.",
+   "d": "Sumaste los términos de la ecuación en vez de resolver la cuadrática correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "aed98c28-86fe-4fe3-8d5c-5329ddddb146",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Factorizando: x³−2x²−15x = x(x²−2x−15) = x(x−5)(x+3). Si dos aristas ya identificadas son x y (x−5), la tercera arista debe ser (x+3).",
+  "distractor_diagnosis": {
+   "a": "Invertiste el signo del factor, usando (x−3) en lugar de (x+3).",
+   "b": "Confundiste el signo del factor (x−5) con (x+5) al factorizar.",
+   "c": "No factorizaste completamente el trinomio, dejando un término cuadrático."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "af345ae8-d122-42ac-ac8e-4ebc85f94376",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sean n y n+2 los lados pares consecutivos. El área es n(n+2)=48, es decir n²+2n−48=0, cuya solución positiva es n=6. Los lados son 6 m y 8 m, siendo 6 m el lado menor.",
+  "distractor_diagnosis": {
+   "a": "Probaste 4×12=48, pero 4 y 12 no son pares consecutivos.",
+   "c": "Confundiste el lado menor con el mayor.",
+   "d": "Probaste la pareja de factores 4×12=48, que no son pares consecutivos.",
+   "e": "Probaste la pareja de factores 3×16=48, que ni siquiera son ambos pares."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "af88e091-47e3-4066-9aed-1222da9b7341",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Coincidirán en el punto de partida cuando ambos completen un número entero de vueltas simultáneamente, es decir en el MCM de sus tiempos de vuelta. MCM(12,18) = 36 minutos (12=2²·3, 18=2·3², MCM=2²·3²=36).",
+  "distractor_diagnosis": {
+   "a": "Calculaste el MCM incorrectamente, usando solo un factor de cada número.",
+   "b": "Sumaste los períodos (12+18) en vez de calcular el MCM.",
+   "d": "Cometiste un error de cálculo al determinar el mínimo común múltiplo.",
+   "e": "Usaste un múltiplo común de 12 y 18, pero no el mínimo (72 en vez de 36)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "af95ebc6-1917-4d17-8a37-14cfd3b634b0",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Por el teorema de Pitágoras: 10² = 6² + h², es decir h² = 100 − 36 = 64, por lo que h = 8 m.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la altura con la distancia de la base a la pared.",
+   "b": "Cometiste un error al calcular la raíz cuadrada de 64.",
+   "d": "Sobrestimaste la altura por un error de cálculo.",
+   "e": "Calculaste mal la diferencia de cuadrados (100−36) o su raíz."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b04ae79b-460d-47bb-bf18-b9e102dc1cd7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Las dimensiones reales son 5 cm×200 = 1000 cm = 10 m, y 3 cm×200 = 600 cm = 6 m. El área real es 10 m × 6 m = 60 m².",
+  "distractor_diagnosis": {
+   "a": "Calculaste el área en el plano (5×3=15 cm²) sin aplicar la escala.",
+   "b": "Convertiste solo una dimensión a metros reales y dejaste la otra en centímetros del plano.",
+   "d": "Convertiste cm² a m² dividiendo por 1.000 en lugar de 10.000."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b061dab4-f0f5-42d1-ba0d-e9e5761dca09",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "64 se puede escribir como 4³, por lo que 4ˣ = 4³ implica x = 3.",
+  "distractor_diagnosis": {
+   "a": "Confundiste 64 con 16=4².",
+   "c": "Confundiste 64 con 256=4⁴.",
+   "d": "Calculaste 4²=16 en vez de resolver la ecuación exponencial correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b08f2d3b-4ba2-4ca3-a055-9ce69e5b21e1",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "b18e90c2-bce0-4200-9f5a-b5cf95f71525",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_incompleto"
+ },
+ {
+  "id": "b1cfdf75-1f39-4e9c-8189-daf6dc6ebe9e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "f(−2) = 2(−2)² − 3(−2) + 1 = 2(4) + 6 + 1 = 8 + 6 + 1 = 15.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error de signo al sustituir x=−2 en el término −3x.",
+   "b": "Calculaste mal el cuadrado de −2.",
+   "d": "Sumaste un término adicional o calculaste 2×(−2)² de forma incorrecta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b1e44f28-76b6-4971-bb45-45bc4654b4d8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

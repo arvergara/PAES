@@ -1,0 +1,560 @@
+[
+ {
+  "id": "48442683-63ab-422f-b5eb-b55837c9ccbd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El costo total es 800 + 200h ≤ 3.000, entonces 200h ≤ 2.200, de donde h ≤ 11. El máximo de horas completas que puede estacionar es 11.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 2.200 entre un valor mayor a 200, achicando el resultado.",
+   "b": "Restaste una hora de más después de dividir correctamente 2.200 entre 200.",
+   "d": "Dividiste los 3.000 completos entre 200, sin restar antes la tarifa fija de 800."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4855d569-630d-4507-b919-e2b19714e6fb",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para restar fracciones con distinto denominador se amplifica 3/4 a octavos: 3/4 = 6/8. Luego 7/8 − 6/8 = 1/8.",
+  "distractor_diagnosis": {
+   "a": "Restaste numeradores y denominadores por separado: (7−3)/(8−4) = 4/4.",
+   "b": "Amplificaste mal 3/4 a octavos, usando un numerador incorrecto en la resta.",
+   "d": "Restaste los numeradores originales (7−3=4) sin convertir 3/4 a octavos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "48815f45-bc2f-47c4-9f5a-42880a671427",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Aplicando la propiedad distributiva: a(b+c) + a(b−c) = ab+ac+ab−ac. Los términos ac se cancelan y queda 2ab.",
+  "distractor_diagnosis": {
+   "a": "Expandiste como si fuera (a+b+c)² sumando los cuadrados de cada término.",
+   "c": "Desarrollaste la expresión como (a+b)² + c² en vez de aplicar la distributividad.",
+   "d": "Agrupaste (b+c) y lo elevaste al cuadrado en vez de distribuir cada paréntesis."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "48845a1c-9b08-4c4e-94ae-8c4159a59bc8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "\"El doble del cubo de x\" se traduce como 2x³, y \"disminuido en un tercio del mismo número\" significa restar x/3. La expresión completa es 2x³ − x/3, que corresponde a la alternativa D.",
+  "distractor_diagnosis": {
+   "a": "Cubicaste el término 2x completo en vez de cubicar solo x.",
+   "b": "Olvidaste multiplicar el tercio por x, dejando una fracción constante sin la variable.",
+   "c": "Aplicaste el tercio a toda la expresión 2x³ en vez de solo al número x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "48d78d22-d4ba-4757-9f42-cda946339984",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El radio es 20 cm (mitad del diámetro), así que el área total es 3,14×20²=1.256 cm². Al repartir en 8 porciones iguales, cada una mide 1.256÷8=157 cm².",
+  "distractor_diagnosis": {
+   "a": "Usaste el diámetro (40) en vez del radio (20) al calcular el área total.",
+   "c": "Calculaste el área de un cuarto de pizza en vez de un octavo.",
+   "d": "Olvidaste elevar el radio al cuadrado en la fórmula del área.",
+   "e": "Dividiste el área total en 20 porciones en lugar de 8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "48ebdca7-6056-4824-b379-c084d39bc2e1",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4900ba0c-65fb-444e-98b9-e2801a08776e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La posición del percentil 20 es (20/100)×150=30. Acumulando frecuencias: hasta [25,30[ hay 12 personas y hasta [30,35[ hay 36. Como la posición 30 cae entre 12 y 36, el percentil 20 está en el intervalo [30,35[.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el percentil 80 en vez del percentil 20.",
+   "c": "Usaste la frecuencia del primer intervalo sin acumular hasta la posición 30.",
+   "d": "Te adelantaste un intervalo al acumular las frecuencias."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4965eb4c-19a7-4eea-919b-07d6fefe6c7b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "49a1e4f8-7bdb-4846-8793-5228f4a255db",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En el modelo C=2000·1,1^t, la base 1,1 es el factor de crecimiento por hora: 1,1 = 1 + 0,10. Por lo tanto, la población aumenta un 10% cada hora.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el factor 1,1 con un aumento de solo 0,01 (1%).",
+   "b": "Tomaste el número 1,1 directamente como el porcentaje, sin restarle 1.",
+   "d": "Redondeaste o sumaste mal para obtener 11% en vez de 10%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4a0dee5b-2a2c-4602-a8e8-3d246df64c1e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Es un producto de la forma (a+b)(a−b)=a²−b², con a=√5 y b=1. Entonces (√5)²−1²=5−1=4.",
+  "distractor_diagnosis": {
+   "a": "Calculaste √5−1 en vez de aplicar la diferencia de cuadrados completa.",
+   "c": "Sumaste 5 y 1 dentro de una raíz en vez de restarlos como cuadrados.",
+   "d": "Multiplicaste los términos como si fuera 2×√5 en vez de aplicar (a+b)(a−b)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4a320a66-d5fd-4f85-8473-f94b14bba918",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como 888=8×111=2³×111, entonces 888²=(2³×111)²=2⁶×111², que es exactamente la alternativa A.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste elevar al cuadrado el factor 111.",
+   "c": "Usaste el exponente 5 en vez de 6 para el factor 2.",
+   "d": "Te equivocaste en ambos exponentes: usaste 2⁵ y no elevaste 111 al cuadrado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4a80651d-8a92-49ca-9f8f-a6bbf1f8e4bd",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Si x son los duraznos (a $480 c/u), entonces (16−x) son los mangos (a $400 c/u). El gasto total es 480x + 400(16−x) = 6.800, que es la ecuación de la alternativa A.",
+  "distractor_diagnosis": {
+   "b": "Invertiste los precios, asignando 400 a los duraznos y 480 a los mangos.",
+   "c": "Olvidaste multiplicar los precios por la cantidad de cada fruta.",
+   "d": "Planteaste la relación entre gasto y cantidades de forma invertida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4aad3dda-e099-4a25-a65d-1fb4887e227c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4ac0b4a1-4a9e-4027-adea-770faf5330b9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para saber cuántas veces cabe un megabyte en un terabyte se divide 10¹² entre 10⁶, lo que da 10^(12−6)=10⁶.",
+  "distractor_diagnosis": {
+   "a": "Restaste mal los exponentes: 12−6 no da 2.",
+   "b": "Te equivocaste al restar los exponentes por una unidad.",
+   "d": "Olvidaste dividir y dejaste el exponente del terabyte sin restar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4ae7b2e2-0f7e-4789-a5f7-de26841b99fe",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Dos rectas ax+by+c=0 y dx+ey+f=0 son paralelas cuando tienen la misma pendiente: −a/b = −d/e, lo que equivale a la igualdad ae = bd (afirmación II). Las afirmaciones I y III no determinan el paralelismo: I mezcla los coeficientes a, b con f en vez de con d, e; y III se refiere a los términos libres c y f, que no afectan la dirección de la recta.",
+  "distractor_diagnosis": {
+   "a": "Comparaste los coeficientes a, b con f en vez de con d, e.",
+   "c": "Confundiste una condición sobre los términos libres c y f con la condición de pendientes.",
+   "d": "Aceptaste también la condición I, que compara coeficientes que no corresponden.",
+   "e": "Aceptaste las tres condiciones sin verificar que I y III no implican paralelismo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4b00c537-8c47-44f2-b6b6-c3cb8a7203e8",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Se evalúa f(3) = −(3)² + 2(3) + 8 = −9 + 6 + 8 = 5. A los 3 segundos, el objeto está a 5 cm de altura.",
+  "distractor_diagnosis": {
+   "b": "Evaluaste la altura inicial (t=0) en vez de t=3.",
+   "c": "Sumaste los términos sin respetar el signo negativo de −t².",
+   "d": "Calculaste 2t² en vez de −t² al reemplazar t=3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4b2af50e-297f-41f9-a490-78dc8ff8e64c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El precio de venta original es 6.000×1,75=10.500 (precio de compra más 75% de ganancia). Al rebajar ese precio en un 25%: 10.500×0,75=7.875.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el precio de venta original con un porcentaje distinto al 75%.",
+   "c": "Rebajaste el 25% sobre el precio de compra ($6.000) en vez del precio de venta.",
+   "d": "Calculaste mal el precio de venta con ganancia antes de aplicar el descuento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4b7e8274-7775-48a6-8332-51a5cb3ad8dc",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Expandiendo (x+p)(x−q)=x²+(p−q)x−pq e igualando con x²−8x+r, se obtiene p−q=−8 y −pq=r. Como r>0, entonces pq<0 (III verdadera). De p−q=−8 se deduce p<q (II verdadera), lo que implica p≠q (I verdadera). Las tres afirmaciones son correctas.",
+  "distractor_diagnosis": {
+   "a": "Ignoraste que también se cumplen las afirmaciones II y III.",
+   "b": "No verificaste que p−q=−8 también implica p≠q y p<q.",
+   "c": "Descartaste III sin notar que r>0 obliga a que pq sea negativo.",
+   "d": "Descartaste II sin comparar el signo de p−q=−8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4bce30cd-8f66-4b93-a116-a491202d52d4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(-3)² significa (-3)×(-3), y el producto de dos números negativos es positivo: 9.",
+  "distractor_diagnosis": {
+   "a": "Calculaste -(3²) en vez de (-3)², olvidando aplicar el cuadrado al signo.",
+   "c": "Multiplicaste -3×2 en vez de -3×-3.",
+   "d": "No elevaste al cuadrado, solo duplicaste el valor.",
+   "e": "No aplicaste el exponente, dejando el número sin elevar al cuadrado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4c056770-4b77-4af1-8ac0-57fa8b1446eb",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4c0e9213-0ca9-4eac-8242-a280d640ab9f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4c5f4efa-fd9a-49a6-a177-b87b7449df7d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El volumen original es πr²×20=20πr². Al aumentar la capacidad un 20% manteniendo la altura, el nuevo volumen es 20πr²×1,2=24πr².",
+  "distractor_diagnosis": {
+   "a": "Redujiste el volumen en vez de aumentarlo (multiplicaste por 0,8).",
+   "c": "Aplicaste el aumento de 20% dos veces en vez de una sola.",
+   "d": "Multiplicaste por 20² en vez de por el factor 1,2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4c6b85fa-df0c-401a-a8b1-a02d2b1fab98",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4ca3c884-3322-4bbe-8860-4fa5c15e26dc",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Quienes no usan metro son el 60% de 200, es decir 120 personas. Quienes usan auto son el 30% de 200, es decir 60 personas. La probabilidad condicional es 60/120=1/2.",
+  "distractor_diagnosis": {
+   "b": "Dividiste las personas que usan auto entre el total de 200 en vez de entre los que no usan metro.",
+   "c": "Usaste el porcentaje de bus en el cálculo en lugar del de auto.",
+   "d": "Calculaste la proporción de quienes NO usan auto entre los que no usan metro.",
+   "e": "Dividiste directamente el porcentaje de auto (30%) sin condicionar sobre 'no metro'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4cd48f63-4859-494d-9d09-a673db36af33",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4d57295a-3b4a-4d8e-8499-a33f4663eda7",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Los pares con suma mayor que 9 son (4,6),(6,4),(5,5),(5,6),(6,5),(6,6): 6 casos favorables de 36 posibles. La probabilidad es 6/36=1/6.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste contar uno de los seis casos favorables, por ejemplo (5,5).",
+   "c": "Sobreestimaste el conteo de casos favorables.",
+   "d": "Agregaste un caso que no cumple la condición de suma mayor que 9.",
+   "e": "Confundiste el conteo total con la probabilidad de un solo par específico."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4d8268e1-8ec7-4435-8716-4bf0772280de",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "4da849fc-5062-4e48-aa1f-3c9737d1b35e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "\"Totalmente en desacuerdo\" corresponde al 30% de los 50 estudiantes, es decir 15 estudiantes. La cuarta parte de 50 es 12,5, y como 15 es mayor que 12,5, es correcto decir que más de la cuarta parte está en esa categoría.",
+  "distractor_diagnosis": {
+   "b": "Sumaste las categorías 'en desacuerdo' y 'totalmente en desacuerdo' cuando la afirmación se refiere a una sola categoría.",
+   "c": "Calculaste una fracción (tres quintos) que no corresponde a ningún porcentaje del gráfico.",
+   "d": "Asignaste un porcentaje incorrecto a la categoría 'ni de acuerdo ni en desacuerdo'."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4e1cdf59-140f-4375-8f42-703156674e44",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "\"Muy de acuerdo\" corresponde al 30% de los 300 estudiantes. La frecuencia relativa es 30/100=3/10, que es exactamente la fracción indicada en la alternativa A.",
+  "distractor_diagnosis": {
+   "b": "Calculaste una diferencia en estudiantes que no corresponde a los porcentajes reales de esas categorías.",
+   "c": "Consideraste que hay dos categorías con la misma frecuencia máxima sin que eso ocurra en los datos.",
+   "d": "Calculaste mal la cantidad de estudiantes que no contesta a partir de su porcentaje."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4f25f68d-0e82-42e2-9e87-aba58ad763dd",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La cantidad de harina por galleta es 325/20 gramos. Para n galletas se multiplica esa razón por n: (325/20)×n.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste el total de harina por n sin dividir primero por la cantidad de galletas.",
+   "c": "Sumaste en vez de establecer una relación de proporcionalidad.",
+   "d": "Invertiste la razón, usando galletas por gramo en vez de gramos por galleta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4f2d7ebb-0670-4920-b53a-e374a6c5bb34",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La suma de los ángulos interiores de cualquier triángulo es siempre 180°, un resultado geométrico constante.",
+  "distractor_diagnosis": {
+   "a": "Confundiste con la medida de un ángulo recto.",
+   "c": "Sumaste de más, como si el triángulo tuviera un ángulo reflejo.",
+   "d": "Confundiste con la suma de ángulos interiores de un cuadrilátero.",
+   "e": "Confundiste con la suma de ángulos interiores de un pentágono."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4f33e76e-8ee5-42ec-9ea7-2dbd10508f29",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De x−y=2 se obtiene x=y+2. Sustituyendo en 3x+2y=16: 3(y+2)+2y=16 → 5y+6=16 → y=2, y luego x=4.",
+  "distractor_diagnosis": {
+   "b": "No despejaste correctamente x en función de y antes de sustituir.",
+   "c": "Intercambiaste los valores de x e y al final.",
+   "d": "Confundiste los roles de x e y en el sistema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4f442f2d-6d7d-4c9d-94e7-ad16a1e7a8d2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Reemplazando a=2 y b=3: 2×(2)²×3 = 2×4×3 = 24.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por el 2 inicial del coeficiente.",
+   "b": "Cometiste un error al elevar a al cuadrado o al ordenar la multiplicación.",
+   "d": "Elevaste b al cuadrado en vez de a.",
+   "e": "Multiplicaste dos veces por a antes de elevarlo al cuadrado, duplicando el resultado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4f70effd-e435-4b9c-83c4-e7f3304ce297",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Lo recorrido es 2/5+3/8. Con denominador común 40: 16/40+15/40=31/40. Lo que falta es 1−31/40=9/40.",
+  "distractor_diagnosis": {
+   "b": "Calculaste la diferencia entre las fracciones recorridas en vez de sumarlas.",
+   "c": "Convertiste mal una de las fracciones al denominador común 40.",
+   "d": "Sumaste numeradores y denominadores por separado en vez de igualar denominadores."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4fb355a3-0bba-43a1-b6a9-2c734bffe9dc",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Saldo inicial $300.000, menos los pagos ($15.000+$35.000=$50.000), menos las comisiones (2 pagos×$2.000=$4.000). Saldo final: 300.000−50.000−4.000=$246.000.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste restar una de las dos comisiones de $2.000.",
+   "b": "Restaste una comisión o pago adicional que no corresponde.",
+   "c": "Consideraste solo una comisión de $2.000 en vez de las dos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "4fe0b625-1def-4c82-85b2-fda9cb9be0ee",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Dos horas equivalen a 3 períodos de 40 minutos. La cantidad final es 250×(1,2)³=250×1,728=432. El aumento es 432−250=182 bacterias.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el aumento de un período, no de los tres.",
+   "b": "Usaste un crecimiento lineal (20% simple) en vez de compuesto.",
+   "d": "Confundiste el aumento con la cantidad inicial de bacterias."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "500774d1-69d0-48b4-b43e-ac5b2fec65e4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "5042c637-da9f-4ae7-a75a-4ff8386ffbd6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En la primera encuesta omitieron 25 personas (25% de 100) y en la segunda, 35 personas (35% de 100). Sumando ambos grupos, 25+35=60 personas omitieron la última pregunta en total, por lo que Luisa tiene la razón.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los porcentajes (25%+35%=60%) como si ambos fueran sobre la misma base de 200 personas.",
+   "b": null,
+   "d": "Afirmaste que la última pregunta fue la más omitida sin tener datos sobre las demás preguntas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "50d5b079-13d6-4fee-aca0-8c8efa8ab0d4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Distribuyendo: 4x+8−3x=11 → x+8=11 → x=3.",
+  "distractor_diagnosis": {
+   "a": "Restaste 8 de ambos lados con un error de signo.",
+   "b": "Distribuiste mal el 4, obteniendo un coeficiente incorrecto para x.",
+   "d": "Sumaste en vez de restar al despejar x.",
+   "e": "No simplificaste correctamente los términos con x antes de despejar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "514cab0f-e972-4b60-9e45-4db8dea6a5e7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Contando las frecuencias de la lista: 12 años aparece 4 veces, 13 años 10 veces, 14 años 18 veces y 15 años 5 veces. La edad con mayor frecuencia (la moda) es 14 años, por lo que se deben comprar más regalos para ese grupo.",
+  "distractor_diagnosis": {
+   "a": "Contaste muy pocos datos de la lista, subestimando la frecuencia real de 12 años.",
+   "b": "Confundiste la frecuencia de 13 años (10) con la mayor, sin contar bien los 14.",
+   "d": "Contaste solo parte de la lista, sobreestimando la frecuencia de 15 años."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5167ff0e-664d-4719-900a-3a7cdda62330",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La pendiente de L₁ es 2, por lo que la pendiente perpendicular es −1/2. Usando el punto (1,5): y−5=−(1/2)(x−1), lo que da y=−(1/2)x+11/2.",
+  "distractor_diagnosis": {
+   "b": "Usaste la misma pendiente de L₁ en vez de la perpendicular.",
+   "c": "Invertiste el signo de la pendiente sin invertir también su valor recíproco.",
+   "d": "Usaste el valor absoluto de la pendiente perpendicular sin el signo negativo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "51f4c39f-2249-4ac0-b3e9-d52ca52d3307",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al eliminar x, la ecuación x+y=36 debe multiplicarse por −100, dando −100x−100y=−3.600. En el Paso 2 se multiplicó mal el término con y, dejando +100y en vez de −100y, lo que introduce el error.",
+  "distractor_diagnosis": {
+   "a": "El planteamiento inicial de las ecuaciones es correcto; el error no está ahí.",
+   "c": "El error ya viene arrastrado del paso anterior, no se origina en este paso.",
+   "d": "Para este paso el error ya estaba presente desde antes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "521ceeb1-7adb-475c-a391-4b7ef933a23f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Primero se extrae el factor común 3: 3x²−27=3(x²−9). Luego se aplica la diferencia de cuadrados: x²−9=(x−3)(x+3). El resultado es 3(x−3)(x+3).",
+  "distractor_diagnosis": {
+   "b": "Extrajiste mal el factor común, dejando coeficientes que no corresponden.",
+   "c": "Factorizaste el 9 de forma incorrecta al aplicar la diferencia de cuadrados.",
+   "d": "Olvidaste sacar el factor común 3 antes de factorizar la diferencia de cuadrados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "529f62a0-741d-4607-8bb6-b40307125694",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "52be67fc-89c1-4c3d-9689-06f810c27ab8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "52f9cbe7-3457-461e-ad8e-aa8587c39bde",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "530431b3-1364-48a0-a462-c1522e997651",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Según la tabla, la edad equivalente humana de un perro de 8 años es 63 años, tal como se lee directamente en la fila correspondiente.",
+  "distractor_diagnosis": {
+   "a": "Leíste la fila de 5 años en vez de la de 8 años.",
+   "b": "Aplicaste la regla popular de multiplicar por 7 (8×7=56), que no coincide con la tabla.",
+   "d": "Leíste la fila de 12 años en vez de la de 8 años."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "53dd18a7-c939-4ec9-b88d-f03b3b15dea9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se verifica el teorema de Pitágoras: 5²+12²=25+144=169, y 13²=169. Como se cumple la igualdad, el triángulo es rectángulo.",
+  "distractor_diagnosis": {
+   "a": "Un triángulo equilátero tiene los tres lados iguales, y aquí son distintos.",
+   "b": "Un triángulo isósceles requiere dos lados iguales, y aquí los tres son diferentes.",
+   "d": "No verificaste el teorema de Pitágoras, que se cumple exactamente con estos lados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "53e26af1-0456-4b4c-ba1a-e626c7bc0d42",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "El cuadrado original tiene perímetro 20, por lo que su lado mide 5. Con una homotecia de razón 2, el nuevo lado mide 5×2=10, y su área es 10²=100.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el lado del cuadrado con su área.",
+   "b": "Usaste el área original sin aplicar la homotecia.",
+   "c": "Multiplicaste el perímetro por 2 en vez de escalar el área correctamente.",
+   "d": "Multiplicaste el área original por 2 en vez de por 2² (el cuadrado de la razón)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "546e78b8-f609-4464-b394-aec9184702f6",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ }
+]

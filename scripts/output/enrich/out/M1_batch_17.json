@@ -1,0 +1,578 @@
+[
+ {
+  "id": "eb0bfcf7-2990-46b6-a13b-c325b5a769e4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "eb29dc2e-7fe6-4d22-aa1e-077a240fed25",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Por semejanza de triángulos, la razón altura/sombra debe ser la misma para el árbol y el edificio: altura_árbol/sombra_árbol = altura_edificio/sombra_edificio, es decir 4/3 = x/12. Esa igualdad corresponde a la opción A.",
+  "distractor_diagnosis": {
+   "b": "Invertiste la posición de la sombra del edificio y la del árbol en la proporción.",
+   "c": "Usaste 9 en vez de 12 como sombra del edificio.",
+   "d": "Usaste 9 en vez de 12 y además invertiste la proporción."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eb3e969b-2df2-44be-aaa6-3197aea57dc9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si P es el precio de venta, la ganancia es 25% de P, y el costo más la ganancia debe ser P: 40.000 + 0,25P = P. Despejando, 40.000 = 0,75P, por lo que P = 40.000 ÷ 0,75 ≈ $53.333.",
+  "distractor_diagnosis": {
+   "a": "Aplicaste el 25% sobre el costo en vez de sobre el precio de venta.",
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "eb501542-1aae-4b2e-a5be-b26c957c2582",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "eb8d54ce-2e73-418c-bcaf-7e8d2070a994",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La razón hombres:mujeres es 1:3, lo que significa 4 partes iguales en total. Cada parte equivale a 120 ÷ 4 = 30 personas. Las mujeres corresponden a 3 partes, es decir 3 × 30 = 90.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la cantidad de hombres (1 parte) en vez de mujeres (3 partes).",
+   "b": "Dividiste 120 entre 3 directamente, sin considerar que la razón implica 4 partes en total.",
+   "c": "Tomaste la mitad del total (120÷2) en lugar de usar la razón 1:3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ebf0300b-ecc0-44ca-94f8-ac619cef8941",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con x bidones de 3 L e y de 5 L: x + y = 100 y 3x + 5y = 360. Sustituyendo x = 100 − y: 300 − 3y + 5y = 360, de donde y = 30 y x = 70. La diferencia es 70 − 30 = 40.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec0c1b75-bce4-4eac-b6bd-2e68f93dd94e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando las frecuencias (100+70+50+20+10=250 familias), el percentil 50 corresponde a la posición 125, que cae dentro del intervalo donde la frecuencia acumulada pasa de 100 a 170, es decir el intervalo de IPF entre $50.000 y $75.000. Para que IPF = 300.000/n esté en ese intervalo se necesita 50.000 ≤ 300.000/n < 75.000, lo que equivale a 4 < n ≤ 6, con los valores 4 y 6 como cotas del intervalo.",
+  "distractor_diagnosis": {
+   "a": "Usaste un intervalo con cotas 2 y 4, que no corresponde al percentil 50.",
+   "b": "Usaste un intervalo con cotas 0 y 6, ignorando la cota inferior real.",
+   "d": "Usaste un intervalo con cotas 0 y 4, que no corresponde al percentil 50."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec111e50-1679-478c-96af-73a76edef79b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El aumento en puntos porcentuales es simplemente la resta directa de los dos porcentajes: 32,1% − 18,1% = 14,0 puntos porcentuales. No se debe multiplicar ni dividir, solo restar.",
+  "distractor_diagnosis": {
+   "b": "Sumaste los porcentajes de 1992 y 2022 (9,5+18,1) en vez de restar los de 2022 y 2050.",
+   "c": "Sumaste los porcentajes de 1992 y 2050 (9,5+32,1) en vez de restarlos.",
+   "d": "Sumaste los porcentajes de 2022 y 2050 (18,1+32,1) en vez de restarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec345b1e-7222-467b-857b-00c068525c42",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Factorizando x² − 12x + 35 = (x−7)(x−5) = 0, por lo que las soluciones son x = 7 y x = 5.",
+  "distractor_diagnosis": {
+   "a": "Duplicaste los valores de las raíces (multiplicaste por 2).",
+   "b": "Cambiaste el signo de ambas soluciones.",
+   "d": "Duplicaste las raíces y además cambiaste el signo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec4ee6b4-20f0-4a1f-a7ae-25b382374a2f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "No hay pérdidas cuando el ingreso es al menos igual al costo: 350x ≥ 200x + 50.000. Esto da 150x ≥ 50.000, es decir x ≥ 333,3. Como x debe ser un número entero de cajas, se necesitan al menos 334.",
+  "distractor_diagnosis": {
+   "a": "Dividiste el costo fijo (50.000) por el costo variable (200) en vez de por el margen (150).",
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ec9717e0-e074-4b0e-b68b-8bd5ba2ec55c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para maximizar el resultado 2×(200−x) hay que minimizar x, y el menor número de dos dígitos es 10. Entonces el resultado es 2×(200−10) = 2×190 = 380.",
+  "distractor_diagnosis": {
+   "a": "Creíste que el menor número de dos cifras es 90 en vez de 10.",
+   "b": "Olvidaste duplicar el resultado de la resta y usaste el mayor número de dos cifras.",
+   "d": "Usaste un número de un solo dígito (1) en vez del menor de dos cifras (10)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ecdc0dd9-4fef-44b2-93f4-00a61b708861",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "ece1f242-3009-4e4c-a14f-90fe1b576062",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Calculando las hipotenusas: A=√29≈5,39; B=√65≈8,06; C=√37≈6,08; D=√65≈8,06. Los perímetros son A≈12,39; B≈19,06; C≈13,08; D≈17,06. El triángulo A tiene el menor perímetro de los cuatro.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste que el triángulo D tiene la misma hipotenusa que B, por lo que B no es único.",
+   "b": "Confundiste que B y D tienen hipotenusas iguales con que tuvieran perímetros iguales.",
+   "d": "Creíste que las hipotenusas de A y C son iguales sin calcularlas (√29 ≠ √37)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ed1e18c8-47e2-4fab-90a1-2c810ca184b0",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con u = AB = (3,1) y v = BC = (1,−3): |u| = |v| = √10, y además u·v = 3−3 = 0, por lo que los vectores son perpendiculares. Esto confirma que el triángulo es rectángulo (e isósceles) en B; la igualdad de los módulos es la afirmación que se verifica entre las opciones dadas.",
+  "distractor_diagnosis": {
+   "a": "Esa igualdad vectorial (w=u+v) es siempre cierta en cualquier triángulo, no depende de que el ángulo sea recto.",
+   "b": "El perímetro correcto no demuestra por sí solo que el ángulo sea recto.",
+   "d": "El producto punto de u y v da 0, no representa el área real del triángulo (que es 5)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ed270be5-f4c2-487d-ae68-f563f911c4ac",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Un menor tiempo significa llegar antes a la meta. Mario tuvo el mayor tiempo (10,90 min), por lo que fue el último en llegar. Como nadie tuvo un tiempo mayor que el de Mario, ningún corredor llegó después que él.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que un tiempo mayor significa llegar después, invirtiendo el criterio de comparación.",
+   "b": "Creíste que todos los demás llegaron después de Mario, cuando él fue el más lento.",
+   "c": "Elegiste solo dos corredores sin comparar sus tiempos con el de Mario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "edd0baa3-35e3-4e4f-9d95-fc7f99ba2844",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El total original de personas es h + 200 + t + 50 = h + t + 250. Si la frecuencia aumenta un 20%, el total final es 1,2 × (h + t + 250), que equivale a 300 + 1,2(h+t) (la opción A).",
+  "distractor_diagnosis": {
+   "b": "Aumentaste solo h y t, olvidando sumar las 250 personas fijas (200+50).",
+   "c": "Dejaste solo el término constante (300), ignorando los aportes de h y t.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "edfb7462-c096-4e85-90ba-86463eb537f9",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "P(vainilla o frutilla) = (9+6)/50 = 15/50 = 3/10, sumando los casos favorables de ambos sabores sobre el total.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste las probabilidades en vez de sumar los casos favorables.",
+   "c": null,
+   "d": "Simplificaste mal la fracción 15/50 y obtuviste 1/15."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ee0539e3-2bfa-4a94-a1bd-cddbea543d4f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El sistema es x+y=150 y 500x+50y=30.000, donde el coeficiente 500 acompaña a x y el 50 acompaña a y. Por lo tanto, x representa la cantidad de monedas de $500 e y la de $50, tal como indica la opción A.",
+  "distractor_diagnosis": {
+   "b": "Confundiste los coeficientes del sistema (500 y 50) con las cantidades reales de monedas x e y.",
+   "c": "Confundiste la ecuación x+y=150 (cantidad total de monedas) con el valor de una moneda de cada tipo.",
+   "d": "Interpretaste mal los coeficientes del sistema como cantidades de monedas de $500."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ee646c16-856e-4429-b9fb-43d83198f54f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "eed45cf0-c663-4d7f-828d-e195ff2ed867",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "eef9364c-69ab-4c17-91b3-a722a3f1d37d",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "ef14316f-368b-4921-b3ee-c6ee2c3ce675",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Con f(x)=x³: (I) f(−x)=−x³=−f(x)≠f(x), por lo que I es falsa. (II) −f(−x)=−(−x³)=x³=f(x), por lo que II es verdadera (función impar). (III) Como x³ es estrictamente creciente en todo ℝ, se cumple f(x−1) < f(x) para todo real x, por lo que III también es verdadera. Por lo tanto, son verdaderas solo II y III.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ef8f648c-4006-4bf0-b1d0-1b2f66a976f1",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "P(vainilla o frutilla) = (9+6)/50 = 15/50 = 3/10.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste las probabilidades en vez de sumar los casos favorables.",
+   "c": null,
+   "d": "Simplificaste mal la fracción 15/50."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "efa4ce28-342c-4138-ac83-d181c9bcd362",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El pago realizado corresponde al 80% de la deuda total original: 0,8 × 4.500.000 = 3.600.000. Lo que queda por saldar es el 20% restante: 4.500.000 − 3.600.000 = $900.000.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "efe18666-9039-440e-b85a-5d76d73afbdc",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La razón 6:3:2:1 suma 12 partes en total, y cada parte vale 12.000 ÷ 12 = $1.000. El segundo lugar recibe 3 partes: 3 × 1.000 = $3.000.",
+  "distractor_diagnosis": {
+   "a": "Asignaste al 2° lugar la razón que corresponde al 3er lugar (2 partes).",
+   "c": "Dividiste 12.000 entre 3 directamente, sin considerar las 12 partes totales.",
+   "d": "Asignaste al 2° lugar el monto que corresponde al 1er lugar (6 partes)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f0675abe-6073-4d6a-9195-69bb35042203",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "7 − 2x = 3 → −2x = 3 − 7 → −2x = −4 → x = 2.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el signo al despejar y obtuviste −2 en vez de 2.",
+   "b": "Dividiste −4 entre 4 en lugar de entre 2.",
+   "c": null,
+   "e": "Confundiste el término constante (3) con el valor de x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f1080fa6-894c-431e-abc5-24e94a64aba1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "(−2x²)³ = (−2)³ · (x²)³ = −8 · x⁶ = −8x⁶.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste el exponente por el coeficiente (3×−2) en vez de elevar −2 al cubo.",
+   "b": "Olvidaste que un número negativo elevado a un exponente impar sigue siendo negativo.",
+   "d": "Sumaste los exponentes (2+3) en vez de multiplicarlos, y calculaste mal el coeficiente.",
+   "e": "Sumaste los exponentes (2+3=5) en vez de multiplicarlos (2×3=6)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f12ad017-ba24-4218-afa3-743a9c4102aa",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "sen(30°) = 1/2 es un valor notable que debe memorizarse.",
+  "distractor_diagnosis": {
+   "a": "Confundiste sen(30°) con cos(30°) = √3/2.",
+   "c": "Confundiste sen(30°) con sen(45°) = √2/2.",
+   "d": "Confundiste sen(30°) con sen(90°) = 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f153dcd2-8a9e-4210-97e0-787752edbf73",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "\"El doble de la tercera parte de la diferencia entre 8 y 6\" se traduce como 2 × (1/3) × (8−6), que corresponde a la expresión de la opción B.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f17c08d1-5387-4b71-9574-bdfd03052962",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De la tabla: vainilla = 9, frutilla = 6, total = 50. P(vainilla o frutilla) = (9+6)/50 = 15/50 = 3/10.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste las probabilidades en vez de sumar los casos favorables.",
+   "c": null,
+   "d": "Simplificaste mal la fracción 15/50."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f18ade5b-5399-4dbb-9340-bd10d3065c14",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "3x + 7 = 22 → 3x = 22 − 7 = 15 → x = 15/3 = 5.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 15 entre 5 en lugar de entre 3.",
+   "b": null,
+   "d": null,
+   "e": "Confundiste la constante 7 de la ecuación con el valor de x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f2143a58-628f-402f-8c6d-bbea24217741",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El rombo tiene sus diagonales como ejes de simetría, ya que son perpendiculares entre sí y bisecan los ángulos. En los otros cuadriláteros los ejes de simetría (si existen) no coinciden con las diagonales.",
+  "distractor_diagnosis": {
+   "a": "El deltoide solo tiene un eje de simetría, no dos diagonales.",
+   "b": "El romboide no tiene ejes de simetría.",
+   "c": "En el rectángulo los ejes de simetría son las mediatrices de los lados, no las diagonales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f23babc8-b52e-46c1-b642-7203211e113f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Como ambas fechas son a.C., la cantidad de años transcurridos es la diferencia directa: 2570 − 69 = 2501 años.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los años (2570+69) en vez de restarlos, y agregaste un ajuste extra.",
+   "b": "Sumaste los años (2570+69) en vez de restarlos.",
+   "d": "Restaste 2 de más asumiendo un ajuste por año cero que no corresponde aquí."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f2505817-d159-4e65-b50a-31136d0c9a24",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Factorizando, x² − 6x + 8 = (x−2)(x−4). Como el coeficiente principal es positivo, la parábola abre hacia arriba y es negativa entre sus raíces, es decir para 2 < x < 4.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que la función es negativa fuera de las raíces, por el lado izquierdo.",
+   "c": "Pensaste que la función es negativa fuera de las raíces, por el lado derecho.",
+   "d": "Invertiste la región: la función es negativa entre las raíces, no fuera de ellas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f25a7f9b-4184-4af7-9b29-7c07c9dbb2d7",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El MCD de 45 y 60 es 15. Dividiendo numerador y denominador por 15: 45÷15=3 y 60÷15=4, por lo que 45/60 = 3/4.",
+  "distractor_diagnosis": {
+   "b": "Simplificaste dividiendo por 5 en vez del MCD (15), sin llegar a la forma mínima.",
+   "c": "Simplificaste dividiendo por 3 en vez del MCD (15), sin llegar a la forma mínima.",
+   "d": "Cometiste un error aritmético al simplificar la fracción.",
+   "e": "Cometiste un error aritmético al simplificar la fracción."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f2849212-864f-41a4-adb9-2c0bd51f442e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El 15% de 300 es 45. Luego, el 40% de 45 es 18.",
+  "distractor_diagnosis": {
+   "b": "Restaste los porcentajes (40%−15%=25%) en vez de aplicarlos sucesivamente.",
+   "c": "Sumaste el 15% y el 40% de 300 por separado (45+120) en vez de aplicar uno sobre el resultado del otro.",
+   "d": "Calculaste el complemento (60%) de 300 en lugar del 40% de 45."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f2d01c51-c688-440d-8b66-e8e7e7fd9a81",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El área de P es π(3)² = 9π. El área de Q es un cuarto de esa: 9π/4. Igualando π·r² = 9π/4, se obtiene r² = 9/4, por lo que r = 3/2 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste 3/4 en vez de 3/2, invirtiendo la relación de áreas.",
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f3e6a465-4b9f-4ce6-b2c5-1b84314c6959",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si cada día se consume un cuarto, queda 3/4 del agua. Día 1: 800×3/4=600 litros. Día 2: 600×3/4=450 litros.",
+  "distractor_diagnosis": {
+   "a": "Calculaste como si se consumiera la mitad cada día, en vez de un cuarto.",
+   "c": null,
+   "d": "Olvidaste aplicar la reducción del segundo día, dejando el resultado del día 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f407ca9a-1554-45ba-9d61-cf6383c2cdd8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En un cuadrado APBQ de lado 1 cm, PQ es la diagonal, que es la hipotenusa de un triángulo rectángulo de catetos 1 cm y 1 cm: PQ = √(1²+1²) = √2 cm.",
+  "distractor_diagnosis": {
+   "a": "La altura de un triángulo equilátero de lado 1 es √3/2, no √3.",
+   "b": "La diagonal de un cuadrado de lado 1,5 es 1,5√2, no √3.",
+   "c": "La diagonal de un rectángulo de lados 2 y 3 es √13, no 5 (eso correspondería a lados 3 y 4)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f40a7f52-6d80-427d-8c0e-c59e5cf38ab4",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con r = bolsas de Raúl y t = bolsas de Teresa: r+t=300 y 3r+5t=1000. Sustituyendo t=300−r: 3r+5(300−r)=1000 → −2r=−500 → r=250.",
+  "distractor_diagnosis": {
+   "b": null,
+   "c": null,
+   "d": "Intercambiaste los dulces por bolsa: usaste 5 para Raúl y 3 para Teresa."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f45dcbd3-ff35-41e9-90a3-9f837ff886f3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La media sería (8×500.000+5×800.000+3.500.000)/14 ≈ $821.429, un valor que no representa a ningún grupo real de empleados porque el sueldo del gerente es un dato atípico. La mediana no se ve afectada por ese valor extremo, por lo que es más representativa del sueldo típico.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que el sueldo del gerente distorsiona fuertemente la media.",
+   "c": "La moda ignora la variabilidad y no siempre representa bien al grupo con varios niveles de sueldo.",
+   "d": "El promedio ponderado sigue siendo sensible al valor atípico del gerente, igual que la media simple.",
+   "e": "Descartaste la mediana sin razón, cuando sí es apropiada frente a valores atípicos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f54a82f5-b97d-4510-bcc1-bcf515fc955d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con A(0,0), B(2,0), C(x,x), D(0,2): AB=2 y DA=2 son fijos. BC=√((x−2)²+x²) y CD=√(x²+(x−2)²) son iguales entre sí. El perímetro es AB+BC+CD+DA = 4 + 2√(x²+(x−2)²).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste elevar al cuadrado las diferencias de coordenadas al calcular BC y CD.",
+   "c": null,
+   "d": "Olvidaste multiplicar por 2 el término BC=CD, sumándolo solo una vez.",
+   "e": "Invertiste un signo dentro de la raíz, cambiando + por −."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f59e34bc-0dc4-45f7-b684-c1da333c0b19",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Dividiendo cada término por x³: x³/x³ + x⁶/x³ + x⁹/x³ = 1 + x³ + x⁶.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los exponentes en lugar de restarlos al dividir potencias de igual base.",
+   "b": "Igual error que restar mal los exponentes, además de agregar un coeficiente 3 de más.",
+   "c": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f5d6eaea-6104-4454-b561-db5c2beeb0a1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "x⁵ · x⁻² = x⁵⁺⁽⁻²⁾ = x³, sumando los exponentes con su signo.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los exponentes ignorando el signo negativo (5+2 en vez de 5−2).",
+   "c": "Multiplicaste los exponentes en lugar de sumarlos.",
+   "d": "Multiplicaste los exponentes sin considerar el signo negativo.",
+   "e": "Invertiste el resultado, escribiendo el reciproco en vez de x³."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f6152e9b-53bc-44f1-bc77-94ac022bf561",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "f6259590-428c-46f1-b958-323050f49c49",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Del presupuesto de $140.000 se descuenta la matrícula fija de $25.000, quedando $115.000 disponibles para las mensualidades de $13.000. Dividiendo: 115.000 ÷ 13.000 ≈ 8,84, por lo que solo se pueden pagar 8 meses completos.",
+  "distractor_diagnosis": {
+   "a": "Sumaste la matrícula a la mensualidad cada mes y redondeaste hacia abajo (140.000/38.000≈3,7→3).",
+   "b": "Sumaste la matrícula a la mensualidad cada mes y redondeaste hacia arriba (140.000/38.000≈3,7→4).",
+   "d": "Redondeaste hacia arriba en lugar de hacia abajo (8,84→9)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f63de591-abbc-4906-92ce-3fddcc8e5ae0",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sumando los 12 valores: 4+1+1+0+3+2+2+3+0+1+1+6 = 24. El promedio es 24/12 = 2.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el promedio con la moda (el valor más frecuente es 1).",
+   "c": "Dividiste 24 entre 10 en vez de entre las 12 familias.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f65bf69c-4a6f-4075-89f7-f1c4e834db6b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "f6692321-404d-41f8-8d74-902342ca0857",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Según la tabla, en zonas rurales con una pista de circulación por sentido el límite es 100 km/h, por lo que sí está permitido conducir a esa velocidad. Las otras opciones contienen valores que no calzan con los límites de la tabla.",
+  "distractor_diagnosis": {
+   "a": "Sumaste mal el exceso de velocidad (30+10=40, no 20 km/h).",
+   "b": "110 km/h supera el límite de 100 km/h para zonas rurales de una pista.",
+   "c": "Calculaste mal la velocidad inicial: 50−20=30, no 70 km/h."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "f73bd5bb-ddbd-4ee3-be99-0f1fcb2206c6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "P(ganar) = números comprados / 250 = 1/50. Despejando, números comprados = 250/50 = 5.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la probabilidad (1/50) con la cantidad de números comprados.",
+   "c": "Usaste el denominador de la probabilidad (50) como respuesta, sin dividir 250/50.",
+   "d": null
+  },
+  "skip_reason": null
+ }
+]

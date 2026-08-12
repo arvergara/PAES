@@ -1,0 +1,545 @@
+[
+ {
+  "id": "2d5735d6-ee9a-472a-bafa-19c2e0ed0fd6",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2d5742c3-d9bf-4692-ad02-97a4611fea69",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2d5a2c52-4f65-415b-91de-43800cda0eba",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para contar los autos distintos se aplica el principio multiplicativo: cada elección (marca, modelo, color) es independiente entre sí, así que se multiplican las opciones de cada categoría. Con 3 marcas, 2 modelos y 5 colores: 3 × 2 × 5 = 30 automóviles distintos.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste solo marcas por modelos, olvidando los colores.",
+   "b": "Multiplicaste solo modelos por colores, olvidando las marcas.",
+   "c": "Multiplicaste solo marcas por colores, olvidando los modelos.",
+   "e": "Multiplicaste un factor de más, por ejemplo duplicando algo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2d643f70-bf58-48b3-876d-8a9a4976abc3",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2e1bac8f-a602-4f65-a3f4-447aa04e6e3b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La tabla indica 5 niños de 2 años, 6 de 3 años, 9 de 4 años y 3 de 5 años, con un total de 23 niños. La mediana corresponde a la posición 12 en la lista ordenada. Sumando las frecuencias acumuladas, hasta los 3 años hay 11 niños, así que el dato 12 cae en la categoría de 4 años. Por lo tanto, la mediana es 4 años.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el promedio de las edades en vez de la mediana.",
+   "c": "Usaste mal las frecuencias acumuladas para ubicar el dato central.",
+   "d": "Confundiste la edad máxima con la mediana."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2e42b86c-da59-42d6-b13e-14a152ee50ba",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2e461155-ea13-4957-99f2-cc7beaf1bfbe",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área de un triángulo se calcula como (base × altura) / 2. Con base 10 cm y altura 6 cm: A = (10 × 6)/2 = 60/2 = 30 cm².",
+  "distractor_diagnosis": {
+   "a": "Olvidaste dividir por 2 el producto de base por altura.",
+   "c": "Sumaste base y altura en lugar de multiplicarlas y dividir.",
+   "d": "Usaste una fórmula de perímetro en lugar de área."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2e6f1716-6833-4daa-af2b-eb4a8d841755",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2ea28091-6083-4faf-8490-3a962e204f12",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2eae9897-ce7d-4fbf-9704-e240dcfccb70",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2ed241e1-bd9e-40ff-a27f-0d44ae803140",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2f0437b3-b808-44b6-ac0f-1a376f291d37",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Por el Teorema de Pitágoras, la hipotenusa cumple c² = cateto1² + cateto2². Con catetos 6 cm y 8 cm: c² = 36 + 64 = 100, por lo que c = √100 = 10 cm.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los catetos directamente en lugar de aplicar Pitágoras.",
+   "c": "Restaste los cuadrados de los catetos en vez de sumarlos.",
+   "d": "Hiciste una estimación sin calcular la raíz correctamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2f30d172-4be1-4103-bcd5-f10ca9dc31dc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Distribuyendo ambos lados de la ecuación: 3x − 6 = 2x + 2. Agrupando los términos con x en un lado y los números en el otro: 3x − 2x = 2 + 6, por lo que x = 8.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar correctamente el 6 al pasar el término.",
+   "b": "Cometiste un error aritmético al despejar.",
+   "d": "Sumaste mal los términos constantes.",
+   "e": "Multiplicaste incorrectamente uno de los paréntesis."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2fc5beb6-e359-43d7-a086-1bc5d070c07f",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para sumar fracciones se necesita un denominador común. Como 2/5 equivale a 4/10, la suma queda 4/10 + 3/10 = 7/10.",
+  "distractor_diagnosis": {
+   "a": "Sumaste numeradores y denominadores directamente, sin homogeneizar.",
+   "b": "Simplificaste incorrectamente la fracción 5/15.",
+   "d": "Sumaste mal los numeradores tras convertir a décimos.",
+   "e": "Simplificaste erróneamente el resultado como 1/2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2fd346cd-f3a2-475c-8690-de521b13d564",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La tabla indica que 1 hora extra fue reportada por 5 personas, 2 horas por 3 personas y 3 horas por 2 personas. El gráfico correcto debe mostrar en el eje X las horas (1, 2, 3) y en el eje Y las frecuencias correspondientes (5, 3, 2), en ese orden decreciente.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el orden mostrando frecuencias crecientes en vez de decrecientes.",
+   "b": "Intercambiaste los ejes X e Y al leer la tabla.",
+   "c": "Mostraste frecuencias acumuladas en vez de las individuales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "301793d8-a754-42b9-9179-199ba8611e9e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El instante de altura máxima corresponde al vértice de la parábola, dado por t = −40/(2×(−5)) = 4 s. Evaluando la altura en ese instante: h(4) = −5(16) + 40(4) + 3 = −80 + 160 + 3 = 83 m.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el instante en que ocurre el vértice.",
+   "c": "Cometiste un error al evaluar h(4).",
+   "d": "Usaste mal la fórmula del vértice de la parábola."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "30227736-63ee-4f08-bc7d-7751d6e53d36",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "306bcf1a-2918-4797-846b-f042b37ac308",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El cobro es una función lineal f(x)=mx+n. Con f(50)=70.000 y f(100)=120.000, la pendiente es m=(120.000−70.000)/(100−50)=1.000. Luego n=70.000−1.000×50=20.000. Para 200 km: f(200)=1.000×200+20.000=220.000.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar el cargo fijo n al resultado.",
+   "c": "Asumiste que el cobro es proporcional, duplicando 120.000.",
+   "d": "Calculaste mal la pendiente de la función."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "306dd841-899c-4d56-829e-247c203a290b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área de un rombo es (diagonal1 × diagonal2)/2. Con diagonales de 6 cm y 8 cm: A = (6×8)/2 = 48/2 = 24 cm².",
+  "distractor_diagnosis": {
+   "a": "Sumaste las diagonales en vez de multiplicarlas.",
+   "c": "Olvidaste dividir por 2 el producto de las diagonales.",
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "30752a30-664e-4725-8ad1-67606ffe0231",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "30833ddb-c449-4d13-9420-e36321fb2107",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Aumentar un valor en su 120% significa sumarle el 120% del original: 500 + 1,20×500 = 1.100, lo que equivale a multiplicar directamente el valor original por 2,20. La expresión 500×2,20 representa correctamente ese cálculo.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste por 120 en vez de 1,20, un error de escala.",
+   "b": "Usaste 20% en lugar de 120% del valor.",
+   "c": "Calculaste solo el aumento, no el precio final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "30eb12d4-4a48-492b-ad5c-35c7ec3fbb0e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La altura en la retina se calcula con t = h×m/p. Con h=2, m=0,017 y p=4,3: t = (2×0,017)/4,3 = 0,034/4,3 ≈ 0,0079, que se aproxima a 0,01 metros.",
+  "distractor_diagnosis": {
+   "a": "Te equivocaste en un orden de magnitud al dividir.",
+   "c": "Olvidaste multiplicar por la constante m=0,017.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "30f8f684-ad94-4b21-916a-e94166a88367",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con razón de semejanza 1:5 entre los triángulos, la razón de perímetros es igual a la razón de semejanza (1/5), por lo que la afirmación I es verdadera. La razón de áreas es el cuadrado de la razón de semejanza, es decir (1/5)²=1/25, por lo que II también es verdadera. Los ángulos correspondientes en triángulos semejantes son iguales entre sí y no cambian con la escala, así que la razón de ángulos es 1:1 y no 1:5, haciendo falsa la afirmación III.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste que la razón de áreas también es correcta.",
+   "b": "Olvidaste que la razón de perímetros también es válida.",
+   "d": "Creíste que los ángulos cambian con la escala de semejanza.",
+   "e": "Incluiste la afirmación III, que es falsa."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "313babaa-3ca5-4838-b7ea-dec32846f7fa",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En una escala 1:8, la medida real es 8 veces la medida en el plano. Si el mástil mide 95 mm en el plano, en la realidad mide 95×8 = 760 mm = 76 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal la proporción, sin aplicar bien la escala.",
+   "b": "Confundiste la escala, no multiplicando por 8 correctamente.",
+   "d": "Dividiste por la escala en vez de multiplicar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "315221c2-060d-4217-afd3-d1b0f714a0e6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área del espejo cuadrado es 8×8=64 cm². Cada uno de los 4 triángulos isósceles rectángulos de cateto x tiene área x²/2, así que en total ocupan 4×(x²/2)=2x². Para dejar 56 cm² libres: 64−2x²=56, de donde 2x²=8, x²=4 y x=2 cm.",
+  "distractor_diagnosis": {
+   "a": "Resolviste x²=2 en vez de x²=4.",
+   "c": "Usaste el área x² para cada triángulo en vez de x²/2.",
+   "d": "No dividiste correctamente el área total de los triángulos entre 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3191b383-ae61-493f-8da9-85084349316f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Despejando: 3x − 7 = 14 → 3x = 21 → x = 21/3 = 7.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste dividir por 3 después de despejar.",
+   "c": "Dividiste 21 entre 7 en lugar de entre 3.",
+   "d": "Te equivocaste con el signo al despejar el término constante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "32047154-1080-4909-8772-6e36de882ff8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "321e9467-e0cb-4bc6-9bfc-cf46bce35555",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con perímetro 24 cm, el cuadrado tiene lado 24÷4=6 cm y área 36 cm². El rectángulo de base 8 cm tiene altura h tal que 2(8+h)=24, es decir h=4 cm, con área 32 cm². Como 36 es mayor que 32, el cuadrado tiene mayor área.",
+  "distractor_diagnosis": {
+   "b": "Calculaste mal alguna de las dos áreas.",
+   "c": "Comparaste incorrectamente 36 y 32 cm².",
+   "d": "Los datos entregados sí son suficientes para determinar la respuesta.",
+   "e": "El resultado no depende de un dato adicional, ya está determinado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "326540a8-e009-49c3-921b-1b8ca379839e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Factorizando x² − 5x + 6 = (x−2)(x−3) = 0, las soluciones son x=2 y x=3.",
+  "distractor_diagnosis": {
+   "b": "Cambiaste el signo de ambas soluciones.",
+   "c": "Factorizaste mal, usando 1 y 6 en lugar de 2 y 3.",
+   "d": "Combinaste el cambio de signo con la factorización incorrecta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "32729367-7de1-4146-b834-3b0b288559cd",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Mi auto ofrece 5×3×3=45 posibilidades y Viaje feliz ofrece 4×3×4=48 posibilidades. La diferencia es 48−45=3, por lo que la automotora Viaje feliz ofrece 3 posibilidades más.",
+  "distractor_diagnosis": {
+   "b": "Calculaste mal uno de los dos productos y los igualaste.",
+   "c": "Invertiste cuál automotora ofrece más opciones.",
+   "d": "Sumaste marcas, modelos y colores en vez de multiplicarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "328f5b64-0f68-46e2-b95a-3398eabb0c23",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si llamamos u=a+b, la expresión es (u+c)(u−c)=u²−c². Sustituyendo u=a+b: (a+b)²−c² = a²+2ab+b²−c².",
+  "distractor_diagnosis": {
+   "a": "Olvidaste el término cruzado 2ab al expandir el binomio.",
+   "c": "Agregaste un término a²b² que no corresponde a la expansión.",
+   "d": "Dejaste (b−c)² sin desarrollar en vez de combinarlo con a²."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "329797d2-e808-48df-acd3-7d3b7d83a733",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Cada cable de anclaje forma un triángulo rectángulo con la altura de la antena (20 m) y la distancia horizontal a la base. Cable 1: √(20²+5²)=√425. Cable 2: √(20²+12²)=√544. El total de cable necesario es la suma de ambos: √425 + √544 metros.",
+  "distractor_diagnosis": {
+   "a": "Usaste las distancias de anclaje como si fueran catetos completos.",
+   "b": "Combinaste ambas raíces en una sola de forma incorrecta.",
+   "d": "Sumaste las medidas directamente sin aplicar el Teorema de Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "32c07fe9-72f5-4876-b28b-925a7eb44af4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El rectángulo mayor tiene lados (9+2x) y (3+2x), ya que el otro rectángulo queda a x cm de cada borde. El perímetro es 2×[(9+2x)+(3+2x)] = 2(12+4x).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 2 la suma de los lados.",
+   "b": "Calculaste el área en vez del perímetro.",
+   "d": "Restaste el área original sin sentido para un cálculo de perímetro."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "331b44f8-5f33-4cfb-b784-ee746492d07d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3337e1ac-c5f4-4930-b25f-d075d4e42182",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sea (x,y,z) el color buscado. Usando la fórmula de mezcla: (160+x)/2=170 → x=180; (60+y)/2=80 → y=100; (120+z)/2=60 → z=0. El color buscado es (180,100,0).",
+  "distractor_diagnosis": {
+   "a": "Despejaste mal la ecuación de mezcla, invirtiendo la operación.",
+   "b": "Calculaste mal el tercer componente, que debía ser 0.",
+   "d": "Promediaste directamente en vez de despejar el componente desconocido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "33533b35-64f2-4848-8e69-ba8b5223e131",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El precio sube un 20%: nuevo precio = 1.800 × 1,20 = 2.160 $/kg. Para x kilogramos, el monto total a pagar es 2.160x pesos.",
+  "distractor_diagnosis": {
+   "a": "Sumaste 20 al precio en vez de calcular el 20% correctamente.",
+   "b": "Mezclaste el incremento decimal con una suma directa incorrecta.",
+   "c": "Calculaste mal el nuevo precio unitario (1.820 en vez de 2.160)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "33a0174f-3fc6-4130-a5b2-dc501934d14c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El porcentaje obtenido es (45/60)×100 = 0,75×100 = 75%.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null,
+   "e": "Cometiste un error al calcular la división 45/60."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "33f08662-a1ad-43db-95e7-0dbabc801f53",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sea R la masa de un regalo. La balanza izquierda (2 regalos + 0,5 kg de miel) marca menos que la derecha (3 regalos): 2R + 0,5 < 3R. Despejando: 0,5 < R, es decir R > 500 gramos. Por lo tanto, cada regalo tiene una masa mayor que 500 gramos.",
+  "distractor_diagnosis": {
+   "a": "Subestimaste la masa mínima que debe tener cada regalo.",
+   "b": "Tomaste la igualdad en vez de la desigualdad estricta.",
+   "d": "Invertiste la dirección de la desigualdad al despejar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "34361d2a-a323-47a7-b0ce-91c0ecaaa5bc",
+  "verified_answer": "d",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "343eba62-a12c-4a35-bd55-c22fa0d8617b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Ambos cursos tienen el mismo promedio (5,8), pero la desviación estándar del curso A (0,3) es mucho menor que la de B (1,2). Una desviación estándar más baja indica que las notas están más concentradas alrededor del promedio, por lo que el curso A tuvo un rendimiento más homogéneo.",
+  "distractor_diagnosis": {
+   "a": "Ignoraste que igual promedio no implica igual dispersión de notas.",
+   "c": "Invertiste la relación: menor desviación significa más homogeneidad.",
+   "d": "La desviación estándar no indica cuántos alumnos obtuvieron nota 7.",
+   "e": "Los datos entregados sí permiten comparar la dispersión de las notas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3521d9a7-1c5d-48e0-b306-d2df6bc8f17b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "353cbca3-3c16-46ee-afad-b168d11bf8fc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "35a058cc-54e9-4ed5-95eb-c348b8392c98",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La función g(x)=−(x−2,3)²+5 es una parábola que abre hacia abajo, con vértice en x=2,3. La ganancia decrece a medida que x se aleja del vértice en cualquier dirección. Entre las cantidades ofrecidas (3, 5, 8 y 9), x=3 es la más cercana al vértice, por lo que produce la mayor ganancia posible de las opciones disponibles.",
+  "distractor_diagnosis": {
+   "b": "Te alejaste más del vértice de la parábola que la opción correcta.",
+   "c": "Está mucho más lejos del vértice, dando una ganancia menor.",
+   "d": "Está aún más lejos del vértice que las demás opciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "35d06fdd-1dda-4323-9b1c-709fd122cc5e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El volumen de un cilindro es V=πr²h. Con V=600, π≈3 y r=4: 600 = 3×16×h = 48h, por lo que h=600/48=12,5 cm.",
+  "distractor_diagnosis": {
+   "a": "Dividiste mal el volumen entre el área de la base.",
+   "c": "Usaste el radio en vez del radio al cuadrado en el cálculo.",
+   "d": "Multiplicaste en vez de dividir para despejar la altura."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3629b80b-47f1-4079-94be-4ebd8ded830e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el 40% de un número x es 32, entonces 0,40×x=32, por lo que x=32/0,40=80.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null,
+   "e": "Cometiste un error al dividir 32 entre 0,40."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "36b23618-bcc8-4b89-8eec-1024d29f16fb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea y la masa del hermano de menor masa; el mayor tiene masa y+30. La cama resiste si la suma de ambas masas no supera 100 kg: y+(y+30)≤100, es decir 2y≤70, por lo que y≤35. La masa máxima que puede tener el hermano de menor masa es 35 kg.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que ambos hermanos suben juntos a la cama.",
+   "c": "Cometiste un error aritmético al despejar la desigualdad.",
+   "d": "Obtuviste un valor menor al máximo real permitido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "3766492f-9254-469b-9127-c383819cd773",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "3792a6ce-a6d7-4f47-b6f4-ff8efa989ecd",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "37fd09c8-31ed-471e-b09d-281b60ccfc7a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La circunferencia de un círculo es π×diámetro. Con diámetro 10 cm y π≈3,14: circunferencia = 3,14×10 = 31,4 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste con el radio en vez del diámetro, la mitad de lo correcto.",
+   "c": "Duplicaste el resultado correcto sin motivo.",
+   "d": "Calculaste el área del círculo en vez de su circunferencia.",
+   "e": "Multiplicaste por 100 en vez de usar el diámetro correcto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "384addc3-6b0e-4d84-aec1-23888f7e2750",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "De T=Px+C, despejando x para el rango 15.000≤T≤70.000: primero se resta C en toda la desigualdad, quedando 15.000−C ≤ Px ≤ 70.000−C, y luego se divide por P, obteniendo (15.000−C)/P ≤ x ≤ (70.000−C)/P.",
+  "distractor_diagnosis": {
+   "a": "Invertiste el orden de los términos dentro de las restas.",
+   "b": "Olvidaste dividir por P después de restar C.",
+   "d": "Sumaste C en lugar de restarlo al despejar.",
+   "e": "Sumaste C en vez de restarlo, además de invertir el orden."
+  },
+  "skip_reason": null
+ }
+]

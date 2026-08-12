@@ -1,0 +1,561 @@
+[
+ {
+  "id": "1e004d98-97ba-4bad-b58f-11e8f432a91c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Q3 = 46s marca el límite del 25% superior de los datos. Ese grupo (que ya está sobre la mediana) sube 15s tras el entrenamiento, así que su nuevo mínimo es 46+15 = 61s, superando los 60s. Como ese 25% corresponde a 25 personas, se garantiza que AL MENOS 25 personas durarán más de 60s (podrían ser más si otras personas entre la mediana y Q3 también cruzan el umbral).",
+  "distractor_diagnosis": {
+   "a": "Subestimaste cuántas personas superan el 25% superior real.",
+   "b": "Subestimaste el mínimo garantizado; olvidaste el cuarto superior completo.",
+   "d": "Sobrestimaste asumiendo que la mitad completa supera los 60s."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1e19e935-b0a7-4260-bd50-af368cfa114e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1f01a584-3005-45b9-9089-978aedad7af9",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Multiplicar por 1,25 equivale a aumentar un 25% (1 + 0,25). Multiplicar por 0,75 equivale a disminuir un 25%, porque queda el 75% del valor, no se resta un 75%. Como cada operación se aplica dos veces, la secuencia corresponde a dos aumentos del 25% seguidos de dos disminuciones del 25%.",
+  "distractor_diagnosis": {
+   "b": "Creíste que los factores se cancelan exactamente entre sí.",
+   "c": "Confundiste el factor multiplicador con el porcentaje de cambio.",
+   "d": "Pensaste que multiplicar por 0,75 significa disminuir un 75%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1f961a27-5bd1-4695-a74a-dc8f8ca44382",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1fc8858e-086b-4630-9c87-ca910d09414e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las dos rotaciones de 90° en sentido horario aplicadas equivalen, en conjunto, a una sola rotación de 180°. Para devolver la figura a su posición inicial hay que deshacer esa rotación total (180°, en cualquier sentido, da el mismo resultado) y también invertir la traslación aplicando el vector opuesto: 2 metros al norte y 6 metros al oeste. Por eso la secuencia correcta es rotar 180° y trasladar 2N-6O.",
+  "distractor_diagnosis": {
+   "b": "Invertiste la rotación pero repetiste el mismo vector de traslación.",
+   "c": "Usaste solo 90° en vez de acumular las dos rotaciones en 180°.",
+   "d": "Deshiciste solo una rotación de 90°, ignorando la segunda aplicada."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1fcf82d7-2fef-48a5-9494-17e6ab6d5e90",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área de la corona circular es la diferencia entre el círculo mayor y el menor: π×8² − π×5² = π(64−25) = 39π cm².",
+  "distractor_diagnosis": {
+   "b": "Restaste los radios en vez de restar los cuadrados de los radios.",
+   "c": "Calculaste solo el área del círculo mayor, sin restar el menor.",
+   "d": "Calculaste solo el área del círculo menor, sin restar del mayor.",
+   "e": "Sumaste las áreas de ambos círculos en vez de restarlas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1fee44bc-0fe1-4e3f-9ac0-651ca3b4f388",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "P(no deporte) = 0,6 implica P(deporte) = 0,4 = 48/T, de donde T = 48/0,4 = 120. Como leer + ver películas equivale a 30+n = 0,6×120 = 72, se obtiene n = 72−30 = 42.",
+  "distractor_diagnosis": {
+   "a": "Usaste el total equivocado o restaste mal para obtener n.",
+   "c": "Calculaste el total de personas de forma incorrecta.",
+   "d": "Confundiste el total T con la respuesta final sin restar 30."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "201d83cb-41b6-4ba4-ad19-af9617a7030b",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "2037dc92-3c9b-4f98-b98d-f4a063fcea58",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El área total del parabrisas es 13×8 = 104 cm². Cada plumilla barre un cuarto de círculo (90°) de radio 6 cm, cuya área es (1/4)π(6²) = 9π cm². Con dos plumillas, el área cubierta es 18π cm², y el área no cubierta es (104 − 18π) cm².",
+  "distractor_diagnosis": {
+   "a": "Calculaste el área cubierta con un radio equivocado.",
+   "b": "Contaste solo media plumilla o mal el sector circular.",
+   "c": "Olvidaste multiplicar por las dos plumillas al calcular el área cubierta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "206e24ab-9009-407d-8a7c-41a094f0ce0f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Dividir por 5 equivale a multiplicar por 1/5: (5/6)×(1/5) = 5/30 = 1/6.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste por 5 en vez de dividir.",
+   "c": "Multiplicaste ambos números en vez de aplicar la división correcta.",
+   "d": "No simplificaste la fracción resultante 5/30.",
+   "e": "Invertiste la fracción en vez de dividirla por 5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2080d8cc-e393-43d5-afe3-422234ae00b8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "20944e51-6d99-4c25-8e25-02cde410a11e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "21505593-c85f-4609-96eb-cc0c7d375100",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El volumen total del cono (π≈3) es (1/3)×3×3²×12 = 108 cm³. La parte roja tiene altura 10 cm, y por semejanza su radio es 3×(10/12) = 2,5 cm, con volumen (1/3)×3×2,5²×10 = 62,5 cm³. El volumen azul es la diferencia: 108 − 62,5 = 45,5 cm³.",
+  "distractor_diagnosis": {
+   "a": "Usaste el radio completo (3 cm) en la parte roja.",
+   "b": "No aplicaste la semejanza para reducir el radio de la parte roja.",
+   "c": "Invertiste qué volumen corresponde al rojo y cuál al azul."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "217b211c-e417-4cfd-81b4-97a7ea6a4498",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Sumando lo gastado: 1/3+1/4+1/6 = 4/12+3/12+2/12 = 9/12 = 3/4. Lo que queda es 1 − 3/4 = 1/4.",
+  "distractor_diagnosis": {
+   "b": "Confundiste el total gastado con lo que queda.",
+   "c": "Sumaste mal las fracciones del gasto.",
+   "d": "Calculaste solo una fracción del gasto, no el total.",
+   "e": "Olvidaste restar el gasto total del sueldo completo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2189763f-207d-4a28-afa0-8a509f1d322b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "De 2x−1>3 se obtiene x>2. De x+4<10 se obtiene x<6. La intersección de ambas condiciones es 2<x<6.",
+  "distractor_diagnosis": {
+   "b": "Consideraste solo la primera inecuación, ignorando la segunda.",
+   "c": "Consideraste solo la segunda inecuación, ignorando la primera.",
+   "d": "Invertiste el signo al despejar la primera inecuación.",
+   "e": "Creíste que las condiciones eran incompatibles sin resolverlas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "21b7d473-bc3e-454e-8170-819d9362a8d5",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2202a6ce-bcb9-4c1b-b5a0-a2eb92952f10",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "P(al menos un sello) = 1 − P(ningún sello) = 1 − (1/2)³ = 1 − 1/8 = 7/8.",
+  "distractor_diagnosis": {
+   "a": "Calculaste un caso favorable simple, no la probabilidad complementaria.",
+   "c": "Calculaste la probabilidad de no obtener ningún sello, no su complemento.",
+   "d": "Confundiste el problema con un caso de una sola moneda."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "22112bf1-cf14-437a-aa5a-02c4e86b9fd1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma es par si ambos números tienen la misma paridad. La caja 1 tiene 3 impares y 2 pares; la caja 2 tiene 2 impares y 3 pares. P(suma par) = (3×2 + 2×3)/25 = 12/25.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de un solo caso de paridad, no ambos.",
+   "d": "Multiplicaste mal las combinaciones de pares e impares posibles."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "224270a8-713e-4cf8-a82e-5bb22def4410",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con x bidones de 3L e y de 5L: x+y=100 y 3x+5y=360. Resolviendo el sistema, x=70 e y=30, por lo que la diferencia es 70−30=40.",
+  "distractor_diagnosis": {
+   "a": "Resolviste mal el sistema de ecuaciones.",
+   "c": "Confundiste la diferencia con la cantidad de un solo tipo de bidón.",
+   "d": "Sumaste en vez de restar las cantidades de cada bidón."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "22c681cc-7acd-4a3b-b24a-4f5b8cc30da5",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Cada pregunta tiene probabilidad 1/5 de acertarse al azar. Al ser 3 preguntas independientes, la probabilidad de acertar las 3 es el producto (1/5)×(1/5)×(1/5) = (1/5)³.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad de una sola pregunta, no de las tres.",
+   "b": "Multiplicaste mal el denominador al elevar la fracción.",
+   "c": "Confundiste la notación del exponente con otra operación.",
+   "e": "Multiplicaste por 3 en vez de elevar al cubo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "23010921-ad10-40c7-b2d3-0eb0887a8ec0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El total es −1.200+4.500+(−800) = $2.500. Dividido entre las 3 personas: 2.500÷3 ≈ $833.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste dividir el total entre las 3 personas.",
+   "c": "Dividiste solo el dinero de Camila, no el total.",
+   "d": "Calculaste una fracción incorrecta del total."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "23cefbff-ba03-4b68-b19b-f6e309dff163",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El curso tiene 180/6=30 estudiantes. Faltó la décima parte: 30/10=3, por lo que asistieron 27. De ellos, 1/3 votó por Josefina (9), y el resto, 27−9=18, votó por Fernando.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el número de ausentes, no los votos de Fernando.",
+   "c": "Confundiste los votos de Josefina con los de Fernando.",
+   "d": "Calculaste la décima parte del curso, no los votos finales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "24275cd0-47ba-42b2-be4a-f8e9e6771151",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Toda base distinta de cero elevada a 0 es igual a 1.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la regla del exponente cero con un coeficiente cero.",
+   "c": "Olvidaste aplicar el exponente cero y dejaste la base sin cambios.",
+   "d": "Mezclaste el exponente interno con el exponente externo.",
+   "e": "Creíste que la expresión no está definida, pero x≠0 lo permite."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "249ffab9-9c15-4052-a067-7085288ae7ed",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "15=3×5, 25=5², 35=5×7. El único factor común a los tres números es 5, por lo que el MCD es 5.",
+  "distractor_diagnosis": {
+   "a": "Buscaste un divisor trivial en vez del mayor común real.",
+   "c": "Tomaste un factor que solo divide a uno de los números.",
+   "d": "Confundiste el MCD con un divisor de solo uno de los números.",
+   "e": "Calculaste el producto de factores en vez del común."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "24dc6380-0b04-43aa-95a1-5beadac00787",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Alimentación = 0,35×$1.200.000 = $420.000. Transporte = 0,15×$1.200.000 = $180.000. La diferencia es $420.000 − $180.000 = $240.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste con porcentajes equivocados o restaste mal.",
+   "c": "Usaste un porcentaje incorrecto para alimentación o transporte.",
+   "d": "Sumaste en vez de restar los dos gastos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "255a4f10-15cc-4c2d-87dd-029ba0e3e272",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma de ángulos interiores de un pentágono es (5−2)×180°=540°. Como es regular, cada ángulo mide 540°/5=108°.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el ángulo interior con el ángulo exterior del pentágono.",
+   "b": "Asumiste que el pentágono tiene ángulos rectos.",
+   "d": "Usaste la fórmula de un hexágono en vez de un pentágono.",
+   "e": "Calculaste mal la suma total de ángulos interiores."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "25f72e94-0701-48a5-b99e-35af6ff13f23",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Sumando las seis semanas: Producto 1=120+80=200 (33,3/sem); Producto 2=200+80=280 (46,7/sem); Producto 3=200+100=300 (50/sem); Producto 4=250+40=290 (48,3/sem). El Producto 3 tiene el mayor promedio semanal, con 50 unidades.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el promedio del producto con menor total, no el mayor.",
+   "b": "Comparaste totales sin dividir correctamente por las seis semanas.",
+   "d": "Confundiste el producto con el segundo mayor promedio, no el mayor real."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2615eb81-c593-48e3-9b0a-7aa52c44956a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El ángulo exterior en C es igual a la suma de los ángulos interiores no adyacentes: A+B=130°. Como A=2B, se tiene 3B=130°, por lo que B=43,3° y A=86,7°.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el ángulo B en vez del ángulo A pedido.",
+   "c": "Dividiste 130° entre 3 sin usar bien la relación A=2B.",
+   "d": "Asumiste un triángulo isósceles sin usar el ángulo exterior dado.",
+   "e": "Supusiste un triángulo rectángulo sin que el problema lo indique."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "268868b6-b61c-4d80-8bc4-67401dca9e85",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El trabajo es inversamente proporcional al número de obreros: 3×12=4×x, por lo que x=36/4=9 días.",
+  "distractor_diagnosis": {
+   "a": "Sumaste obreros y días en vez de aplicar proporcionalidad inversa.",
+   "c": "Calculaste con una relación directa en vez de inversa.",
+   "d": "Redondeaste o dividiste mal el producto 36 entre 4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2727e59e-f842-48be-a2ba-c9bf4392d7c8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para convertir grados a radianes se multiplica por π/180: 45×π/180=π/4.",
+  "distractor_diagnosis": {
+   "a": "Usaste la conversión de 90° en vez de 45°.",
+   "c": "Usaste la conversión de 60° en vez de 45°.",
+   "d": "Usaste la conversión de 30° en vez de 45°."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "27ae7c49-e73f-4bd5-be9a-4a73b65d070a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "27c4e2bc-6143-48c1-b50e-5c10126aab3a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "27d6b5ca-2356-4cb5-8063-7fc2b695f0cb",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "La solución de ax=c−b es x=(c−b)/a. Para que x no sea entero, (c−b) no debe ser múltiplo de a. Las condiciones a, b, c y d garantizan que x resulte siempre entero (en b y c incluso se obtiene x=1). Solo la condición e no impone una relación exacta entre a, b y c, dejando abierta la posibilidad de que (c−b)/a no sea entero.",
+  "distractor_diagnosis": {
+   "a": "Con a=1 la solución siempre es entera, pues x=c−b.",
+   "b": "Esta condición fuerza x=1, un resultado siempre entero.",
+   "c": "Esta condición también fuerza x=1, siempre entero.",
+   "d": "Aquí (c−b) es múltiplo de a por definición, dando entero."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "27e00f89-815a-4575-a439-6a73106b59a0",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El 25% equivale a la fracción 1/4. Entonces 240×0,25=60 (o bien 240÷4=60).",
+  "distractor_diagnosis": {
+   "a": "Calculaste un porcentaje distinto de 25%, como el 20%.",
+   "c": "Sumaste un valor extra al resultado correcto.",
+   "d": "Redondeaste mal la división por 4.",
+   "e": "Calculaste el 30% en vez del 25%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2802306a-1d4d-4d27-873c-4e3e78060ef3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El 10% de 1.000 estudiantes son 100 en el taller de patinaje. El 10% de esos 100 son 10 estudiantes que compiten, y Helena es una de ellas. El argumento válido calcula 10 como el 10% de los 100 del taller, no del colegio completo.",
+  "distractor_diagnosis": {
+   "a": "Relacionaste el curso de Helena con los competidores sin base lógica.",
+   "b": "Calculaste el porcentaje sobre el colegio completo, no sobre el taller.",
+   "d": "Confundiste quiénes no practican patinaje con quiénes no compiten."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2861bc12-9ee6-44b6-8244-7ac1cafa27d2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2878fce4-3169-4e62-b80a-5ed1f175f4ae",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Los enteros positivos son 1, 2, 3, 4,… La condición pide que sean ≥−4 (se cumple siempre para los positivos) y <3 (excluye el 3). Solo 1 y 2 cumplen ambas condiciones, es decir, 2 números.",
+  "distractor_diagnosis": {
+   "b": "Incluiste el 3, que no cumple ser menor que 3.",
+   "c": "Incluiste el 0, que no es un entero positivo.",
+   "d": "Contaste también números negativos, que no son positivos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2929c559-a18a-40c2-9ac6-9a4f84a9c609",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "29533920-5f07-4931-9948-6dd3d66049ec",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "f(0)=(0+1)/(0−3)=−1/3, lo que verifica I. En x=3 el denominador se anula, así que f no está definida ahí, verificando II. f(x)=0 cuando el numerador es 0, es decir x=−1, verificando III. Las tres afirmaciones son verdaderas.",
+  "distractor_diagnosis": {
+   "a": "Descartaste la afirmación III sin ver que el numerador se anula en x=-1.",
+   "b": "Descartaste la afirmación I sin calcular f(0) correctamente.",
+   "c": "Descartaste la afirmación II sin notar que el denominador se anula en x=3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "29bb675c-5e3a-444e-b332-0a5fbc9c180c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El promedio de goles por partido se calcula dividiendo goles entre partidos jugados: J1≈0,52; J2≈0,69; J3≈0,54; J4≈0,42. El Jugador 2 tiene el mayor promedio.",
+  "distractor_diagnosis": {
+   "a": "Comparaste solo los goles totales, ignorando los partidos jugados.",
+   "c": "Confundiste el promedio del Jugador 3 con el mayor real.",
+   "d": "Elegiste al jugador con más partidos, no el de mejor promedio."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "29f64998-a0f5-42b0-bc16-ca3e340aa1f1",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El bono equivale a un aumento del 20% sobre el sueldo. Como cada jornada normal equivale a $28.000, el nuevo equivalente por jornada con bono es 28.000×1,20=$33.600.",
+  "distractor_diagnosis": {
+   "b": "Calculaste un aumento distinto al 20%, como un 5%.",
+   "c": "Sumaste un monto fijo pequeño en vez de aplicar el 20%.",
+   "d": "Calculaste solo una fracción mínima del aumento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2a23a77f-3c5e-46f6-9cb5-23f0d77f9551",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "24=2³×3 y 36=2²×3². El MCD toma los factores comunes con el menor exponente: 2²×3=12.",
+  "distractor_diagnosis": {
+   "a": "Tomaste solo un factor común, no todos los factores compartidos.",
+   "c": "Calculaste el MCM en vez del MCD.",
+   "d": "Tomaste un divisor común pero no el mayor posible."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2bdc2d5f-9c37-4bd9-9411-4d7d6d906f0b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El promedio de gastos por viaje se calcula dividiendo la suma total entre el número de viajes (localidades), que en este caso son 4: San Antonio, Valparaíso, Rancagua y Litueche. Por eso se debe dividir por 4, no por el número de categorías de gasto.",
+  "distractor_diagnosis": {
+   "a": "Dividiste por el número de categorías de gasto, no de localidades.",
+   "c": "Sumaste una localidad de más al contar los viajes.",
+   "d": "Sumaste localidades y categorías de gasto en un solo número."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2c069a9f-6d78-4179-8bea-bb5982556289",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2c163467-0068-448c-a3a5-7a552d601e54",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "2c59a29b-f620-4fa5-9e4d-d3502d70f9e5",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "2c6a125c-d641-4471-9279-9fcb5a286ddc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con 3c+2l=5.100 y c+2l=2.100, al restar ambas ecuaciones se elimina l: 2c=3.000, por lo que c=$1.500.",
+  "distractor_diagnosis": {
+   "a": "Resolviste el sistema con un error de signo al restar.",
+   "b": "Calculaste el precio del lápiz en vez del cuaderno.",
+   "d": "Sumaste en vez de restar las dos ecuaciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2c6af2c2-4fbf-4402-b542-6b3fa39ed59d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En el Paso 1, sumar el vector (5,−2) al punto (−5,5) da (−5+5, 5−2)=(0,3), no (0,7) como se afirma en el enunciado. El error se origina en este primer paso, ya que los pasos siguientes solo continúan operando sobre un valor ya incorrecto.",
+  "distractor_diagnosis": {
+   "b": "No detectaste el error en el Paso 1 y lo buscaste más adelante.",
+   "c": "Pasaste por alto el Paso 1, ubicando el error en un paso posterior.",
+   "d": "Pasaste por alto el Paso 1, ubicando el error al final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2cb9138e-a403-4915-8919-316ebf21d7c1",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Promoción A: 320.000×0,75=$240.000. Promoción B: primero 320.000×0,85=$272.000, luego 272.000×0,88=$239.360. Comparando ambos resultados, la Promoción B resulta más económica, ya que aplicar dos descuentos sucesivos (15% y 12%) reduce el precio final por debajo del descuento único del 25%.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la comparación: concluiste que A es más barata, no B.",
+   "c": "Concluiste que ambas promociones dan el mismo precio final.",
+   "d": "Sobrestimaste la diferencia a favor de A equivocadamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "2cce11f5-57d8-4fb3-a976-9b61e6c39bb9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el lado de un cuadrado es L, su perímetro es 4L. La razón lado:perímetro es L:4L, que simplificada es 1:4.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la razón entre lado y diagonal, no perímetro.",
+   "b": "Usaste un perímetro de 3L en vez de 4L.",
+   "d": "Usaste un perímetro de 5L en vez de 4L.",
+   "e": "Invertiste la razón, poniendo el perímetro antes del lado."
+  },
+  "skip_reason": null
+ }
+]

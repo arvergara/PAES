@@ -1,0 +1,596 @@
+[
+ {
+  "id": "a77a72c9-fbcd-4045-b0d8-30f2d9393a53",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El sistema equivale a ax+by=−1, bx+ay=−1. Sumando ambas ecuaciones: (a+b)(x+y)=−2. Restando: (a−b)(x−y)=0, y como a≠b, se obtiene x=y. Reemplazando en la suma: 2x(a+b)=−2, por lo que x=y=−1/(a+b).",
+  "distractor_diagnosis": {
+   "a": "Invertiste el signo al despejar, perdiendo el signo negativo del resultado.",
+   "b": "Usaste (a−b) en el denominador en vez de (a+b).",
+   "c": "Mezclaste x e y con signos opuestos en vez de igualarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a88affba-4066-4cfb-8b3e-4b2120baa0bd",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Los datos forman una parábola con vértice en (50,500): f(x)=(x−50)²+500. Como 50 es el mínimo, cualquier otro valor de x da un costo mayor; en particular f(1)=49²+500=2901>500. Por lo tanto, el costo de producir 50 unidades es menor que el de producir una sola.",
+  "distractor_diagnosis": {
+   "a": "Por la simetría de la parábola, f(80)=f(20); no son distintos, son iguales.",
+   "b": "La tabla no entrega información sobre un límite máximo de producción.",
+   "c": "Confundiste la cantidad producida con el costo unitario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a92a3d1d-6912-48f2-a03a-bc9dde588c3a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El tiempo total es 10,5 h. Los tramos de asfalto suman 250+245=495 km recorridos a 90 km/h, usando 495/90 h. El tramo 2 mide 700−495=205 km y su tiempo es el resto de las 10,5 h. La rapidez media es 205/(10,5−495/90).",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste las distancias y velocidades en vez de usar tiempo = distancia/velocidad.",
+   "c": "Restaste 90 en vez del tiempo empleado en los tramos de asfalto.",
+   "d": "Multiplicaste el tiempo total por un factor adicional sin justificación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "aa26cf8a-5184-42e2-a300-1478f529cdfb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Pedro tiene 2 de los 30 números. P(gana el 1er premio)=2/30. Sin reposición, si ganó el primero le queda 1 número entre los 29 restantes: P(gana el 2°|ganó el 1°)=1/29. La probabilidad de ganar ambos es (2/30)(1/29)=2/870=1/435.",
+  "distractor_diagnosis": {
+   "a": "Simplificaste de forma incorrecta la fracción del cálculo compuesto.",
+   "c": "Calculaste con reposición, usando (2/30)²=4/900, sin ajustar el segundo evento.",
+   "d": "Dividiste sin considerar que Pedro usa un número distinto en cada extracción."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "aa934d3e-618f-40cf-af5c-6ecbf90b4515",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "aacc55ad-24bb-4fa2-84d9-e41c358f26c0",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Para que mx²+mx+2=0 no tenga soluciones reales, el discriminante debe ser negativo: Δ=m²−4(m)(2)=m²−8m<0, es decir m(m−8)<0. Esta desigualdad se cumple cuando 0<m<8.",
+  "distractor_diagnosis": {
+   "a": "Solo consideraste m negativo, ignorando que también debe ser menor que 8.",
+   "b": "Olvidaste el límite inferior en 0 y permitiste la igualdad.",
+   "c": "Permitiste m=8, donde el discriminante es exactamente cero (raíz real doble).",
+   "d": "Invertiste el signo de la desigualdad al factorizar m(m−8)<0."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "aaebe94d-d585-4e6f-b89f-e34d2324738f",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El vértice de f(x)=x²−4x+1 está en x=−b/2a=4/2=2. Evaluando: f(2)=4−8+1=−3. El vértice es (2,−3).",
+  "distractor_diagnosis": {
+   "b": "Calculaste x=−2 en vez de 2, invirtiendo el signo de −b/2a.",
+   "c": "Confundiste el vértice con la raíz o con el término constante.",
+   "d": "Error de signo al evaluar f(2), obteniendo 3 en vez de −3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ab54becf-950a-4432-a571-1fdc600ecfe7",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Sea w el ancho y w+2 el largo. El área es w(w+2)=M, es decir w²+2w−M=0, cuya solución positiva es w=−1+√(1+M). El perímetro es 2(2w+2)=4w+4=4√(1+M).",
+  "distractor_diagnosis": {
+   "a": "Dejaste un término extra sin simplificar, agregando 8 al resultado.",
+   "b": "Usaste 2√M+4 sin resolver primero la ecuación cuadrática del área.",
+   "c": "Te quedaste con una diferencia de raíces sin simplificar completamente.",
+   "d": "Olvidaste multiplicar por 4 el resultado final de la raíz."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "ae4dfd88-e54d-49e1-a6c3-c40813ef2c5d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El sueldo imponible es $800.000. Los descuentos suman (17+a)% de esa base (10% AFP + 7% salud + a% voluntario). El líquido es el total de haberes menos esos descuentos: 950.000−150.000−(17+a)%×800.000, que equivale a 150.000+800.000×[1−(17+a)/100].",
+  "distractor_diagnosis": {
+   "a": "Olvidaste sumar el sueldo no imponible ($150.000) al resultado final.",
+   "b": "Mismo error que (a), sin agrupar correctamente el porcentaje de descuento.",
+   "d": "Usaste $700.000 (sueldo base) en vez de $800.000 (sueldo imponible) como base del descuento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "afdf3783-9542-41cd-aa85-d6517ea2d7ba",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Cada una de las 3 casillas tiene 10 dígitos posibles (0 al 9) y son elecciones independientes, por lo que el principio multiplicativo da 10×10×10=10³. Si M es la cantidad de dígitos posibles y N la cantidad de casillas, el total de claves es Mᴺ.",
+  "distractor_diagnosis": {
+   "a": "Invertiste base y exponente, usando N como base y M como exponente.",
+   "b": "Multiplicaste M por N en vez de elevar M a la potencia N.",
+   "c": "Confundiste el orden de base y exponente en la expresión final."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b41af726-9eee-4330-9afe-b64e798daa2b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Si el auto recorre M km por litro, para recorrer x km necesita x/M litros, ya que litros=km÷(km/litro). La función es g(x)=x/M.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste x por M en vez de dividir, invirtiendo la relación km/litro.",
+   "c": "Repites el error de multiplicar en vez de dividir x por M.",
+   "d": "Vuelves a multiplicar x por M en vez de usar la razón correcta.",
+   "e": "Invertiste la fracción, usando M/x en vez de x/M."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b448b9ba-02c0-4c40-9524-1422f0175d41",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "De V=(4/3)πr³ se despeja r=∛(3V/4π). El cociente entre los radios es r_A/r_B=∛(3V_A/4π)/∛(3V_B/4π)=∛(V_A/V_B), que es justamente lo que expresa la opción c.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el diámetro en vez del radio, con una expresión que no corresponde al despeje.",
+   "b": "Sumaste los radios usando una fórmula que no corresponde al despeje de r.",
+   "d": "Multiplicaste los radios en vez de calcular su cociente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b549a372-6672-4e42-9fdd-d1a5e18e0648",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Trasladando A(3,8) con v=(4,−3): A'=(3+4, 8−3)=(7,5). Al rotar 180° respecto al origen, (x,y)→(−x,−y), por lo que la imagen final es (−7,−5).",
+  "distractor_diagnosis": {
+   "b": "Aplicaste la rotación cambiando el signo de una sola coordenada.",
+   "c": "Sumaste mal el vector de traslación, obteniendo −11 en vez de −5.",
+   "d": "Olvidaste aplicar el cambio de signo correspondiente a la rotación de 180°."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b5a673c2-2420-4ba6-b395-364c10b69d08",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con una calculadora que solo tiene log base 10, se usa el cambio de base para log₂256: log₂256=log(256)/log(2). Esa es exactamente la secuencia 'log 256 ÷ log 2 ='.",
+  "distractor_diagnosis": {
+   "b": "Dividiste por 2 directamente en vez de dividir por log(2).",
+   "c": "Intentaste usar una tecla de logaritmo en base 2 que la calculadora no tiene.",
+   "d": "Multiplicaste los logaritmos en vez de dividirlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b7d383bb-acab-4051-bdfa-554fda351186",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "P(gana partido)=1−P(pierde ambos)=1−(0,3)(0,6)=0,82. Como ganar el primer set ya asegura ganar el partido, P(G1∩W)=P(G1)=0,7. Por el teorema de Bayes: P(G1|W)=0,7/0,82=70/82.",
+  "distractor_diagnosis": {
+   "a": "Usaste una probabilidad total distinta a la calculada correctamente (0,82).",
+   "b": "Calculaste el numerador con una probabilidad conjunta incorrecta.",
+   "d": "Simplificaste 70/82 a 7/9 en vez de a 35/41.",
+   "e": "Usaste un denominador erróneo (94) en vez de la probabilidad total real (82)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b8f16a09-9054-48a6-a548-e1f8b59c30b6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Del gráfico, el rectángulo R tiene un lado de longitud 6 (entre x=3 y x=9) y el lado correspondiente del rectángulo Q mide 14 (entre x=7 y x=21). La razón de homotecia es k=14/6=7/3.",
+  "distractor_diagnosis": {
+   "a": "Invertiste la razón, calculando original/imagen en vez de imagen/original.",
+   "c": "Usaste medidas de lados que no se corresponden entre los dos rectángulos.",
+   "d": "Tomaste una diferencia de coordenadas en vez del cociente de longitudes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "b95fe478-fb13-4e08-8547-02e1f359939a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "|2x−5|<3 equivale a −3<2x−5<3. Sumando 5: 2<2x<8. Dividiendo por 2: 1<x<4. El conjunto solución es el intervalo abierto (1,4).",
+  "distractor_diagnosis": {
+   "a": "Restaste 5 en vez de sumar al despejar, desplazando todo el intervalo.",
+   "c": "Incluiste los extremos, pero la desigualdad es estricta (sin igualdad).",
+   "d": "Cometiste un error de signo al despejar el límite inferior."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bac01483-4734-4be0-a97d-6055a6bd61ff",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con los 8 datos la desviación estándar es ≈248,4, dominada por el valor atípico 1200. Al eliminarlo, con los 7 datos restantes la desviación estándar baja a ≈32,0. La disminución porcentual es (248,4−32,0)/248,4≈87%, que se aproxima mejor a un 85%.",
+  "distractor_diagnosis": {
+   "a": "Subestimaste fuertemente el efecto del valor atípico sobre la dispersión.",
+   "b": "Calculaste una disminución menor a la real, sin considerar el peso del atípico.",
+   "c": "Te acercaste, pero subestimaste la magnitud real de la caída.",
+   "e": "Sobrestimaste levemente el porcentaje respecto al valor real (~87%)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bb1a48b3-c7b3-4982-b782-1178467b648c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se resuelve h(x)=0: −0,5x²+4x=0 → x(−0,5x+4)=0, dando x=0 o x=8. El ancho del puente a nivel del suelo es 8−0=8 metros.",
+  "distractor_diagnosis": {
+   "a": "Solo consideraste una parte del cálculo, sin obtener la raíz completa de la ecuación.",
+   "b": "Confundiste el vértice de la parábola con una de las raíces buscadas.",
+   "d": "Sumaste un valor adicional al resultado correcto de 8 metros."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bb2a3da2-21f9-45a0-896d-4bc882b880f7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "log₉3=1/2 (porque 9^(1/2)=3) y log₂8=3 (porque 2³=8). Multiplicando ambos valores: log₉3 × log₂8 = (1/2)(3) = 3/2.",
+  "distractor_diagnosis": {
+   "a": "Dividiste en vez de multiplicar los dos logaritmos, obteniendo 6.",
+   "c": "Convertiste el resultado numérico en un logaritmo compuesto sin sentido.",
+   "d": "Igual que en c, transformaste el número final en una expresión logarítmica incorrecta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bc6a3def-b4a1-4e2c-bb45-d6b2831e5c57",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con (1): área=(10×6)/2=30 cm², suficiente por sí sola. Con (2): en un triángulo rectángulo el área es (cateto1×cateto2)/2=(6×10)/2=30 cm², también suficiente por sí sola. Como cada afirmación por separado permite calcular el área, la respuesta es que cada una por sí sola es suficiente.",
+  "distractor_diagnosis": {
+   "a": "Descartaste que la afirmación (2) también permite calcular el área por sí sola.",
+   "b": "Descartaste que la afirmación (1) también permite calcular el área por sí sola.",
+   "c": "No es necesario usar ambas juntas; cada una alcanza de forma independiente.",
+   "e": "Ambas afirmaciones sí bastan por separado; no falta información adicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bc70f945-54b3-4f7a-a376-1e90c535368b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La probabilidad de que la bolita de la urna A no sea azul es (x−m)/x, y la de la urna B es (y−n)/y. Como las extracciones son independientes, la probabilidad de que ninguna sea azul es el producto de ambas: [(x−m)/x]×[(y−n)/y].",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste una fracción correcta por 1/y en vez de por (y−n)/y.",
+   "c": "Usaste los recíprocos de m y n en vez de las cantidades no azules.",
+   "d": "Restaste las fracciones completas en vez de multiplicarlas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bd44b117-e3c1-4b07-909f-08e3511ec472",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si los cuadrados de lado a y x se alinean sobre su diagonal, el cuadrado que los contiene tiene diagonal igual a la suma de ambas diagonales, (a+x)√2, por lo que su área es (a+x)². El área que hay que agregar es (a+x)²−(a²+x²)=2ax.",
+  "distractor_diagnosis": {
+   "a": "Sumaste las áreas de los dos cuadrados en vez de calcular solo el área adicional.",
+   "b": "Te quedaste con un término incompleto del producto, sin el factor 2.",
+   "d": "Planteaste una resta de términos que no corresponde a la diferencia de áreas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "bd6377d8-94eb-4320-8dee-b21c6951eeaf",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "bd9bb223-e195-489e-85b9-3854fd4cf6bd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "De x−y=1 se obtiene x=y+1. Sustituyendo en 2x+3y=12: 2(y+1)+3y=12 → 5y=10 → y=2, y luego x=y+1=3.",
+  "distractor_diagnosis": {
+   "a": "Intercambiaste los valores de x e y en la solución final.",
+   "c": "Calculaste con un despeje erróneo de la segunda ecuación.",
+   "d": "Obtuviste valores que no satisfacen ninguna de las dos ecuaciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "be77174d-7c89-4de1-a2bc-3dca44315717",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La población se triplica cada 10 días, así que en 50 días ocurren 50/10=5 triplicaciones. La población final es P=8×10⁵×3⁵.",
+  "distractor_diagnosis": {
+   "b": "Multiplicaste el exponente de 3 por 10⁵ en vez de mantener los factores separados.",
+   "c": "Usaste 15 triplicaciones en vez de calcular correctamente 50/10=5.",
+   "d": "Sumaste en vez de multiplicar los factores de población inicial y crecimiento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "be7cee94-5d87-4caf-8962-f7e1465e74d7",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "bf3e2a54-8943-4ada-b581-00d279ce8fda",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Con dado par (prob. 1/2) se extrae de la caja M (3 rojas de 5): prob. 3/5. Con dado impar (prob. 1/2) se extrae de la caja N (1 roja de 4): prob. 1/4. P(roja)=(1/2)(3/5)+(1/2)(1/4)=3/10+1/8=12/40+5/40=17/40.",
+  "distractor_diagnosis": {
+   "a": "Invertiste alguna de las fracciones de las cajas al sumar las probabilidades.",
+   "b": "Usaste denominadores incorrectos al combinar las dos urnas.",
+   "c": "Simplificaste mal la suma de fracciones con distinto denominador.",
+   "d": "Calculaste el complemento (bolita no roja) en vez de la probabilidad pedida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c1b411b5-bb8e-48c9-8184-3ee2dccf229b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La expresión pedida depende de a² (una función par de a), por lo que conocer el valor de a² basta para calcularla sin importar el signo de a. La afirmación a>0 por sí sola solo entrega el signo, no un valor numérico de a.",
+  "distractor_diagnosis": {
+   "b": "Saber que a>0 no entrega el valor numérico de a, solo su signo.",
+   "c": "No es necesario usar ambas afirmaciones; la (1) sola ya basta.",
+   "d": "Solo la afirmación (1) es suficiente por sí sola; la (2) sola no lo es.",
+   "e": "La afirmación (1) por sí sola sí es suficiente para resolver el problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c26c6432-bb62-40da-a2dc-e4cc005424d4",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Como (a,b) está en el segundo cuadrante, a<0 y b>0. Con c<0, el vector c·(a,b)=(ca,cb) tiene primera coordenada ca=(negativo)(negativo)=positivo y segunda coordenada cb=(positivo)(negativo)=negativo. Un punto con abscisa positiva y ordenada negativa está siempre en el cuarto cuadrante.",
+  "distractor_diagnosis": {
+   "a": "Sumar c a ambas coordenadas no da signos fijos; no siempre cae en el mismo cuadrante.",
+   "b": "El signo correcto del producto ubica el punto en el cuarto cuadrante, no en el primero.",
+   "c": "La combinación de signos propuesta no garantiza siempre el segundo cuadrante.",
+   "d": "El signo resultante corresponde al segundo cuadrante, no al tercero."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c36f86a1-9135-41f0-8674-507a5df5b4a7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para sucesos independientes, P(A∩B)=P(A)·P(B). Despejando: P(B)=P(A∩B)/P(A)=0,3/0,6=0,5.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error aritmético al dividir 0,3 por 0,6.",
+   "b": "Confundiste el resultado con el valor de P(A∩B) dado en el enunciado.",
+   "d": "Invertiste la división, calculando 0,6/0,3 en vez de 0,3/0,6."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c3b7c2f3-472d-486e-b289-cd8afd6a3fbe",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sumar una constante (1000) a cada dato desplaza la media, pero no cambia la dispersión de los datos respecto a ella, por lo que la varianza no cambia: Var(A)=Var(B), porque los datos de B se obtienen sumando 1000 a cada valor de A.",
+  "distractor_diagnosis": {
+   "a": "Los promedios sí son distintos, pero la igualdad de varianzas no es la razón de eso.",
+   "c": "Tener la misma cantidad de datos no garantiza que el rango sea igual; es la traslación la que lo explica.",
+   "d": "La igualdad de varianzas no es la causa lógica de que los rangos sean iguales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c4051ca0-ad10-45ea-964c-d6e8cbf97b75",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Opción A (interés simple): I=500.000×0,08×2=$80.000. Opción B (interés compuesto): M=500.000×(1,075)²=$577.812,5, es decir intereses de $77.812,5. La diferencia es $80.000−$77.812,5≈$2.188, a favor de la opción A.",
+  "distractor_diagnosis": {
+   "b": "Invertiste qué opción genera más interés; en este caso es la simple, no la compuesta.",
+   "c": "El monto de diferencia calculado no corresponde al valor real (~$2.188, no $1.000).",
+   "d": "Invertiste la opción ganadora y calculaste mal la diferencia.",
+   "e": "Los montos no son iguales; existe una diferencia real de aproximadamente $2.188."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c446616a-34aa-4e02-8fa9-dfbbb24a4b62",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "x²−6x+8=0 se factoriza como (x−2)(x−4)=0, por lo que las soluciones son x=2 y x=4.",
+  "distractor_diagnosis": {
+   "b": "Invertiste el signo de las soluciones obtenidas de la factorización.",
+   "c": "Usaste factores de 8 que no suman 6, sin verificar la condición correcta.",
+   "d": "Usaste números que no son raíces de la ecuación dada."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c485772c-3351-4df8-886a-a0704cd59c6d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para E=10²⁵: 25=1,5M+11,8 → M=8,8. Para E=10¹⁹: 19=1,5M+11,8 → M=4,8. La diferencia de magnitudes es 8,8−4,8=4.",
+  "distractor_diagnosis": {
+   "a": "Te acercaste, pero el cálculo exacto da 4, no 1,8.",
+   "c": "Sobrestimaste la diferencia real entre las dos magnitudes.",
+   "d": "Muy cercano al valor real (4), pero con un pequeño error de cálculo.",
+   "e": "Sobrestimaste considerablemente la diferencia real de magnitudes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c492f3c9-0716-4ec7-8f5e-8c66fc85ab83",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En el triángulo rectángulo con ángulo de 60° en O, el coseno de ese ángulo relaciona el cateto adyacente (OA) con la hipotenusa (OB): cos60°=OA/OB. El Paso 1 usa incorrectamente OB/AB, una razón que no corresponde a ese ángulo, por lo que el error está desde el planteamiento inicial.",
+  "distractor_diagnosis": {
+   "b": "El paso 2 es un cálculo correcto a partir de la ecuación (errónea) del paso 1.",
+   "c": "El teorema de Pitágoras del paso 3 se aplica correctamente sobre los valores previos.",
+   "d": "El despeje final del paso 4 es consistente con los pasos anteriores; el error viene de antes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c4b0c7dd-6eb5-4137-9dd5-812ce1405bbe",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si p=−q, entonces 1/p+1/q=1/p+1/(−p)=1/p−1/p=0, un número racional (de hecho entero), para cualquier par de enteros no nulos que cumplan esa relación. Esta condición garantiza el resultado sin depender del valor específico de p y q.",
+  "distractor_diagnosis": {
+   "a": "Que (p+q) sea múltiplo de pq no es una condición que asegure racionalidad de forma directa.",
+   "b": "Que p+q sea cuadrado perfecto no dice nada sobre la suma de los recíprocos.",
+   "d": "Que p y q sean cuadrados perfectos no aporta una garantía adicional; la suma ya es racional para cualquier entero."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c565180d-4b52-4f04-ad44-6065072160c5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El desnivel es el cateto opuesto al ángulo de 30° en el triángulo formado por la pendiente. sen(30°)=desnivel/500, por lo que desnivel=500×0,5=250 m.",
+  "distractor_diagnosis": {
+   "a": "Usaste una fracción distinta a 0,5 en el cálculo del seno.",
+   "c": "Multiplicaste por √3 en vez de por 0,5, confundiendo seno con otra razón.",
+   "d": "No multiplicaste por sen(30°), dejando el resultado sin escalar.",
+   "e": "Dividiste el resultado correcto a la mitad sin justificación trigonométrica."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c582e263-732f-484d-8a71-73596366d584",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "c625165f-e4df-49a2-b7c5-f7911c86eae8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea r el aumento por hora. El nivel inicial es 4r. A la hora 1: 4r+r=500 → r=100, por lo que el nivel inicial es 400 mm. La función es n(t)=400+100t, y a las 5 horas: n(5)=400+500=900 mm.",
+  "distractor_diagnosis": {
+   "c": "No corresponde a un valor obtenido a partir del modelo lineal planteado.",
+   "d": "Sobrestimaste el aumento, posiblemente multiplicando el nivel inicial por 5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c629cc5f-322e-4fb3-9bf7-67f626d5d765",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "x²+y²=(x+y)²−2xy. Con (1) sola, x+y=7 admite infinitas parejas con distinto x²+y². Con (2) sola, xy=10 también admite infinitas parejas. Juntas: x²+y²=49−20=29, un valor único.",
+  "distractor_diagnosis": {
+   "a": "La afirmación (1) sola no fija un único valor de x²+y².",
+   "b": "La afirmación (2) sola tampoco fija un único valor de x²+y².",
+   "d": "Ninguna de las dos por separado es suficiente; se necesitan ambas.",
+   "e": "Con ambas afirmaciones juntas sí se puede calcular el valor pedido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c673f0e2-a191-46dd-ac40-34d4ff32c151",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Los datos forman una parábola con vértice en (50,500): f(x)=(x−50)²+500. Como 50 es el mínimo, cualquier otro valor de x da un costo mayor; en particular f(1)=49²+500=2901>500. Por lo tanto, el costo de producir 50 unidades es menor que el de producir una sola.",
+  "distractor_diagnosis": {
+   "a": "Por la simetría de la parábola, f(80)=f(20); no son distintos, son iguales.",
+   "b": "La tabla no entrega información sobre un límite máximo de producción.",
+   "c": "Confundiste la cantidad producida con el costo unitario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c758acfc-e94a-4ef0-8b43-c77af644248e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La razón de homotecia es k=OB/OA. Como OA=OB+6 (el radio original es 6 cm mayor que el nuevo), se tiene k=OB/(OB+6).",
+  "distractor_diagnosis": {
+   "b": "Invertiste la relación entre OA y OB al construir la razón.",
+   "c": "Usaste una expresión que no representa correctamente la diferencia de 6 cm entre los radios.",
+   "d": "El planteamiento no corresponde a una razón de homotecia positiva bien definida."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c855ecd3-66c8-452f-895a-2ed3771a2df0",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "c858c979-06a0-4a8f-abfc-16a60790828d",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En una homotecia de razón k, los volúmenes se escalan por k³. Con k=50, el volumen real es 0,2×50³=0,2×125.000=25.000 m³.",
+  "distractor_diagnosis": {
+   "a": "Usaste la razón de escala k=50 sin elevarla al cubo.",
+   "b": "Elevaste la razón al cuadrado en vez de al cubo.",
+   "c": "Multiplicaste solo por 50² en vez de 50³, subestimando el volumen real."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "c9fc8594-7c1a-4f14-ab98-c3db400a0590",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "log35000=log(5×7×1000)=log5+log7+log1000=0,699+0,845+3.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los logaritmos de la tabla en vez de sumarlos.",
+   "b": "Usaste 1 en vez de 3 para representar log(1000).",
+   "d": "Multiplicaste los valores de la tabla en vez de sumarlos con el término de la potencia de 10."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cae7c9df-d894-4513-a449-3d17cddcbb71",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La tasa trimestral es 2,5%=0,025, y dos años equivalen a 8 trimestres. El capital final es C=2.500.000×(1,025)⁸.",
+  "distractor_diagnosis": {
+   "a": "Usaste una tasa de 25% en vez de 2,5% (0,025).",
+   "c": "Restaste 1 al factor de capitalización, calculando solo el interés y no el capital final.",
+   "d": "Combinaste el error de tasa incorrecta con la resta innecesaria del factor 1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cccbca20-5935-4a1b-8f58-95440aaa66fd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La intersección de los rangos donde proliferan ambas bacterias deseadas, [−1,10) y [−3,9], es [−1,9]. Al excluir el rango donde prolifera la tercera bacteria, (−8,8), lo que queda dentro de [−1,9] es el intervalo [8,9], ya que 8 no pertenece al intervalo abierto (−8,8).",
+  "distractor_diagnosis": {
+   "a": "No consideraste correctamente los límites de la intersección entre los dos primeros rangos.",
+   "b": "Solo tomaste el límite inferior sin restar el rango prohibido de la tercera bacteria.",
+   "d": "Incluiste un extremo (10) que no pertenece al rango del primer tipo de bacteria."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cd6d1db5-83bf-4a54-8717-1600a2f265c3",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "log(10p³)=log10+log(p³)=1+3·log(p)=1+3q, usando que log(p)=q.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar log(p) por el exponente 3, dejando solo 1+q.",
+   "b": "Convertiste la expresión en una potencia de 10 en vez de aplicar propiedades de logaritmos.",
+   "c": "Sumaste 10 en vez de 1, confundiendo la base del logaritmo con el término constante.",
+   "d": "Omitiste el término +1 correspondiente a log(10)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "cdae41be-2cf7-4b83-8582-13c3d3d0a649",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para que f no corte el eje X se necesita ac>9/4. Con (1) a=c, resulta ac=a², pero sin conocer la magnitud de a esto no basta. Con (2) a>3/2 (rango no acotado superiormente), tampoco se conoce c. Juntas: ac=a² con a>3/2 asegura a²>(3/2)²=9/4, garantizando siempre que la parábola no corte el eje X.",
+  "distractor_diagnosis": {
+   "a": "Saber que a=c no dice nada sobre la magnitud de a, necesaria para comparar con 9/4.",
+   "b": "Saber que a>3/2 no dice nada sobre el valor de c.",
+   "d": "Cada afirmación por separado no es suficiente; se necesitan ambas juntas.",
+   "e": "Ambas afirmaciones juntas sí bastan; no falta información adicional."
+  },
+  "skip_reason": null
+ }
+]

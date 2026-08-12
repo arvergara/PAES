@@ -1,0 +1,577 @@
+[
+ {
+  "id": "006ffea6-068c-40ca-9dc0-2d64da53782a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El robot debe girar a la derecha (probabilidad 3/4) en cada una de las primeras n−1 decisiones, y a la izquierda (probabilidad 1/4) solo en la última. Como son eventos independientes, multiplicas las probabilidades: (3/4)^(n−1) · (1/4). Esa es exactamente la opción a.",
+  "distractor_diagnosis": {
+   "b": "Combinaste las probabilidades en una sola fracción (3/16) en vez de mantenerlas como factores separados.",
+   "c": "Usaste el exponente n en vez de n−1 y mezclaste las fracciones en una sola base incorrecta.",
+   "d": "Invertiste los roles: pusiste 1/4 elevado a n−1 y 3/4 en la última decisión, al revés de lo que pide el problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "007e5564-bad0-45cf-8260-3c0bb6f8f82f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La inecuación x + 3 < 7 se resuelve restando 3 a ambos lados: x < 4. Como además se exige que x sea un número real positivo, la solución final es la intersección de x > 0 con x < 4, es decir el intervalo (0, 4).",
+  "distractor_diagnosis": {
+   "a": "Olvidaste aplicar la restricción de que x debe ser positivo y dejaste toda la recta hasta 4.",
+   "c": "Sumaste en vez de restar 3, obteniendo x < 10 en lugar de x < 4.",
+   "d": "Interpretaste la solución como un conjunto de valores puntuales en vez de un intervalo continuo.",
+   "e": "Invertiste el sentido de la desigualdad al despejar x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "01a0e6ed-6047-4ded-924b-7e1e6d0832bc",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En un torneo todos contra todos, el número de partidos es C(n,2) = n(n−1)/2. Igualando a 28 obtienes n(n−1) = 56, y probando valores, n = 8 cumple porque 8·7 = 56. Por lo tanto participaron 8 jugadores.",
+  "distractor_diagnosis": {
+   "a": "Restaste 1 al total de partidos en vez de resolver la ecuación combinatoria n(n−1)/2=28.",
+   "b": "Confundiste la fórmula con la de números triangulares y obtuviste una raíz incorrecta.",
+   "c": "Dividiste el total de partidos por 2 directamente, sin usar la fórmula de combinaciones."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "01b2a3dc-0483-447e-ad78-c8bb99d2b525",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Rodrigo reduce su colesterol con el primer medicamento (2,5 mg/dL al día) mientras esté sobre 240 (riesgo alto), lo que toma (255−240)/2,5 días. Luego sigue con el segundo medicamento (0,8 mg/dL al día) mientras esté entre 200 y 240 (riesgo bajo), lo que toma (240−200)/0,8 días. La duración total del tratamiento es la suma de ambos tiempos.",
+  "distractor_diagnosis": {
+   "a": "Combinaste las diferencias de colesterol en una sola fracción con denominador compuesto, en vez de sumar dos tiempos independientes.",
+   "b": "Sumaste las tasas de reducción y usaste el rango completo de colesterol sin separar los dos tramos de riesgo.",
+   "c": "Dividiste los valores de colesterol directamente por las tasas, sin restar los umbrales de cada tramo.",
+   "d": "Multiplicaste las diferencias de colesterol entre sí en vez de dividir cada una por su tasa de reducción."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "01d62609-e101-4c41-adf8-f87198bb1b11",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "02c91238-1931-4ec7-ba43-198a069c4a18",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "031e0bd4-0479-476b-80d9-b8e9e62e819c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Como el rango de g1,...,g5 es cero, los cinco valores son idénticos: g1=g2=...=g5=k. Los nuevos datos son k−2, k−2, k, k+1 y k+3; sus desviaciones respecto al promedio no dependen de k y su suma de cuadrados es 18. La varianza es 18/5 y la desviación estándar es su raíz, √(18/5) = 3√2/√5.",
+  "distractor_diagnosis": {
+   "a": "18/5 es la varianza, no su raíz cuadrada; te faltó calcular la desviación estándar.",
+   "b": "Calculaste el promedio de los valores absolutos de las desviaciones (desviación media) en vez de la desviación estándar.",
+   "d": "Calculaste mal alguna de las desviaciones al cuadrado, subestimando la dispersión total de los datos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "03291cfc-0692-4d86-ac42-127dee646aef",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La componente vertical de la cuerda es 80 · sen(60°) = 80 · (√3/2) = 40√3 metros. Como el niño sostiene la cuerda a 1,5 m del suelo, la altura total del volantín es esa componente más los 1,5 m: (40√3 + 1,5) m.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste sumar la altura desde la que se sostiene la cuerda (1,5 m).",
+   "c": "Usaste cos(60°) en vez de sen(60°) para la componente vertical.",
+   "d": "Multiplicaste la longitud completa de la cuerda por √3, como si usaras tan(60°), en vez de aplicar sen(60°).",
+   "e": "Sumaste directamente la longitud de la cuerda con 1,5 m sin descomponerla trigonométricamente."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0453f21a-cf06-49c5-853a-bfd205426cbe",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Ambos cursos tienen el mismo promedio (5,8), pero la desviación estándar del curso A (0,2) es menor que la del curso B (0,4). Una menor desviación estándar significa que las notas están más concentradas alrededor del promedio, es decir, con menor dispersión.",
+  "distractor_diagnosis": {
+   "a": "Promedios iguales no implican que las notas individuales sean iguales entre los cursos.",
+   "b": "La media no tiene por qué ser el valor más frecuente sin conocer la distribución completa de las notas.",
+   "c": "La desviación estándar no garantiza la existencia de una nota específica como mínimo en los datos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "04770fbc-f4c1-45e1-b369-06a4dc443310",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El primer sistema (3nx+ky=1; kx+4my=1) tiene infinitas soluciones, lo que implica que sus coeficientes son proporcionales: k=3n y k=4m. Al revisar el segundo sistema (2mx+3ny=5mn; kx+2ky=10mn) con esas mismas relaciones, sus ecuaciones también resultan proporcionales entre sí, así que también tiene infinitas soluciones.",
+  "distractor_diagnosis": {
+   "a": "Concluiste que no hay solución sin comprobar la proporcionalidad entre los coeficientes.",
+   "b": "Asumiste que el segundo sistema es independiente del primero, sin usar las relaciones entre m, n y k.",
+   "d": "No aplicaste la condición de infinitas soluciones del primer sistema para fijar la relación entre m, n y k."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "051719e0-b680-405b-99f6-d4656ccd5511",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si f(p) < 0 y f(q) > 0, la función cuadrática cambia de signo entre p y q, así que por continuidad debe cruzar el eje x, es decir, tener dos raíces reales distintas. Eso ocurre exactamente cuando el discriminante es positivo: b² − 4ac > 0.",
+  "distractor_diagnosis": {
+   "a": "Un discriminante igual a cero significa una sola raíz (la parábola solo toca el eje), lo que no permite que la función cambie de signo.",
+   "c": "El signo de a no queda determinado por la condición de cambio de signo de f; puede ser positivo o negativo.",
+   "d": "El orden entre p y q no tiene relación con el valor del discriminante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0647b232-eaf0-4e0d-9d80-8f57355942d2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "texto_corrupto"
+ },
+ {
+  "id": "0679de6d-67d1-4856-91e0-97849044c056",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Formar un grupo de 2 dulces entre 6 distintos es una combinación sin importar el orden: C(6,2) = 6!/(2!·4!) = (6·5)/2 = 15.",
+  "distractor_diagnosis": {
+   "a": "11 no corresponde a ningún cálculo combinatorio válido para este caso.",
+   "b": "Calculaste 6×2 en vez de aplicar la fórmula de combinaciones.",
+   "d": "Calculaste 6×6, considerando pares ordenados con repetición, en vez de combinaciones sin repetición."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "069b5b77-7d77-4f8c-a622-694e3c513391",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "El perímetro de un rectángulo es P = 2·(largo + ancho), o sea P = 2·(f(x) + x). Despejando el largo: f(x) = P/2 − x.",
+  "distractor_diagnosis": {
+   "a": "Usaste la fórmula del perímetro sin el factor 2, como si P fuera solo largo más ancho.",
+   "b": "Sumaste el ancho en vez de restarlo al despejar el largo.",
+   "c": "Multiplicaste el ancho por 2 en vez de dividir el perímetro por 2.",
+   "d": "Dividiste P entre 2 pero además duplicaste el ancho x, restando 2x en vez de x."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "075f3042-919b-447c-b6cc-a5f07eb79cc0",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El aumento real no se obtiene restando los porcentajes directamente. Se deflacta el sueldo dividiendo el factor nominal por el factor de inflación: (1,075/1,05) − 1 ≈ 0,024, es decir un aumento real de aproximadamente 2,4%.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a ningún cálculo directo con los datos del enunciado.",
+   "b": "No aplica correctamente la fórmula de deflactación del sueldo.",
+   "d": "Restaste directamente los porcentajes (7,5%−5%) sin considerar el efecto compuesto de la inflación.",
+   "e": "Sobrestimaste el efecto, quizás sumando en vez de dividir los factores."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "077807d0-bec2-4820-a04f-5f640b397b7f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Factorizando x² − 5x + 6 = (x−2)(x−3) = 0, las soluciones son x=2 y x=3. Puedes verificarlo: 2+3=5 y 2·3=6, que coinciden con los coeficientes de la ecuación.",
+  "distractor_diagnosis": {
+   "a": "1 y 6 no cumplen simultáneamente que su producto sea 6 y su suma sea 5.",
+   "c": "Cambiaste el signo de ambas raíces al factorizar.",
+   "d": "Invertiste los signos de ambas raíces respecto a la factorización correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "07955b32-3869-48f2-9ece-b0641b2f083e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea h la altura y d la distancia de B a la base. Desde B: h = d√3 (tan 60°). Desde A: h = (d+100)·(√3/3) (tan 30°). Igualando ambas expresiones se obtiene d = 50, y entonces h = 50√3 metros.",
+  "distractor_diagnosis": {
+   "a": "Corresponde solo al valor de d, sin multiplicar por √3 para obtener la altura.",
+   "c": "Confunde la distancia avanzada (100 m) con la altura buscada.",
+   "d": "Usa la distancia total en vez del valor correcto de d=50 al multiplicar por √3.",
+   "e": "No proviene de resolver correctamente el sistema de ecuaciones con las dos tangentes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "08131bcb-7848-4e76-a48a-2f7547a99d05",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El rumbo N60°E se descompone con el ángulo medido desde el norte. La componente este es la proyección con el seno del ángulo: 120 · sen(60°) = 120 · (√3/2) = 60√3 km.",
+  "distractor_diagnosis": {
+   "a": "Usaste cos(60°)=0,5 en vez de sen(60°) para la componente este.",
+   "b": "Corresponde a un ángulo de 45°, no al de 60° del enunciado.",
+   "d": "No proviene de una descomposición trigonométrica correcta de la distancia recorrida.",
+   "e": "Asumiste que toda la distancia recorrida corresponde a la componente este, ignorando el ángulo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "092eb1ae-c070-47b3-bb49-5aefd817fd89",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero simplificas √18 = √(9·2) = 3√2. Luego divides entre 3: (3√2)/3 = √2 metros.",
+  "distractor_diagnosis": {
+   "a": "No corresponde a una simplificación correcta de √18/3.",
+   "c": "Olvidaste dividir por 3 después de simplificar √18 a 3√2.",
+   "d": "Corresponde a una factorización distinta e incorrecta de 18."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "094e15d4-d92d-4b7d-bbc1-f709e7e74a01",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "De 3x − p = 2x + p + 1 despejas x = 2p + 1. Como p debe ser un entero positivo, el menor valor posible es p=1, lo que da x = 2(1)+1 = 3.",
+  "distractor_diagnosis": {
+   "a": "p=0 no es un entero positivo, por lo que no cumple la condición del problema.",
+   "b": "Despejaste x = p en vez de x = 2p+1, perdiendo el factor 2.",
+   "c": "Calculaste x = p+1 en lugar de x = 2p+1, olvidando duplicar p al despejar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "09fe4a2e-9ba1-4b2a-8530-07cfa7213784",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los vértices son A(p,2p), B(p+2,2p) y C(p+2,p). El lado AB es horizontal con longitud 2, y BC es vertical con longitud |2p−p|=|p|=−p (pues p<0). El triángulo es rectángulo, así que su área es (1/2)·2·(−p) = −p, que es positiva porque p es negativo.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a un cálculo que involucra el cuadrado de p, no la longitud lineal necesaria.",
+   "b": "Mezclaste diferencias de coordenadas x e y en un solo producto incorrecto.",
+   "d": "Olvidaste el factor 1/2 del área del triángulo, duplicando el resultado correcto.",
+   "e": "Corresponde a una expresión cuadrática en p en vez de la longitud lineal de los lados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a2e80d2-ffb5-4368-926f-3ce7ef5fc452",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Escribiendo 9=3² y 27=3³: si 9^x=27, entonces 3^(2x)=3³, por lo que 2x=3 y x=3/2. Por lo tanto log₉(27)=3/2.",
+  "distractor_diagnosis": {
+   "a": "Calculaste log₃(27)=3 en vez de log₉(27), ignorando el cambio de base 9→3.",
+   "c": "Invertiste la fracción del exponente, obteniendo 2/3 en vez de 3/2.",
+   "d": "No corresponde a una aplicación correcta del cambio de base entre potencias de 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a8a0a36-e6d2-495e-bdb8-8f1702b2fa7a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Buscas enteros a,b con a²+b²=25, considerando los vectores diagonales (no alineados con los ejes). Las soluciones son las combinaciones de (3,4) y (4,3) con todas sus variaciones de signo: (±3,±4) y (±4,±3), dando 4+4=8 vectores.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que sí existen soluciones enteras para a²+b²=25.",
+   "b": "Solo contaste una combinación de signos, sin las demás variaciones de (3,4).",
+   "c": "Solo contaste las combinaciones con signos positivos, olvidando las de signo negativo.",
+   "e": "Confundiste el conjunto de todos los vectores reales de magnitud 5 (infinitos) con los de coordenadas enteras (finitos)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0a9e356f-e5a0-458f-9e39-21fa82343592",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En el triángulo isósceles con AC=BC=5 y altura CF=4, la base AB mide 2·√(25−16)=6. Como DE//AB está a 1 cm de AB, la altura desde C hasta DE es 4−1=3, y por semejanza de triángulos la razón es 3/4: DE=4,5 cm, y los lados oblicuos AD=BE=5−(3/4)·5=1,25 cm cada uno. El perímetro del trapecio ABED es 6+1,25+4,5+1,25=13 cm.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los lados sin aplicar correctamente la razón de semejanza entre los triángulos.",
+   "b": "Calculaste el perímetro del triángulo completo en vez del trapecio ABED.",
+   "c": "Cometiste un error al calcular DE o los lados oblicuos AD y BE por semejanza."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0b2e33e0-a156-4337-bdaa-ed5c8e2ce44e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Los números primos entre 1 y 10 son 2,3,5,7 (4 valores). Las cartas rojas corresponden a dos símbolos con 10 cartas cada uno, 20 cartas rojas en total. Las cartas primo y rojas son 4 primos × 2 palos rojos = 8 cartas, entonces P(ganar)=8/40=1/5.",
+  "distractor_diagnosis": {
+   "b": "Corresponde solo a la probabilidad de que sea un número primo, sin considerar el color de la carta.",
+   "c": "Consideraste solo un palo rojo en vez de los dos palos rojos disponibles.",
+   "d": "Contaste incorrectamente el número de primos entre 1 y 10."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0b519586-c37c-4512-a7fd-806a1af6f9e8",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El vector suma es w=(a+c, b+d). Para que w esté en el primer cuadrante se necesita a+c>0 y b+d>0. Si a,b,c,d son todos positivos (como plantea la opción d), automáticamente ambas sumas son positivas, garantizando que w está en el primer cuadrante.",
+  "distractor_diagnosis": {
+   "a": "Comparar a con c y b con d no garantiza que sus sumas sean positivas.",
+   "b": "Al igual que la opción a, no asegura que a+c y b+d resulten positivos si los valores son negativos.",
+   "c": "Que ac>0 y bd>0 solo indica que a,c tienen igual signo entre sí (y b,d entre sí), no que sus sumas sean positivas.",
+   "e": "Que las cuatro componentes sean iguales no garantiza que su suma sea positiva, por ejemplo si todas son negativas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0b577516-ce34-4739-bedb-c2422977f182",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "log₃(81)=log₃(3⁴)=4, log₃(9)=log₃(3²)=2 y log₃(1)=0. Entonces 4−2+0=2.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a un error al calcular alguno de los tres logaritmos individuales.",
+   "c": "Olvidaste restar log₃(9) correctamente en la operación.",
+   "d": "Ignoraste el término −log₃(9), dejando solo log₃(81)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0d644e0d-3773-4564-9690-8a2141fb772b",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "0d81263e-56a2-4346-8256-0364334b967b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La intensidad depende del inverso del cuadrado de la distancia: I=100/d². Si la distancia se duplica (2d), la nueva intensidad es 100/(2d)²=100/(4d²), que es un cuarto de la intensidad original.",
+  "distractor_diagnosis": {
+   "b": "Aplicaste una relación lineal (mitad) en vez de cuadrática con la distancia.",
+   "c": "Invertiste la relación, multiplicando en vez de dividir por el cuadrado de la distancia.",
+   "d": "No corresponde al factor correcto derivado de elevar 2 al cuadrado en el denominador."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0de4252b-4e2f-4341-bdf0-b6b3311f02dd",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "log₃(1/9) se puede escribir como log₃(3⁻²), que por propiedad de potencias es igual a −2.",
+  "distractor_diagnosis": {
+   "a": "Confundiste base y argumento, como si calcularas log₉(3) en vez de log₃(1/9).",
+   "b": "Olvidaste el signo negativo del exponente al escribir 1/9 como potencia de 3.",
+   "c": "No corresponde a una aplicación directa de la propiedad de logaritmos de potencias.",
+   "d": "Calculaste el exponente como −1 en vez de −2, quizás confundiendo 1/9 con 1/3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0f94d8e9-e007-40e8-b910-9fba1b7a2a4a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El área es A(x)=x(30−2x)=−2x²+30x, una parábola que abre hacia abajo. Su máximo está en el vértice x=−30/(2·(−2))=7,5. Evaluando: A(7,5)=7,5·(30−15)=7,5·15=112,5 m².",
+  "distractor_diagnosis": {
+   "a": "Corresponde a evaluar A(x) en un punto distinto al vértice de la parábola.",
+   "c": "Usaste x=6 en vez de x=7,5 al buscar el máximo.",
+   "d": "Corresponde a usar la mitad del total de malla (15 m) como si fuera x, en vez del valor del vértice."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "10977945-40a5-416b-9fec-a7fb005afa7e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea a el número de entradas de adulto y n el de niño. a+n=12 y 5a+3n=48 (en miles). Sustituyendo n=12−a: 5a+3(12−a)=48 → 2a=12 → a=6.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a invertir los precios de adulto y niño al plantear las ecuaciones.",
+   "c": "No proviene de resolver correctamente el sistema de dos ecuaciones.",
+   "d": "Contiene un error aritmético al despejar la variable a."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "11e00df9-a513-40ed-9981-be26af2dc0d2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "124f9a54-3d2b-413d-8cc0-fb0770883fcc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "12674862-3059-4591-94ec-ced585d7105e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El producto entre 3 y −3 es −9, y el producto entre 5 y −5 es −25. Restando: −9 − (−25) = −9 + 25 = 16.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a un error de signo al restar los dos productos.",
+   "b": "Corresponde a otro error de signo en la resta de los productos.",
+   "d": "No proviene de aplicar correctamente la resta entre los dos productos calculados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "126b0bae-96ad-4eb8-9f5c-46a8f30c69f6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "pH = −log[H⁺] = −log(10⁻²) = −(−2) = 2.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste aplicar el signo negativo de la fórmula del pH.",
+   "b": "Confundiste el pH con la concentración misma, sin aplicar el logaritmo.",
+   "d": "Invertiste el exponente, como si calcularas 10² en vez de aplicar −log(10⁻²)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "12f0e378-9cea-4356-8f94-c1c377801af4",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "La distancia entre los ciclistas disminuye con el tiempo a una tasa igual a la suma de sus rapideces, ya que se acercan uno al otro. Por eso la distancia restante en función del tiempo es la distancia inicial menos lo que han recorrido juntos: m(t) = d − (v+w)t.",
+  "distractor_diagnosis": {
+   "a": "Usa la diferencia de rapideces (v−w), que aplicaría si viajaran en el mismo sentido, no en sentidos opuestos.",
+   "b": "Suma la distancia recorrida a la inicial en vez de restarla.",
+   "c": "Usa la diferencia de rapideces en vez de la suma, que corresponde a movimientos en sentidos opuestos.",
+   "d": "Resta la distancia inicial al desplazamiento en vez de restar el desplazamiento a la distancia inicial."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1366fd3e-9e25-48af-b945-4c5886bce4dd",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La función V(t)=v₀−a(t−2)² es una parábola que abre hacia abajo (porque el término con a es negativo), con vértice en t=2. En ese vértice el volumen alcanza su valor máximo, que es v₀ m³.",
+  "distractor_diagnosis": {
+   "a": "Confunde el vértice de la parábola (t=2) con el instante inicial (t=0).",
+   "b": "No considera que la parábola abre hacia abajo, por lo que el volumen disminuye después de t=2.",
+   "d": "No resuelve correctamente la ecuación para encontrar cuándo el pozo queda sin agua.",
+   "e": "Evalúa mal la función en t=2, donde el término (t−2)² se anula y no debería sumar nada extra."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "141bd9ee-e176-4928-8188-e6d2435f9ad2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con h=h₀·d₁/d₀ y d₁ constante: h_B=25·d₁/200 y h_T=10·d₁/250. El cociente h_B/h_T=(25/200)/(10/250)=25/8, por lo tanto h_B=(25/8)·h_T.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a una razón distinta, no a 25/8.",
+   "c": "Invertiste la relación entre h_B y h_T.",
+   "d": "Redondeaste la razón exacta 25/8 a un número entero."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1544dc01-cbb4-48f3-b75c-69d548a0025d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "15458241-0003-4e39-bfc6-58696ae63748",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "159ae120-9b43-47be-a61f-7ca63843726c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Para calcular log₂(256) con una calculadora de base 10 se usa el cambio de base: log₂(256)=log(256)/log(2). La secuencia de teclas que reproduce esta operación es la de la opción a, que ingresa log(256) dividido por log(2).",
+  "distractor_diagnosis": {
+   "b": "Invierte el orden o la operación entre los dos logaritmos necesarios para el cambio de base.",
+   "c": "Cambia el orden de los números dentro de los logaritmos, invirtiendo base y argumento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1677fb79-7db6-4963-9803-867cb486bb41",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Para contar las comisiones posibles se necesita saber cuántas mujeres y cuántos hombres hay en total en el curso, además de P y Q. La condición (1) da M y el total de mujeres, pero no el total de hombres; la condición (2) da P y Q, pero no cuántas personas hay disponibles de cada género. Ni por separado ni juntas son suficientes, porque falta el total de hombres del curso.",
+  "distractor_diagnosis": {
+   "a": "Conocer M y el total de mujeres no basta sin saber cuántos hombres hay disponibles.",
+   "b": "Conocer P y Q no basta sin saber el total de hombres y mujeres del curso.",
+   "c": "Incluso combinando ambas, sigue faltando el total de hombres disponibles.",
+   "d": "Ninguna de las dos condiciones por separado resuelve el problema, se necesita información adicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "185393f8-565d-4d91-ba65-01699ba7d2c6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los elementos CHON suman C=18%, H=10%, O=65% y N=3%, es decir 96% del total. El porcentaje de oxígeno dentro de ese grupo CHON es (65/96)×100.",
+  "distractor_diagnosis": {
+   "a": "Invierte la fracción, dividiendo el total por el porcentaje de oxígeno en vez de al revés.",
+   "b": "Usa un valor incorrecto (32) en vez de 96 como total de los elementos CHON.",
+   "d": "Usa el porcentaje de hidrógeno (4%) en el denominador en vez del total de CHON (96%)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "18c553cb-01c0-474a-972a-d19962bdcf2c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "18eff5e6-de5a-49a6-8ed5-2552e0bf0435",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En el triángulo isósceles con AC=BC=5 y altura CF=4, la base AB mide 2·√(25−16)=6 cm. Como DE//AB está a 1 cm de AB, la altura desde C hasta DE es 3 cm, dando una razón de semejanza 3/4: DE=4,5 cm y los lados AD=BE=5−(3/4)·5=1,25 cm. El perímetro del trapecio ABED es 6+1,25+4,5+1,25=13 cm.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los lados sin aplicar correctamente la razón de semejanza.",
+   "b": "Calculaste el perímetro del triángulo completo en vez del trapecio ABED.",
+   "c": "Cometiste un error al calcular DE o los lados oblicuos AD y BE."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "198b86d8-139e-44cb-bb6b-7c03f7c84a1c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "19c3e158-5b6c-4694-adf9-ad4bced899f4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En el punto de equilibrio, ingreso y costo son iguales: 2.000x=800x+1.200.000. Restando 800x: 1.200x=1.200.000, por lo tanto x=1.000 unidades.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a dividir el costo fijo por el precio de venta en vez de por el margen de contribución.",
+   "b": "Usa el costo variable en vez del margen de contribución (precio menos costo variable).",
+   "d": "Contiene un error aritmético al resolver la ecuación de equilibrio.",
+   "e": "Corresponde a usar un margen de contribución erróneo en el cálculo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "19ef2e81-43e2-436a-b2a9-323b088781c7",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El volumen de un cilindro es V=πr²H, así que ρ=M/(πr²H). Igualando con el modelo dado ρ=4M/(Hx²), obtienes x²=4πr²=(2πr)², es decir x=2πr, que es el perímetro de la base del cilindro.",
+  "distractor_diagnosis": {
+   "a": "Confunde el área πr² con x², sin aplicar correctamente el factor 4π.",
+   "b": "Iguala x directamente con r sin resolver la ecuación x²=4πr².",
+   "c": "Confunde 2r (diámetro) con 2πr (perímetro), olvidando el factor π."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1afb7e66-6647-4454-825c-bee4b6691210",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sean a y b los números, con a=1−b (uno es sucesor del inverso aditivo del otro) y |a−b|=45. Sustituyendo: |1−2b|=45, lo que da b=−22 o b=23, y en cualquier caso el par queda fijo: {23,−22}. Por lo tanto la condición (2) por sí sola determina ambos números, mientras que (1) sola no lo hace porque hay infinitos pares con un positivo y un negativo separados por 45.",
+  "distractor_diagnosis": {
+   "a": "Conocer solo los signos de los números no fija sus valores exactos, hay infinitos pares posibles.",
+   "c": "No es necesario usar ambas condiciones juntas, ya que la condición (2) sola basta.",
+   "d": "La condición (1) sola no determina los números, por lo que no ambas alternativas sirven por separado.",
+   "e": "La condición (2) sí es suficiente por sí sola, no se requiere información adicional."
+  },
+  "skip_reason": null
+ }
+]

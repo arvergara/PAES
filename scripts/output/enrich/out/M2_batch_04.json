@@ -1,0 +1,571 @@
+[
+ {
+  "id": "5e6b9b01-6aed-4068-956c-624082b88595",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los dos cuadrados comparten una diagonal en línea recta y se tocan en un vértice, por lo que el cuadrado que los contiene tiene lado (a+x). El área de ese cuadrado mayor es (a+x)² = a² + 2ax + x². El área que hay que agregar es esa área menos las de los dos cuadrados originales: (a²+2ax+x²) − a² − x² = 2ax.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la suma de las áreas de los cuadrados originales (a²+x²) sin sumar el término cruzado.",
+   "b": "Te faltó multiplicar por 2 el producto de los lados.",
+   "d": "Desarrollaste mal el binomio o restaste con un signo incorrecto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "5ecc063d-5348-4685-9fb0-9655c9d2b972",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "60225c44-95b4-449d-9a81-deae447ab138",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La razón de homotecia es el cociente entre el tamaño de la imagen y el del objeto original: k = 0,8 mm / 0,02 mm = 40. El microscopio amplía el microorganismo 40 veces.",
+  "distractor_diagnosis": {
+   "a": "Corriste mal la coma decimal, como si dividieras 0,8 por 0,04.",
+   "c": "Confundiste las cifras decimales, como si calcularas 0,08 dividido 0,02.",
+   "d": "Multiplicaste por 2 el resultado correcto en vez de dividir bien las medidas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "607b8c6d-4f23-4ffd-a097-42bf2423fd7c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Al dividir la segunda ecuación por 2 se obtiene 3x − y = 3,5. Ambas rectas tienen pendiente 3 pero interceptos distintos (−5 y −3,5), por lo que son rectas paralelas. Un sistema con rectas paralelas distintas no tiene solución.",
+  "distractor_diagnosis": {
+   "a": "Asumiste que dos ecuaciones distintas siempre se cortan en un punto, sin comparar las pendientes.",
+   "c": "Confundiste rectas paralelas con coincidentes; las constantes son distintas, no proporcionales igual.",
+   "d": "Aplicaste la condición de perpendicularidad sin calcular ni comparar las pendientes reales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6254c06a-8787-4756-b31e-77ad07e5dc01",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6381b4e9-65bf-4c08-831e-ebe9691a4511",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "65b8b80c-d314-4fcf-b7fb-3ac9e9cb160e",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se verifica directamente en la ecuación original: (2−3)(2−4) = (−1)(−2) = 2, y (5−3)(5−4) = (2)(1) = 2. Ambos valores cumplen la igualdad, por lo que x=2 y x=5 son soluciones válidas comprobadas por sustitución directa.",
+  "distractor_diagnosis": {
+   "a": "Confundiste con las raíces de (x−3)(x−4)=0, que son 3 y 4, no las de la ecuación igualada a 2.",
+   "c": "La ecuación correcta tras igualar a cero es x²−7x+10=0, no x²−7x+12=0.",
+   "d": "El discriminante positivo solo garantiza raíces reales distintas, no que ambas sean positivas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "66249a4a-034d-4e12-a3a4-e724c396f09b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La probabilidad de elegir 3 mujeres entre las 5 disponibles, de un total de 8 personas para 3 cargos, es C(5,3)/C(8,3) = 10/56 = 5/28.",
+  "distractor_diagnosis": {
+   "b": "Calculaste la probabilidad de que la primera persona elegida sea mujer, no las tres.",
+   "c": "Usaste la proporción de hombres en vez de la de mujeres.",
+   "d": "Cometiste un error al calcular el número total de combinaciones posibles.",
+   "e": "Comparaste la cantidad de mujeres con la de hombres en vez de calcular la probabilidad real."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "66c1dce6-03f7-4928-8a70-7611bacd4d19",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con (1) solo se conoce la fracción de hombres que llevan agua, pero nada del comportamiento de las mujeres, así que no basta. Con (2) solo se conoce la fracción de mujeres que llevan agua, pero no qué porcentaje del curso son mujeres. Combinando ambas: (1) da el 40% de mujeres en el curso y (2) da que 1/3 de ellas lleva agua, permitiendo calcular la probabilidad conjunta pedida.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que conocer solo el dato de los hombres bastaba para deducir el de las mujeres.",
+   "b": "Olvidaste que sin saber qué porcentaje del curso son mujeres no puedes calcular la probabilidad conjunta.",
+   "d": "Creíste que cualquiera de las afirmaciones por separado ya determina el resultado.",
+   "e": "No consideraste que combinando ambas afirmaciones sí se obtiene el dato faltante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "67468e06-762b-4351-84e1-6cee774fe2c8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Usando el teorema de Bayes: P(pronostica no lluvia) = 0,15×0,30 + 0,90×0,70 = 0,675. La probabilidad de que llueva dado que se pronosticó que no lloverá es P(R|NR) = 0,045/0,675 ≈ 0,067, es decir, 6,7%.",
+  "distractor_diagnosis": {
+   "a": "Usaste directamente la probabilidad de que el pronóstico falle cuando llueve, sin aplicar Bayes.",
+   "b": "Confundiste el resultado con el complemento de la precisión cuando no llueve.",
+   "d": "Reportaste solo el numerador de Bayes (4,5%) sin dividir por la probabilidad total del pronóstico.",
+   "e": "Ignoraste la información del pronóstico y usaste solo la probabilidad base de lluvia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "680d71b5-794f-490c-af3e-64701c41cd24",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6861b051-fdf2-48c9-9ff1-4911775017ca",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Jaime se queda con 4/5 de sus estampillas cada mes: 2500 → 2000 → 1600 → 1280. Para repartir en partes iguales entre sus 5 hermanos, el total debe ser divisible por 25. En 1280, la quinta parte es 256, y 256 no se puede dividir en partes iguales entre 5 hermanos sin cortar estampillas, así que el proceso se detiene ahí y se queda con 1280.",
+  "distractor_diagnosis": {
+   "a": "Asumiste que el reparto continúa indefinidamente hasta llegar a 0.",
+   "b": "Confundiste la cantidad que le tocaría a cada hermano con lo que le queda a Jaime.",
+   "d": "Te quedaste en el paso anterior, confundiendo lo regalado ese mes con lo que le queda.",
+   "e": "Cometiste un error al calcular el resto de la división."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "68e2dfdd-8dda-43bd-acef-48f2dbf5091b",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Verificando directamente en la ecuación (x−4)(x−3)=2: para x=2, (2−4)(2−3)=(−2)(−1)=2; para x=5, (5−4)(5−3)=(1)(2)=2. Ambos valores satisfacen la ecuación original mediante comprobación directa.",
+  "distractor_diagnosis": {
+   "a": "Confundiste con las raíces de (x−4)(x−3)=0, que son 4 y 3, no las de la ecuación igualada a 2.",
+   "c": "Olvidaste restar el 2 antes de igualar a cero: la ecuación correcta es x²−7x+10=0, no x²−7x+12=0.",
+   "d": "El discriminante positivo solo garantiza raíces reales distintas, no que sean positivas."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "699842fb-b0bb-4c61-a7d6-02b938dc2503",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "M = log(A/A₀) = log(100.000) = log(10⁵) = 5, usando la propiedad log(10ⁿ)=n.",
+  "distractor_diagnosis": {
+   "a": "Calculaste log(10.000) en vez de log(100.000), un orden de magnitud menos.",
+   "c": "Calculaste log(1.000.000) en vez de log(100.000), un orden de magnitud más.",
+   "d": "Multiplicaste el exponente por 10 en vez de usar la propiedad log(10ⁿ)=n."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6c9aa51c-2740-45a1-9fe1-d031c5f60d26",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "6d2f13ea-c101-41f0-8bdd-463a10ce5f77",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La mediana divide los datos en dos mitades iguales: al menos el 50% de los estudiantes tiene una nota mayor o igual a la mediana. Como la mediana es 3,5 y 3,5>2,5, al menos el 50% de los estudiantes tiene una nota superior a 2,5. El promedio, en cambio, no garantiza esto porque puede estar influido por valores extremos.",
+  "distractor_diagnosis": {
+   "a": "El promedio no garantiza nada sobre la proporción de estudiantes sobre un valor; puede haber pocos datos altos que lo eleven.",
+   "c": "No era necesario usar ambas afirmaciones: la mediana por sí sola ya resuelve el problema.",
+   "d": "El promedio también podría no bastar, ya que no tiene la misma propiedad que la mediana.",
+   "e": "La mediana por sí sola sí resuelve el problema, no se requiere información adicional."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6e80e11a-ff4b-4ea8-979d-4e21436fc0a6",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La suma de un número irracional P y un número racional R siempre es irracional: si P+R fuera racional, entonces P=(P+R)−R sería una resta de dos racionales, es decir, racional, lo que contradice que P es irracional.",
+  "distractor_diagnosis": {
+   "a": "Dos números irracionales pueden sumarse y cancelarse dando un número racional, por ejemplo √2+(−√2)=0.",
+   "b": "No consideraste que R podría ser 0 o que P+Q puede resultar racional, anulando la irracionalidad.",
+   "c": "El producto de dos irracionales puede ser racional, por ejemplo √2×√2=2.",
+   "e": "No consideraste que el producto de dos irracionales podría ser racional, haciendo racional toda la expresión."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "6ecc1020-d79d-4aa8-ade4-626869559ab7",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Usando las propiedades de los logaritmos: log(10p³) = log 10 + log p³ = 1 + 3·log p. Como log p = q, el resultado es 1 + 3q.",
+  "distractor_diagnosis": {
+   "a": "Elevaste q al cubo en vez de multiplicarlo por 3.",
+   "b": "Multiplicaste en vez de sumar al aplicar la propiedad del logaritmo de un producto.",
+   "c": "Sumaste 10 en vez de log 10 = 1.",
+   "d": "Olvidaste sumar el 1 correspondiente a log 10."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "71178e52-ecc3-45c0-9ef0-f8c138e3e0bd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La fórmula de interés compuesto es M = C·(1+r)ⁿ. La tasa mensual 0,4% se expresa como 0,004, y como hay 12 meses en un año, n=12. Entonces M = 1.000.000·(1+0,004)¹².",
+  "distractor_diagnosis": {
+   "a": "Usaste 0,4 en vez de 0,004; olvidaste convertir el porcentaje a decimal correctamente.",
+   "c": "Usaste 0,04, confundiendo la tasa con un 4% mensual.",
+   "d": "Aplicaste la fórmula de interés simple en vez de interés compuesto.",
+   "e": "Usaste solo 6 meses en vez de los 12 meses de un año."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "712a75b8-b43d-4fa6-af61-7d1bedb5adea",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Rotar (1,0) en 60° antihorario y luego rotar el resultado otros 60° equivale a rotar (1,0) en 120° en total. Usando coordenadas polares: (cos120°, sen120°) = (−1/2, √3/2).",
+  "distractor_diagnosis": {
+   "a": "Aplicaste la fórmula de rotación una sola vez en vez de dos.",
+   "b": "Usaste un vector que no corresponde a la rotación de un vector unitario.",
+   "c": "Cometiste un error de signo o de fracción al aplicar la fórmula por segunda vez."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "71e3b49e-a2b9-4fca-9fda-b55d34269e02",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "728bb64a-03c9-49f0-9d0b-25c032e56c1c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Las frecuencias son acumuladas: hasta Hipoglucemia llega a 5% y hasta Glucemia en ayunas alterada llega a 50%. La proporción sin hipoglucemia ni hiperglucemia corresponde a la diferencia entre esas dos acumuladas: 50% − 5% = 45%.",
+  "distractor_diagnosis": {
+   "b": "Sumaste hipoglucemia e hiperglucemia (5%+50%) en vez de restar las acumuladas correctas.",
+   "c": "Mezclaste frecuencias acumuladas con frecuencias simples de cada categoría.",
+   "d": "Sumaste 50% y 23% tratando las frecuencias acumuladas como si fueran independientes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "72ee3341-7e20-42f2-831f-3ad0370016fa",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Como p<q<r, los tres valores del grupo 1 son distintos entre sí, y lo mismo ocurre en el grupo 2 (p−1<q<r+1). Un conjunto de datos con al menos dos valores distintos siempre tiene desviación estándar mayor que cero.",
+  "distractor_diagnosis": {
+   "a": "Asumiste que reducir o expandir los extremos no aumenta la dispersión; el grupo 2 en realidad es más disperso.",
+   "b": "Ignoraste que mover los extremos hacia afuera cambia la desviación estándar.",
+   "c": "Confundiste el rango, que sí cambia entre los grupos (r−p vs r−p+2)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "730317dd-bae7-4a79-af2b-12b2b2e12975",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En la intersección ambas rectas tienen el mismo valor de y: 2x+1 = −x+7 → 3x=6 → x=2. Sustituyendo, y=2(2)+1=5. El punto de intersección es (2,5).",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al despejar x, obteniendo 3 en lugar de 2.",
+   "c": "Cometiste un error de signo al igualar las dos ecuaciones.",
+   "d": "Invertiste las coordenadas x e y del punto solución."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "73a483fa-de48-47cf-b178-00d566ef0df4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Usando el teorema de Bayes: P(marcado defectuoso) = 0,95×0,04 + 0,03×0,96 = 0,0668. La probabilidad de que sea realmente defectuoso dado que fue marcado es P(D|+) = 0,038/0,0668 ≈ 0,569, es decir, 57%.",
+  "distractor_diagnosis": {
+   "a": "Usaste la sensibilidad del test (95%) como si fuera la probabilidad final buscada.",
+   "c": "Cometiste un error al calcular el denominador de la fórmula de Bayes.",
+   "d": "Ignoraste la información del test y usaste solo la tasa base de productos defectuosos (4%).",
+   "e": "Cometiste un error al combinar los términos de la fórmula de Bayes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7441d9d9-dafe-4ca4-8614-0b5154f818e0",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "76a47006-823a-42d6-b9c6-f6c66fafa1f3",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen original por paquete es 8³x=512x cm³. Con el lado reducido a 7 cm, el nuevo volumen es 7³x=343x cm³. El volumen que se deja de incluir es la diferencia: 512x−343x=169x=13²x.",
+  "distractor_diagnosis": {
+   "b": "Calculaste el volumen del cubo reducido (7³x), no la diferencia respecto al original.",
+   "c": "Olvidaste elevar al cubo la diferencia de los lados, dejando solo x.",
+   "d": "Restaste 1 a la cantidad de cubos x en vez de restar 1 cm al lado de cada cubo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "774bf197-d500-460d-8490-01ae43bce6d3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con la condición (2), un número es el sucesor del inverso aditivo del otro: a=−b+1. Combinando con la distancia |a−b|=45 se obtiene |1−2b|=45, lo que entrega una solución única para el par de números. La condición (1) sola no basta, pues hay infinitos pares de signos opuestos con distancia 45.",
+  "distractor_diagnosis": {
+   "a": "Pensaste que solo saber los signos ya determina los valores exactos; hay infinitos pares posibles con esa condición.",
+   "c": "No notaste que la condición (2) ya basta por sí sola, sin necesitar la (1).",
+   "d": "Creíste que la condición (1) también alcanza para determinar los números, lo cual es falso.",
+   "e": "No aplicaste correctamente la ecuación de la condición (2) para hallar el valor único."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "78af7407-45bd-4884-9087-a05b00b65284",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "79fa16d3-f9e3-4d87-94db-0a6315c50dcc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7a606b14-23b6-434e-9c03-f61e143d4d6d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con centro C(1,1) y razón k=2, la imagen se calcula como P' = C + k·(P−C) = (1,1) + 2·(2,3) = (1,1) + (4,6) = (5,7).",
+  "distractor_diagnosis": {
+   "a": "Aplicaste la homotecia como si el centro fuera el origen, calculando 2×P directamente.",
+   "c": "Sumaste el centro dos veces en el cálculo.",
+   "d": "Olvidaste sumar de nuevo las coordenadas del centro después de escalar el vector."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7ab17090-7f27-426b-95f6-18ed38a446af",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "7b7525bd-1496-4c65-b944-f1adb5a61291",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Comparando coordenadas correspondientes de ambos rectángulos respecto al origen (por ejemplo, 6 y 14, o 3 y 7), la razón de homotecia es 3/7, ya que 3/7 = 6/14.",
+  "distractor_diagnosis": {
+   "a": "Usaste un valor obtenido de restar cotas en vez de dividir coordenadas correspondientes.",
+   "c": "Confundiste las coordenadas correspondientes, mezclando datos de distintos ejes.",
+   "d": "Incluiste un signo negativo que no corresponde, ya que ambas figuras están en el mismo cuadrante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7b9a491e-77e5-414f-94c8-e6ac4ab768be",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Una razón de homotecia −2 implica que la imagen mide el doble del original (valor absoluto 2) y queda invertida, rotada 180°, respecto al centro. Como el centro es el vértice del ángulo recto, ese vértice queda compartido por ambos triángulos.",
+  "distractor_diagnosis": {
+   "a": "No consideraste que la razón −2 implica que el vértice del ángulo recto se comparte y la figura se invierte 180°.",
+   "c": "Ignoraste que el valor absoluto de la razón (2) implica que el triángulo homotético es el doble de tamaño, no igual.",
+   "d": "No respetaste que ambos triángulos deben compartir el vértice del ángulo recto como centro de homotecia."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7c775fda-7630-41c4-a063-b7f244983fbf",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Planteando el sistema a+n=200 y 5000a+2000n=760.000, y sustituyendo n=200−a: 5000a+2000(200−a)=760.000 → 3000a=360.000 → a=120, n=80.",
+  "distractor_diagnosis": {
+   "a": "Asumiste una división equitativa sin resolver el sistema de ecuaciones.",
+   "b": "Invertiste los precios de las entradas de adulto y niño al plantear las ecuaciones.",
+   "d": "Intercambiaste las cantidades de adultos y niños en la respuesta final.",
+   "e": "Cometiste un error aritmético al despejar la variable en el sistema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7d2f36fa-5c00-475e-8897-e8c4acc64f38",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El área es el producto de los lados: √50 · √32 = √(50·32) = √1600 = 40 m². También se puede simplificar primero: √50=5√2 y √32=4√2, entonces 5√2·4√2=20·2=40 m².",
+  "distractor_diagnosis": {
+   "b": "Sumaste los radicandos (50+32) en vez de multiplicarlos.",
+   "c": "Dejaste el área como √1600 sin simplificar a su valor exacto, 40.",
+   "d": "Olvidaste multiplicar √2×√2=2, dejando un √2 sin resolver."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7daff033-d093-4fb6-8527-1efa789c0885",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se pide P(menor de 30 | compró A). Del total de 180 clientes que compraron A, 80 son menores de 30 años, por lo que la probabilidad condicional es 80/180.",
+  "distractor_diagnosis": {
+   "a": "Calculaste la probabilidad conjunta (80/500) en vez de la condicional.",
+   "b": "Invertiste la condición, calculando P(compró A | menor de 30) en vez de al revés.",
+   "d": "Usaste la probabilidad marginal de ser menor de 30, ignorando la condición de haber comprado A.",
+   "e": "Usaste la probabilidad marginal de haber comprado A, sin considerar la edad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7dd667d5-e947-4025-9243-6394cdc02bdc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El promedio de los 5 puntajes es 10 y la desviación estándar es √10≈3,16, dando el rango (6,84 ; 13,16). Solo 8, 9 y 12 quedan dentro de ese rango (6 y 15 quedan fuera). El puntaje final es el promedio de esos tres: (8+9+12)/3=29/3≈9,67 puntos.",
+  "distractor_diagnosis": {
+   "a": "Reportaste el promedio original (10) sin eliminar los puntajes fuera del rango.",
+   "b": "Excluiste el puntaje equivocado, dejando solo 4 valores en el promedio final.",
+   "d": "Excluiste demasiados puntajes, promediando solo 2 valores en vez de 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7e7c2ac2-25c3-40a6-b96d-e5c0acf65896",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Resolviendo −5t²+16t+45=0 (o 5t²−16t−45=0) con la fórmula cuadrática: t=(16±√(256+900))/10=(16±34)/10. Como t debe ser positivo, t=(16+34)/10=5.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al calcular la raíz de la ecuación cuadrática.",
+   "c": "Usaste mal la fórmula cuadrática, obteniendo un valor mayor al correcto.",
+   "d": "Cometiste un error aritmético al aplicar la fórmula general."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "7f09caa4-857e-44e9-ae71-8339963bd92a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La intensidad es I=100/d². Si la distancia se duplica (d→2d), la nueva intensidad es 100/(2d)²=100/(4d²)=I/4, es decir, un cuarto de la original.",
+  "distractor_diagnosis": {
+   "b": "Pensaste que la intensidad es inversamente proporcional a la distancia, no al cuadrado de la distancia.",
+   "c": "Invertiste la relación, pensando que duplicar la distancia multiplica la intensidad por 4.",
+   "d": "Cometiste un error numérico sin relación clara con la fórmula correcta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8047fde7-30e4-45a3-9a44-6c46aedcfa64",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Costo total del leasing: 48×$320.000 + $1.500.000 = $16.860.000. Costo total del crédito: 48×$380.000 = $18.240.000. El ahorro es la diferencia: $18.240.000 − $16.860.000 = $1.380.000.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error aritmético al sumar los montos totales.",
+   "b": "Cometiste un error al calcular la diferencia entre ambos totales.",
+   "d": "Confundiste el ahorro con el valor de la opción de compra.",
+   "e": "Calculaste solo la diferencia de las cuotas mensuales (48×$60.000), sin restar la opción de compra."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "81b3c00b-71ff-45e7-bb25-714ba0d9510f",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Usando diferencia de cuadrados, p²−q²=(p+q)(p−q). Al dividir por (p+q), válido porque q≠−p, la expresión se reduce a (p−q). Las condiciones dadas solo garantizan que los denominadores no se anulen.",
+  "distractor_diagnosis": {
+   "a": "Aplicaste diferencia de cubos en lugar de diferencia de cuadrados.",
+   "b": "Confundiste la factorización con una suma de cubos.",
+   "c": "No cancelaste completamente los factores comunes en la expresión.",
+   "d": "Olvidaste dividir por (p+q) después de factorizar la diferencia de cuadrados."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "82d1a824-7abb-4b2d-bf9a-0c1bc1525ddc",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El total de monedas usadas es 35, lo que da la ecuación M+N=35. El valor total pagado es c, formado por M monedas de $a y N monedas de $b, lo que da aM+bN=c.",
+  "distractor_diagnosis": {
+   "a": "Igualaste la cantidad de monedas con los valores de las monedas (a+b) en vez de con 35.",
+   "b": "Invertiste las ecuaciones: usaste el total de dinero como cantidad de monedas y viceversa.",
+   "d": "Multiplicaste (a+b) por (M+N) en vez de ponderar cada moneda por su cantidad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "839517cb-91ff-4e83-9e9d-349225546ece",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "83d3abc3-22fe-4863-a0d6-cff0990d274c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Como DE // BC, los triángulos ADE y ABC son semejantes, con razón AD/AB = DE/BC, es decir, n/AB = m/p, de donde AB = np/m. Entonces DB = AB − AD = np/m − n = n(p−m)/m.",
+  "distractor_diagnosis": {
+   "a": "Confundiste DB con AB, olvidando restar AD.",
+   "c": "Invertiste la razón de semejanza, usando BC/DE en vez de DE/BC.",
+   "d": "Complicaste innecesariamente la fórmula, mezclando términos que no corresponden a la semejanza.",
+   "e": "Mezclaste operaciones que no se derivan de la semejanza de los triángulos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8498f380-b3d9-4519-aab7-6a2ef5982a01",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La relación es H=k·h, con k=2,5 y H=500 cm. Despejando h: h=H/k=500/2,5=200 cm.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste en vez de dividir (500×2,5) en lugar de 500÷2,5.",
+   "c": "Cometiste un error aritmético al dividir.",
+   "d": "Usaste un factor de división incorrecto en vez de 2,5."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "84a55700-949e-4645-a047-09fa464e76f6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con ángulo de elevación 45°, tan45°=altura/distancia. Como tan45°=1, la altura es igual a la distancia horizontal: 1×12=12 m.",
+  "distractor_diagnosis": {
+   "a": "Dividiste innecesariamente por 2.",
+   "b": "Confundiste la altura con la hipotenusa de un triángulo 45-45-90.",
+   "d": "Confundiste la altura buscada con la hipotenusa del triángulo.",
+   "e": "Multiplicaste por 2 en vez de usar que tan45°=1."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "8555f938-8400-4553-838c-49c6350aef7e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "86eee26a-6373-4359-ab7c-f3adc01d9cc3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Aplicando la fórmula: C = 3.000.000×0,015×1,1956 / (1,1956−1) = 53.802 / 0,1956 ≈ 275.009, que se aproxima a $275.400.",
+  "distractor_diagnosis": {
+   "a": "Subestimaste el valor, ignorando buena parte de los intereses acumulados.",
+   "b": "Cometiste un error de redondeo u orden de operaciones al aplicar la fórmula.",
+   "d": "Sobrestimaste el resultado, posiblemente por un error en el denominador.",
+   "e": "Usaste una aproximación de interés simple en vez de la fórmula de cuota fija compuesta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "87121731-c26b-4ac1-894d-add953a93658",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si log_m(p)=3, entonces p=m³. Luego log_p(mp²) = log_(m³)(m·m⁶) = log_(m³)(m⁷) = 7/3, usando que log_(a^k)(a^j)=j/k.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error en el exponente, usando m⁸ en vez de m⁷.",
+   "c": "Invertiste la razón de cambio de base, usando 2/3 en vez de 7/3.",
+   "d": "Cometiste un error al aplicar la fórmula de cambio de base."
+  },
+  "skip_reason": null
+ }
+]

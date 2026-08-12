@@ -1,0 +1,554 @@
+[
+ {
+  "id": "0d88dd2b-2a85-4f56-950d-3c3ed853483e",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen de un cilindro es V = π·r²·h. Con r = 3 cm y h = 10 cm: V = 3,14 · 3² · 10 = 3,14 · 9 · 10 = 282,6 cm³.",
+  "distractor_diagnosis": {
+   "b": "Olvidaste elevar el radio al cuadrado.",
+   "c": "Usaste r = 2 en vez de r = 3.",
+   "d": "Multiplicaste como si el radio fuera 6 (el diámetro)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0db59dce-39ee-4231-a886-d1b4977daef2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El punto (2,−3) es vértice común de los 4 cuadrados de lado 2. Los otros vértices posibles se obtienen sumando o restando 2 a cada coordenada: x ∈ {0,2,4}, y ∈ {−5,−3,−1}. El punto (4,−5) cumple esta condición, por lo que es un vértice válido de uno de los cuadrados.",
+  "distractor_diagnosis": {
+   "a": "Moviste la coordenada y solo 1 unidad, no 2.",
+   "c": "Restaste 3 unidades en x en vez de 2.",
+   "d": "Invertiste las coordenadas x e y."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0dd949e6-eed8-4179-aa9f-51f8907dfa52",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se descomponen 12 = 2²×3 y 18 = 2×3². El MCM toma cada factor primo con su mayor exponente: 2²×3² = 4×9 = 36.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el MCD en vez del MCM.",
+   "c": "Usaste 2³ en vez de 2² para el factor 2.",
+   "d": "Multiplicaste 12×18 sin simplificar los factores comunes."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0e266e43-5923-4873-b2a5-5c96b5845cfe",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para multiplicar fracciones se multiplican los numeradores entre sí y los denominadores entre sí: (3×2)/(5×9) = 6/45. Simplificando por 3 (el MCD de 6 y 45): 6/45 = 2/15.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste correctamente pero no simplificaste el resultado.",
+   "b": "Sumaste numeradores y denominadores en vez de multiplicarlos.",
+   "d": "Multiplicaste los numeradores pero sumaste los denominadores.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0f3cdca1-c549-4aca-a9c8-d6b0c5d2a4b5",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "0f3d508d-1b6e-45ca-bd56-0b7bec76f17b",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se necesita que 0,85ⁿ < 0,5 para que el valor caiga bajo la mitad del precio original. Con los valores dados, 0,85⁴ = 0,522 todavía es mayor que 0,5, pero 0,85⁵ = 0,4437 ya es menor que 0,5. Por lo tanto, se necesitan 5 años completos.",
+  "distractor_diagnosis": {
+   "a": "Te detuviste muy pronto; a los 3 años el valor aún supera 0,5.",
+   "b": "Usaste 0,85⁴ = 0,522, que todavía supera 0,5.",
+   "d": "Sumaste un año de más al resultado correcto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0fa98829-39dc-4b54-9883-e076fef77067",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si la cantidad se cuadruplica cada hora, el crecimiento es exponencial con base 4. La cantidad después de n horas es el valor inicial multiplicado por 4 elevado a n: 320 × 4^n.",
+  "distractor_diagnosis": {
+   "a": "Usaste crecimiento lineal (multiplicar por n) en vez de exponencial.",
+   "c": "Elevaste todo el producto a la n, no solo el factor de crecimiento.",
+   "d": "Sumaste en vez de multiplicar por el factor de crecimiento."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "0ff4359b-bfcd-428b-8447-d125b535b7d5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El primer kilo cuesta $2.000 fijo. Los (n−1) kilos restantes cuestan $350 cada uno, así que el costo total es 2.000 + 350(n−1). Verificando: con n=1 da $2.000, y con n=3 da $2.700, ambos correctos.",
+  "distractor_diagnosis": {
+   "a": "Cobraste $350 también por el primer kilo, que ya está incluido en el cargo fijo.",
+   "c": "Olvidaste el cargo fijo de $2.000.",
+   "d": "Aplicaste la tarifa completa a todos los kilos, no solo a los adicionales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1051ab25-6ace-4dfe-8133-eb8fdffd7489",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma de los ángulos interiores de un triángulo es siempre 180°. El tercer ángulo es 180° − 45° − 75° = 60°.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "107b7240-f39c-4cdb-a361-fe2df48c1541",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La fórmula es NOTA = puntaje/14 + 2. Si el puntaje mínimo posible es 0, la nota resultante es 0/14 + 2 = 2, y como la función es creciente, esa es la nota más baja que se puede obtener. Por lo tanto, la nota mínima en la prueba es 2.",
+  "distractor_diagnosis": {
+   "a": "Ese puntaje no corresponde al que arroja la fórmula para nota 5,3.",
+   "b": "Con 50 puntos la nota es 50/14+2 ≈ 5,57, que no supera 6.",
+   "c": "La pendiente real es 1/14 por punto, no 2."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "10ccf78b-eb0e-44c0-8ea0-e10ea2b66467",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "11b9c88b-dded-4d99-995d-ee7cd7351e62",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Al trasladar un punto según un vector, se suman las componentes correspondientes. C(1,−2) trasladado por (−5,−3): (1+(−5), −2+(−3)) = (−4,−5).",
+  "distractor_diagnosis": {
+   "a": "Restaste el vector en vez de sumarlo.",
+   "b": "Sumaste mal la coordenada x.",
+   "d": "Invertiste el orden de las coordenadas del vector."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "11e09cb3-30bb-4f6d-b122-e64521a825db",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "log₁₀(x) = 2 significa que 10² = x. Por lo tanto, x = 100.",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste 10 por 2 en vez de elevar 10 al cuadrado.",
+   "c": "Usaste exponente 3 en vez de 2.",
+   "d": "No elevaste la base, solo repetiste el valor de la base."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "120874cf-341a-4a5e-a7f8-133807f8b608",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Se saca (a+1) como factor común: (a+1)² + (a+1)(a−3) = (a+1)[(a+1)+(a−3)]. Sumando dentro del corchete: (a+1)+(a−3) = 2a−2. El otro factor es (2a−2).",
+  "distractor_diagnosis": {
+   "a": "Expandiste todo el producto en vez de factorizar por (a+1).",
+   "b": "Olvidaste sumar el +1 al simplificar (a+1)+(a−3).",
+   "c": "Multiplicaste los dos términos entre paréntesis en vez de sumarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1208e04d-001a-4204-9d80-9c22227ed32f",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "1246a0f5-d158-431d-bb3e-97cd25fa44bc",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "12ba1f0a-ccb4-4dee-be3a-172991c411d3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El tiempo en minutos es 5.400 ÷ 15 = 360 minutos. Convirtiendo a horas: 360 ÷ 60 = 6 horas.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "12e00a86-b24a-4fc3-bd71-d3944b2b8bab",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1326790b-3693-4ca1-8a93-8ddb347a985c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "133d44d2-642b-4811-a232-56df4760f519",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen de un cubo es arista³. Con arista = 4 cm: V = 4³ = 64 cm³.",
+  "distractor_diagnosis": {
+   "b": "Calculaste 4² en vez de 4³.",
+   "c": "Multiplicaste 4×3 en vez de 4×4×4.",
+   "d": "Multiplicaste 4×4×3 en vez de 4×4×4."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "134cd4db-a456-404b-89bb-14ce759b1ef4",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1382479b-b078-463a-be4d-251abbb69042",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El perímetro de un rectángulo es P = 2·(largo + ancho) = 2·(12+8) = 2·20 = 40 m.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 2 la suma de los lados.",
+   "c": "Calculaste el área (12×8) en vez del perímetro.",
+   "d": "Sumaste mal los lados, usando 12+12 en vez de 12+8."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "13c6572b-e10f-44c3-8341-cbc98a1f44a4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "(2x−3)² = (2x)² − 2(2x)(3) + 3² = 4x² − 12x + 9, aplicando el cuadrado de un binomio.",
+  "distractor_diagnosis": {
+   "a": "No elevaste al cuadrado el coeficiente 2 de 2x.",
+   "b": "Te equivocaste en el signo del término central y del último término.",
+   "d": "Aplicaste la fórmula de diferencia de cuadrados en vez de binomio al cuadrado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1448e76f-d3c8-47dc-a9f8-ee26cdcdf5c7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La suma original es 5×12=60. Al agregar 18, la nueva suma es 60+18=78, repartida entre 6 números: 78÷6=13.",
+  "distractor_diagnosis": {
+   "a": "No sumaste el nuevo dato al calcular el nuevo promedio.",
+   "c": "Cometiste un error al dividir la nueva suma total.",
+   "d": "Cometiste un error al dividir la nueva suma total.",
+   "e": "Confundiste el promedio final con el número agregado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "15361eb7-0820-4ec7-9970-bd7e12fd5ea9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En 2 horas (120 minutos) hay 3 periodos de 40 minutos. El factor de crecimiento por periodo es 1,2. La cantidad final es 250 × 1,2³ = 250 × 1,728 = 432. El aumento es 432 − 250 = 182.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Calculaste solo un incremento del 20% simple, no compuesto en 3 periodos.",
+   "d": "Confundiste el aumento con la cantidad inicial."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "15da3cfc-d070-4b34-b313-eee9cb3bc3f6",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Con A(−1,1) y B(5,1), la base AB mide 6 unidades (misma altura, se resta la abscisa). Como el triángulo es isósceles con base AB, los lados CA y CB son iguales entre sí. Con el perímetro = 15, esos dos lados suman 15−6=9, por lo que cada uno mide 4,5: quedan completamente determinados. Solo con la condición (2) —que C esté en el primer cuadrante— no se fija un único punto, pues hay infinitos puntos en la mediatriz de AB dentro de ese cuadrante.",
+  "distractor_diagnosis": {
+   "b": "El primer cuadrante por sí solo no basta para fijar un único punto C.",
+   "c": "No es necesario usar ambas condiciones; el perímetro por sí solo ya determina los lados.",
+   "d": "La condición (1) por sí sola ya es suficiente, no se necesita además la (2).",
+   "e": "El perímetro (1) sí entrega la información necesaria por sí solo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "16913114-6f94-492f-b271-19517a43491e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1739c482-c7ad-4398-bab0-cf67550cba22",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Sea C la capacidad máxima. Inicialmente hay C/2 litros; al agregar 8 L se llega a 5C/6. La ecuación es C/2 + 8 = 5C/6. Multiplicando por 6: 3C + 48 = 5C, entonces 2C = 48 y C = 24 L.",
+  "distractor_diagnosis": {
+   "a": "Cometiste un error al despejar C en la ecuación.",
+   "b": "Cometiste un error al despejar C en la ecuación.",
+   "c": "Usaste 4/6 en vez de 5/6 al plantear la ecuación.",
+   "e": "Olvidaste dividir por 2 al despejar C."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "17bf3281-5e2e-4760-8ddc-17115f867993",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El precio de venta con 75% de ganancia es 6.000 × 1,75 = 10.500. Al rebajar ese precio en un 25%: 10.500 × 0,75 = 7.875.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el porcentaje de rebaja sobre el precio de venta.",
+   "c": "Olvidaste aplicar la rebaja del 25% al precio de venta.",
+   "d": "Sumaste el 25% en vez de restarlo del precio de venta."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "17d32dab-2d21-4412-95c5-1c60bbe441e9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La posición del percentil 40 es 0,40×200=80. Sumando las frecuencias acumuladas: hasta puntaje 20 hay 75 estudiantes, y el estudiante en la posición 80 tiene puntaje 30. Por lo tanto, bajo el percentil 40 (posiciones 1 a 79) hay 79 estudiantes.",
+  "distractor_diagnosis": {
+   "a": "Calculaste con la mitad de los datos totales.",
+   "b": "Contaste solo hasta puntaje 20, sin llegar a la posición 80.",
+   "d": "Incluiste la posición exacta del percentil, en vez de contar los valores estrictamente bajo ella."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "17f3a9b6-f357-419b-a2c5-e1dfbefaa718",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El código resultante es el promedio de cada componente. Para el rojo: (160+x)/2=170 → x=180. Para el verde: (60+y)/2=80 → y=100. Para el azul: (120+z)/2=60 → z=0. El color buscado es (180,100,0).",
+  "distractor_diagnosis": {
+   "a": "Restaste en vez de despejar correctamente la ecuación del promedio.",
+   "b": "Calculaste bien rojo y verde, pero no despejaste correctamente el azul.",
+   "d": "Promediaste los colores en vez de despejar el color faltante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "18558b30-0153-4fe0-b238-a2b39b72f521",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El precio normal de una entrada es 1.000/0,20 = $5.000. Con el plan durante 6 meses: 9.000×6 + 1.000×18 = 54.000+18.000 = $72.000. Sin plan, 18 entradas cuestan 18×5.000 = $90.000. El ahorro es 90.000−72.000 = $18.000.",
+  "distractor_diagnosis": {
+   "a": "Calculaste mal el precio normal de la entrada sin plan.",
+   "b": "No consideraste el costo fijo mensual del plan en tu cálculo.",
+   "d": "Calculaste mal el precio normal de la entrada sin plan."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1935739a-f195-4042-a509-442fd5a042cd",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para x>200 kWh se paga: cargo fijo $1.100, más los primeros 200 kWh a $65 cada uno, más el exceso (x−200) kWh a $115 cada uno ($65+$50 de recargo). La función correcta es m(x) = 1.100 + 200×65 + 115(x−200).",
+  "distractor_diagnosis": {
+   "a": "Aplicaste el recargo a todos los kWh, no solo al exceso sobre 200.",
+   "b": "No separaste el exceso; usaste una tarifa uniforme para todo x.",
+   "c": "Cobraste $115 por cada kWh sin distinguir el tramo bajo 200."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "19a1de68-3a28-491c-8592-d038c776bfd2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "19e5fe45-80b8-4c2b-89d0-955eabfcabae",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "19feba0e-22f5-49af-8450-330abdf2cdb9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "a² = (−3)² = 9. 2ab = 2×(−3)×5 = −30. Entonces a²−2ab = 9−(−30) = 9+30 = 39.",
+  "distractor_diagnosis": {
+   "a": "Restaste 2ab con el signo equivocado (error de signo).",
+   "c": "Calculaste a² con signo negativo por error.",
+   "d": "Te equivocaste en el signo de 2ab."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1a007228-21b3-432b-8b56-14f6869028b9",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1a702c1d-0675-4d33-9aee-e0a40d5aa794",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1aa93b10-fd7e-4a6a-b566-39e6353a807d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Los números pares en un dado son 2, 4 y 6, es decir 3 casos de 6 posibles. La probabilidad es 3/6 = 1/2.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo un caso favorable.",
+   "b": "Contaste solo 2 casos favorables.",
+   "d": "Contaste 4 casos favorables en vez de 3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1aebb2e9-5112-4284-bf6f-655808369641",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El ancho es 3^k y el largo es el triple, es decir 3×3^k = 3^(k+1). El área es el producto de ambos: 3^k × 3^(k+1) = 3^(2k+1).",
+  "distractor_diagnosis": {
+   "a": "Confundiste la base 3 con 9 y multiplicaste mal los exponentes.",
+   "b": "Cambiaste la base a 9 en vez de mantener base 3 al multiplicar potencias.",
+   "d": "Multiplicaste los exponentes en vez de sumarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1b35cbc8-c017-4b83-95e7-caa9b3898ad7",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Partiendo de (a,b), la rotación de 90° antihoraria da (−b,a). La simetría respecto al eje x cambia el signo de la segunda coordenada: (−b,−a). La simetría respecto al eje y cambia el signo de la primera: (b,−a). Lo mismo ocurre con Martín, terminando en (d,−c). Como todas son isometrías (rotaciones y reflexiones conservan distancias), la distancia entre ambos puntos al final del juego es igual a la del inicio.",
+  "distractor_diagnosis": {
+   "a": "Solo consideraste la rotación inicial, sin aplicar las reflexiones posteriores.",
+   "b": "Las coordenadas finales correctas son (b,−a) y (d,−c), no (a,−b) y (c,−d).",
+   "d": "Ubicaste mal el cuadrante final; en realidad terminan en el cuarto cuadrante."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1b3e93a4-a3c0-41e1-8bd3-79180f36f815",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La rampa forma un triángulo rectángulo con cateto vertical 1,5 m y cateto horizontal 6 m. Por el teorema de Pitágoras, la hipotenusa (longitud de la rampa) es √(6²+1,5²) = √(36+2,25) = √38,25 m.",
+  "distractor_diagnosis": {
+   "a": "Sumaste los catetos directamente en vez de aplicar Pitágoras.",
+   "c": "Factorizaste incorrectamente la suma de los cuadrados.",
+   "d": "Restaste los cuadrados de los catetos en vez de sumarlos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1c2722a4-56f2-431b-9973-54887a3193da",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Se usa la identidad (a+b)² = a²+2ab+b². Como a²+b²=100 y ab=48 (el área del rectángulo), entonces (a+b)² = 100+2(48) = 196, por lo tanto a+b = √196 = 14.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Calculaste solo √(a²+b²) sin sumar el término 2ab.",
+   "d": "Sumaste el término 2ab dos veces o multiplicaste mal.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1c51593d-8784-4d16-8250-34a00c0597a3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La cadena de unidades es GB→TB→PB→EB→ZB, es decir 4 pasos, cada uno multiplicando por 1024=2¹⁰. En total, 1 ZB equivale a 2^(10×4) = 2^40 GB.",
+  "distractor_diagnosis": {
+   "a": "Contaste solo un paso de la cadena de unidades.",
+   "b": "Contaste un número de pasos incorrecto en la cadena de unidades.",
+   "d": "Contaste un paso de más en la cadena de unidades."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1c9d6fbd-e6f8-4c56-8031-9cbaaf3ef2ce",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El número de partidos corresponde a las combinaciones de n jugadores tomados de 2 en 2, ya que cada partido es un par distinto de jugadores: C(n,2) = n(n−1)/2.",
+  "distractor_diagnosis": {
+   "a": "Ese valor no corresponde a contar pares distintos de jugadores.",
+   "c": "Contaste solo los partidos de un jugador contra todos los demás.",
+   "d": "Multiplicaste sin dividir por 2, contando cada partido dos veces.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1d84f28b-0591-4a11-9eb6-be9cd39e2983",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1dcdfbdc-6932-4e86-9342-fcf8a173d11d",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "1de96dec-8d45-46c8-8806-9a634e4829f4",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El dueño parte con una deuda de −$8.400. Al recibir $3.150: −8.400+3.150=−5.250. Luego gasta $1.200 en transporte: −5.250−1.200=−6.450. El saldo final es −$6.450.",
+  "distractor_diagnosis": {
+   "b": "No consideraste la deuda inicial completa al sumar los montos.",
+   "c": "Te equivocaste al sumar o restar alguno de los montos.",
+   "d": "Sumaste el pago sin considerar la deuda como un valor negativo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1df71913-dc7a-4c88-b868-be8fc72c701c",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El promedio de las tres notas debe ser al menos 5,9: (5,3+5,9+x)/3 ≥ 5,9. Multiplicando por 3: 11,2+x ≥ 17,7, por lo tanto x ≥ 6,5.",
+  "distractor_diagnosis": {
+   "a": "Usaste el promedio deseado como si fuera la nota mínima, sin despejar la inecuación.",
+   "b": "Cometiste un error al despejar x en la inecuación.",
+   "c": "Cometiste un error al despejar x en la inecuación."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "1df9efca-be03-4b52-9965-77d514120c8e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el 25% de un número es 50, entonces 0,25×x=50, por lo tanto x=50÷0,25=200.",
+  "distractor_diagnosis": {
+   "a": "Dividiste 50 por un porcentaje distinto al indicado.",
+   "b": "Cometiste un error al despejar x.",
+   "d": "Cometiste un error al despejar x.",
+   "e": "Confundiste el número buscado con el resultado de sumarle el porcentaje."
+  },
+  "skip_reason": null
+ }
+]

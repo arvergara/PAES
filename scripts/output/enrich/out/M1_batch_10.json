@@ -1,0 +1,402 @@
+[
+ {
+  "id": "80c97889-9528-44c2-bbfc-7d2f4c7a0994",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En y = x² + 2 no hay desplazamiento horizontal (no aparece (x-h)), por lo que la coordenada x del vértice es 0. El +2 desplaza la parábola 2 unidades hacia arriba, así el vértice queda en (0, 2).",
+  "distractor_diagnosis": {"b": "Invertiste las coordenadas del vértice.", "c": "Cambiaste el signo de la constante, usando -2 en vez de +2.", "d": "Invertiste las coordenadas y además cambiaste el signo."},
+  "skip_reason": null
+ },
+ {
+  "id": "81637fda-8350-4fbd-a7db-1ce016fdf4c8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El perímetro de una circunferencia es P = 2πr = πd, donde d es el diámetro. Por lo tanto P/d = π.",
+  "distractor_diagnosis": {"a": "Confundiste la razón con un valor constante sin relación a π.", "c": "Calculaste perímetro/radio (2π) en vez de perímetro/diámetro.", "d": "Dividiste el perímetro por el doble del diámetro."},
+  "skip_reason": null
+ },
+ {
+  "id": "817e2b63-e7d5-4011-a2cf-cc81eaa9ffa1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "f(g(x)) = 2(x² − 3) + 1 = 2x² − 5. Igualando a 15: 2x² − 5 = 15 → 2x² = 20 → x² = 10 → x = ±√10. Como ambos valores son reales y distintos, hay 2 soluciones reales.",
+  "distractor_diagnosis": {"a": "Concluiste que no hay solución real, probablemente por un error de signo que dio un valor negativo bajo la raíz.", "b": "Olvidaste considerar la raíz negativa (±√10), contando solo una solución.", "d": "Contaste una solución de más, quizás confundiendo con una ecuación de grado mayor."},
+  "skip_reason": null
+ },
+ {
+  "id": "8213edec-28d1-426e-bd84-658a24a2f09d",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Usando los valores estándar del Sistema Internacional: Ym = 10²⁴ m, Zm = 10²¹ m, Em = 10¹⁸ m, Pm = 10¹⁵ m. La operación (Ym/Zm) × (Em/Pm) = 10³ × 10³ = 10⁶, es decir, 1 × 10⁶.",
+  "distractor_diagnosis": {"b": null, "c": "Probablemente calculaste solo Ym/Pm = 10²⁴/10¹⁵ = 10⁹, sin incluir los otros dos términos de la operación.", "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "8217fb63-d4e3-4706-9ff6-9be49949a2b4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "(1/2)³ significa multiplicar 1/2 por sí mismo tres veces: (1×1×1)/(2×2×2) = 1/8.",
+  "distractor_diagnosis": {"a": "Multiplicaste el denominador por 3 en lugar de elevarlo al cubo.", "b": "Invertiste la fracción antes de operar.", "d": "Multiplicaste el numerador por 3 en vez de mantenerlo en 1.", "e": null},
+  "skip_reason": null
+ },
+ {
+  "id": "827c247e-b9e5-4029-9407-ed53ef892ca5",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si R = (r₁, r₂) se traslada según el vector (m, n), su imagen es (r₁+m, r₂+n) = (a, b). Despejando: r₁ = a−m y r₂ = b−n, por lo tanto R = (a−m, b−n).",
+  "distractor_diagnosis": {"a": "Multiplicaste las coordenadas por m y n en lugar de restarlas.", "c": "Intercambiaste m y n al despejar las coordenadas de R.", "d": "Sumaste el vector en lugar de restarlo, confundiendo la imagen con la preimagen.", "e": "Calculaste un punto medio en lugar de despejar correctamente el punto original."},
+  "skip_reason": null
+ },
+ {
+  "id": "82c54fd3-1908-4fd9-9720-3ed870f2cc82",
+  "verified_answer": "c",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "83279e96-999b-4a93-9359-6e19e9cff8c8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Un ángulo exterior y su interior adyacente son suplementarios (suman 180°). Entonces el interior adyacente mide 180° − 130° = 50°.",
+  "distractor_diagnosis": {"a": "Calculaste 90°−50° en lugar de 180°−130°.", "c": "Cometiste un error aritmético al restar de 180°.", "d": "Copiaste directamente el ángulo exterior sin calcular el adyacente.", "e": "Calculaste 360°−130° en lugar de 180°−130°."},
+  "skip_reason": null
+ },
+ {
+  "id": "837fa757-d13a-441e-b08f-2ba37842f4b2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Volumen del cilindro = π·r²·h. Con π≈3 y r=4 cm: 3×16×h = 48h. Igualando a 600 cm³: h = 600/48 = 12,5 cm.",
+  "distractor_diagnosis": {"a": null, "c": "Usaste la fórmula del área lateral (2πrh) en lugar del volumen (πr²h).", "d": "Olvidaste multiplicar por π (usaste π=1 en el cálculo)."},
+  "skip_reason": null
+ },
+ {
+  "id": "83b0565a-4a7d-4b27-886b-730f18f2d1a6",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Cuando el respaldo queda perpendicular al asiento, AO y BO forman un ángulo recto en O, siendo los catetos de un triángulo rectángulo con AB como hipotenusa. Por el teorema de Pitágoras, D²_AB = AO² + BO².",
+  "distractor_diagnosis": {"a": "Sumaste los catetos directamente en lugar de aplicar el teorema de Pitágoras.", "c": "Multiplicaste un cateto al cuadrado por 2 en lugar de sumar los cuadrados de ambos catetos.", "d": "Restaste los cuadrados de los catetos en lugar de sumarlos."},
+  "skip_reason": null
+ },
+ {
+  "id": "83eda6f4-4475-4ee3-b561-489fcdabd891",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "f(5) = 2(5) − 3 = 10 − 3 = 7.",
+  "distractor_diagnosis": {"a": null, "b": "Copiaste el valor de x en lugar de evaluar la función.", "d": "Olvidaste restar 3 después de multiplicar 2×5.", "e": "Sumaste 3 en lugar de restarlo."},
+  "skip_reason": null
+ },
+ {
+  "id": "84d6ed42-2e29-47ad-b796-eb5d719a528c",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Es una relación de proporcionalidad inversa: a más trabajadores, menos días, manteniendo el producto constante. 3 × 12 = 4 × d → d = 36/4 = 9 días.",
+  "distractor_diagnosis": {"a": null, "c": null, "d": "Usaste una proporción directa (multiplicaste en vez de dividir) en lugar de una inversa."},
+  "skip_reason": null
+ },
+ {
+  "id": "84e0e9c8-fa1a-442b-b8f5-7e7648987b23",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Quíntuplo de −10: 5×(−10) = −50. Triple de −12: 3×(−12) = −36. La resta es −50 − (−36) = −50 + 36 = −14.",
+  "distractor_diagnosis": {"a": "Sumaste ambos resultados negativos (−50 + (−36)) en lugar de restarlos.", "c": null, "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "853c325c-4f87-4632-aecb-aa834886439d",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "Para que las soluciones tengan parte real cero se necesita b=0, lo que reduce la ecuación a ax²+c=0. Para que la parte imaginaria sea distinta de cero se requiere discriminante negativo (−4ac<0), es decir ac>0. La condición b=0 y ac>0 es la que garantiza esto.",
+  "distractor_diagnosis": {"a": "El discriminante igual a cero da una raíz real doble, no raíces imaginarias.", "b": "c<0 por sí solo no garantiza que b=0, condición necesaria para parte real igual a cero.", "c": "Con b=0 y c>0, el signo de ac depende también de a; no está garantizado que ac>0.", "d": "b=0 y ac<0 da discriminante positivo, es decir, raíces reales distintas, no imaginarias."},
+  "skip_reason": null
+ },
+ {
+  "id": "855bc0c3-56f2-4cab-86de-16e6fbd4a47c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La suma de ángulos interiores de un polígono es (n−2)×180°. Para un hexágono (n=6): (6−2)×180° = 4×180° = 720°.",
+  "distractor_diagnosis": {"a": "Calculaste la suma de los ángulos exteriores (siempre 360°), no la de los interiores.", "b": "Usaste n=5 (pentágono) en lugar de n=6 (hexágono).", "d": "Usaste n=7 en lugar de n=6.", "e": "Usaste n×180° en lugar de (n−2)×180°."},
+  "skip_reason": null
+ },
+ {
+  "id": "856233b9-e00e-4f12-8a60-99fe4d2d4660",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El color buscado (r,g,b) cumple: (160+r)/2=170, (60+g)/2=80, (120+b)/2=60. Despejando: r=180, g=100, b=0. El color es (180, 100, 0).",
+  "distractor_diagnosis": {"a": "Calculaste la diferencia entre los colores en lugar de despejar la ecuación del promedio.", "b": "Despejaste bien el rojo y el verde, pero copiaste el valor final del azul (60) en lugar de despejar que debía ser 0.", "d": "Promediaste el color original con el resultado final en lugar de despejar el segundo color de la mezcla."},
+  "skip_reason": null
+ },
+ {
+  "id": "85c4ed1f-2cc8-4da9-aec1-3e85b5912720",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El 5% de un precio P es P × 5/100, es decir, el precio dividido por 100 y luego multiplicado por 5.",
+  "distractor_diagnosis": {"a": "Un quinto del precio equivale al 20%, no al 5%.", "b": "El precio multiplicado por cinco décimos equivale al 50%, no al 5%.", "d": "Esa operación da el 2000% del precio, no el 5%."},
+  "skip_reason": null
+ },
+ {
+  "id": "85fb19e5-393d-4c40-8d37-92a85a571096",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El modelo es tiempo = 0,001 × n × √n microsegundos. Con n = 10.000, √n = 100, entonces tiempo = 0,001 × 10.000 × 100 = 1.000 microsegundos.",
+  "distractor_diagnosis": {"a": "Olvidaste multiplicar por √n (calculaste solo 0,001×n).", "c": "Copiaste el valor de n en lugar de calcular la expresión completa.", "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "8640028b-9729-418c-8081-34f9782ccbae",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La expresión es 1² + (−1)² + (0,1)² = 1 + 1 + 0,01 = 2,01.",
+  "distractor_diagnosis": {"a": "Solo calculaste (0,1)²=0,01 y olvidaste sumar 1² y (−1)².", "b": "Sumaste 1²+(−1)²=2 pero olvidaste agregar (0,1)²=0,01.", "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "86e1724a-47dc-4e11-a879-a436e52a4314",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "8703fe67-074e-458a-aefd-1892a4562ccb",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con capas alternadas que empiezan y terminan en bizcocho, k capas de manjar requieren k+1 capas de bizcocho. La masa total es 250k+100. Para k=2: 250(2)+100=600 g ≤ 700 g. Para k=3: 250(3)+100=850 g > 700 g. El máximo es 2 capas de manjar.",
+  "distractor_diagnosis": {"a": "Contaste demasiadas capas de bizcocho, subestimando cuántas de manjar caben.", "c": "Ignoraste el peso de las capas de bizcocho y solo consideraste el límite de masa del manjar (700/150).", "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "87232c72-c2a9-4e5a-9d8a-d3cba4f58d32",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "878a274c-d3a9-4ac4-b80d-cb74441cf8b3",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Si al cabo de m horas el total es k×2^m, entonces en m=0 (antes de ejecutar el programa) el total era k×2⁰=k. Por lo tanto, k es la cantidad inicial de archivos.",
+  "distractor_diagnosis": {"a": "Supusiste que k representa un tiempo, cuando en realidad es una cantidad de archivos.", "b": "Confundiste el factor de crecimiento 2^m con la cantidad de veces que se ejecutó el programa (que es m).", "c": "Calculaste k×2^m−1 en lugar de k×(2^m−1), un error de orden de operaciones."},
+  "skip_reason": null
+ },
+ {
+  "id": "8796430b-9278-4512-8e0d-83f9e7ab6e73",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "14² = 196. Como 5⁻² = 1/25, entonces 1/(5⁻²) = 25. Sumando: 196 + 25 = 221.",
+  "distractor_diagnosis": {"a": null, "b": "Restaste 1/25 en lugar de invertir correctamente el exponente negativo y sumar 25.", "d": "Restaste 5⁻² invertido (25) en lugar de sumarlo: 196−25=171."},
+  "skip_reason": null
+ },
+ {
+  "id": "87baef70-f310-43df-91da-f6065eea124a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Con 12 datos ordenados, el percentil 40 corresponde a la posición 0,40×12=4,8, entre el 4° dato (98 g) y el 5° (101 g), lo que ya supera los 100 g. Los percentiles 10, 20 y 30 corresponden a posiciones anteriores, con valores menores a 100 g.",
+  "distractor_diagnosis": {"a": "Redondeaste hacia abajo la posición del percentil, quedándote en un dato menor a 100 g.", "b": "Usaste una posición de percentil demasiado baja, antes de alcanzar los 100 g.", "c": "Creíste que el dato de 98 g ya superaba los 100 g."},
+  "skip_reason": null
+ },
+ {
+  "id": "88251bb7-4887-478a-88dc-aeb888b8b2c2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si se pierde el 12% del agua, queda el 88%: 0,88 × 2000 = 1760 litros.",
+  "distractor_diagnosis": {"a": null, "b": "Calculaste el agua perdida (12% de 2000 = 240 L), no la que queda después de purificar.", "d": "Restaste 12 litros en lugar de restar el 12% del total."},
+  "skip_reason": null
+ },
+ {
+  "id": "894c22ea-ab36-49a5-9fe1-af13bbb6dec8",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "89cf140e-b3e6-4a23-83ca-8f98d9ac82c5",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "El percentil 45 solo indica una posición relativa. No garantiza ser estrictamente mayor que P40, ni que la mediana (P50) sea mayor que él, ni su relación exacta con el tercer cuartil, ni con la media, ya que esto depende de la distribución completa de los datos. Por eso ninguna afirmación se puede deducir con certeza.",
+  "distractor_diagnosis": {"a": "Asumiste que P45 siempre es estrictamente mayor que P40, sin considerar posibles empates.", "b": "Asumiste que la mediana siempre supera a P45, lo cual no está garantizado en general.", "c": "Asumiste una relación estricta con el tercer cuartil que no está garantizada.", "d": "Supusiste una relación entre la media y el percentil que no se puede deducir sin conocer la distribución completa."},
+  "skip_reason": null
+ },
+ {
+  "id": "8a82d602-eb09-4af0-b0ec-d2e0941b87f4",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Cada trozo pesa 1/4 de libra, y hay dos trozos: 2×(1/4)=1/2 libra. Convirtiendo: (1/2)×453,6 g = 226,8 g.",
+  "distractor_diagnosis": {"a": "Multiplicaste una libra completa por 2 en lugar de calcular media libra.", "b": "Usaste el equivalente de una libra completa sin considerar que son dos trozos de un cuarto de libra.", "d": "Calculaste la masa de un solo trozo, olvidando que son dos."},
+  "skip_reason": null
+ },
+ {
+  "id": "8aec2522-bc8c-4178-92b1-9a6db6980237",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Plan 1: 5.000+50m. Plan 2: 120m. El plan 1 conviene cuando 5.000+50m < 120m, es decir 5.000 < 70m, m > 71,4. Por lo tanto, conviene a partir de más de 71 minutos.",
+  "distractor_diagnosis": {"a": null, "c": null, "d": "Calculaste 5.000/50=100, ignorando el costo por minuto del segundo plan."},
+  "skip_reason": null
+ },
+ {
+  "id": "8b2bdd96-2fce-4e00-9717-9c0f38eabd90",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Cantidad total de agua = 80×200 = 16.000 litros. Contenedores de 50 L necesarios: 16.000/50 = 320.",
+  "distractor_diagnosis": {"a": "Invertiste la proporción, usando 50/200 en lugar de 200/50.", "b": null, "d": "Multiplicaste 80×150 en lugar de calcular correctamente el total de agua a envasar."},
+  "skip_reason": null
+ },
+ {
+  "id": "8b43b4f2-888c-445f-8af0-08ac9c7b702a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Promedio = (4+7+10+3+6)/5 = 30/5 = 6.",
+  "distractor_diagnosis": {"a": "Calculaste mal la suma total (obtuviste 25 en lugar de 30).", "c": "Calculaste mal la suma total (obtuviste 35 en lugar de 30).", "d": "Calculaste mal la suma total (obtuviste 40 en lugar de 30).", "e": "Olvidaste dividir la suma por la cantidad de datos (5)."},
+  "skip_reason": null
+ },
+ {
+  "id": "8c08be89-0a07-4a28-ad4d-dbd47a14859a",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El subsidio es para el 60% de menores ingresos, es decir, quienes están bajo el percentil 60 del país. Si el ingreso es menor que el percentil 40, con mayor razón está bajo el percentil 60, asegurando que califica.",
+  "distractor_diagnosis": {"a": "Estar sobre el percentil 20 no garantiza estar bajo el percentil 60; podría estar por encima.", "c": "Comparaste con el percentil de la comuna, no del país, que es la referencia correcta del subsidio.", "d": "Mismo error de escala (comuna en vez de país); además el percentil 60 sería apenas el límite, no una garantía."},
+  "skip_reason": null
+ },
+ {
+  "id": "8c0d3061-1ac9-4008-81e2-d1aacdb7b546",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "8c1369c3-51a8-40d3-8daa-cfe827f4bd4d",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "2x−5≥3x+1. Restando 3x: −x−5≥1. Sumando 5: −x≥6. Multiplicando por −1 (invirtiendo la desigualdad): x≤−6.",
+  "distractor_diagnosis": {"a": "Olvidaste invertir la desigualdad al multiplicar por −1.", "c": "Cometiste un error de signo al despejar y tampoco invertiste la desigualdad.", "d": "Invertiste correctamente la desigualdad pero cometiste un error de signo en la constante."},
+  "skip_reason": null
+ },
+ {
+  "id": "8c1718b3-1cad-4f45-9e74-48446fe0c279",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "En la forma y=mx+n, m=3 es la pendiente y n=−2 es el coeficiente de posición (corte con el eje y).",
+  "distractor_diagnosis": {"a": "Intercambiaste la pendiente y el coeficiente de posición.", "c": "Cambiaste el signo del coeficiente de posición.", "d": "Cambiaste el signo tanto de la pendiente como del coeficiente de posición."},
+  "skip_reason": null
+ },
+ {
+  "id": "8c5de729-3dcd-4b83-8405-042d0b33430e",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "f(−1) = |−1−2| = |−3| = 3.",
+  "distractor_diagnosis": {"a": "Olvidaste aplicar el valor absoluto, dejando el resultado negativo.", "b": "Copiaste el valor de x sin aplicar la función.", "c": "Sumaste en lugar de restar dentro del valor absoluto (|−1+2| en vez de |−1−2|).", "e": "Ignoraste el valor de x y usaste solo la constante de la función."},
+  "skip_reason": null
+ },
+ {
+  "id": "8cf36611-a9c0-434e-b52f-f411ec5b6767",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El coeficiente de x² en y=−x² es negativo, por lo que la parábola se abre hacia abajo.",
+  "distractor_diagnosis": {"a": "No consideraste el efecto del signo negativo del coeficiente.", "c": "Confundiste con una parábola horizontal del tipo x=−y².", "d": "El mismo error, tratándola como una parábola horizontal."},
+  "skip_reason": null
+ },
+ {
+  "id": "8d07682e-3860-4c0e-b22c-b7fc762b2260",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "8d4a3c5c-6fde-4d03-8bff-eb3a77518574",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Primero se suman las fracciones: 1/2+1/3=3/6+2/6=5/6. Luego se multiplica: 5/6×6=30/6=5.",
+  "distractor_diagnosis": {"a": "Solo consideraste 1/2 y olvidaste sumar 1/3.", "b": null, "d": "Asumiste que 1/2+1/3=1 y multiplicaste 1×6.", "e": "Solo consideraste 1/3 y olvidaste sumar 1/2."},
+  "skip_reason": null
+ },
+ {
+  "id": "8e7b1503-df67-4b31-83b6-78618e6e68e2",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se plantea la proporción 3/12 = x/40. Despejando: x = (3×40)/12 = 120/12 = 10 tazas.",
+  "distractor_diagnosis": {"a": null, "c": null, "d": null},
+  "skip_reason": null
+ },
+ {
+  "id": "8f26fc0b-a052-41d3-a346-8a0ea634a61a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Antes del Paso 3 el punto es (1,12). Una rotación de 90° antihorario sigue la regla (x,y)→(−y,x), lo que da (−12,1). El resultado indicado en el Paso 3 corresponde en realidad a una rotación horaria (regla (x,y)→(y,−x)), por lo que ahí está el error.",
+  "distractor_diagnosis": {"a": "El Paso 1 es correcto: la reflexión respecto al eje Y invierte el signo de x.", "b": "El Paso 2 es correcto: la traslación se aplicó bien sumando el vector.", "d": "El Paso 4 es correcto: la reflexión respecto al eje X invierte el signo de y."},
+  "skip_reason": null
+ },
+ {
+  "id": "8f49113a-d706-4009-bbc8-3f16b23b9fb8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Área = πr² = 36π → r² = 36 → r = 6 cm.",
+  "distractor_diagnosis": {"a": null, "b": null, "d": "Calculaste mal r² al despejar, sin tomar correctamente la raíz cuadrada.", "e": "Confundiste el diámetro (12 cm) con el radio."},
+  "skip_reason": null
+ },
+ {
+  "id": "8f877912-5a8b-485d-9f55-789fc80ddda8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "f(4) = 2(4)+3 = 8+3 = 11.",
+  "distractor_diagnosis": {"a": "Olvidaste sumar 3 después de multiplicar 2×4.", "c": "Multiplicaste 2×(4+3) en lugar de (2×4)+3.", "d": "Sumaste x+3 sin multiplicar x por 2 primero."},
+  "skip_reason": null
+ },
+ {
+  "id": "8fadb170-b01b-495c-ab4a-afd02704552f",
+  "verified_answer": "d",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "8fb11a8e-4c51-48c0-86ca-4d555a571dd5",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "8fd207a3-f7b8-42c2-84ac-578967e92597",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Área = πr². Si el radio se duplica: π(2r)² = 4πr². El área se cuadruplica.",
+  "distractor_diagnosis": {"a": "Asumiste que el área escala linealmente con el radio.", "b": "Resultado sin relación clara con la fórmula del área.", "d": "Confundiste el cambio de área con el cambio en el perímetro o circunferencia.", "e": "No consideraste que el área depende del cuadrado del radio."},
+  "skip_reason": null
+ },
+ {
+  "id": "8ff29447-0117-4330-af1c-a43609e9c28c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La receta usa 325 g de harina para 20 galletas, es decir, 325/20 g por galleta. Para n galletas, la cantidad de harina es (325/20)×n.",
+  "distractor_diagnosis": {"b": "Usaste 325 g como cantidad por galleta, sin dividir por las 20 galletas originales de la receta.", "c": "Sumaste en lugar de multiplicar, mezclando una relación proporcional con una aditiva.", "d": "Invertiste la proporción, usando galletas entre gramos en lugar de gramos entre galletas."},
+  "skip_reason": null
+ },
+ {
+  "id": "9039e26d-d3ea-4bfe-9763-62edc6f9158f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Suma: 4+1+1+0+3+2+2+3+0+1+1+6=24. Promedio: 24/12=2.",
+  "distractor_diagnosis": {"a": "Calculaste mal la suma total (obtuviste 12 en lugar de 24).", "c": "Dividiste por 10 en lugar de por 12 (la cantidad real de familias).", "d": "Calculaste mal la suma o dividiste por una cantidad menor a 12."},
+  "skip_reason": null
+ },
+ {
+  "id": "904fd632-e0b6-4098-99e9-a57a675dd7f2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La frecuencia relativa del intervalo (500,600] es 0,75−0,40=0,35. El número de estudiantes es 0,35×120=42.",
+  "distractor_diagnosis": {"a": "Usaste una diferencia de frecuencias relativas incorrecta (0,30 en lugar de 0,35).", "b": "Usaste directamente 0,40 como si fuera la cantidad de estudiantes, sin multiplicar por 120.", "d": "Calculaste los estudiantes hasta 500 puntos (0,40×120=48) en lugar de los que están entre 501 y 600."},
+  "skip_reason": null
+ }
+]

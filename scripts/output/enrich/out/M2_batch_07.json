@@ -1,0 +1,402 @@
+[
+ {
+  "id": "ce42a1aa-6d1b-4c7d-a5cb-803330a351a2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El valor después de t años es V(t) = 18.000.000 × 0,85^t. En el año 4, V(4) ≈ $9.396.112, todavía sobre $8.000.000. En el año 5, V(5) ≈ $7.986.696, ya por debajo del umbral. Por lo tanto, es en el quinto año completo cuando el auto vale menos de $8.000.000 por primera vez.",
+  "distractor_diagnosis": {"a": "Te detuviste demasiado pronto, sin seguir depreciando hasta pasar el umbral.", "b": "Calculaste un año antes; en el año 4 el valor aún supera $8.000.000.", "d": "Seguiste depreciando un año de más después de cruzar el umbral.", "e": "Te alejaste demasiado del punto exacto donde el valor cruza $8.000.000."},
+  "skip_reason": null
+ },
+ {
+  "id": "ce8a5f39-2361-444d-9893-315f3d817f66",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En una homotecia de centro en el origen, la imagen de una figura ubicada en el primer cuadrante permanece en el primer cuadrante solo si la razón r es positiva; con r negativo, la imagen caería en el tercer cuadrante. El perímetro y el área pueden ser mayores, menores o iguales dependiendo del valor de |r|, así que esas afirmaciones no son necesariamente verdaderas.",
+  "distractor_diagnosis": {"b": "Asumiste que la homotecia siempre agranda la figura.", "c": "Supusiste |r|>1 sin que el enunciado lo garantice.", "d": "Olvidaste que r=1 también es una homotecia válida con perímetros iguales."},
+  "skip_reason": null
+ },
+ {
+  "id": "cea6f4c3-41a9-459c-a867-6b8b4c404b23",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La probabilidad de sacar una bolita azul de la primera caja es M/(M+N), y de la segunda caja, 3/8. Como las extracciones son independientes, la probabilidad de que ambas sean azules es el producto de ambas probabilidades: M/(M+N) × 3/8, correspondiente a la opción d.",
+  "distractor_diagnosis": {"a": "Agregaste términos adicionales innecesarios en vez de solo multiplicar.", "b": "Sumaste las probabilidades en lugar de multiplicarlas.", "c": "Sumaste las probabilidades de ambas cajas en vez de multiplicarlas."},
+  "skip_reason": null
+ },
+ {
+  "id": "cef1ad16-93c4-4a55-8b2e-1a2be386bee3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La función original es f(x) = (x+1)² − 1. Al reflejar respecto al eje Y, se cambia x por −x: f(−x) = (1−x)² − 1 = (x−1)² − 1. Luego, al trasladar verticalmente en 1 unidad hacia arriba, se suma 1 al resultado: h(x) = (x−1)² − 1 + 1 = (x−1)², que corresponde a la opción b.",
+  "distractor_diagnosis": {"a": "Olvidaste aplicar la reflexión respecto al eje Y.", "c": "No reflejaste correctamente el término (x+1) completo.", "d": "No aplicaste ni la reflexión ni la traslación; es la función original.", "e": "Invertiste el signo de la traslación vertical."},
+  "skip_reason": null
+ },
+ {
+  "id": "cf1f3232-e1f2-4874-a9b4-5fef083cef95",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "cf68c8d5-df28-47ed-8ac3-b068b8837dfc",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La recta de reflexión es la vertical x = 3, que pasa por (3,3). Al reflejar un punto (x,y) respecto a una recta vertical x = a, la nueva coordenada x' se calcula como 2a − x; aquí, x' = 6 − x, y la coordenada y no cambia. La imagen es (6−x, y), correspondiente a la opción a.",
+  "distractor_diagnosis": {"b": "Usaste el valor 3 en vez de duplicarlo (2×3=6) al reflejar.", "c": "Multiplicaste x por 2 de más al aplicar la reflexión.", "d": "Invertiste el orden de la resta en la fórmula de reflexión.", "e": "Sumaste en vez de restar x al reflejar respecto a la recta vertical."},
+  "skip_reason": null
+ },
+ {
+  "id": "cf89570a-54d0-494a-9392-693b4bf03590",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El ángulo de depresión desde el faro es igual al ángulo de elevación desde el bote, formando un triángulo rectángulo donde el cateto opuesto es la altura del faro (50 m) y el adyacente es la distancia buscada d. Usando tan 30° = 50/d, se obtiene d = 50/tan 30° = 50√3 m.",
+  "distractor_diagnosis": {"a": "Usaste la mitad de la altura sin aplicar la razón trigonométrica.", "b": "Dividiste entre 2 de más antes de aplicar la tangente.", "c": "Confundiste la distancia horizontal con la altura del faro.", "e": "Multiplicaste por 2 en vez de usar tan(30°) correctamente."},
+  "skip_reason": null
+ },
+ {
+  "id": "cf9cd75b-8b50-4f6b-800c-c39319f6ef92",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Los estudiantes que no se eximieron son los 24 con menos de 90 puntos. Ordenando esos datos, el mínimo es 33, el primer cuartil es 43, la mediana es 51, el tercer cuartil es 63 y el máximo es 85. Ese resumen de cinco números corresponde al diagrama de cajón de la opción b.",
+  "distractor_diagnosis": {"a": "Usaste el máximo y mínimo del grupo completo en vez del filtrado.", "c": "Incluiste el 100 (máximo global) en vez del máximo real (85).", "d": "Calculaste los cuartiles sobre los 36 datos completos, no solo los <90."},
+  "skip_reason": null
+ },
+ {
+  "id": "cfb3d59e-761f-454a-a29d-bd076662904f",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La temperatura sube y luego baja según T(t) = −4t² + 24t + 40, que vale exactamente 40 °C en t = 0 y en t = 6 minutos (las raíces de −4t(t−6) = 0). Entre esos instantes la temperatura se mantiene igual o sobre 40 °C, y solo después de t = 6 minutos cae definitivamente por debajo de 40 °C.",
+  "distractor_diagnosis": {"a": "Confundiste el instante inicial con cuando la temperatura vuelve a bajar de 40 °C.", "b": "Tomaste una raíz intermedia de la desigualdad sin verificar el intervalo completo.", "c": "Tomaste un valor arbitrario dentro del intervalo en vez del límite superior."},
+  "skip_reason": null
+ },
+ {
+  "id": "cfd80330-7361-4758-b910-5d41199b591b",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Inicialmente la base de la escalera está a 3 m de la pared, por lo que la altura inicial es √(25−9) = 4 m, usando el teorema de Pitágoras con la escalera de 5 m como hipotenusa. Al mover la base n metros más hacia afuera, la nueva distancia a la pared es (3+n), por lo que la nueva altura es √(25−(3+n)²), correspondiente a la opción a.",
+  "distractor_diagnosis": {"b": "Sumaste en vez de restar el cuadrado de (3+n) dentro de la raíz.", "c": "Invertiste el orden de los términos bajo la raíz, alterando la relación pitagórica.", "d": "Restaste el cuadrado dos veces, arruinando la relación pitagórica correcta."},
+  "skip_reason": null
+ },
+ {
+  "id": "cff73ca6-1493-413d-b3eb-a2ebc36760ac",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si las bacterias se triplican cada día, la cantidad al día t es 3^t × p. Al término del cuarto día, eso es 3⁴ × p = 81p, exactamente lo que afirma la opción c.",
+  "distractor_diagnosis": {"a": "Calculaste 3² pero interpretaste mal el factor como 'veces más' en vez de total.", "b": "Confundiste el incremento absoluto con el valor final de la población.", "d": "Aplicaste el exponente al producto (3p) en vez de solo al factor 3."},
+  "skip_reason": null
+ },
+ {
+  "id": "d00e2c8c-dc66-4724-8ad8-60a6069a62c4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Se pide P(Metro | Mujer), es decir, la proporción de mujeres que prefieren metro dentro del grupo de mujeres. De las 100 mujeres, 50 prefieren metro, por lo que P(Metro | Mujer) = 50/100 = 1/2.",
+  "distractor_diagnosis": {"a": "Dividiste por el total general (200) en vez del total de mujeres.", "c": "Usaste el total de quienes prefieren metro como denominador en vez de mujeres.", "d": "Mezclaste las proporciones de hombres y mujeres al calcular.", "e": "Invertiste la condición, calculando P(mujer|metro) en vez de P(metro|mujer)."},
+  "skip_reason": null
+ },
+ {
+  "id": "d1a4ed4a-2e1f-491f-83ec-80bc67886961",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Un hexágono regular de perímetro P tiene lado l = P/6, y su área es A = (3√3/2)·l². Sustituyendo l = P/6 se obtiene A = (√3/24)·P², de donde k = √3/24, correspondiente a la opción a.",
+  "distractor_diagnosis": {"b": "Olvidaste elevar el lado al cuadrado y dejaste solo el factor lineal.", "c": "Multiplicaste por 12 en vez de por 24 al simplificar.", "d": "Usaste una fórmula sin ajustar por los 6 triángulos del hexágono."},
+  "skip_reason": null
+ },
+ {
+  "id": "d1fad826-a38e-4544-8ccd-294c0625d599",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Usando el teorema de Bayes: P(+) = P(+|E)·P(E) + P(+|¬E)·P(¬E) = 0,95·0,02 + 0,10·0,98 = 0,117. Entonces P(E|+) = 0,019/0,117 ≈ 0,162, es decir, aproximadamente 16%. Aunque el test tiene alta sensibilidad, la baja prevalencia hace que muchos positivos sean falsos positivos.",
+  "distractor_diagnosis": {"a": "Confundiste la sensibilidad del test con la probabilidad real de estar enfermo.", "b": "Ese valor correspondería a una prevalencia mucho más alta que la dada.", "c": "Ignoraste el efecto de la baja prevalencia sobre los falsos positivos.", "e": "Confundiste la probabilidad posterior con la prevalencia original."},
+  "skip_reason": null
+ },
+ {
+  "id": "d21544d6-e585-411c-b847-a34b66d4f422",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea a los kilos de tipo A y b los de tipo B. El sistema es a+b=10 y 3000a+5000b=38.000. Resolviendo, a = 10−b y sustituyendo: 3000(10−b)+5000b=38.000, lo que da b=4 y a=6, es decir, 6 kg de A y 4 kg de B, opción b.",
+  "distractor_diagnosis": {"a": "Invertiste las cantidades, dando más kilos de A de los que correspondía.", "c": "Supusiste partes iguales sin resolver el sistema de ecuaciones.", "d": "Intercambiaste las cantidades de A y B respecto a la solución correcta."},
+  "skip_reason": null
+ },
+ {
+  "id": "d3688419-955f-4d22-8308-7e22bc4d02b9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Sea d la distancia inicial y h la altura. Desde el primer punto: h = d·tan 60° = d√3. Desde el segundo, alejado 40 m: h = (d+40)·tan 30° = (d+40)/√3. Igualando ambas expresiones se obtiene d = 20, y por lo tanto h = 20√3 m.",
+  "distractor_diagnosis": {"a": "Dividiste la distancia final entre √3 sin resolver correctamente el sistema.", "c": "Confundiste la distancia inicial d con la altura h del edificio.", "d": "Usaste la distancia final (d+40) como si fuera la inicial.", "e": "Multiplicaste por 3 en vez de por √3 al calcular la altura."},
+  "skip_reason": null
+ },
+ {
+  "id": "d3a0ac0e-dd97-4443-a960-1045bbdd70f9",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La escalera es la hipotenusa (3 m) y forma un ángulo de 37° con el muro vertical. La distancia x al muro es el cateto opuesto a ese ángulo, por lo que sen 37° = x/3, es decir, x = 3·sen 37°, opción b.",
+  "distractor_diagnosis": {"a": "Usaste coseno en vez de seno, como si el ángulo fuera con el suelo.", "c": "Usaste tangente, mezclando el cateto opuesto con el adyacente.", "d": "Invertiste la fórmula, despejando x en el lugar equivocado."},
+  "skip_reason": null
+ },
+ {
+  "id": "d48f0bc3-911b-4bf9-8534-3276208dfc0e",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El área del triángulo es base × altura / 2 = 39. Como la altura es b+7, se plantea b(b+7)/2 = 39, es decir, b² + 7b − 78 = 0, que corresponde a la ecuación de la opción d.",
+  "distractor_diagnosis": {"a": "Invertiste el signo del término constante en la ecuación.", "b": "Sumaste ambos términos cuando uno debía llevar signo negativo.", "c": "Invertiste el signo del término lineal (7b) en la ecuación."},
+  "skip_reason": null
+ },
+ {
+  "id": "d526e2f5-4e79-453f-b9f3-190db071711c",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El tiempo de ida es 60/(v+5) y el de vuelta 60/(v−5); su suma es 5 horas. Multiplicando por (v+5)(v−5) y simplificando se obtiene v² − 24v − 25 = 0, que factoriza como (v−25)(v+1)=0. Como v debe ser positivo, v = 25 km/h.",
+  "distractor_diagnosis": {"a": "Cometiste un error de signo al factorizar la ecuación cuadrática.", "b": "Tomaste una raíz cercana pero no exacta de la ecuación.", "d": "Usaste un valor que no satisface el tiempo total de 5 horas.", "e": "Sobreestimaste la velocidad sin verificar con el tiempo total del viaje."},
+  "skip_reason": null
+ },
+ {
+  "id": "d62bc86f-4488-42a1-a3ef-0c6dc08f1573",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d6f6387f-6358-4333-b94d-a0ad889d026c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "d78fda15-9f2f-482a-90a5-953142eff657",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Que n sea divisible por 6 no garantiza que sea divisible por 4 (por ejemplo, n=6), y que sea divisible por 4 no garantiza que sea divisible por 6 (por ejemplo, n=4); cada afirmación por sí sola es insuficiente. Pero si n es divisible por 6 y por 4 a la vez, entonces es divisible por su mínimo común múltiplo, que es 12. Por lo tanto, ambas juntas son necesarias y suficientes.",
+  "distractor_diagnosis": {"a": "Olvidaste que ser divisible por 6 no garantiza divisibilidad por 4.", "b": "Olvidaste que ser divisible por 4 no garantiza divisibilidad por 6.", "d": "Confundiste condiciones independientes con condiciones que deben cumplirse juntas.", "e": "No calculaste el mínimo común múltiplo de 6 y 4, que sí basta."},
+  "skip_reason": null
+ },
+ {
+  "id": "d8e0c0eb-5fde-4291-b61f-d0e667da393e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para que x² + bx + 2b = 0 no tenga solución real, el discriminante debe ser negativo: b² − 8b < 0. Factorizando, b(b−8) < 0, lo que se cumple cuando 0 < b < 8. Ese intervalo abierto corresponde a la opción c.",
+  "distractor_diagnosis": {"a": "Invertiste el sentido de la desigualdad al resolver b(b−8)<0.", "b": "Tomaste el intervalo complementario en vez del correcto.", "d": "Uniste dos intervalos que corresponden al caso de SÍ tener solución real."},
+  "skip_reason": null
+ },
+ {
+  "id": "d8f32cba-97d0-491b-bc69-137780740e23",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La afirmación I es verdadera por la densidad de los irracionales: siempre hay uno entre dos racionales distintos. La II es falsa, pues √2 + (−√2) = 0 es racional. La III es verdadera: si r·x fuera racional con r racional no nulo y x irracional, entonces x = (r·x)/r sería racional, contradicción. Por eso solo I y III son verdaderas, opción c.",
+  "distractor_diagnosis": {"a": "Olvidaste que el producto de racional no nulo por irracional también es siempre irracional.", "b": "Usaste un caso donde la suma de irracionales resulta racional, sin verificarlo.", "d": "Aceptaste la afirmación II como verdadera sin buscar un contraejemplo simple."},
+  "skip_reason": null
+ },
+ {
+  "id": "d94dc398-9c9f-4db7-9c8b-b1d2ca190a80",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Con la afirmación (1) se conoce P(2) y P(4), pero falta P(6) para sumar la probabilidad total de números pares, así que es insuficiente. Con la afirmación (2), como P(par) + P(impar) = 1, basta saber P(impar) = 0,45 para obtener P(par) = 0,55 directamente. Por eso (2) por sí sola es suficiente, pero (1) no lo es.",
+  "distractor_diagnosis": {"a": "No consideraste que falta el dato de P(6) para completar la suma.", "c": "Supusiste que ambas afirmaciones son necesarias sin probar (2) por separado.", "d": "Creíste que (1) también es suficiente por sí sola, sin el dato de P(6).", "e": "No viste que P(par)=1−P(impar) resuelve el problema con la afirmación (2)."},
+  "skip_reason": null
+ },
+ {
+  "id": "dc7b2981-a562-48d4-9371-38f881783f85",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dc8aaea3-2451-4e0d-8d89-3efe76bc0320",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "dd0dc172-d2f2-45df-bf1f-6cf561bf5fac",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Para los datos 2, 3 y 7, el promedio es (2+3+7)/3 = 4. La varianza es [(2−4)²+(3−4)²+(7−4)²]/3 = 14/3, por lo que la desviación estándar es σ = √(14/3) = √14/√3. El coeficiente de variación es CV = σ/promedio = √14/(4√3), que al racionalizar corresponde a la expresión de la opción c.",
+  "distractor_diagnosis": {"a": "Olvidaste dividir por la cantidad de datos al calcular la desviación.", "b": "Obtuviste un valor similar sin racionalizar correctamente la raíz.", "d": "Invertiste el cociente, calculando promedio/desviación en vez de desviación/promedio."},
+  "skip_reason": null
+ },
+ {
+  "id": "dd38e50a-f959-4d61-93ad-87ac41f0b827",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "En una homotecia, el área de la imagen es igual al área original multiplicada por el cuadrado de la razón de homotecia. Con razón −3, el factor de área es (−3)² = 9, por lo que el área de la imagen es 9b² cm², opción d.",
+  "distractor_diagnosis": {"a": "Usaste la razón de homotecia directamente como factor de área, sin elevarla al cuadrado.", "b": "Multiplicaste el área por la razón en vez de por su cuadrado.", "c": "Calculaste el cuadrado de la razón pero olvidaste multiplicarlo por el área original."},
+  "skip_reason": null
+ },
+ {
+  "id": "de805032-c21a-4ef0-9636-e78151840e0d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En un triángulo 30-60-90 con hipotenusa h, el cateto opuesto al ángulo de 60° mide h·sen 60° = h·(√3/2). Con hipotenusa 20 cm, ese cateto es 20·(√3/2) = 10√3 cm, opción c.",
+  "distractor_diagnosis": {"a": "Calculaste el cateto opuesto a 30° en vez del opuesto a 60°.", "b": "Usaste el factor √2 (de 45°) en vez del correcto √3 para 60°.", "d": "Usaste un valor arbitrario en vez de aplicar la razón trigonométrica exacta.", "e": "Multiplicaste la hipotenusa por √3 sin aplicar el seno de 60°."},
+  "skip_reason": null
+ },
+ {
+  "id": "df48f5ed-418e-459b-af95-bcb67eb8d858",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si el presupuesto crece 10% anual durante n años, se cumple (1,1)^n = 1 + tasa total de crecimiento. Con la afirmación (2) sabemos que la tasa total es 33,1%, y como 1,1³ = 1,331, se obtiene n = 3 de forma única. El valor absoluto del presupuesto (afirmación 1) no es necesario, porque la ecuación exponencial ya determina n solo con el porcentaje de crecimiento.",
+  "distractor_diagnosis": {"a": "Creíste que el valor absoluto del presupuesto es necesario para hallar n.", "c": "Supusiste que se necesitan ambos datos cuando la tasa porcentual ya alcanza.", "d": "Pensaste que la ecuación exponencial admite más de una solución para n.", "e": "No viste que (1,1)^n=1,331 tiene solución única e inmediata (n=3)."},
+  "skip_reason": null
+ },
+ {
+  "id": "dfd30b50-41a9-4b2b-a925-4f921227a0e0",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen de un cilindro es V = π·r²·h. El diámetro interior es 6 mm = 0,6 cm, por lo que el radio es r = 0,3 cm, y la altura (largo del segmento) es h = 20 cm. Entonces V = π·(0,3)²·20 = 1,8π cm³, correspondiente a la opción a.",
+  "distractor_diagnosis": {"b": "Usaste una longitud de segmento distinta a los 20 cm indicados.", "c": "No convertiste el diámetro de milímetros a centímetros antes de calcular.", "d": "Usaste el diámetro directamente como radio sin dividirlo entre dos."},
+  "skip_reason": null
+ },
+ {
+  "id": "dfe35fa1-5793-4240-871a-760a5742f1ce",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e0698258-926c-4b4c-9634-1d35d986b95f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e0dfc65f-c4a4-4278-8e4e-34b911d3ac44",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "La superficie sigue S(t) = 5πt², una relación cuadrática con el tiempo. Si se duplica el tiempo, S(2t) = 5π(2t)² = 4·5πt² = 4·S(t), es decir, la superficie se cuadruplica. Por eso la única afirmación verdadera es la d.",
+  "distractor_diagnosis": {"a": "Supusiste una relación lineal entre tiempo y superficie, no cuadrática.", "b": "Invertiste la comparación: en realidad tarda el doble en llegar a 800 que a 200.", "c": "Confundiste un incremento aditivo de tiempo con un factor multiplicativo de superficie."},
+  "skip_reason": null
+ },
+ {
+  "id": "e1264ec3-5ccf-4fae-9df8-7483472a0857",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La diferencia entre el taladro y la conversación es 100−70 = 30 dB. Usando 10·log₁₀(I₁/I₂) = 30, se obtiene log₁₀(I₁/I₂) = 3, es decir, I₁/I₂ = 10³ = 1.000. El taladro tiene 1.000 veces más intensidad de energía sonora que la conversación.",
+  "distractor_diagnosis": {"a": "Confundiste la diferencia en decibeles con una proporción lineal directa.", "b": "Usaste 10² en vez de 10³ al convertir la diferencia de 30 dB.", "d": "Calculaste la razón para una diferencia de 40 dB en vez de 30 dB."},
+  "skip_reason": null
+ },
+ {
+  "id": "e188f5b1-7a1c-47ae-ae9c-590f13d47b6a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "De la tabla, cuando la arista pasa de 4 a 8 cm, el volumen pasa de 80 a 320 cm³, consistente con V = 5·z² (con la altura fija incorporada en la constante 5). Tomando logaritmo en ambos lados: log V = log 5 + 2·log z, es decir, (log V − log 5)/log z = 2, que es justamente lo que plantea la opción c.",
+  "distractor_diagnosis": {"a": "Igualaste el cociente z²:V a un valor constante sin verificar con la tabla.", "b": "Despejaste z sin usar la relación logarítmica adecuada.", "d": "Confundiste la condición z=altura con la relación general V=5z²."},
+  "skip_reason": null
+ },
+ {
+  "id": "e4241317-33dc-4e95-bb33-9047a86efc8a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e44845fc-b0f3-478a-8129-6fd4d2903cf6",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "P(Alta) en toda la muestra es 120/200 = 0,60. Pero P(Alta | Roja) = 70/100 = 0,70, un valor distinto de P(Alta). Como la probabilidad condicional cambia respecto a la probabilidad marginal, el color de flor y la altura no son eventos independientes, lo que confirma la opción c.",
+  "distractor_diagnosis": {"a": "No comparaste P(Alta|Roja) con P(Alta) para verificar independencia.", "b": "Calculaste mal la proporción, usando 60 en vez de 70 plantas altas rojas.", "d": "Calculaste P(Roja|Alta) pero interpretaste el resultado al revés.", "e": "Los datos de la tabla sí permiten calcular y comparar las probabilidades condicionales."},
+  "skip_reason": null
+ },
+ {
+  "id": "e61516a2-c055-4feb-81a5-92b5971f917a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Los triángulos ABC y DBE comparten el ángulo B y ambos tienen un ángulo recto (en C y en E respectivamente), por lo que son semejantes: AB/DB = CB/BE. Con AB = AE+EB = 5x, CB = BD+DC = 4x, DB = 2x−1 y BE = x+1, se plantea 5x/(2x−1) = 4x/(x+1), que al resolver da x = 3 (descartando x = 0). Entonces CB = 4x = 12 cm.",
+  "distractor_diagnosis": {"a": "Resolviste la ecuación cuadrática pero tomaste la raíz x=0, inválida.", "b": "Sumaste mal los segmentos AB y CB antes de aplicar la semejanza.", "c": "Usaste una proporción incorrecta entre lados no correspondientes.", "e": "Calculaste solo un segmento parcial (BD o DC) en vez de todo CB."},
+  "skip_reason": null
+ },
+ {
+  "id": "e62417c5-4abf-4c26-bbf2-1365c2a0541f",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e6ae8224-ded9-43bd-b304-e47a832a1eae",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El cable, la altura de la antena y el suelo forman un triángulo rectángulo, donde el ángulo de 60° está entre el cable y la horizontal, y la altura (30 m) es el cateto opuesto a ese ángulo. Entonces sen 60° = 30/L, de donde L = 30/sen 60° = 30/(√3/2) = 60/√3 = 20√3 m.",
+  "distractor_diagnosis": {"b": "Usaste el ángulo de 30° en vez de 60° al aplicar el seno.", "c": "Multiplicaste la altura por 2 sin aplicar la razón trigonométrica correcta.", "d": "Dividiste la altura entre 2 en vez de usar seno de 60°.", "e": "Invertiste la fracción del seno al despejar el largo del cable."},
+  "skip_reason": null
+ },
+ {
+  "id": "e6e24ab5-a311-4084-a8cb-76df149bcae5",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para que un número de tres cifras sea múltiplo de 5, su último dígito debe ser 0 o 5; con los dígitos disponibles {0,1,2,4}, solo puede terminar en 0 (1 opción). El primer dígito no puede ser 0, así que hay 3 opciones (1, 2 o 4). El dígito del medio puede ser cualquiera de los 4 dígitos disponibles. En total: 3 × 4 × 1, opción d.",
+  "distractor_diagnosis": {"a": "Consideraste variantes sin fijar el dígito final en 0.", "b": "Diste 4 opciones al último dígito en vez de fijarlo en 0.", "c": "Permitiste que el primer dígito fuera 0 y limitaste el del medio a 1 opción."},
+  "skip_reason": null
+ },
+ {
+  "id": "e750ce6d-5697-4d36-b863-66844e0d2077",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e7874811-ba8b-4573-948f-58ba492019d0",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e78d1286-0ef0-4a6e-a41d-84205b6c2012",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "e7e3dea6-77b6-4d98-a57b-9b59da8a3d8d",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "En toda homotecia, cada segmento de la figura original es paralelo (o colineal) con el segmento correspondiente de la imagen, así que AB es paralelo a PQ. Las coordenadas de P se calculan como P = centro + k·(A − centro) = (1,-1) + (−2)·(2,-3) = (−3,5), no (−1,6), y el área escala según k² = 4 (no el doble). Por eso la única afirmación verdadera es la c.",
+  "distractor_diagnosis": {"a": "Calculaste mal las coordenadas de P, sin restar el centro antes de escalar.", "b": "Confundiste el factor de área (k²) con el factor de longitud (k).", "d": "Asumiste la ubicación del triángulo sin conocer las coordenadas de B y C."},
+  "skip_reason": null
+ },
+ {
+  "id": "e8a6f2d3-b868-465c-9fdb-d74ed8f7d6f2",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Los triángulos ABC y DBE comparten el ángulo B y cada uno tiene un ángulo recto (en C y en E), por lo que son semejantes: AB/DB = CB/BE. Con AB = AE+EB = 5x, CB = BD+DC = 4x, DB = 2x−1 y BE = x+1, al resolver 5x/(2x−1)=4x/(x+1) se obtiene x = 3 (descartando x=0), y por lo tanto CB = 4x = 12 cm.",
+  "distractor_diagnosis": {"a": "Resolviste la ecuación cuadrática pero tomaste la raíz x=0, inválida.", "b": "Sumaste mal los segmentos antes de aplicar la proporción de semejanza.", "c": "Usaste una proporción incorrecta entre lados no correspondientes.", "e": "Calculaste solo un segmento parcial en vez de todo el segmento CB."},
+  "skip_reason": null
+ },
+ {
+  "id": "e8e88264-9c6a-4885-bdda-dfb59108c103",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Usando la propiedad log₂(4x) = log₂(4) + log₂(x), y sabiendo que log₂(4) = log₂(2²) = 2 y que log₂(x) = 5, se obtiene log₂(4x) = 2 + 5 = 7.",
+  "distractor_diagnosis": {"b": "Calculaste mal log₂(4) como si fuera 5 en vez de 2.", "c": "Multiplicaste x por 4 en vez de sumar los logaritmos.", "d": "Sumaste correctamente 2+5 pero agregaste una unidad extra por error."},
+  "skip_reason": null
+ },
+ {
+  "id": "e8fece6e-196a-4684-b06f-736fc62e40bc",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La imagen de un punto A bajo una homotecia de centro O y razón k se calcula como A' = O + k·(A − O). Aquí, A' = (1,2) + 2·((3,4)−(1,2)) = (1,2) + 2·(2,2) = (1,2)+(4,4) = (5,6), opción a.",
+  "distractor_diagnosis": {"b": "Sumaste el vector completo (A−O) sin multiplicarlo por la razón k.", "c": "Sumaste el punto A y el centro O directamente, sin restar antes de escalar.", "d": "Aplicaste la razón solo a una de las dos coordenadas."},
+  "skip_reason": null
+ }
+]

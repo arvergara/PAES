@@ -30,6 +30,8 @@ export interface Question {
   options: QuestionOptions;
   correctAnswer: QuestionOptionKey;
   explanation?: string;
+  /** Qué error específico representa cada alternativa incorrecta (clave = letra). */
+  distractor_diagnosis?: Record<string, string | null> | null;
   areaTematica?: string;
   area_tematica?: string;
   tema?: string;

@@ -886,6 +886,15 @@ export function TestMode({
               )}
             </div>
 
+            {currentAnswer !== currentQuestion.correctAnswer && currentQuestion.distractor_diagnosis?.[currentAnswer?.toLowerCase() ?? ''] && (
+              <div className="mb-3 flex justify-center">
+                <p className="text-sm text-amber-800 dark:text-amber-200 bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 rounded-lg px-4 py-2 max-w-xl text-center">
+                  <span className="font-semibold">Tu error probable:</span>{' '}
+                  {currentQuestion.distractor_diagnosis[currentAnswer!.toLowerCase()]}
+                </p>
+              </div>
+            )}
+
             {currentAnswer !== currentQuestion.correctAnswer && (
               <div className="mb-4 flex justify-center">
                 <ErrorTagPrompt key={currentQuestionIndex} onTag={handleErrorTag} />

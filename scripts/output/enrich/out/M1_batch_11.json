@@ -1,0 +1,566 @@
+[
+ {
+  "id": "905e125c-040d-457b-87eb-255545957fa2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El volumen de un cubo es V = arista³, así que la arista es la raíz cúbica del volumen: ∛27.000 = ∛(27 · 1.000) = 3 · 10 = 30 cm. Recuerda que para 'deshacer' un cubo (potencia 3) necesitas raíz cúbica, no dividir por 3.",
+  "distractor_diagnosis": {
+   "b": "Dividiste el volumen por 3 en vez de calcular la raíz cúbica.",
+   "c": "Calculaste la raíz cuadrada (√27.000 ≈ 164) en lugar de la raíz cúbica.",
+   "d": "Dividiste el volumen por 100 en lugar de calcular ∛27.000."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "90a2dd99-1ea3-45b3-8ac4-74ea328cdaf2",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "915ccf36-b6e0-42a1-abb0-26008a668176",
+  "verified_answer": "b",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "918439c6-3df7-4549-9444-34615208e4f4",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El total de estudiantes es 5+12+8+4+1 = 30. La frecuencia acumulada hasta 2 hermanos suma los que tienen 0, 1 y 2 hermanos: 5+12+8 = 25. La frecuencia relativa acumulada es 25/30 ≈ 0,83.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Excluiste la categoría de 0 hermanos, sumando solo 12+8=20 sobre el total 30.",
+   "c": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "91afe27a-3987-4059-b5a0-382272d344bc",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El IVA es 19% del precio sin IVA: $80.000 × 0,19 = $15.200. El precio final se obtiene sumando ese IVA al precio original: $80.000 + $15.200 = $95.200.",
+  "distractor_diagnosis": {
+   "a": null,
+   "c": "Aplicaste 20% de IVA en lugar de 19% ($80.000 × 1,2 = $96.000).",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "91b55fa6-10a7-44ad-bef1-187f9f094bbf",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "91d04203-e76b-42ff-ab64-681012ea4dfc",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "El sueldo con bono es un 20% mayor que el sueldo normal, así que el nuevo pago por jornada equivalente es 28.000 × 1,20 = $33.600. Multiplicar por 1,20 (y no por otro porcentaje) es la clave: se suma el 20% completo al valor original.",
+  "distractor_diagnosis": {
+   "b": "Aplicaste un aumento del 5% en lugar del 20%.",
+   "c": "Aplicaste un aumento del 2% en lugar del 20%.",
+   "d": "Sumaste $20 fijos en lugar de aumentar un 20% el monto."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "92af7dcc-2a63-4f38-ad0a-822c2b5ea1e8",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Partiendo de -3°C, la temperatura baja 7 grados: -3 - 7 = -10°C. Luego sube 4 grados al amanecer: -10 + 4 = -6°C. Baja significa restar y subir significa sumar, manteniendo siempre el signo negativo del punto de partida.",
+  "distractor_diagnosis": {
+   "a": "Sumaste solo 2 grados en el amanecer en lugar de los 4 grados indicados.",
+   "c": "Sumaste en vez de restar los 7 grados que bajó la temperatura durante la noche.",
+   "d": "Trataste la bajada de 7° como una subida y no llegaste a sumar los 4° finales."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9329493e-8e3f-4157-bce2-0f13af28c14a",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "93a99c7a-89b3-4741-88a8-297c75c69d1a",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si el lado original es L, el área es L². Al duplicar el lado a 2L, el área nueva es (2L)² = 4L², es decir, cuatro veces el área original. El área depende del cuadrado del lado, no crece en la misma proporción que el lado.",
+  "distractor_diagnosis": {
+   "a": "Confundiste con el perímetro, que sí se duplica al duplicar el lado (el área no).",
+   "b": null,
+   "d": "Pensaste que el área aumenta sumando el factor 2 en lugar de multiplicar.",
+   "e": "Creíste que el área no depende del lado, lo cual es falso."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "93b50ec4-ebae-45e0-90e7-09eb26aad226",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Para f(x) = x², cualquier número real elevado al cuadrado da como resultado 0 o un valor positivo, nunca negativo. Por eso el rango (los valores que puede tomar f(x)) es y ≥ 0, incluyendo el 0 cuando x = 0.",
+  "distractor_diagnosis": {
+   "a": "Confundiste el rango con el dominio; el dominio de x² sí son todos los reales.",
+   "c": "Olvidaste incluir el 0, que se alcanza cuando x=0.",
+   "d": "Invertiste el signo de la desigualdad."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "944eb04c-e758-478b-b1e1-bc58659ad867",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "94affe2f-04d1-4ee1-9583-030a2a9fa52e",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El rendimiento del auto es 240 ÷ 20 = 12 km por litro. Manteniendo ese mismo rendimiento, con 35 litros recorre 12 × 35 = 420 km.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Usaste 21 litros en el denominador en lugar de 20 al calcular el rendimiento.",
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "95a35483-cfc8-48d8-87ca-f3a40dd37635",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "La población sigue 500 × 2^(t/3). Se necesita que 2^(t/3) > 60. En t=15 hay 2⁵=32 duplicaciones (población 16.000, insuficiente); en t=18 hay 2⁶=64 (población 32.000, que sí supera 30.000). Por eso 18 horas es el primer momento en que se supera el umbral.",
+  "distractor_diagnosis": {
+   "a": "En 12 horas la población es apenas 4.000, muy lejos de superar 30.000.",
+   "b": "En 15 horas la población es 16.000, todavía no supera 30.000.",
+   "d": "Es un momento posterior en que también se supera 30.000, pero no el primero: te pasaste una duplicación de más."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "96236475-458e-474c-a31e-947973c5f3d7",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Como la caja es cúbica y su altura es h, todas sus aristas miden h. La cinta va sobre la diagonal de la cara superior, un cuadrado de lado h, así que por el teorema de Pitágoras esa diagonal mide √(h²+h²) = h√2.",
+  "distractor_diagnosis": {
+   "b": "Aplicaste la raíz solo a la variable h, no al resultado de sumar los cuadrados de los lados.",
+   "c": "Multiplicaste el resultado correcto (h√2) por un factor 2 de más.",
+   "d": "Sumaste los dos lados (2h) en vez de aplicar el teorema de Pitágoras para la diagonal."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "964b1ad6-887d-47ea-bd4c-28e95eac27fd",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Si el estiramiento e es proporcional a la masa m, entonces e = k·m. Con 3 kg y 2 cm: k = 2/3. Con 9 kg: e = (2/3)·9 = 6 cm.",
+  "distractor_diagnosis": {
+   "a": "Calculaste solo el incremento del estiramiento (4 cm), no el valor final total (6 cm).",
+   "c": "Sumaste el cambio de masa (6 kg) al estiramiento original en vez de multiplicar proporcionalmente.",
+   "d": "Invertiste la proporción, colocando 9 en el lugar de la masa inicial al plantear la razón."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "966db709-24e4-490a-a695-9c7a2a4c2743",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El porcentaje se calcula dividiendo la parte por el total: 180 ÷ 600 = 0,3, que equivale a 30%.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "97e769d5-0ab3-4bda-9d04-e9388bf59546",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Un histograma se lee directamente por la altura de cada barra sobre su intervalo: eso ya son las frecuencias simples (no acumuladas) de cada intervalo tal como aparecen en el gráfico. La tabla correcta debe mostrar los intervalos [1,2[, [2,3[, [3,4[ y [4,5[ con sus frecuencias 7, 5, 2 y 1 respectivamente.",
+  "distractor_diagnosis": {
+   "a": "Usaste frecuencias acumuladas y la marca de clase en vez de frecuencias simples e intervalos.",
+   "b": "Usaste frecuencias acumuladas en lugar de las frecuencias simples que muestra el histograma.",
+   "d": "Usaste la marca de clase (punto medio) en lugar del intervalo completo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "97e8a82c-698a-4030-a46b-e6bedac6ff5f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Cuando el respaldo (AO) queda perpendicular al asiento (BO), ambos segmentos forman un ángulo recto en O, es decir, un triángulo rectángulo con cateto AO y cateto BO. Por el teorema de Pitágoras, la hipotenusa AB mide √(AO² + BO²).",
+  "distractor_diagnosis": {
+   "a": "Sumaste los dos segmentos directamente, como si estuvieran alineados en línea recta.",
+   "c": "Asumiste que AO=BO y usaste solo AO en la fórmula, ignorando BO.",
+   "d": "Mezclaste los términos con una resta en vez de una suma dentro de la raíz, alterando la fórmula de Pitágoras."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "98059502-49cf-4e90-863b-870e4f26fa9a",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "En el Paso 1 se traslada (-5,5) según el vector (5,-2): el resultado correcto es (-5+5, 5+(-2)) = (0, 3), pero el procedimiento reporta (0, 7). Esa diferencia de 4 unidades en la coordenada y muestra que el error ocurrió aquí, probablemente sumando 2 en vez de restarlo.",
+  "distractor_diagnosis": {
+   "b": "El Paso 2 (rotación) se aplica correctamente sobre el punto heredado; el error real ya estaba en el Paso 1.",
+   "c": "El Paso 3 (reflexión) se aplica correctamente sobre el punto heredado; el error real ya estaba en el Paso 1.",
+   "d": "El Paso 4 (reflexión en eje X) se aplica correctamente; el error ya estaba en el Paso 1, no aquí."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9858e0b5-6d7d-4391-afe0-c6b26b63b7c9",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "98bf3407-b788-40ca-90ce-0c7922fa9e4a",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Simplificando 12/18 dividiendo numerador y denominador por su MCD (6), obtienes 2/3, que es la opción d). Nota importante: las opciones c) 4/6 y e) 8/12 también son matemáticamente equivalentes a 12/18 (ambas se reducen a 2/3), por lo que esta pregunta tiene más de una alternativa correcta; d) es la forma irreducible esperada como respuesta.",
+  "distractor_diagnosis": {
+   "a": "3/4 no es equivalente a 12/18; corresponde a simplificar con un divisor incorrecto.",
+   "b": "6/8 se simplifica a 3/4, no a 2/3, por lo que no es equivalente a 12/18.",
+   "c": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "98dc1dcd-97f9-4fed-af80-53f47d9503c7",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero calculas m = 0,017/3,4 = 0,005. Luego aplicas t = m × h = 0,005 × 2 = 0,01 metros.",
+  "distractor_diagnosis": {
+   "a": "Corriste el punto decimal, usando m=0,0005 en vez de 0,005.",
+   "c": "Corriste el punto decimal, usando m=0,05 en vez de 0,005.",
+   "d": "Olvidaste dividir correctamente por p, tratando el resultado como metros completos."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9912bc6b-c19c-4467-abde-0970d17415bc",
+  "verified_answer": "a",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "9924d224-edb9-4e1f-aa14-d67a73533a99",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Un número de tres dígitos mtp se descompone por valor posicional: la centena m vale m×10², la decena t vale t×10¹ y la unidad p vale p×10⁰. Sumando estos tres términos (m×10² + t×10¹ + p×10⁰) obtienes el número completo, que es justamente la opción d).",
+  "distractor_diagnosis": {
+   "a": "Multiplicaste los tres términos entre sí en lugar de sumarlos.",
+   "b": "Multiplicaste los términos entre sí y además usaste exponentes corridos en 1.",
+   "c": "Usaste exponentes 1, 2 y 3 en lugar de 0, 1 y 2 para unidad, decena y centena."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "999a5ace-4069-4aff-a090-6a822ea50f08",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "99bc4313-c303-43cf-904c-2e0b9e532cce",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Si n es el número, la ecuación es n + 0,30n = 910, es decir 1,30n = 910. Despejando, n = 910/1,3 = 700.",
+  "distractor_diagnosis": {
+   "a": "Calculaste el 30% de 910 (273) en vez de resolver la ecuación completa.",
+   "b": "Restaste directamente 910 − 273 = 637 en lugar de dividir 910 entre 1,3.",
+   "d": "Multiplicaste 910 × 1,3 en lugar de dividir 910 ÷ 1,3."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "99d281af-4b61-4de3-a51f-a1f295121295",
+  "verified_answer": "e",
+  "matches_key": true,
+  "explanation": "La probabilidad de que ocurra al menos uno de dos sucesos es P(A∪B) = P(A) + P(B) − P(A∩B). Como A y B son independientes, P(A∩B) = p·q, por lo que la fórmula queda p + q − pq.",
+  "distractor_diagnosis": {
+   "a": "Corresponde a un término parcial (1−p)q, no a la fórmula completa de la unión.",
+   "b": "Calculaste solo la probabilidad de la intersección (que ocurran ambos), no la unión.",
+   "c": "Esta es la fórmula de 'ocurre exactamente uno', no de 'al menos uno'.",
+   "d": "Esta es la probabilidad de que NINGUNO ocurra; falta restarla de 1 para obtener lo pedido."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "99dbd86b-1e18-4729-8473-ba80b44fa5c4",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Primero calculas f(−2): como −2 < 0, usas la rama x², obteniendo f(−2) = (−2)² = 4. Luego calculas f(4): como 4 ≥ 0, usas la rama 2x+1, obteniendo f(4) = 2(4)+1 = 9.",
+  "distractor_diagnosis": {
+   "a": "Olvidaste multiplicar por 2 en la fórmula 2x+1, calculando solo x+1 = 5.",
+   "c": "Combinaste ambas reglas, calculando 4²+1 = 17 en lugar de aplicar solo la rama correspondiente.",
+   "d": "Confundiste la composición f(f(−2)) con elevar (f(−2)+1) al cuadrado: (4+1)² = 25."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9a2240c7-6633-40ac-9749-ef5f0cd7a766",
+  "verified_answer": "d",
+  "matches_key": false,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": null
+ },
+ {
+  "id": "9a2d5494-d1ac-4318-8775-5b31828969fb",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El promedio actual es (4+6+8+10+12)/5 = 8. Para que el promedio no cambie al agregar dos datos, la suma de esos dos datos debe ser 2 × 8 = 16. Solo la opción d) cumple: 2 + 14 = 16.",
+  "distractor_diagnosis": {
+   "a": "1+13=14, que es 2 unidades menos de la suma necesaria (16).",
+   "b": "3+14=17, que es 1 unidad más de la suma necesaria (16).",
+   "c": "2+13=15, que es 1 unidad menos de la suma necesaria (16)."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9a3abec9-5cf6-4241-ba49-6645f645739e",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9a63288b-b410-4b28-a93c-16c52c4f3967",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "La altura h a la que está unido el cable es el cateto opuesto al ángulo de 60°, y el cable de 40 m es la hipotenusa. Usando sen 60° = h/40, despejas h = 40 × sen 60° = 40 × (√3/2) = 20√3 m.",
+  "distractor_diagnosis": {
+   "a": "Usaste sen 30° (=1/2) en lugar de sen 60°.",
+   "c": "Olvidaste dividir por 2 en sen 60° = √3/2, usando solo √3.",
+   "d": "Invertiste la fórmula, dividiendo 40 entre sen 60° en lugar de multiplicar."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ab5355d-3b00-4229-94f6-0c3f0f3537a2",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "|−8| = 8 y |3−10| = |−7| = 7. Sumando ambos valores absolutos: 8 + 7 = 15.",
+  "distractor_diagnosis": {
+   "a": "Restaste los valores absolutos (8−7) en lugar de sumarlos.",
+   "b": "Calculaste |3−10| como si fuera solo 3, ignorando el −10 dentro del valor absoluto.",
+   "d": "Calculaste |3+10| en lugar de |3−10|."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9bb49e49-919d-420b-9e32-5535633ee8e3",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Planteas la ecuación 3x − 1 = 11. Sumando 1 a ambos lados: 3x = 12. Dividiendo por 3: x = 4.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": "Olvidaste sumar 1 antes de dividir por 3, calculando directamente 11/3.",
+   "d": null,
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9c4dae81-2707-47bb-b40b-9dffa3cc90b3",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "(−5)² = 25, porque un exponente par elimina el signo negativo. (−5)³ = −125, porque un exponente impar conserva el signo negativo. Sumando: 25 + (−125) = −100.",
+  "distractor_diagnosis": {
+   "a": "Trataste (−5)² como −25 en lugar de 25, un error de signo al elevar al cuadrado.",
+   "c": "Trataste (−5)³ como positivo 125, ignorando que un exponente impar conserva el signo negativo.",
+   "d": "Calculaste correctamente −100 pero reportaste su valor absoluto.",
+   "e": "Calculaste (−5)³ como −25, confundiéndolo con el cuadrado."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9c7ad323-67c3-444c-94f5-086a144bb73c",
+  "verified_answer": null,
+  "matches_key": null,
+  "explanation": null,
+  "distractor_diagnosis": null,
+  "skip_reason": "figura"
+ },
+ {
+  "id": "9c8f190f-c1ea-45ee-b153-fdf2ef274a9c",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Sean s = bicicletas Sport y c = bicicletas Cross Country. Según la tabla, el sistema es s + 2c = 100 (aluminio) y 3s + c = 80 (titanio). Despejando s = 80 − 3c y sustituyendo: (80−3c) + 2c = 100 → 80 − c = 100 → c = ... revisando con sustitución directa: de 3s+c=80, c=80−3s; en s+2c=100: s+2(80−3s)=100 → s+160−6s=100 → −5s=−60 → s=12, y c=80−3(12)=44. Se fabricaron 44 bicicletas Cross Country.",
+  "distractor_diagnosis": {
+   "a": "Confundiste la relación de materiales con la cantidad de bicicletas, calculando 2×12=24 en vez de resolver el sistema completo.",
+   "c": "Intercambiaste los totales de aluminio y titanio al plantear las ecuaciones del sistema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ca6d357-cc59-44df-b5c7-eac925808697",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "Necesitas que n(n+1)/2 > 1.000, es decir n(n+1) > 2.000. Probando n=44: 44×45=1.980, insuficiente. Probando n=45: 45×46=2.070, que sí supera 2.000. El menor valor es n=45.",
+  "distractor_diagnosis": {
+   "a": "Con n=44 la suma es 990, que todavía no supera 1.000.",
+   "c": "Con n=46 la suma sí supera 1.000, pero no es el menor valor: te pasaste uno de más.",
+   "d": "Es un valor que también supera 1.000, pero muy por encima del menor n necesario."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9caa787d-5feb-44da-8b69-102d3d696a7f",
+  "verified_answer": "b",
+  "matches_key": true,
+  "explanation": "El subsidio es para el 60% de menores ingresos del país, es decir, hasta el percentil 60. Si el ingreso de la vecina es menor que el percentil 40, eso garantiza que también está por debajo del percentil 60, asegurando su elegibilidad.",
+  "distractor_diagnosis": {
+   "a": "Ser mayor que P20 no garantiza estar bajo P60; podría tener ingresos altos igualmente.",
+   "c": "Usa el percentil de la comuna, no del país, y P50 no garantiza estar bajo el P60 nacional.",
+   "d": "Usa el percentil de la comuna, no del país, y estar justo en el límite P60 es ambiguo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ddeda74-fc4e-43c3-9918-9a9647a6b883",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Un aumento del 5% se calcula multiplicando por 1,05: 20 × 1,05 = 21 patitos.",
+  "distractor_diagnosis": {
+   "b": "Usaste un aumento del 20% en lugar del 5%.",
+   "c": "Usaste un aumento del 25% en lugar del 5%.",
+   "d": "Usaste un aumento del 50% en lugar del 5%."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9e33d185-3b19-4014-838d-2bb8423ea35b",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "Para determinar el ingreso máximo que delimita al 25% de menores ingresos, se necesita el percentil 25, que es exactamente el primer cuartil (Q1) de la distribución de ingresos.",
+  "distractor_diagnosis": {
+   "a": "Confundiste con el segundo cuartil (mediana, percentil 50), que delimita el 50% inferior, no el 25%.",
+   "b": "Usaste el percentil complementario (75%) en lugar del 25% pedido.",
+   "c": "Interpretaste mal el porcentaje, usando el percentil 4 en vez del percentil 25."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9e940a60-65cd-4812-af08-66030e580906",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "La diagonal de un cuadrado forma un triángulo rectángulo con dos lados del cuadrado. Por Pitágoras: d² = 5² + 5² = 50, entonces d = √50 = √(25·2) = 5√2 cm.",
+  "distractor_diagnosis": {
+   "b": "Sumaste los dos lados (2×5) en vez de aplicar el teorema de Pitágoras.",
+   "c": "Confundiste con la fórmula de la altura de un triángulo equilátero, que usa √3.",
+   "d": "Calculaste el área del cuadrado (5²=25) en lugar de la diagonal.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9eb10cd6-35c3-4538-a701-1d8c7fb652d8",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "Con solo (1) sabes el total (40 bolitas) pero no cuántas son verdes. Con solo (2) sabes la proporción de rojas (2/5) pero sin el total no obtienes un número exacto. Combinando ambas: bolitas rojas = (2/5)×40 = 16, por lo tanto verdes = 40−16 = 24; se necesitan ambas condiciones juntas.",
+  "distractor_diagnosis": {
+   "a": "Con el total solo, no sabes qué proporción es roja ni verde.",
+   "b": "Con la proporción sola, sin el total no obtienes un número absoluto de bolitas.",
+   "d": "Ninguna por sí sola basta; se necesita el total y la proporción juntas.",
+   "e": "No falta información: combinando (1) y (2) sí se puede resolver el problema."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ecb3149-a85a-4ca0-9272-b6c2de937fd9",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El lado de cada figura se duplica respecto de la anterior: figura 1 tiene lado 2¹, figura 2 tiene lado 2², figura 3 tiene lado 2³. Como la cantidad de cuadrados unitarios equivale al área (lado al cuadrado), la cantidad en cada figura es (2¹)², (2²)² y (2³)² respectivamente.",
+  "distractor_diagnosis": {
+   "a": "No aumentaste el exponente según el número de figura; usaste el mismo valor para todas.",
+   "d": "Usaste una progresión de exponentes (0,2,4) que no corresponde al patrón de duplicación por figura."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ef8a668-e759-4aad-b2ea-997fefce3fd1",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El 30% de 150 se calcula multiplicando: 150 × 0,30 = 45.",
+  "distractor_diagnosis": {
+   "a": null,
+   "b": null,
+   "d": "Aproximaste el 30% como 1/3 y dividiste 150 entre 3.",
+   "e": null
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9f6698d6-3225-4b59-be10-10209536db7c",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Plan 1 cuesta 5.000+50m y Plan 2 cuesta 8.000+30m. El plan 2 conviene cuando 8.000+30m < 5.000+50m, es decir, 3.000 < 20m, o sea m > 150. A partir de 150 minutos el segundo plan es más barato.",
+  "distractor_diagnosis": {
+   "b": "Dividiste 3.000 entre 30 en lugar de entre la diferencia de tarifas (20).",
+   "c": null,
+   "d": "Dividiste 3.000 entre la tarifa de 50 en lugar de entre la diferencia de tarifas (20).",
+   "e": "Comparaste solo los costos fijos, ignorando que el costo por minuto cambia la conveniencia con el tiempo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "9ff9b93a-b59b-485a-8283-4e1f12ed9513",
+  "verified_answer": "c",
+  "matches_key": true,
+  "explanation": "El costo original es f(x) = 300x + 500. Reducir el costo un 25% equivale a multiplicar toda la función por 0,75: 0,75×(300x+500) = 225x + 375, que corresponde a h(x).",
+  "distractor_diagnosis": {
+   "a": "Redujiste el costo fijo restando 25 unidades en vez de aplicar un 25%, y no cambiaste el costo variable.",
+   "b": "Redujiste solo el costo variable (300→225) pero olvidaste reducir también el costo fijo.",
+   "d": "Calculaste el 25% restante en vez del 75%, y no redujiste correctamente el costo fijo."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a07ae420-4831-446f-914b-1bcefbe5bbf2",
+  "verified_answer": "a",
+  "matches_key": true,
+  "explanation": "Expandiendo (a−3)² = a²−6a+9, la expresión completa queda: (a²−6a+9) − 9 + 6a − a² + m². Los términos a², −6a y 9 se cancelan exactamente con −a², +6a y −9, quedando solo m².",
+  "distractor_diagnosis": {
+   "b": "Sumaste en vez de restar al expandir (a−3)², dejando un resto de 12a sin cancelar.",
+   "c": "Cancelaste solo parcialmente los términos en a, dejando un residuo de 6a.",
+   "d": "No simplificaste completamente la expresión, dejando términos sin expandir.",
+   "e": "Combinaste incorrectamente los términos cuadráticos y lineales en a."
+  },
+  "skip_reason": null
+ },
+ {
+  "id": "a0a2218d-9814-4370-b8f5-45e34c2e4df3",
+  "verified_answer": "d",
+  "matches_key": true,
+  "explanation": "El sucesor de p es p+1. La tercera parte de ese sucesor es (p+1)/3, que es exactamente lo que representa la opción d).",
+  "distractor_diagnosis": {
+   "a": "Sumaste 1 después de dividir por 3, en lugar de sumar 1 antes de dividir (orden de operaciones).",
+   "b": null,
+   "c": null
+  },
+  "skip_reason": null
+ }
+]
