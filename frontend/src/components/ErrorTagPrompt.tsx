@@ -13,13 +13,15 @@ const OPTIONS: { tag: ErrorTag; label: string; icon: typeof Eye; evitable: boole
 
 interface ErrorTagPromptProps {
   onTag: (tag: ErrorTag) => void;
+  /** Tags que no aplican en este contexto (ej. 'calculo' en Lenguaje). */
+  hiddenTags?: ErrorTag[];
 }
 
 /**
  * Micro-encuesta de 1 toque que aparece SOLO tras una respuesta incorrecta.
  * No bloquea: es opcional. Alimenta el tracking de "errores tontos".
  */
-export function ErrorTagPrompt({ onTag }: ErrorTagPromptProps) {
+export function ErrorTagPrompt({ onTag, hiddenTags }: ErrorTagPromptProps) {
   const [selected, setSelected] = useState<ErrorTag | null>(null);
 
   const handle = (tag: ErrorTag) => {
@@ -48,7 +50,7 @@ export function ErrorTagPrompt({ onTag }: ErrorTagPromptProps) {
         ¿Qué pasó? <span className="font-normal text-gray-400">(opcional, te ayuda a mejorar)</span>
       </p>
       <div className="flex flex-wrap gap-2">
-        {OPTIONS.map(({ tag, label, icon: Icon }) => (
+        {OPTIONS.filter(({ tag }) => !hiddenTags?.includes(tag)).map(({ tag, label, icon: Icon }) => (
           <button
             key={tag}
             onClick={() => handle(tag)}
