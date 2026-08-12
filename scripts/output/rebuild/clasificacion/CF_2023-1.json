@@ -1,0 +1,405 @@
+{
+  "base": "CF_2023-1",
+  "clasificacion": [
+    {
+      "numero": 1,
+      "area_tematica": "Ondas",
+      "tema": "Rapidez de propagación de ondas"
+    },
+    {
+      "numero": 2,
+      "area_tematica": "Ondas",
+      "tema": "Intensidad del sonido (método científico)"
+    },
+    {
+      "numero": 3,
+      "area_tematica": "Universo",
+      "tema": "Ondas sísmicas P y S"
+    },
+    {
+      "numero": 4,
+      "area_tematica": "Ondas",
+      "tema": "Resonancia"
+    },
+    {
+      "numero": 5,
+      "area_tematica": "Ondas",
+      "tema": "Energía del fotón (relación f, λ, E)"
+    },
+    {
+      "numero": 6,
+      "area_tematica": "Ondas",
+      "tema": "Aplicaciones de ondas (radar, ecografía)"
+    },
+    {
+      "numero": 7,
+      "area_tematica": "Mecánica",
+      "tema": "Caída libre y fuerza de roce"
+    },
+    {
+      "numero": 8,
+      "area_tematica": "Mecánica",
+      "tema": "Masa y peso (gravedad en otro cuerpo celeste)"
+    },
+    {
+      "numero": 9,
+      "area_tematica": "Mecánica",
+      "tema": "Ley de Hooke (método científico)"
+    },
+    {
+      "numero": 10,
+      "area_tematica": "Mecánica",
+      "tema": "Caída libre: independencia de la masa"
+    },
+    {
+      "numero": 11,
+      "area_tematica": "Energía",
+      "tema": "Calor específico"
+    },
+    {
+      "numero": 12,
+      "area_tematica": "Energía",
+      "tema": "Transferencia de calor: equilibrio térmico"
+    },
+    {
+      "numero": 13,
+      "area_tematica": "Energía",
+      "tema": "Escalas de temperatura"
+    },
+    {
+      "numero": 14,
+      "area_tematica": "Universo",
+      "tema": "Tectónica de placas y orogénesis"
+    },
+    {
+      "numero": 15,
+      "area_tematica": "Energía",
+      "tema": "Método científico: transferencia de calor"
+    },
+    {
+      "numero": 16,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Instrumentos de medición eléctrica (voltímetro/amperímetro)"
+    },
+    {
+      "numero": 17,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Electrización por frotamiento"
+    },
+    {
+      "numero": 18,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Circuitos eléctricos: método científico"
+    },
+    {
+      "numero": 19,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Transporte pasivo (difusión)"
+    },
+    {
+      "numero": 20,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Organelos celulares (retículo endoplasmático rugoso)"
+    },
+    {
+      "numero": 21,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Transporte de glucosa (método científico)"
+    },
+    {
+      "numero": 22,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Citoesqueleto"
+    },
+    {
+      "numero": 23,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Reproducción: movilidad espermática"
+    },
+    {
+      "numero": 24,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Métodos anticonceptivos"
+    },
+    {
+      "numero": 25,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Métodos anticonceptivos hormonales"
+    },
+    {
+      "numero": 26,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Factores de riesgo cardiovascular"
+    },
+    {
+      "numero": 27,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Nutrición: aminoácidos esenciales (método científico)"
+    },
+    {
+      "numero": 28,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Mitosis"
+    },
+    {
+      "numero": 29,
+      "area_tematica": "Biología: Herencia y evolución",
+      "tema": "Fecundación y dotación cromosómica"
+    },
+    {
+      "numero": 30,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Regeneración celular y mitosis"
+    },
+    {
+      "numero": 31,
+      "area_tematica": "Biología: Organización, estructura y actividad celular",
+      "tema": "Ciclo celular y cáncer"
+    },
+    {
+      "numero": 32,
+      "area_tematica": "Biología: Organismo y ambiente",
+      "tema": "Interacciones bióticas: competencia"
+    },
+    {
+      "numero": 33,
+      "area_tematica": "Biología: Organismo y ambiente",
+      "tema": "Pirámides ecológicas"
+    },
+    {
+      "numero": 34,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Fotosíntesis: factores limitantes"
+    },
+    {
+      "numero": 35,
+      "area_tematica": "Biología: Procesos y funciones biológicas",
+      "tema": "Fotosíntesis: método científico"
+    },
+    {
+      "numero": 36,
+      "area_tematica": "Biología: Organismo y ambiente",
+      "tema": "Factores abióticos: disponibilidad de agua"
+    },
+    {
+      "numero": 37,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Cambios físicos y químicos"
+    },
+    {
+      "numero": 38,
+      "area_tematica": "Química: Estructura atómica",
+      "tema": "Notación isotópica (Z, A)"
+    },
+    {
+      "numero": 39,
+      "area_tematica": "Química: Estructura atómica",
+      "tema": "Propiedades periódicas (densidad, grupo)"
+    },
+    {
+      "numero": 40,
+      "area_tematica": "Química: Estructura atómica",
+      "tema": "Enlace químico y conductividad"
+    },
+    {
+      "numero": 41,
+      "area_tematica": "Química: Estructura atómica",
+      "tema": "Carácter iónico del enlace"
+    },
+    {
+      "numero": 42,
+      "area_tematica": "Química: Disoluciones químicas",
+      "tema": "Métodos de separación de mezclas (destilación)"
+    },
+    {
+      "numero": 43,
+      "area_tematica": "Química: Química orgánica",
+      "tema": "Compuestos orgánicos volátiles (método científico)"
+    },
+    {
+      "numero": 44,
+      "area_tematica": "Química: Química orgánica",
+      "tema": "Propiedades de compuestos orgánicos (método científico)"
+    },
+    {
+      "numero": 45,
+      "area_tematica": "Química: Química orgánica",
+      "tema": "Radicales alquilo"
+    },
+    {
+      "numero": 46,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Mol y número de Avogadro"
+    },
+    {
+      "numero": 47,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Estequiometría de reacciones (método científico)"
+    },
+    {
+      "numero": 48,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Masa molar y cálculos estequiométricos"
+    },
+    {
+      "numero": 49,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Estequiometría: cálculo de masas"
+    },
+    {
+      "numero": 50,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Ley de proporciones múltiples (método científico)"
+    },
+    {
+      "numero": 51,
+      "area_tematica": "Química: Disoluciones químicas",
+      "tema": "Corrosión (aleaciones y soluciones)"
+    },
+    {
+      "numero": 52,
+      "area_tematica": "Química: Reacciones químicas y estequiometría",
+      "tema": "Estequiometría de soluciones"
+    },
+    {
+      "numero": 53,
+      "area_tematica": "Química: Disoluciones químicas",
+      "tema": "Concentración de soluciones (masa/volumen)"
+    },
+    {
+      "numero": 54,
+      "area_tematica": "Química: Disoluciones químicas",
+      "tema": "Cálculo de masa de soluto (molaridad)"
+    },
+    {
+      "numero": 55,
+      "area_tematica": "Ondas",
+      "tema": "Naturaleza de las ondas mecánicas"
+    },
+    {
+      "numero": 56,
+      "area_tematica": "Ondas",
+      "tema": "Rapidez de propagación y medio (método científico)"
+    },
+    {
+      "numero": 57,
+      "area_tematica": "Ondas",
+      "tema": "Propagación de ondas: cambio de medio"
+    },
+    {
+      "numero": 58,
+      "area_tematica": "Ondas",
+      "tema": "Efecto Doppler"
+    },
+    {
+      "numero": 59,
+      "area_tematica": "Ondas",
+      "tema": "Principio de superposición"
+    },
+    {
+      "numero": 60,
+      "area_tematica": "Ondas",
+      "tema": "Refracción de la luz"
+    },
+    {
+      "numero": 61,
+      "area_tematica": "Ondas",
+      "tema": "Espejos cóncavos"
+    },
+    {
+      "numero": 62,
+      "area_tematica": "Universo",
+      "tema": "Ondas sísmicas P y S"
+    },
+    {
+      "numero": 63,
+      "area_tematica": "Mecánica",
+      "tema": "Diagrama de cuerpo libre"
+    },
+    {
+      "numero": 64,
+      "area_tematica": "Mecánica",
+      "tema": "Fuerza de roce dinámico"
+    },
+    {
+      "numero": 65,
+      "area_tematica": "Mecánica",
+      "tema": "Fuerza de roce estático (condición de movimiento)"
+    },
+    {
+      "numero": 66,
+      "area_tematica": "Mecánica",
+      "tema": "Determinación experimental de la gravedad (Ley de Hooke)"
+    },
+    {
+      "numero": 67,
+      "area_tematica": "Mecánica",
+      "tema": "Presión hidrostática"
+    },
+    {
+      "numero": 68,
+      "area_tematica": "Mecánica",
+      "tema": "Principio de Arquímedes (historia de la ciencia)"
+    },
+    {
+      "numero": 69,
+      "area_tematica": "Energía",
+      "tema": "Escalas de temperatura (termometría)"
+    },
+    {
+      "numero": 70,
+      "area_tematica": "Energía",
+      "tema": "Calor latente de vaporización"
+    },
+    {
+      "numero": 71,
+      "area_tematica": "Energía",
+      "tema": "Calorimetría"
+    },
+    {
+      "numero": 72,
+      "area_tematica": "Energía",
+      "tema": "Calorimetría: cambios de fase"
+    },
+    {
+      "numero": 73,
+      "area_tematica": "Universo",
+      "tema": "Escalas sísmicas: naturaleza de la ciencia"
+    },
+    {
+      "numero": 74,
+      "area_tematica": "Universo",
+      "tema": "Cambio climático y efecto invernadero"
+    },
+    {
+      "numero": 75,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Circuitos eléctricos: método científico"
+    },
+    {
+      "numero": 76,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Circuitos en serie (Ley de Ohm)"
+    },
+    {
+      "numero": 77,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Circuitos eléctricos: interruptores"
+    },
+    {
+      "numero": 78,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Ley de Coulomb: fuerza entre cargas"
+    },
+    {
+      "numero": 79,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Potencia eléctrica y consumo energético"
+    },
+    {
+      "numero": 80,
+      "area_tematica": "Electricidad y magnetismo",
+      "tema": "Potencia eléctrica (VA)"
+    }
+  ]
+}

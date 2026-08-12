@@ -15,6 +15,7 @@ interface MasteryMapModalProps {
 
 const SUBJECT_LABEL: Record<string, string> = {
   M1: 'Matemática 1', M2: 'Matemática 2', L: 'Lenguaje', H: 'Historia',
+  CF: 'Física', CQ: 'Química', CB: 'Biología',
 };
 
 const STATUS_UI: Record<MasteryStatus, { label: string; chip: string; bar: string }> = {

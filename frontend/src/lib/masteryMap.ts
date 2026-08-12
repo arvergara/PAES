@@ -32,10 +32,10 @@ export interface SubjectMastery {
   ejes: EjeMastery[];
 }
 
-export const MASTERY_SUBJECTS = ['M1', 'M2', 'L', 'H'] as const;
+export const MASTERY_SUBJECTS = ['M1', 'M2', 'L', 'H', 'CF', 'CQ', 'CB'] as const;
 
 /** Materias donde se puede lanzar práctica dirigida por eje (L usa textos, va aparte). */
-export const PRACTICE_SUBJECTS = new Set(['M1', 'M2', 'H']);
+export const PRACTICE_SUBJECTS = new Set(['M1', 'M2', 'H', 'CF', 'CQ', 'CB']);
 
 const MIN_ATTEMPTS = 3;
 
@@ -63,6 +63,7 @@ export function normalizeEje(subject: string, area: string | null): string {
     if (/geograf/.test(a)) return 'Geografía';
     if (/histor|chile/.test(a)) return 'Historia';
   }
+  // CF/CQ/CB: el banco reprocesado ya trae los ejes canónicos DEMRE, pasan directo
   return area!.trim();
 }
 
