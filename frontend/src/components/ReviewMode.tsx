@@ -26,6 +26,7 @@ interface ReviewModeProps {
   questionCount?: number;
   onSessionChange?: (session: any | null) => void;
   resumeSession?: ResumeSession;
+  onAnswer?: (isCorrect: boolean) => void;
 }
 
 interface ReadingText {
@@ -36,7 +37,7 @@ interface ReadingText {
   page_end: number;
 }
 
-export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange, resumeSession }: ReviewModeProps) {
+export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange, resumeSession, onAnswer }: ReviewModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
   const [loading, setLoading] = useState(true);
@@ -151,14 +152,15 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
           }
         }
 
-        // Para Lenguaje: agrupar por reading_text_id y ordenar
+        // Ordenar según rendimiento del alumno: áreas débiles primero, fácil a difícil
         let orderedQuestions: Question[];
         if (subject === 'L') {
           await loadReadingTexts(questions);
           orderedQuestions = orderLanguageQuestions(questions);
         } else {
-          // Para otras materias: barajar aleatoriamente
-          orderedQuestions = shuffleArray([...questions]);
+          // Obtener rendimiento por área temática del alumno
+          const areaAccuracy = user ? await fetchAreaAccuracy(subject) : {};
+          orderedQuestions = orderByWeakness(questions, areaAccuracy);
         }
 
         // Aplicar límite si existe
@@ -196,6 +198,72 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
 
     loadData();
   }, [user, subject, questionCount]);
+
+  // Obtener rendimiento del alumno por área temática
+  const fetchAreaAccuracy = async (subj: Subject): Promise<Record<string, number>> => {
+    if (!user) return {};
+    try {
+      const subjects = subj === 'C' ? ['C', 'CF', 'CQ', 'CB'] : [subj];
+      const { data, error } = await supabase
+        .from('question_attempts')
+        .select('area_tematica, is_correct')
+        .eq('user_id', user.id)
+        .in('subject', subjects);
+
+      if (error || !data || data.length === 0) return {};
+
+      // Calcular accuracy por área
+      const stats: Record<string, { correct: number; total: number }> = {};
+      data.forEach(a => {
+        const area = a.area_tematica || '_sin_area';
+        if (!stats[area]) stats[area] = { correct: 0, total: 0 };
+        stats[area].total++;
+        if (a.is_correct) stats[area].correct++;
+      });
+
+      const accuracy: Record<string, number> = {};
+      Object.entries(stats).forEach(([area, s]) => {
+        accuracy[area] = s.total > 0 ? s.correct / s.total : 0;
+      });
+      return accuracy;
+    } catch {
+      return {};
+    }
+  };
+
+  // Ordenar: áreas débiles primero, dentro de cada área de fácil a difícil
+  const orderByWeakness = (questions: Question[], areaAccuracy: Record<string, number>): Question[] => {
+    const hasHistory = Object.keys(areaAccuracy).length > 0;
+
+    // Agrupar por área temática
+    const byArea: Record<string, Question[]> = {};
+    questions.forEach(q => {
+      const area = q.area_tematica || q.areaTematica || '_sin_area';
+      if (!byArea[area]) byArea[area] = [];
+      byArea[area].push(q);
+    });
+
+    // Ordenar áreas: sin historial van primero (desconocidas), luego de menor a mayor accuracy
+    const sortedAreas = Object.keys(byArea).sort((a, b) => {
+      const accA = areaAccuracy[a] ?? -1; // -1 = sin historial, va primero
+      const accB = areaAccuracy[b] ?? -1;
+      return accA - accB;
+    });
+
+    // Dentro de cada área: ordenar de fácil a difícil
+    const result: Question[] = [];
+    sortedAreas.forEach(area => {
+      const areaQuestions = byArea[area].sort((a, b) => (a.difficulty || 3) - (b.difficulty || 3));
+      result.push(...areaQuestions);
+    });
+
+    // Si no hay historial, solo ordenar por dificultad
+    if (!hasHistory) {
+      return [...questions].sort((a, b) => (a.difficulty || 3) - (b.difficulty || 3));
+    }
+
+    return result;
+  };
 
   // Ordenar preguntas de Lenguaje por texto
   const orderLanguageQuestions = (questions: Question[]): Question[] => {
@@ -346,6 +414,7 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
     }
 
     saveAttempt(answer, isCorrect);
+    onAnswer?.(isCorrect);
   };
 
   const saveAttempt = async (answer: string, isCorrect: boolean) => {
@@ -357,7 +426,11 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
         session_id: sessionId,
         question_id: currentQuestion.id,
         subject: currentQuestion.subject,
-        selected_answer: answer,
+        mode: 'REVIEW',
+        area_tematica: currentQuestion.areaTematica || currentQuestion.area_tematica || null,
+        tema: currentQuestion.tema || null,
+        subtema: currentQuestion.subtema || null,
+        answer,
         is_correct: isCorrect,
         time_spent: 0
       });
@@ -680,21 +753,14 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
       <div className="mb-6">
         <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
           <span>Progreso</span>
-          <span>Pregunta {currentQuestionIndex + 1} de {effectiveLimit} • {Object.keys(submittedAnswers).length} respondidas</span>
+          <span><span className="font-medium text-gray-700 dark:text-gray-200">{getSubjectName(subject)}</span> · Pregunta {currentQuestionIndex + 1} de {effectiveLimit} • {Object.keys(submittedAnswers).length} respondidas</span>
         </div>
         <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-          <div 
+          <div
             className={`${colors.primary} h-2 rounded-full transition-all duration-300`}
             style={{ width: `${(Object.keys(submittedAnswers).length / effectiveLimit) * 100}%` }}
           />
         </div>
-      </div>
-
-      <div className="mb-4 text-sm font-medium text-gray-600 dark:text-gray-400">
-        Materia: {getSubjectName(subject)}
-        {currentReadingText && (
-          <span className={`ml-2 ${colors.primaryText}`}>• {currentReadingText.title}</span>
-        )}
       </div>
 
       {isLanguageQuestion && currentReadingText && (
@@ -764,22 +830,6 @@ export function ReviewMode({ subject, onExit, questionCount = 0, onSessionChange
 
           {showExplanation && (
             <div className="mt-6">
-              <div className="flex items-center justify-center space-x-2 mb-4">
-                {currentAnswer === currentQuestion.correctAnswer ? (
-                  <>
-                    <CheckCircle2 className="h-6 w-6 text-green-500" />
-                    <span className="text-green-600 dark:text-green-400 font-semibold">¡Respuesta Correcta!</span>
-                  </>
-                ) : (
-                  <>
-                    <AlertCircle className="h-6 w-6 text-red-500" />
-                    <span className="text-red-600 dark:text-red-400 font-semibold">
-                      Respuesta Incorrecta - La correcta es: {currentQuestion.correctAnswer.toUpperCase()}
-                    </span>
-                  </>
-                )}
-              </div>
-
               {currentQuestion.explanation && (
                 <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
                   <div className="flex items-center space-x-2 mb-2">

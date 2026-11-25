@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Clock, Infinity } from 'lucide-react';
 
 interface TimerProps {
@@ -6,39 +6,43 @@ interface TimerProps {
   onTimeUp: () => void;
   resetKey?: number | string;
   onTick?: (timeLeft: number) => void;
-  initialTimeSeconds?: number; // Nuevo: tiempo inicial en segundos (para restaurar sesión)
-  paused?: boolean; // Nuevo: pausar el timer sin desmontarlo
+  initialTimeSeconds?: number;
+  paused?: boolean;
 }
 
-export function Timer({ 
-  totalMinutes, 
-  onTimeUp, 
-  resetKey, 
-  onTick, 
+export function Timer({
+  totalMinutes,
+  onTimeUp,
+  resetKey,
+  onTick,
   initialTimeSeconds,
-  paused = false 
+  paused = false
 }: TimerProps) {
-  // Si se proporciona initialTimeSeconds, usarlo; si no, calcular desde totalMinutes
-  const getInitialTime = () => {
+  const getInitialTime = useCallback(() => {
     if (initialTimeSeconds !== undefined && initialTimeSeconds > 0) {
       return initialTimeSeconds;
     }
-    return totalMinutes * 60;
-  };
+    return Math.round(totalMinutes * 60);
+  }, [initialTimeSeconds, totalMinutes]);
 
   const [timeLeft, setTimeLeft] = useState(getInitialTime);
   const hasCalledTimeUp = useRef(false);
+  const onTimeUpRef = useRef(onTimeUp);
+  const onTickRef = useRef(onTick);
 
-  // Reset cuando cambia resetKey o totalMinutes
+  // Keep refs up to date without triggering effects
+  onTimeUpRef.current = onTimeUp;
+  onTickRef.current = onTick;
+
+  // Reset when key or totalMinutes changes
   useEffect(() => {
-    // Solo resetear si no hay initialTimeSeconds o si el resetKey cambia
     if (initialTimeSeconds === undefined) {
-      setTimeLeft(totalMinutes * 60);
+      setTimeLeft(Math.round(totalMinutes * 60));
       hasCalledTimeUp.current = false;
     }
-  }, [totalMinutes, resetKey]);
+  }, [totalMinutes, resetKey, initialTimeSeconds]);
 
-  // Efecto especial para manejar initialTimeSeconds
+  // Reset when initialTimeSeconds changes
   useEffect(() => {
     if (initialTimeSeconds !== undefined && initialTimeSeconds > 0) {
       setTimeLeft(initialTimeSeconds);
@@ -46,30 +50,32 @@ export function Timer({
     }
   }, [initialTimeSeconds]);
 
+  // Single interval that runs the countdown
   useEffect(() => {
-    // Si es 0, significa sin límite
-    if (totalMinutes === 0) return;
-    
-    // Si está pausado, no hacer nada
-    if (paused) return;
-    
-    if (timeLeft <= 0 && !hasCalledTimeUp.current) {
-      hasCalledTimeUp.current = true;
-      onTimeUp();
-      return;
-    }
+    if (totalMinutes === 0 || paused) return;
 
-    // Reportar el tiempo restante si hay callback
-    if (onTick) {
-      onTick(timeLeft);
-    }
-
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => prev - 1);
+    const interval = setInterval(() => {
+      setTimeLeft(prev => {
+        const next = prev - 1;
+        if (next <= 0) {
+          clearInterval(interval);
+          if (!hasCalledTimeUp.current) {
+            hasCalledTimeUp.current = true;
+            // Call onTimeUp async to avoid state update during render
+            setTimeout(() => onTimeUpRef.current(), 0);
+          }
+          return 0;
+        }
+        // Report tick
+        if (onTickRef.current) {
+          onTickRef.current(next);
+        }
+        return next;
+      });
     }, 1000);
 
-    return () => clearInterval(timer);
-  }, [timeLeft, onTimeUp, totalMinutes, onTick, paused]);
+    return () => clearInterval(interval);
+  }, [totalMinutes, paused, resetKey, initialTimeSeconds]);
 
   // Sin límite de tiempo
   if (totalMinutes === 0) {
@@ -81,17 +87,21 @@ export function Timer({
     );
   }
 
-  const minutes = Math.floor(timeLeft / 60);
-  const seconds = timeLeft % 60;
-  const isLow = timeLeft < 30;
+  const displayTime = Math.max(0, timeLeft);
+  const minutes = Math.floor(displayTime / 60);
+  const seconds = displayTime % 60;
+  const isLow = displayTime < 30 && displayTime > 0;
+  const isExpired = displayTime === 0;
 
   return (
     <div className={`flex items-center space-x-2 px-4 py-2 rounded-lg shadow-md border ${
-      isLow 
-        ? 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800' 
-        : paused
-          ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800'
-          : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700'
+      isExpired
+        ? 'bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-500 border-gray-200 dark:border-gray-700'
+        : isLow
+          ? 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800'
+          : paused
+            ? 'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-800'
+            : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700'
     }`}>
       <Clock className={`h-5 w-5 ${isLow ? 'animate-pulse' : ''}`} />
       <span className="font-mono font-medium text-lg">
@@ -110,14 +120,15 @@ interface TimeDisplayProps {
 }
 
 export function TimeDisplay({ timeLeft }: TimeDisplayProps) {
-  const minutes = Math.floor(timeLeft / 60);
-  const seconds = timeLeft % 60;
-  const isLow = timeLeft < 30;
+  const displayTime = Math.max(0, timeLeft);
+  const minutes = Math.floor(displayTime / 60);
+  const seconds = displayTime % 60;
+  const isLow = displayTime < 30 && displayTime > 0;
 
   return (
     <div className={`flex items-center space-x-2 px-4 py-2 rounded-lg shadow-md border ${
-      isLow 
-        ? 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800' 
+      isLow
+        ? 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 border-red-200 dark:border-red-800'
         : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700'
     }`}>
       <Clock className={`h-5 w-5 ${isLow ? 'animate-pulse' : ''}`} />

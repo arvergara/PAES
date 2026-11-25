@@ -13,7 +13,9 @@ import { useTimeSettings } from './components/SettingsMenu';
 import { useTheme } from './contexts/ThemeContext';
 import { LandingPage } from './components/LandingPage';
 import { useAuth } from './hooks/useAuth';
+import { useUserProgress } from './hooks/useUserProgress';
 import { TopBannersSection } from './components/TopBannersSection';
+import { PaymentResult } from './components/PaymentResult';
 import type { Subject, PracticeMode } from './types';
 
 type AppState = 'subject' | 'science-specialty' | 'mode' | 'practice';
@@ -43,11 +45,26 @@ interface SavedSession {
 function App() {
   const { user, loading } = useAuth();
 
+  // Handle Flow.cl payment redirect
+  const isPaymentResult = window.location.pathname === '/payment/result';
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="w-12 h-12 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
       </div>
+    );
+  }
+
+  if (isPaymentResult && user) {
+    return (
+      <>
+        <Toaster position="top-center" />
+        <PaymentResult onGoHome={() => {
+          window.history.pushState({}, '', '/');
+          window.location.reload();
+        }} />
+      </>
     );
   }
 
@@ -77,6 +94,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [pendingSubject, setPendingSubject] = useState<Subject | null>(null);
   const { theme } = useTheme();
+  const { progress, dailyStats, loading: progressLoading, addXP, refreshStats } = useUserProgress(userId);
   const { 
     settings: timeSettings, 
     updateSetting,
@@ -187,6 +205,7 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
     setSelectedSubject(null);
     setSelectedMode(null);
     setResumeData(null);
+    refreshStats();
   };
 
   const handleBackToSubjects = () => {
@@ -245,12 +264,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       
       if (selectedMode === 'PAES') {
         return (
-          <PAESMode 
-            subject={selectedSubject} 
-            onExit={handleExit} 
+          <PAESMode
+            subject={selectedSubject}
+            onExit={handleExit}
             timePerQuestion={paesTime}
             questionCount={paesQuestions}
             onSessionChange={handleSessionChange}
+            onAnswer={addXP}
           />
         );
       }
@@ -265,12 +285,13 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         } : undefined;
         
         return (
-          <ReviewMode 
-            subject={selectedSubject} 
+          <ReviewMode
+            subject={selectedSubject}
             onExit={handleExit}
             questionCount={reviewQuestions}
             onSessionChange={handleSessionChange}
             resumeSession={resumeSessionReview}
+            onAnswer={addXP}
           />
         );
       }
@@ -289,13 +310,14 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
         } : undefined;
         
         return (
-          <ReadingTestMode 
-            subject={selectedSubject} 
-            onExit={handleExit} 
+          <ReadingTestMode
+            subject={selectedSubject}
+            onExit={handleExit}
             timePerQuestion={testTime}
             readingTime={readingTime}
             resumeSession={resumeSessionL}
             onSessionChange={handleSessionChange}
+            onAnswer={addXP}
           />
         );
       }
@@ -314,12 +336,14 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       } : undefined;
       
       return (
-        <TestMode 
-          subject={selectedSubject} 
-          onExit={handleExit} 
+        <TestMode
+          subject={selectedSubject}
+          onExit={handleExit}
           timePerQuestion={testTime}
+          paesTimePerQuestion={paesTime}
           resumeSession={resumeSession}
           onSessionChange={handleSessionChange}
+          onAnswer={addXP}
         />
       );
     }
@@ -404,7 +428,17 @@ function AuthenticatedApp({ userId }: AuthenticatedAppProps) {
       />
       <main className="container mx-auto px-4 py-8">
         {state === 'subject' && (
-          <TopBannersSection onContinue={handleContinueSession} userId={userId} />
+          <TopBannersSection
+            onContinue={handleContinueSession}
+            userId={userId}
+            xp={progress.xp}
+            currentStreak={progress.currentStreak}
+            longestStreak={progress.longestStreak}
+            questionsToday={dailyStats.questionsToday}
+            correctToday={dailyStats.correctToday}
+            dailyGoal={progress.dailyGoal}
+            progressLoading={progressLoading}
+          />
         )}
         {renderContent()}
         

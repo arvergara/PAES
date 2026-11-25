@@ -1,4 +1,4 @@
-import React, { useState, memo, useCallback, useMemo } from 'react';
+import React, { useState, memo, useCallback, useMemo, useRef, useEffect } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { FileText, ChevronLeft, ChevronRight, Loader2, Maximize2, X, Clock, BookOpen } from 'lucide-react';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
@@ -14,6 +14,7 @@ interface PdfViewerProps {
   title?: string;
   timeLeft?: number;
   isReadingPhase?: boolean;
+  questionStart?: number; // first question number for this reading
 }
 
 interface PdfContentProps {
@@ -23,19 +24,78 @@ interface PdfContentProps {
   onLoadSuccess: (data: { numPages: number }) => void;
   onLoadError: (err: Error) => void;
   error: string | null;
+  cropRef?: React.RefObject<HTMLDivElement | null>;
+  shouldCrop?: boolean;
+  questionStart?: number;
+}
+
+// Función para recortar la última página ocultando preguntas
+function cropPageAtQuestions(container: HTMLDivElement, questionStart: number) {
+  // Esperar a que el text layer se renderice
+  const tryFind = () => {
+    const textLayer = container.querySelector('.react-pdf__Page__textContent');
+    if (!textLayer) return;
+
+    const spans = textLayer.querySelectorAll('span');
+    // Buscar el span que contiene el número de la primera pregunta (ej: "24.")
+    const pattern = new RegExp(`^\\s*${questionStart}\\.\\s`);
+
+    for (const span of spans) {
+      const text = span.textContent || '';
+      if (pattern.test(text)) {
+        // Encontramos la primera pregunta - recortar aquí
+        const pageEl = container.querySelector('.react-pdf__Page') as HTMLElement;
+        if (!pageEl) return;
+
+        const pageRect = pageEl.getBoundingClientRect();
+        const spanRect = span.getBoundingClientRect();
+        // Calcular la posición relativa del span dentro de la página
+        const cropY = spanRect.top - pageRect.top - 10; // 10px de margen
+
+        if (cropY > 50) { // Solo recortar si tiene sentido (más de 50px de contenido)
+          pageEl.style.maxHeight = `${cropY}px`;
+          pageEl.style.overflow = 'hidden';
+        }
+        return;
+      }
+    }
+  };
+
+  // Intentar varias veces porque el text layer se renderiza async
+  tryFind();
+  const timer1 = setTimeout(tryFind, 300);
+  const timer2 = setTimeout(tryFind, 800);
+  return () => { clearTimeout(timer1); clearTimeout(timer2); };
 }
 
 // Componente interno memoizado para el contenido del PDF - evita parpadeo
-const MemoizedPdfContent = memo(function PdfContent({ 
-  pdfUrl, 
-  currentPage, 
+const MemoizedPdfContent = memo(function PdfContent({
+  pdfUrl,
+  currentPage,
   width,
   onLoadSuccess,
   onLoadError,
-  error
+  error,
+  cropRef,
+  shouldCrop,
+  questionStart
 }: PdfContentProps) {
+  // Aplicar crop cuando se renderiza la página
+  useEffect(() => {
+    if (shouldCrop && cropRef?.current && questionStart) {
+      return cropPageAtQuestions(cropRef.current, questionStart);
+    } else if (cropRef?.current) {
+      // Limpiar crop si no es la última página
+      const pageEl = cropRef.current.querySelector('.react-pdf__Page') as HTMLElement;
+      if (pageEl) {
+        pageEl.style.maxHeight = '';
+        pageEl.style.overflow = '';
+      }
+    }
+  }, [shouldCrop, currentPage, questionStart, cropRef]);
+
   return (
-    <>
+    <div ref={cropRef}>
       {error ? (
         <div className="flex items-center justify-center h-full">
           <div className="text-center text-red-600">
@@ -73,24 +133,26 @@ const MemoizedPdfContent = memo(function PdfContent({
           />
         </Document>
       )}
-    </>
+    </div>
   );
 }, (prevProps, nextProps) => {
-  // Solo re-renderizar el PDF si cambian estas props específicas
   return (
     prevProps.pdfUrl === nextProps.pdfUrl &&
     prevProps.currentPage === nextProps.currentPage &&
     prevProps.width === nextProps.width &&
-    prevProps.error === nextProps.error
+    prevProps.error === nextProps.error &&
+    prevProps.shouldCrop === nextProps.shouldCrop
   );
 });
 
-export function PdfViewer({ pdfUrl, pageStart = 1, pageEnd, title, timeLeft, isReadingPhase }: PdfViewerProps) {
+export function PdfViewer({ pdfUrl, pageStart = 1, pageEnd, title, timeLeft, isReadingPhase, questionStart }: PdfViewerProps) {
   const [currentPage, setCurrentPage] = useState(pageStart);
   const [numPages, setNumPages] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isExpanded, setIsExpanded] = useState(false);
+  const cropRefNormal = useRef<HTMLDivElement>(null);
+  const cropRefExpanded = useRef<HTMLDivElement>(null);
 
   // Resetear a página inicial cuando cambie el texto
   React.useEffect(() => {
@@ -149,6 +211,9 @@ export function PdfViewer({ pdfUrl, pageStart = 1, pageEnd, title, timeLeft, isR
   };
 
   const isLowTime = timeLeft !== undefined && timeLeft < 30;
+
+  // Determinar si hay que recortar la última página (fase de lectura, última página, tiene preguntas)
+  const shouldCrop = isReadingPhase === true && currentPage === effectiveEndPage && !!questionStart;
 
   // Calcular width una sola vez (memoizado)
   const normalWidth = useMemo(() => Math.min(800, window.innerWidth - 80), []);
@@ -220,13 +285,16 @@ export function PdfViewer({ pdfUrl, pageStart = 1, pageEnd, title, timeLeft, isR
 
         {/* PDF Viewer - Contenido memoizado para evitar parpadeo */}
         <div className="flex-1 overflow-auto flex justify-center bg-gray-100 dark:bg-gray-900 p-4">
-          <MemoizedPdfContent 
+          <MemoizedPdfContent
             pdfUrl={pdfUrl}
             currentPage={currentPage}
             width={normalWidth}
             onLoadSuccess={onDocumentLoadSuccess}
             onLoadError={onDocumentLoadError}
             error={error}
+            cropRef={cropRefNormal}
+            shouldCrop={shouldCrop}
+            questionStart={questionStart}
           />
         </div>
       </div>
@@ -289,13 +357,16 @@ export function PdfViewer({ pdfUrl, pageStart = 1, pageEnd, title, timeLeft, isR
 
             {/* PDF en modal - Contenido memoizado */}
             <div className="overflow-auto p-6 bg-gray-100 dark:bg-gray-900 flex justify-center">
-              <MemoizedPdfContent 
+              <MemoizedPdfContent
                 pdfUrl={pdfUrl}
                 currentPage={currentPage}
                 width={expandedWidth}
                 onLoadSuccess={onDocumentLoadSuccess}
                 onLoadError={onDocumentLoadError}
                 error={error}
+                cropRef={cropRefExpanded}
+                shouldCrop={shouldCrop}
+                questionStart={questionStart}
               />
             </div>
           </div>

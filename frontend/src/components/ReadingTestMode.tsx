@@ -19,18 +19,20 @@ interface ReadingTestModeProps {
   readingTime?: number;
   resumeSession?: PausedSession | null;
   onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
+  onAnswer?: (isCorrect: boolean) => void;
 }
 
 type Phase = 'reading' | 'questions';
 type TabType = 'texto' | 'preguntas';
 
-export function ReadingTestMode({ 
-  subject, 
-  onExit, 
+export function ReadingTestMode({
+  subject,
+  onExit,
   timePerQuestion = 2.5,
   readingTime = 5,
   resumeSession,
-  onSessionChange
+  onSessionChange,
+  onAnswer,
 }: ReadingTestModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
@@ -372,6 +374,7 @@ export function ReadingTestMode({
     });
     
     saveQuestionAttempt(answer, isCorrect);
+    onAnswer?.(isCorrect);
   };
 
   const handleNext = async () => {
@@ -439,6 +442,7 @@ export function ReadingTestMode({
         }
         setAnswers(prev => ({ ...prev, [currentQuestionIndex]: currentAnswer }));
         saveQuestionAttempt(currentAnswer, isCorrect);
+        onAnswer?.(isCorrect);
       }
     }
   };
@@ -574,13 +578,14 @@ export function ReadingTestMode({
 
         <div className="flex-grow">
           {currentReading?.pdf_url ? (
-            <PdfViewer 
-              pdfUrl={currentReading.pdf_url} 
-              pageStart={currentReading.page_start} 
-              pageEnd={currentReading.page_end} 
+            <PdfViewer
+              pdfUrl={currentReading.pdf_url}
+              pageStart={currentReading.page_start}
+              pageEnd={currentReading.page_end}
               title={currentReading.title}
               timeLeft={currentTimeLeft}
               isReadingPhase={true}
+              questionStart={currentReading.question_start}
             />
           ) : (
             <div className="flex items-center justify-center h-64 bg-gray-50 dark:bg-gray-800 rounded-xl">
@@ -734,19 +739,6 @@ export function ReadingTestMode({
 
       {activeTab === 'preguntas' && showExplanation && (
         <div className="sticky bottom-0 z-20 bg-white dark:bg-gray-900 p-4 border-t border-gray-200 dark:border-gray-700 mt-4 shadow-lg">
-          <div className="flex items-center justify-center space-x-2 mb-4">
-            {currentAnswer === currentQuestion.correctAnswer ? (
-              <>
-                <CheckCircle2 className="h-6 w-6 text-green-500" />
-                <span className="text-green-600 dark:text-green-400 font-semibold">¡Respuesta Correcta!</span>
-              </>
-            ) : (
-              <>
-                <AlertCircle className="h-6 w-6 text-red-500" />
-                <span className="text-red-600 dark:text-red-400 font-semibold">Respuesta Incorrecta</span>
-              </>
-            )}
-          </div>
           <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
             <div className="flex items-center space-x-2 mb-2">
               <BookOpen className={`h-5 w-5 ${colors.primaryText}`} />

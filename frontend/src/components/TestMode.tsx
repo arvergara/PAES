@@ -23,19 +23,23 @@ interface ReadingText {
 
 interface TestModeProps {
   timePerQuestion?: number;
+  paesTimePerQuestion?: number;
   subject: Subject;
   onExit: () => void;
   // Props para restaurar sesión
   resumeSession?: PausedSession | null;
   onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
+  onAnswer?: (isCorrect: boolean) => void;
 }
 
-export function TestMode({ 
-  subject, 
-  onExit, 
+export function TestMode({
+  subject,
+  onExit,
   timePerQuestion = 2.5,
+  paesTimePerQuestion = 2.5,
   resumeSession,
-  onSessionChange 
+  onSessionChange,
+  onAnswer,
 }: TestModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
@@ -60,9 +64,13 @@ export function TestMode({
   
   // Estado para mostrar mensaje de tiempo agotado
   const [showTimeUpMessage, setShowTimeUpMessage] = useState(false);
-  
+
   // Estado para el tiempo actual (para pausar)
   const [currentTimeRemaining, setCurrentTimeRemaining] = useState<number>(timePerQuestion * 60);
+
+  // Timer global: tiempo total = paesTimePerQuestion × nº preguntas (se calcula cuando llegan las preguntas)
+  const [globalTimeLeft, setGlobalTimeLeft] = useState<number | null>(null);
+  const [questionTimerExpired, setQuestionTimerExpired] = useState(false);
   
   // Generar sessionId al inicio (como PAESMode)
   const [sessionId] = useState<string>(() => crypto.randomUUID());
@@ -104,10 +112,31 @@ export function TestMode({
     .map(q => q.image_url);
   useImagePreloader(nextImageUrls);
 
-  // Callback para actualizar tiempo desde el Timer
+  // Callback para actualizar tiempo desde el Timer por pregunta
   const handleTimerTick = useCallback((timeLeft: number) => {
     setCurrentTimeRemaining(timeLeft);
   }, []);
+
+  // Timer global countdown
+  useEffect(() => {
+    if (globalTimeLeft === null || globalTimeLeft <= 0 || isFinished) return;
+    const interval = setInterval(() => {
+      setGlobalTimeLeft(prev => {
+        if (prev === null) return null;
+        if (prev <= 1) {
+          clearInterval(interval);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [globalTimeLeft !== null && globalTimeLeft > 0, isFinished]);
+
+  // Reset questionTimerExpired when navigating to a new question
+  useEffect(() => {
+    setQuestionTimerExpired(false);
+  }, [currentQuestionIndex]);
 
   // Guardar sesión pausada cuando el usuario sale
   const saveSessionState = useCallback(() => {
@@ -308,6 +337,10 @@ export function TestMode({
 
         setQuestions(selectedQuestions);
         setQuestionStartTime(Date.now());
+        // Inicializar timer global: paesTimePerQuestion × nº preguntas
+        if (!resumeSession) {
+          setGlobalTimeLeft(Math.round(paesTimePerQuestion * 60 * selectedQuestions.length));
+        }
 
         const lQuestions = selectedQuestions.filter(q => q.subject === 'L');
         if (lQuestions.length > 0) {
@@ -533,14 +566,15 @@ export function TestMode({
       return next;
     });
     
-    // Guardar attempt en memoria
+    // Guardar attempt en memoria + XP
     saveQuestionAttempt(currentAnswer, isCorrect);
+    onAnswer?.(isCorrect);
   };
 
   const handleNext = async () => {
     setShowTimeUpMessage(false);
     setTimerKey(prev => prev + 1);
-    
+
     // Check if all questions are now answered → finish immediately
     const allAnswered = questions.every((_, i) => submittedAnswers[i]);
     if (allAnswered) {
@@ -578,51 +612,45 @@ export function TestMode({
     }
   };
 
-  const handleTimeUp = async () => {
-    // Si ya se envió la respuesta, no hacer nada
+  // Per-question timer: solo aviso visual, sin auto-skip
+  const handleQuestionTimeUp = () => {
     if (isCurrentAnswerSubmitted) return;
-    
-    const question = questions[currentQuestionIndex];
-    
-    if (currentAnswer) {
-      // Hay respuesta seleccionada: enviarla y mostrar resultado brevemente
-      const isCorrect = currentAnswer === question.correctAnswer;
-      
-      setSubmittedAnswers(prev => ({
-        ...prev,
-        [currentQuestionIndex]: true
-      }));
-
-      if (isCorrect) {
-        setCorrectAnswers((prev) => prev + 1);
-      }
-
-      setShowExplanation(true);
-      saveQuestionAttempt(currentAnswer, isCorrect);
-      
-      // Mostrar resultado por 2 segundos y luego avanzar
-      setTimeout(async () => {
-        await handleNext();
-      }, 2000);
-    } else {
-      // No hay respuesta: marcar como omitida y pasar directamente
-      setSubmittedAnswers(prev => ({
-        ...prev,
-        [currentQuestionIndex]: true
-      }));
-      
-      // Guardar como respuesta omitida (vacía, incorrecta)
-      saveQuestionAttempt('', false);
-      
-      // Mostrar mensaje breve y avanzar
-      setShowTimeUpMessage(true);
-      toast.error('¡Tiempo agotado! Pregunta omitida', { duration: 1500 });
-      
-      setTimeout(async () => {
-        await handleNext();
-      }, 1500);
-    }
+    setQuestionTimerExpired(true);
+    toast('Tiempo sugerido agotado para esta pregunta', { icon: '⏰', duration: 2000 });
   };
+
+  // Global timer: cuando se acaba el tiempo total, finalizar el test
+  useEffect(() => {
+    if (globalTimeLeft !== 0 || isFinished || questions.length === 0) return;
+
+    const finish = async () => {
+      // Guardar preguntas no respondidas como omitidas
+      for (let i = 0; i < questions.length; i++) {
+        if (!submittedAnswers[i]) {
+          const q = questions[i];
+          const ans = answers[i] || '';
+          const isCorrect = ans === q.correctAnswer;
+          if (ans && isCorrect) setCorrectAnswers(prev => prev + 1);
+          if (ans) onAnswer?.(isCorrect);
+          questionAttemptsRef.current.push({
+            question_id: q.id,
+            subject: q.subject,
+            area_tematica: q.area_tematica || q.areaTematica || '',
+            tema: q.tema || '',
+            subtema: q.subtema || '',
+            answer: ans,
+            is_correct: ans ? isCorrect : false,
+            time_spent: 0,
+          });
+        }
+      }
+      toast.error('¡Tiempo total agotado!', { duration: 3000 });
+      setEndTime(Date.now());
+      await saveSession();
+      setIsFinished(true);
+    };
+    finish();
+  }, [globalTimeLeft]);
 
   const handleRetry = () => {
     // Reset attempts
@@ -696,7 +724,7 @@ export function TestMode({
   const totalQuestions = questions.length;
 
   return (
-    <div className="max-w-4xl mx-auto flex flex-col min-h-[calc(100vh-4rem)]">
+    <div className="max-w-4xl mx-auto flex flex-col">
       <div className="flex justify-between items-center mb-8">
         <div className="flex items-center space-x-4">
           <button
@@ -708,14 +736,31 @@ export function TestMode({
           </button>
           <Timer
             key={timerKey}
-            totalMinutes={timePerQuestion}
-            onTimeUp={handleTimeUp}
+            totalMinutes={paesTimePerQuestion}
+            onTimeUp={handleQuestionTimeUp}
             onTick={handleTimerTick}
             initialTimeSeconds={savedTimes[currentQuestionIndex]}
           />
+          {globalTimeLeft !== null && (
+            <div className={`flex items-center space-x-1 px-3 py-2 rounded-lg text-xs font-mono ${
+              globalTimeLeft < 60 ? 'text-red-600 dark:text-red-400 animate-pulse' : 'text-gray-500 dark:text-gray-400'
+            }`}>
+              <span>Total: {Math.floor(globalTimeLeft / 60)}:{(globalTimeLeft % 60).toString().padStart(2, '0')}</span>
+            </div>
+          )}
         </div>
-        <div className="text-gray-600 dark:text-gray-300">
-          Pregunta {currentQuestionIndex + 1} de {totalQuestions}
+        <div className="text-sm text-gray-500 dark:text-gray-400">
+          <span className="font-medium text-gray-700 dark:text-gray-200">{
+            subject === 'M1' ? 'Matemática 1' :
+            subject === 'M2' ? 'Matemática 2' :
+            subject === 'L' ? 'Lenguaje' :
+            subject === 'C' ? 'Ciencias' :
+            subject === 'CB' ? 'Biología' :
+            subject === 'CF' ? 'Física' :
+            subject === 'CQ' ? 'Química' :
+            subject === 'H' ? 'Historia' : ''
+          }</span>
+          {' · '}Pregunta {currentQuestionIndex + 1} de {totalQuestions}
         </div>
       </div>
 
@@ -726,7 +771,7 @@ export function TestMode({
             const isActive = idx === currentQuestionIndex;
             const isAnswered = submittedAnswers[idx];
             const isSkipped = skippedQuestions.has(idx) && !isAnswered;
-            
+
             let dotClass = 'w-3 h-3 rounded-full transition-all duration-200 cursor-pointer border-2 ';
             if (isActive) {
               dotClass += `${colors.primary} border-transparent ring-2 ${colors.selectedRing} scale-125`;
@@ -739,7 +784,7 @@ export function TestMode({
             } else {
               dotClass += 'bg-gray-200 dark:bg-gray-600 border-gray-300 dark:border-gray-500 hover:border-gray-400 dark:hover:border-gray-400';
             }
-            
+
             return (
               <button
                 key={idx}
@@ -750,23 +795,6 @@ export function TestMode({
             );
           })}
         </div>
-      </div>
-
-      <div className="mb-4 text-sm font-medium text-gray-600 dark:text-gray-300">
-        Materia: {
-          subject === 'M1' ? 'Matemática 1' :
-          subject === 'M2' ? 'Matemática 2' :
-          subject === 'L' ? 'Lenguaje' :
-          subject === 'C' ? 'Ciencias' :
-          subject === 'CB' ? 'Ciencias - Biología' :
-          subject === 'CF' ? 'Ciencias - Física' :
-          subject === 'CQ' ? 'Ciencias - Química' :
-          subject === 'H' ? 'Historia' :
-          'Materia desconocida'
-        }
-        {currentReadingText && (
-          <span className={`ml-2 ${colors.primaryText}`}>• {currentReadingText.title}</span>
-        )}
       </div>
 
       {isLanguageQuestion && currentReadingText && (
@@ -796,7 +824,7 @@ export function TestMode({
         </div>
       )}
 
-      <div className="flex-grow">
+      <div>
         {isLanguageQuestion && currentReadingText && activeTab === 'text' ? (
           <PdfViewer
             pdfUrl={currentReadingText.pdf_url}
@@ -815,12 +843,7 @@ export function TestMode({
       </div>
 
       <div className="sticky bottom-0 bg-white dark:bg-gray-800 p-4 border-t border-gray-200 dark:border-gray-700 mt-4">
-        {showTimeUpMessage ? (
-          <div className="flex items-center justify-center space-x-2 py-3">
-            <AlertCircle className="h-6 w-6 text-orange-500" />
-            <span className="text-orange-600 font-semibold">¡Tiempo agotado! Pasando a la siguiente...</span>
-          </div>
-        ) : !isCurrentAnswerSubmitted ? (
+        {!isCurrentAnswerSubmitted ? (
           <div className="flex gap-3">
             <button
               onClick={handlePrevious}
@@ -850,22 +873,6 @@ export function TestMode({
           </div>
         ) : (
           <>
-            <div className="flex items-center justify-center space-x-2 mb-4">
-              {currentAnswer === currentQuestion.correctAnswer ? (
-                <>
-                  <CheckCircle2 className="h-6 w-6 text-green-500" />
-                  <span className="text-green-600 font-semibold">¡Respuesta Correcta!</span>
-                </>
-              ) : (
-                <>
-                  <AlertCircle className="h-6 w-6 text-red-500" />
-                  <span className="text-red-600 font-semibold">
-                    Respuesta Incorrecta - La correcta es: {currentQuestion.correctAnswer?.toUpperCase() ?? '—'}
-                  </span>
-                </>
-              )}
-            </div>
-
             <div className={`mb-4 p-4 ${colors.primaryLight} rounded-lg border ${colors.primaryBorder.replace('border-', 'border-').replace('500', '200')} dark:border-opacity-50`}>
               <div className="flex items-center space-x-2 mb-2">
                 <BookOpen className={`h-5 w-5 ${colors.primaryText}`} />
