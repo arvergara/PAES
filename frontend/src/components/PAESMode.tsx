@@ -19,17 +19,19 @@ interface PAESModeProps {
   questionCount?: number;
   resumeSession?: PausedSession | null;
   onSessionChange?: (session: Omit<PausedSession, 'pausedAt' | 'subjectLabel'> | null) => void;
+  onAnswer?: (isCorrect: boolean) => void;
 }
 
 type TabType = 'texto' | 'preguntas';
 
-export function PAESMode({ 
-  subject, 
-  onExit, 
-  timePerQuestion = 2.15, 
+export function PAESMode({
+  subject,
+  onExit,
+  timePerQuestion = 2.15,
   questionCount = 65,
   resumeSession,
-  onSessionChange
+  onSessionChange,
+  onAnswer,
 }: PAESModeProps) {
   const { user } = useAuth();
   const colors = useThemeColors();
@@ -288,7 +290,12 @@ export function PAESMode({
       });
       const { error: attemptsError } = await supabase.from('question_attempts').insert(attempts);
       if (attemptsError) throw attemptsError;
-      
+
+      // Award XP for each answered question
+      if (onAnswer) {
+        attempts.forEach(a => onAnswer(a.is_correct));
+      }
+
       clearSessionState();
     } catch (error) {
       console.error('Error saving session:', error);
@@ -550,13 +557,14 @@ export function PAESMode({
             </div>
 
             <div className="flex-grow">
-              <PdfViewer 
-                pdfUrl={currentReadingText!.pdf_url!} 
-                pageStart={currentReadingText!.page_start} 
-                pageEnd={currentReadingText!.page_end} 
+              <PdfViewer
+                pdfUrl={currentReadingText!.pdf_url!}
+                pageStart={currentReadingText!.page_start}
+                pageEnd={currentReadingText!.page_end}
                 title={currentReadingText!.title}
                 timeLeft={currentTimeRemaining}
                 isReadingPhase={true}
+                questionStart={currentReadingText!.question_start}
               />
             </div>
 
@@ -611,9 +619,6 @@ export function PAESMode({
                 />
               ) : (
                 <>
-                  <div className="mb-4 text-sm font-medium text-gray-600 dark:text-gray-300">
-                    Materia: Lenguaje
-                  </div>
                   <QuestionView 
                     question={currentQuestion} 
                     currentAnswer={answers[currentQuestionIndex] || null} 
@@ -684,7 +689,10 @@ export function PAESMode({
             initialTimeSeconds={initialTime}
           />
         </div>
-        <div className="text-gray-600 dark:text-gray-300">Pregunta {currentQuestionIndex + 1} de {questions.length}</div>
+        <div className="text-sm text-gray-500 dark:text-gray-400">
+          <span className="font-medium text-gray-700 dark:text-gray-200">{currentQuestion.subject === 'M1' ? 'Matemática 1' : currentQuestion.subject === 'M2' ? 'Matemática 2' : currentQuestion.subject === 'L' ? 'Lenguaje' : 'Ciencias'}</span>
+          {' · '}Pregunta {currentQuestionIndex + 1} de {questions.length}
+        </div>
       </div>
 
       {/* Floating navigation bar - compact when >10 questions */}
@@ -796,9 +804,6 @@ export function PAESMode({
         )}
       </div>
 
-      <div className="mb-4 text-sm font-medium text-gray-600 dark:text-gray-300">
-        Materia: {currentQuestion.subject === 'M1' ? 'Matemática 1' : currentQuestion.subject === 'M2' ? 'Matemática 2' : currentQuestion.subject === 'L' ? 'Lenguaje' : 'Ciencias'}
-      </div>
       <QuestionView question={currentQuestion} currentAnswer={answers[currentQuestionIndex] || null} onAnswer={handleAnswer} />
       <div className="flex justify-between mt-8">
         <button onClick={handlePrevious} disabled={currentQuestionIndex === 0} className="px-6 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Anterior</button>

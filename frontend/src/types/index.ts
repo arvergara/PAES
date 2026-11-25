@@ -50,6 +50,7 @@ export interface Question {
   tableCount?: number;
   reading_text_id?: number;
   question_number?: number;
+  ref_code?: string;
   origen?: string;
   ai_classification?: {
     area_tematica: string;

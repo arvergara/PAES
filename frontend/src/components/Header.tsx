@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import { BarChart, Home, FileText, Sun, Moon, Flag } from 'lucide-react';
+import { BarChart, Home, FileText, Sun, Moon, Flag, Crown } from 'lucide-react';
 import { TutorPAESLogo } from './TutorPAESLogo';
 import { AuthModal } from './AuthModal';
 import { PerformanceModal } from './PerformanceModal';
 import { ContentModal } from './ContentModal';
+import { PricingModal } from './PricingModal';
 import { SettingsModal, SettingsButton } from './SettingsMenu';
 import { supabase } from '../lib/supabase';
 import toast from 'react-hot-toast';
 import { useAuth } from '../hooks/useAuth';
 import { useIsAdmin } from '../hooks/useIsAdmin';
+import { useSubscription } from '../hooks/useSubscription';
 import { useTheme } from '../contexts/ThemeContext';
 import type { Subject } from '../types';
 
@@ -61,9 +63,11 @@ export function Header({
   const [showPerformanceModal, setShowPerformanceModal] = useState(false);
   const [showContentModal, setShowContentModal] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const [showPricingModal, setShowPricingModal] = useState(false);
   const [authMode, setAuthMode] = useState<'login' | 'register'>('login');
   const { user, loading } = useAuth();
   const { isAdmin } = useIsAdmin();
+  const { isPremium } = useSubscription();
   const { isDark, toggleDark } = useTheme();
 
   const handleLogout = async () => {
@@ -198,6 +202,19 @@ export function Header({
                       <span className="hidden sm:inline text-sm font-medium">Mi Progreso</span>
                     </button>
                   </li>
+                  <li>
+                    <button
+                      onClick={() => setShowPricingModal(true)}
+                      className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg transition-colors text-sm font-medium ${
+                        isPremium
+                          ? 'text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20'
+                          : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                      }`}
+                    >
+                      <Crown className="h-4 w-4" />
+                      <span className="hidden sm:inline">{isPremium ? 'Premium' : 'Planes'}</span>
+                    </button>
+                  </li>
                   <li className="flex items-center gap-3">
                     <span className="text-sm hidden md:inline text-gray-500 dark:text-gray-400">
                       ¡Hola, <span className="text-gray-900 dark:text-white font-medium">{user.user_metadata.name || 'Usuario'}</span>!
@@ -264,6 +281,7 @@ export function Header({
       <AuthModal isOpen={showAuthModal} onClose={() => setShowAuthModal(false)} mode={authMode} />
       <PerformanceModal isOpen={showPerformanceModal} onClose={() => setShowPerformanceModal(false)} />
       <ContentModal isOpen={showContentModal} onClose={() => setShowContentModal(false)} />
+      <PricingModal isOpen={showPricingModal} onClose={() => setShowPricingModal(false)} />
       
       {canShowSettings && (
         <SettingsModal 

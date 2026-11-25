@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
-import { Flag } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Flag, ChevronDown } from 'lucide-react';
 import { useThemeColors } from '../hooks/useThemeColors';
 import type { Question } from '../types';
 import { QuestionContent } from './QuestionContent';
 import { ReportQuestionModal } from './ReportQuestionModal';
+import { getVisibleOptionLetters } from '../lib/optionLetters';
 
 const SUPABASE_STORAGE_URL = 'https://bmsmmlymsjpydpealmcw.supabase.co/storage/v1/object/public/questions-images';
 
@@ -19,33 +20,47 @@ interface QuestionViewProps {
 export function QuestionView({ question, onAnswer, showResult = false, selectedAnswer, currentAnswer, showExplanation }: QuestionViewProps) {
   const [imageError, setImageError] = useState(false);
   const [reportOpen, setReportOpen] = useState(false);
+  const [showScrollHint, setShowScrollHint] = useState(false);
+  const optionsRef = useRef<HTMLDivElement>(null);
   const colors = useThemeColors();
-  
+
   const answer = currentAnswer ?? selectedAnswer ?? null;
   const shouldShowResult = showResult || showExplanation;
-  
+
   useEffect(() => {
     setImageError(false);
   }, [question.id]);
 
-  // Obtener opciones disponibles
-  const allOptions = ['a', 'b', 'c', 'd', 'e'];
-  const availableOptions = allOptions.filter(option => {
-    const optionValue = question.options?.[option];
-    return optionValue && optionValue.trim() !== '';
+  const optionsToShow = getVisibleOptionLetters({
+    options: question.options,
+    subject: question.subject,
   });
 
-  // Determinar si hay opciones con texto real
-  const hasTextOptions = availableOptions.length > 0;
-  
-  // Usar botones circulares SOLO si NO hay opciones con texto Y hay imagen
-  const useCircleButtons = !hasTextOptions && question.image_url;
+  // Si hay imagen, las alternativas ya se ven en el recorte: solo botones de letra
+  const useCircleButtons = !!question.image_url;
 
-  // Opciones a mostrar
-  const optionsToShow = hasTextOptions 
-    ? availableOptions 
-    : ['a', 'b', 'c', 'd', 'e'];
-  
+  // Check if last option is visible; if not, show scroll hint
+  useEffect(() => {
+    if (shouldShowResult) { setShowScrollHint(false); return; }
+    const checkVisibility = () => {
+      const container = optionsRef.current;
+      if (!container) return;
+      const lastOption = container.lastElementChild as HTMLElement;
+      if (!lastOption) return;
+      const rect = lastOption.getBoundingClientRect();
+      setShowScrollHint(rect.bottom > window.innerHeight - 80);
+    };
+    // Small delay to let layout settle
+    const timer = setTimeout(checkVisibility, 100);
+    window.addEventListener('scroll', checkVisibility, { passive: true });
+    window.addEventListener('resize', checkVisibility, { passive: true });
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', checkVisibility);
+      window.removeEventListener('resize', checkVisibility);
+    };
+  }, [question.id, shouldShowResult]);
+
   const getCircleButtonClass = (option: string) => {
     const baseClass = "w-16 h-16 rounded-full border-2 transition-all duration-200 flex items-center justify-center font-bold text-xl";
     
@@ -66,7 +81,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
   };
 
   const getOptionButtonClass = (option: string) => {
-    const baseClass = "w-full p-4 rounded-xl border transition-all duration-200 text-left flex items-start gap-4";
+    const baseClass = "w-full px-3 py-2.5 rounded-lg border transition-all duration-200 text-left flex items-center gap-3";
     
     if (!shouldShowResult) {
       if (answer === option) {
@@ -100,7 +115,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
 
       {/* Imagen de la pregunta */}
       {(question.image_url || (question as any).imagen_url) && !imageError ? (
-        <div className="mb-6 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-hidden p-3">
+        <div className="mb-4 bg-white dark:bg-gray-700 rounded-xl shadow-sm border border-gray-100 dark:border-gray-600 overflow-y-auto max-h-[60vh] p-2">
           <img
            src={question.image_url ? `${SUPABASE_STORAGE_URL}/${question.image_url}` : (question as any).imagen_url}
             alt={`Pregunta ${question.question_number}`}
@@ -109,7 +124,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
           />
         </div>
       ) : (
-        <div className="mb-6 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+        <div className="mb-4 p-4 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
          <QuestionContent content={question.content} imagenUrl={(question as any).imagen_url} />
         </div>
       )}
@@ -129,7 +144,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
           ))}
         </div>
       ) : (
-        <div className="space-y-3">
+        <div ref={optionsRef} className="space-y-2">
           {optionsToShow.map((option) => (
             <button
               key={option}
@@ -137,7 +152,7 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
               disabled={shouldShowResult}
               className={getOptionButtonClass(option)}
             >
-              <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${
+              <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center font-bold text-xs ${
                 answer === option 
                   ? `${colors.badge} text-white`
                   : shouldShowResult && option === question.correctAnswer.toLowerCase()
@@ -154,9 +169,16 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
         </div>
       )}
 
+      {/* Scroll hint */}
+      {showScrollHint && !shouldShowResult && (
+        <div className="flex items-center justify-center py-1.5 text-gray-400 dark:text-gray-500 animate-bounce">
+          <ChevronDown className="w-4 h-4" />
+        </div>
+      )}
+
       {/* Resultado */}
       {shouldShowResult && (
-        <div className={`mt-6 p-4 rounded-xl text-center font-medium ${
+        <div className={`mt-4 p-3 rounded-lg text-center font-medium text-sm ${
           answer === question.correctAnswer.toLowerCase() 
             ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' 
             : 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'
@@ -169,6 +191,10 @@ export function QuestionView({ question, onAnswer, showResult = false, selectedA
       )}
 
       {/* Explicación removida - cada modo (TestMode, ReviewMode) maneja su propia explicación */}
+
+      {question.ref_code && (
+        <div className="mt-2 text-xs text-gray-400 dark:text-gray-500 font-mono">{question.ref_code}</div>
+      )}
 
       <ReportQuestionModal
         isOpen={reportOpen}

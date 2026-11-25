@@ -25,7 +25,8 @@ const VIEW_SELECT = `
   reading_text_id,
   question_number,
   image_url,
-  distractor_diagnosis
+  distractor_diagnosis,
+  ref_code
 `;
 
 const TABLE_SELECT = `
@@ -46,12 +47,13 @@ const TABLE_SELECT = `
   reading_text_id,
   question_number,
   image_url,
-  distractor_diagnosis
+  distractor_diagnosis,
+  ref_code
 `;
 
 const OPTION_LABELS = ['a', 'b', 'c', 'd', 'e'];
 const FOOTNOTE_PATTERNS = [
-  /^forma\b/i,
+  /^forma\s+\d+\s*[-–]/i,
   /^-?\s*\d{5,}\s*$/,
   /^-?\s*\d{4,}\s*-\s*\d{4,}\s*-?$/,
   /^pagina\b/i,
@@ -70,7 +72,7 @@ const INLINE_FOOTNOTE_PATTERNS = [
 function isFootnote(text: string): boolean {
   const trimmed = text.trim();
   if (!trimmed) return true;
-  if (trimmed === '0') return true;
+  // '0' puede ser una opción válida (ej: cos(60°) = 0), no filtrar
   if (trimmed.toLowerCase() === '[object object]') return true;
   return FOOTNOTE_PATTERNS.some((pattern) => pattern.test(trimmed));
 }
@@ -249,7 +251,8 @@ function mapQuestion(row: any): Question {
     metadata: row.metadata || undefined,
     reading_text_id: row.reading_text_id || undefined,
     question_number: row.question_number || undefined,
-    image_url: row.image_url || undefined,  // NUEVO: campo para imágenes de Storage
+    ref_code: row.ref_code || undefined,
+    image_url: row.image_url || undefined,
   };
 }
 
